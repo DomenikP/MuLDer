@@ -67,6 +67,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -90,6 +91,7 @@
   </registry>
   <node concept="bUwia" id="1X5iFxI$Uk1">
     <property role="TrG5h" value="main" />
+    <property role="3GE5qa" value="component" />
     <node concept="3aamgX" id="1X5iFxI_fvA" role="3acgRq">
       <ref role="30HIoZ" to="32lw:1X5iFxI$VHM" resolve="AtomicComponent" />
       <node concept="gft3U" id="1X5iFxI_fvG" role="1lVwrX">
