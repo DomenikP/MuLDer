@@ -2,10 +2,13 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="component" />
-      <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/sandbox/MAtomicComponent.sandbox.msd" folder="component" />
-      <modulePath path="$PROJECT_DIR$/languages/MStubComponent/MStubComponent.mpl" folder="component" />
-      <modulePath path="$PROJECT_DIR$/languages/MStubComponent/sandbox/MStubComponent.sandbox.msd" folder="component" />
+      <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="component.atomic" />
+      <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/sandbox/MAtomicComponent.sandbox.msd" folder="component.atomic" />
+      <modulePath path="$PROJECT_DIR$/languages/MComponent/MComponent.mpl" folder="component" />
+      <modulePath path="$PROJECT_DIR$/languages/MMockComponent/MMockComponent.mpl" folder="component.mock" />
+      <modulePath path="$PROJECT_DIR$/languages/MMockComponent/sandbox/MMockComponent.sandbox.msd" folder="component.mock" />
+      <modulePath path="$PROJECT_DIR$/languages/MStubComponent/MStubComponent.mpl" folder="component.stub" />
+      <modulePath path="$PROJECT_DIR$/languages/MStubComponent/sandbox/MStubComponent.sandbox.msd" folder="component.stub" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="statemachine" />
     </projectModules>
