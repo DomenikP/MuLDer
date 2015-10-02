@@ -9,6 +9,7 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" implicit="true" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
   </imports>
   <registry>
@@ -92,26 +93,28 @@
     <node concept="1TJgyj" id="6xhsDCu1V1h" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="body" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
-    </node>
-    <node concept="1TJgyj" id="6xhsDCudD7i" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="stateTransition" />
-      <ref role="20lvS9" node="6xhsDCucCrE" resolve="TargetStateRef" />
     </node>
     <node concept="1TJgyj" id="6xhsDCugHy_" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="inEvent" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6xhsDCu2_po" resolve="InEvent" />
+    </node>
+    <node concept="1TJgyj" id="7QwRcPRdacR" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="state" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6xhsDCu1lL_" resolve="State" />
     </node>
   </node>
   <node concept="1TIwiD" id="6xhsDCu2_po">
     <property role="TrG5h" value="InEvent" />
     <property role="34LRSv" value="in-event" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6xhsDCu3mES" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="7QwRcPRdVe$" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="6xhsDCu3oNi" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />

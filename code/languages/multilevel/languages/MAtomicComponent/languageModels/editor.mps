@@ -950,44 +950,16 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="1qBaxu2GN2r">
-    <ref role="1XX52x" to="32lw:1qBaxu2GN2i" resolve="InitializeInstnaces" />
-    <node concept="3EZMnI" id="1qBaxu2GN2x" role="2wV5jI">
-      <node concept="3F0ifn" id="1qBaxu2GN2z" role="3EZMnx">
-        <property role="3F0ifm" value="init instances" />
-        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
-      </node>
-      <node concept="3F0ifn" id="1qBaxu2GN2K" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
-        <node concept="11L4FC" id="1qBaxu2GN5B" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="11LMrY" id="1qBaxu2GN7q" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+  <node concept="24kQdi" id="1qBaxu2Ov0E">
+    <ref role="1XX52x" to="32lw:1qBaxu2OuV9" resolve="FieldRef" />
+    <node concept="1iCGBv" id="1qBaxu2Ov0J" role="2wV5jI">
+      <ref role="1NtTu8" to="32lw:1qBaxu2Ov0y" />
+      <node concept="1sVBvm" id="1qBaxu2Ov0L" role="1sWHZn">
+        <node concept="3F0A7n" id="1qBaxu2Ov0Z" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
-      <node concept="1iCGBv" id="1qBaxu2GN3t" role="3EZMnx">
-        <ref role="1NtTu8" to="32lw:1qBaxu2GN2j" />
-        <node concept="1sVBvm" id="1qBaxu2GN3v" role="1sWHZn">
-          <node concept="3F0A7n" id="1qBaxu2GN3N" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="1qBaxu2GN2X" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-        <node concept="11L4FC" id="1qBaxu2GN5v" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="1qBaxu2Iqof" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
-        <node concept="11L4FC" id="1qBaxu2Iqqd" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="1qBaxu2GN2$" role="2iSdaV" />
     </node>
   </node>
 </model>

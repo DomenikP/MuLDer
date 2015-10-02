@@ -16,7 +16,34 @@
     <import index="x71v" ref="r:535bf74f-7613-4aea-b993-38599516270f(MultiLevelDebugging.__spreferences.PlatformTemplates)" />
   </imports>
   <registry>
+    <language id="5529be6b-f382-41f9-834c-9d6b2e079511" name="MAtomicComponent">
+      <concept id="1632319670390656274" name="MAtomicComponent.structure.InterfaceType" flags="ng" index="2n8Us5">
+        <reference id="1632319670390661018" name="interface" index="2n8Vmd" />
+      </concept>
+      <concept id="1767023935423319735" name="MAtomicComponent.structure.Runnable" flags="ng" index="$0bhv">
+        <child id="1767023935423526066" name="body" index="$3oTq" />
+      </concept>
+      <concept id="1767023935425368779" name="MAtomicComponent.structure.ComponentInstance" flags="ng" index="$8uwz">
+        <reference id="1632319670401591165" name="component" index="2kz4PE" />
+      </concept>
+      <concept id="1767023935425368670" name="MAtomicComponent.structure.InstancesConfig" flags="ng" index="$8uyQ">
+        <child id="1767023935425523288" name="contents" index="$8LiK" />
+      </concept>
+      <concept id="1767023935422919341" name="MAtomicComponent.structure.Port" flags="ng" index="$YOx5">
+        <child id="1632319670390673533" name="portType" index="2n8ZDE" />
+      </concept>
+      <concept id="1767023935422919342" name="MAtomicComponent.structure.Interface" flags="ng" index="$YOx6" />
+      <concept id="1767023935422919345" name="MAtomicComponent.structure.ProvidedPort" flags="ng" index="$YOxp" />
+      <concept id="2253289344558690969" name="MAtomicComponent.structure.Field" flags="ng" index="1LOFwx" />
+      <concept id="7114030172876799133" name="MAtomicComponent.structure.Component" flags="ng" index="1X0m1t">
+        <child id="7114030172876799135" name="content" index="1X0m1v" />
+      </concept>
+    </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
+      <concept id="6275792049641600983" name="com.mbeddr.core.statements.structure.IfStatement" flags="ng" index="c0U19">
+        <child id="6275792049641600984" name="condition" index="c0U16" />
+        <child id="6275792049641600985" name="thenPart" index="c0U17" />
+      </concept>
       <concept id="7763322639126652757" name="com.mbeddr.core.statements.structure.ITypeContainingType" flags="ng" index="2umbIr">
         <child id="7763322639126652758" name="baseType" index="2umbIo" />
       </concept>
@@ -39,8 +66,14 @@
       <concept id="7717755763392524107" name="com.mbeddr.core.buildconfig.structure.ModuleRef" flags="ng" index="2v9HqM">
         <reference id="7717755763392524108" name="module" index="2v9HqP" />
       </concept>
-      <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
-        <reference id="8719112291175211414" name="template" index="2xfifS" />
+      <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
+        <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
+        <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
+        <property id="3963667026125442601" name="gdb" index="3r8Kw1" />
+        <property id="3963667026125442676" name="make" index="3r8Kxs" />
+      </concept>
+      <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
+        <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
       </concept>
     </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
@@ -59,7 +92,13 @@
       </concept>
     </language>
     <language id="ca35bd95-fbad-4fae-9646-654a9a55ec5f" name="MStubComponent">
-      <concept id="2253289344558478967" name="MStubComponent.structure.StubComponent" flags="ng" index="1LOvNf" />
+      <concept id="1632319670412286942" name="MStubComponent.structure.IsInPhaseExpr" flags="ng" index="2kqr79">
+        <reference id="1632319670412324665" name="phase" index="2kq0kI" />
+      </concept>
+      <concept id="1632319670411872120" name="MStubComponent.structure.Phase" flags="ng" index="2krQPJ" />
+      <concept id="2253289344558478967" name="MStubComponent.structure.StubComponent" flags="ng" index="1LOvNf">
+        <child id="1632319670412069470" name="phases" index="2kr619" />
+      </concept>
     </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
       <concept id="8967919205527146149" name="com.mbeddr.core.modules.structure.ReturnStatement" flags="ng" index="2BFjQ_">
@@ -94,6 +133,7 @@
       <concept id="318113533128716675" name="com.mbeddr.core.expressions.structure.ITyped" flags="ng" index="2C2TGh">
         <child id="318113533128716676" name="type" index="2C2TGm" />
       </concept>
+      <concept id="7892328519581699353" name="com.mbeddr.core.expressions.structure.VoidType" flags="ng" index="19Rifw" />
       <concept id="8860443239512128054" name="com.mbeddr.core.expressions.structure.Type" flags="ng" index="3TlMgo">
         <property id="2941277002445651368" name="const" index="2c7vTL" />
         <property id="2941277002448691247" name="volatile" index="2caQfQ" />
@@ -102,8 +142,12 @@
     </language>
   </registry>
   <node concept="2v9HqL" id="1X5iFxI_0Wn">
-    <node concept="2xfidK" id="1X5iFxI_8xi" role="2AWWZH">
-      <ref role="2xfifS" to="x71v:6xhsDCu1lLg" resolve="Desktop Platform" />
+    <node concept="2AWWZL" id="7QwRcPR3P1x" role="2AWWZH">
+      <property role="2AWWZJ" value="gcc" />
+      <property role="3r8Kw1" value="gdb" />
+      <property role="3r8Kxs" value="make" />
+      <property role="2AWWZI" value="-std=c99" />
+      <property role="1FkSt$" value="-g" />
     </node>
     <node concept="2Q9Fgs" id="1X5iFxI_0XW" role="2Q9xDr">
       <node concept="2Q9FjX" id="1X5iFxI_0XX" role="2Q9FjI" />
@@ -112,12 +156,12 @@
       <property role="iO3LB" value="false" />
       <property role="TrG5h" value="Main" />
       <node concept="2v9HqM" id="1X5iFxI_0Y5" role="2eOfOg">
-        <ref role="2v9HqP" node="1X5iFxI_0U5" resolve="Main" />
+        <ref role="2v9HqP" node="1X5iFxI_0U5" resolve="StubMain" />
       </node>
     </node>
   </node>
   <node concept="N3F5e" id="1X5iFxI_0U5">
-    <property role="TrG5h" value="Main" />
+    <property role="TrG5h" value="StubMain" />
     <node concept="N3Fnx" id="1X5iFxI_0U6" role="N3F5h">
       <property role="TrG5h" value="main" />
       <property role="2OOxQR" value="true" />
@@ -155,8 +199,64 @@
     <node concept="2NXPZ9" id="1X5iFxI_0Y8" role="N3F5h">
       <property role="TrG5h" value="empty_1443391150938_5" />
     </node>
+    <node concept="$8uyQ" id="1qBaxu2LOBu" role="N3F5h">
+      <property role="TrG5h" value="instances" />
+      <node concept="$8uwz" id="1qBaxu2LOE3" role="$8LiK">
+        <property role="TrG5h" value="ms" />
+        <ref role="2kz4PE" node="1X5iFxI_UGD" resolve="MinimalStub" />
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="1qBaxu2LZPj" role="N3F5h">
+      <property role="TrG5h" value="empty_1443623594933_16" />
+    </node>
+    <node concept="$YOx6" id="1qBaxu2LZXk" role="N3F5h">
+      <property role="TrG5h" value="IAdder" />
+    </node>
+    <node concept="2NXPZ9" id="1qBaxu2LZRW" role="N3F5h">
+      <property role="TrG5h" value="empty_1443623595357_17" />
+    </node>
     <node concept="1LOvNf" id="1X5iFxI_UGD" role="N3F5h">
-      <property role="TrG5h" value="bla123" />
+      <property role="TrG5h" value="MinimalStub" />
+      <node concept="2krQPJ" id="1qBaxu2NxXz" role="2kr619">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="2krQPJ" id="1qBaxu2NDJa" role="2kr619">
+        <property role="TrG5h" value="b" />
+      </node>
+      <node concept="2krQPJ" id="1qBaxu2NDJf" role="2kr619">
+        <property role="TrG5h" value="c" />
+      </node>
+      <node concept="1LOFwx" id="1qBaxu2LNNt" role="1X0m1v">
+        <property role="TrG5h" value="bla" />
+        <node concept="26Vqph" id="1qBaxu2LNND" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+      <node concept="$YOxp" id="1qBaxu2LZP3" role="1X0m1v">
+        <property role="TrG5h" value="adder" />
+        <node concept="2n8Us5" id="1qBaxu2M00k" role="2n8ZDE">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <ref role="2n8Vmd" node="1qBaxu2LZXk" resolve="IAdder" />
+        </node>
+      </node>
+      <node concept="$0bhv" id="1qBaxu2OlV7" role="1X0m1v">
+        <property role="TrG5h" value="bla" />
+        <node concept="19Rifw" id="1qBaxu2OlV8" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="1qBaxu2OlVa" role="$3oTq">
+          <node concept="c0U19" id="1qBaxu2OlVG" role="3XIRFZ">
+            <node concept="3XIRFW" id="1qBaxu2OlVH" role="c0U17" />
+            <node concept="2kqr79" id="1qBaxu2OlVV" role="c0U16">
+              <ref role="2kq0kI" node="1qBaxu2NxXz" resolve="a" />
+            </node>
+          </node>
+          <node concept="3XISUE" id="1qBaxu2OlVB" role="3XIRFZ" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

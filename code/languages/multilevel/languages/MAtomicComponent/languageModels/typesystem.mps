@@ -1680,5 +1680,41 @@
       <ref role="1YaFvo" to="32lw:6aU7c0uSbwD" resolve="ConnectInstances" />
     </node>
   </node>
+  <node concept="1YbPZF" id="1qBaxu2Ov18">
+    <property role="TrG5h" value="typeof_FieldRef" />
+    <node concept="3clFbS" id="1qBaxu2Ov19" role="18ibNy">
+      <node concept="1Z5TYs" id="1qBaxu2Ov2_" role="3cqZAp">
+        <node concept="mw_s8" id="1qBaxu2Owc1" role="1ZfhKB">
+          <node concept="2OqwBi" id="1qBaxu2Oxur" role="mwGJk">
+            <node concept="2OqwBi" id="1qBaxu2OwOy" role="2Oq$k0">
+              <node concept="2OqwBi" id="1qBaxu2Owf2" role="2Oq$k0">
+                <node concept="1YBJjd" id="1qBaxu2OwbZ" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1qBaxu2Ov1b" resolve="fieldRef" />
+                </node>
+                <node concept="3TrEf2" id="1qBaxu2Owwo" role="2OqNvi">
+                  <ref role="3Tt5mk" to="32lw:1qBaxu2Ov0y" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="1qBaxu2Ox7T" role="2OqNvi">
+                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
+              </node>
+            </node>
+            <node concept="1$rogu" id="1qBaxu2OxId" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="1qBaxu2Ov2C" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1qBaxu2Ov1i" role="mwGJk">
+            <node concept="1YBJjd" id="1qBaxu2Ov1_" role="1Z2MuG">
+              <ref role="1YBMHb" node="1qBaxu2Ov1b" resolve="fieldRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1qBaxu2Ov1b" role="1YuTPh">
+      <property role="TrG5h" value="fieldRef" />
+      <ref role="1YaFvo" to="32lw:1qBaxu2OuV9" resolve="FieldRef" />
+    </node>
+  </node>
 </model>
 

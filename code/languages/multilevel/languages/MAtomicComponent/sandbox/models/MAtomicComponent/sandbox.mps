@@ -14,6 +14,9 @@
       <concept id="1632319670410490002" name="MAtomicComponent.structure.InitializeInstnaces" flags="ng" index="2k51E5">
         <reference id="1632319670410490003" name="instaceConfig" index="2k51E4" />
       </concept>
+      <concept id="1632319670412504777" name="MAtomicComponent.structure.FieldRef" flags="ng" index="2ktGju">
+        <reference id="1632319670412505122" name="field" index="2ktHCP" />
+      </concept>
       <concept id="1632319670390656274" name="MAtomicComponent.structure.InterfaceType" flags="ng" index="2n8Us5">
         <reference id="1632319670390661018" name="interface" index="2n8Vmd" />
       </concept>
@@ -197,7 +200,7 @@
     </language>
   </registry>
   <node concept="N3F5e" id="1X5iFxI_0U5">
-    <property role="TrG5h" value="Main" />
+    <property role="TrG5h" value="AtomicMain" />
     <node concept="2vmPJd" id="1Rm5R2S$qDQ" role="N3F5h">
       <property role="TrG5h" value="msgs" />
       <node concept="2vmPJf" id="1Rm5R2S$y0S" role="2vmPJn">
@@ -445,7 +448,7 @@
             <property role="2c7vTL" value="false" />
           </node>
         </node>
-        <node concept="26Vqph" id="1qBaxu2KaH2" role="2C2TGm">
+        <node concept="26Vqph" id="1qBaxu2QyAU" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
@@ -477,7 +480,7 @@
             <property role="2c7vTL" value="false" />
           </node>
         </node>
-        <node concept="26Vqph" id="1qBaxu2K5Fi" role="2C2TGm">
+        <node concept="26Vqph" id="1qBaxu2QyGj" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
@@ -562,12 +565,17 @@
             </node>
           </node>
           <node concept="2BFjQ_" id="1Rm5R2SrtpN" role="3XIRFZ">
-            <node concept="2BOcij" id="1qBaxu1rKf3" role="2BFjQA">
-              <node concept="3ZUYvv" id="1qBaxu1rKf6" role="3TlMhJ">
-                <ref role="3ZUYvu" node="1Rm5R2SrtpU" resolve="b" />
+            <node concept="2BOciq" id="1qBaxu2Qz5B" role="2BFjQA">
+              <node concept="2ktGju" id="1qBaxu2Qzdm" role="3TlMhJ">
+                <ref role="2ktHCP" node="1Rm5R2StZfJ" resolve="someField" />
               </node>
-              <node concept="3ZUYvv" id="1qBaxu1qens" role="3TlMhI">
-                <ref role="3ZUYvu" node="1Rm5R2SrtpS" resolve="a" />
+              <node concept="2BOcij" id="1qBaxu1rKf3" role="3TlMhI">
+                <node concept="3ZUYvv" id="1qBaxu1rKf6" role="3TlMhJ">
+                  <ref role="3ZUYvu" node="1Rm5R2SrtpU" resolve="b" />
+                </node>
+                <node concept="3ZUYvv" id="1qBaxu1qens" role="3TlMhI">
+                  <ref role="3ZUYvu" node="1Rm5R2SrtpS" resolve="a" />
+                </node>
               </node>
             </node>
           </node>
@@ -590,7 +598,7 @@
             <property role="2c7vTL" value="false" />
           </node>
         </node>
-        <node concept="26Vqph" id="1qBaxu2K4BB" role="2C2TGm">
+        <node concept="26Vqph" id="1qBaxu2Q$ps" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
@@ -644,7 +652,7 @@
       <property role="iO3LB" value="false" />
       <property role="TrG5h" value="Main" />
       <node concept="2v9HqM" id="1X5iFxI_0Y5" role="2eOfOg">
-        <ref role="2v9HqP" node="1X5iFxI_0U5" resolve="Main" />
+        <ref role="2v9HqP" node="1X5iFxI_0U5" resolve="AtomicMain" />
       </node>
     </node>
   </node>
