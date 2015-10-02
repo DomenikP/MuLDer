@@ -332,8 +332,112 @@
     </language>
   </registry>
   <node concept="bUwia" id="1X5iFxI$Uk1">
-    <property role="TrG5h" value="main" />
+    <property role="TrG5h" value="atomicComponents2C" />
     <property role="3GE5qa" value="component" />
+    <node concept="3aamgX" id="512cLuRCTUG" role="3acgRq">
+      <ref role="30HIoZ" to="32lw:1qBaxu2OuV9" resolve="FieldRef" />
+      <node concept="1Koe21" id="512cLuRCVQS" role="1lVwrX">
+        <node concept="N3F5e" id="512cLuRCVQT" role="1Koe22">
+          <property role="TrG5h" value="dummy" />
+          <node concept="1sgJKc" id="512cLuRCVQU" role="N3F5h">
+            <property role="TrG5h" value="comp_data" />
+            <node concept="1dpRTG" id="512cLuRCVQV" role="HszBJ">
+              <property role="TrG5h" value="dummy" />
+              <node concept="26Vqph" id="512cLuRCVQW" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="1S7NMz" id="512cLuRCVQX" role="N3F5h">
+            <property role="TrG5h" value="componentInstance" />
+            <node concept="1sgJKr" id="512cLuRCVQY" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+              <ref role="1sgJKq" node="512cLuRCVQU" resolve="comp_data" />
+            </node>
+          </node>
+          <node concept="N3Fnx" id="512cLuRCVRR" role="N3F5h">
+            <property role="TrG5h" value="runnable" />
+            <node concept="19RgSI" id="512cLuRCVS1" role="1UOdpc">
+              <property role="TrG5h" value="componentInstance" />
+              <node concept="3wxxNl" id="512cLuRCVS2" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+                <node concept="19Rifw" id="512cLuRCVS3" role="2umbIo">
+                  <property role="2caQfQ" value="false" />
+                  <property role="2c7vTL" value="false" />
+                </node>
+              </node>
+            </node>
+            <node concept="19Rifw" id="512cLuRCVS4" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+            <node concept="3XIRFW" id="512cLuRCVSc" role="3XIRFX">
+              <node concept="3XIRlf" id="512cLuRCVSd" role="3XIRFZ">
+                <property role="TrG5h" value="_instance" />
+                <node concept="1sgJKr" id="512cLuRCVSe" role="2C2TGm">
+                  <property role="2caQfQ" value="false" />
+                  <property role="2c7vTL" value="false" />
+                  <ref role="1sgJKq" node="512cLuRCVQU" resolve="comp_data" />
+                </node>
+                <node concept="3wxyx2" id="512cLuRCVSq" role="3XIe9u">
+                  <node concept="1S8S4T" id="512cLuRCVSr" role="1_9fRO">
+                    <node concept="2BPB98" id="512cLuRCVSs" role="1S8S4V">
+                      <node concept="3ZUYvv" id="512cLuRCVSt" role="1_9fRO">
+                        <ref role="3ZUYvu" node="512cLuRCVS1" resolve="componentInstance" />
+                      </node>
+                    </node>
+                    <node concept="3wxxNl" id="512cLuRCVSu" role="1S8S4N">
+                      <property role="2caQfQ" value="false" />
+                      <property role="2c7vTL" value="false" />
+                      <node concept="1sgJKr" id="512cLuRCVSv" role="2umbIo">
+                        <property role="2caQfQ" value="false" />
+                        <property role="2c7vTL" value="false" />
+                        <ref role="1sgJKq" node="512cLuRCVQU" resolve="comp_data" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1_9egQ" id="512cLuRD2OA" role="3XIRFZ">
+                <node concept="2qmXGp" id="512cLuRD4bi" role="1_9egR">
+                  <node concept="1E4Tgc" id="512cLuRD5M$" role="1ESnxz">
+                    <ref role="1E4Tge" node="512cLuRCVQV" resolve="dummy" />
+                    <node concept="1ZhdrF" id="512cLuRDlQc" role="lGtFl">
+                      <property role="P3scX" value="efda956e-491e-4f00-ba14-36af2f213ecf/7034214596253391076/7034214596253391078" />
+                      <property role="2qtEX8" value="member" />
+                      <node concept="3$xsQk" id="512cLuRDlQd" role="3$ytzL">
+                        <node concept="3clFbS" id="512cLuRDlQe" role="2VODD2">
+                          <node concept="3clFbF" id="512cLuRDlTq" role="3cqZAp">
+                            <node concept="2OqwBi" id="512cLuRDnKP" role="3clFbG">
+                              <node concept="2OqwBi" id="512cLuRDlY6" role="2Oq$k0">
+                                <node concept="30H73N" id="512cLuRDlTp" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="512cLuRDnlM" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="32lw:1qBaxu2Ov0y" />
+                                </node>
+                              </node>
+                              <node concept="3TrcHB" id="512cLuRDoon" role="2OqNvi">
+                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3ZVu4v" id="512cLuRD2O$" role="1_9fRO">
+                    <ref role="3ZVs_2" node="512cLuRCVSd" resolve="_instance" />
+                  </node>
+                  <node concept="raruj" id="512cLuRDlLf" role="lGtFl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="1Rm5R2SuxUM" role="3acgRq">
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="32lw:1y5IIwWvJaH" resolve="Port" />

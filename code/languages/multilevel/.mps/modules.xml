@@ -10,6 +10,7 @@
       <modulePath path="$PROJECT_DIR$/languages/MStubComponent/sandbox/MStubComponent.sandbox.msd" folder="component.stub" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="statemachine" />
+      <modulePath path="$PROJECT_DIR$/solutions/test.ex.atomicomponents/test.ex.atomicomponents.msd" folder="component.atomic" />
     </projectModules>
   </component>
 </project>

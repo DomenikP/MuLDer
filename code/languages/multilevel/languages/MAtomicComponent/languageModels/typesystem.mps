@@ -157,7 +157,6 @@
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
-        <property id="1216127910019" name="applyImmediately" index="ARO6o" />
         <reference id="1216388525179" name="quickFix" index="QpYPw" />
         <child id="1210784493590" name="actualArgument" index="3Coj4f" />
       </concept>
@@ -872,7 +871,6 @@
               <property role="Xl_RC" value="return type out of synch" />
             </node>
             <node concept="3Cnw8n" id="6aU7c0vrjcf" role="2OEOjU">
-              <property role="ARO6o" value="true" />
               <ref role="QpYPw" node="6aU7c0vrjcc" resolve="synchReturnType" />
               <node concept="3CnSsL" id="6aU7c0vrjq$" role="3Coj4f">
                 <ref role="QkamJ" node="6aU7c0vrjnh" resolve="trigger" />
@@ -883,26 +881,37 @@
             </node>
           </node>
         </node>
-        <node concept="3y3z36" id="6aU7c0vqia4" role="3clFbw">
-          <node concept="2OqwBi" id="6aU7c0vqiFm" role="3uHU7w">
-            <node concept="2OqwBi" id="6aU7c0vqif0" role="2Oq$k0">
-              <node concept="1YBJjd" id="6aU7c0vqic9" role="2Oq$k0">
-                <ref role="1YBMHb" node="6aU7c0vqfSP" resolve="opTrigger" />
+        <node concept="3fqX7Q" id="14emBKkG0Re" role="3clFbw">
+          <node concept="2OqwBi" id="14emBKkG0Rg" role="3fr31v">
+            <node concept="2OqwBi" id="14emBKkG0Rh" role="2Oq$k0">
+              <node concept="2OqwBi" id="14emBKkG0Ri" role="2Oq$k0">
+                <node concept="37vLTw" id="14emBKkG0Rj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6aU7c0vqgjE" resolve="runnable" />
+                </node>
+                <node concept="3TrEf2" id="14emBKkG0Rk" role="2OqNvi">
+                  <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
+                </node>
               </node>
-              <node concept="3TrEf2" id="6aU7c0vqiqP" role="2OqNvi">
-                <ref role="3Tt5mk" to="32lw:1y5IIwW_sfm" />
+              <node concept="2yIwOk" id="14emBKkG0Rl" role="2OqNvi" />
+            </node>
+            <node concept="liA8E" id="14emBKkG0Rm" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="2OqwBi" id="14emBKkG0Rn" role="37wK5m">
+                <node concept="2OqwBi" id="14emBKkG0Ro" role="2Oq$k0">
+                  <node concept="2OqwBi" id="14emBKkG0Rp" role="2Oq$k0">
+                    <node concept="1YBJjd" id="14emBKkG0Rq" role="2Oq$k0">
+                      <ref role="1YBMHb" node="6aU7c0vqfSP" resolve="opTrigger" />
+                    </node>
+                    <node concept="3TrEf2" id="14emBKkG0Rr" role="2OqNvi">
+                      <ref role="3Tt5mk" to="32lw:1y5IIwW_sfm" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="14emBKkG0Rs" role="2OqNvi">
+                    <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
+                  </node>
+                </node>
+                <node concept="2yIwOk" id="14emBKkG0Rt" role="2OqNvi" />
               </node>
-            </node>
-            <node concept="3TrEf2" id="6aU7c0vqj4i" role="2OqNvi">
-              <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="6aU7c0vqgtO" role="3uHU7B">
-            <node concept="37vLTw" id="6aU7c0vqgmk" role="2Oq$k0">
-              <ref role="3cqZAo" node="6aU7c0vqgjE" resolve="runnable" />
-            </node>
-            <node concept="3TrEf2" id="6aU7c0vqhA2" role="2OqNvi">
-              <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
             </node>
           </node>
         </node>

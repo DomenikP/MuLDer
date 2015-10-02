@@ -108,6 +108,7 @@
   <node concept="1TIwiD" id="1y5IIwWvJaI">
     <property role="TrG5h" value="Interface" />
     <property role="3GE5qa" value="interface" />
+    <property role="34LRSv" value="interface" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6aU7c0vz6dL" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -176,6 +177,7 @@
   <node concept="1TIwiD" id="1y5IIwW_sfh">
     <property role="TrG5h" value="OperationTrigger" />
     <property role="3GE5qa" value="content.runnable" />
+    <property role="34LRSv" value="trigger" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1y5IIwW_sfm" role="1TKVEi">
       <property role="20lmBu" value="reference" />
