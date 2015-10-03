@@ -19,6 +19,8 @@
       </concept>
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
+      <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
+      <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -179,6 +181,24 @@
         <property role="3F0ifm" value=";" />
       </node>
       <node concept="l2Vlx" id="14emBKkRUqP" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="14emBKkXvxu">
+    <ref role="1XX52x" to="e1nu:14emBKkWJoJ" resolve="MUnitConfigItem" />
+    <node concept="3EZMnI" id="14emBKkXvy7" role="2wV5jI">
+      <node concept="3F0ifn" id="14emBKkXvye" role="3EZMnx">
+        <property role="3F0ifm" value="MUnit configuration:" />
+        <node concept="ljvvj" id="14emBKkXv$0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="14emBKkXvyk" role="3EZMnx">
+        <ref role="1NtTu8" to="e1nu:14emBKkWJqd" />
+        <node concept="lj46D" id="14emBKkXv_F" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="14emBKkXvya" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -18,6 +18,7 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -47,6 +48,9 @@
     </node>
     <node concept="PrWs8" id="14emBKkRBME" role="PzmwI">
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
+    </node>
+    <node concept="PrWs8" id="14emBKkXgGY" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
     </node>
     <node concept="1TJgyj" id="14emBKkRscF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -85,6 +89,23 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="14emBKkWJoJ">
+    <property role="TrG5h" value="MUnitConfigItem" />
+    <property role="34LRSv" value="MUnit config item" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="14emBKkWJqd" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="strategy" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="14emBKkWJpZ" resolve="MUnitGeneratorStrategy" />
+    </node>
+    <node concept="PrWs8" id="14emBKkWJpS" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="14emBKkWJpZ">
+    <property role="TrG5h" value="MUnitGeneratorStrategy" />
   </node>
 </model>
 
