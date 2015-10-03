@@ -21,6 +21,7 @@
         <dependency reexport="false">7ce26145-e88e-4147-80f6-84aca3a7cb16(MUnit.gen.def)</dependency>
         <dependency reexport="false">61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</dependency>
         <dependency reexport="false">79fb90b0-2c42-4be4-9761-fd75beededde(MUnit.gen.def#1229019237291737942)</dependency>
+        <dependency reexport="false">2693fc71-9b0e-4b05-ab13-f57227d675f2(com.mbeddr.core.util)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>

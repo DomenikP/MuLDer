@@ -187,7 +187,7 @@
     <ref role="1XX52x" to="e1nu:14emBKkWJoJ" resolve="MUnitConfigItem" />
     <node concept="3EZMnI" id="14emBKkXvy7" role="2wV5jI">
       <node concept="3F0ifn" id="14emBKkXvye" role="3EZMnx">
-        <property role="3F0ifm" value="MUnit configuration:" />
+        <property role="3F0ifm" value="MUnit generator:" />
         <node concept="ljvvj" id="14emBKkXv$0" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

@@ -18,7 +18,9 @@
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="p3tm" ref="r:7b158038-abbe-4e11-b171-d5a959b4e91a(com.mbeddr.core.modules.typesystem)" />
+    <import index="k146" ref="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" />
     <import index="f5oo" ref="r:54f84133-3970-4151-9252-aa50070f28ba(MUnit.gen.efficient.structure)" implicit="true" />
+    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -125,9 +127,16 @@
       <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="7830515785164764091" name="condition" index="avys_" />
+        <child id="1200911492601" name="mappingLabel" index="2rTMjI" />
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
       </concept>
-      <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj" />
+      <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj">
+        <reference id="1200916687663" name="labelDeclaration" index="2sdACS" />
+      </concept>
+      <concept id="1200911316486" name="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration" flags="lg" index="2rT7sh">
+        <reference id="1200911342686" name="sourceConcept" index="2rTdP9" />
+        <reference id="1200913004646" name="targetConcept" index="2rZz_L" />
+      </concept>
       <concept id="1167168920554" name="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" flags="in" index="30G5F_" />
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
@@ -247,6 +256,16 @@
   </registry>
   <node concept="bUwia" id="14emBKkXFp1">
     <property role="TrG5h" value="efficientGenerator" />
+    <node concept="2rT7sh" id="14emBKl1mou" role="2rTMjI">
+      <property role="TrG5h" value="assert2Statement" />
+      <ref role="2rZz_L" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+      <ref role="2rTdP9" to="e1nu:14emBKkRUqa" resolve="AssertStatement" />
+    </node>
+    <node concept="2rT7sh" id="14emBKl1ppM" role="2rTMjI">
+      <property role="TrG5h" value="exeTestExpr2BlockExpr" />
+      <ref role="2rTdP9" to="e1nu:14emBKkRuFB" resolve="ExecuteTestExpression" />
+      <ref role="2rZz_L" to="k146:4VEDcE28so4" resolve="BlockExpression" />
+    </node>
     <node concept="3aamgX" id="14emBKkSmrb" role="3acgRq">
       <ref role="30HIoZ" to="e1nu:14emBKkRUqa" resolve="AssertStatement" />
       <node concept="1Koe21" id="14emBKkSn23" role="1lVwrX">
@@ -273,7 +292,9 @@
                   <ref role="3ZVs_2" node="14emBKkSn2N" resolve="failures" />
                 </node>
               </node>
-              <node concept="raruj" id="14emBKkY3SA" role="lGtFl" />
+              <node concept="raruj" id="14emBKkY3SA" role="lGtFl">
+                <ref role="2sdACS" node="14emBKl1mou" resolve="assert2Statement" />
+              </node>
             </node>
             <node concept="1_9egQ" id="14emBKkSneS" role="3XIRFZ">
               <node concept="3ZVu4v" id="14emBKkSneQ" role="1_9egR">
@@ -490,7 +511,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="raruj" id="14emBKkYd5W" role="lGtFl" />
+              <node concept="raruj" id="14emBKkYd5W" role="lGtFl">
+                <ref role="2sdACS" node="14emBKl1mou" resolve="assert2Statement" />
+              </node>
             </node>
             <node concept="1_9egQ" id="14emBKkY4Ub" role="3XIRFZ">
               <node concept="3ZVu4v" id="14emBKkY4Uc" role="1_9egR">
@@ -618,7 +641,9 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="raruj" id="14emBKkYcEn" role="lGtFl" />
+                  <node concept="raruj" id="14emBKkYcEn" role="lGtFl">
+                    <ref role="2sdACS" node="14emBKl1ppM" resolve="exeTestExpr2BlockExpr" />
+                  </node>
                 </node>
               </node>
             </node>
