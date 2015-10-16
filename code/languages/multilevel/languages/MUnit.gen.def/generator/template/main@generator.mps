@@ -10,6 +10,7 @@
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="-1" />
     <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="-1" />
     <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="-1" />
+    <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -21,6 +22,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="4b5f" ref="r:6558c571-f834-475b-8347-35ce6c21d397(MUnit.generator.template.main@generator)" />
     <import index="k3z2" ref="r:2e5924a4-bdc8-4a75-8ae8-bad37f52191c(MUnit.gen.def.structure)" />
+    <import index="vekj" ref="r:1a266927-4d60-4706-84ac-86b9d197db1b(MUnit.gen.def.generator.template.util)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" implicit="true" />
   </imports>
   <registry>
@@ -62,6 +64,7 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -178,6 +181,11 @@
       </concept>
       <concept id="5950410542643524492" name="com.mbeddr.core.modules.structure.FunctionCall" flags="ng" index="3O_q_g">
         <reference id="5950410542643524493" name="function" index="3O_q_h" />
+      </concept>
+    </language>
+    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
+      <concept id="1229019237294235976" name="DeSpec.structure.ReductionRuleAnnotation" flags="ng" index="41jGO">
+        <reference id="1229019237294461892" name="contributor" index="408AS" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -303,7 +311,31 @@
           <node concept="2ZBi8u" id="14emBKkSmXM" role="lGtFl">
             <ref role="2rW$FS" node="14emBKkSlNA" resolve="testcase" />
           </node>
+          <node concept="17Uvod" id="14emBKl3QNw" role="lGtFl">
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <property role="2qtEX9" value="name" />
+            <node concept="3zFVjK" id="14emBKl3QNx" role="3zH0cK">
+              <node concept="3clFbS" id="14emBKl3QNy" role="2VODD2">
+                <node concept="3clFbF" id="14emBKl3QWz" role="3cqZAp">
+                  <node concept="3cpWs3" id="14emBKl3RE0" role="3clFbG">
+                    <node concept="Xl_RD" id="14emBKl3RE6" role="3uHU7B">
+                      <property role="Xl_RC" value="testcase_" />
+                    </node>
+                    <node concept="2OqwBi" id="14emBKl3R4R" role="3uHU7w">
+                      <node concept="30H73N" id="14emBKl3QWy" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="14emBKl3Rz3" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
+      </node>
+      <node concept="41jGO" id="14emBKl2WxT" role="lGtFl">
+        <ref role="408AS" to="vekj:14emBKl3N6f" resolve="bla" />
       </node>
     </node>
     <node concept="3aamgX" id="14emBKkSmrb" role="3acgRq">

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/GenerationTraceLang/GenerationTraceLang.mpl" folder="generationTrace" />
       <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="component.atomic" />
       <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/sandbox/MAtomicComponent.sandbox.msd" folder="component.atomic" />
       <modulePath path="$PROJECT_DIR$/languages/MMockComponent/MMockComponent.mpl" folder="component.mock" />
@@ -14,6 +16,7 @@
       <modulePath path="$PROJECT_DIR$/languages/MUnit/sandbox/MUnit.sandbox.msd" folder="unit" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="statemachine" />
+      <modulePath path="$PROJECT_DIR$/solutions/GenerationTrace/GenerationTrace.msd" folder="generationTrace" />
       <modulePath path="$PROJECT_DIR$/solutions/test.ex.atomicomponents/test.ex.atomicomponents.msd" folder="component.atomic" />
     </projectModules>
   </component>
