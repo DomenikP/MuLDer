@@ -16,8 +16,14 @@
       <modulePath path="$PROJECT_DIR$/languages/MUnit/sandbox/MUnit.sandbox.msd" folder="unit" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="statemachine" />
+      <modulePath path="$PROJECT_DIR$/languages/multiLevel.debugger/multiLevel.debugger.mpl" folder="debugger.generationTrace" />
       <modulePath path="$PROJECT_DIR$/solutions/GenerationTrace/GenerationTrace.msd" folder="generationTrace" />
+      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.backendProvider/multiLevel.backendProvider.msd" folder="debugger.generationTrace" />
+      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.runconfiguration/multiLevel.runconfiguration.msd" folder="debugger.generationTrace" />
       <modulePath path="$PROJECT_DIR$/solutions/test.ex.atomicomponents/test.ex.atomicomponents.msd" folder="component.atomic" />
+      <modulePath path="$PROJECT_DIR$/../../../../mbeddr.core.phd/code/languages/com.mbeddr.core/languages/com.mbeddr.core.runconfiguration/solutions/pluginSolution/pluginSolution.msd" folder="debugger.traceFile" />
+      <modulePath path="$PROJECT_DIR$/../../../../mbeddr.core.phd/code/languages/com.mbeddr.core/solutions/com.mbeddr.core.debugger.default/com.mbeddr.core.debugger.default.msd" folder="debugger.traceFile" />
+      <modulePath path="$PROJECT_DIR$/../../../../mbeddr.core.phd/code/languages/com.mbeddr.debugger/languages/com.mbeddr.core.debug/debug.mpl" folder="debugger.traceFile" />
     </projectModules>
   </component>
 </project>

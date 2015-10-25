@@ -187,6 +187,7 @@
       <concept id="1229019237294235976" name="DeSpec.structure.ReductionRuleAnnotation" flags="ng" index="41jGO">
         <reference id="1229019237294461892" name="contributor" index="408AS" />
       </concept>
+      <concept id="5354543571940080098" name="DeSpec.structure.BreakpointOnNodeAnnotation" flags="ng" index="pAt3w" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -332,6 +333,7 @@
               </node>
             </node>
           </node>
+          <node concept="pAt3w" id="4Dfag9jQxHF" role="lGtFl" />
         </node>
       </node>
       <node concept="41jGO" id="14emBKl2WxT" role="lGtFl">
@@ -391,6 +393,7 @@
               <node concept="raruj" id="14emBKkSn7f" role="lGtFl">
                 <ref role="2sdACS" node="14emBKkSCt5" resolve="assertToIfStatement" />
               </node>
+              <node concept="pAt3w" id="4Dfag9jQ3FE" role="lGtFl" />
             </node>
             <node concept="1_9egQ" id="14emBKkSneS" role="3XIRFZ">
               <node concept="3ZVu4v" id="14emBKkSneQ" role="1_9egR">

@@ -6,8 +6,9 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" implicit="true" />
     <import index="tpf8" ref="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -121,6 +122,68 @@
         <node concept="3clFbF" id="14emBKl2T3P" role="3cqZAp">
           <node concept="Xl_RD" id="14emBKl2T3O" role="3clFbG">
             <property role="Xl_RC" value="Toogle Annotation" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="4Dfag9jPXpU">
+    <property role="TrG5h" value="ToggleBreakpointOnNodeAnnotation" />
+    <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2Sbjvc" id="4Dfag9jPXpV" role="2ZfgGD">
+      <node concept="3clFbS" id="4Dfag9jPXpW" role="2VODD2">
+        <node concept="3clFbJ" id="4Dfag9jPXpX" role="3cqZAp">
+          <node concept="3clFbS" id="4Dfag9jPXpY" role="3clFbx">
+            <node concept="3clFbF" id="4Dfag9jPXpZ" role="3cqZAp">
+              <node concept="2OqwBi" id="4Dfag9jPXq0" role="3clFbG">
+                <node concept="2OqwBi" id="4Dfag9jPXq1" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="4Dfag9jPXq2" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="4Dfag9jPXq3" role="2OqNvi">
+                    <node concept="3CFYIy" id="4Dfag9jPXXO" role="3CFYIz">
+                      <ref role="3CFYIx" to="k6mm:4Dfag9jPJBy" resolve="BreakpointOnNodeAnnotation" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="1PgB_6" id="4Dfag9jPXq5" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4Dfag9jPXq6" role="3clFbw">
+            <node concept="2OqwBi" id="4Dfag9jPXq7" role="2Oq$k0">
+              <node concept="2Sf5sV" id="4Dfag9jPXq8" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="4Dfag9jPXq9" role="2OqNvi">
+                <node concept="3CFYIy" id="4Dfag9jQ1JP" role="3CFYIz">
+                  <ref role="3CFYIx" to="k6mm:4Dfag9jPJBy" resolve="BreakpointOnNodeAnnotation" />
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4Dfag9jPXqb" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="4Dfag9jPXqc" role="9aQIa">
+            <node concept="3clFbS" id="4Dfag9jPXqd" role="9aQI4">
+              <node concept="3clFbF" id="4Dfag9jPXqe" role="3cqZAp">
+                <node concept="2OqwBi" id="4Dfag9jPXqf" role="3clFbG">
+                  <node concept="2OqwBi" id="4Dfag9jPXqg" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="4Dfag9jPXqh" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="4Dfag9jPXqi" role="2OqNvi">
+                      <node concept="3CFYIy" id="4Dfag9jPY0Q" role="3CFYIz">
+                        <ref role="3CFYIx" to="k6mm:4Dfag9jPJBy" resolve="BreakpointOnNodeAnnotation" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="zfrQC" id="4Dfag9jPXqk" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2S6ZIM" id="4Dfag9jPXql" role="2ZfVej">
+      <node concept="3clFbS" id="4Dfag9jPXqm" role="2VODD2">
+        <node concept="3clFbF" id="4Dfag9jPXqn" role="3cqZAp">
+          <node concept="Xl_RD" id="4Dfag9jPXqo" role="3clFbG">
+            <property role="Xl_RC" value="Toogle BreakpointOnNode Annotation" />
           </node>
         </node>
       </node>

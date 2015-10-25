@@ -58,6 +58,9 @@
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
         <child id="7254843406768833939" name="expr" index="1_9egR" />
       </concept>
+      <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf">
+        <child id="4185783222026502647" name="init" index="3XIe9u" />
+      </concept>
       <concept id="4185783222026475861" name="com.mbeddr.core.statements.structure.StatementList" flags="ng" index="3XIRFW">
         <child id="4185783222026475862" name="statements" index="3XIRFZ" />
       </concept>
@@ -99,13 +102,6 @@
         <property id="2688792604367903089" name="text" index="2vmPJh" />
         <property id="2688792604367903094" name="kind" index="2vmPJm" />
         <property id="2688792604367947988" name="active" index="2vn0DO" />
-      </concept>
-      <concept id="2688792604367964821" name="com.mbeddr.core.util.structure.ReportStatement" flags="ng" index="2vn4wP">
-        <child id="2688792604367973273" name="msgref" index="2vn6$T" />
-      </concept>
-      <concept id="2688792604367964823" name="com.mbeddr.core.util.structure.MessageRef" flags="ng" index="2vn4wR">
-        <reference id="2688792604367964824" name="table" index="2vn4wS" />
-        <reference id="2688792604367964825" name="msg" index="2vn4wT" />
       </concept>
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
         <child id="4459718605982051999" name="strategy" index="2Q9FjI" />
@@ -297,10 +293,14 @@
         <node concept="3XIRFW" id="1qBaxu2OlVa" role="$3oTq">
           <node concept="c0U19" id="1qBaxu2OlVG" role="3XIRFZ">
             <node concept="3XIRFW" id="1qBaxu2OlVH" role="c0U17">
-              <node concept="2vn4wP" id="14emBKkB8ZX" role="3XIRFZ">
-                <node concept="2vn4wR" id="14emBKkB8ZY" role="2vn6$T">
-                  <ref role="2vn4wS" node="14emBKkB9eH" resolve="msgs" />
-                  <ref role="2vn4wT" node="14emBKkB9hl" resolve="bla" />
+              <node concept="3XIRlf" id="6C7$ovCe7__" role="3XIRFZ">
+                <property role="TrG5h" value="bla" />
+                <node concept="26Vqph" id="6C7$ovCe7_z" role="2C2TGm">
+                  <property role="2caQfQ" value="false" />
+                  <property role="2c7vTL" value="false" />
+                </node>
+                <node concept="3TlMh9" id="6C7$ovCe7A7" role="3XIe9u">
+                  <property role="2hmy$m" value="123" />
                 </node>
               </node>
             </node>

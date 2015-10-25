@@ -104,5 +104,18 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="4Dfag9jPJBy">
+    <property role="TrG5h" value="BreakpointOnNodeAnnotation" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="4Dfag9jPJBK" role="lGtFl">
+      <property role="Hh88m" value="breakpointOnNode" />
+      <node concept="tn0Fv" id="4Dfag9jPJT3" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+      <node concept="trNpa" id="4Dfag9jPJT5" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+    </node>
+  </node>
 </model>
 
