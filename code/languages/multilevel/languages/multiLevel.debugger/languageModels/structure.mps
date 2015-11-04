@@ -202,5 +202,8 @@
     <property role="TrG5h" value="IBreakpointSupport" />
     <property role="3GE5qa" value="breakpoint" />
   </node>
+  <node concept="PlHQZ" id="4dLPB5yd2k3">
+    <property role="TrG5h" value="CanContributeStackFrame" />
+  </node>
 </model>
 

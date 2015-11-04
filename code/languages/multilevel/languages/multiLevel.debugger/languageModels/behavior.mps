@@ -1117,5 +1117,51 @@
       <node concept="3clFbS" id="MRHDMi6VAf" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="4dLPB5yjgfq">
+    <ref role="13h7C2" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    <node concept="13i0hz" id="4dLPB5yjglT" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getStackFrameName" />
+      <node concept="3Tm1VV" id="4dLPB5yjglU" role="1B3o_S" />
+      <node concept="3clFbS" id="4dLPB5yjglV" role="3clF47" />
+      <node concept="17QB3L" id="4dLPB5yjgm1" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="4dLPB5yjgm4" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="contributesStackFrame" />
+      <node concept="3Tm1VV" id="4dLPB5yjgm5" role="1B3o_S" />
+      <node concept="3clFbS" id="4dLPB5yjgm6" role="3clF47" />
+      <node concept="10P_77" id="4dLPB5yjgmg" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="4dLPB5zbwdk" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="contributeStackFrame" />
+      <node concept="37vLTG" id="4dLPB5zbwdl" role="3clF46">
+        <property role="TrG5h" value="lowerLevelFrame" />
+        <node concept="17QB3L" id="4dLPB5zbwdm" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="4dLPB5zbwdn" role="1B3o_S" />
+      <node concept="3clFbS" id="4dLPB5zbwdo" role="3clF47" />
+      <node concept="17QB3L" id="4dLPB5zbwdp" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="4dLPB5zbt8D" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="liftsFrame" />
+      <node concept="37vLTG" id="4dLPB5zbwcv" role="3clF46">
+        <property role="TrG5h" value="lowerLevelFrame" />
+        <node concept="17QB3L" id="4dLPB5zbwc_" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="4dLPB5zbt8E" role="1B3o_S" />
+      <node concept="3clFbS" id="4dLPB5zbt8F" role="3clF47" />
+      <node concept="10P_77" id="4dLPB5zbwei" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="4dLPB5yjgfr" role="13h7CW">
+      <node concept="3clFbS" id="4dLPB5yjgfs" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

@@ -18,12 +18,18 @@
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
     <usedLanguage>479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)</usedLanguage>
     <usedLanguage>d7a9631e-56a5-4073-bc8e-bd6c4f6624a6(GenerationTraceLang)</usedLanguage>
+    <usedLanguage>558e8d91-d211-4de0-b141-9a8b8f04b79d(multiLevel.debugger)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)</usedDevKit>
+    <usedDevKit>ce31ac8f-18fd-49f2-8454-79c4edc3ad2f(MultiLevel)</usedDevKit>
   </usedDevKits>
   <languageVersions>
+    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="DeSpec" version="0" />
     <language id="d7a9631e-56a5-4073-bc8e-bd6c4f6624a6" fqName="GenerationTraceLang" version="0" />
+    <language id="5529be6b-f382-41f9-834c-9d6b2e079511" fqName="MAtomicComponent" version="0" />
+    <language id="eb6e703a-d3cc-488e-a462-15d37e40ae7a" fqName="MMockComponent" version="0" />
+    <language id="ca35bd95-fbad-4fae-9646-654a9a55ec5f" fqName="MStubComponent" version="0" />
     <language id="bec9c00b-b5be-48af-9766-38765bcc974d" fqName="MUnit" version="-1" />
     <language id="7ce26145-e88e-4147-80f6-84aca3a7cb16" fqName="MUnit.gen.def" version="0" />
     <language id="72548d30-5797-4668-a0d3-be1e47fc05b7" fqName="MUnit.gen.efficient" version="0" />
@@ -65,6 +71,8 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="0" />
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="0" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
+    <language id="4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff" fqName="mstatemachine" version="0" />
+    <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="multiLevel.debugger" version="0" />
   </languageVersions>
 </solution>
 
