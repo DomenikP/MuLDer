@@ -204,6 +204,15 @@
   </node>
   <node concept="PlHQZ" id="4dLPB5yd2k3">
     <property role="TrG5h" value="CanContributeStackFrame" />
+    <node concept="PrWs8" id="1cnyw9YW4jV" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1rHBIiJ9Pyb">
+    <property role="TrG5h" value="WatchDeclartion" />
+    <node concept="PrWs8" id="6j53_d3y2dz" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 

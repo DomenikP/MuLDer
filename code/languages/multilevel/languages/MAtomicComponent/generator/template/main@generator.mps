@@ -202,7 +202,9 @@
       <concept id="7879092975090976563" name="DeSpec.structure.LiftFrameFromGenAnnotation" flags="ng" index="2xMITz">
         <property id="7879092975090976564" name="reducedFrame" index="2xMIT$" />
         <property id="7879092975090976565" name="liftedFrame" index="2xMIT_" />
+        <child id="3357653677270346450" name="liftedToNode" index="3QSQbC" />
       </concept>
+      <concept id="3357653677270346371" name="DeSpec.structure.InputNodeRef" flags="ng" index="3QSQaT" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -1304,6 +1306,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="3QSQaT" id="2UoM3Fo_h1s" role="3QSQbC" />
             </node>
           </node>
         </node>
@@ -1682,6 +1685,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="3QSQaT" id="2UoM3Fo_eoi" role="3QSQbC" />
             </node>
           </node>
         </node>

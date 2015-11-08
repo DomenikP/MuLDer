@@ -1163,5 +1163,29 @@
       <node concept="3clFbS" id="4dLPB5yjgfs" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="1rHBIiJ9Q8H">
+    <ref role="13h7C2" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+    <node concept="13i0hz" id="1rHBIiJ8GPL" role="13h7CS">
+      <property role="TrG5h" value="getValue" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="1rHBIiJ8GPM" role="1B3o_S" />
+      <node concept="3clFbS" id="1rHBIiJ8GPN" role="3clF47" />
+      <node concept="3uibUv" id="1rHBIiJ8GPT" role="3clF45">
+        <ref role="3uigEE" to="pry4:3SnNvqCaJHZ" resolve="IValue" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="1rHBIiJ9s4t" role="13h7CS">
+      <property role="TrG5h" value="getLiftedName" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="1rHBIiJ9s4u" role="1B3o_S" />
+      <node concept="3clFbS" id="1rHBIiJ9s4v" role="3clF47" />
+      <node concept="17QB3L" id="1rHBIiJ9s4D" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="1rHBIiJ9Q8I" role="13h7CW">
+      <node concept="3clFbS" id="1rHBIiJ9Q8J" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

@@ -11,6 +11,7 @@
     <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -26,6 +27,9 @@
         <child id="7588428831955550186" name="multiple" index="HhnKV" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -121,7 +125,7 @@
   <node concept="1TIwiD" id="5r59uMnw8aF">
     <property role="TrG5h" value="VirtualFrameAnnotation" />
     <property role="3GE5qa" value="used" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <ref role="1TJDcQ" node="1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="1TJgyi" id="6kVDbuaKxuo" role="1TKVEl">
       <property role="TrG5h" value="modelName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -146,7 +150,7 @@
   <node concept="1TIwiD" id="Vn$QVHoFbK">
     <property role="TrG5h" value="InlineFrameAnnotation" />
     <property role="3GE5qa" value="used" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <ref role="1TJDcQ" node="1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="1TJgyi" id="Vn$QVHt6Vn" role="1TKVEl">
       <property role="TrG5h" value="modelName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -206,7 +210,13 @@
   <node concept="1TIwiD" id="6Poal3coI9c">
     <property role="TrG5h" value="LiftFrameFromTextAnnoation" />
     <property role="3GE5qa" value="lifting" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <ref role="1TJDcQ" node="1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
+    <node concept="1TJgyj" id="6j53_d3kRWl" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="contributor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    </node>
     <node concept="1TJgyi" id="6Poal3coIaN" role="1TKVEl">
       <property role="TrG5h" value="reducedFrame" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -224,28 +234,141 @@
     <node concept="PrWs8" id="6qv77baQrSy" role="PzmwI">
       <ref role="PrY4T" node="6qv77baQrPc" resolve="ILiftsCallStackAnnotation" />
     </node>
+    <node concept="PrWs8" id="3BCiriJMqJy" role="PzmwI">
+      <ref role="PrY4T" node="3BCiriJMpdJ" resolve="NameLiftingAnnotation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6Poal3c$GsN">
     <property role="TrG5h" value="LiftFrameFromGenAnnotation" />
     <property role="3GE5qa" value="lifting" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <ref role="1TJDcQ" node="1aQJbq2$D_V" resolve="GenDebugAnnotation" />
+    <node concept="1TJgyj" id="2UoM3FouUFi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="liftedToNode" />
+      <ref role="20lvS9" node="2UoM3FouUFh" resolve="LiftedTo" />
+    </node>
+    <node concept="1TJgyj" id="1cnyw9YW38a" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="liftedTo" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    </node>
     <node concept="1TJgyi" id="6Poal3c$GsO" role="1TKVEl">
       <property role="TrG5h" value="reducedFrame" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="6Poal3c$GsP" role="1TKVEl">
-      <property role="TrG5h" value="liftedFrame" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="M6xJ_" id="6Poal3c$GsQ" role="lGtFl">
       <property role="Hh88m" value="liftFrameFromGen" />
-      <node concept="trNpa" id="6Poal3c$GsR" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="trNpa" id="1cnyw9ZxFij" role="EQaZv">
+        <ref role="trN6q" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
       </node>
     </node>
   </node>
   <node concept="PlHQZ" id="6qv77baQrPc">
     <property role="TrG5h" value="ILiftsCallStackAnnotation" />
+  </node>
+  <node concept="1TIwiD" id="1rHBIiJ8K$E">
+    <property role="TrG5h" value="LiftWatchNameAnnotation" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="1rHBIiJ8K_B" role="lGtFl">
+      <property role="Hh88m" value="liftWatchName" />
+      <node concept="trNpa" id="1rHBIiJ8KEX" role="EQaZv">
+        <ref role="trN6q" to="tpee:fz3vP1J" resolve="Expression" />
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3BCiriJn_2T">
+    <property role="TrG5h" value="LiftWatchFromTextAnnoation" />
+    <ref role="1TJDcQ" node="1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
+    <node concept="1TJgyj" id="6j53_d3y2cE" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="watchDeclaration" />
+      <ref role="20lvS9" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+    </node>
+    <node concept="1TJgyi" id="3BCiriJn_78" role="1TKVEl">
+      <property role="TrG5h" value="reducedName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3BCiriJn_79" role="1TKVEl">
+      <property role="TrG5h" value="liftedName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="M6xJ_" id="3BCiriJn_2X" role="lGtFl">
+      <property role="Hh88m" value="liftWatchFromText" />
+      <node concept="trNpa" id="3BCiriJn_63" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="3BCiriJMq1X" role="PzmwI">
+      <ref role="PrY4T" node="3BCiriJMpdJ" resolve="NameLiftingAnnotation" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3BCiriJMpdJ">
+    <property role="TrG5h" value="NameLiftingAnnotation" />
+  </node>
+  <node concept="1TIwiD" id="1aQJbq2yQP3">
+    <property role="TrG5h" value="DebugAnnotation" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+  </node>
+  <node concept="1TIwiD" id="1aQJbq2$Dva">
+    <property role="TrG5h" value="TextGenDebugAnnotation" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="1aQJbq2yQP3" resolve="DebugAnnotation" />
+  </node>
+  <node concept="1TIwiD" id="1aQJbq2$D_V">
+    <property role="TrG5h" value="GenDebugAnnotation" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="1aQJbq2yQP3" resolve="DebugAnnotation" />
+  </node>
+  <node concept="1TIwiD" id="1aQJbq2AGCf">
+    <property role="TrG5h" value="LiftWatchFromGenAnnoation" />
+    <ref role="1TJDcQ" node="1aQJbq2$D_V" resolve="GenDebugAnnotation" />
+    <node concept="M6xJ_" id="1aQJbq2AGCi" role="lGtFl">
+      <property role="Hh88m" value="liftWatchFromGen" />
+      <node concept="trNpa" id="1aQJbq2AGCj" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="1aQJbq2AGCk" role="PzmwI">
+      <ref role="PrY4T" node="3BCiriJMpdJ" resolve="NameLiftingAnnotation" />
+    </node>
+    <node concept="1TJgyj" id="1haeTMTrorp" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="watch" />
+      <ref role="20lvS9" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1cnyw9ZGDD8">
+    <property role="TrG5h" value="InputNode" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1cnyw9ZGDD9" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2UoM3FouUE3">
+    <property role="TrG5h" value="InputNodeRef" />
+    <property role="34LRSv" value="node" />
+    <ref role="1TJDcQ" node="2UoM3FouUFh" resolve="LiftedTo" />
+  </node>
+  <node concept="1TIwiD" id="2UoM3FouUE4">
+    <property role="TrG5h" value="CanContributeStackFrameRef" />
+    <ref role="1TJDcQ" node="2UoM3FouUFh" resolve="LiftedTo" />
+    <node concept="1TJgyj" id="2UoM3FouV4m" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="liftedTo" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2UoM3FouUFh">
+    <property role="TrG5h" value="LiftedTo" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

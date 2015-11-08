@@ -255,6 +255,84 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4dLPB5z5Z43" role="jymVt" />
+    <node concept="2YIFZL" id="1cnyw9YZ2QC" role="jymVt">
+      <property role="TrG5h" value="getCopyFromHigheModel" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="1cnyw9YZ2QD" role="3clF47">
+        <node concept="3cpWs8" id="1cnyw9YZ3Gz" role="3cqZAp">
+          <node concept="3cpWsn" id="1cnyw9YZ3G$" role="3cpWs9">
+            <property role="TrG5h" value="trackedNode" />
+            <node concept="3uibUv" id="1cnyw9YR_jr" role="1tU5fm">
+              <ref role="3uigEE" to="nfns:~TracedNode" resolve="TracedNode" />
+            </node>
+            <node concept="2OqwBi" id="1cnyw9YZ3GM" role="33vP2m">
+              <node concept="2YIFZM" id="1cnyw9YZ3GN" role="2Oq$k0">
+                <ref role="1Pybhc" to="nfns:~TransformationTrace" resolve="TransformationTrace" />
+                <ref role="37wK5l" to="nfns:~TransformationTrace.getInstance():jetbrains.mps.smodel.tracing.TransformationTrace" resolve="getInstance" />
+              </node>
+              <node concept="liA8E" id="1cnyw9YZ3GO" role="2OqNvi">
+                <ref role="37wK5l" to="nfns:~TransformationTrace.getTrackedNode(jetbrains.mps.smodel.tracing.nodes.SNodeProxy):jetbrains.mps.smodel.tracing.TracedNode" resolve="getTrackedNode" />
+                <node concept="2ShNRf" id="1cnyw9YZ3GP" role="37wK5m">
+                  <node concept="1pGfFk" id="1cnyw9YZ3GQ" role="2ShVmc">
+                    <ref role="37wK5l" to="hv0r:~SNodeProxy.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNodeId,org.jetbrains.mps.openapi.model.SModelReference)" resolve="SNodeProxy" />
+                    <node concept="2OqwBi" id="1cnyw9YZ3GR" role="37wK5m">
+                      <node concept="37vLTw" id="1cnyw9YZ3GS" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1cnyw9YZ2QV" resolve="node" />
+                      </node>
+                      <node concept="liA8E" id="1cnyw9YZ3GT" role="2OqNvi">
+                        <ref role="37wK5l" to="ec5l:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="1cnyw9YZ3GU" role="37wK5m">
+                      <node concept="2OqwBi" id="1cnyw9YZ3GV" role="2Oq$k0">
+                        <node concept="37vLTw" id="1cnyw9YZ3GW" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1cnyw9YZ2QV" resolve="node" />
+                        </node>
+                        <node concept="liA8E" id="1cnyw9YZ3GX" role="2OqNvi">
+                          <ref role="37wK5l" to="ec5l:~SNode.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1cnyw9YZ3GY" role="2OqNvi">
+                        <ref role="37wK5l" to="ec5l:~SModel.getReference():org.jetbrains.mps.openapi.model.SModelReference" resolve="getReference" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1cnyw9YZ2QE" role="3cqZAp">
+          <node concept="2OqwBi" id="1cnyw9YZ4cq" role="3cqZAk">
+            <node concept="2OqwBi" id="1cnyw9YZ3PM" role="2Oq$k0">
+              <node concept="37vLTw" id="1cnyw9YZ3O2" role="2Oq$k0">
+                <ref role="3cqZAo" node="1cnyw9YZ3G$" resolve="trackedNode" />
+              </node>
+              <node concept="liA8E" id="1cnyw9YZ4aq" role="2OqNvi">
+                <ref role="37wK5l" to="nfns:~TracedNode.getInputNode():jetbrains.mps.smodel.tracing.nodes.SNodeProxy" resolve="getInputNode" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1cnyw9YZ4Md" role="2OqNvi">
+              <ref role="37wK5l" to="hv0r:~SNodeProxy.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1cnyw9YZ2QT" role="1B3o_S" />
+      <node concept="3uibUv" id="1cnyw9YZ3cM" role="3clF45">
+        <ref role="3uigEE" to="ec5l:~SNode" resolve="SNode" />
+      </node>
+      <node concept="37vLTG" id="1cnyw9YZ2QV" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3uibUv" id="1cnyw9YZ2QW" role="1tU5fm">
+          <ref role="3uigEE" to="ec5l:~SNode" resolve="SNode" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1cnyw9YZ2y1" role="jymVt" />
+    <node concept="2tJIrI" id="1cnyw9YZ2F$" role="jymVt" />
     <node concept="2YIFZL" id="4dLPB5zyAAP" role="jymVt">
       <property role="TrG5h" value="nodeIsCopyFromHigherModel" />
       <property role="od$2w" value="false" />
@@ -467,33 +545,46 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="4dLPB5z_$BL" role="3clFbw">
-                    <node concept="2OqwBi" id="4dLPB5z_xzH" role="2Oq$k0">
-                      <node concept="2OqwBi" id="4dLPB5z_wm6" role="2Oq$k0">
-                        <node concept="2GrUjf" id="4dLPB5z_wlp" role="2Oq$k0">
-                          <ref role="2Gs0qQ" node="4dLPB5z_wbQ" resolve="outputNode" />
+                  <node concept="1Wc70l" id="2UoM3FoDU9E" role="3clFbw">
+                    <node concept="2OqwBi" id="4dLPB5z_$BL" role="3uHU7w">
+                      <node concept="2OqwBi" id="4dLPB5z_xzH" role="2Oq$k0">
+                        <node concept="2OqwBi" id="4dLPB5z_wm6" role="2Oq$k0">
+                          <node concept="2GrUjf" id="4dLPB5z_wlp" role="2Oq$k0">
+                            <ref role="2Gs0qQ" node="4dLPB5z_wbQ" resolve="outputNode" />
+                          </node>
+                          <node concept="liA8E" id="4dLPB5z_xux" role="2OqNvi">
+                            <ref role="37wK5l" to="hv0r:~SNodeProxy.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+                          </node>
                         </node>
-                        <node concept="liA8E" id="4dLPB5z_xux" role="2OqNvi">
-                          <ref role="37wK5l" to="hv0r:~SNodeProxy.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+                        <node concept="liA8E" id="4dLPB5z_$ye" role="2OqNvi">
+                          <ref role="37wK5l" to="ec5l:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
                         </node>
                       </node>
-                      <node concept="liA8E" id="4dLPB5z_$ye" role="2OqNvi">
-                        <ref role="37wK5l" to="ec5l:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                      <node concept="liA8E" id="4dLPB5z_Ag6" role="2OqNvi">
+                        <ref role="37wK5l" to="e2lb:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                        <node concept="2OqwBi" id="4dLPB5z_Am9" role="37wK5m">
+                          <node concept="2OqwBi" id="4dLPB5z_Ama" role="2Oq$k0">
+                            <node concept="37vLTw" id="4dLPB5z_Amb" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4dLPB5z5SjZ" resolve="trackedNode" />
+                            </node>
+                            <node concept="liA8E" id="4dLPB5z_Amc" role="2OqNvi">
+                              <ref role="37wK5l" to="nfns:~TracedNode.getNode():jetbrains.mps.smodel.tracing.nodes.SNodeProxy" resolve="getNode" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="4dLPB5z_Amd" role="2OqNvi">
+                            <ref role="37wK5l" to="hv0r:~SNodeProxy.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                          </node>
+                        </node>
                       </node>
                     </node>
-                    <node concept="liA8E" id="4dLPB5z_Ag6" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~Object.equals(java.lang.Object):boolean" resolve="equals" />
-                      <node concept="2OqwBi" id="4dLPB5z_Am9" role="37wK5m">
-                        <node concept="2OqwBi" id="4dLPB5z_Ama" role="2Oq$k0">
-                          <node concept="37vLTw" id="4dLPB5z_Amb" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4dLPB5z5SjZ" resolve="trackedNode" />
-                          </node>
-                          <node concept="liA8E" id="4dLPB5z_Amc" role="2OqNvi">
-                            <ref role="37wK5l" to="nfns:~TracedNode.getNode():jetbrains.mps.smodel.tracing.nodes.SNodeProxy" resolve="getNode" />
-                          </node>
+                    <node concept="3y3z36" id="2UoM3FoDUqO" role="3uHU7B">
+                      <node concept="10Nm6u" id="2UoM3FoDU$0" role="3uHU7w" />
+                      <node concept="2OqwBi" id="2UoM3FoDUkI" role="3uHU7B">
+                        <node concept="2GrUjf" id="2UoM3FoDUkJ" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="4dLPB5z_wbQ" resolve="outputNode" />
                         </node>
-                        <node concept="liA8E" id="4dLPB5z_Amd" role="2OqNvi">
-                          <ref role="37wK5l" to="hv0r:~SNodeProxy.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                        <node concept="liA8E" id="2UoM3FoDUkK" role="2OqNvi">
+                          <ref role="37wK5l" to="hv0r:~SNodeProxy.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
                         </node>
                       </node>
                     </node>
@@ -511,10 +602,23 @@
             </node>
           </node>
           <node concept="1Wc70l" id="4dLPB5z5Sjz" role="3clFbw">
-            <node concept="3y3z36" id="4dLPB5z5Sj$" role="3uHU7B">
-              <node concept="10Nm6u" id="4dLPB5z5Sj_" role="3uHU7w" />
-              <node concept="37vLTw" id="4dLPB5z5SjA" role="3uHU7B">
-                <ref role="3cqZAo" node="4dLPB5z5SjZ" resolve="trackedNode" />
+            <node concept="1Wc70l" id="2UoM3FoDU_V" role="3uHU7B">
+              <node concept="3y3z36" id="4dLPB5z5Sj$" role="3uHU7B">
+                <node concept="37vLTw" id="4dLPB5z5SjA" role="3uHU7B">
+                  <ref role="3cqZAo" node="4dLPB5z5SjZ" resolve="trackedNode" />
+                </node>
+                <node concept="10Nm6u" id="4dLPB5z5Sj_" role="3uHU7w" />
+              </node>
+              <node concept="3y3z36" id="2UoM3FoDUDw" role="3uHU7w">
+                <node concept="10Nm6u" id="2UoM3FoDUFs" role="3uHU7w" />
+                <node concept="2OqwBi" id="2UoM3FoDUBu" role="3uHU7B">
+                  <node concept="37vLTw" id="2UoM3FoDUBv" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4dLPB5z5SjZ" resolve="trackedNode" />
+                  </node>
+                  <node concept="liA8E" id="2UoM3FoDUBw" role="2OqNvi">
+                    <ref role="37wK5l" to="nfns:~TracedNode.getNode():jetbrains.mps.smodel.tracing.nodes.SNodeProxy" resolve="getNode" />
+                  </node>
+                </node>
               </node>
             </node>
             <node concept="3y3z36" id="4dLPB5z5SjB" role="3uHU7w">
