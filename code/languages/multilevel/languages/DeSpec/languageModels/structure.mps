@@ -704,27 +704,6 @@
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6hWVX3uH_b">
-    <property role="TrG5h" value="LiftChildValueFromTextAnnoation" />
-    <property role="3GE5qa" value="used" />
-    <ref role="1TJDcQ" node="1aQJbq2$D_V" resolve="GenDebugAnnotation" />
-    <node concept="1TJgyi" id="6hWVX3uH_f" role="1TKVEl">
-      <property role="TrG5h" value="category" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="M6xJ_" id="6hWVX3uH_g" role="lGtFl">
-      <property role="Hh88m" value="liftChildValueFromText" />
-      <node concept="trNpa" id="6hWVX3uH_h" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
-    </node>
-    <node concept="PrWs8" id="6hWVX3uH_i" role="PzmwI">
-      <ref role="PrY4T" node="3BCiriJMpdJ" resolve="NameLiftingAnnotation" />
-    </node>
-    <node concept="PrWs8" id="6hWVX3uH_k" role="PzmwI">
-      <ref role="PrY4T" node="6hWVX3ure$" resolve="TextGenReducedValue" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1qRlgEuP$Eb">
     <property role="3GE5qa" value="used" />
     <property role="TrG5h" value="ReducedToNameAnnotation" />

@@ -1563,26 +1563,6 @@
       <node concept="l2Vlx" id="6hWVX3isVi" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="6hWVX4nouP">
-    <property role="3GE5qa" value="used" />
-    <ref role="1XX52x" to="k6mm:6hWVX3uH_b" resolve="LiftChildValueFromTextAnnoation" />
-    <node concept="3EZMnI" id="6hWVX4noF5" role="2wV5jI">
-      <node concept="3EZMnI" id="6hWVX4noF6" role="3EZMnx">
-        <node concept="VPM3Z" id="6hWVX4noF7" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="3F0ifn" id="6hWVX4noF8" role="3EZMnx">
-          <property role="3F0ifm" value="@ChildValueLifter" />
-          <node concept="30gYXW" id="6hWVX4noF9" role="3F10Kt">
-            <property role="Vb096" value="cyan" />
-          </node>
-        </node>
-        <node concept="2iRfu4" id="6hWVX4noFf" role="2iSdaV" />
-      </node>
-      <node concept="2SsqMj" id="6hWVX4noFg" role="3EZMnx" />
-      <node concept="2iRkQZ" id="6hWVX4noFh" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1qRlgEuP$Hc">
     <property role="3GE5qa" value="used" />
     <ref role="1XX52x" to="k6mm:1qRlgEuP$Eb" resolve="ReducedToNameAnnotation" />
