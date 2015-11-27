@@ -61,6 +61,7 @@
         <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
+      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -78,6 +79,9 @@
         <property id="5911785528834333590" name="extensionName" index="20vvCb" />
         <child id="8029776554053057803" name="objectType" index="luc8K" />
       </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -124,5 +128,37 @@
     <node concept="3Tm1VV" id="7B__YhMLdg6" role="1B3o_S" />
   </node>
   <node concept="2DaZZR" id="7SijymUuxco" />
+  <node concept="vrV6u" id="1fTJB2YJ$c2">
+    <property role="20vvCb" value="ValueCopierProvider" />
+    <node concept="3uibUv" id="1fTJB2YJ_m5" role="luc8K">
+      <ref role="3uigEE" node="1fTJB2YJ$da" resolve="IContributeValueCopier" />
+    </node>
+  </node>
+  <node concept="3HP615" id="1fTJB2YJ$da">
+    <property role="TrG5h" value="IContributeValueCopier" />
+    <node concept="3clFb_" id="1fTJB2YJ$eA" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="canContributeValueCopierFor" />
+      <node concept="37vLTG" id="1fTJB2YJ$eB" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="1fTJB2YJ_fI" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="1fTJB2YJ$eD" role="3clF45" />
+      <node concept="3Tm1VV" id="1fTJB2YJ$eE" role="1B3o_S" />
+      <node concept="3clFbS" id="1fTJB2YJ$eF" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1fTJB2YJ$eG" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="contributeValueCopier" />
+      <node concept="37vLTG" id="1fTJB2YKy8p" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="1fTJB2YKy8q" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="1fTJB2YJ$eK" role="1B3o_S" />
+      <node concept="3clFbS" id="1fTJB2YJ$eL" role="3clF47" />
+      <node concept="3cqZAl" id="7qK9dugzmqX" role="3clF45" />
+    </node>
+    <node concept="3Tm1VV" id="1fTJB2YJ$db" role="1B3o_S" />
+  </node>
 </model>
 

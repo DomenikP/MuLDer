@@ -214,5 +214,11 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="PlHQZ" id="PjpCzdQT6j">
+    <property role="TrG5h" value="WatchDeclarationScope" />
+  </node>
+  <node concept="PlHQZ" id="PjpCze5iKR">
+    <property role="TrG5h" value="LiftWatchValueFromText" />
+  </node>
 </model>
 
