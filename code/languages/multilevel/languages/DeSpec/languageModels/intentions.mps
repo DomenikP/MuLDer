@@ -8,11 +8,12 @@
   <imports>
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" />
     <import index="clbe" ref="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
-    <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" implicit="true" />
+    <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
+    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1256,6 +1257,130 @@
             <node concept="2Sf5sV" id="6akUDvcTbuM" role="2Oq$k0" />
             <node concept="2qgKlT" id="6akUDvcTc1n" role="2OqNvi">
               <ref role="37wK5l" to="tpcu:hEwIMij" resolve="isInTemplates" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1Tdy8hTVt$Y">
+    <property role="TrG5h" value="ToggleCreateWatchScopr" />
+    <ref role="2ZfgGC" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
+    <node concept="2S6ZIM" id="1Tdy8hTVt$Z" role="2ZfVej">
+      <node concept="3clFbS" id="1Tdy8hTVt_0" role="2VODD2">
+        <node concept="3clFbF" id="1Tdy8hTVu0a" role="3cqZAp">
+          <node concept="Xl_RD" id="1Tdy8hTVu09" role="3clFbG">
+            <property role="Xl_RC" value="Toggle create WatchScope" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1Tdy8hTVt_1" role="2ZfgGD">
+      <node concept="3clFbS" id="1Tdy8hTVt_2" role="2VODD2">
+        <node concept="3clFbJ" id="1Tdy8hTVvu1" role="3cqZAp">
+          <node concept="3clFbS" id="1Tdy8hTVvu3" role="3clFbx">
+            <node concept="3clFbF" id="1Tdy8hTVvOe" role="3cqZAp">
+              <node concept="2OqwBi" id="1Tdy8hTVvRi" role="3clFbG">
+                <node concept="2OqwBi" id="1Tdy8hTVvOg" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="1Tdy8hTVvOh" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="1Tdy8hTVvOi" role="2OqNvi">
+                    <node concept="3CFYIy" id="1Tdy8hTVvOj" role="3CFYIz">
+                      <ref role="3CFYIx" to="vu5z:1Tdy8hTRTMd" resolve="WatchLifterScopeSpecification" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="zfrQC" id="1Tdy8hTVwi3" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1Tdy8hTVvz0" role="3clFbw">
+            <node concept="2OqwBi" id="1Tdy8hTVuWa" role="2Oq$k0">
+              <node concept="2Sf5sV" id="1Tdy8hTVuTg" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="1Tdy8hTVvo4" role="2OqNvi">
+                <node concept="3CFYIy" id="1Tdy8hTVvrH" role="3CFYIz">
+                  <ref role="3CFYIx" to="vu5z:1Tdy8hTRTMd" resolve="WatchLifterScopeSpecification" />
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="1Tdy8hTVvJY" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="1Tdy8hTVvM2" role="9aQIa">
+            <node concept="3clFbS" id="1Tdy8hTVvM3" role="9aQI4">
+              <node concept="3clFbF" id="1Tdy8hTVwld" role="3cqZAp">
+                <node concept="2OqwBi" id="1Tdy8hTVwog" role="3clFbG">
+                  <node concept="2OqwBi" id="1Tdy8hTVwlf" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="1Tdy8hTVwlg" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="1Tdy8hTVwlh" role="2OqNvi">
+                      <node concept="3CFYIy" id="1Tdy8hTVwli" role="3CFYIz">
+                        <ref role="3CFYIx" to="vu5z:1Tdy8hTRTMd" resolve="WatchLifterScopeSpecification" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1PgB_6" id="1Tdy8hTVwLl" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1CCsFHtgyNk">
+    <property role="TrG5h" value="ToggleLiftChildren2Watches" />
+    <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2S6ZIM" id="1CCsFHtgyNl" role="2ZfVej">
+      <node concept="3clFbS" id="1CCsFHtgyNm" role="2VODD2">
+        <node concept="3clFbF" id="1CCsFHtgz4L" role="3cqZAp">
+          <node concept="Xl_RD" id="1CCsFHtgz4K" role="3clFbG">
+            <property role="Xl_RC" value="Toggle Lift Children 2 Watches" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1CCsFHtgyNn" role="2ZfgGD">
+      <node concept="3clFbS" id="1CCsFHtgyNo" role="2VODD2">
+        <node concept="3clFbJ" id="1CCsFHtgzkg" role="3cqZAp">
+          <node concept="3clFbS" id="1CCsFHtgzkh" role="3clFbx">
+            <node concept="3clFbF" id="1CCsFHtg$ki" role="3cqZAp">
+              <node concept="2OqwBi" id="1CCsFHtg$kk" role="3clFbG">
+                <node concept="2OqwBi" id="1CCsFHtg$kl" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="1CCsFHtg$km" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="1CCsFHtg$kn" role="2OqNvi">
+                    <node concept="3CFYIy" id="1CCsFHtg$ko" role="3CFYIz">
+                      <ref role="3CFYIx" to="k6mm:1CCsFHtcva8" resolve="LiftChildren2Watches" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="zfrQC" id="1CCsFHtg$LX" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1CCsFHtgzP_" role="3clFbw">
+            <node concept="2OqwBi" id="1CCsFHtgzDZ" role="2Oq$k0">
+              <node concept="2Sf5sV" id="1CCsFHtgzkz" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="1CCsFHtgzJP" role="2OqNvi">
+                <node concept="3CFYIy" id="1CCsFHtgzLv" role="3CFYIz">
+                  <ref role="3CFYIx" to="k6mm:1CCsFHtcva8" resolve="LiftChildren2Watches" />
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="1CCsFHtg$iz" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="1CCsFHtg$MQ" role="9aQIa">
+            <node concept="3clFbS" id="1CCsFHtg$MR" role="9aQI4">
+              <node concept="3clFbF" id="1CCsFHtg$P5" role="3cqZAp">
+                <node concept="2OqwBi" id="1CCsFHtg$P6" role="3clFbG">
+                  <node concept="2OqwBi" id="1CCsFHtg$P7" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="1CCsFHtg$P8" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="1CCsFHtg$P9" role="2OqNvi">
+                      <node concept="3CFYIy" id="1CCsFHtg$Pa" role="3CFYIz">
+                        <ref role="3CFYIx" to="k6mm:1CCsFHtcva8" resolve="LiftChildren2Watches" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1PgB_6" id="1CCsFHtg_ja" role="2OqNvi" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

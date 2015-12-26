@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/MultiLevel.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.TextGen/DeSpec.TextGen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/GenerationTraceLang/GenerationTraceLang.mpl" folder="generationTrace" />
       <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="component.atomic" />
