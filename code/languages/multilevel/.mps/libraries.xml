@@ -3,10 +3,10 @@
   <component name="ProjectLibraryManager">
     <option name="libraries">
       <map>
-        <entry key="mbeddr">
+        <entry key="mpsutil">
           <value>
             <Library>
-              <option name="name" value="mbeddr" />
+              <option name="name" value="mpsutil" />
               <option name="path" value="$PROJECT_DIR$/../../../../mbeddr.core.phd/code/languages" />
             </Library>
           </value>

@@ -108,8 +108,12 @@
       </concept>
     </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
+      <concept id="3788988821851860886" name="com.mbeddr.core.modules.structure.GlobalConstantDeclaration" flags="ng" index="4WHVk" />
       <concept id="8967919205527146149" name="com.mbeddr.core.modules.structure.ReturnStatement" flags="ng" index="2BFjQ_">
         <child id="8967919205527146150" name="expression" index="2BFjQA" />
+      </concept>
+      <concept id="3376775282622142916" name="com.mbeddr.core.modules.structure.AbstractDefineLike" flags="ng" index="2DRUVY">
+        <child id="3376775282622233992" name="value" index="2DQcEM" />
       </concept>
       <concept id="8105003328814797298" name="com.mbeddr.core.modules.structure.IFunctionLike" flags="ng" index="2H9T1B">
         <child id="5708867820623310661" name="arguments" index="1UOdpc" />
@@ -232,8 +236,14 @@
     <node concept="2NXPZ9" id="6xhsDCu1jyb" role="N3F5h">
       <property role="TrG5h" value="empty_1443283189220_5" />
     </node>
-    <node concept="2NXPZ9" id="512cLuR$J$c" role="N3F5h">
-      <property role="TrG5h" value="empty_1443795594308_1" />
+    <node concept="4WHVk" id="1uxqFoIIrst" role="N3F5h">
+      <property role="TrG5h" value="bla123" />
+      <node concept="3TlMh9" id="1uxqFoIIrx7" role="2DQcEM">
+        <property role="2hmy$m" value="0123123" />
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="1uxqFoIIrzS" role="N3F5h">
+      <property role="TrG5h" value="empty_1451309441025_1" />
     </node>
     <node concept="1ns6lU" id="512cLuR$Q5F" role="N3F5h">
       <property role="TrG5h" value="sm" />

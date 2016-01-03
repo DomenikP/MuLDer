@@ -12,6 +12,7 @@
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec" version="0" />
     <use id="558e8d91-d211-4de0-b141-9a8b8f04b79d" name="multiLevel.debugger" version="0" />
+    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
@@ -121,6 +122,7 @@
       </concept>
     </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
+      <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -208,13 +210,6 @@
         <child id="8375407818529178007" name="text" index="OjmMu" />
       </concept>
     </language>
-    <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
-      <concept id="1216860049627" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" flags="nn" index="1iwH70">
-        <reference id="1216860049628" name="label" index="1iwH77" />
-        <child id="1216860049632" name="inputNode" index="1iwH7V" />
-      </concept>
-      <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
-    </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
       <concept id="8105003328814797298" name="com.mbeddr.core.modules.structure.IFunctionLike" flags="ng" index="2H9T1B">
         <child id="5708867820623310661" name="arguments" index="1UOdpc" />
@@ -236,21 +231,25 @@
         <reference id="2093108837558505659" name="arg" index="3ZUYvu" />
       </concept>
     </language>
+    <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
+      <concept id="3906148130290742821" name="DeSpec.Model.structure.GeneratedDelegatedValueLifterFromModel" flags="ng" index="1kf5Gy">
+        <reference id="3906148130290949809" name="delegatetoNodeSpec" index="1kejeQ" />
+      </concept>
+      <concept id="3906148130290742816" name="DeSpec.Model.structure.GeneratedValueLifterFromModel" flags="ng" index="1kf5GB">
+        <reference id="3906148130290944737" name="valueLifterSpec" index="1keivA" />
+      </concept>
+    </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
     </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
-      <concept id="3909489298402427250" name="DeSpec.structure.ValueLifterFromGenAnnotation" flags="ng" index="22dCEZ">
-        <reference id="3909489298402427425" name="lifter" index="22dCBG" />
-      </concept>
-      <concept id="1348472630505294351" name="DeSpec.structure.LiftWatchFromGenAnnoation" flags="ng" index="2gb7qT">
+      <concept id="1348472630505294351" name="DeSpec.structure.LiftVariableFromModel" flags="ng" index="2gb7qT">
         <child id="9087321911352575793" name="watchSpec" index="3bPY0g" />
       </concept>
       <concept id="7879092975090976563" name="DeSpec.structure.LiftFrameFromGenAnnotation" flags="ng" index="2xMITz">
         <reference id="1375719954509214218" name="liftedTo" index="1HTVw8" />
         <child id="3357653677270346450" name="liftedToNode" index="3QSQbC" />
       </concept>
-      <concept id="2635294119723909647" name="DeSpec.structure.ValueLifterAnnotation" flags="ng" index="SgV05" />
       <concept id="2417103808885771640" name="DeSpec.structure.LiftToWatchFunctionReference" flags="ng" index="2SqwDz">
         <reference id="2417103808885772834" name="function" index="2SqxkT" />
       </concept>
@@ -599,12 +598,68 @@
                 </node>
               </node>
             </node>
-            <node concept="22dCEZ" id="EB4Z4XZ1$o" role="lGtFl">
-              <ref role="22dCBG" to="kvk0:2OE55iPuSVu" />
+            <node concept="1kf5GB" id="3oPrgtyIHyC" role="lGtFl">
+              <ref role="1keivA" to="kvk0:3oPrgtyIJWM" resolve="structType2SM" />
             </node>
           </node>
           <node concept="2NXPZ9" id="6xhsDCueqTG" role="N3F5h">
             <property role="TrG5h" value="empty_1443359021501_7" />
+          </node>
+          <node concept="1sgJKc" id="6JLH6ZJHQ09" role="N3F5h">
+            <property role="TrG5h" value="bla" />
+            <node concept="1dpRTG" id="6JLH6ZJHQLO" role="HszBJ">
+              <property role="TrG5h" value="bla2" />
+              <node concept="1sgJKr" id="6JLH6ZJHQLN" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+                <ref role="1sgJKq" node="6JLH6ZJHQp0" resolve="bla2" />
+              </node>
+            </node>
+          </node>
+          <node concept="1sgJKc" id="6JLH6ZJHQp0" role="N3F5h">
+            <property role="TrG5h" value="bla2" />
+            <node concept="1dpRTG" id="6JLH6ZJHQMb" role="HszBJ">
+              <property role="TrG5h" value="name" />
+              <node concept="Pu267" id="6JLH6ZJHQMa" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="N3Fnx" id="6JLH6ZJHQMH" role="N3F5h">
+            <property role="TrG5h" value="dummy" />
+            <node concept="19Rifw" id="6JLH6ZJHQMI" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+            <node concept="3XIRFW" id="6JLH6ZJHQMJ" role="3XIRFX">
+              <node concept="3XIRlf" id="6JLH6ZJHRcs" role="3XIRFZ">
+                <property role="TrG5h" value="bla" />
+                <node concept="1sgJKr" id="6JLH6ZJHRcr" role="2C2TGm">
+                  <property role="2caQfQ" value="false" />
+                  <property role="2c7vTL" value="false" />
+                  <ref role="1sgJKq" node="6JLH6ZJHQ09" resolve="bla" />
+                </node>
+              </node>
+              <node concept="1_9egQ" id="6JLH6ZJHRm7" role="3XIRFZ">
+                <node concept="2qmXGp" id="6JLH6ZJI23j" role="1_9egR">
+                  <node concept="1E4Tgc" id="6JLH6ZJI24K" role="1ESnxz">
+                    <ref role="1E4Tge" node="6JLH6ZJHQMb" resolve="name" />
+                  </node>
+                  <node concept="2qmXGp" id="6JLH6ZJHRmi" role="1_9fRO">
+                    <node concept="1E4Tgc" id="6JLH6ZJHUeg" role="1ESnxz">
+                      <ref role="1E4Tge" node="6JLH6ZJHQLO" resolve="bla2" />
+                    </node>
+                    <node concept="3ZVu4v" id="6JLH6ZJHRm5" role="1_9fRO">
+                      <ref role="3ZVs_2" node="6JLH6ZJHRcs" resolve="bla" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2NXPZ9" id="6JLH6ZJHPgK" role="N3F5h">
+            <property role="TrG5h" value="empty_1451745817963_3" />
           </node>
           <node concept="N3Fnx" id="6xhsDCuelSc" role="N3F5h">
             <property role="TrG5h" value="sm_function" />
@@ -1264,29 +1319,8 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="SgV05" id="4JWsYZwnqC4" role="lGtFl">
-                    <node concept="1ZhdrF" id="4JWsYZwqE3V" role="lGtFl">
-                      <property role="P3scX" value="11a0cd79-9f2e-4665-a280-57a3cc526924/2635294119723909647/4584005496525628898" />
-                      <property role="2qtEX8" value="delegateToNodeWithValueLifter" />
-                      <node concept="3$xsQk" id="4JWsYZwqE3W" role="3$ytzL">
-                        <node concept="3clFbS" id="4JWsYZwqE3X" role="2VODD2">
-                          <node concept="3clFbF" id="4JWsYZwrndK" role="3cqZAp">
-                            <node concept="2OqwBi" id="4JWsYZwrnG0" role="3clFbG">
-                              <node concept="1iwH7S" id="4JWsYZwrndI" role="2Oq$k0" />
-                              <node concept="1iwH70" id="4JWsYZws$9z" role="2OqNvi">
-                                <ref role="1iwH77" node="4JWsYZwqMGz" resolve="smSateStruct" />
-                                <node concept="2OqwBi" id="4JWsYZws$QT" role="1iwH7V">
-                                  <node concept="30H73N" id="4JWsYZws$um" role="2Oq$k0" />
-                                  <node concept="3TrEf2" id="4JWsYZws_KD" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="8glu:1X5iFxIvrkv" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
+                  <node concept="1kf5Gy" id="3oPrgtyIwsr" role="lGtFl">
+                    <ref role="1kejeQ" to="kvk0:3oPrgtyIxpg" resolve="structType2SMType" />
                   </node>
                 </node>
               </node>

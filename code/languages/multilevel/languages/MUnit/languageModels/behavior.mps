@@ -33,6 +33,7 @@
     <import index="srng" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
     <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(multiLevel.debugger.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -174,6 +175,17 @@
       </concept>
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
+      </concept>
+    </language>
+    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
+      <concept id="1702759464837006377" name="DeSpec.structure.AnyValue" flags="ng" index="SayUv" />
+      <concept id="1702759464834101140" name="DeSpec.structure.ValueSpec" flags="ng" index="SZSky">
+        <reference id="1702759464835204891" name="concept" index="SNEQH" />
+        <child id="1702759464835204951" name="valueSpec" index="SNERx" />
+      </concept>
+      <concept id="1702759464834101671" name="DeSpec.structure.ComplexValueSpec" flags="ng" index="SZTGh">
+        <property id="1702759464834113558" name="cardinality" index="SZ$Ew" />
+        <child id="1702759464834101675" name="childValue" index="SZTGt" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -763,6 +775,13 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="SZSky" id="1uxqFoJrWiu">
+    <ref role="SNEQH" to="yq40:fwMInzpHoK" resolve="PointerType" />
+    <node concept="SZTGh" id="1uxqFoJwv23" role="SNERx">
+      <property role="SZ$Ew" value="0..n" />
+      <node concept="SayUv" id="1uxqFoJC6pM" role="SZTGt" />
     </node>
   </node>
 </model>
