@@ -11,6 +11,7 @@
     <use id="558e8d91-d211-4de0-b141-9a8b8f04b79d" name="multiLevel.debugger" version="0" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="0" />
     <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="0" />
+    <use id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="Tracing" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -55,9 +56,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -96,7 +94,6 @@
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -245,6 +242,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="Tracing">
+      <concept id="71553305893445776" name="Tracing.structure.GetCopyFromHigherLevelOperation" flags="ng" index="14HDna" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
@@ -540,10 +540,9 @@
                       <ref role="1sh8R3" to="k6mm:26bhLIpoJtK" />
                       <node concept="1PxgMI" id="26bhLIqHh98" role="1sh8R0">
                         <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
-                        <node concept="2YIFZM" id="26bhLIqHh99" role="1PxMeX">
-                          <ref role="1Pybhc" to="3dui:4dLPB5z5fnx" resolve="TracingHelper" />
-                          <ref role="37wK5l" to="3dui:1cnyw9YZ2QC" resolve="getCopyFromHigheModel" />
-                          <node concept="13iPFW" id="26bhLIqHh9a" role="37wK5m" />
+                        <node concept="2OqwBi" id="3YdlD4ij48" role="1PxMeX">
+                          <node concept="13iPFW" id="3YdlD4ij02" role="2Oq$k0" />
+                          <node concept="14HDna" id="3YdlD4ik_J" role="2OqNvi" />
                         </node>
                       </node>
                     </node>
@@ -746,7 +745,7 @@
         <node concept="3clFbS" id="6yZAKJ4VI7u" role="2VODD2">
           <node concept="3clFbF" id="6yZAKJ4VI7v" role="3cqZAp">
             <node concept="2OqwBi" id="6yZAKJ4VI7x" role="3clFbG">
-              <node concept="2Z9qAU" id="6yZAKJ4VI7y" role="2Oq$k0" />
+              <node concept="2Z9qAU" id="3YdlD5reI9" role="2Oq$k0" />
               <node concept="3TrcHB" id="744CwxmJK72" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
@@ -758,7 +757,7 @@
         <node concept="3clFbS" id="6yZAKJ4VI7A" role="2VODD2">
           <node concept="3clFbF" id="6yZAKJ4VI7B" role="3cqZAp">
             <node concept="2OqwBi" id="6yZAKJ4VI7D" role="3clFbG">
-              <node concept="2Z9qAU" id="6yZAKJ4VI7E" role="2Oq$k0" />
+              <node concept="2Z9qAU" id="3YdlD5rePi" role="2Oq$k0" />
               <node concept="3Tsc0h" id="744CwxmJLCy" role="2OqNvi">
                 <ref role="3TtcxE" to="clbe:6a5SBPfXXIi" />
               </node>
@@ -795,7 +794,7 @@
         </node>
       </node>
     </node>
-    <node concept="2rWMFC" id="7MFNr6D7qdw" role="2rTOVQ">
+    <node concept="2rWMFC" id="3YdlD5rAEd" role="2rTOVQ">
       <property role="3PfiGH" value="1" />
       <ref role="2rWLPz" to="clbe:7D99css6O15" resolve="EnumType" />
     </node>

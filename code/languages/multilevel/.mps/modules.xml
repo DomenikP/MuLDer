@@ -18,12 +18,14 @@
       <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.efficient/MUnit.gen.efficient.mpl" folder="unit" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit/MUnit.mpl" folder="unit" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit/sandbox/MUnit.sandbox.msd" folder="unit" />
+      <modulePath path="$PROJECT_DIR$/languages/Tracing/Tracing.mpl" folder="tracing" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/multiLevel.debugger/multiLevel.debugger.mpl" folder="debugger.generationTrace" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.pluginSolution/DeSpec.pluginSolution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.runtime/DeSpec.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/GenerationTrace/GenerationTrace.msd" folder="generationTrace" />
+      <modulePath path="$PROJECT_DIR$/solutions/Tracing.runtime/Tracing.runtime.msd" folder="tracing" />
       <modulePath path="$PROJECT_DIR$/solutions/multiLevel.backendProvider/multiLevel.backendProvider.msd" folder="debugger.generationTrace" />
       <modulePath path="$PROJECT_DIR$/solutions/multiLevel.runconfiguration/multiLevel.runconfiguration.msd" folder="debugger.generationTrace" />
       <modulePath path="$PROJECT_DIR$/solutions/test.debugging.munit/test.debugging.munit.msd" folder="" />

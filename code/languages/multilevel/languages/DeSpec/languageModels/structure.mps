@@ -12,8 +12,8 @@
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
     <import index="hpl9" ref="r:a565490e-12f3-492e-aa8d-d8392b54a1d4(DeSpec.mbeddr.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.Text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -106,32 +106,6 @@
       <node concept="trNpa" id="7QyIBdUMegt" role="EQaZv">
         <ref role="trN6q" to="tpee:fz3vP1J" resolve="Expression" />
       </node>
-    </node>
-  </node>
-  <node concept="1TIwiD" id="49lIkIod6tf">
-    <property role="TrG5h" value="LiftWatchFromTextAnnotation" />
-    <property role="3GE5qa" value="used" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="1TJgyj" id="10kQx64GNsA" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="kind" />
-      <ref role="20lvS9" node="10kQx64GLPW" resolve="VariableKind" />
-    </node>
-    <node concept="1TJgyi" id="6hWVX3cvnD" role="1TKVEl">
-      <property role="TrG5h" value="category" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="M6xJ_" id="49lIkIod6tA" role="lGtFl">
-      <property role="Hh88m" value="liftWatchFromTextGen" />
-      <node concept="trNpa" id="49lIkIod73s" role="EQaZv">
-        <ref role="trN6q" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
-      </node>
-      <node concept="tn0Fv" id="49lIkIod7iy" role="HhnKV">
-        <property role="tnX3d" value="false" />
-      </node>
-    </node>
-    <node concept="PrWs8" id="6hWVX3q_Pf" role="PzmwI">
-      <ref role="PrY4T" node="6hWVX3oosf" resolve="TextGenLifterAnnotation" />
     </node>
   </node>
   <node concept="1TIwiD" id="4YS6N2wOR45">
@@ -308,19 +282,6 @@
       <ref role="PrY4T" node="3EISKF075jw" resolve="IStackFramesDebugInformation" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1rHBIiJ8K$E">
-    <property role="TrG5h" value="LiftNameFromTextGenAnnotation" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="1rHBIiJ8K_B" role="lGtFl">
-      <property role="Hh88m" value="liftNameFromTextGen" />
-      <node concept="trNpa" id="1rHBIiJ8KEX" role="EQaZv">
-        <ref role="trN6q" to="tpee:fz3vP1J" resolve="Expression" />
-      </node>
-    </node>
-    <node concept="PrWs8" id="PjpCze410N" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3BCiriJn_2T">
     <property role="TrG5h" value="LiftVariableFromText" />
     <property role="34LRSv" value="WatchFromGen" />
@@ -329,7 +290,7 @@
     <node concept="1TJgyj" id="10kQx64GLPX" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="kind" />
-      <ref role="20lvS9" node="10kQx64GLPW" resolve="VariableKind" />
+      <ref role="20lvS9" to="vu5z:10kQx64GLPW" resolve="VariableKind" />
     </node>
     <node concept="1TJgyj" id="6j53_d3y2cE" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -433,26 +394,6 @@
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
-  <node concept="1TIwiD" id="PjpCze40Yc">
-    <property role="TrG5h" value="LiftValueFromTextGenAnnotation" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="1TJgyi" id="1qRlgEvnCWq" role="1TKVEl">
-      <property role="TrG5h" value="takeValueLifterFromTextGen" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="M6xJ_" id="PjpCze410L" role="lGtFl">
-      <property role="Hh88m" value="liftValueFromTextGen" />
-      <node concept="trNpa" id="PjpCze71Qb" role="EQaZv">
-        <ref role="trN6q" to="tpee:fz3vP1J" resolve="Expression" />
-      </node>
-    </node>
-    <node concept="PrWs8" id="PjpCze410T" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="6hWVX3ooFa" role="PzmwI">
-      <ref role="PrY4T" node="6hWVX3oosf" resolve="TextGenLifterAnnotation" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1vhuDACXcRd">
     <property role="TrG5h" value="ValueLifterFunction" />
     <property role="3GE5qa" value="valueLifter.external" />
@@ -468,35 +409,6 @@
     <property role="34LRSv" value="watchable" />
     <property role="3GE5qa" value="valueLifter.external" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
-  <node concept="1TIwiD" id="2iiswCs23Ce">
-    <property role="TrG5h" value="LiftValueFromTextAnnotation" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="1TJgyj" id="2iiswCsS1$B" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="lifter" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1aSLssz5BIE" resolve="IValueLifter" />
-    </node>
-    <node concept="M6xJ_" id="2iiswCs23Uz" role="lGtFl">
-      <property role="Hh88m" value="valueLifter" />
-      <node concept="trNpa" id="2iiswCs23U_" role="EQaZv">
-        <ref role="trN6q" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
-      </node>
-    </node>
-    <node concept="PrWs8" id="4JWsYZwzcs5" role="PzmwI">
-      <ref role="PrY4T" node="4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2iiswCsoixv">
-    <property role="TrG5h" value="InTextGenContainer" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="2iiswCsoixz" role="lGtFl">
-      <property role="Hh88m" value="inTextgenContainer" />
-      <node concept="trNpa" id="2iiswCsoix_" role="EQaZv">
-        <ref role="trN6q" to="tpee:fK9aQHR" resolve="BlockStatement" />
-      </node>
-    </node>
   </node>
   <node concept="1TIwiD" id="2iiswCsOs8f">
     <property role="TrG5h" value="LiftValueFromText" />
@@ -544,7 +456,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="function" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2iiswCt0B9E" resolve="ValueFromTextLifterDelegateFunction" />
+      <ref role="20lvS9" to="vu5z:3YdlD6O5h_" resolve="ValueFromTextLifterDelegateFunction" />
     </node>
     <node concept="PrWs8" id="1aSLssz5Dir" role="PzmwI">
       <ref role="PrY4T" node="1aSLssz5BIE" resolve="IValueLifter" />
@@ -560,10 +472,6 @@
       <property role="20kJfa" value="liftFrom" />
       <ref role="20lvS9" node="1uxqFoIPQWW" resolve="ILiftFrom" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="2iiswCt0B9E">
-    <property role="TrG5h" value="ValueFromTextLifterDelegateFunction" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="465Mcq_0qJD">
     <property role="19KtqR" value="true" />
@@ -1105,9 +1013,6 @@
       <ref role="PrY4T" node="6t$AXNjDNCZ" resolve="IGeneratedToJavaClass" />
     </node>
   </node>
-  <node concept="PlHQZ" id="10kQx64GLPW">
-    <property role="TrG5h" value="VariableKind" />
-  </node>
   <node concept="1TIwiD" id="4lU62XuRLE5">
     <property role="TrG5h" value="NodeError" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
@@ -1518,12 +1423,6 @@
     <property role="3GE5qa" value="lifting" />
     <property role="TrG5h" value="LiftToNodeFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-  </node>
-  <node concept="1TIwiD" id="6t$AXNjy_tT">
-    <property role="3GE5qa" value="lifting" />
-    <property role="TrG5h" value="InputNodeOperation" />
-    <property role="34LRSv" value="inputNode" />
-    <ref role="1TJDcQ" to="tp25:g$eCIIG" resolve="SNodeOperation" />
   </node>
   <node concept="PlHQZ" id="6t$AXNjDNCZ">
     <property role="TrG5h" value="IGeneratedToJavaClass" />

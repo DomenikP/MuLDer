@@ -3,6 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="Tracing" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -200,6 +203,9 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="Tracing">
+      <concept id="71553305890767469" name="Tracing.structure.IsCopyOperation" flags="ng" index="14SvsR" />
+    </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
@@ -241,15 +247,14 @@
       <ref role="13i0hy" to="yh8:2UoM3FonvDc" resolve="isValid" />
       <node concept="3Tm1VV" id="2UoM3FonvDd" role="1B3o_S" />
       <node concept="3clFbS" id="3oPrgty2mkZ" role="3clF47">
-        <node concept="3clFbF" id="1CCsFHtk$06" role="3cqZAp">
-          <node concept="3fqX7Q" id="1CCsFHtk$4c" role="3clFbG">
-            <node concept="2YIFZM" id="1CCsFHtk$08" role="3fr31v">
-              <ref role="1Pybhc" to="3dui:4dLPB5z5fnx" resolve="TracingHelper" />
-              <ref role="37wK5l" to="3dui:4dLPB5zyAAP" resolve="nodeIsCopyFromHigherModel" />
-              <node concept="2OqwBi" id="1CCsFHtk$09" role="37wK5m">
-                <node concept="13iPFW" id="1CCsFHtk$0a" role="2Oq$k0" />
-                <node concept="1mfA1w" id="1CCsFHtk$0b" role="2OqNvi" />
+        <node concept="3clFbF" id="3YdlD4i2N8" role="3cqZAp">
+          <node concept="3fqX7Q" id="3YdlD4i3$z" role="3clFbG">
+            <node concept="2OqwBi" id="3YdlD4i39B" role="3fr31v">
+              <node concept="2OqwBi" id="3YdlD4i2Na" role="2Oq$k0">
+                <node concept="13iPFW" id="3YdlD4i2Nb" role="2Oq$k0" />
+                <node concept="1mfA1w" id="3YdlD4i2Nc" role="2OqNvi" />
               </node>
+              <node concept="14SvsR" id="3YdlD4i3ga" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -682,15 +687,14 @@
       <ref role="13i0hy" to="yh8:2UoM3FonvDc" resolve="isValid" />
       <node concept="3Tm1VV" id="3oPrgty35T$" role="1B3o_S" />
       <node concept="3clFbS" id="3oPrgty35T_" role="3clF47">
-        <node concept="3clFbF" id="3oPrgty35TA" role="3cqZAp">
-          <node concept="3fqX7Q" id="3oPrgty35TB" role="3clFbG">
-            <node concept="2YIFZM" id="3oPrgty35TC" role="3fr31v">
-              <ref role="1Pybhc" to="3dui:4dLPB5z5fnx" resolve="TracingHelper" />
-              <ref role="37wK5l" to="3dui:4dLPB5zyAAP" resolve="nodeIsCopyFromHigherModel" />
-              <node concept="2OqwBi" id="3oPrgty35TD" role="37wK5m">
-                <node concept="13iPFW" id="3oPrgty35TE" role="2Oq$k0" />
-                <node concept="1mfA1w" id="3oPrgty35TF" role="2OqNvi" />
+        <node concept="3clFbF" id="3YdlD4hR5P" role="3cqZAp">
+          <node concept="3fqX7Q" id="3YdlD4hSrf" role="3clFbG">
+            <node concept="2OqwBi" id="3YdlD4hRM6" role="3fr31v">
+              <node concept="2OqwBi" id="3YdlD4hR9U" role="2Oq$k0">
+                <node concept="13iPFW" id="3YdlD4hR5N" role="2Oq$k0" />
+                <node concept="1mfA1w" id="3YdlD4hRtZ" role="2OqNvi" />
               </node>
+              <node concept="14SvsR" id="3YdlD4hSlP" role="2OqNvi" />
             </node>
           </node>
         </node>

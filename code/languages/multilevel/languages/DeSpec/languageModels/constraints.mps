@@ -292,28 +292,6 @@
     <property role="3GE5qa" value="used" />
     <ref role="1M2myG" to="k6mm:Vn$QVHoFbK" resolve="InlineFrameAnnotation" />
   </node>
-  <node concept="1M2fIO" id="1rHBIiJ8KRq">
-    <ref role="1M2myG" to="k6mm:1rHBIiJ8K$E" resolve="LiftNameFromTextGenAnnotation" />
-    <node concept="nKS2y" id="1qRlgEuSvRT" role="1MLUbF">
-      <node concept="3clFbS" id="1qRlgEuSvRU" role="2VODD2">
-        <node concept="3clFbF" id="1qRlgEuSw8p" role="3cqZAp">
-          <node concept="2OqwBi" id="1qRlgEuSvWx" role="3clFbG">
-            <node concept="2OqwBi" id="1qRlgEuSvWy" role="2Oq$k0">
-              <node concept="nLn13" id="1qRlgEuSvWz" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="1qRlgEuSvW$" role="2OqNvi">
-                <node concept="1xMEDy" id="1qRlgEuSvW_" role="1xVPHs">
-                  <node concept="chp4Y" id="1qRlgEuSvWA" role="ri$Ld">
-                    <ref role="cht4Q" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3x8VRR" id="1qRlgEuSvWB" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="2UoM3FovGNM">
     <ref role="1M2myG" to="k6mm:2UoM3FouUE3" resolve="InputNodeRef" />
     <node concept="nKS2y" id="2UoM3FovGNN" role="1MLUbF">
@@ -335,9 +313,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="1M2fIO" id="6hWVX3omjl">
-    <ref role="1M2myG" to="k6mm:PjpCze40Yc" resolve="LiftValueFromTextGenAnnotation" />
   </node>
   <node concept="1M2fIO" id="6hWVX3ooss">
     <property role="3GE5qa" value="used" />
