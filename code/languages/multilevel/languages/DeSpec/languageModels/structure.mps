@@ -13,6 +13,7 @@
     <import index="hpl9" ref="r:a565490e-12f3-492e-aa8d-d8392b54a1d4(DeSpec.mbeddr.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -85,6 +86,9 @@
       <node concept="trNpa" id="4Dfag9jPJT5" role="EQaZv">
         <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
+    </node>
+    <node concept="PrWs8" id="3EISKF07XOG" role="PzmwI">
+      <ref role="PrY4T" node="3EISKF07Uuf" resolve="IBreakpointsDebugInformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="7QyIBdUMe0l">
@@ -171,6 +175,9 @@
       <node concept="trNpa" id="6bdDYiEqKH6" role="EQaZv">
         <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
+    </node>
+    <node concept="PrWs8" id="3EISKF07KsH" role="PzmwI">
+      <ref role="PrY4T" node="3EISKF075jw" resolve="IStackFramesDebugInformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="Vn$QVHoFbK">
@@ -270,6 +277,11 @@
       <property role="20kJfa" value="liftedToNode" />
       <ref role="20lvS9" node="2UoM3FouUFh" resolve="LiftedTo" />
     </node>
+    <node concept="1TJgyj" id="6t$AXNkePky" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="liftToFunction" />
+      <ref role="20lvS9" node="6t$AXNka3dv" resolve="LiftToNodeReference" />
+    </node>
     <node concept="1TJgyj" id="1cnyw9YW38a" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftedTo" />
@@ -289,9 +301,15 @@
     <node concept="PrWs8" id="1SNQRForVQ4" role="PzmwI">
       <ref role="PrY4T" node="1SNQRForgqZ" resolve="FrameLifter" />
     </node>
+    <node concept="PrWs8" id="3EISKF0f_t5" role="PzmwI">
+      <ref role="PrY4T" node="3EISKF075jw" resolve="IStackFramesDebugInformation" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6qv77baQrPc">
     <property role="TrG5h" value="ILiftsCallStackAnnotation" />
+    <node concept="PrWs8" id="3EISKF07z_k" role="PrDN$">
+      <ref role="PrY4T" node="3EISKF075jw" resolve="IStackFramesDebugInformation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1rHBIiJ8K$E">
     <property role="TrG5h" value="LiftNameFromTextGenAnnotation" />
@@ -343,6 +361,9 @@
     <node concept="PrWs8" id="4lU62XvKcNO" role="PzmwI">
       <ref role="PrY4T" node="53P7aeD7Arx" resolve="IRequiresImports" />
     </node>
+    <node concept="PrWs8" id="7gtWUEopX5l" role="PzmwI">
+      <ref role="PrY4T" node="7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1aQJbq2yQP3">
     <property role="TrG5h" value="DebugAnnotation" />
@@ -378,6 +399,9 @@
         <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
     </node>
+    <node concept="PrWs8" id="7gtWUEopUIc" role="PzmwI">
+      <ref role="PrY4T" node="7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1cnyw9ZGDD8">
     <property role="TrG5h" value="InputNode" />
@@ -390,6 +414,11 @@
     <property role="TrG5h" value="InputNodeRef" />
     <property role="34LRSv" value="node" />
     <ref role="1TJDcQ" node="2UoM3FouUFh" resolve="LiftedTo" />
+    <node concept="1TJgyj" id="6t$AXNiRE16" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="inputFromNode" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2UoM3FouUE4">
     <property role="TrG5h" value="CanContributeStackFrameRef" />
@@ -425,32 +454,6 @@
     </node>
     <node concept="PrWs8" id="6hWVX3ooFa" role="PzmwI">
       <ref role="PrY4T" node="6hWVX3oosf" resolve="TextGenLifterAnnotation" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="1vhuDACVesS">
-    <property role="19KtqR" value="true" />
-    <property role="TrG5h" value="ExternalValueFromTextLifter" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1vhuDACVlZh" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="function" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1vhuDACXcRd" resolve="ValueLifterFunction" />
-    </node>
-    <node concept="1TJgyj" id="1vhuDACVesZ" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="concept" />
-      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-    </node>
-    <node concept="PrWs8" id="4JWsYZwze5R" role="PzmwI">
-      <ref role="PrY4T" node="4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
-    </node>
-    <node concept="PrWs8" id="1uxqFoHLa0u" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="1aSLssz5Diy" role="PzmwI">
-      <ref role="PrY4T" node="1aSLssz5BIE" resolve="IValueLifter" />
     </node>
   </node>
   <node concept="1TIwiD" id="1vhuDACXcRd">
@@ -498,16 +501,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="2iiswCspD06">
-    <property role="TrG5h" value="AddValueLifterStatement" />
-    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyj" id="2iiswCspD0a" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="valueLifter" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1vhuDACVesS" resolve="ExternalValueFromTextLifter" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2iiswCsOs8f">
     <property role="TrG5h" value="LiftValueFromText" />
     <property role="3GE5qa" value="valueLifter" />
@@ -535,6 +528,9 @@
     </node>
     <node concept="PrWs8" id="1uxqFoJa2Fn" role="PzmwI">
       <ref role="PrY4T" node="1uxqFoJa2Aa" resolve="ValueFromText" />
+    </node>
+    <node concept="PrWs8" id="3EISKF0fEEV" role="PzmwI">
+      <ref role="PrY4T" node="7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="2iiswCsPAji">
@@ -566,19 +562,6 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="liftFrom" />
       <ref role="20lvS9" node="1uxqFoIPQWW" resolve="ILiftFrom" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2iiswCsQI$5">
-    <property role="TrG5h" value="ValueFromTextLifterReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2iiswCsQIC1" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="valueLifter" />
-      <ref role="20lvS9" node="1vhuDACVesS" resolve="ExternalValueFromTextLifter" />
-    </node>
-    <node concept="PrWs8" id="1aSLssz5DiM" role="PzmwI">
-      <ref role="PrY4T" node="1aSLssz5BIE" resolve="IValueLifter" />
     </node>
   </node>
   <node concept="1TIwiD" id="2iiswCt0B9E">
@@ -752,11 +735,19 @@
     <node concept="PrWs8" id="1uxqFoJa2F6" role="PzmwI">
       <ref role="PrY4T" node="1uxqFoJa2ya" resolve="ValueFromModel" />
     </node>
+    <node concept="PrWs8" id="7gtWUEovAzt" role="PzmwI">
+      <ref role="PrY4T" node="7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7SsDM6P3I0s">
     <property role="TrG5h" value="InputNodeExpr" />
     <property role="34LRSv" value="inputNode" />
     <ref role="1TJDcQ" node="2UoM3FouUFh" resolve="LiftedTo" />
+    <node concept="1TJgyj" id="6t$AXNiFBba" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="inputFromNode" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7SsDM6PadiH">
     <property role="TrG5h" value="LiftWatchDeclarationGen" />
@@ -1102,6 +1093,9 @@
     <node concept="PrWs8" id="3oPrgtyezF_" role="PzmwI">
       <ref role="PrY4T" node="3oPrgtyezFt" resolve="IValueHandlerSpec" />
     </node>
+    <node concept="PrWs8" id="31ACvHFrFcb" role="PzmwI">
+      <ref role="PrY4T" node="1aSLssz5BIE" resolve="IValueLifter" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4JWsYZwyWa6">
     <property role="3GE5qa" value="ValueLifterSpec" />
@@ -1142,6 +1136,9 @@
   <node concept="PlHQZ" id="10kQx64oLih">
     <property role="3GE5qa" value="ValueLifterSpec" />
     <property role="TrG5h" value="IRequiresStandalonePluginDescriptor" />
+    <node concept="PrWs8" id="6t$AXNjDNNl" role="PrDN$">
+      <ref role="PrY4T" node="6t$AXNjDNCZ" resolve="IGeneratedToJavaClass" />
+    </node>
   </node>
   <node concept="PlHQZ" id="10kQx64GLPW">
     <property role="TrG5h" value="VariableKind" />
@@ -1201,6 +1198,9 @@
   <node concept="PlHQZ" id="1uxqFoJa2ya">
     <property role="3GE5qa" value="valueLifter" />
     <property role="TrG5h" value="ValueFromModel" />
+    <node concept="PrWs8" id="3EISKF0r3jl" role="PrDN$">
+      <ref role="PrY4T" node="7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
+    </node>
   </node>
   <node concept="PlHQZ" id="1uxqFoJa2Aa">
     <property role="3GE5qa" value="valueLifter" />
@@ -1521,6 +1521,82 @@
     <property role="TrG5h" value="IndexParameter" />
     <property role="34LRSv" value="index" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="6t$AXNjmDBn">
+    <property role="3GE5qa" value="lifting" />
+    <property role="TrG5h" value="LiftToNode" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6t$AXNjmIj0" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6t$AXNjmDLy" resolve="LiftToNodeFunction" />
+    </node>
+    <node concept="1TJgyj" id="6t$AXNjmIiY" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="concept" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="PrWs8" id="6t$AXNjmILh" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="6t$AXNjsCcE" role="PzmwI">
+      <ref role="PrY4T" node="4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
+    </node>
+    <node concept="PrWs8" id="6t$AXNjDOcZ" role="PzmwI">
+      <ref role="PrY4T" node="6t$AXNjDNCZ" resolve="IGeneratedToJavaClass" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6t$AXNjmDLy">
+    <property role="3GE5qa" value="lifting" />
+    <property role="TrG5h" value="LiftToNodeFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="6t$AXNjy_tT">
+    <property role="3GE5qa" value="lifting" />
+    <property role="TrG5h" value="InputNodeOperation" />
+    <property role="34LRSv" value="inputNode" />
+    <ref role="1TJDcQ" to="tp25:g$eCIIG" resolve="SNodeOperation" />
+  </node>
+  <node concept="PlHQZ" id="6t$AXNjDNCZ">
+    <property role="TrG5h" value="IGeneratedToJavaClass" />
+  </node>
+  <node concept="1TIwiD" id="6t$AXNka3dv">
+    <property role="3GE5qa" value="lifting" />
+    <property role="TrG5h" value="LiftToNodeReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6t$AXNka3dw" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="liftToNode" />
+      <ref role="20lvS9" node="6t$AXNjmDBn" resolve="LiftToNode" />
+    </node>
+    <node concept="PrWs8" id="6t$AXNka3dS" role="PzmwI">
+      <ref role="PrY4T" node="53P7aeD7Arx" resolve="IRequiresImports" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7gtWUEoo$OF">
+    <property role="TrG5h" value="IVariablesDebugInformation" />
+    <node concept="PrWs8" id="3EISKF07RYR" role="PrDN$">
+      <ref role="PrY4T" node="3EISKF07Lvw" resolve="IDebugInformation" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3EISKF075jw">
+    <property role="TrG5h" value="IStackFramesDebugInformation" />
+    <node concept="PrWs8" id="3EISKF07NGi" role="PrDN$">
+      <ref role="PrY4T" node="3EISKF07Lvw" resolve="IDebugInformation" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3EISKF07Lvw">
+    <property role="TrG5h" value="IDebugInformation" />
+  </node>
+  <node concept="PlHQZ" id="3EISKF07Uuf">
+    <property role="TrG5h" value="IBreakpointsDebugInformation" />
+    <node concept="PrWs8" id="3EISKF07Uug" role="PrDN$">
+      <ref role="PrY4T" node="3EISKF07Lvw" resolve="IDebugInformation" />
+    </node>
   </node>
 </model>
 

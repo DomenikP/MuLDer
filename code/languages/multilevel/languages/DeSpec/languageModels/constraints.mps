@@ -336,9 +336,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="2iiswCsSLow">
-    <ref role="1M2myG" to="k6mm:2iiswCsQI$5" resolve="ValueFromTextLifterReference" />
-  </node>
   <node concept="1M2fIO" id="6hWVX3omjl">
     <ref role="1M2myG" to="k6mm:PjpCze40Yc" resolve="LiftValueFromTextGenAnnotation" />
   </node>

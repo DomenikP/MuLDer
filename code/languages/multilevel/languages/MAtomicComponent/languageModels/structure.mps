@@ -10,7 +10,7 @@
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" implicit="true" />
+    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -53,14 +53,12 @@
     <property role="3GE5qa" value="component" />
     <property role="34LRSv" value="atomic component" />
     <ref role="1TJDcQ" node="6aU7c0vIRMt" resolve="Component" />
-    <node concept="PrWs8" id="7ZqGTTqWWkP" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:PjpCzdQT6j" resolve="WatchDeclarationScope" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1X5iFxI_Zap">
     <property role="TrG5h" value="Field" />
     <property role="3GE5qa" value="content" />
     <property role="MwhBj" value="${module}/icons/field.png" />
+    <property role="34LRSv" value="field" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1y5IIwWuCve" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -85,8 +83,8 @@
   </node>
   <node concept="1TIwiD" id="1X5iFxIAgoN">
     <property role="TrG5h" value="EmptyComponentContent" />
-    <property role="34LRSv" value=" " />
     <property role="3GE5qa" value="content" />
+    <property role="34LRSv" value=" " />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1X5iFxIAzyM" role="PzmwI">
       <ref role="PrY4T" node="6aU7c0vIRMw" resolve="IComponentContent" />
@@ -327,6 +325,7 @@
   </node>
   <node concept="1TIwiD" id="6aU7c0vAKNF">
     <property role="TrG5h" value="RunnableCallExpr" />
+    <property role="34LRSv" value="call runable" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="6aU7c0vAKWa" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -364,6 +363,9 @@
     </node>
     <node concept="PrWs8" id="1qBaxu1Um22" role="PzmwI">
       <ref role="PrY4T" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
+    </node>
+    <node concept="PrWs8" id="7MFNr6DbUDd" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:PjpCzdQT6j" resolve="WatchDeclarationScope" />
     </node>
     <node concept="1TJgyj" id="6aU7c0vIRMv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -456,6 +458,58 @@
       <property role="20lbJX" value="1" />
       <property role="20kJfa" value="field" />
       <ref role="20lvS9" node="1X5iFxI_Zap" resolve="Field" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7MFNr6DszaX">
+    <property role="TrG5h" value="ProvidedPortOpCallExpr" />
+    <property role="34LRSv" value="call operation" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="7MFNr6Dszbw" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actuals" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="7MFNr6Dszbi" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="conf" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1y5IIwWD59u" resolve="InstancesConfig" />
+    </node>
+    <node concept="1TJgyj" id="7MFNr6Dszbj" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="instance" />
+      <ref role="20lvS9" node="1y5IIwWD5bb" resolve="ComponentInstance" />
+    </node>
+    <node concept="1TJgyj" id="7MFNr6Dszbl" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="port" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1y5IIwWvJaL" resolve="ProvidedPort" />
+    </node>
+    <node concept="1TJgyj" id="7MFNr6Dszbm" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="x27k:5_l8w1EmTvw" resolve="FunctionPrototype" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7MFNr6DC$JS">
+    <property role="TrG5h" value="FailedExpectations" />
+    <property role="34LRSv" value="failedExpectations" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="7MFNr6DYeTC" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="conf" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1y5IIwWD59u" resolve="InstancesConfig" />
+    </node>
+    <node concept="1TJgyj" id="7MFNr6DYeTD" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="instance" />
+      <ref role="20lvS9" node="1y5IIwWD5bb" resolve="ComponentInstance" />
     </node>
   </node>
 </model>

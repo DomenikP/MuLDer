@@ -6,6 +6,9 @@
     </modelRoot>
   </models>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">~_PreferencesModule#MultiLevelDebugging.__spreferences.PlatformTemplates(MultiLevelDebugging.__spreferences.PlatformTemplates)</dependency>
+  </dependencies>
   <usedLanguages>
     <usedLanguage>bec9c00b-b5be-48af-9766-38765bcc974d(MUnit)</usedLanguage>
     <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>

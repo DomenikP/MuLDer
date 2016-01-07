@@ -178,7 +178,6 @@
       </concept>
     </language>
     <language id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt">
-      <concept id="9101132143320200657" name="com.mbeddr.core.udt.structure.SUContent" flags="ng" index="2mccaB" />
       <concept id="4202685725779366523" name="com.mbeddr.core.udt.structure.MemberInitExpression" flags="ng" index="2xZu8t">
         <reference id="4202685725779391329" name="element" index="2xZoc7" />
         <child id="4202685725779390438" name="value" index="2xZpY0" />
@@ -232,9 +231,6 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="3906148130290742821" name="DeSpec.Model.structure.GeneratedDelegatedValueLifterFromModel" flags="ng" index="1kf5Gy">
-        <reference id="3906148130290949809" name="delegatetoNodeSpec" index="1kejeQ" />
-      </concept>
       <concept id="3906148130290742816" name="DeSpec.Model.structure.GeneratedValueLifterFromModel" flags="ng" index="1kf5GB">
         <reference id="3906148130290944737" name="valueLifterSpec" index="1keivA" />
       </concept>
@@ -568,7 +564,6 @@
                 </node>
               </node>
             </node>
-            <node concept="2mccaB" id="3HAQUUpw8Lv" role="HszBJ" />
             <node concept="raruj" id="6xhsDCueGHy" role="lGtFl">
               <ref role="2sdACS" node="4JWsYZwqMGz" resolve="smSateStruct" />
             </node>
@@ -599,7 +594,7 @@
               </node>
             </node>
             <node concept="1kf5GB" id="3oPrgtyIHyC" role="lGtFl">
-              <ref role="1keivA" to="kvk0:3oPrgtyIJWM" resolve="structType2SM" />
+              <ref role="1keivA" to="kvk0:3oPrgtyIJWM" resolve="structDecl2SM" />
             </node>
           </node>
           <node concept="2NXPZ9" id="6xhsDCueqTG" role="N3F5h">
@@ -1319,8 +1314,8 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1kf5Gy" id="3oPrgtyIwsr" role="lGtFl">
-                    <ref role="1kejeQ" to="kvk0:3oPrgtyIxpg" resolve="structType2SMType" />
+                  <node concept="1kf5GB" id="7MFNr6D0UrU" role="lGtFl">
+                    <ref role="1keivA" to="kvk0:6yZAKJ4UeTF" resolve="suType2SmType" />
                   </node>
                 </node>
               </node>
