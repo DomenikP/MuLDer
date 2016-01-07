@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:243d7f50-ca11-4f02-bf64-08d95d079126(DeSpec.pluginSolution.plugin)">
+<model ref="r:243d7f50-ca11-4f02-bf64-08d95d079126(DeSpec.preferences.plugin)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="0" />

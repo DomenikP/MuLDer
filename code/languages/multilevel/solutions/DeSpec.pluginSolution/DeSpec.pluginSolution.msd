@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="DeSpec.pluginSolution" uuid="22367348-1101-45e3-b095-7dbb6c95e5b3" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="DeSpec.preferences" uuid="22367348-1101-45e3-b095-7dbb6c95e5b3" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

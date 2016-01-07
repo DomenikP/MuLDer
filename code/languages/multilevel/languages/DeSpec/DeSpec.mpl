@@ -117,8 +117,7 @@
     <dependency reexport="false">e11c169d-9fe2-4a19-8c43-ddd8ffefd883(DeSpec.mbeddr)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
     <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</dependency>
-    <dependency reexport="false">24393fe0-4cf0-4784-a2bd-0e9105411650(DeSpec.preferences)</dependency>
-    <dependency reexport="false">22367348-1101-45e3-b095-7dbb6c95e5b3(DeSpec.pluginSolution)</dependency>
+    <dependency reexport="false">22367348-1101-45e3-b095-7dbb6c95e5b3(DeSpec.preferences)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>

@@ -6,7 +6,6 @@
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.Model/DeSpec.Model.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.TextGen/DeSpec.TextGen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.mbeddr/DeSpec.mbeddr.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/DeSpec.preferences/DeSpec.preferences.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/GenerationTraceLang/GenerationTraceLang.mpl" folder="generationTrace" />
       <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="component.atomic" />
