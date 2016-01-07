@@ -1262,68 +1262,6 @@
       </node>
     </node>
   </node>
-  <node concept="2S6QgY" id="1Tdy8hTVt$Y">
-    <property role="TrG5h" value="ToggleCreateWatchScopr" />
-    <ref role="2ZfgGC" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
-    <node concept="2S6ZIM" id="1Tdy8hTVt$Z" role="2ZfVej">
-      <node concept="3clFbS" id="1Tdy8hTVt_0" role="2VODD2">
-        <node concept="3clFbF" id="1Tdy8hTVu0a" role="3cqZAp">
-          <node concept="Xl_RD" id="1Tdy8hTVu09" role="3clFbG">
-            <property role="Xl_RC" value="Toggle create WatchScope" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="1Tdy8hTVt_1" role="2ZfgGD">
-      <node concept="3clFbS" id="1Tdy8hTVt_2" role="2VODD2">
-        <node concept="3clFbJ" id="1Tdy8hTVvu1" role="3cqZAp">
-          <node concept="3clFbS" id="1Tdy8hTVvu3" role="3clFbx">
-            <node concept="3clFbF" id="1Tdy8hTVvOe" role="3cqZAp">
-              <node concept="2OqwBi" id="1Tdy8hTVvRi" role="3clFbG">
-                <node concept="2OqwBi" id="1Tdy8hTVvOg" role="2Oq$k0">
-                  <node concept="2Sf5sV" id="1Tdy8hTVvOh" role="2Oq$k0" />
-                  <node concept="3CFZ6_" id="1Tdy8hTVvOi" role="2OqNvi">
-                    <node concept="3CFYIy" id="1Tdy8hTVvOj" role="3CFYIz">
-                      <ref role="3CFYIx" to="vu5z:1Tdy8hTRTMd" resolve="WatchLifterScopeSpecification" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="zfrQC" id="1Tdy8hTVwi3" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="1Tdy8hTVvz0" role="3clFbw">
-            <node concept="2OqwBi" id="1Tdy8hTVuWa" role="2Oq$k0">
-              <node concept="2Sf5sV" id="1Tdy8hTVuTg" role="2Oq$k0" />
-              <node concept="3CFZ6_" id="1Tdy8hTVvo4" role="2OqNvi">
-                <node concept="3CFYIy" id="1Tdy8hTVvrH" role="3CFYIz">
-                  <ref role="3CFYIx" to="vu5z:1Tdy8hTRTMd" resolve="WatchLifterScopeSpecification" />
-                </node>
-              </node>
-            </node>
-            <node concept="3w_OXm" id="1Tdy8hTVvJY" role="2OqNvi" />
-          </node>
-          <node concept="9aQIb" id="1Tdy8hTVvM2" role="9aQIa">
-            <node concept="3clFbS" id="1Tdy8hTVvM3" role="9aQI4">
-              <node concept="3clFbF" id="1Tdy8hTVwld" role="3cqZAp">
-                <node concept="2OqwBi" id="1Tdy8hTVwog" role="3clFbG">
-                  <node concept="2OqwBi" id="1Tdy8hTVwlf" role="2Oq$k0">
-                    <node concept="2Sf5sV" id="1Tdy8hTVwlg" role="2Oq$k0" />
-                    <node concept="3CFZ6_" id="1Tdy8hTVwlh" role="2OqNvi">
-                      <node concept="3CFYIy" id="1Tdy8hTVwli" role="3CFYIz">
-                        <ref role="3CFYIx" to="vu5z:1Tdy8hTRTMd" resolve="WatchLifterScopeSpecification" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="1PgB_6" id="1Tdy8hTVwLl" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="2S6QgY" id="1CCsFHtgyNk">
     <property role="TrG5h" value="ToggleLiftChildren2Watches" />
     <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />

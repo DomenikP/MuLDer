@@ -51,9 +51,7 @@
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
-        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
-        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
@@ -1067,7 +1065,7 @@
         <property role="3F0ifm" value="=" />
       </node>
       <node concept="1iCGBv" id="6t$AXNiREiB" role="3EZMnx">
-        <ref role="1NtTu8" to="k6mm:6t$AXNiFBba" />
+        <ref role="1NtTu8" to="k6mm:6t$AXNiRE16" />
         <node concept="1sVBvm" id="6t$AXNiREiC" role="1sWHZn">
           <node concept="1HlG4h" id="6t$AXNiREiD" role="2wV5jI">
             <node concept="1HfYo3" id="6t$AXNiREiE" role="1HlULh">
@@ -2897,39 +2895,6 @@
       <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
     </node>
   </node>
-  <node concept="24kQdi" id="5GgOWEtP4L3">
-    <property role="3GE5qa" value="scope" />
-    <ref role="1XX52x" to="k6mm:5GgOWEtP4uf" resolve="ScopeFromTextAnnotation" />
-    <node concept="3EZMnI" id="5GgOWEtPaZt" role="2wV5jI">
-      <node concept="3F0ifn" id="6XLqFH6zwWP" role="3EZMnx">
-        <property role="3F0ifm" value="@Scope:" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
-        <node concept="30gYXW" id="6XLqFH6zwWQ" role="3F10Kt">
-          <property role="Vb096" value="cyan" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="6XLqFH6zwWR" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="k6mm:5GgOWEugUsf" />
-        <node concept="2iRfu4" id="6XLqFH6zwWS" role="2czzBx" />
-        <node concept="3F0ifn" id="6XLqFH6zwWT" role="2czzBI">
-          <property role="3F0ifm" value="&lt;no variables&gt;" />
-          <node concept="VechU" id="6XLqFH6zwWU" role="3F10Kt">
-            <property role="Vb096" value="gray" />
-          </node>
-        </node>
-        <node concept="ljvvj" id="6XLqFH6zwY9" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="2SsqMj" id="5GgOWEtPb07" role="3EZMnx">
-        <node concept="2R9Tw8" id="5GgOWEtPb08" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="3ZR9LYWA9aN" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="5GgOWEugURw">
     <property role="3GE5qa" value="scope" />
     <ref role="1XX52x" to="k6mm:5GgOWEugUte" resolve="VariableReference" />
@@ -2941,28 +2906,6 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="5GgOWEuqB2M">
-    <property role="3GE5qa" value="scope" />
-    <ref role="1XX52x" to="k6mm:5GgOWEtPp$X" resolve="ScopeFromGenAnnotation" />
-    <node concept="3EZMnI" id="5GgOWEuqB3K" role="2wV5jI">
-      <node concept="3F0ifn" id="6XLqFH6zwYx" role="3EZMnx">
-        <property role="3F0ifm" value="@Scope:" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
-        <node concept="30gYXW" id="6XLqFH6zwYy" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
-        </node>
-        <node concept="ljvvj" id="6XLqFH6zx0u" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="2SsqMj" id="5GgOWEuqB3T" role="3EZMnx">
-        <node concept="2R9Tw8" id="5GgOWEuqB3U" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="3ZR9LYWqT3m" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="26bhLIpocxf">

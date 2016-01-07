@@ -235,9 +235,6 @@
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="6Poal3clIA0" role="lGtFl">
       <property role="Hh88m" value="debugInfoAdded" />
-      <node concept="trNpa" id="6Poal3clKRd" role="EQaZv">
-        <ref role="trN6q" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
-      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="6Poal3coI9c">
@@ -939,38 +936,6 @@
     <property role="3GE5qa" value="liftWatch" />
     <property role="TrG5h" value="LLWatchesSelector" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-  </node>
-  <node concept="1TIwiD" id="5GgOWEtP4uf">
-    <property role="TrG5h" value="ScopeFromTextAnnotation" />
-    <property role="3GE5qa" value="scope" />
-    <ref role="1TJDcQ" node="1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
-    <node concept="1TJgyi" id="5GgOWEuufhz" role="1TKVEl">
-      <property role="TrG5h" value="className" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5GgOWEugUsf" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="variables" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5GgOWEugUte" resolve="VariableReference" />
-    </node>
-    <node concept="M6xJ_" id="5GgOWEtP4KW" role="lGtFl">
-      <property role="Hh88m" value="scopeFromText" />
-      <node concept="trNpa" id="5GgOWEtPzCB" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5GgOWEtPp$X">
-    <property role="3GE5qa" value="scope" />
-    <property role="TrG5h" value="ScopeFromGenAnnotation" />
-    <ref role="1TJDcQ" node="1aQJbq2$D_V" resolve="GenDebugAnnotation" />
-    <node concept="M6xJ_" id="5GgOWEtPzCz" role="lGtFl">
-      <property role="Hh88m" value="scopeFromGen" />
-      <node concept="trNpa" id="5GgOWEtPzC_" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
-    </node>
   </node>
   <node concept="1TIwiD" id="5GgOWEugUte">
     <property role="3GE5qa" value="scope" />
