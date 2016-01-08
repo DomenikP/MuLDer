@@ -70,7 +70,7 @@
     <ref role="1XX52x" to="vu5z:49lIkIod6tf" resolve="WatchFromTextGen" />
     <node concept="3EZMnI" id="49lIkIod7iI" role="2wV5jI">
       <node concept="3F0ifn" id="49lIkIod7iP" role="3EZMnx">
-        <property role="3F0ifm" value="@Watch" />
+        <property role="3F0ifm" value="@WatchProvider" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
         <node concept="ljvvj" id="6hWVX3cva4" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -131,7 +131,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3YdlD5V84x">
-    <property role="3GE5qa" value="watches" />
+    <property role="3GE5qa" value="cross" />
     <ref role="1XX52x" to="vu5z:3YdlD5V84d" resolve="NameInTextGen" />
     <node concept="3EZMnI" id="3YdlD5V84y" role="2wV5jI">
       <node concept="3EZMnI" id="3YdlD5V84z" role="3EZMnx">
@@ -232,6 +232,27 @@
       </node>
       <node concept="2SsqMj" id="2iiswCsvrmX" role="3EZMnx" />
       <node concept="l2Vlx" id="2iiswCsvrmT" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="MPvpOSw4Z5">
+    <property role="3GE5qa" value="stackframes" />
+    <ref role="1XX52x" to="vu5z:MPvpOSw4NJ" resolve="StackFrameFromTextGen" />
+    <node concept="3EZMnI" id="MPvpOSw50l" role="2wV5jI">
+      <node concept="3F0ifn" id="MPvpOSw50m" role="3EZMnx">
+        <property role="3F0ifm" value="@StackFrameProvider" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <node concept="ljvvj" id="MPvpOSw50n" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="30gYXW" id="MPvpOSw50o" role="3F10Kt">
+          <property role="Vb096" value="cyan" />
+        </node>
+        <node concept="VPM3Z" id="MPvpOSw50p" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+      </node>
+      <node concept="2SsqMj" id="MPvpOSw50E" role="3EZMnx" />
+      <node concept="l2Vlx" id="MPvpOSw50F" role="2iSdaV" />
     </node>
   </node>
 </model>

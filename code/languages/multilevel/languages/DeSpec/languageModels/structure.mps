@@ -91,23 +91,6 @@
       <ref role="PrY4T" node="3EISKF07Uuf" resolve="IBreakpointsDebugInformation" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7QyIBdUMe0l">
-    <property role="TrG5h" value="FunctionNameAnnotation" />
-    <property role="3GE5qa" value="used" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="1TJgyj" id="49lIkIoaBMZ" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="name" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="M6xJ_" id="7QyIBdUMegr" role="lGtFl">
-      <property role="Hh88m" value="functionName" />
-      <node concept="trNpa" id="7QyIBdUMegt" role="EQaZv">
-        <ref role="trN6q" to="tpee:fz3vP1J" resolve="Expression" />
-      </node>
-    </node>
-  </node>
   <node concept="1TIwiD" id="4YS6N2wOR45">
     <property role="TrG5h" value="FrameNameInGenAnnotation" />
     <property role="3GE5qa" value="used" />
@@ -187,16 +170,6 @@
       </node>
     </node>
   </node>
-  <node concept="1TIwiD" id="4dLPB5ynuIb">
-    <property role="TrG5h" value="LiftFrameAnnotation" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="4dLPB5ynuIS" role="lGtFl">
-      <property role="Hh88m" value="liftedStackFrame" />
-      <node concept="trNpa" id="4dLPB5ynuIU" role="EQaZv">
-        <ref role="trN6q" to="tpee:fz3vP1J" resolve="Expression" />
-      </node>
-    </node>
-  </node>
   <node concept="PlHQZ" id="4dLPB5yKdG5">
     <property role="TrG5h" value="IGeneratorAnnotation" />
     <node concept="PrWs8" id="6qv77baQrPd" role="PrDN$">
@@ -222,7 +195,7 @@
       <ref role="20lvS9" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
     <node concept="1TJgyi" id="6Poal3coIaN" role="1TKVEl">
-      <property role="TrG5h" value="reducedFrame" />
+      <property role="TrG5h" value="reducedStackFrameName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="6Poal3coIaP" role="1TKVEl">
@@ -1236,6 +1209,9 @@
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="PrWs8" id="2SyAeFjUeHl" role="PzmwI">
       <ref role="PrY4T" node="6hWVX3oosf" resolve="TextGenLifterAnnotation" />
+    </node>
+    <node concept="PrWs8" id="MPvpOSw2r6" role="PzmwI">
+      <ref role="PrY4T" to="vu5z:MPvpOSvUWE" resolve="IRequiresNameInTextGen" />
     </node>
     <node concept="M6xJ_" id="2SyAeFjUeKu" role="lGtFl">
       <property role="Hh88m" value="liftConstantFromTextGen" />

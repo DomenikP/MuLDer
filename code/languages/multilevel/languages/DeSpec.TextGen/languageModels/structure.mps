@@ -26,6 +26,7 @@
         <child id="7588428831955550186" name="multiple" index="HhnKV" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -82,6 +83,9 @@
     <node concept="PrWs8" id="6hWVX3q_Pf" role="PzmwI">
       <ref role="PrY4T" to="k6mm:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
     </node>
+    <node concept="PrWs8" id="MPvpOSw2H1" role="PzmwI">
+      <ref role="PrY4T" node="MPvpOSvUWE" resolve="IRequiresNameInTextGen" />
+    </node>
   </node>
   <node concept="PlHQZ" id="10kQx64GLPW">
     <property role="TrG5h" value="VariableKind" />
@@ -89,7 +93,8 @@
   </node>
   <node concept="1TIwiD" id="3YdlD5V84d">
     <property role="TrG5h" value="NameInTextGen" />
-    <property role="3GE5qa" value="watches" />
+    <property role="3GE5qa" value="cross" />
+    <property role="34LRSv" value="NameProvider" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="3YdlD5V84e" role="lGtFl">
       <property role="Hh88m" value="nameInTextGen" />
@@ -155,6 +160,26 @@
       <property role="Hh88m" value="inTextgenContainer" />
       <node concept="trNpa" id="2iiswCsoix_" role="EQaZv">
         <ref role="trN6q" to="tpee:fK9aQHR" resolve="BlockStatement" />
+      </node>
+    </node>
+  </node>
+  <node concept="PlHQZ" id="MPvpOSvUWE">
+    <property role="TrG5h" value="IRequiresNameInTextGen" />
+  </node>
+  <node concept="1TIwiD" id="MPvpOSw4NJ">
+    <property role="3GE5qa" value="stackframes" />
+    <property role="TrG5h" value="StackFrameFromTextGen" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="PrWs8" id="MPvpOSw4Yr" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
+    </node>
+    <node concept="PrWs8" id="MPvpOSw4Yx" role="PzmwI">
+      <ref role="PrY4T" node="MPvpOSvUWE" resolve="IRequiresNameInTextGen" />
+    </node>
+    <node concept="M6xJ_" id="MPvpOSw4Y_" role="lGtFl">
+      <property role="Hh88m" value="liftStackFrameFromTextGen" />
+      <node concept="trNpa" id="MPvpOSw4YB" role="EQaZv">
+        <ref role="trN6q" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
       </node>
     </node>
   </node>

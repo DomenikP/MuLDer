@@ -15,6 +15,7 @@
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="tpcg" ref="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" />
     <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
+    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -60,8 +61,8 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="3YdlD5V85s">
-    <property role="3GE5qa" value="watches" />
-    <ref role="1M2myG" to="vu5z:3YdlD5V84d" resolve="LiftNameInTextGenAnnotation" />
+    <property role="3GE5qa" value="cross" />
+    <ref role="1M2myG" to="vu5z:3YdlD5V84d" resolve="NameInTextGen" />
     <node concept="nKS2y" id="3YdlD5V85t" role="1MLUbF">
       <node concept="3clFbS" id="3YdlD5V85u" role="2VODD2">
         <node concept="3clFbF" id="3YdlD5V85v" role="3cqZAp">
@@ -84,7 +85,7 @@
   </node>
   <node concept="1M2fIO" id="6hWVX3omjl">
     <property role="3GE5qa" value="watches" />
-    <ref role="1M2myG" to="vu5z:PjpCze40Yc" resolve="LiftValueFromTextGenAnnotation" />
+    <ref role="1M2myG" to="vu5z:PjpCze40Yc" resolve="ValueFromTextGen" />
   </node>
 </model>
 

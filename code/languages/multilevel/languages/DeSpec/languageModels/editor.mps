@@ -265,29 +265,6 @@
       <node concept="l2Vlx" id="4Dfag9jPJYf" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="7QyIBdUMeg$">
-    <property role="3GE5qa" value="used" />
-    <ref role="1XX52x" to="k6mm:7QyIBdUMe0l" resolve="FunctionNameAnnotation" />
-    <node concept="3EZMnI" id="7QyIBdUMeKN" role="2wV5jI">
-      <node concept="3EZMnI" id="1dQeCv6UUlS" role="3EZMnx">
-        <node concept="VPM3Z" id="1dQeCv6UUlV" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="3F0ifn" id="49lIkIoaWiJ" role="3EZMnx">
-          <property role="3F0ifm" value="lift frame:" />
-          <node concept="30gYXW" id="49lIkIoaWs5" role="3F10Kt">
-            <property role="Vb096" value="cyan" />
-          </node>
-        </node>
-        <node concept="3F1sOY" id="1dQeCv6UUma" role="3EZMnx">
-          <ref role="1NtTu8" to="k6mm:49lIkIoaBMZ" />
-        </node>
-        <node concept="2iRfu4" id="1dQeCv6UUlZ" role="2iSdaV" />
-      </node>
-      <node concept="2SsqMj" id="7QyIBdUMeL0" role="3EZMnx" />
-      <node concept="2iRkQZ" id="7QyIBdUMeKQ" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="4YS6N2wOR4F">
     <property role="3GE5qa" value="used" />
     <ref role="1XX52x" to="k6mm:4YS6N2wOR45" resolve="FrameNameInGenAnnotation" />
@@ -530,25 +507,6 @@
       <node concept="2iRkQZ" id="4dLPB5yiUm$" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="4dLPB5ynAfd">
-    <ref role="1XX52x" to="k6mm:4dLPB5ynuIb" resolve="LiftFrameAnnotation" />
-    <node concept="3EZMnI" id="4dLPB5ynAuT" role="2wV5jI">
-      <node concept="3EZMnI" id="4dLPB5ynAuU" role="3EZMnx">
-        <node concept="VPM3Z" id="4dLPB5ynAuV" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="3F0ifn" id="4dLPB5ynAuW" role="3EZMnx">
-          <property role="3F0ifm" value="lift frame" />
-          <node concept="30gYXW" id="4dLPB5ynAuX" role="3F10Kt">
-            <property role="Vb096" value="cyan" />
-          </node>
-        </node>
-        <node concept="2iRfu4" id="4dLPB5ynAuZ" role="2iSdaV" />
-      </node>
-      <node concept="2SsqMj" id="4dLPB5ynAv0" role="3EZMnx" />
-      <node concept="2iRkQZ" id="4dLPB5ynAv1" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="PKFIW" id="4dLPB5yKdSk">
     <property role="TrG5h" value="header" />
     <ref role="1XX52x" to="k6mm:4dLPB5yKdG5" resolve="IGeneratorAnnotation" />
@@ -608,7 +566,7 @@
           </node>
         </node>
         <node concept="3F0A7n" id="1fTJB2YjrnV" role="3EZMnx">
-          <ref role="1NtTu8" to="k6mm:6Poal3coIaN" resolve="reducedFrame" />
+          <ref role="1NtTu8" to="k6mm:6Poal3coIaN" resolve="reducedStackFrameName" />
         </node>
         <node concept="3F0ifn" id="1fTJB2Yjron" role="3EZMnx">
           <property role="3F0ifm" value="➔" />

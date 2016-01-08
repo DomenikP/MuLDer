@@ -124,15 +124,15 @@
     </node>
   </node>
   <node concept="13h7C7" id="3YdlD5V84k">
-    <property role="3GE5qa" value="watches" />
-    <ref role="13h7C2" to="vu5z:3YdlD5V84d" resolve="LiftNameInTextGenAnnotation" />
+    <property role="3GE5qa" value="cross" />
+    <ref role="13h7C2" to="vu5z:3YdlD5V84d" resolve="NameInTextGen" />
     <node concept="13hLZK" id="3YdlD5V84l" role="13h7CW">
       <node concept="3clFbS" id="3YdlD5V84m" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="4JWsYZwzcs7">
     <property role="3GE5qa" value="watches" />
-    <ref role="13h7C2" to="vu5z:2iiswCs23Ce" resolve="ValueFromTextGen" />
+    <ref role="13h7C2" to="vu5z:2iiswCs23Ce" resolve="ValueProviderFromTextGen" />
     <node concept="13hLZK" id="4JWsYZwzcs8" role="13h7CW">
       <node concept="3clFbS" id="4JWsYZwzcs9" role="2VODD2" />
     </node>

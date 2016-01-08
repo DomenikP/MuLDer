@@ -402,33 +402,6 @@
       <ref role="1YaFvo" to="k6mm:4dLPB5ycYY5" resolve="ContributeStackFrameAnnotation" />
     </node>
   </node>
-  <node concept="1YbPZF" id="4dLPB5ynuJ1">
-    <property role="TrG5h" value="typeof_LiftFrameAnnotation" />
-    <node concept="3clFbS" id="4dLPB5ynuJ2" role="18ibNy">
-      <node concept="1ZobV4" id="4dLPB5ynuJb" role="3cqZAp">
-        <property role="3wDh2S" value="true" />
-        <node concept="mw_s8" id="4dLPB5ynxqV" role="1ZfhKB">
-          <node concept="2c44tf" id="4dLPB5ynxqN" role="mwGJk">
-            <node concept="17QB3L" id="4dLPB5ynxre" role="2c44tc" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="4dLPB5ynZHC" role="1ZfhK$">
-          <node concept="1Z2H0r" id="4dLPB5ynZHA" role="mwGJk">
-            <node concept="2OqwBi" id="4dLPB5ynZK1" role="1Z2MuG">
-              <node concept="1YBJjd" id="4dLPB5ynZHX" role="2Oq$k0">
-                <ref role="1YBMHb" node="4dLPB5ynuJ4" resolve="liftFrameAnnotation" />
-              </node>
-              <node concept="1mfA1w" id="4dLPB5yo05S" role="2OqNvi" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4dLPB5ynuJ4" role="1YuTPh">
-      <property role="TrG5h" value="liftFrameAnnotation" />
-      <ref role="1YaFvo" to="k6mm:4dLPB5ynuIb" resolve="LiftFrameAnnotation" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="1vhuDACYJKV">
     <property role="TrG5h" value="typeof_NodeParameter" />
     <node concept="3clFbS" id="1vhuDACYJKW" role="18ibNy">

@@ -75,7 +75,14 @@
           <greater-priority-mapping>
             <generator generatorUID="8165ef98-703d-4a4b-8a5a-c4f6e1dd4458(DeSpec.Text#7125955223611155185)" />
             <external-mapping>
-              <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.Text.generator.template.main@generator)" nodeID="7125955223611155186" />
+              <mapping-set>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.Text.generator.template.main@generator)" nodeID="7125955223611155186" />
+                </mapping-set-element>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.Text.generator.template.main@generator)" nodeID="915776213448746399" />
+                </mapping-set-element>
+              </mapping-set>
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
@@ -89,7 +96,14 @@
           <greater-priority-mapping>
             <generator generatorUID="8165ef98-703d-4a4b-8a5a-c4f6e1dd4458(DeSpec.Text#7125955223611155185)" />
             <external-mapping>
-              <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.Text.generator.template.main@generator)" nodeID="7125955223611155186" />
+              <mapping-set>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.Text.generator.template.main@generator)" nodeID="7125955223611155186" />
+                </mapping-set-element>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.Text.generator.template.main@generator)" nodeID="915776213448746399" />
+                </mapping-set-element>
+              </mapping-set>
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
