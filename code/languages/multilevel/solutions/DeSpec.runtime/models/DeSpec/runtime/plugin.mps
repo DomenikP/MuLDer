@@ -29,6 +29,10 @@
     <import index="yh8" ref="r:cf8dc0a4-7e7f-4be5-9853-f747cd33208a(DeSpec.behavior)" />
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="t3eg" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.language(MPS.OpenAPI/org.jetbrains.mps.openapi.language@java_stub)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
+    <import index="oedy" ref="r:09ea9013-65ba-4bbe-91d3-376dbd098e16(DeSpec.TextGen.behavior)" />
+    <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(DeSpec.Text.structure)" />
+    <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(DeSpec.Text.behavior)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -671,7 +675,7 @@
                           <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
                           <node concept="2OqwBi" id="1n130k8QqEH" role="37wK5m">
                             <node concept="3TrcHB" id="1n130k8QqEI" role="2OqNvi">
-                              <ref role="3TsBF5" to="k6mm:1fTJB2Ym4UL" resolve="reducedName" />
+                              <ref role="3TsBF5" to="tdvr:1fTJB2Ym4UL" resolve="reducedName" />
                             </node>
                             <node concept="2OqwBi" id="1n130k8QqEJ" role="2Oq$k0">
                               <node concept="37vLTw" id="1n130k8QqEK" role="2Oq$k0">
@@ -679,7 +683,7 @@
                               </node>
                               <node concept="3CFZ6_" id="1n130k8QqEL" role="2OqNvi">
                                 <node concept="3CFYIy" id="1n130k8QqEM" role="3CFYIz">
-                                  <ref role="3CFYIx" to="k6mm:3BCiriJn_2T" resolve="LiftVariableFromText" />
+                                  <ref role="3CFYIx" to="tdvr:3BCiriJn_2T" resolve="LiftVariableFromText" />
                                 </node>
                               </node>
                             </node>
@@ -705,12 +709,12 @@
               </node>
               <node concept="3CFZ6_" id="1n130k8QqET" role="2OqNvi">
                 <node concept="3CFYIy" id="1n130k8Qs2n" role="3CFYIz">
-                  <ref role="3CFYIx" to="k6mm:3BCiriJn_2T" resolve="LiftVariableFromText" />
+                  <ref role="3CFYIx" to="tdvr:3BCiriJn_2T" resolve="LiftVariableFromText" />
                 </node>
               </node>
             </node>
             <node concept="2qgKlT" id="1n130k8QqEV" role="2OqNvi">
-              <ref role="37wK5l" to="yh8:1vhuDABOtDE" resolve="liftToWatch" />
+              <ref role="37wK5l" to="ekkt:1vhuDABOtDE" resolve="liftToWatch" />
               <node concept="37vLTw" id="1n130k8QqEW" role="37wK5m">
                 <ref role="3cqZAo" node="1n130k8QqEw" resolve="childWatch" />
               </node>

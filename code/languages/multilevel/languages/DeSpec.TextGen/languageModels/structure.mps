@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.Text.structure)">
+<model ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
@@ -10,6 +10,7 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
+    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -108,7 +109,7 @@
   </node>
   <node concept="1TIwiD" id="PjpCze40Yc">
     <property role="TrG5h" value="ValueFromTextGen" />
-    <property role="3GE5qa" value="watches" />
+    <property role="3GE5qa" value="watchtes.values" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyi" id="1qRlgEvnCWq" role="1TKVEl">
       <property role="TrG5h" value="takeValueLifterFromTextGen" />
@@ -129,7 +130,7 @@
   </node>
   <node concept="1TIwiD" id="2iiswCs23Ce">
     <property role="TrG5h" value="ValueProviderFromTextGen" />
-    <property role="3GE5qa" value="watches" />
+    <property role="3GE5qa" value="watchtes.values" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyj" id="2iiswCsS1$B" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -149,19 +150,8 @@
   </node>
   <node concept="1TIwiD" id="3YdlD6O5h_">
     <property role="TrG5h" value="ValueFromTextLifterDelegateFunction" />
-    <property role="3GE5qa" value="watches" />
+    <property role="3GE5qa" value="watchtes.values" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-  </node>
-  <node concept="1TIwiD" id="2iiswCsoixv">
-    <property role="TrG5h" value="InTextGenContainer" />
-    <property role="3GE5qa" value="watches.util" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="2iiswCsoixz" role="lGtFl">
-      <property role="Hh88m" value="inTextgenContainer" />
-      <node concept="trNpa" id="2iiswCsoix_" role="EQaZv">
-        <ref role="trN6q" to="tpee:fK9aQHR" resolve="BlockStatement" />
-      </node>
-    </node>
   </node>
   <node concept="PlHQZ" id="MPvpOSvUWE">
     <property role="TrG5h" value="IRequiresNameInTextGen" />

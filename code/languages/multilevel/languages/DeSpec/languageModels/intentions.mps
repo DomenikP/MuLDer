@@ -10,7 +10,7 @@
     <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.Text.structure)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -266,68 +266,6 @@
         <node concept="3clFbF" id="Vn$QVHoFVu" role="3cqZAp">
           <node concept="Xl_RD" id="Vn$QVHoFVv" role="3clFbG">
             <property role="Xl_RC" value="Toogle HideFrameAnnotation" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="4dLPB5yiN0H">
-    <property role="TrG5h" value="ToggleContributeStackFrameAnnotation" />
-    <ref role="2ZfgGC" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
-    <node concept="2Sbjvc" id="4dLPB5yiN0I" role="2ZfgGD">
-      <node concept="3clFbS" id="4dLPB5yiN0J" role="2VODD2">
-        <node concept="3clFbJ" id="4dLPB5yiN0K" role="3cqZAp">
-          <node concept="3clFbS" id="4dLPB5yiN0L" role="3clFbx">
-            <node concept="3clFbF" id="4dLPB5yiN0M" role="3cqZAp">
-              <node concept="2OqwBi" id="4dLPB5yiN0N" role="3clFbG">
-                <node concept="2OqwBi" id="4dLPB5yiN0O" role="2Oq$k0">
-                  <node concept="2Sf5sV" id="4dLPB5yiN0P" role="2Oq$k0" />
-                  <node concept="3CFZ6_" id="4dLPB5yiN0Q" role="2OqNvi">
-                    <node concept="3CFYIy" id="4dLPB5yiNyR" role="3CFYIz">
-                      <ref role="3CFYIx" to="k6mm:4dLPB5ycYY5" resolve="ContributeStackFrameAnnotation" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="1PgB_6" id="4dLPB5yiN0S" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="4dLPB5yiN0T" role="3clFbw">
-            <node concept="2OqwBi" id="4dLPB5yiN0U" role="2Oq$k0">
-              <node concept="2Sf5sV" id="4dLPB5yiN0V" role="2Oq$k0" />
-              <node concept="3CFZ6_" id="4dLPB5yiN0W" role="2OqNvi">
-                <node concept="3CFYIy" id="4dLPB5yiNwn" role="3CFYIz">
-                  <ref role="3CFYIx" to="k6mm:4dLPB5ycYY5" resolve="ContributeStackFrameAnnotation" />
-                </node>
-              </node>
-            </node>
-            <node concept="3x8VRR" id="4dLPB5yiN0Y" role="2OqNvi" />
-          </node>
-          <node concept="9aQIb" id="4dLPB5yiN0Z" role="9aQIa">
-            <node concept="3clFbS" id="4dLPB5yiN10" role="9aQI4">
-              <node concept="3clFbF" id="4dLPB5yiN11" role="3cqZAp">
-                <node concept="2OqwBi" id="4dLPB5yiN12" role="3clFbG">
-                  <node concept="2OqwBi" id="4dLPB5yiN13" role="2Oq$k0">
-                    <node concept="2Sf5sV" id="4dLPB5yiN14" role="2Oq$k0" />
-                    <node concept="3CFZ6_" id="4dLPB5yiN15" role="2OqNvi">
-                      <node concept="3CFYIy" id="4dLPB5yiN_b" role="3CFYIz">
-                        <ref role="3CFYIx" to="k6mm:4dLPB5ycYY5" resolve="ContributeStackFrameAnnotation" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="zfrQC" id="4dLPB5yiN17" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2S6ZIM" id="4dLPB5yiN18" role="2ZfVej">
-      <node concept="3clFbS" id="4dLPB5yiN19" role="2VODD2">
-        <node concept="3clFbF" id="4dLPB5yiN1a" role="3cqZAp">
-          <node concept="Xl_RD" id="4dLPB5yiN1b" role="3clFbG">
-            <property role="Xl_RC" value="Toogle ContributeStackFrameAnnotation" />
           </node>
         </node>
       </node>

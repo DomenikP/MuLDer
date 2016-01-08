@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:95fa1c43-5009-48bb-8d30-1513ed96cfb9(DeSpec.Text.constraints)">
+<model ref="r:95fa1c43-5009-48bb-8d30-1513ed96cfb9(DeSpec.TextGen.constraints)">
   <persistence version="9" />
   <languages>
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
@@ -8,7 +8,7 @@
   </languages>
   <imports>
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.Text.structure)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
@@ -84,7 +84,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="6hWVX3omjl">
-    <property role="3GE5qa" value="watches" />
+    <property role="3GE5qa" value="watchtes.values" />
     <ref role="1M2myG" to="vu5z:PjpCze40Yc" resolve="ValueFromTextGen" />
   </node>
 </model>

@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/MultiLevel.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.Model/DeSpec.Model.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.Text/DeSpec.Text.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.TextGen/DeSpec.TextGen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.mbeddr/DeSpec.mbeddr.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="" />

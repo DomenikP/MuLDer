@@ -12,7 +12,7 @@
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
     <import index="hpl9" ref="r:a565490e-12f3-492e-aa8d-d8392b54a1d4(DeSpec.mbeddr.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
-    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.Text.structure)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -91,20 +91,6 @@
       <ref role="PrY4T" node="3EISKF07Uuf" resolve="IBreakpointsDebugInformation" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4YS6N2wOR45">
-    <property role="TrG5h" value="FrameNameInGenAnnotation" />
-    <property role="3GE5qa" value="used" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="4YS6N2wOR47" role="lGtFl">
-      <property role="Hh88m" value="frameName" />
-      <node concept="trNpa" id="4YS6N2wOR48" role="EQaZv">
-        <ref role="trN6q" to="tpee:fz3vP1J" resolve="Expression" />
-      </node>
-    </node>
-    <node concept="PrWs8" id="4dLPB5yLd8e" role="PzmwI">
-      <ref role="PrY4T" node="4dLPB5yKdG5" resolve="IGeneratorAnnotation" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="5r59uMnw8aF">
     <property role="TrG5h" value="VirtualFrameAnnotation" />
     <property role="3GE5qa" value="used" />
@@ -159,21 +145,10 @@
       <ref role="PrY4T" node="4dLPB5yKdG5" resolve="IGeneratorAnnotation" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4dLPB5ycYY5">
-    <property role="TrG5h" value="ContributeStackFrameAnnotation" />
-    <property role="3GE5qa" value="used" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="4dLPB5ycZeh" role="lGtFl">
-      <property role="Hh88m" value="contributesStackFrame" />
-      <node concept="trNpa" id="4dLPB5ycZej" role="EQaZv">
-        <ref role="trN6q" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
-      </node>
-    </node>
-  </node>
   <node concept="PlHQZ" id="4dLPB5yKdG5">
     <property role="TrG5h" value="IGeneratorAnnotation" />
-    <node concept="PrWs8" id="6qv77baQrPd" role="PrDN$">
-      <ref role="PrY4T" node="6qv77baQrPc" resolve="ILiftsCallStackAnnotation" />
+    <node concept="PrWs8" id="MPvpOUrCfe" role="PrDN$">
+      <ref role="PrY4T" node="3EISKF075jw" resolve="IStackFramesDebugInformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="6Poal3clI_3">
@@ -182,34 +157,6 @@
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="6Poal3clIA0" role="lGtFl">
       <property role="Hh88m" value="debugInfoAdded" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6Poal3coI9c">
-    <property role="TrG5h" value="LiftFrameFromTextAnnoation" />
-    <property role="3GE5qa" value="lifting" />
-    <ref role="1TJDcQ" node="1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
-    <node concept="1TJgyj" id="6j53_d3kRWl" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="contributor" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
-    </node>
-    <node concept="1TJgyi" id="6Poal3coIaN" role="1TKVEl">
-      <property role="TrG5h" value="reducedStackFrameName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="6Poal3coIaP" role="1TKVEl">
-      <property role="TrG5h" value="liftedFrame" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="M6xJ_" id="6Poal3coWn7" role="lGtFl">
-      <property role="Hh88m" value="liftFrameFromText" />
-      <node concept="trNpa" id="6Poal3coWn9" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
-    </node>
-    <node concept="PrWs8" id="6qv77baQrSy" role="PzmwI">
-      <ref role="PrY4T" node="6qv77baQrPc" resolve="ILiftsCallStackAnnotation" />
     </node>
   </node>
   <node concept="1TIwiD" id="6Poal3c$GsN">
@@ -247,53 +194,6 @@
     </node>
     <node concept="PrWs8" id="3EISKF0f_t5" role="PzmwI">
       <ref role="PrY4T" node="3EISKF075jw" resolve="IStackFramesDebugInformation" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="6qv77baQrPc">
-    <property role="TrG5h" value="ILiftsCallStackAnnotation" />
-    <node concept="PrWs8" id="3EISKF07z_k" role="PrDN$">
-      <ref role="PrY4T" node="3EISKF075jw" resolve="IStackFramesDebugInformation" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3BCiriJn_2T">
-    <property role="TrG5h" value="LiftVariableFromText" />
-    <property role="34LRSv" value="WatchFromGen" />
-    <property role="3GE5qa" value="watch.text" />
-    <ref role="1TJDcQ" node="1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
-    <node concept="1TJgyj" id="10kQx64GLPX" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="kind" />
-      <ref role="20lvS9" to="vu5z:10kQx64GLPW" resolve="VariableKind" />
-    </node>
-    <node concept="1TJgyj" id="6j53_d3y2cE" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="watchDeclaration" />
-      <ref role="20lvS9" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
-    </node>
-    <node concept="1TJgyj" id="4lU62XqSZFN" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="valueLifter" />
-      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-    </node>
-    <node concept="1TJgyi" id="6hWVX3sp7E" role="1TKVEl">
-      <property role="TrG5h" value="category" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="1fTJB2Ym4UL" role="1TKVEl">
-      <property role="TrG5h" value="reducedName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="M6xJ_" id="3BCiriJn_2X" role="lGtFl">
-      <property role="Hh88m" value="liftWatchFromText" />
-      <node concept="trNpa" id="3BCiriJn_63" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
-    </node>
-    <node concept="PrWs8" id="4lU62XvKcNO" role="PzmwI">
-      <ref role="PrY4T" node="53P7aeD7Arx" resolve="IRequiresImports" />
-    </node>
-    <node concept="PrWs8" id="7gtWUEopX5l" role="PzmwI">
-      <ref role="PrY4T" node="7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="1aQJbq2yQP3">
@@ -382,38 +282,6 @@
     <property role="34LRSv" value="watchable" />
     <property role="3GE5qa" value="valueLifter.external" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
-  <node concept="1TIwiD" id="2iiswCsOs8f">
-    <property role="TrG5h" value="LiftValueFromText" />
-    <property role="3GE5qa" value="valueLifter" />
-    <ref role="1TJDcQ" node="1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
-    <node concept="1TJgyj" id="3YtEbp4QgCM" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="valueLifter" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="1aSLssz5BIE" resolve="IValueLifter" />
-    </node>
-    <node concept="1TJgyj" id="3YtEbp4Qiny" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="delegateToNodeWithValueLifter" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    </node>
-    <node concept="M6xJ_" id="2iiswCsOs8m" role="lGtFl">
-      <property role="Hh88m" value="valueLifterFromText" />
-      <node concept="trNpa" id="2iiswCsOs8o" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
-    </node>
-    <node concept="PrWs8" id="53P7aeD7D9m" role="PzmwI">
-      <ref role="PrY4T" node="53P7aeD7Arx" resolve="IRequiresImports" />
-    </node>
-    <node concept="PrWs8" id="1uxqFoJa2Fn" role="PzmwI">
-      <ref role="PrY4T" node="1uxqFoJa2Aa" resolve="ValueFromText" />
-    </node>
-    <node concept="PrWs8" id="3EISKF0fEEV" role="PzmwI">
-      <ref role="PrY4T" node="7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
-    </node>
   </node>
   <node concept="1TIwiD" id="2iiswCsPAji">
     <property role="TrG5h" value="DelegateToNodeWithValueLifter" />
@@ -1168,24 +1036,6 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="constantList" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2SyAeFjOIVx">
-    <property role="TrG5h" value="LiftConstantFromText" />
-    <property role="3GE5qa" value="constants" />
-    <ref role="1TJDcQ" node="1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
-    <node concept="1TJgyi" id="2SyAeFjOJ05" role="1TKVEl">
-      <property role="TrG5h" value="reducedName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="PrWs8" id="2SyAeFjOIZZ" role="PzmwI">
-      <ref role="PrY4T" node="53P7aeD7Arx" resolve="IRequiresImports" />
-    </node>
-    <node concept="M6xJ_" id="2SyAeFjOM8n" role="lGtFl">
-      <property role="Hh88m" value="liftConstantFromText" />
-      <node concept="trNpa" id="2SyAeFjOM8p" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="2SyAeFjOLXp">
