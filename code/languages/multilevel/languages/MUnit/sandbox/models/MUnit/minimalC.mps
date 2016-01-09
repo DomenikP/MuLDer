@@ -142,6 +142,15 @@
       </concept>
     </language>
     <language id="bec9c00b-b5be-48af-9766-38765bcc974d" name="MUnit">
+      <concept id="1229019237291264855" name="MUnit.structure.TestcaseRef" flags="ng" index="5O54F">
+        <reference id="1229019237291264869" name="test" index="5O54p" />
+      </concept>
+      <concept id="1229019237291256551" name="MUnit.structure.ExecuteTestExpression" flags="ng" index="5OV2r">
+        <child id="1229019237291264893" name="tests" index="5O541" />
+      </concept>
+      <concept id="1229019237290997774" name="MUnit.structure.Testcase" flags="ng" index="5PU9M">
+        <child id="1229019237291246379" name="body" index="5OT_n" />
+      </concept>
       <concept id="1229019237292635695" name="MUnit.structure.MUnitConfigItem" flags="ng" index="5ZaLj">
         <child id="1229019237292635789" name="strategy" index="5ZaNL" />
       </concept>
@@ -217,30 +226,11 @@
       <property role="TrG5h" value="main" />
       <property role="2OOxQR" value="true" />
       <node concept="3XIRFW" id="1MPJgw7Ciob" role="3XIRFX">
-        <node concept="3XIRlf" id="31ACvHG8Fnc" role="3XIRFZ">
-          <property role="TrG5h" value="nameChar" />
-          <node concept="biTqx" id="31ACvHG8Fna" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-          <node concept="biBdh" id="31ACvHG8FvI" role="3XIe9u">
-            <property role="biBdg" value="k" />
-          </node>
-        </node>
-        <node concept="3XIRlf" id="31ACvHFrDgt" role="3XIRFZ">
-          <property role="TrG5h" value="name" />
-          <node concept="Pu267" id="31ACvHFrDgr" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-          <node concept="PhEJO" id="31ACvHFrDiy" role="3XIe9u">
-            <property role="PhEJT" value="kim" />
-          </node>
-        </node>
-        <node concept="3XISUE" id="31ACvHFrDfA" role="3XIRFZ" />
         <node concept="2BFjQ_" id="4AsJLsPSiVC" role="3XIRFZ">
-          <node concept="3TlMh9" id="31ACvHFrDkQ" role="2BFjQA">
-            <property role="2hmy$m" value="0" />
+          <node concept="5OV2r" id="MPvpOYtnqV" role="2BFjQA">
+            <node concept="5O54F" id="MPvpOYtnrI" role="5O541">
+              <ref role="5O54p" node="MPvpOYtnjE" resolve="tc1" />
+            </node>
           </node>
         </node>
       </node>
@@ -263,6 +253,24 @@
           <node concept="Pu267" id="31ACvHG9$9j" role="2umbIo">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="MPvpOYiDi1" role="N3F5h">
+      <property role="TrG5h" value="empty_1452258334765_1" />
+    </node>
+    <node concept="5PU9M" id="MPvpOYtnjE" role="N3F5h">
+      <property role="TrG5h" value="tc1" />
+      <node concept="3XIRFW" id="MPvpOYtnjG" role="5OT_n">
+        <node concept="3XIRlf" id="MPvpOYiZ70" role="3XIRFZ">
+          <property role="TrG5h" value="bla" />
+          <node concept="26Vqph" id="MPvpOYiZ71" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+          <node concept="3TlMh9" id="MPvpOYiZ72" role="3XIe9u">
+            <property role="2hmy$m" value="123" />
           </node>
         </node>
       </node>

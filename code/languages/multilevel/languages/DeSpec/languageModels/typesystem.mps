@@ -35,6 +35,7 @@
     <import index="6be1" ref="r:f8838c27-35cb-4208-b3cd-bd0141e6eb07(Tracing.structure)" />
     <import index="oedy" ref="r:09ea9013-65ba-4bbe-91d3-376dbd098e16(DeSpec.TextGen.behavior)" />
     <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(DeSpec.Text.structure)" />
+    <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -299,44 +300,6 @@
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
     </language>
   </registry>
-  <node concept="18kY7G" id="4Dfag9jSbXY">
-    <property role="TrG5h" value="check_BreakpointOnNodeAnnotation" />
-    <property role="3GE5qa" value="breakpoints" />
-    <node concept="3clFbS" id="4Dfag9jSbXZ" role="18ibNy">
-      <node concept="3clFbJ" id="4Dfag9jScRH" role="3cqZAp">
-        <node concept="3clFbS" id="4Dfag9jScRJ" role="3clFbx">
-          <node concept="2MkqsV" id="4Dfag9jScTv" role="3cqZAp">
-            <node concept="Xl_RD" id="4Dfag9jScU0" role="2MkJ7o">
-              <property role="Xl_RC" value="input node does support breakpoints" />
-            </node>
-            <node concept="2OqwBi" id="4Dfag9jScUn" role="2OEOjV">
-              <node concept="1YBJjd" id="4Dfag9jScUo" role="2Oq$k0">
-                <ref role="1YBMHb" node="4Dfag9jSbY1" resolve="breakpointOnNodeAnnotation" />
-              </node>
-              <node concept="1mfA1w" id="4Dfag9jScUp" role="2OqNvi" />
-            </node>
-          </node>
-        </node>
-        <node concept="2OqwBi" id="4Dfag9jSc$4" role="3clFbw">
-          <node concept="2OqwBi" id="4Dfag9jScd_" role="2Oq$k0">
-            <node concept="1YBJjd" id="4Dfag9jScbM" role="2Oq$k0">
-              <ref role="1YBMHb" node="4Dfag9jSbY1" resolve="breakpointOnNodeAnnotation" />
-            </node>
-            <node concept="1mfA1w" id="4Dfag9jScoA" role="2OqNvi" />
-          </node>
-          <node concept="1mIQ4w" id="4Dfag9jScJH" role="2OqNvi">
-            <node concept="chp4Y" id="4Dfag9jScMw" role="cj9EA">
-              <ref role="cht4Q" to="pjlr:5bvBw$5wTjH" resolve="SupportsBreakpoints" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4Dfag9jSbY1" role="1YuTPh">
-      <property role="TrG5h" value="breakpointOnNodeAnnotation" />
-      <ref role="1YaFvo" to="k6mm:4Dfag9jPJBy" resolve="BreakpointOnNodeAnnotation" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="1vhuDACYJKV">
     <property role="TrG5h" value="typeof_NodeParameter" />
     <node concept="3clFbS" id="1vhuDACYJKW" role="18ibNy">
@@ -394,7 +357,46 @@
   </node>
   <node concept="1YbPZF" id="7SsDM6P3I3l">
     <property role="TrG5h" value="typeof_InputNodeExpr" />
-    <node concept="3clFbS" id="7SsDM6P3I3m" role="18ibNy" />
+    <node concept="3clFbS" id="7SsDM6P3I3m" role="18ibNy">
+      <node concept="1Z5TYs" id="MPvpOXTcfz" role="3cqZAp">
+        <node concept="mw_s8" id="MPvpOXTcfR" role="1ZfhKB">
+          <node concept="2pJPEk" id="MPvpOXTcfN" role="mwGJk">
+            <node concept="2pJPED" id="MPvpOXTcg2" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+              <node concept="2pIpSj" id="MPvpOXTcgV" role="2pJxcM">
+                <ref role="2pIpSl" to="tp25:g$ehGDh" />
+                <node concept="36biLy" id="MPvpOXTchv" role="2pJxcZ">
+                  <node concept="2OqwBi" id="MPvpOXTdP4" role="36biLW">
+                    <node concept="2OqwBi" id="MPvpOXTcjV" role="2Oq$k0">
+                      <node concept="1YBJjd" id="MPvpOXTchE" role="2Oq$k0">
+                        <ref role="1YBMHb" node="7SsDM6P3I3o" resolve="inputNodeExpr" />
+                      </node>
+                      <node concept="2Xjw5R" id="MPvpOXTcF2" role="2OqNvi">
+                        <node concept="1xMEDy" id="MPvpOXTcF4" role="1xVPHs">
+                          <node concept="chp4Y" id="MPvpOXTdMy" role="ri$Ld">
+                            <ref role="cht4Q" to="tpf8:gZ0H$p7" resolve="BaseMappingRule" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="MPvpOXTdYm" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpf8:gZ0HIsK" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="MPvpOXTcfA" role="1ZfhK$">
+          <node concept="1Z2H0r" id="MPvpOXTcd7" role="mwGJk">
+            <node concept="1YBJjd" id="MPvpOXTcdB" role="1Z2MuG">
+              <ref role="1YBMHb" node="7SsDM6P3I3o" resolve="inputNodeExpr" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1YaCAy" id="7SsDM6P3I3o" role="1YuTPh">
       <property role="TrG5h" value="inputNodeExpr" />
       <ref role="1YaFvo" to="k6mm:7SsDM6P3I0s" resolve="InputNodeExpr" />
@@ -2672,15 +2674,6 @@
     <node concept="1YaCAy" id="6t$AXNjDNNv" role="1YuTPh">
       <property role="TrG5h" value="iGeneratedToJavaClass" />
       <ref role="1YaFvo" to="k6mm:6t$AXNjDNCZ" resolve="IGeneratedToJavaClass" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="6t$AXNjXtsK">
-    <property role="TrG5h" value="typeof_LiftFrameFromGenAnnotation" />
-    <property role="3GE5qa" value="lifting" />
-    <node concept="3clFbS" id="6t$AXNjXtsL" role="18ibNy" />
-    <node concept="1YaCAy" id="6t$AXNjXtsN" role="1YuTPh">
-      <property role="TrG5h" value="liftFrameFromGenAnnotation" />
-      <ref role="1YaFvo" to="k6mm:6Poal3c$GsN" resolve="LiftFrameFromGenAnnotation" />
     </node>
   </node>
   <node concept="1YbPZF" id="6t$AXNkrISE">

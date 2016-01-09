@@ -19,10 +19,6 @@
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
-      <concept id="1207318242772" name="jetbrains.mps.lang.plugin.structure.KeyMapKeystroke" flags="ng" index="pLAjd">
-        <property id="1207318242773" name="modifiers" index="pLAjc" />
-        <property id="1207318242774" name="keycode" index="pLAjf" />
-      </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1215865999894" name="mnemonic" index="ngHcd" />
         <property id="1205250923097" name="caption" index="2uzpH1" />
@@ -30,15 +26,7 @@
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
-      <concept id="1562714432501166198" name="jetbrains.mps.lang.plugin.structure.SimpleShortcutChange" flags="lg" index="Zd509">
-        <child id="1562714432501166206" name="keystroke" index="Zd501" />
-      </concept>
-      <concept id="1562714432501166197" name="jetbrains.mps.lang.plugin.structure.KeymapChangesDeclaration" flags="ng" index="Zd50a">
-        <child id="1562714432501166199" name="shortcutChange" index="Zd508" />
-      </concept>
-      <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="lg" index="1bYyw_">
-        <reference id="6193305307616734326" name="action" index="1bYAoF" />
-      </concept>
+      <concept id="1562714432501166197" name="jetbrains.mps.lang.plugin.structure.KeymapChangesDeclaration" flags="ng" index="Zd50a" />
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
       <concept id="1217252042208" name="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration" flags="ng" index="1DS2jV">
         <reference id="1217252646389" name="key" index="1DUlNI" />
@@ -61,6 +49,9 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1177326519037" name="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" flags="nn" index="u8gfJ">
+        <child id="1177326540772" name="statement" index="u8lrQ" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -96,6 +87,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -498,78 +490,83 @@
     <property role="3GE5qa" value="" />
     <node concept="tnohg" id="nR0x4J63tq" role="tncku">
       <node concept="3clFbS" id="nR0x4J63tr" role="2VODD2">
-        <node concept="3clFbF" id="nR0x4J63ts" role="3cqZAp">
-          <node concept="2OqwBi" id="nR0x4J63tt" role="3clFbG">
-            <node concept="2YIFZM" id="nR0x4J63tu" role="2Oq$k0">
-              <ref role="37wK5l" to="ierg:~TracingSettings.getInstance():jetbrains.mps.textgen.trace.IModifiableTraceSettings" resolve="getInstance" />
-              <ref role="1Pybhc" to="ierg:~TracingSettings" resolve="TracingSettings" />
-            </node>
-            <node concept="liA8E" id="nR0x4J63tv" role="2OqNvi">
-              <ref role="37wK5l" to="ierg:~IModifiableTraceSettings.setWriteTracingFile(boolean):void" resolve="setWriteTracingFile" />
-              <node concept="3fqX7Q" id="nR0x4J63tw" role="37wK5m">
-                <node concept="2OqwBi" id="nR0x4J63tx" role="3fr31v">
-                  <node concept="2YIFZM" id="nR0x4J63ty" role="2Oq$k0">
-                    <ref role="1Pybhc" to="ierg:~TracingSettings" resolve="TracingSettings" />
-                    <ref role="37wK5l" to="ierg:~TracingSettings.getInstance():jetbrains.mps.textgen.trace.IModifiableTraceSettings" resolve="getInstance" />
-                  </node>
-                  <node concept="liA8E" id="nR0x4J63KJ" role="2OqNvi">
-                    <ref role="37wK5l" to="ierg:~IModifiableTraceSettings.isWriteTracingFile():boolean" resolve="isWriteTracingFile" />
+        <node concept="3clFbH" id="2LqMkzXsXcL" role="3cqZAp" />
+        <node concept="3clFbH" id="2LqMkzXu8Mv" role="3cqZAp" />
+        <node concept="3clFbH" id="2LqMkzXu8zg" role="3cqZAp" />
+        <node concept="u8gfJ" id="2LqMkzXsHxI" role="3cqZAp">
+          <node concept="3clFbF" id="nR0x4J63ts" role="u8lrQ">
+            <node concept="2OqwBi" id="nR0x4J63tt" role="3clFbG">
+              <node concept="2YIFZM" id="nR0x4J63tu" role="2Oq$k0">
+                <ref role="37wK5l" to="ierg:~TracingSettings.getInstance():jetbrains.mps.textgen.trace.IModifiableTraceSettings" resolve="getInstance" />
+                <ref role="1Pybhc" to="ierg:~TracingSettings" resolve="TracingSettings" />
+              </node>
+              <node concept="liA8E" id="nR0x4J63tv" role="2OqNvi">
+                <ref role="37wK5l" to="ierg:~IModifiableTraceSettings.setWriteTracingFile(boolean):void" resolve="setWriteTracingFile" />
+                <node concept="3fqX7Q" id="nR0x4J63tw" role="37wK5m">
+                  <node concept="2OqwBi" id="nR0x4J63tx" role="3fr31v">
+                    <node concept="2YIFZM" id="nR0x4J63ty" role="2Oq$k0">
+                      <ref role="1Pybhc" to="ierg:~TracingSettings" resolve="TracingSettings" />
+                      <ref role="37wK5l" to="ierg:~TracingSettings.getInstance():jetbrains.mps.textgen.trace.IModifiableTraceSettings" resolve="getInstance" />
+                    </node>
+                    <node concept="liA8E" id="nR0x4J63KJ" role="2OqNvi">
+                      <ref role="37wK5l" to="ierg:~IModifiableTraceSettings.isWriteTracingFile():boolean" resolve="isWriteTracingFile" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3cpWs8" id="nR0x4Jam3J" role="3cqZAp">
-          <node concept="3cpWsn" id="nR0x4Jam3K" role="3cpWs9">
-            <property role="TrG5h" value="message" />
-            <node concept="17QB3L" id="nR0x4Jam3L" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="nR0x4Jam3M" role="3cqZAp">
-          <node concept="3clFbS" id="nR0x4Jam3N" role="3clFbx">
-            <node concept="3clFbF" id="nR0x4Jam3O" role="3cqZAp">
-              <node concept="37vLTI" id="nR0x4Jam3P" role="3clFbG">
-                <node concept="37vLTw" id="nR0x4Jam3Q" role="37vLTJ">
-                  <ref role="3cqZAo" node="nR0x4Jam3K" resolve="message" />
-                </node>
-                <node concept="Xl_RD" id="nR0x4Jam3R" role="37vLTx">
-                  <property role="Xl_RC" value="Writing multi-level Trace File editor is activated" />
-                </node>
-              </node>
+          <node concept="3cpWs8" id="nR0x4Jam3J" role="u8lrQ">
+            <node concept="3cpWsn" id="nR0x4Jam3K" role="3cpWs9">
+              <property role="TrG5h" value="message" />
+              <node concept="17QB3L" id="nR0x4Jam3L" role="1tU5fm" />
             </node>
           </node>
-          <node concept="2OqwBi" id="nR0x4Jam3S" role="3clFbw">
-            <node concept="2YIFZM" id="nR0x4Jam3T" role="2Oq$k0">
-              <ref role="37wK5l" to="ierg:~TracingSettings.getInstance():jetbrains.mps.textgen.trace.IModifiableTraceSettings" resolve="getInstance" />
-              <ref role="1Pybhc" to="ierg:~TracingSettings" resolve="TracingSettings" />
-            </node>
-            <node concept="liA8E" id="nR0x4Jam3U" role="2OqNvi">
-              <ref role="37wK5l" to="ierg:~IModifiableTraceSettings.isWriteTracingFile():boolean" resolve="isWriteTracingFile" />
-            </node>
-          </node>
-          <node concept="9aQIb" id="nR0x4Jam3V" role="9aQIa">
-            <node concept="3clFbS" id="nR0x4Jam3W" role="9aQI4">
-              <node concept="3clFbF" id="nR0x4Jam3X" role="3cqZAp">
-                <node concept="37vLTI" id="nR0x4Jam3Y" role="3clFbG">
-                  <node concept="37vLTw" id="nR0x4Jam3Z" role="37vLTJ">
+          <node concept="3clFbJ" id="nR0x4Jam3M" role="u8lrQ">
+            <node concept="3clFbS" id="nR0x4Jam3N" role="3clFbx">
+              <node concept="3clFbF" id="nR0x4Jam3O" role="3cqZAp">
+                <node concept="37vLTI" id="nR0x4Jam3P" role="3clFbG">
+                  <node concept="37vLTw" id="nR0x4Jam3Q" role="37vLTJ">
                     <ref role="3cqZAo" node="nR0x4Jam3K" resolve="message" />
                   </node>
-                  <node concept="Xl_RD" id="nR0x4Jam40" role="37vLTx">
-                    <property role="Xl_RC" value="Writing multi-level Trace File editor is deactivated" />
+                  <node concept="Xl_RD" id="nR0x4Jam3R" role="37vLTx">
+                    <property role="Xl_RC" value="Writing multi-level Trace File editor is activated" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="nR0x4Jam3S" role="3clFbw">
+              <node concept="2YIFZM" id="nR0x4Jam3T" role="2Oq$k0">
+                <ref role="37wK5l" to="ierg:~TracingSettings.getInstance():jetbrains.mps.textgen.trace.IModifiableTraceSettings" resolve="getInstance" />
+                <ref role="1Pybhc" to="ierg:~TracingSettings" resolve="TracingSettings" />
+              </node>
+              <node concept="liA8E" id="nR0x4Jam3U" role="2OqNvi">
+                <ref role="37wK5l" to="ierg:~IModifiableTraceSettings.isWriteTracingFile():boolean" resolve="isWriteTracingFile" />
+              </node>
+            </node>
+            <node concept="9aQIb" id="nR0x4Jam3V" role="9aQIa">
+              <node concept="3clFbS" id="nR0x4Jam3W" role="9aQI4">
+                <node concept="3clFbF" id="nR0x4Jam3X" role="3cqZAp">
+                  <node concept="37vLTI" id="nR0x4Jam3Y" role="3clFbG">
+                    <node concept="37vLTw" id="nR0x4Jam3Z" role="37vLTJ">
+                      <ref role="3cqZAo" node="nR0x4Jam3K" resolve="message" />
+                    </node>
+                    <node concept="Xl_RD" id="nR0x4Jam40" role="37vLTx">
+                      <property role="Xl_RC" value="Writing multi-level Trace File editor is deactivated" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="nR0x4Jam41" role="3cqZAp">
-          <node concept="2YIFZM" id="nR0x4Jam42" role="3clFbG">
-            <ref role="37wK5l" to="dbrf:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object):void" resolve="showMessageDialog" />
-            <ref role="1Pybhc" to="dbrf:~JOptionPane" resolve="JOptionPane" />
-            <node concept="10Nm6u" id="nR0x4Jam43" role="37wK5m" />
-            <node concept="37vLTw" id="nR0x4Jam44" role="37wK5m">
-              <ref role="3cqZAo" node="nR0x4Jam3K" resolve="message" />
+          <node concept="3clFbF" id="nR0x4Jam41" role="u8lrQ">
+            <node concept="2YIFZM" id="nR0x4Jam42" role="3clFbG">
+              <ref role="37wK5l" to="dbrf:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object):void" resolve="showMessageDialog" />
+              <ref role="1Pybhc" to="dbrf:~JOptionPane" resolve="JOptionPane" />
+              <node concept="10Nm6u" id="nR0x4Jam43" role="37wK5m" />
+              <node concept="37vLTw" id="nR0x4Jam44" role="37wK5m">
+                <ref role="3cqZAo" node="nR0x4Jam3K" resolve="message" />
+              </node>
             </node>
           </node>
         </node>
@@ -579,27 +576,6 @@
   <node concept="Zd50a" id="Wvkle$RXGw">
     <property role="TrG5h" value="tracingKeyMappings" />
     <property role="3GE5qa" value="" />
-    <node concept="Zd509" id="nR0x4J63M0" role="Zd508">
-      <ref role="1bYAoF" node="6AXckLE8K8g" resolve="ToggleShowGenerationEditor" />
-      <node concept="pLAjd" id="nR0x4J63M1" role="Zd501">
-        <property role="pLAjf" value="VK_F1" />
-        <property role="pLAjc" value="ctrl+shift" />
-      </node>
-    </node>
-    <node concept="Zd509" id="Wvkle$RXGx" role="Zd508">
-      <ref role="1bYAoF" node="nR0x4J5MFb" resolve="ToggleWriteGenerationTrace" />
-      <node concept="pLAjd" id="nR0x4J4L_E" role="Zd501">
-        <property role="pLAjf" value="VK_F2" />
-        <property role="pLAjc" value="ctrl+shift" />
-      </node>
-    </node>
-    <node concept="Zd509" id="nR0x4J63Mq" role="Zd508">
-      <ref role="1bYAoF" node="nR0x4J63tl" resolve="ToggleWriteTraceFile" />
-      <node concept="pLAjd" id="nR0x4J63Mr" role="Zd501">
-        <property role="pLAjf" value="VK_F3" />
-        <property role="pLAjc" value="ctrl+shift" />
-      </node>
-    </node>
   </node>
 </model>
 

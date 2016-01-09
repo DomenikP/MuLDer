@@ -30,7 +30,7 @@
         <dependency reexport="false">59a09bf6-2b13-49ef-80d1-741985a7f0ed(Tracing)</dependency>
         <dependency reexport="false">83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</dependency>
         <dependency reexport="false">ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</dependency>
-        <dependency reexport="false">8165ef98-703d-4a4b-8a5a-c4f6e1dd4458(DeSpec.Text#7125955223611155185)</dependency>
+        <dependency reexport="false">8165ef98-703d-4a4b-8a5a-c4f6e1dd4458(DeSpec.TextGen#7125955223611155185)</dependency>
         <dependency reexport="false">b25694ab-2b70-4644-a06e-4d199f64d0c5(DeSpec.Text)</dependency>
       </dependencies>
       <usedLanguages>
@@ -127,6 +127,7 @@
     <dependency reexport="false">22367348-1101-45e3-b095-7dbb6c95e5b3(DeSpec.preferences)</dependency>
     <dependency reexport="false">59a09bf6-2b13-49ef-80d1-741985a7f0ed(Tracing)</dependency>
     <dependency reexport="false">b25694ab-2b70-4644-a06e-4d199f64d0c5(DeSpec.Text)</dependency>
+    <dependency reexport="false">d063e9e6-a068-4a98-b5b4-a42dc5a1cf00(DeSpec.Generator)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
