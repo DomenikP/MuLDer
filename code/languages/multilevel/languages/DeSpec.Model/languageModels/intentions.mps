@@ -245,7 +245,7 @@
                   <node concept="2Sf5sV" id="5O4u2zWJa6R" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="5O4u2zWJa6S" role="2OqNvi">
                     <node concept="3CFYIy" id="5O4u2zWJaiM" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="LiftFrameFromGen" />
+                      <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="LiftFrame2FrameFromGen" />
                     </node>
                   </node>
                 </node>
@@ -258,7 +258,7 @@
               <node concept="2Sf5sV" id="5O4u2zWJa6X" role="2Oq$k0" />
               <node concept="3CFZ6_" id="5O4u2zWJa6Y" role="2OqNvi">
                 <node concept="3CFYIy" id="7WYWQThOnL6" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="LiftFrameFromGen" />
+                  <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="LiftFrame2FrameFromGen" />
                 </node>
               </node>
             </node>
@@ -272,7 +272,7 @@
                     <node concept="2Sf5sV" id="5O4u2zWJa76" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="5O4u2zWJa77" role="2OqNvi">
                       <node concept="3CFYIy" id="5O4u2zWJauD" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="LiftFrameFromGen" />
+                        <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="LiftFrame2FrameFromGen" />
                       </node>
                     </node>
                   </node>
@@ -373,6 +373,90 @@
         <node concept="3clFbF" id="4Dfag9jPXqn" role="3cqZAp">
           <node concept="Xl_RD" id="4Dfag9jPXqo" role="3clFbG">
             <property role="Xl_RC" value="Toogle Delegate Breakpoint" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="8ik0RGTpan">
+    <property role="TrG5h" value="ToggleNotLiftedFrameFromGen" />
+    <ref role="2ZfgGC" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    <node concept="2Sbjvc" id="8ik0RGTpao" role="2ZfgGD">
+      <node concept="3clFbS" id="8ik0RGTpap" role="2VODD2">
+        <node concept="3clFbJ" id="8ik0RGTpaq" role="3cqZAp">
+          <node concept="3clFbS" id="8ik0RGTpar" role="3clFbx">
+            <node concept="3clFbF" id="8ik0RGTpas" role="3cqZAp">
+              <node concept="2OqwBi" id="8ik0RGTpat" role="3clFbG">
+                <node concept="2OqwBi" id="8ik0RGTpau" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="8ik0RGTpav" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="8ik0RGTpaw" role="2OqNvi">
+                    <node concept="3CFYIy" id="8ik0RGTpUU" role="3CFYIz">
+                      <ref role="3CFYIx" to="2cz0:8ik0RGSLB7" resolve="NotLiftedFrameFromGen" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="1PgB_6" id="8ik0RGTpay" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="8ik0RGTpaz" role="3clFbw">
+            <node concept="2OqwBi" id="8ik0RGTpa$" role="2Oq$k0">
+              <node concept="2Sf5sV" id="8ik0RGTpa_" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="8ik0RGTpaA" role="2OqNvi">
+                <node concept="3CFYIy" id="8ik0RGTpS$" role="3CFYIz">
+                  <ref role="3CFYIx" to="2cz0:8ik0RGSLB7" resolve="NotLiftedFrameFromGen" />
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="8ik0RGTpaC" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="8ik0RGTpaD" role="9aQIa">
+            <node concept="3clFbS" id="8ik0RGTpaE" role="9aQI4">
+              <node concept="3clFbF" id="8ik0RGTpaF" role="3cqZAp">
+                <node concept="2OqwBi" id="8ik0RGTpaG" role="3clFbG">
+                  <node concept="2OqwBi" id="8ik0RGTpaH" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="8ik0RGTpaI" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="8ik0RGTpaJ" role="2OqNvi">
+                      <node concept="3CFYIy" id="8ik0RGTpX6" role="3CFYIz">
+                        <ref role="3CFYIx" to="2cz0:8ik0RGSLB7" resolve="NotLiftedFrameFromGen" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="zfrQC" id="8ik0RGTpaL" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2S6ZIM" id="8ik0RGTpaM" role="2ZfVej">
+      <node concept="3clFbS" id="8ik0RGTpaN" role="2VODD2">
+        <node concept="3clFbF" id="8ik0RGTpaO" role="3cqZAp">
+          <node concept="Xl_RD" id="8ik0RGTpaP" role="3clFbG">
+            <property role="Xl_RC" value="Toggle Do not lift Stack Frame" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="8ik0RGTpaQ" role="2ZfVeh">
+      <node concept="3clFbS" id="8ik0RGTpaR" role="2VODD2">
+        <node concept="3clFbF" id="8ik0RGTpaS" role="3cqZAp">
+          <node concept="1Wc70l" id="8ik0RGTpaT" role="3clFbG">
+            <node concept="2OqwBi" id="8ik0RGTpaU" role="3uHU7w">
+              <node concept="2Sf5sV" id="8ik0RGTpaV" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="8ik0RGTpaW" role="2OqNvi">
+                <node concept="chp4Y" id="8ik0RGTpaX" role="cj9EA">
+                  <ref role="cht4Q" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="8ik0RGTpaY" role="3uHU7B">
+              <node concept="2Sf5sV" id="8ik0RGTpaZ" role="2Oq$k0" />
+              <node concept="2qgKlT" id="8ik0RGTpb0" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMij" resolve="isInTemplates" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

@@ -222,6 +222,9 @@
     <node concept="PrWs8" id="1y5IIwWD5cE" role="PzmwI">
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
+    <node concept="PrWs8" id="8ik0RGGOOD" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1y5IIwWD5bb">
     <property role="TrG5h" value="ComponentInstance" />

@@ -266,8 +266,9 @@
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
       <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromGen" flags="ng" index="2xMITz">
-        <child id="915776213541047768" name="liftToContributor" index="Lqb15" />
+        <child id="915776213541047768" name="resolveLiftToContributor" index="Lqb15" />
       </concept>
+      <concept id="149269758395750855" name="DeSpec.Model.structure.NotLiftedFrameFromGen" flags="ng" index="3IWkBa" />
     </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
       <concept id="7450251056332157791" name="DeSpec.structure.LiftToNodeReference" flags="ng" index="2Njay3">
@@ -702,6 +703,7 @@
               <node concept="2ZBi8u" id="7MFNr6DFhO6" role="lGtFl">
                 <ref role="2rW$FS" node="7MFNr6DFhO5" resolve="failedExpectationsRunnable" />
               </node>
+              <node concept="3IWkBa" id="8ik0RGTx8N" role="lGtFl" />
             </node>
             <node concept="1LR4Mb" id="MPvpOY19YI" role="1X0m1v" />
             <node concept="$0bhv" id="MPvpOY1b2m" role="1X0m1v">

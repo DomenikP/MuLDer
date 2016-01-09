@@ -199,7 +199,7 @@
       </concept>
     </language>
     <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="Tracing">
-      <concept id="71553305893445776" name="Tracing.structure.getCopyFromHigherLevelOperation" flags="ng" index="14HDna" />
+      <concept id="71553305893445776" name="Tracing.structure.GetCopyFromHigherLevelOperation" flags="ng" index="14HDna" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
@@ -1253,6 +1253,73 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="8ik0RGGP9Q" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getStackFrameName" />
+      <ref role="13i0hy" to="c41m:4dLPB5yjglT" resolve="getStackFrameName" />
+      <node concept="3Tm1VV" id="8ik0RGGP9R" role="1B3o_S" />
+      <node concept="3clFbS" id="8ik0RGGP9O" role="3clF47">
+        <node concept="3clFbF" id="8ik0RGGPmz" role="3cqZAp">
+          <node concept="2OqwBi" id="8ik0RGGPsh" role="3clFbG">
+            <node concept="13iPFW" id="8ik0RGGPmy" role="2Oq$k0" />
+            <node concept="3TrcHB" id="8ik0RGGQkK" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="8ik0RGGP9S" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="8ik0RGGP9Z" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="contributesStackFrame" />
+      <ref role="13i0hy" to="c41m:4dLPB5yjgm4" resolve="contributesStackFrame" />
+      <node concept="3Tm1VV" id="8ik0RGGPa0" role="1B3o_S" />
+      <node concept="3clFbS" id="8ik0RGGP9X" role="3clF47">
+        <node concept="3clFbF" id="8ik0RGVAqu" role="3cqZAp">
+          <node concept="3clFbT" id="8ik0RGVAqt" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="8ik0RGGPa1" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="8ik0RGGPae" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="contributeStackFrame" />
+      <ref role="13i0hy" to="c41m:4dLPB5zbwdk" resolve="contributeStackFrame" />
+      <node concept="3Tm1VV" id="8ik0RGGPaf" role="1B3o_S" />
+      <node concept="3clFbS" id="8ik0RGGPaa" role="3clF47">
+        <node concept="3clFbF" id="8ik0RGGQmi" role="3cqZAp">
+          <node concept="10Nm6u" id="8ik0RGGQmh" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="8ik0RGGPag" role="3clF46">
+        <property role="TrG5h" value="lowerLevelFrame" />
+        <node concept="17QB3L" id="8ik0RGGPah" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="8ik0RGGPai" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="8ik0RGGPat" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="liftsFrame" />
+      <ref role="13i0hy" to="c41m:4dLPB5zbt8D" resolve="liftsFrame" />
+      <node concept="3Tm1VV" id="8ik0RGGPau" role="1B3o_S" />
+      <node concept="3clFbS" id="8ik0RGGPap" role="3clF47">
+        <node concept="3clFbF" id="8ik0RGGPaz" role="3cqZAp">
+          <node concept="3clFbT" id="8ik0RGGPay" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="8ik0RGGPav" role="3clF46">
+        <property role="TrG5h" value="lowerLevelFrame" />
+        <node concept="17QB3L" id="8ik0RGGPaw" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="8ik0RGGPax" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="7ZqGTTqWWv6">

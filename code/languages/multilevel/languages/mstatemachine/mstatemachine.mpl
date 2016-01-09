@@ -116,6 +116,7 @@
     <usedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</usedLanguage>
     <usedLanguage>ef7bf5ac-d06c-4342-b11d-e42104eb9343(jetbrains.mps.lang.plugin.standalone)</usedLanguage>
     <usedLanguage>59a09bf6-2b13-49ef-80d1-741985a7f0ed(Tracing)</usedLanguage>
+    <usedLanguage>b25694ab-2b70-4644-a06e-4d199f64d0c5(DeSpec.Text)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
@@ -124,6 +125,7 @@
   <languageVersions>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="DeSpec" version="0" />
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" fqName="DeSpec.Model" version="0" />
+    <language id="b25694ab-2b70-4644-a06e-4d199f64d0c5" fqName="DeSpec.Text" version="0" />
     <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" fqName="Tracing" version="0" />
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />
     <language id="223dd778-c44f-4ef3-9535-7aa7d12244a6" fqName="com.mbeddr.core.debug" version="0" />

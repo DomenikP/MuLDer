@@ -207,7 +207,7 @@
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
       <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromGen" flags="ng" index="2xMITz">
-        <child id="915776213541047768" name="liftToContributor" index="Lqb15" />
+        <child id="915776213541047768" name="resolveLiftToContributor" index="Lqb15" />
       </concept>
     </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
@@ -746,9 +746,6 @@
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="2NXPZ9" id="1Rm5R2SrMjI" role="N3F5h">
-            <property role="TrG5h" value="empty_1443553191879_38" />
           </node>
           <node concept="N3Fnx" id="1Rm5R2Sjj5J" role="N3F5h">
             <property role="TrG5h" value="runnable" />
@@ -1865,6 +1862,9 @@
                   </node>
                 </node>
               </node>
+            </node>
+            <node concept="2xMITz" id="8ik0RGFSeP" role="lGtFl">
+              <node concept="3b4$sX" id="8ik0RGFStY" role="Lqb15" />
             </node>
           </node>
         </node>

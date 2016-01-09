@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:75b550e7-f8f8-4aa3-b907-0aa8ebae3dc4(GenerationTraceLang.behavior)">
+<model ref="r:75b550e7-f8f8-4aa3-b907-0aa8ebae3dc4(GenerationTrace.behavior)">
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />

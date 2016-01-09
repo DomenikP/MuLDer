@@ -20,7 +20,6 @@
     <usedLanguage>a482b416-d0c9-473f-8f67-725ed642b3f3(com.mbeddr.mpsutil.breadcrumb)</usedLanguage>
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
     <usedLanguage>479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)</usedLanguage>
-    <usedLanguage>d7a9631e-56a5-4073-bc8e-bd6c4f6624a6(GenerationTraceLang)</usedLanguage>
     <usedLanguage>558e8d91-d211-4de0-b141-9a8b8f04b79d(multiLevel.debugger)</usedLanguage>
     <usedLanguage>2d7fadf5-33f6-4e80-a78f-0f739add2bde(com.mbeddr.core.buildconfig)</usedLanguage>
     <usedLanguage>61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</usedLanguage>
@@ -29,6 +28,7 @@
     <usedLanguage>2693fc71-9b0e-4b05-ab13-f57227d675f2(com.mbeddr.core.util)</usedLanguage>
     <usedLanguage>6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</usedLanguage>
     <usedLanguage>efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</usedLanguage>
+    <usedLanguage>d7a9631e-56a5-4073-bc8e-bd6c4f6624a6(GenerationTrace)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)</usedDevKit>
@@ -36,7 +36,7 @@
   </usedDevKits>
   <languageVersions>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="DeSpec" version="0" />
-    <language id="d7a9631e-56a5-4073-bc8e-bd6c4f6624a6" fqName="GenerationTraceLang" version="0" />
+    <language id="d7a9631e-56a5-4073-bc8e-bd6c4f6624a6" fqName="GenerationTrace" version="0" />
     <language id="5529be6b-f382-41f9-834c-9d6b2e079511" fqName="MAtomicComponent" version="0" />
     <language id="eb6e703a-d3cc-488e-a462-15d37e40ae7a" fqName="MMockComponent" version="0" />
     <language id="ca35bd95-fbad-4fae-9646-654a9a55ec5f" fqName="MStubComponent" version="0" />

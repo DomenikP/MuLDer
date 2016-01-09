@@ -13,6 +13,7 @@
     <import index="yh8" ref="r:cf8dc0a4-7e7f-4be5-9853-f747cd33208a(DeSpec.behavior)" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(multiLevel.debugger.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -612,8 +613,8 @@
                     <node concept="3clFbF" id="MPvpOYkxuw" role="3cqZAp">
                       <node concept="2OqwBi" id="MPvpOYkx_l" role="3clFbG">
                         <node concept="pncrf" id="MPvpOYkxuv" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="MPvpOYkxNV" role="2OqNvi">
-                          <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                        <node concept="2qgKlT" id="8ik0RGUGEG" role="2OqNvi">
+                          <ref role="37wK5l" to="c41m:4dLPB5yjglT" resolve="getStackFrameName" />
                         </node>
                       </node>
                     </node>
@@ -699,6 +700,45 @@
       <node concept="VechU" id="MPvpOXPp_J" role="3F10Kt">
         <property role="Vb096" value="black" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="8ik0RGTxwO">
+    <property role="3GE5qa" value="stackframes" />
+    <ref role="1XX52x" to="2cz0:8ik0RGSLB7" resolve="NotLiftedFrameFromGen" />
+    <node concept="3EZMnI" id="8ik0RGTxB4" role="2wV5jI">
+      <node concept="3EZMnI" id="8ik0RGTxB5" role="3EZMnx">
+        <node concept="VPM3Z" id="8ik0RGTxB6" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="ljvvj" id="8ik0RGTxB7" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="8ik0RGTxB8" role="3EZMnx">
+          <property role="3F0ifm" value="@DoNotLiftStackFrame" />
+          <ref role="1k5W1q" node="MPvpOXPptz" resolve="DebuggerGeneratorAnnotation" />
+          <node concept="30gYXW" id="8ik0RGTxB9" role="3F10Kt">
+            <property role="Vb096" value="lightGray" />
+          </node>
+          <node concept="VechU" id="8ik0RGTxBa" role="3F10Kt">
+            <property role="Vb096" value="black" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="8ik0RGTxBz" role="2iSdaV" />
+        <node concept="pkWqt" id="8ik0RGTxB$" role="pqm2j">
+          <node concept="3clFbS" id="8ik0RGTxB_" role="2VODD2">
+            <node concept="3clFbF" id="8ik0RGTxBA" role="3cqZAp">
+              <node concept="2OqwBi" id="8ik0RGTxBB" role="3clFbG">
+                <node concept="pncrf" id="8ik0RGTxBC" role="2Oq$k0" />
+                <node concept="2qgKlT" id="8ik0RGTxBD" role="2OqNvi">
+                  <ref role="37wK5l" to="yh8:3EISKF07N3F" resolve="showEditor" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2SsqMj" id="8ik0RGTxBV" role="3EZMnx" />
+      <node concept="l2Vlx" id="8ik0RGTxBW" role="2iSdaV" />
     </node>
   </node>
 </model>

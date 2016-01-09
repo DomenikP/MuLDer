@@ -147,6 +147,9 @@
     <node concept="PrWs8" id="3EISKF0f_t5" role="PzmwI">
       <ref role="PrY4T" to="k6mm:3EISKF075jw" resolve="IStackFramesDebugInformation" />
     </node>
+    <node concept="PrWs8" id="8ik0RGEXNT" role="PzmwI">
+      <ref role="PrY4T" node="8ik0RGEXNm" resolve="IStackFrameLifter" />
+    </node>
     <node concept="1TJgyj" id="MPvpOYbcnO" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToContributor" />
@@ -173,6 +176,38 @@
   <node concept="PlHQZ" id="MPvpOXRsWV">
     <property role="3GE5qa" value="stackframes" />
     <property role="TrG5h" value="ILiftToContributorRef" />
+  </node>
+  <node concept="PlHQZ" id="8ik0RGEXNm">
+    <property role="3GE5qa" value="stackframes" />
+    <property role="TrG5h" value="IStackFrameLifter" />
+  </node>
+  <node concept="1TIwiD" id="8ik0RGSLB7">
+    <property role="TrG5h" value="NotLiftedFrameFromGen" />
+    <property role="3GE5qa" value="stackframes" />
+    <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
+    <node concept="1TJgyj" id="8ik0RGSLB8" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="resolveLiftToContributor" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="MPvpOXRsWV" resolve="ILiftToContributorRef" />
+    </node>
+    <node concept="M6xJ_" id="8ik0RGSLB9" role="lGtFl">
+      <property role="Hh88m" value="doNotLiftFrame" />
+      <node concept="trNpa" id="8ik0RGSLBa" role="EQaZv">
+        <ref role="trN6q" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="8ik0RGSLBb" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:3EISKF075jw" resolve="IStackFramesDebugInformation" />
+    </node>
+    <node concept="PrWs8" id="8ik0RGSLBc" role="PzmwI">
+      <ref role="PrY4T" node="8ik0RGEXNm" resolve="IStackFrameLifter" />
+    </node>
+    <node concept="1TJgyj" id="8ik0RGSLBd" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="liftToContributor" />
+      <ref role="20lvS9" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    </node>
   </node>
 </model>
 

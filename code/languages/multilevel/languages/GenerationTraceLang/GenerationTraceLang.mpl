@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="GenerationTraceLang" uuid="d7a9631e-56a5-4073-bc8e-bd6c4f6624a6" version="0">
+<language namespace="GenerationTrace" uuid="d7a9631e-56a5-4073-bc8e-bd6c4f6624a6" version="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="GenerationTraceLang#5971665392497409905" uuid="d1bcb0d4-8d6e-45bc-ada2-012cbcb195f4">
+    <generator generatorUID="GenerationTrace#5971665392497409905" uuid="d1bcb0d4-8d6e-45bc-ada2-012cbcb195f4">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -17,13 +17,13 @@
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
-        <usedLanguage>d7a9631e-56a5-4073-bc8e-bd6c4f6624a6(GenerationTraceLang)</usedLanguage>
+        <usedLanguage>d7a9631e-56a5-4073-bc8e-bd6c4f6624a6(GenerationTrace)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <languageVersions>
-        <language id="d7a9631e-56a5-4073-bc8e-bd6c4f6624a6" fqName="GenerationTraceLang" version="-1" />
+        <language id="d7a9631e-56a5-4073-bc8e-bd6c4f6624a6" fqName="GenerationTrace" version="-1" />
         <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
         <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
         <language id="fd392034-7849-419d-9071-12563d152375" fqName="jetbrains.mps.baseLanguage.closures" version="0" />
