@@ -11,6 +11,7 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
+    <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(DeSpec.Text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -82,7 +83,7 @@
       </node>
     </node>
     <node concept="PrWs8" id="6hWVX3q_Pf" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
+      <ref role="PrY4T" to="tdvr:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
     </node>
     <node concept="PrWs8" id="MPvpOSw2H1" role="PzmwI">
       <ref role="PrY4T" node="MPvpOSvUWE" resolve="IRequiresNameInTextGen" />
@@ -125,7 +126,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="6hWVX3ooFa" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
+      <ref role="PrY4T" to="tdvr:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
     </node>
   </node>
   <node concept="1TIwiD" id="2iiswCs23Ce">
@@ -161,7 +162,7 @@
     <property role="TrG5h" value="StackFrameFromTextGen" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="PrWs8" id="MPvpOSw4Yr" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
+      <ref role="PrY4T" to="tdvr:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
     </node>
     <node concept="PrWs8" id="MPvpOSw4Yx" role="PzmwI">
       <ref role="PrY4T" node="MPvpOSvUWE" resolve="IRequiresNameInTextGen" />

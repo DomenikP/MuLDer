@@ -265,15 +265,13 @@
       <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromGen" flags="ng" index="2xMITz">
+      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz">
         <child id="915776213541047768" name="resolveLiftToContributor" index="Lqb15" />
       </concept>
-      <concept id="149269758395750855" name="DeSpec.Model.structure.NotLiftedFrameFromGen" flags="ng" index="3IWkBa" />
-    </language>
-    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
-      <concept id="7450251056332157791" name="DeSpec.structure.LiftToNodeReference" flags="ng" index="2Njay3">
+      <concept id="7450251056332157791" name="DeSpec.Model.structure.LiftToNodeReference" flags="ng" index="2Njay3">
         <reference id="7450251056332157792" name="liftToNode" index="2NjayW" />
       </concept>
+      <concept id="149269758395750855" name="DeSpec.Model.structure.DoNotLiftStackFrameFromModel" flags="ng" index="3IWkBa" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -960,8 +958,8 @@
                 </node>
               </node>
               <node concept="2xMITz" id="MPvpOY1frB" role="lGtFl">
-                <node concept="2Njay3" id="MPvpOY1gaK" role="Lqb15">
-                  <ref role="2NjayW" to="i2c5:6t$AXNjvDlv" resolve="runnable2Step" />
+                <node concept="2Njay3" id="8ik0RJ2cLE" role="Lqb15">
+                  <ref role="2NjayW" to="i2c5:8ik0RJ29En" resolve="runnable2Step" />
                 </node>
               </node>
               <node concept="$47$T" id="MPvpOY1hFX" role="$38gR">

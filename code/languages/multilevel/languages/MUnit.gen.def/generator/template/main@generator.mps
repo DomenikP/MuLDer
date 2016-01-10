@@ -192,9 +192,7 @@
       <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromGen" flags="ng" index="2xMITz">
         <child id="915776213541047768" name="resolveLiftToContributor" index="Lqb15" />
       </concept>
-    </language>
-    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
-      <concept id="9087321911340228636" name="DeSpec.structure.InputNodeExpr" flags="ng" index="3b4$sX" />
+      <concept id="9087321911340228636" name="" flags="ng" index="3b4$sX" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">

@@ -232,9 +232,11 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromGen" flags="ng" index="2xMITz">
-        <child id="915776213541047768" name="liftToContributor" index="Lqb15" />
+      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz">
+        <child id="915776213541047768" name="resolveLiftToContributor" index="Lqb15" />
       </concept>
+      <concept id="1884882593102557832" name="" flags="ng" index="176o0N" />
+      <concept id="9087321911340228636" name="DeSpec.Model.structure.InputNodeExpr" flags="ng" index="3b4$sX" />
       <concept id="3906148130290742816" name="DeSpec.Model.structure.GeneratedValueLifterFromModel" flags="ng" index="1kf5GB">
         <reference id="3906148130290944737" name="valueLifterSpec" index="1keivA" />
       </concept>
@@ -249,10 +251,9 @@
       <concept id="2417103808885771640" name="DeSpec.structure.LiftToWatchFunctionReference" flags="ng" index="2SqwDz">
         <reference id="2417103808885772834" name="function" index="2SqxkT" />
       </concept>
-      <concept id="1884882593102557832" name="DeSpec.structure.LiftChildren2Watches" flags="ng" index="176o0N">
+      <concept id="1884882593102557832" name="DeSpec.structure.LiftChildren2Watches" flags="ng" index="176o0O">
         <reference id="1884882593105356608" name="walker" index="17tdnV" />
       </concept>
-      <concept id="9087321911340228636" name="DeSpec.structure.InputNodeExpr" flags="ng" index="3b4$sX" />
       <concept id="9087321911352514732" name="DeSpec.structure.InlinedWatchSpec" flags="ng" index="3bPJYd">
         <reference id="2417103808874371337" name="valueLifter" index="2SI1Si" />
         <child id="2417103808877373104" name="liftToWatch" index="2SUA6F" />

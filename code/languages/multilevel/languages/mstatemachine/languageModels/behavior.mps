@@ -140,6 +140,9 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
+      <concept id="1884882593105352175" name="" flags="ng" index="17tetk" />
+      <concept id="1884882593108750801" name="" flags="ng" index="17I0dE" />
+      <concept id="1884882593108724628" name="" flags="ng" index="17I7$J" />
       <concept id="3906148130290944556" name="DeSpec.Model.structure.ValueTransformer" flags="ng" index="1keisF">
         <reference id="3906148130291051010" name="fromConcept" index="1ke8s5" />
         <reference id="3906148130291051147" name="toConcept" index="1ke8uc" />
@@ -170,14 +173,12 @@
       </concept>
       <concept id="1702759464825222715" name="DeSpec.structure.LiftFromModel" flags="ng" index="TtxMd" />
       <concept id="1716287733388071715" name="DeSpec.structure.NodeParameter" flags="ng" index="2Z9qAU" />
-      <concept id="1884882593105352175" name="DeSpec.structure.Children2WatchesWalker" flags="ng" index="17tetk">
+      <concept id="1884882593105352175" name="DeSpec.structure.Children2WatchesWalker" flags="ng" index="17tetl">
         <reference id="1884882593106798867" name="applicableConcept" index="17mHIC" />
         <child id="1884882593106798933" name="body" index="17mHJI" />
         <child id="1884882593109806684" name="llWatchesSelector" index="17yfNB" />
         <child id="1884882593108724629" name="childrenSelector" index="17I7$I" />
       </concept>
-      <concept id="1884882593108750801" name="DeSpec.structure.LLWatchesSelector" flags="ig" index="17I0dE" />
-      <concept id="1884882593108724628" name="DeSpec.structure.ChildrenSelector" flags="ig" index="17I7$J" />
       <concept id="5260770003381287423" name="DeSpec.structure.WatchValuePresentationOperation" flags="ng" index="19$7Id" />
       <concept id="9087321911341929645" name="DeSpec.structure.LiftWatchDeclarationGen" flags="ng" index="3bd7ec">
         <reference id="1167169349424" name="liftTo" index="30HIoZ" />
