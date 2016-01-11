@@ -206,9 +206,12 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="1348472630505294351" name="DeSpec.Model.structure.LiftVariableFromModel" flags="ng" index="2gb7qT">
+      <concept id="1348472630505294351" name="DeSpec.Model.structure.LiftWatchFromModel" flags="ng" index="2gb7qT">
         <reference id="4340270818532034481" name="valueLifter" index="1NCNFx" />
         <child id="4340270818532034488" name="liftToWatch" index="1NCNFC" />
+      </concept>
+      <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w">
+        <child id="3357735961047658418" name="resolveLiftToInputNode" index="DlvMz" />
       </concept>
       <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz">
         <child id="915776213541047768" name="resolveLiftToContributor" index="Lqb15" />
@@ -1380,6 +1383,9 @@
             </node>
             <node concept="2xMITz" id="MPvpOY0UyN" role="lGtFl">
               <node concept="3b4$sX" id="MPvpOY0V8F" role="Lqb15" />
+            </node>
+            <node concept="pAt3w" id="2Up4L48UYYM" role="lGtFl">
+              <node concept="3b4$sX" id="2Up4L48V0fG" role="DlvMz" />
             </node>
           </node>
         </node>
@@ -2891,6 +2897,9 @@
                   </node>
                 </node>
                 <node concept="raruj" id="1qBaxu2JKQ_" role="lGtFl" />
+                <node concept="pAt3w" id="2Up4L48Su1_" role="lGtFl">
+                  <node concept="3b4$sX" id="2Up4L48SumK" role="DlvMz" />
+                </node>
               </node>
             </node>
           </node>

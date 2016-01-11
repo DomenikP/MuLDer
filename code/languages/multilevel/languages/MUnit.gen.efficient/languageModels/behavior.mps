@@ -34,6 +34,11 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
+      <concept id="7450251056318683607" name="DeSpec.Model.structure.LiftToNode" flags="ng" index="2Ofw8b">
+        <reference id="7450251056318702782" name="concept" index="2OfBXy" />
+        <child id="7450251056318702784" name="function" index="2OfBWs" />
+      </concept>
+      <concept id="7450251056318684258" name="DeSpec.Model.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
       <concept id="149269758412226189" name="DeSpec.Model.structure.VirtualFrameSpec" flags="ng" index="3JN2U0">
         <reference id="149269758412804274" name="annotatedNode" index="3JXg2Z" />
         <child id="149269758412798452" name="name" index="3JXmBT" />
@@ -132,6 +137,28 @@
               </node>
             </node>
             <node concept="3TrEf2" id="8ik0RHWCS0" role="2OqNvi">
+              <ref role="3Tt5mk" to="e1nu:14emBKkRwH_" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2Ofw8b" id="2Up4L47UYBr">
+    <property role="TrG5h" value="statementList2Testcase" />
+    <ref role="2OfBXy" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
+    <node concept="2OfwuY" id="2Up4L47UYBs" role="2OfBWs">
+      <node concept="3clFbS" id="2Up4L47UYBt" role="2VODD2">
+        <node concept="3clFbF" id="2Up4L47UYD$" role="3cqZAp">
+          <node concept="2OqwBi" id="2Up4L47V0js" role="3clFbG">
+            <node concept="1PxgMI" id="2Up4L47V06G" role="2Oq$k0">
+              <ref role="1PxNhF" to="e1nu:14emBKkRwHn" resolve="TestcaseRef" />
+              <node concept="2OqwBi" id="2Up4L47UYMb" role="1PxMeX">
+                <node concept="2Z9qAU" id="2Up4L47UYDz" role="2Oq$k0" />
+                <node concept="2OVGM_" id="2Up4L47UZrL" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="2Up4L47V0tp" role="2OqNvi">
               <ref role="3Tt5mk" to="e1nu:14emBKkRwH_" />
             </node>
           </node>

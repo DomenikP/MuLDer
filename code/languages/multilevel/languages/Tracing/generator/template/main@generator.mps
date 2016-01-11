@@ -162,6 +162,106 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="2Up4L47gmlk" role="3acgRq">
+      <ref role="30HIoZ" to="6be1:2Up4L47gm2c" resolve="IsCopiedToLowerLevel" />
+      <node concept="gft3U" id="2Up4L47gmll" role="1lVwrX">
+        <node concept="2YIFZM" id="2Up4L47gmQk" role="gfFT$">
+          <ref role="37wK5l" to="oc1c:4dLPB5zyyxi" resolve="nodeIsCopiedToLowerModel" />
+          <ref role="1Pybhc" to="oc1c:4dLPB5z5fnx" resolve="TracingHelper" />
+          <node concept="10Nm6u" id="2Up4L47gmln" role="37wK5m">
+            <node concept="29HgVG" id="2Up4L47gmlo" role="lGtFl">
+              <node concept="3NFfHV" id="2Up4L47gmlp" role="3NFExx">
+                <node concept="3clFbS" id="2Up4L47gmlq" role="2VODD2">
+                  <node concept="3clFbF" id="2Up4L47gmlr" role="3cqZAp">
+                    <node concept="2OqwBi" id="2Up4L47gmls" role="3clFbG">
+                      <node concept="30H73N" id="2Up4L47gmlt" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="2Up4L47gmlu" role="2OqNvi">
+                        <ref role="37wK5l" to="tpeu:hEwJdGu" resolve="getLeftExpression" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="2Up4L47tMD4" role="3acgRq">
+      <ref role="30HIoZ" to="6be1:2Up4L47gdf2" resolve="OutputNodeOperation" />
+      <node concept="gft3U" id="2Up4L47tMD5" role="1lVwrX">
+        <node concept="2YIFZM" id="2Up4L47tMD6" role="gfFT$">
+          <ref role="37wK5l" to="oc1c:3p1iWQOridF" resolve="getCopyFromLowerModel" />
+          <ref role="1Pybhc" to="oc1c:4dLPB5z5fnx" resolve="TracingHelper" />
+          <node concept="10Nm6u" id="2Up4L47tMD7" role="37wK5m">
+            <node concept="29HgVG" id="2Up4L47tMD8" role="lGtFl">
+              <node concept="3NFfHV" id="2Up4L47tMD9" role="3NFExx">
+                <node concept="3clFbS" id="2Up4L47tMDa" role="2VODD2">
+                  <node concept="3clFbF" id="2Up4L47tMDb" role="3cqZAp">
+                    <node concept="2OqwBi" id="2Up4L47tMDc" role="3clFbG">
+                      <node concept="30H73N" id="2Up4L47tMDd" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="2Up4L47tMDe" role="2OqNvi">
+                        <ref role="37wK5l" to="tpeu:hEwJdGu" resolve="getLeftExpression" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="2Up4L47gmTr" role="3acgRq">
+      <ref role="30HIoZ" to="6be1:2Up4L47t$A2" resolve="OutputNodesOperation" />
+      <node concept="gft3U" id="2Up4L47gnqM" role="1lVwrX">
+        <node concept="2YIFZM" id="2Up4L47u26K" role="gfFT$">
+          <ref role="37wK5l" to="oc1c:2Up4L47tPqW" resolve="getOutputNodesFromLowerModel" />
+          <ref role="1Pybhc" to="oc1c:4dLPB5z5fnx" resolve="TracingHelper" />
+          <node concept="10Nm6u" id="2Up4L47gnqO" role="37wK5m">
+            <node concept="29HgVG" id="2Up4L47gnqP" role="lGtFl">
+              <node concept="3NFfHV" id="2Up4L47gnqQ" role="3NFExx">
+                <node concept="3clFbS" id="2Up4L47gnqR" role="2VODD2">
+                  <node concept="3clFbF" id="2Up4L47gnqS" role="3cqZAp">
+                    <node concept="2OqwBi" id="2Up4L47gnqT" role="3clFbG">
+                      <node concept="30H73N" id="2Up4L47gnqU" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="2Up4L47gnqV" role="2OqNvi">
+                        <ref role="37wK5l" to="tpeu:hEwJdGu" resolve="getLeftExpression" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="2Up4L47ZXAi" role="3acgRq">
+      <ref role="30HIoZ" to="6be1:2Up4L47ZPhB" resolve="GetLowerLevelModelOperation" />
+      <node concept="gft3U" id="2Up4L47ZXAj" role="1lVwrX">
+        <node concept="2YIFZM" id="2Up4L48091S" role="gfFT$">
+          <ref role="37wK5l" to="oc1c:2Up4L47ZZAJ" resolve="getLowerLevelModel" />
+          <ref role="1Pybhc" to="oc1c:4dLPB5z5fnx" resolve="TracingHelper" />
+          <node concept="10Nm6u" id="2Up4L47ZXAl" role="37wK5m">
+            <node concept="29HgVG" id="2Up4L47ZXAm" role="lGtFl">
+              <node concept="3NFfHV" id="2Up4L47ZXAn" role="3NFExx">
+                <node concept="3clFbS" id="2Up4L47ZXAo" role="2VODD2">
+                  <node concept="3clFbF" id="2Up4L47ZXAp" role="3cqZAp">
+                    <node concept="2OqwBi" id="2Up4L47ZXAq" role="3clFbG">
+                      <node concept="30H73N" id="2Up4L47ZXAr" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="2Up4L47ZXAs" role="2OqNvi">
+                        <ref role="37wK5l" to="tpeu:hEwJdGu" resolve="getLeftExpression" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="6t$AXNjHd7s" role="3acgRq">
       <ref role="30HIoZ" to="6be1:3YdlD47W9H" resolve="IsCopyFromHigherLevelOperation" />
       <node concept="gft3U" id="6t$AXNjHiE6" role="1lVwrX">

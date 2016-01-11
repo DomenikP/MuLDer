@@ -55,5 +55,25 @@
     <property role="34LRSv" value="isReducedByTextGen" />
     <ref role="1TJDcQ" node="3YdlD48B5O" resolve="TracingOperation" />
   </node>
+  <node concept="1TIwiD" id="2Up4L47gdf2">
+    <property role="TrG5h" value="OutputNodeOperation" />
+    <property role="34LRSv" value="outputNode" />
+    <ref role="1TJDcQ" node="3YdlD48B5O" resolve="TracingOperation" />
+  </node>
+  <node concept="1TIwiD" id="2Up4L47gm2c">
+    <property role="TrG5h" value="IsCopiedToLowerLevel" />
+    <property role="34LRSv" value="isCopiedToLowerLevel" />
+    <ref role="1TJDcQ" node="3YdlD48B5O" resolve="TracingOperation" />
+  </node>
+  <node concept="1TIwiD" id="2Up4L47t$A2">
+    <property role="TrG5h" value="OutputNodesOperation" />
+    <property role="34LRSv" value="outputNodes" />
+    <ref role="1TJDcQ" node="3YdlD48B5O" resolve="TracingOperation" />
+  </node>
+  <node concept="1TIwiD" id="2Up4L47ZPhB">
+    <property role="TrG5h" value="GetLowerLevelModelOperation" />
+    <property role="34LRSv" value="loweLevelModel" />
+    <ref role="1TJDcQ" node="3YdlD48B5O" resolve="TracingOperation" />
+  </node>
 </model>
 

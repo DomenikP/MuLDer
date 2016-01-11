@@ -120,7 +120,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="MPvpOXTe9M">
-    <property role="3GE5qa" value="stackframes" />
+    <property role="3GE5qa" value="inputNodes" />
     <ref role="1M2myG" to="2cz0:7SsDM6P3I0s" resolve="InputNodeExpr" />
     <node concept="nKS2y" id="MPvpOXTeeY" role="1MLUbF">
       <node concept="3clFbS" id="MPvpOXTeeZ" role="2VODD2">
@@ -163,7 +163,7 @@
   </node>
   <node concept="1M2fIO" id="7SsDM6Paam1">
     <property role="3GE5qa" value="liftWatch" />
-    <ref role="1M2myG" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+    <ref role="1M2myG" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
     <node concept="1N5Pfh" id="3KVJl1fA9pb" role="1Mr941">
       <ref role="1N5Vy1" to="2cz0:3KVJl1fA8uL" />
       <node concept="1MUpDS" id="3KVJl1fA9pc" role="1N6uqs">

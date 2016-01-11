@@ -56,6 +56,9 @@
     <node concept="PrWs8" id="3cY0XBrZCf0" role="PzmwI">
       <ref role="PrY4T" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
+    <node concept="PrWs8" id="2Up4L47FYvJ" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+    </node>
     <node concept="1TJgyj" id="14emBKkRscF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="body" />

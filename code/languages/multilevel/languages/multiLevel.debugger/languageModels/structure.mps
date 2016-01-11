@@ -220,5 +220,8 @@
   <node concept="PlHQZ" id="PjpCze5iKR">
     <property role="TrG5h" value="LiftWatchValueFromText" />
   </node>
+  <node concept="PlHQZ" id="2Up4L46iz2A">
+    <property role="TrG5h" value="ISupportsBreakpoints" />
+  </node>
 </model>
 

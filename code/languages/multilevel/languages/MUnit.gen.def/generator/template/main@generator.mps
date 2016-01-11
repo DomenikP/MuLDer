@@ -188,11 +188,13 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
-      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromGen" flags="ng" index="2xMITz">
+      <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w">
+        <child id="3357735961047658418" name="resolveLiftToInputNode" index="DlvMz" />
+      </concept>
+      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz">
         <child id="915776213541047768" name="resolveLiftToContributor" index="Lqb15" />
       </concept>
-      <concept id="9087321911340228636" name="" flags="ng" index="3b4$sX" />
+      <concept id="9087321911340228636" name="DeSpec.Model.structure.InputNodeExpr" flags="ng" index="3b4$sX" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -341,6 +343,9 @@
           <node concept="2xMITz" id="MPvpOXOAu8" role="lGtFl">
             <node concept="3b4$sX" id="MPvpOXYhWl" role="Lqb15" />
           </node>
+          <node concept="pAt3w" id="2Up4L48PCUG" role="lGtFl">
+            <node concept="3b4$sX" id="2Up4L48PD7c" role="DlvMz" />
+          </node>
         </node>
       </node>
     </node>
@@ -397,7 +402,9 @@
               <node concept="raruj" id="MPvpOXNDjO" role="lGtFl">
                 <ref role="2sdACS" node="14emBKkSCt5" resolve="assertToIfStatement" />
               </node>
-              <node concept="pAt3w" id="MPvpOXNDBV" role="lGtFl" />
+              <node concept="pAt3w" id="MPvpOXNDBV" role="lGtFl">
+                <node concept="3b4$sX" id="2Up4L47TKoB" role="DlvMz" />
+              </node>
             </node>
             <node concept="1_9egQ" id="14emBKkSneS" role="3XIRFZ">
               <node concept="3ZVu4v" id="14emBKkSneQ" role="1_9egR">

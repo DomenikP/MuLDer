@@ -314,7 +314,7 @@
   </registry>
   <node concept="bUwia" id="4JWsYZwybmv">
     <property role="TrG5h" value="stackframes" />
-    <property role="3GE5qa" value="stackframes.virtual" />
+    <property role="3GE5qa" value="inputNodes.lifter" />
     <node concept="3aamgX" id="6t$AXNjQsQ_" role="3acgRq">
       <ref role="30HIoZ" to="k6mm:1vhuDACXdcz" resolve="NodeParameter" />
       <node concept="30G5F_" id="6t$AXNjQsQA" role="30HLyM">
@@ -2187,7 +2187,7 @@
     </node>
   </node>
   <node concept="312cEu" id="6t$AXNjIi7M">
-    <property role="3GE5qa" value="stackframes" />
+    <property role="3GE5qa" value="inputNodes.lifter" />
     <property role="TrG5h" value="LiftToNode" />
     <node concept="2tJIrI" id="6t$AXNjIiZU" role="jymVt" />
     <node concept="3clFb_" id="6t$AXNjIj6C" role="jymVt">
