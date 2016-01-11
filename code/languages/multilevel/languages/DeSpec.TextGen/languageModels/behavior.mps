@@ -123,13 +123,6 @@
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
     </language>
   </registry>
-  <node concept="13h7C7" id="10kQx64Hekc">
-    <property role="3GE5qa" value="watches" />
-    <ref role="13h7C2" to="vu5z:10kQx64GLPW" resolve="VariableKind" />
-    <node concept="13hLZK" id="10kQx64Hekd" role="13h7CW">
-      <node concept="3clFbS" id="10kQx64Heke" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="3YdlD5V84k">
     <property role="3GE5qa" value="cross" />
     <ref role="13h7C2" to="vu5z:3YdlD5V84d" resolve="NameInTextGen" />
@@ -138,7 +131,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="4JWsYZwzcs7">
-    <property role="3GE5qa" value="watchtes.values" />
+    <property role="3GE5qa" value="watches.values" />
     <ref role="13h7C2" to="vu5z:2iiswCs23Ce" resolve="ValueProviderFromTextGen" />
     <node concept="13hLZK" id="4JWsYZwzcs8" role="13h7CW">
       <node concept="3clFbS" id="4JWsYZwzcs9" role="2VODD2" />
@@ -171,8 +164,8 @@
     </node>
   </node>
   <node concept="13h7C7" id="3YdlD6O5i3">
-    <property role="3GE5qa" value="watchtes.values" />
-    <ref role="13h7C2" to="vu5z:3YdlD6O5h_" resolve="ValueFromTextLifterDelegateFunction" />
+    <property role="3GE5qa" value="watches.values" />
+    <ref role="13h7C2" to="vu5z:3YdlD6O5h_" resolve="ValueFromTextGenDelegateFunction" />
     <node concept="13i0hz" id="3YdlD6O5i4" role="13h7CS">
       <property role="2Ki8OM" value="true" />
       <property role="13i0is" value="false" />

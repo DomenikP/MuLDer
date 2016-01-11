@@ -8,6 +8,7 @@
   <imports>
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" />
     <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
+    <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(DeSpec.Text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -37,9 +38,9 @@
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="10kQx64HUgr" role="PzmwI">
-      <ref role="PrY4T" to="vu5z:10kQx64GLPW" resolve="VariableKind" />
+      <ref role="PrY4T" to="tdvr:10kQx64GLPW" resolve="VariableKind" />
     </node>
-    <node concept="PrWs8" id="10kQx68bJCK" role="PzmwI">
+    <node concept="PrWs8" id="3KVJl1h8y0A" role="PzmwI">
       <ref role="PrY4T" to="k6mm:53P7aeD7Arx" resolve="IRequiresImports" />
     </node>
   </node>

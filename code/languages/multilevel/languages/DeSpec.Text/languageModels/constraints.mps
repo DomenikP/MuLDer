@@ -113,7 +113,7 @@
     <ref role="1M2myG" to="tdvr:2iiswCsOs8f" resolve="LiftValueFromText" />
   </node>
   <node concept="1M2fIO" id="6hWVX3ooss">
-    <property role="3GE5qa" value="used" />
+    <property role="3GE5qa" value="" />
     <ref role="1M2myG" to="tdvr:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
     <node concept="nKS2y" id="6hWVX3oosD" role="1MLUbF">
       <node concept="3clFbS" id="6hWVX3oosE" role="2VODD2">

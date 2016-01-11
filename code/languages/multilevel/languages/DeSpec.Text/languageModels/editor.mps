@@ -136,7 +136,7 @@
   </registry>
   <node concept="24kQdi" id="6Poal3coIgA">
     <property role="3GE5qa" value="stackframes" />
-    <ref role="1XX52x" to="tdvr:6Poal3coI9c" resolve="LiftFrameFromTextAnnoation" />
+    <ref role="1XX52x" to="tdvr:6Poal3coI9c" resolve="LiftFrame2FrameFromText" />
     <node concept="3EZMnI" id="4dLPB5yAVDr" role="2wV5jI">
       <node concept="3EZMnI" id="3EISKF07$xb" role="3EZMnx">
         <node concept="VPM3Z" id="3EISKF07$xd" role="3F10Kt">
@@ -262,14 +262,14 @@
   </node>
   <node concept="24kQdi" id="3BCiriJn_ak">
     <property role="3GE5qa" value="watches" />
-    <ref role="1XX52x" to="tdvr:3BCiriJn_2T" resolve="LiftVariableFromText" />
+    <ref role="1XX52x" to="tdvr:3BCiriJn_2T" resolve="LiftWatchFromText" />
     <node concept="3EZMnI" id="PjpCze7jW$" role="2wV5jI">
       <node concept="3EZMnI" id="4lU62XqS_iw" role="3EZMnx">
         <node concept="VPM3Z" id="4lU62XqS_ix" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="4lU62XqS_iy" role="3EZMnx">
-          <property role="3F0ifm" value="@Variable" />
+          <property role="3F0ifm" value="@Watch" />
           <ref role="1k5W1q" node="MPvpOXPptz" resolve="DebuggerTextAnnotation" />
         </node>
         <node concept="3EZMnI" id="4lU62XqSKjl" role="3EZMnx">

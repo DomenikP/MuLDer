@@ -29,6 +29,7 @@
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" />
     <import index="j2z0" ref="r:e018fc1c-c261-4cd9-b91c-fe6714dcbd6e(multiLevel.debugger.debug)" />
     <import index="3dui" ref="r:8f1039d4-1829-4754-95ac-8a801334ecda(DeSpec.runtime.plugin)" />
+    <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(DeSpec.Model.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -140,9 +141,11 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="1884882593105352175" name="" flags="ng" index="17tetk" />
-      <concept id="1884882593108750801" name="" flags="ng" index="17I0dE" />
-      <concept id="1884882593108724628" name="" flags="ng" index="17I7$J" />
+      <concept id="2417103808880916274" name="DeSpec.Model.structure.InputNodeParameter" flags="ng" index="2S770D" />
+      <concept id="2417103808877348245" name="DeSpec.Model.structure.LiftToWatchFunction" flags="ig" index="2SUSae" />
+      <concept id="1884882593105352175" name="DeSpec.Model.structure.Children2WatchesWalker" flags="ng" index="17tetk" />
+      <concept id="1884882593108750801" name="DeSpec.Model.structure.LLWatchesSelector" flags="ig" index="17I0dE" />
+      <concept id="1884882593108724628" name="DeSpec.Model.structure.ChildrenSelector" flags="ig" index="17I7$J" />
       <concept id="3906148130290944556" name="DeSpec.Model.structure.ValueTransformer" flags="ng" index="1keisF">
         <reference id="3906148130291051010" name="fromConcept" index="1ke8s5" />
         <reference id="3906148130291051147" name="toConcept" index="1ke8uc" />
@@ -166,8 +169,7 @@
       <concept id="1349045547475303338" name="DeSpec.structure.IValueLifter" flags="ng" index="LFFTH">
         <child id="1349045547475305159" name="liftFrom" index="LF$s0" />
       </concept>
-      <concept id="2417103808880916274" name="DeSpec.structure.InputNodeParameter" flags="ng" index="2S770D" />
-      <concept id="2417103808877348245" name="DeSpec.structure.LiftToWatchFunction" flags="ig" index="2SUSae">
+      <concept id="2417103808877348245" name="DeSpec.structure.LiftToWatchFunction" flags="ng" index="2SUSaf">
         <reference id="2417103808883371352" name="inputConcept" index="2SdYD3" />
         <reference id="2417103808884294340" name="outputConcept" index="2Sgonv" />
       </concept>
@@ -180,16 +182,6 @@
         <child id="1884882593108724629" name="childrenSelector" index="17I7$I" />
       </concept>
       <concept id="5260770003381287423" name="DeSpec.structure.WatchValuePresentationOperation" flags="ng" index="19$7Id" />
-      <concept id="9087321911341929645" name="DeSpec.structure.LiftWatchDeclarationGen" flags="ng" index="3bd7ec">
-        <reference id="1167169349424" name="liftTo" index="30HIoZ" />
-        <reference id="9087321911341969456" name="liftFrom" index="3bdtsh" />
-        <child id="9087321911344723701" name="liftToFunction" index="3bjX7k" />
-        <child id="9087321911346367538" name="delegateValueLiftingFunction" index="3bs2Gj" />
-      </concept>
-      <concept id="9087321911344076076" name="DeSpec.structure.SourceNodeExpression" flags="ng" index="3blj8d" />
-      <concept id="9087321911344063700" name="DeSpec.structure.Lift2WatchDeclarationFunction" flags="ig" index="3blsfP" />
-      <concept id="9087321911345741345" name="DeSpec.structure.DelegateValueLiftingFunction" flags="ig" index="3bv_$0" />
-      <concept id="9087321911350166604" name="DeSpec.structure.TargetNodeExpression" flags="ng" index="3bIydH" />
       <concept id="4721400539865263081" name="DeSpec.structure.ExternalValueLifter" flags="ng" index="3$x6cJ">
         <reference id="4721400539865263083" name="concept" index="3$x6cH" />
         <child id="4721400539865599171" name="value" index="3$wKg5" />
@@ -522,42 +514,36 @@
           <node concept="3cpWsn" id="26bhLIqHh8Z" role="3cpWs9">
             <property role="TrG5h" value="liftWatch" />
             <node concept="3Tqbb2" id="26bhLIqHh90" role="1tU5fm">
-              <ref role="ehGHo" to="k6mm:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+              <ref role="ehGHo" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
             </node>
             <node concept="1sne9v" id="26bhLIqHh91" role="33vP2m">
               <node concept="1sne01" id="26bhLIqHh92" role="1sne8H">
                 <ref role="1snh0D" to="tpck:4uZwTti3__2" />
-                <node concept="1sne01" id="26bhLIqHh93" role="1sne05">
-                  <ref role="1snh0D" to="k6mm:7SsDM6PMOsL" />
-                  <node concept="1sh8R2" id="26bhLIqHh94" role="1sne05">
-                    <ref role="1sh8R3" to="k6mm:26bhLIpcP$9" />
-                    <node concept="28GBK8" id="26bhLIqHh95" role="1sh8R0">
-                      <ref role="28H3Ia" to="mj1l:hEaDaGor64" />
-                      <ref role="28GBKb" to="8glu:6xhsDCu4TtO" resolve="StateVariable" />
-                    </node>
+                <node concept="1sh8R2" id="26bhLIqHh94" role="1sne05">
+                  <ref role="1sh8R3" to="2cz0:3KVJl1fA8uL" />
+                  <node concept="28GBK8" id="26bhLIqHh95" role="1sh8R0">
+                    <ref role="28H3Ia" to="mj1l:hEaDaGor64" />
+                    <ref role="28GBKb" to="8glu:6xhsDCu4TtO" resolve="StateVariable" />
                   </node>
-                  <node concept="1sne01" id="26bhLIqHh96" role="1sne05">
-                    <ref role="1snh0D" to="k6mm:26bhLIpoiqK" />
-                    <node concept="1sh8R2" id="26bhLIqHh97" role="1sne05">
-                      <ref role="1sh8R3" to="k6mm:26bhLIpoJtK" />
-                      <node concept="1PxgMI" id="26bhLIqHh98" role="1sh8R0">
-                        <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
-                        <node concept="2OqwBi" id="3YdlD4ij48" role="1PxMeX">
-                          <node concept="13iPFW" id="3YdlD4ij02" role="2Oq$k0" />
-                          <node concept="14HDna" id="3YdlD4ik_J" role="2OqNvi" />
-                        </node>
+                </node>
+                <node concept="1sne01" id="26bhLIqHh96" role="1sne05">
+                  <ref role="1snh0D" to="2cz0:3KVJl1fA8uS" />
+                  <node concept="1sh8R2" id="26bhLIqHh97" role="1sne05">
+                    <ref role="1sh8R3" to="2cz0:26bhLIpoJtK" />
+                    <node concept="1PxgMI" id="26bhLIqHh98" role="1sh8R0">
+                      <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+                      <node concept="2OqwBi" id="3YdlD4ij48" role="1PxMeX">
+                        <node concept="13iPFW" id="3YdlD4ij02" role="2Oq$k0" />
+                        <node concept="14HDna" id="3YdlD4ik_J" role="2OqNvi" />
                       </node>
                     </node>
-                    <node concept="1shVQo" id="26bhLIqHh9b" role="ccFIB">
-                      <ref role="1shVQp" to="k6mm:26bhLIpoji1" resolve="LiftToWatchNode" />
-                    </node>
                   </node>
-                  <node concept="1shVQo" id="26bhLIqHh9c" role="ccFIB">
-                    <ref role="1shVQp" to="k6mm:7SsDM6PM_yG" resolve="InlinedWatchSpec" />
+                  <node concept="1shVQo" id="26bhLIqHh9b" role="ccFIB">
+                    <ref role="1shVQp" to="2cz0:26bhLIpoji1" resolve="LiftToWatchNode" />
                   </node>
                 </node>
                 <node concept="1shVQo" id="26bhLIqHh9d" role="ccFIB">
-                  <ref role="1shVQp" to="k6mm:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                  <ref role="1shVQp" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
                 </node>
               </node>
             </node>
@@ -569,7 +555,7 @@
               <node concept="13iPFW" id="26bhLIqHh9h" role="2Oq$k0" />
               <node concept="3CFZ6_" id="26bhLIqHh9i" role="2OqNvi">
                 <node concept="3CFYIy" id="26bhLIqHh9j" role="3CFYIz">
-                  <ref role="3CFYIx" to="k6mm:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
                 </node>
               </node>
             </node>
@@ -582,30 +568,6 @@
         </node>
       </node>
       <node concept="3cqZAl" id="26bhLIqGPH5" role="3clF45" />
-    </node>
-  </node>
-  <node concept="3bd7ec" id="7SsDM6PcF1D">
-    <property role="TrG5h" value="member2StateVariable" />
-    <ref role="30HIoZ" to="8glu:6xhsDCu4TtO" resolve="StateVariable" />
-    <ref role="3bdtsh" to="clbe:56ytRgsLg$o" resolve="Member" />
-    <node concept="3blsfP" id="7SsDM6PnwG7" role="3bjX7k">
-      <node concept="3clFbS" id="7SsDM6PnwG8" role="2VODD2">
-        <node concept="3clFbF" id="7SsDM6PKCdv" role="3cqZAp">
-          <node concept="3bIydH" id="7SsDM6PKCdt" role="3clFbG" />
-        </node>
-      </node>
-    </node>
-    <node concept="3bv_$0" id="7SsDM6PsvLY" role="3bs2Gj">
-      <node concept="3clFbS" id="7SsDM6PsvLZ" role="2VODD2">
-        <node concept="3clFbF" id="7SsDM6PsvRY" role="3cqZAp">
-          <node concept="2OqwBi" id="7SsDM6PsvV6" role="3clFbG">
-            <node concept="3blj8d" id="7SsDM6PsvRX" role="2Oq$k0" />
-            <node concept="3TrEf2" id="7SsDM6Psw8t" role="2OqNvi">
-              <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="17tetk" id="3HAQUUpv_ZY">

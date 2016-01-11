@@ -33,6 +33,7 @@
     <import index="clbe" ref="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" />
     <import index="3dui" ref="r:8f1039d4-1829-4754-95ac-8a801334ecda(DeSpec.runtime.plugin)" />
+    <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(DeSpec.Model.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -134,17 +135,6 @@
       <concept id="4481811096720536877" name="com.mbeddr.mpsutil.blutil.structure.BuilderExpression" flags="ng" index="1sne9v">
         <child id="4481811096720536927" name="root" index="1sne8H" />
       </concept>
-    </language>
-    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
-      <concept id="9087321911341929645" name="DeSpec.structure.LiftWatchDeclarationGen" flags="ng" index="3bd7ec">
-        <reference id="1167169349424" name="liftTo" index="30HIoZ" />
-        <reference id="9087321911341969456" name="liftFrom" index="3bdtsh" />
-        <child id="9087321911344723701" name="liftToFunction" index="3bjX7k" />
-        <child id="9087321911346367538" name="delegateValueLiftingFunction" index="3bs2Gj" />
-      </concept>
-      <concept id="9087321911344076076" name="DeSpec.structure.SourceNodeExpression" flags="ng" index="3blj8d" />
-      <concept id="9087321911344063700" name="DeSpec.structure.Lift2WatchDeclarationFunction" flags="ig" index="3blsfP" />
-      <concept id="9087321911345741345" name="DeSpec.structure.DelegateValueLiftingFunction" flags="ig" index="3bv_$0" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1226359078165" name="jetbrains.mps.lang.smodel.structure.LinkRefExpression" flags="nn" index="28GBK8">
@@ -355,42 +345,36 @@
           <node concept="3cpWsn" id="26bhLIqH2vH" role="3cpWs9">
             <property role="TrG5h" value="liftWatch" />
             <node concept="3Tqbb2" id="26bhLIqH2tP" role="1tU5fm">
-              <ref role="ehGHo" to="k6mm:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+              <ref role="ehGHo" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
             </node>
             <node concept="1sne9v" id="26bhLIqH2vV" role="33vP2m">
               <node concept="1sne01" id="26bhLIqH2vW" role="1sne8H">
                 <ref role="1snh0D" to="tpck:4uZwTti3__2" />
-                <node concept="1sne01" id="26bhLIqH2vX" role="1sne05">
-                  <ref role="1snh0D" to="k6mm:7SsDM6PMOsL" />
-                  <node concept="1sh8R2" id="26bhLIqH2vY" role="1sne05">
-                    <ref role="1sh8R3" to="k6mm:26bhLIpcP$9" />
-                    <node concept="28GBK8" id="26bhLIqH2vZ" role="1sh8R0">
-                      <ref role="28GBKb" to="32lw:1X5iFxI_Zap" resolve="Field" />
-                      <ref role="28H3Ia" to="mj1l:hEaDaGor64" />
-                    </node>
+                <node concept="1sh8R2" id="26bhLIqH2vY" role="1sne05">
+                  <ref role="1sh8R3" to="2cz0:3KVJl1fA8uL" />
+                  <node concept="28GBK8" id="26bhLIqH2vZ" role="1sh8R0">
+                    <ref role="28GBKb" to="32lw:1X5iFxI_Zap" resolve="Field" />
+                    <ref role="28H3Ia" to="mj1l:hEaDaGor64" />
                   </node>
-                  <node concept="1sne01" id="26bhLIqH2w0" role="1sne05">
-                    <ref role="1snh0D" to="k6mm:26bhLIpoiqK" />
-                    <node concept="1sh8R2" id="26bhLIqH2w1" role="1sne05">
-                      <ref role="1sh8R3" to="k6mm:26bhLIpoJtK" />
-                      <node concept="1PxgMI" id="26bhLIqH2w2" role="1sh8R0">
-                        <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
-                        <node concept="2OqwBi" id="3YdlD4ij48" role="1PxMeX">
-                          <node concept="13iPFW" id="3YdlD4ij02" role="2Oq$k0" />
-                          <node concept="14HDna" id="3YdlD4ik_J" role="2OqNvi" />
-                        </node>
+                </node>
+                <node concept="1sne01" id="26bhLIqH2w0" role="1sne05">
+                  <ref role="1snh0D" to="2cz0:3KVJl1fA8uS" />
+                  <node concept="1sh8R2" id="26bhLIqH2w1" role="1sne05">
+                    <ref role="1sh8R3" to="2cz0:26bhLIpoJtK" />
+                    <node concept="1PxgMI" id="26bhLIqH2w2" role="1sh8R0">
+                      <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+                      <node concept="2OqwBi" id="3YdlD4ij48" role="1PxMeX">
+                        <node concept="13iPFW" id="3YdlD4ij02" role="2Oq$k0" />
+                        <node concept="14HDna" id="3YdlD4ik_J" role="2OqNvi" />
                       </node>
                     </node>
-                    <node concept="1shVQo" id="26bhLIqH2w5" role="ccFIB">
-                      <ref role="1shVQp" to="k6mm:26bhLIpoji1" resolve="LiftToWatchNode" />
-                    </node>
                   </node>
-                  <node concept="1shVQo" id="26bhLIqH2w6" role="ccFIB">
-                    <ref role="1shVQp" to="k6mm:7SsDM6PM_yG" resolve="InlinedWatchSpec" />
+                  <node concept="1shVQo" id="26bhLIqH2w5" role="ccFIB">
+                    <ref role="1shVQp" to="2cz0:26bhLIpoji1" resolve="LiftToWatchNode" />
                   </node>
                 </node>
                 <node concept="1shVQo" id="26bhLIqH2w7" role="ccFIB">
-                  <ref role="1shVQp" to="k6mm:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                  <ref role="1shVQp" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
                 </node>
               </node>
             </node>
@@ -402,7 +386,7 @@
               <node concept="13iPFW" id="26bhLIqGY2V" role="2Oq$k0" />
               <node concept="3CFZ6_" id="26bhLIqGY2W" role="2OqNvi">
                 <node concept="3CFYIy" id="26bhLIqGY2X" role="3CFYIz">
-                  <ref role="3CFYIx" to="k6mm:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
                 </node>
               </node>
             </node>
@@ -1327,31 +1311,6 @@
     <ref role="13h7C2" to="32lw:1X5iFxI$VHM" resolve="AtomicComponent" />
     <node concept="13hLZK" id="7ZqGTTqWWv7" role="13h7CW">
       <node concept="3clFbS" id="7ZqGTTqWWv8" role="2VODD2" />
-    </node>
-  </node>
-  <node concept="3bd7ec" id="6XLqFH52JKW">
-    <property role="TrG5h" value="bla" />
-    <ref role="3bdtsh" to="clbe:5yYXyc4Z0CS" resolve="StructType" />
-    <ref role="30HIoZ" to="32lw:1X5iFxI_Zap" resolve="Field" />
-    <node concept="3blsfP" id="6XLqFH52JKX" role="3bjX7k">
-      <node concept="3clFbS" id="6XLqFH52JKY" role="2VODD2">
-        <node concept="3cpWs6" id="6XLqFH54aBC" role="3cqZAp">
-          <node concept="2ShNRf" id="6XLqFH53K2a" role="3cqZAk">
-            <node concept="3zrR0B" id="6XLqFH53VQL" role="2ShVmc">
-              <node concept="3Tqbb2" id="6XLqFH53VQN" role="3zrR0E">
-                <ref role="ehGHo" to="32lw:1X5iFxI_Zap" resolve="Field" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3bv_$0" id="6XLqFH54psm" role="3bs2Gj">
-      <node concept="3clFbS" id="6XLqFH54psn" role="2VODD2">
-        <node concept="3clFbF" id="6XLqFH54pv4" role="3cqZAp">
-          <node concept="3blj8d" id="6XLqFH54pv3" role="3clFbG" />
-        </node>
-      </node>
     </node>
   </node>
 </model>

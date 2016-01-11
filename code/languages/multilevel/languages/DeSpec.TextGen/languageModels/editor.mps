@@ -19,6 +19,7 @@
     <import index="oedy" ref="r:09ea9013-65ba-4bbe-91d3-376dbd098e16(DeSpec.TextGen.behavior)" />
     <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(DeSpec.Text.structure)" />
     <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(DeSpec.Text.behavior)" />
+    <import index="p84m" ref="r:8afdd44c-957c-4386-9bb8-1756a3e922fa(DeSpec.Text.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -77,12 +78,9 @@
     <node concept="3EZMnI" id="49lIkIod7iI" role="2wV5jI">
       <node concept="3F0ifn" id="49lIkIod7iP" role="3EZMnx">
         <property role="3F0ifm" value="@WatchProvider" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <ref role="1k5W1q" to="p84m:MPvpOXPptz" resolve="DebuggerTextAnnotation" />
         <node concept="ljvvj" id="6hWVX3cva4" role="3F10Kt">
           <property role="VOm3f" value="true" />
-        </node>
-        <node concept="30gYXW" id="6hWVX3fIW6" role="3F10Kt">
-          <property role="Vb096" value="cyan" />
         </node>
         <node concept="VPM3Z" id="3YdlD5x34D" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -146,9 +144,7 @@
         </node>
         <node concept="3F0ifn" id="3YdlD5V84_" role="3EZMnx">
           <property role="3F0ifm" value="@NameProvider" />
-          <node concept="30gYXW" id="3YdlD5V84A" role="3F10Kt">
-            <property role="Vb096" value="cyan" />
-          </node>
+          <ref role="1k5W1q" to="p84m:MPvpOXPptz" resolve="DebuggerTextAnnotation" />
         </node>
         <node concept="2iRfu4" id="3YdlD5V84B" role="2iSdaV" />
       </node>
@@ -161,7 +157,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="PjpCze6acT">
-    <property role="3GE5qa" value="watchtes.values" />
+    <property role="3GE5qa" value="watches.values" />
     <ref role="1XX52x" to="vu5z:PjpCze40Yc" resolve="ValueFromTextGen" />
     <node concept="3EZMnI" id="PjpCze6adm" role="2wV5jI">
       <node concept="3EZMnI" id="PjpCze6adn" role="3EZMnx">
@@ -170,9 +166,7 @@
         </node>
         <node concept="3F0ifn" id="PjpCze6adp" role="3EZMnx">
           <property role="3F0ifm" value="@ValueProvider" />
-          <node concept="30gYXW" id="PjpCze6adq" role="3F10Kt">
-            <property role="Vb096" value="cyan" />
-          </node>
+          <ref role="1k5W1q" to="p84m:MPvpOXPptz" resolve="DebuggerTextAnnotation" />
         </node>
         <node concept="2iRfu4" id="PjpCze6adr" role="2iSdaV" />
       </node>
@@ -197,14 +191,12 @@
     </node>
   </node>
   <node concept="24kQdi" id="2iiswCs23XQ">
-    <property role="3GE5qa" value="watchtes.values" />
+    <property role="3GE5qa" value="watches.values" />
     <ref role="1XX52x" to="vu5z:2iiswCs23Ce" resolve="ValueProviderFromTextGen" />
     <node concept="3EZMnI" id="2iiswCs23Z7" role="2wV5jI">
       <node concept="3F0ifn" id="2iiswCs23Z8" role="3EZMnx">
         <property role="3F0ifm" value="@ValueProvider" />
-        <node concept="30gYXW" id="2iiswCs23Z9" role="3F10Kt">
-          <property role="Vb096" value="cyan" />
-        </node>
+        <ref role="1k5W1q" to="p84m:MPvpOXPptz" resolve="DebuggerTextAnnotation" />
         <node concept="ljvvj" id="3YdlD70yHu" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -232,12 +224,9 @@
     <node concept="3EZMnI" id="MPvpOSw50l" role="2wV5jI">
       <node concept="3F0ifn" id="MPvpOSw50m" role="3EZMnx">
         <property role="3F0ifm" value="@StackFrameProvider" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <ref role="1k5W1q" to="p84m:MPvpOXPptz" resolve="DebuggerTextAnnotation" />
         <node concept="ljvvj" id="MPvpOSw50n" role="3F10Kt">
           <property role="VOm3f" value="true" />
-        </node>
-        <node concept="30gYXW" id="MPvpOSw50o" role="3F10Kt">
-          <property role="Vb096" value="cyan" />
         </node>
         <node concept="VPM3Z" id="MPvpOSw50p" role="3F10Kt">
           <property role="VOm3f" value="false" />

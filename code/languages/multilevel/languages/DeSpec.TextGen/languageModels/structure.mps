@@ -67,7 +67,7 @@
     <node concept="1TJgyj" id="10kQx64GNsA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="kind" />
-      <ref role="20lvS9" node="10kQx64GLPW" resolve="VariableKind" />
+      <ref role="20lvS9" to="tdvr:10kQx64GLPW" resolve="VariableKind" />
     </node>
     <node concept="1TJgyi" id="6hWVX3cvnD" role="1TKVEl">
       <property role="TrG5h" value="category" />
@@ -89,10 +89,6 @@
       <ref role="PrY4T" node="MPvpOSvUWE" resolve="IRequiresNameInTextGen" />
     </node>
   </node>
-  <node concept="PlHQZ" id="10kQx64GLPW">
-    <property role="TrG5h" value="VariableKind" />
-    <property role="3GE5qa" value="watches" />
-  </node>
   <node concept="1TIwiD" id="3YdlD5V84d">
     <property role="TrG5h" value="NameInTextGen" />
     <property role="3GE5qa" value="cross" />
@@ -110,7 +106,7 @@
   </node>
   <node concept="1TIwiD" id="PjpCze40Yc">
     <property role="TrG5h" value="ValueFromTextGen" />
-    <property role="3GE5qa" value="watchtes.values" />
+    <property role="3GE5qa" value="watches.values" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyi" id="1qRlgEvnCWq" role="1TKVEl">
       <property role="TrG5h" value="takeValueLifterFromTextGen" />
@@ -131,7 +127,7 @@
   </node>
   <node concept="1TIwiD" id="2iiswCs23Ce">
     <property role="TrG5h" value="ValueProviderFromTextGen" />
-    <property role="3GE5qa" value="watchtes.values" />
+    <property role="3GE5qa" value="watches.values" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyj" id="2iiswCsS1$B" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -150,8 +146,8 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3YdlD6O5h_">
-    <property role="TrG5h" value="ValueFromTextLifterDelegateFunction" />
-    <property role="3GE5qa" value="watchtes.values" />
+    <property role="TrG5h" value="ValueFromTextGenDelegateFunction" />
+    <property role="3GE5qa" value="watches.values" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="PlHQZ" id="MPvpOSvUWE">

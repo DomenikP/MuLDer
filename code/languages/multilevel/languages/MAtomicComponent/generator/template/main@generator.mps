@@ -206,25 +206,20 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
+      <concept id="1348472630505294351" name="DeSpec.Model.structure.LiftVariableFromModel" flags="ng" index="2gb7qT">
+        <reference id="4340270818532034481" name="valueLifter" index="1NCNFx" />
+        <child id="4340270818532034488" name="liftToWatch" index="1NCNFC" />
+      </concept>
       <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz">
         <child id="915776213541047768" name="resolveLiftToContributor" index="Lqb15" />
+      </concept>
+      <concept id="2417103808885771640" name="DeSpec.Model.structure.LiftToWatchFunctionReference" flags="ng" index="2SqwDz">
+        <reference id="2417103808885772834" name="function" index="2SqxkT" />
       </concept>
       <concept id="1884882593102557832" name="DeSpec.Model.structure.LiftChildren2Watches" flags="ng" index="176o0N">
         <reference id="1884882593105356608" name="walker" index="17tdnV" />
       </concept>
       <concept id="9087321911340228636" name="DeSpec.Model.structure.InputNodeExpr" flags="ng" index="3b4$sX" />
-    </language>
-    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
-      <concept id="1348472630505294351" name="DeSpec.structure.LiftVariableFromModel" flags="ng" index="2gb7qT">
-        <child id="9087321911352575793" name="watchSpec" index="3bPY0g" />
-      </concept>
-      <concept id="2417103808885771640" name="DeSpec.structure.LiftToWatchFunctionReference" flags="ng" index="2SqwDz">
-        <reference id="2417103808885772834" name="function" index="2SqxkT" />
-      </concept>
-      <concept id="9087321911352514732" name="DeSpec.structure.InlinedWatchSpec" flags="ng" index="3bPJYd">
-        <reference id="2417103808874371337" name="valueLifter" index="2SI1Si" />
-        <child id="2417103808877373104" name="liftToWatch" index="2SUA6F" />
-      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -823,11 +818,9 @@
               </node>
             </node>
             <node concept="2gb7qT" id="26bhLIqvM_W" role="lGtFl">
-              <node concept="3bPJYd" id="26bhLIqvMJQ" role="3bPY0g">
-                <ref role="2SI1Si" to="mj1l:hEaDaGor64" />
-                <node concept="2SqwDz" id="26bhLIqvMTE" role="2SUA6F">
-                  <ref role="2SqxkT" to="okt3:26bhLIpQhUT" />
-                </node>
+              <ref role="1NCNFx" to="mj1l:hEaDaGor64" />
+              <node concept="2SqwDz" id="3KVJl1haSge" role="1NCNFC">
+                <ref role="2SqxkT" to="okt3:3KVJl1gXTls" />
               </node>
             </node>
           </node>
@@ -1324,7 +1317,7 @@
                 </node>
               </node>
               <node concept="176o0N" id="MPvpOY0OYH" role="lGtFl">
-                <ref role="17tdnV" to="okt3:3KVJl1dRGSU" resolve="structMembers2Fields" />
+                <ref role="17tdnV" to="okt3:3KVJl1fMxgy" resolve="structMembers2Fields" />
               </node>
             </node>
             <node concept="19Rifw" id="MPvpOY0MFJ" role="2C2TGm">

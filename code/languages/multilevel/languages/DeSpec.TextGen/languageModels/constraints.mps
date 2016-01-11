@@ -84,7 +84,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="6hWVX3omjl">
-    <property role="3GE5qa" value="watchtes.values" />
+    <property role="3GE5qa" value="watches.values" />
     <ref role="1M2myG" to="vu5z:PjpCze40Yc" resolve="ValueFromTextGen" />
   </node>
 </model>

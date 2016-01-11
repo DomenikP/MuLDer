@@ -8,7 +8,6 @@
   <imports>
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" />
-    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -55,7 +54,7 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="6Poal3coI9c">
-    <property role="TrG5h" value="LiftFrameFromTextAnnoation" />
+    <property role="TrG5h" value="LiftFrame2FrameFromText" />
     <property role="3GE5qa" value="stackframes" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
     <node concept="1TJgyj" id="6j53_d3kRWl" role="1TKVEi">
@@ -97,14 +96,14 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3BCiriJn_2T">
-    <property role="TrG5h" value="LiftVariableFromText" />
+    <property role="TrG5h" value="LiftWatchFromText" />
     <property role="34LRSv" value="WatchFromGen" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
     <node concept="1TJgyj" id="10kQx64GLPX" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="kind" />
-      <ref role="20lvS9" to="vu5z:10kQx64GLPW" resolve="VariableKind" />
+      <ref role="20lvS9" node="10kQx64GLPW" resolve="VariableKind" />
     </node>
     <node concept="1TJgyj" id="4lU62XqSZFN" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -165,8 +164,12 @@
     </node>
   </node>
   <node concept="PlHQZ" id="6hWVX3oosf">
-    <property role="3GE5qa" value="used" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="TextGenLifterAnnotation" />
+  </node>
+  <node concept="PlHQZ" id="10kQx64GLPW">
+    <property role="TrG5h" value="VariableKind" />
+    <property role="3GE5qa" value="watches" />
   </node>
 </model>
 
