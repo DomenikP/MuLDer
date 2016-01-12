@@ -109,26 +109,6 @@
     <property role="3GE5qa" value="valueLifter.external" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
-  <node concept="1TIwiD" id="2iiswCsPAji">
-    <property role="TrG5h" value="DelegateToNodeWithValueLifter" />
-    <property role="34LRSv" value="delegate value lifting" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3YtEbp4zmEQ" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="valueLiftedNode" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    </node>
-    <node concept="1TJgyj" id="2iiswCt0B9A" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="function" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vu5z:3YdlD6O5h_" resolve="ValueFromTextLifterDelegateFunction" />
-    </node>
-    <node concept="PrWs8" id="1aSLssz5Dir" role="PzmwI">
-      <ref role="PrY4T" node="1aSLssz5BIE" resolve="IValueLifter" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2iiswCsPAmU">
     <property role="TrG5h" value="AbstractValueLifter" />
     <property role="R5$K7" value="true" />
@@ -458,22 +438,6 @@
     <property role="3GE5qa" value="valueLifter" />
     <property role="TrG5h" value="ValueFromText" />
   </node>
-  <node concept="1TIwiD" id="1uxqFoJnIYk">
-    <property role="3GE5qa" value="ValueLifterSpec.valueSpec" />
-    <property role="TrG5h" value="ValueSpec" />
-    <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1uxqFoJrWtn" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="valueSpec" />
-      <ref role="20lvS9" node="1uxqFoJnJ6z" resolve="IValueSpec" />
-    </node>
-    <node concept="1TJgyj" id="1uxqFoJrWsr" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="concept" />
-      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1uxqFoJnJ2r">
     <property role="3GE5qa" value="ValueLifterSpec.valueSpec" />
     <property role="TrG5h" value="PrimitiveValueSpec" />
@@ -577,22 +541,6 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="constantList" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2SyAeFjUez3">
-    <property role="TrG5h" value="LiftConstantFromTextAnnotation" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="PrWs8" id="2SyAeFjUeHl" role="PzmwI">
-      <ref role="PrY4T" to="tdvr:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
-    </node>
-    <node concept="PrWs8" id="MPvpOSw2r6" role="PzmwI">
-      <ref role="PrY4T" to="vu5z:MPvpOSvUWE" resolve="IRequiresNameInTextGen" />
-    </node>
-    <node concept="M6xJ_" id="2SyAeFjUeKu" role="lGtFl">
-      <property role="Hh88m" value="liftConstantFromTextGen" />
-      <node concept="trNpa" id="2SyAeFjUeKG" role="EQaZv">
-        <ref role="trN6q" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
-      </node>
     </node>
   </node>
   <node concept="PlHQZ" id="1aSLssz5BIE">

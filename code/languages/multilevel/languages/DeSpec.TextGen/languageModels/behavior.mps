@@ -19,6 +19,7 @@
     <import index="pry4" ref="r:0a0d7eec-6e5a-412b-8e16-e3ee5ed7fb95(jetbrains.mps.debug.api.programState)" />
     <import index="j2z0" ref="r:e018fc1c-c261-4cd9-b91c-fe6714dcbd6e(multiLevel.debugger.debug)" />
     <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(DeSpec.Text.structure)" />
+    <import index="3dui" ref="r:8f1039d4-1829-4754-95ac-8a801334ecda(DeSpec.runtime.plugin)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -49,17 +50,22 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
@@ -77,6 +83,10 @@
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
@@ -234,6 +244,105 @@
     </node>
     <node concept="13hLZK" id="3YdlD6O5iu" role="13h7CW">
       <node concept="3clFbS" id="3YdlD6O5iv" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="3YtEbp4wczz">
+    <property role="3GE5qa" value="watches.values" />
+    <ref role="13h7C2" to="vu5z:2iiswCsPAji" resolve="DelegateToNodeWithValueLifter" />
+    <node concept="13hLZK" id="3YtEbp4wcz$" role="13h7CW">
+      <node concept="3clFbS" id="3YtEbp4wcz_" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3YtEbp4wczO" role="13h7CS">
+      <property role="TrG5h" value="liftValue" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="yh8:1aSLssz5ChK" resolve="liftValueFromGen" />
+      <node concept="3Tm1VV" id="3YtEbp4wczP" role="1B3o_S" />
+      <node concept="3clFbS" id="3YtEbp4wczI" role="3clF47">
+        <node concept="3cpWs6" id="3YtEbp4zna0" role="3cqZAp">
+          <node concept="2OqwBi" id="3YtEbp4zmW6" role="3cqZAk">
+            <node concept="2YIFZM" id="3YtEbp4z0jK" role="2Oq$k0">
+              <ref role="37wK5l" to="3dui:3YtEbp4yLOn" resolve="getValueLifter" />
+              <ref role="1Pybhc" to="3dui:3YtEbp4yrYs" resolve="ValueLifterRegistry" />
+              <node concept="2OqwBi" id="3YtEbp4zmJV" role="37wK5m">
+                <node concept="13iPFW" id="3YtEbp4zmHX" role="2Oq$k0" />
+                <node concept="3TrEf2" id="3YtEbp4zmT_" role="2OqNvi">
+                  <ref role="3Tt5mk" to="vu5z:3YtEbp4zmEQ" />
+                </node>
+              </node>
+            </node>
+            <node concept="2qgKlT" id="3YtEbp4zn5d" role="2OqNvi">
+              <ref role="37wK5l" to="yh8:1aSLssz5ChK" resolve="liftValueFromGen" />
+              <node concept="37vLTw" id="3YtEbp4zn6Q" role="37wK5m">
+                <ref role="3cqZAo" node="3YtEbp4wczQ" resolve="variable" />
+              </node>
+              <node concept="2OqwBi" id="569pImijuKJ" role="37wK5m">
+                <node concept="13iPFW" id="569pImijuIz" role="2Oq$k0" />
+                <node concept="1mfA1w" id="569pImijuVQ" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3YtEbp4wczQ" role="3clF46">
+        <property role="TrG5h" value="variable" />
+        <node concept="3uibUv" id="4AsJLsQcbEQ" role="1tU5fm">
+          <ref role="3uigEE" to="pry4:3SnNvqCaK3Q" resolve="IWatchable" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3YtEbp4wczS" role="3clF46">
+        <property role="TrG5h" value="watchDeclartion" />
+        <node concept="3Tqbb2" id="3YtEbp4wczT" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="3YtEbp4wczU" role="3clF45">
+        <ref role="3uigEE" to="pry4:3SnNvqCaJHZ" resolve="IValue" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="4kLkufAMred" role="13h7CS">
+      <property role="TrG5h" value="liftValueFromText" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="yh8:1aSLssz5ChC" resolve="liftValueFromText" />
+      <node concept="3Tm1VV" id="4kLkufAMree" role="1B3o_S" />
+      <node concept="3clFbS" id="4kLkufAMre7" role="3clF47">
+        <node concept="3cpWs6" id="4kLkufAMriF" role="3cqZAp">
+          <node concept="2OqwBi" id="4kLkufAMrlf" role="3cqZAk">
+            <node concept="2YIFZM" id="4kLkufAMrhc" role="2Oq$k0">
+              <ref role="37wK5l" to="3dui:3YtEbp4yLOn" resolve="getValueLifter" />
+              <ref role="1Pybhc" to="3dui:3YtEbp4yrYs" resolve="ValueLifterRegistry" />
+              <node concept="2OqwBi" id="4kLkufAMrhd" role="37wK5m">
+                <node concept="13iPFW" id="4kLkufAMrhe" role="2Oq$k0" />
+                <node concept="3TrEf2" id="4kLkufAMrhf" role="2OqNvi">
+                  <ref role="3Tt5mk" to="vu5z:3YtEbp4zmEQ" />
+                </node>
+              </node>
+            </node>
+            <node concept="2qgKlT" id="4kLkufAMrB9" role="2OqNvi">
+              <ref role="37wK5l" to="yh8:1aSLssz5ChC" resolve="liftValueFromText" />
+              <node concept="37vLTw" id="4kLkufAMrDc" role="37wK5m">
+                <ref role="3cqZAo" node="4kLkufAMref" resolve="variable" />
+              </node>
+              <node concept="2OqwBi" id="4kLkufAMrDd" role="37wK5m">
+                <node concept="13iPFW" id="4kLkufAMrDe" role="2Oq$k0" />
+                <node concept="1mfA1w" id="4kLkufAMrDf" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4kLkufAMref" role="3clF46">
+        <property role="TrG5h" value="variable" />
+        <node concept="3uibUv" id="4kLkufAMreg" role="1tU5fm">
+          <ref role="3uigEE" to="pry4:3SnNvqCaK3Q" resolve="IWatchable" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4kLkufAMreh" role="3clF46">
+        <property role="TrG5h" value="watchDeclartion" />
+        <node concept="3Tqbb2" id="4kLkufAMrei" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="4kLkufAMrej" role="3clF45">
+        <ref role="3uigEE" to="pry4:3SnNvqCaJHZ" resolve="IValue" />
+      </node>
     </node>
   </node>
 </model>

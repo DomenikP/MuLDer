@@ -320,7 +320,7 @@
   </node>
   <node concept="2S6QgY" id="4Dfag9jPXpU">
     <property role="TrG5h" value="ToggleDelegateBreakpoint" />
-    <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="2ZfgGC" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
     <node concept="2Sbjvc" id="4Dfag9jPXpV" role="2ZfgGD">
       <node concept="3clFbS" id="4Dfag9jPXpW" role="2VODD2">
         <node concept="3clFbJ" id="4Dfag9jPXpX" role="3cqZAp">
@@ -634,7 +634,7 @@
                   <node concept="2Sf5sV" id="6akUDvcTcZ0" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="6akUDvcTcZ1" role="2OqNvi">
                     <node concept="3CFYIy" id="6akUDvcTcZ2" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                      <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
                     </node>
                   </node>
                 </node>
@@ -647,7 +647,7 @@
               <node concept="2Sf5sV" id="6akUDvcTcfa" role="2Oq$k0" />
               <node concept="3CFZ6_" id="6akUDvcTcm0" role="2OqNvi">
                 <node concept="3CFYIy" id="6akUDvcTcmX" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
                 </node>
               </node>
             </node>
@@ -661,7 +661,7 @@
                     <node concept="2Sf5sV" id="6akUDvcTdzg" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="6akUDvcTdzh" role="2OqNvi">
                       <node concept="3CFYIy" id="6akUDvcTdzi" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                        <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
                       </node>
                     </node>
                   </node>

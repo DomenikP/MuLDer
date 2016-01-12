@@ -265,9 +265,10 @@
       <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz">
-        <child id="915776213541047768" name="resolveLiftToContributor" index="Lqb15" />
+      <concept id="6134458215760782264" name="DeSpec.Model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
+        <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
+      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz" />
       <concept id="7450251056332157791" name="DeSpec.Model.structure.LiftToNodeReference" flags="ng" index="2Njay3">
         <reference id="7450251056332157792" name="liftToNode" index="2NjayW" />
       </concept>
@@ -958,7 +959,7 @@
                 </node>
               </node>
               <node concept="2xMITz" id="MPvpOY1frB" role="lGtFl">
-                <node concept="2Njay3" id="8ik0RJ2cLE" role="Lqb15">
+                <node concept="2Njay3" id="5kxYjVobHdP" role="22L1k1">
                   <ref role="2NjayW" to="i2c5:8ik0RJ29En" resolve="runnable2Step" />
                 </node>
               </node>

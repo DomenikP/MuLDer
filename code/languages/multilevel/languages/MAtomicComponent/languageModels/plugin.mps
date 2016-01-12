@@ -49,11 +49,6 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="2417103808880916274" name="DeSpec.Model.structure.InputNodeParameter" flags="ng" index="2S770D" />
-      <concept id="2417103808877348245" name="DeSpec.Model.structure.LiftToWatchFunction" flags="ig" index="2SUSae">
-        <reference id="2417103808883371352" name="inputConcept" index="2SdYD3" />
-        <reference id="2417103808884294340" name="outputConcept" index="2Sgonv" />
-      </concept>
       <concept id="1884882593105352175" name="DeSpec.Model.structure.Children2WatchesWalker" flags="ng" index="17tetk">
         <reference id="1884882593106798867" name="applicableConcept" index="17mHIC" />
         <child id="1884882593109806684" name="llWatchesSelector" index="17yfNB" />
@@ -154,15 +149,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2SUSae" id="3KVJl1gXTls">
-    <ref role="2Sgonv" to="clbe:56ytRgsLg$o" resolve="Member" />
-    <ref role="2SdYD3" to="32lw:1X5iFxI_Zap" resolve="Field" />
-    <node concept="3clFbS" id="3KVJl1gXTlt" role="2VODD2">
-      <node concept="3clFbF" id="3KVJl1gXTtk" role="3cqZAp">
-        <node concept="2S770D" id="3KVJl1gXTtj" role="3clFbG" />
       </node>
     </node>
   </node>

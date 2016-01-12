@@ -137,12 +137,6 @@
     <property role="TrG5h" value="LiftFrame2FrameFromModel" />
     <property role="3GE5qa" value="stackframes.frame2frame" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
-    <node concept="1TJgyj" id="MPvpOXRsRo" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="resolveLiftToContributor" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="MPvpOXRsWV" resolve="InputNodeResolver" />
-    </node>
     <node concept="M6xJ_" id="6Poal3c$GsQ" role="lGtFl">
       <property role="Hh88m" value="liftFrameFromGen" />
       <node concept="trNpa" id="1cnyw9ZxFij" role="EQaZv">
@@ -158,6 +152,9 @@
     <node concept="PrWs8" id="2Up4L47KVPG" role="PzmwI">
       <ref role="PrY4T" node="2Up4L47KR5G" resolve="ExpectedInputNodeProvider" />
     </node>
+    <node concept="PrWs8" id="5kxYjVo9kSU" role="PzmwI">
+      <ref role="PrY4T" node="5kxYjVnTueS" resolve="RequiresInputNodeResolver" />
+    </node>
     <node concept="1TJgyj" id="MPvpOYbcnO" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToContributor" />
@@ -168,12 +165,6 @@
     <property role="TrG5h" value="DelegateBreakpoint" />
     <property role="3GE5qa" value="breakpoints" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
-    <node concept="1TJgyj" id="2Up4L47NeYM" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20kJfa" value="resolveLiftToInputNode" />
-      <ref role="20lvS9" node="MPvpOXRsWV" resolve="InputNodeResolver" />
-    </node>
     <node concept="M6xJ_" id="4Dfag9jPJBK" role="lGtFl">
       <property role="Hh88m" value="delegateBreakpointFromModel" />
       <node concept="tn0Fv" id="4Dfag9jPJT3" role="HhnKV">
@@ -188,6 +179,9 @@
     </node>
     <node concept="PrWs8" id="2Up4L47NffI" role="PzmwI">
       <ref role="PrY4T" node="2Up4L47KR5G" resolve="ExpectedInputNodeProvider" />
+    </node>
+    <node concept="PrWs8" id="5kxYjVnXhAC" role="PzmwI">
+      <ref role="PrY4T" node="5kxYjVnTueS" resolve="RequiresInputNodeResolver" />
     </node>
     <node concept="1TJgyj" id="2Up4L47NffC" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -326,7 +320,7 @@
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="7SsDM6P3I0s">
-    <property role="TrG5h" value="InputNodeExpr" />
+    <property role="TrG5h" value="Resolve2InputNode" />
     <property role="34LRSv" value="inputNode" />
     <property role="3GE5qa" value="inputNodes" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -335,7 +329,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6t$AXNjmDBn">
-    <property role="3GE5qa" value="inputNodes.lifter" />
+    <property role="3GE5qa" value="inputNodes.lifterFunction" />
     <property role="TrG5h" value="LiftToNode" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Lift to Node" />
@@ -348,7 +342,13 @@
     </node>
     <node concept="1TJgyj" id="6t$AXNjmIiY" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="concept" />
+      <property role="20kJfa" value="sourceConcept" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="5kxYjVnqjVt" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="targetConcept" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
@@ -363,12 +363,12 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6t$AXNjmDLy">
-    <property role="3GE5qa" value="inputNodes.lifter" />
+    <property role="3GE5qa" value="inputNodes.lifterFunction" />
     <property role="TrG5h" value="LiftToNodeFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="6t$AXNka3dv">
-    <property role="3GE5qa" value="inputNodes.lifter" />
+    <property role="3GE5qa" value="inputNodes.lifterFunction" />
     <property role="TrG5h" value="LiftToNodeReference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6t$AXNka3dw" role="1TKVEi">
@@ -398,6 +398,9 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToConstant" />
       <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1qLJBRhr9fD" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="1CCsFHt$0Ik">
@@ -465,11 +468,10 @@
       <property role="20kJfa" value="valueLifter" />
       <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
     </node>
-    <node concept="1TJgyj" id="3KVJl1fA8uS" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+    <node concept="1TJgyj" id="7I1qpzSvfMr" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToWatch" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="26bhLIpwuES" resolve="LiftToWatchReference" />
+      <ref role="20lvS9" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
     </node>
     <node concept="M6xJ_" id="1aQJbq2AGCi" role="lGtFl">
       <property role="Hh88m" value="liftWatchFromGen" />
@@ -480,67 +482,23 @@
     <node concept="PrWs8" id="7gtWUEopUIc" role="PzmwI">
       <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="26bhLIpocml">
-    <property role="3GE5qa" value="liftWatch" />
-    <property role="TrG5h" value="LiftToWatchFunction" />
-    <property role="34LRSv" value="lift to watch" />
-    <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-    <node concept="1TJgyj" id="26bhLIpJaPo" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="inputConcept" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    <node concept="PrWs8" id="7I1qpzSv7eq" role="PzmwI">
+      <ref role="PrY4T" node="5kxYjVnTueS" resolve="RequiresInputNodeResolver" />
     </node>
-    <node concept="1TJgyj" id="26bhLIpMGb4" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="outputConcept" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="26bhLIpSkPS">
-    <property role="3GE5qa" value="liftWatch" />
-    <property role="TrG5h" value="LiftToWatchFunctionReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="26bhLIpSl8y" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="function" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="26bhLIpocml" resolve="LiftToWatchFunction" />
-    </node>
-    <node concept="PrWs8" id="26bhLIpSl8w" role="PzmwI">
-      <ref role="PrY4T" node="26bhLIpwuES" resolve="LiftToWatchReference" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="26bhLIpoji1">
-    <property role="3GE5qa" value="liftWatch" />
-    <property role="TrG5h" value="LiftToWatchNode" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="26bhLIpoJtK" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="watchDeclaration" />
-      <ref role="20lvS9" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
-    </node>
-    <node concept="PrWs8" id="26bhLIpwvyK" role="PzmwI">
-      <ref role="PrY4T" node="26bhLIpwuES" resolve="LiftToWatchReference" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="26bhLIp_NsM">
-    <property role="3GE5qa" value="liftWatch" />
-    <property role="34LRSv" value="inputNode" />
-    <property role="TrG5h" value="InputNodeParameter" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
-  <node concept="PlHQZ" id="26bhLIpwuES">
-    <property role="3GE5qa" value="liftWatch" />
-    <property role="TrG5h" value="LiftToWatchReference" />
   </node>
   <node concept="PlHQZ" id="2Up4L47KR5G">
     <property role="3GE5qa" value="inputNodes" />
     <property role="TrG5h" value="ExpectedInputNodeProvider" />
+  </node>
+  <node concept="PlHQZ" id="5kxYjVnTueS">
+    <property role="3GE5qa" value="inputNodes" />
+    <property role="TrG5h" value="RequiresInputNodeResolver" />
+    <node concept="1TJgyj" id="5kxYjVnTuKZ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..1" />
+      <property role="20kJfa" value="liftToInputNodeResolver" />
+      <ref role="20lvS9" node="MPvpOXRsWV" resolve="InputNodeResolver" />
+    </node>
   </node>
 </model>
 

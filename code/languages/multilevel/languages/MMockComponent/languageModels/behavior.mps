@@ -126,7 +126,8 @@
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
       <concept id="7450251056318683607" name="DeSpec.Model.structure.LiftToNode" flags="ng" index="2Ofw8b">
-        <reference id="7450251056318702782" name="concept" index="2OfBXy" />
+        <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
+        <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
         <child id="7450251056318702784" name="function" index="2OfBWs" />
       </concept>
       <concept id="7450251056318684258" name="DeSpec.Model.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
@@ -571,6 +572,7 @@
   <node concept="2Ofw8b" id="8ik0RJ29En">
     <property role="TrG5h" value="runnable2Step" />
     <ref role="2OfBXy" to="32lw:1y5IIwWxgUR" resolve="Runnable" />
+    <ref role="22icvz" to="ef37:7MFNr6Dm73S" resolve="SequenceStep" />
     <node concept="2OfwuY" id="8ik0RJ29Eo" role="2OfBWs">
       <node concept="3clFbS" id="8ik0RJ29Ep" role="2VODD2">
         <node concept="3cpWs8" id="8ik0RJ29R2" role="3cqZAp">

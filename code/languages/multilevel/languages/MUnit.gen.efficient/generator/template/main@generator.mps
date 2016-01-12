@@ -189,16 +189,17 @@
       </concept>
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w">
-        <child id="3357735961047658418" name="resolveLiftToInputNode" index="DlvMz" />
+      <concept id="6134458215760782264" name="DeSpec.Model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
+        <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
+      <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
       <concept id="7450251056332157791" name="DeSpec.Model.structure.LiftToNodeReference" flags="ng" index="2Njay3">
         <reference id="7450251056332157792" name="liftToNode" index="2NjayW" />
       </concept>
       <concept id="6252445355758092971" name="DeSpec.Model.structure.VirtualFrameAnnotation" flags="ng" index="31hqt7">
         <reference id="149269758414034613" name="spec" index="3JU4qS" />
       </concept>
-      <concept id="9087321911340228636" name="DeSpec.Model.structure.InputNodeExpr" flags="ng" index="3b4$sX" />
+      <concept id="9087321911340228636" name="DeSpec.Model.structure.Resolve2InputNode" flags="ng" index="3b4$sX" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -302,7 +303,7 @@
                 <ref role="2sdACS" node="14emBKl1mou" resolve="assert2Statement" />
               </node>
               <node concept="pAt3w" id="2Up4L47G0_W" role="lGtFl">
-                <node concept="3b4$sX" id="2Up4L47RcaL" role="DlvMz" />
+                <node concept="3b4$sX" id="5kxYjVo3jeJ" role="22L1k1" />
               </node>
             </node>
             <node concept="1_9egQ" id="14emBKkSneS" role="3XIRFZ">
@@ -524,7 +525,7 @@
                 <ref role="2sdACS" node="14emBKl1mou" resolve="assert2Statement" />
               </node>
               <node concept="pAt3w" id="2Up4L47tsAJ" role="lGtFl">
-                <node concept="3b4$sX" id="2Up4L47Rc83" role="DlvMz" />
+                <node concept="3b4$sX" id="5kxYjVnZz3W" role="22L1k1" />
               </node>
             </node>
             <node concept="1_9egQ" id="14emBKkY4Ub" role="3XIRFZ">
@@ -691,8 +692,8 @@
                     <ref role="3JU4qS" to="wpai:8ik0RHTKpB" resolve="blockStatement2Testcase" />
                   </node>
                   <node concept="pAt3w" id="2Up4L47YYYB" role="lGtFl">
-                    <node concept="2Njay3" id="2Up4L47YZkz" role="DlvMz">
-                      <ref role="2NjayW" to="wpai:2Up4L47UYBr" resolve="statementList2Testcase" />
+                    <node concept="2Njay3" id="5kxYjVo27E5" role="22L1k1">
+                      <ref role="2NjayW" to="wpai:5kxYjVnRQic" resolve="statementList2Testcase" />
                     </node>
                   </node>
                 </node>

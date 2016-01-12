@@ -8,6 +8,8 @@
   <imports>
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" />
+    <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -87,6 +89,9 @@
     </node>
     <node concept="PrWs8" id="2SyAeFjOIZZ" role="PzmwI">
       <ref role="PrY4T" to="k6mm:53P7aeD7Arx" resolve="IRequiresImports" />
+    </node>
+    <node concept="PrWs8" id="1qLJBRhr6UL" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
     </node>
     <node concept="M6xJ_" id="2SyAeFjOM8n" role="lGtFl">
       <property role="Hh88m" value="liftConstantFromText" />

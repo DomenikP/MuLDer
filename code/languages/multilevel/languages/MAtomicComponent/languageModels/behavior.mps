@@ -345,7 +345,7 @@
           <node concept="3cpWsn" id="26bhLIqH2vH" role="3cpWs9">
             <property role="TrG5h" value="liftWatch" />
             <node concept="3Tqbb2" id="26bhLIqH2tP" role="1tU5fm">
-              <ref role="ehGHo" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+              <ref role="ehGHo" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
             </node>
             <node concept="1sne9v" id="26bhLIqH2vV" role="33vP2m">
               <node concept="1sne01" id="26bhLIqH2vW" role="1sne8H">
@@ -357,24 +357,18 @@
                     <ref role="28H3Ia" to="mj1l:hEaDaGor64" />
                   </node>
                 </node>
-                <node concept="1sne01" id="26bhLIqH2w0" role="1sne05">
-                  <ref role="1snh0D" to="2cz0:3KVJl1fA8uS" />
-                  <node concept="1sh8R2" id="26bhLIqH2w1" role="1sne05">
-                    <ref role="1sh8R3" to="2cz0:26bhLIpoJtK" />
-                    <node concept="1PxgMI" id="26bhLIqH2w2" role="1sh8R0">
-                      <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
-                      <node concept="2OqwBi" id="3YdlD4ij48" role="1PxMeX">
-                        <node concept="13iPFW" id="3YdlD4ij02" role="2Oq$k0" />
-                        <node concept="14HDna" id="3YdlD4ik_J" role="2OqNvi" />
-                      </node>
+                <node concept="1sh8R2" id="7I1qpzSxZi7" role="1sne05">
+                  <ref role="1sh8R3" to="2cz0:7I1qpzSvfMr" />
+                  <node concept="1PxgMI" id="26bhLIqH2w2" role="1sh8R0">
+                    <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+                    <node concept="2OqwBi" id="3YdlD4ij48" role="1PxMeX">
+                      <node concept="13iPFW" id="3YdlD4ij02" role="2Oq$k0" />
+                      <node concept="14HDna" id="3YdlD4ik_J" role="2OqNvi" />
                     </node>
-                  </node>
-                  <node concept="1shVQo" id="26bhLIqH2w5" role="ccFIB">
-                    <ref role="1shVQp" to="2cz0:26bhLIpoji1" resolve="LiftToWatchNode" />
                   </node>
                 </node>
                 <node concept="1shVQo" id="26bhLIqH2w7" role="ccFIB">
-                  <ref role="1shVQp" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                  <ref role="1shVQp" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
                 </node>
               </node>
             </node>
@@ -386,7 +380,7 @@
               <node concept="13iPFW" id="26bhLIqGY2V" role="2Oq$k0" />
               <node concept="3CFZ6_" id="26bhLIqGY2W" role="2OqNvi">
                 <node concept="3CFYIy" id="26bhLIqGY2X" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
                 </node>
               </node>
             </node>

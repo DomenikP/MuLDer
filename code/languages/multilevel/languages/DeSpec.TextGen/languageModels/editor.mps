@@ -19,7 +19,7 @@
     <import index="oedy" ref="r:09ea9013-65ba-4bbe-91d3-376dbd098e16(DeSpec.TextGen.behavior)" />
     <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(DeSpec.Text.structure)" />
     <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(DeSpec.Text.behavior)" />
-    <import index="p84m" ref="r:8afdd44c-957c-4386-9bb8-1756a3e922fa(DeSpec.Text.editor)" implicit="true" />
+    <import index="p84m" ref="r:8afdd44c-957c-4386-9bb8-1756a3e922fa(DeSpec.Text.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -234,6 +234,56 @@
       </node>
       <node concept="2SsqMj" id="MPvpOSw50E" role="3EZMnx" />
       <node concept="l2Vlx" id="MPvpOSw50F" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2SyAeFjUeHK">
+    <property role="3GE5qa" value="watches" />
+    <ref role="1XX52x" to="vu5z:2SyAeFjUez3" resolve="LiftConstantFromTextGen" />
+    <node concept="3EZMnI" id="2SyAeFjUeJQ" role="2wV5jI">
+      <node concept="3F0ifn" id="2SyAeFjUeJR" role="3EZMnx">
+        <property role="3F0ifm" value="@Constant" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <node concept="ljvvj" id="2SyAeFjUeJS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="30gYXW" id="2SyAeFjUeJT" role="3F10Kt">
+          <property role="Vb096" value="cyan" />
+        </node>
+      </node>
+      <node concept="2SsqMj" id="2SyAeFjUeJU" role="3EZMnx" />
+      <node concept="l2Vlx" id="2SyAeFjUeJV" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2iiswCt2iwQ">
+    <property role="3GE5qa" value="watches.values" />
+    <ref role="1XX52x" to="vu5z:2iiswCsPAji" resolve="DelegateToNodeWithValueLifter" />
+    <node concept="3EZMnI" id="2iiswCt2iwW" role="2wV5jI">
+      <node concept="3F0ifn" id="2iiswCt2iwS" role="3EZMnx">
+        <property role="3F0ifm" value="delegate" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F0ifn" id="2iiswCt3417" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F0ifn" id="2iiswCt341n" role="3EZMnx">
+        <property role="3F0ifm" value="value" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F0ifn" id="2iiswCt341D" role="3EZMnx">
+        <property role="3F0ifm" value="lifter" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <node concept="ljvvj" id="2iiswCt343r" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="2iiswCt2ixe" role="3EZMnx">
+        <ref role="1NtTu8" to="vu5z:2iiswCt0B9A" />
+        <node concept="lj46D" id="2iiswCt2i_q" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2iiswCt2iwZ" role="2iSdaV" />
     </node>
   </node>
 </model>

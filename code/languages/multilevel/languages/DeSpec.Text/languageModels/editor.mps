@@ -11,6 +11,8 @@
     <import index="yh8" ref="r:cf8dc0a4-7e7f-4be5-9853-f747cd33208a(DeSpec.behavior)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(DeSpec.Text.behavior)" />
+    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -248,6 +250,18 @@
           <node concept="2iRfu4" id="2SyAeFjOJlM" role="2iSdaV" />
         </node>
         <node concept="2iRfu4" id="2SyAeFjOJmx" role="2iSdaV" />
+        <node concept="pkWqt" id="1qLJBRhqNEi" role="pqm2j">
+          <node concept="3clFbS" id="1qLJBRhqNEj" role="2VODD2">
+            <node concept="3clFbF" id="1qLJBRhqT0s" role="3cqZAp">
+              <node concept="2OqwBi" id="1qLJBRhqTNl" role="3clFbG">
+                <node concept="pncrf" id="1qLJBRhqT0r" role="2Oq$k0" />
+                <node concept="2qgKlT" id="1qLJBRhr7KJ" role="2OqNvi">
+                  <ref role="37wK5l" to="yh8:3EISKF07N3F" resolve="showEditor" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2SsqMj" id="2SyAeFjOJmy" role="3EZMnx">
         <node concept="2R9Tw8" id="2SyAeFjOJmz" role="3F10Kt">

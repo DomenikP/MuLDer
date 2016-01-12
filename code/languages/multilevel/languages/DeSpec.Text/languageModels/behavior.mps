@@ -5,6 +5,7 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="0" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="0" />
+    <use id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="Tracing" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -21,6 +22,7 @@
     <import index="t3eg" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.language(MPS.OpenAPI/org.jetbrains.mps.openapi.language@java_stub)" />
     <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(DeSpec.Model.structure)" />
+    <import index="l756" ref="r:052aedf4-85d3-4173-8f24-9032633c8adf(DeSpec.Model.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -155,23 +157,6 @@
         <reference id="6626851894249712469" name="extensionPoint" index="2O5UnU" />
       </concept>
       <concept id="3175313036448560967" name="jetbrains.mps.lang.extension.structure.GetExtensionObjectsOperation" flags="nn" index="SfwO_" />
-    </language>
-    <language id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil">
-      <concept id="4481811096721038000" name="com.mbeddr.mpsutil.blutil.structure.RefStep" flags="ng" index="1sh8R2">
-        <reference id="4481811096721038001" name="refLink" index="1sh8R3" />
-        <child id="4481811096721038002" name="target" index="1sh8R0" />
-      </concept>
-      <concept id="4481811096720976618" name="com.mbeddr.mpsutil.blutil.structure.ConceptRef" flags="ng" index="1shVQo">
-        <reference id="4481811096720976619" name="concept" index="1shVQp" />
-      </concept>
-      <concept id="4481811096720537459" name="com.mbeddr.mpsutil.blutil.structure.ChildStep" flags="ng" index="1sne01">
-        <reference id="4481811096720607067" name="childLink" index="1snh0D" />
-        <child id="6308171743671982944" name="value" index="ccFIB" />
-        <child id="4481811096720537463" name="children" index="1sne05" />
-      </concept>
-      <concept id="4481811096720536877" name="com.mbeddr.mpsutil.blutil.structure.BuilderExpression" flags="ng" index="1sne9v">
-        <child id="4481811096720536927" name="root" index="1sne8H" />
-      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -518,7 +503,7 @@
                   </node>
                   <node concept="3CFZ6_" id="3KVJl1fRb_C" role="2OqNvi">
                     <node concept="3CFYIy" id="3KVJl1fRb_D" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                      <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
                     </node>
                   </node>
                 </node>
@@ -540,7 +525,7 @@
                     </node>
                     <node concept="3CFZ6_" id="3KVJl1fRs8b" role="2OqNvi">
                       <node concept="3CFYIy" id="3KVJl1fRs8c" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                        <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
                       </node>
                     </node>
                   </node>
@@ -552,23 +537,6 @@
             </node>
             <node concept="3clFbF" id="3KVJl1fRuhN" role="3cqZAp">
               <node concept="37vLTI" id="3KVJl1fRvl6" role="3clFbG">
-                <node concept="1sne9v" id="3KVJl1fRvnm" role="37vLTx">
-                  <node concept="1sne01" id="3KVJl1fRvnn" role="1sne8H">
-                    <ref role="1snh0D" to="tpck:4uZwTti3__2" />
-                    <node concept="1sh8R2" id="3KVJl1fRvqS" role="1sne05">
-                      <ref role="1sh8R3" to="2cz0:26bhLIpoJtK" />
-                      <node concept="1PxgMI" id="3KVJl1fRvqT" role="1sh8R0">
-                        <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
-                        <node concept="37vLTw" id="3KVJl1fRvqU" role="1PxMeX">
-                          <ref role="3cqZAo" node="2UoM3FoiosO" resolve="copyFromHigherLevel" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="1shVQo" id="3KVJl1fRvoy" role="ccFIB">
-                      <ref role="1shVQp" to="2cz0:26bhLIpoji1" resolve="LiftToWatchNode" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="2OqwBi" id="3KVJl1fRunv" role="37vLTJ">
                   <node concept="2OqwBi" id="3KVJl1fRuhP" role="2Oq$k0">
                     <node concept="37vLTw" id="3KVJl1fRuhQ" role="2Oq$k0">
@@ -576,12 +544,18 @@
                     </node>
                     <node concept="3CFZ6_" id="3KVJl1fRuhR" role="2OqNvi">
                       <node concept="3CFYIy" id="3KVJl1fRuhS" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftVariableFromModel" />
+                        <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
                       </node>
                     </node>
                   </node>
-                  <node concept="3TrEf2" id="3KVJl1fRv0h" role="2OqNvi">
-                    <ref role="3Tt5mk" to="2cz0:3KVJl1fA8uS" />
+                  <node concept="3TrEf2" id="7I1qpzSvhGV" role="2OqNvi">
+                    <ref role="3Tt5mk" to="2cz0:7I1qpzSvfMr" />
+                  </node>
+                </node>
+                <node concept="1PxgMI" id="3KVJl1fRvqT" role="37vLTx">
+                  <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+                  <node concept="37vLTw" id="3KVJl1fRvqU" role="1PxMeX">
+                    <ref role="3cqZAo" node="2UoM3FoiosO" resolve="copyFromHigherLevel" />
                   </node>
                 </node>
               </node>

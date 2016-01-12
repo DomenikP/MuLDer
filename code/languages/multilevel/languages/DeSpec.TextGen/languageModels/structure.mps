@@ -170,5 +170,43 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="2SyAeFjUez3">
+    <property role="TrG5h" value="LiftConstantFromTextGen" />
+    <property role="3GE5qa" value="watches" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="PrWs8" id="2SyAeFjUeHl" role="PzmwI">
+      <ref role="PrY4T" to="tdvr:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
+    </node>
+    <node concept="PrWs8" id="MPvpOSw2r6" role="PzmwI">
+      <ref role="PrY4T" node="MPvpOSvUWE" resolve="IRequiresNameInTextGen" />
+    </node>
+    <node concept="M6xJ_" id="2SyAeFjUeKu" role="lGtFl">
+      <property role="Hh88m" value="liftConstantFromTextGen" />
+      <node concept="trNpa" id="2SyAeFjUeKG" role="EQaZv">
+        <ref role="trN6q" to="2omo:hWWtQdD" resolve="ConceptTextGenDeclaration" />
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2iiswCsPAji">
+    <property role="TrG5h" value="DelegateToNodeWithValueLifter" />
+    <property role="34LRSv" value="delegate value lifting" />
+    <property role="3GE5qa" value="watches.values" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3YtEbp4zmEQ" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="valueLiftedNode" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="2iiswCt0B9A" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3YdlD6O5h_" resolve="ValueFromTextGenDelegateFunction" />
+    </node>
+    <node concept="PrWs8" id="1aSLssz5Dir" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:1aSLssz5BIE" resolve="IValueLifter" />
+    </node>
+  </node>
 </model>
 
