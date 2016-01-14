@@ -51,7 +51,7 @@
       <concept id="149269758412798994" name="DeSpec.Model.structure.LiftToNameFunction" flags="ig" index="3JXmKv" />
     </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
-      <concept id="1716287733388071715" name="DeSpec.structure.NodeParameter" flags="ng" index="2Z9qAU" />
+      <concept id="7901750452160627013" name="DeSpec.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -95,7 +95,7 @@
               <node concept="1PxgMI" id="8ik0RHWzvD" role="2Oq$k0">
                 <ref role="1PxNhF" to="e1nu:14emBKkRwHn" resolve="TestcaseRef" />
                 <node concept="2OqwBi" id="8ik0RHWtZd" role="1PxMeX">
-                  <node concept="2Z9qAU" id="8ik0RHWtLl" role="2Oq$k0" />
+                  <node concept="2Duq_I" id="2EVeRXbRCxO" role="2Oq$k0" />
                   <node concept="2OVGM_" id="8ik0RHW$QZ" role="2OqNvi" />
                 </node>
               </node>
@@ -114,7 +114,7 @@
       <node concept="3clFbS" id="8ik0RHWtEA" role="2VODD2">
         <node concept="3clFbF" id="8ik0RIDvm5" role="3cqZAp">
           <node concept="2OqwBi" id="8ik0RI94To" role="3clFbG">
-            <node concept="2Z9qAU" id="8ik0RI94Tp" role="2Oq$k0" />
+            <node concept="2Duq_I" id="2EVeRXbRCwJ" role="2Oq$k0" />
             <node concept="2Xjw5R" id="8ik0RIDujN" role="2OqNvi">
               <node concept="1xMEDy" id="8ik0RIDujP" role="1xVPHs">
                 <node concept="chp4Y" id="8ik0RIDAYU" role="ri$Ld">
@@ -133,7 +133,7 @@
             <node concept="1PxgMI" id="8ik0RHWCRW" role="2Oq$k0">
               <ref role="1PxNhF" to="e1nu:14emBKkRwHn" resolve="TestcaseRef" />
               <node concept="2OqwBi" id="8ik0RHWCRX" role="1PxMeX">
-                <node concept="2Z9qAU" id="8ik0RHWCRY" role="2Oq$k0" />
+                <node concept="2Duq_I" id="2EVeRXbRCCL" role="2Oq$k0" />
                 <node concept="2OVGM_" id="8ik0RHWCRZ" role="2OqNvi" />
               </node>
             </node>
@@ -156,7 +156,7 @@
             <node concept="1PxgMI" id="5kxYjVnRQLF" role="2Oq$k0">
               <ref role="1PxNhF" to="e1nu:14emBKkRwHn" resolve="TestcaseRef" />
               <node concept="2OqwBi" id="5kxYjVnRQLG" role="1PxMeX">
-                <node concept="2Z9qAU" id="5kxYjVnRQLH" role="2Oq$k0" />
+                <node concept="2Duq_I" id="2EVeRXbRCgH" role="2Oq$k0" />
                 <node concept="2OVGM_" id="5kxYjVnRQLI" role="2OqNvi" />
               </node>
             </node>

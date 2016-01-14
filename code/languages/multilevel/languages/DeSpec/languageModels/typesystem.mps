@@ -112,7 +112,6 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
@@ -134,10 +133,6 @@
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ng" index="2c44t0">
-        <child id="1196350785111" name="expression" index="2c44t1" />
-      </concept>
-      <concept id="1196350785117" name="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" flags="ng" index="2c44tb" />
       <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
         <child id="1196350785114" name="quotedNode" index="2c44tc" />
       </concept>
@@ -250,11 +245,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
-      <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
-        <property id="1757699476691236116" name="linkRole" index="2qtEX8" />
-        <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -274,64 +264,9 @@
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
     </language>
   </registry>
-  <node concept="1YbPZF" id="1vhuDACYJKV">
-    <property role="TrG5h" value="typeof_NodeParameter" />
-    <node concept="3clFbS" id="1vhuDACYJKW" role="18ibNy">
-      <node concept="3clFbH" id="4JWsYZwziO6" role="3cqZAp" />
-      <node concept="1Z5TYs" id="4JWsYZwzjdz" role="3cqZAp">
-        <node concept="mw_s8" id="4JWsYZwzjd$" role="1ZfhKB">
-          <node concept="2c44tf" id="4JWsYZwzjd_" role="mwGJk">
-            <node concept="3Tqbb2" id="4JWsYZwzjdA" role="2c44tc">
-              <node concept="2c44tb" id="4JWsYZwzjdB" role="lGtFl">
-                <property role="2qtEX8" value="concept" />
-                <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
-                <node concept="2OqwBi" id="4JWsYZwzjij" role="2c44t1">
-                  <node concept="2OqwBi" id="4JWsYZwzjik" role="2Oq$k0">
-                    <node concept="1YBJjd" id="4JWsYZwzjil" role="2Oq$k0">
-                      <ref role="1YBMHb" node="1vhuDACYJKY" resolve="nodeParameter" />
-                    </node>
-                    <node concept="2Xjw5R" id="4JWsYZwzjim" role="2OqNvi">
-                      <node concept="1xMEDy" id="4JWsYZwzjin" role="1xVPHs">
-                        <node concept="chp4Y" id="4JWsYZwzjio" role="ri$Ld">
-                          <ref role="cht4Q" to="k6mm:4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2qgKlT" id="4JWsYZwzjip" role="2OqNvi">
-                    <ref role="37wK5l" to="yh8:4JWsYZwzaZi" resolve="getConceptDeclaration" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="4JWsYZwzjdD" role="1ZfhK$">
-          <node concept="1Z2H0r" id="4JWsYZwzjdE" role="mwGJk">
-            <node concept="1YBJjd" id="4JWsYZwzjdF" role="1Z2MuG">
-              <ref role="1YBMHb" node="1vhuDACYJKY" resolve="nodeParameter" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="1vhuDACYJKY" role="1YuTPh">
-      <property role="TrG5h" value="nodeParameter" />
-      <ref role="1YaFvo" to="k6mm:1vhuDACXdcz" resolve="NodeParameter" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="465Mcq_0rcw">
-    <property role="TrG5h" value="typeof_PrimitiveValue" />
-    <property role="3GE5qa" value="valueLifter.external" />
-    <node concept="3clFbS" id="465Mcq_0rcx" role="18ibNy" />
-    <node concept="1YaCAy" id="465Mcq_0rcz" role="1YuTPh">
-      <property role="TrG5h" value="primitiveValue" />
-      <ref role="1YaFvo" to="k6mm:465Mcq_0qPX" resolve="PrimitiveValue" />
-    </node>
-  </node>
   <node concept="18kY7G" id="10kQx64dFpS">
     <property role="TrG5h" value="check_ValueLifterSpec" />
-    <property role="3GE5qa" value="ValueLifterSpec" />
+    <property role="3GE5qa" value="value.lifter" />
     <node concept="3clFbS" id="10kQx64dFpT" role="18ibNy">
       <node concept="3clFbJ" id="10kQx64dFwb" role="3cqZAp">
         <node concept="3clFbS" id="10kQx64dFwd" role="3clFbx">
@@ -450,6 +385,7 @@
   </node>
   <node concept="18kY7G" id="4lU62XuX5Ye">
     <property role="TrG5h" value="check_NodeError" />
+    <property role="3GE5qa" value="util" />
     <node concept="3clFbS" id="4lU62XuX5Yf" role="18ibNy">
       <node concept="2MkqsV" id="4lU62XuX5Yo" role="3cqZAp">
         <node concept="2OqwBi" id="4lU62XuX61q" role="2MkJ7o">
@@ -470,143 +406,6 @@
       <ref role="1YaFvo" to="k6mm:4lU62XuRLE5" resolve="NodeError" />
     </node>
   </node>
-  <node concept="1YbPZF" id="1uxqFoIOKNz">
-    <property role="TrG5h" value="typeof_AttachValueLifterSpec" />
-    <property role="3GE5qa" value="ValueLifterSpec" />
-    <node concept="3clFbS" id="1uxqFoIOKN$" role="18ibNy">
-      <node concept="1Z5TYs" id="1uxqFoIOKX0" role="3cqZAp">
-        <node concept="mw_s8" id="1uxqFoIOKXk" role="1ZfhKB">
-          <node concept="1Z2H0r" id="1uxqFoIOKXg" role="mwGJk">
-            <node concept="2OqwBi" id="1uxqFoIOKZA" role="1Z2MuG">
-              <node concept="1YBJjd" id="1uxqFoIOKX_" role="2Oq$k0">
-                <ref role="1YBMHb" node="1uxqFoIOKNA" resolve="attachValueLifterSpec" />
-              </node>
-              <node concept="3TrEf2" id="1uxqFoIOLb3" role="2OqNvi">
-                <ref role="3Tt5mk" to="k6mm:1uxqFoI0zcz" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="1uxqFoIOKX3" role="1ZfhK$">
-          <node concept="1Z2H0r" id="1uxqFoIOKTN" role="mwGJk">
-            <node concept="1YBJjd" id="1uxqFoIOKUf" role="1Z2MuG">
-              <ref role="1YBMHb" node="1uxqFoIOKNA" resolve="attachValueLifterSpec" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="1uxqFoIOKNA" role="1YuTPh">
-      <property role="TrG5h" value="attachValueLifterSpec" />
-      <ref role="1YaFvo" to="k6mm:4JWsYZwyWdL" resolve="AttachValueLifterSpec" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="1uxqFoJ6BY7">
-    <property role="TrG5h" value="typeof_LiftValueFromModel" />
-    <property role="3GE5qa" value="valueLifter.gen" />
-    <node concept="3clFbS" id="1uxqFoJ6BY8" role="18ibNy">
-      <node concept="1Z5TYs" id="1uxqFoJ6BZM" role="3cqZAp">
-        <node concept="mw_s8" id="1uxqFoJ6C06" role="1ZfhKB">
-          <node concept="1Z2H0r" id="1uxqFoJ6C02" role="mwGJk">
-            <node concept="2OqwBi" id="1uxqFoJ6C3p" role="1Z2MuG">
-              <node concept="1YBJjd" id="1uxqFoJ6C0n" role="2Oq$k0">
-                <ref role="1YBMHb" node="1uxqFoJ6BYa" resolve="liftValueFromModel" />
-              </node>
-              <node concept="3TrEf2" id="1uxqFoJ6Ck2" role="2OqNvi">
-                <ref role="3Tt5mk" to="k6mm:3p1iWQOtW8x" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="1uxqFoJ6BZP" role="1ZfhK$">
-          <node concept="1Z2H0r" id="1uxqFoJ6BYe" role="mwGJk">
-            <node concept="1YBJjd" id="1uxqFoJ6BYE" role="1Z2MuG">
-              <ref role="1YBMHb" node="1uxqFoJ6BYa" resolve="liftValueFromModel" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="1uxqFoJ6BYa" role="1YuTPh">
-      <property role="TrG5h" value="liftValueFromModel" />
-      <ref role="1YaFvo" to="k6mm:3p1iWQOtW5M" resolve="LiftValueFromModel" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="4Fv0ty16FnM">
-    <property role="TrG5h" value="typeof_ComplexValue" />
-    <property role="3GE5qa" value="valueLifter.external.value.complex" />
-    <node concept="3clFbS" id="4Fv0ty16FnN" role="18ibNy" />
-    <node concept="1YaCAy" id="4Fv0ty16FnP" role="1YuTPh">
-      <property role="TrG5h" value="complexValue" />
-      <ref role="1YaFvo" to="k6mm:465Mcq_58_m" resolve="ComplexValue" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="4Fv0ty1zu4p">
-    <property role="TrG5h" value="check_AttachValueLifterSpec" />
-    <property role="3GE5qa" value="ValueLifterSpec" />
-    <node concept="3clFbS" id="4Fv0ty1zu4q" role="18ibNy">
-      <node concept="3cpWs8" id="4Fv0ty1G0mg" role="3cqZAp">
-        <node concept="3cpWsn" id="4Fv0ty1G0mh" role="3cpWs9">
-          <property role="TrG5h" value="liftedConcept" />
-          <node concept="3Tqbb2" id="4JWsYZwzaZq" role="1tU5fm">
-            <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-          </node>
-          <node concept="2OqwBi" id="4Fv0ty1G0ml" role="33vP2m">
-            <node concept="1YBJjd" id="4Fv0ty1G0mm" role="2Oq$k0">
-              <ref role="1YBMHb" node="4Fv0ty1zu4s" resolve="attachValueLifterSpec" />
-            </node>
-            <node concept="2qgKlT" id="4Fv0ty1G0mn" role="2OqNvi">
-              <ref role="37wK5l" to="yh8:4JWsYZwzaZi" resolve="getConceptDeclaration" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbJ" id="4Fv0ty1zrYl" role="3cqZAp">
-        <node concept="3clFbS" id="4Fv0ty1zrYn" role="3clFbx">
-          <node concept="2MkqsV" id="4Fv0ty1zu1N" role="3cqZAp">
-            <node concept="3cpWs3" id="4Fv0ty1G0v2" role="2MkJ7o">
-              <node concept="2OqwBi" id="4Fv0ty1G0BF" role="3uHU7w">
-                <node concept="37vLTw" id="4Fv0ty1G0y7" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4Fv0ty1G0mh" resolve="liftedConcept" />
-                </node>
-                <node concept="3TrcHB" id="4Fv0ty1G0Qm" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-              <node concept="Xl_RD" id="4Fv0ty1zu9a" role="3uHU7B">
-                <property role="Xl_RC" value="Value lifter does not lift " />
-              </node>
-            </node>
-            <node concept="1YBJjd" id="4Fv0ty1zu80" role="2OEOjV">
-              <ref role="1YBMHb" node="4Fv0ty1zu4s" resolve="attachValueLifterSpec" />
-            </node>
-          </node>
-        </node>
-        <node concept="3y3z36" id="4Fv0ty1zsX4" role="3clFbw">
-          <node concept="37vLTw" id="4Fv0ty1G0mo" role="3uHU7w">
-            <ref role="3cqZAo" node="4Fv0ty1G0mh" resolve="liftedConcept" />
-          </node>
-          <node concept="2OqwBi" id="4Fv0ty1zsB5" role="3uHU7B">
-            <node concept="2OqwBi" id="4Fv0ty1zs3t" role="2Oq$k0">
-              <node concept="1YBJjd" id="4Fv0ty1zs1e" role="2Oq$k0">
-                <ref role="1YBMHb" node="4Fv0ty1zu4s" resolve="attachValueLifterSpec" />
-              </node>
-              <node concept="3TrEf2" id="4Fv0ty1zsqO" role="2OqNvi">
-                <ref role="3Tt5mk" to="k6mm:1uxqFoI0zcz" />
-              </node>
-            </node>
-            <node concept="2qgKlT" id="1aSLssz8OV9" role="2OqNvi">
-              <ref role="37wK5l" to="yh8:1aSLssz5Cik" resolve="liftFromConcept" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4Fv0ty1zu4s" role="1YuTPh">
-      <property role="TrG5h" value="attachValueLifterSpec" />
-      <ref role="1YaFvo" to="k6mm:4JWsYZwyWdL" resolve="AttachValueLifterSpec" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="lFhny5BKa8">
     <property role="TrG5h" value="typeof_ValueSpecification" />
     <property role="3GE5qa" value="ValueLifterSpec" />
@@ -618,7 +417,7 @@
   </node>
   <node concept="1YbPZF" id="lFhny6rE2f">
     <property role="TrG5h" value="typeof_LiftConstantListStatement" />
-    <property role="3GE5qa" value="valueLifter.external.value.complex.primitive" />
+    <property role="3GE5qa" value="constants" />
     <node concept="3clFbS" id="lFhny6rE2g" role="18ibNy">
       <node concept="1Z5TYs" id="lFhny6rE41" role="3cqZAp">
         <node concept="mw_s8" id="lFhny6rE4l" role="1ZfhKB">
@@ -664,7 +463,7 @@
   </node>
   <node concept="1YbPZF" id="6JLH6ZJJlVp">
     <property role="TrG5h" value="typeof_WatchNameperation" />
-    <property role="3GE5qa" value="valueLifter.external.watchable" />
+    <property role="3GE5qa" value="watchables" />
     <node concept="3clFbS" id="6JLH6ZJJlVq" role="18ibNy">
       <node concept="1Z5TYs" id="6JLH6ZJJmnn" role="3cqZAp">
         <property role="3wDh2S" value="false" />
@@ -689,7 +488,7 @@
   </node>
   <node concept="1YbPZF" id="6JLH6ZJR7oF">
     <property role="TrG5h" value="typeof_WatchableParameter" />
-    <property role="3GE5qa" value="valueLifter.external.watchable" />
+    <property role="3GE5qa" value="watchables" />
     <node concept="3clFbS" id="6JLH6ZJR7oG" role="18ibNy">
       <node concept="1Z5TYs" id="6JLH6ZJR7qd" role="3cqZAp">
         <node concept="mw_s8" id="6JLH6ZJR7qg" role="1ZfhK$">
@@ -737,7 +536,7 @@
   </node>
   <node concept="1YbPZF" id="6JLH6ZJXnge">
     <property role="TrG5h" value="typeof_WatchNodeOperation" />
-    <property role="3GE5qa" value="valueLifter.external.watchable" />
+    <property role="3GE5qa" value="watchables" />
     <node concept="3clFbS" id="6JLH6ZJXngf" role="18ibNy">
       <node concept="1Z5TYs" id="6JLH6ZJXni3" role="3cqZAp">
         <node concept="mw_s8" id="6JLH6ZJXnin" role="1ZfhKB">
@@ -761,7 +560,7 @@
   </node>
   <node concept="1YbPZF" id="6JLH6ZKyJyz">
     <property role="TrG5h" value="typeof_WatchValueOperation" />
-    <property role="3GE5qa" value="valueLifter.external.watchable" />
+    <property role="3GE5qa" value="watchables" />
     <node concept="3clFbS" id="6JLH6ZKyJy$" role="18ibNy">
       <node concept="3clFbH" id="2yQSiVuv8gm" role="3cqZAp" />
       <node concept="nvevp" id="2yQSiVuv8vs" role="3cqZAp">
@@ -1184,7 +983,7 @@
   </node>
   <node concept="1YbPZF" id="4$20B80$BC7">
     <property role="TrG5h" value="typeof_WatchValuePresentationOperation" />
-    <property role="3GE5qa" value="valueLifter.external.watchable.value" />
+    <property role="3GE5qa" value="watchables.value" />
     <node concept="3clFbS" id="4$20B80$BC8" role="18ibNy">
       <node concept="1Z5TYs" id="4$20B80$BDq" role="3cqZAp">
         <node concept="mw_s8" id="4$20B80$BDI" role="1ZfhKB">
@@ -1210,7 +1009,7 @@
   </node>
   <node concept="1YbPZF" id="2yQSiVu0Trd">
     <property role="TrG5h" value="typeof_WatchValueSubvaluesOperation" />
-    <property role="3GE5qa" value="valueLifter.external.watchable.value" />
+    <property role="3GE5qa" value="watchables.value" />
     <node concept="3clFbS" id="2yQSiVu0Tre" role="18ibNy">
       <node concept="nvevp" id="2yQSiVukLZ$" role="3cqZAp">
         <node concept="3clFbS" id="2yQSiVukLZA" role="nvhr_">
@@ -1377,7 +1176,7 @@
   </node>
   <node concept="18kY7G" id="6t$AXNjuo6Z">
     <property role="TrG5h" value="check_IRequiresStandalonePluginDescriptor" />
-    <property role="3GE5qa" value="ValueLifterSpec" />
+    <property role="3GE5qa" value="util" />
     <node concept="3clFbS" id="6t$AXNjuo70" role="18ibNy">
       <node concept="3cpWs8" id="6t$AXNjutaB" role="3cqZAp">
         <node concept="3cpWsn" id="6t$AXNjutaC" role="3cpWs9">
@@ -1437,6 +1236,7 @@
   </node>
   <node concept="18kY7G" id="6t$AXNjDNNs">
     <property role="TrG5h" value="check_IGeneratedToJavaClass" />
+    <property role="3GE5qa" value="util" />
     <node concept="3clFbS" id="6t$AXNjDNNt" role="18ibNy">
       <node concept="3cpWs8" id="6t$AXNjDO44" role="3cqZAp">
         <node concept="3cpWsn" id="6t$AXNjDO45" role="3cpWs9">
@@ -1516,7 +1316,7 @@
   </node>
   <node concept="18kY7G" id="5zifgCNnuDP">
     <property role="TrG5h" value="check_ComplexValueFunction" />
-    <property role="3GE5qa" value="newconcepts.value.complex" />
+    <property role="3GE5qa" value="value.constructor" />
     <node concept="3clFbS" id="5zifgCNnuDQ" role="18ibNy">
       <node concept="3clFbJ" id="5zifgCNnuDW" role="3cqZAp">
         <node concept="3clFbS" id="5zifgCNnuDX" role="3clFbx">
@@ -1549,7 +1349,7 @@
   </node>
   <node concept="18kY7G" id="5zifgCSznTv">
     <property role="TrG5h" value="check_IValueLifterRoot" />
-    <property role="3GE5qa" value="newconcepts.value.complex" />
+    <property role="3GE5qa" value="value.constructor.complex" />
     <node concept="3clFbS" id="5zifgCSznTw" role="18ibNy">
       <node concept="3clFbJ" id="5zifgCNgS2_" role="3cqZAp">
         <node concept="3clFbS" id="5zifgCNgS2A" role="3clFbx">

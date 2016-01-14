@@ -133,7 +133,7 @@
       <concept id="7450251056318684258" name="DeSpec.Model.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
     </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
-      <concept id="1716287733388071715" name="DeSpec.structure.NodeParameter" flags="ng" index="2Z9qAU" />
+      <concept id="7901750452160627013" name="DeSpec.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -585,7 +585,7 @@
               <ref role="1PxNhF" to="ef37:7MFNr6DbAdK" resolve="MockComponent" />
               <node concept="2OqwBi" id="8ik0RJ29R6" role="1PxMeX">
                 <node concept="2OqwBi" id="8ik0RJ29R7" role="2Oq$k0">
-                  <node concept="2Z9qAU" id="8ik0RJ29R8" role="2Oq$k0" />
+                  <node concept="2Duq_I" id="2EVeRXbRDci" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="8ik0RJ29R9" role="2OqNvi">
                     <node concept="1xMEDy" id="8ik0RJ29Ra" role="1xVPHs">
                       <node concept="chp4Y" id="8ik0RJ29Rb" role="ri$Ld">
@@ -643,7 +643,7 @@
                                 <node concept="1PxgMI" id="8ik0RJ29R$" role="2Oq$k0">
                                   <ref role="1PxNhF" to="32lw:1y5IIwW_sfh" resolve="OperationTrigger" />
                                   <node concept="2OqwBi" id="8ik0RJ29R_" role="1PxMeX">
-                                    <node concept="2Z9qAU" id="8ik0RJ29RA" role="2Oq$k0" />
+                                    <node concept="2Duq_I" id="2EVeRXbRDqi" role="2Oq$k0" />
                                     <node concept="3TrEf2" id="8ik0RJ29RB" role="2OqNvi">
                                       <ref role="3Tt5mk" to="32lw:1y5IIwWyjVv" />
                                     </node>
@@ -689,7 +689,7 @@
                                 <node concept="1PxgMI" id="8ik0RJ29RR" role="2Oq$k0">
                                   <ref role="1PxNhF" to="32lw:1y5IIwW_sfh" resolve="OperationTrigger" />
                                   <node concept="2OqwBi" id="8ik0RJ29RS" role="1PxMeX">
-                                    <node concept="2Z9qAU" id="8ik0RJ29RT" role="2Oq$k0" />
+                                    <node concept="2Duq_I" id="2EVeRXbRD_3" role="2Oq$k0" />
                                     <node concept="3TrEf2" id="8ik0RJ29RU" role="2OqNvi">
                                       <ref role="3Tt5mk" to="32lw:1y5IIwWyjVv" />
                                     </node>

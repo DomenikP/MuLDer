@@ -58,8 +58,8 @@
       <concept id="1884882593108724628" name="DeSpec.Model.structure.ChildrenSelector" flags="ig" index="17I7$J" />
     </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
-      <concept id="1716287733388071715" name="DeSpec.structure.NodeParameter" flags="ng" index="2Z9qAU" />
-      <concept id="5580707664793340385" name="DeSpec.structure.WVariableParameter" flags="ng" index="3If27G" />
+      <concept id="7901750452160627013" name="DeSpec.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
+      <concept id="7901750452160634178" name="DeSpec.structure.WatchParameter" flags="ng" index="2DurlD" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
@@ -94,7 +94,7 @@
                   <node concept="1PxgMI" id="3KVJl1fMyhe" role="2Oq$k0">
                     <ref role="1PxNhF" to="yq40:fwMInzpHoK" resolve="PointerType" />
                     <node concept="2OqwBi" id="3KVJl1fMyhf" role="1PxMeX">
-                      <node concept="2Z9qAU" id="3KVJl1fMyhg" role="2Oq$k0" />
+                      <node concept="2Duq_I" id="2EVeRXbSh0C" role="2Oq$k0" />
                       <node concept="3TrEf2" id="3KVJl1fMyhh" role="2OqNvi">
                         <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
                       </node>
@@ -124,7 +124,7 @@
               <node concept="2OqwBi" id="3KVJl1fMyNF" role="2Oq$k0">
                 <node concept="2OqwBi" id="3KVJl1fMyNG" role="2Oq$k0">
                   <node concept="2OqwBi" id="3KVJl1fMyNH" role="2Oq$k0">
-                    <node concept="3If27G" id="3KVJl1fMyNI" role="2Oq$k0" />
+                    <node concept="2DurlD" id="2EVeRXbH4up" role="2Oq$k0" />
                     <node concept="liA8E" id="3KVJl1fMyNJ" role="2OqNvi">
                       <ref role="37wK5l" to="pry4:3SnNvqCaK40" resolve="getValue" />
                     </node>

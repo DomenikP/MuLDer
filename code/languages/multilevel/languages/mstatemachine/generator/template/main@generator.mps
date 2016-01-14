@@ -582,7 +582,7 @@
               </node>
             </node>
             <node concept="1kf5GB" id="3oPrgtyIHyC" role="lGtFl">
-              <ref role="1keivA" to="kvk0:3oPrgtyIJWM" resolve="structDecl2SM" />
+              <ref role="1keivA" to="kvk0:2EVeRXbbhFh" resolve="structDecl2SM" />
             </node>
           </node>
           <node concept="2NXPZ9" id="6xhsDCueqTG" role="N3F5h">
@@ -1272,7 +1272,7 @@
                     </node>
                   </node>
                   <node concept="1kf5GB" id="7MFNr6D0UrU" role="lGtFl">
-                    <ref role="1keivA" to="kvk0:6yZAKJ4UeTF" resolve="suType2SmType" />
+                    <ref role="1keivA" to="kvk0:2EVeRXbbmV_" resolve="suType2SmType" />
                   </node>
                 </node>
               </node>

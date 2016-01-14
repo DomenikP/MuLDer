@@ -102,12 +102,6 @@
     <property role="19KtqR" value="true" />
     <property role="TrG5h" value="ValueTransformer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4JWsYZwB61V" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20kJfa" value="valueHandler" />
-      <ref role="20lvS9" to="k6mm:4JWsYZwB6nA" resolve="IValueHandler" />
-    </node>
     <node concept="1TJgyj" id="6JLH6ZK5JEp" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="treeSpec" />
@@ -126,11 +120,8 @@
     <node concept="PrWs8" id="3oPrgty8AtU" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
     </node>
-    <node concept="PrWs8" id="3oPrgtyJ0xI" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="1aSLsszf9_H" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:1aSLssz5BIE" resolve="IValueLifter" />
+    <node concept="PrWs8" id="1FDMTVR6O2k" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
     </node>
   </node>
   <node concept="1TIwiD" id="6Poal3c$GsN">
@@ -308,6 +299,9 @@
     <property role="3GE5qa" value="stackframes.virtual" />
     <property role="TrG5h" value="LiftToStackFrameContributorFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="2EVeRXbMKDU" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:5zifgCNc_uM" resolve="ICurrentNodeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="8ik0RHTNKi">
     <property role="3GE5qa" value="stackframes.virtual" />
@@ -360,6 +354,9 @@
     </node>
     <node concept="PrWs8" id="6t$AXNjDOcZ" role="PzmwI">
       <ref role="PrY4T" to="k6mm:6t$AXNjDNCZ" resolve="IGeneratedToJavaClass" />
+    </node>
+    <node concept="PrWs8" id="2EVeRXbRF4H" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:5zifgCNc_uM" resolve="ICurrentNodeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="6t$AXNjmDLy">
@@ -441,6 +438,9 @@
     <node concept="PrWs8" id="4JWsYZwzib1" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
     </node>
+    <node concept="PrWs8" id="2EVeRXbM6$2" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:5zifgCNc_uM" resolve="ICurrentNodeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1CCsFHtcva8">
     <property role="3GE5qa" value="liftWatch" />
@@ -508,6 +508,38 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5zifgCSzDMm" role="PzmwI">
       <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3p1iWQOtW5M">
+    <property role="TrG5h" value="LiftValueFromModel" />
+    <property role="3GE5qa" value="valueLifter.gen" />
+    <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
+    <node concept="1TJgyj" id="3p1iWQOtW8x" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="valueLifter" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="k6mm:1aSLssz5BIE" resolve="IValueLifter" />
+    </node>
+    <node concept="1TJgyj" id="4pmdQ9n$2GK" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="delegateToNodeWithValueLifter" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="M6xJ_" id="3p1iWQOtW8r" role="lGtFl">
+      <property role="Hh88m" value="valueLifterFromGen" />
+      <node concept="trNpa" id="3p1iWQOtW8t" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="4lU62XrTqUX" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:53P7aeD7Arx" resolve="IRequiresImports" />
+    </node>
+    <node concept="PrWs8" id="1uxqFoJa2F6" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:1uxqFoJa2ya" resolve="ValueFromModel" />
+    </node>
+    <node concept="PrWs8" id="7gtWUEovAzt" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
     </node>
   </node>
 </model>
