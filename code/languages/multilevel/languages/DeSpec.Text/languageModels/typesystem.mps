@@ -9,6 +9,7 @@
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" />
     <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(DeSpec.Text.structure)" />
     <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(DeSpec.Text.behavior)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -69,14 +70,6 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
-    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
-        <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
-      </concept>
-      <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
-        <reference id="5455284157993910961" name="concept" index="2pJxaS" />
-      </concept>
-    </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
@@ -106,11 +99,9 @@
       </concept>
       <concept id="1174658326157" name="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" flags="nn" index="1Z5TYs" />
       <concept id="1174660718586" name="jetbrains.mps.lang.typesystem.structure.AbstractEquationStatement" flags="nn" index="1Zf1VF">
-        <property id="1206359757216" name="checkOnly" index="3wDh2S" />
         <child id="1174660783413" name="leftExpression" index="1ZfhK$" />
         <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
       </concept>
-      <concept id="1174663239020" name="jetbrains.mps.lang.typesystem.structure.CreateGreaterThanInequationStatement" flags="nn" index="1ZoDhX" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -211,21 +202,12 @@
           </node>
           <node concept="3clFbJ" id="1uxqFoJaeNi" role="3cqZAp">
             <node concept="3clFbS" id="1uxqFoJaeNk" role="3clFbx">
-              <node concept="1ZoDhX" id="1uxqFoJa9rL" role="3cqZAp">
-                <property role="3wDh2S" value="true" />
-                <node concept="mw_s8" id="1uxqFoJ9ZJ1" role="1ZfhK$">
-                  <node concept="1Z2H0r" id="1uxqFoJ9ZIX" role="mwGJk">
-                    <node concept="37vLTw" id="1uxqFoJagGu" role="1Z2MuG">
-                      <ref role="3cqZAo" node="1uxqFoJaeGp" resolve="valueFromText" />
-                    </node>
-                  </node>
+              <node concept="2MkqsV" id="1uxqFoJafEP" role="3cqZAp">
+                <node concept="Xl_RD" id="1uxqFoJafF1" role="2MkJ7o">
+                  <property role="Xl_RC" value="Node does not have an lift value from text annotation " />
                 </node>
-                <node concept="mw_s8" id="1uxqFoJagI8" role="1ZfhKB">
-                  <node concept="2pJPEk" id="1uxqFoJagI0" role="mwGJk">
-                    <node concept="2pJPED" id="1uxqFoJagIz" role="2pJPEn">
-                      <ref role="2pJxaS" to="k6mm:1uxqFoIPR1d" resolve="LiftFromText" />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="1uxqFoJafFd" role="2OEOjV">
+                  <ref role="3cqZAo" node="1uxqFoJa9DT" resolve="nodeWithValueLifter" />
                 </node>
               </node>
             </node>
@@ -233,19 +215,10 @@
               <node concept="37vLTw" id="1uxqFoJaf5l" role="2Oq$k0">
                 <ref role="3cqZAo" node="1uxqFoJaeGp" resolve="valueFromText" />
               </node>
-              <node concept="3x8VRR" id="1uxqFoJafE6" role="2OqNvi" />
+              <node concept="3w_OXm" id="1FDMTVQX1by" role="2OqNvi" />
             </node>
             <node concept="9aQIb" id="1uxqFoJafEj" role="9aQIa">
-              <node concept="3clFbS" id="1uxqFoJafEk" role="9aQI4">
-                <node concept="2MkqsV" id="1uxqFoJafEP" role="3cqZAp">
-                  <node concept="Xl_RD" id="1uxqFoJafF1" role="2MkJ7o">
-                    <property role="Xl_RC" value="Node does not have an lift value from text annotation " />
-                  </node>
-                  <node concept="37vLTw" id="1uxqFoJafFd" role="2OEOjV">
-                    <ref role="3cqZAo" node="1uxqFoJa9DT" resolve="nodeWithValueLifter" />
-                  </node>
-                </node>
-              </node>
+              <node concept="3clFbS" id="1uxqFoJafEk" role="9aQI4" />
             </node>
           </node>
         </node>
@@ -271,7 +244,7 @@
     </node>
     <node concept="1YaCAy" id="1uxqFoJ9ZIN" role="1YuTPh">
       <property role="TrG5h" value="liftVariableFromText" />
-      <ref role="1YaFvo" to="tdvr:3BCiriJn_2T" resolve="LiftVariableFromText" />
+      <ref role="1YaFvo" to="tdvr:3BCiriJn_2T" resolve="LiftWatchFromText" />
     </node>
   </node>
   <node concept="1YbPZF" id="1uxqFoJepF2">

@@ -500,5 +500,15 @@
       <ref role="20lvS9" node="MPvpOXRsWV" resolve="InputNodeResolver" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5zifgCSz9Vd">
+    <property role="3GE5qa" value="liftWatch" />
+    <property role="TrG5h" value="ValueCopyFromModelLifter" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="ValueCopyLifter" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5zifgCSzDMm" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
+    </node>
+  </node>
 </model>
 

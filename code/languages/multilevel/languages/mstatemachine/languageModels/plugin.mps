@@ -35,33 +35,22 @@
       </concept>
     </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec">
-      <concept id="5475378721077182453" name="DeSpec.structure.ValueSpecification" flags="ig" index="2FtsKq">
+      <concept id="7901750452160627013" name="DeSpec.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
+      <concept id="5475378721077182453" name="DeSpec.structure.ValueProvider" flags="ig" index="2FtsKq">
         <reference id="5475378721077182475" name="concept" index="2Ftrf$" />
-        <child id="5475378721078403195" name="valueCopier" index="2Fo1ek" />
         <child id="5395032908006496925" name="valueStructure" index="3bAxH5" />
-      </concept>
-      <concept id="5475378721077314417" name="DeSpec.structure.AttachValueLifterSpec" flags="ng" index="2FtV2u">
-        <reference id="1702759464811246371" name="valueLifter" index="TCPAl" />
-      </concept>
-      <concept id="5475378721077314182" name="DeSpec.structure.DelegateToValueLifterSpec" flags="ig" index="2FtV5D" />
-      <concept id="1349045547475303338" name="DeSpec.structure.IValueLifter" flags="ng" index="LFFTH">
-        <child id="1349045547475305159" name="liftFrom" index="LF$s0" />
+        <child id="1939304998139331092" name="valueCopyFunc" index="3JPsAa" />
       </concept>
       <concept id="1702759464834101671" name="DeSpec.structure.ComplexValueSpec" flags="ng" index="SZTGh">
         <property id="1702759464834113558" name="cardinality" index="SZ$Ew" />
       </concept>
-      <concept id="1702759464825222715" name="DeSpec.structure.LiftFromModel" flags="ng" index="TtxMd" />
-      <concept id="1716287733388071715" name="DeSpec.structure.NodeParameter" flags="ng" index="2Z9qAU" />
-      <concept id="4721400539865263081" name="DeSpec.structure.ExternalValueLifter" flags="ng" index="3$x6cJ">
-        <reference id="4721400539865263083" name="concept" index="3$x6cH" />
-        <child id="4721400539865599171" name="value" index="3$wKg5" />
+      <concept id="6400245134467658400" name="DeSpec.structure.LiftOverChildrenChildValues" flags="ig" index="1FzWYE" />
+      <concept id="6400245134465907207" name="DeSpec.structure.ComplexValueFunction" flags="ng" index="1F$gsd">
+        <child id="6400245134467656301" name="childValues" index="1FzXtB" />
+        <child id="6400245134465915961" name="rootValue" index="1F$m4N" />
       </concept>
-      <concept id="4721400539866499414" name="DeSpec.structure.ComplexValue" flags="ng" index="3$$k6g">
-        <child id="4721400539866930799" name="value" index="3$BHqD" />
-        <child id="8552376200661087380" name="childLifter" index="3Bm913" />
-      </concept>
-      <concept id="4721400539866931063" name="DeSpec.structure.ChildrenToResolve" flags="ig" index="3$BHuL" />
-      <concept id="4721400539866931457" name="DeSpec.structure.ParentValueResolver" flags="ig" index="3$BIB7" />
+      <concept id="6400245134465915240" name="DeSpec.structure.RootValueFunction" flags="ig" index="1F$mhy" />
+      <concept id="1939304998148353831" name="DeSpec.structure.DelegateToNodeWithValueLifter" flags="ig" index="3Jb6iT" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
@@ -74,65 +63,52 @@
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
-        <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-    </language>
   </registry>
   <node concept="2DaZZR" id="4Fv0ty2mJ4T" />
   <node concept="2FtsKq" id="4lU62Xvdp2q">
     <ref role="2Ftrf$" to="8glu:1X5iFxIvr4Z" resolve="StatemachineType" />
     <node concept="3clFbS" id="4lU62Xvdp2r" role="2VODD2" />
-    <node concept="2FtV5D" id="6yZAKJ4NU60" role="2Fo1ek">
-      <node concept="3clFbS" id="6yZAKJ4NU69" role="2VODD2">
-        <node concept="3clFbF" id="6yZAKJ4O38A" role="3cqZAp">
-          <node concept="2OqwBi" id="6yZAKJ4O3x5" role="3clFbG">
-            <node concept="2Z9qAU" id="6yZAKJ4O38_" role="2Oq$k0" />
-            <node concept="3TrEf2" id="6yZAKJ4Otq5" role="2OqNvi">
+    <node concept="SZTGh" id="6yZAKJ4P2w$" role="3bAxH5">
+      <property role="SZ$Ew" value="0..n" />
+    </node>
+    <node concept="3Jb6iT" id="1FDMTVPRfkz" role="3JPsAa">
+      <node concept="3clFbS" id="1FDMTVPRfk$" role="2VODD2">
+        <node concept="3clFbF" id="1FDMTVPRfpZ" role="3cqZAp">
+          <node concept="2OqwBi" id="1FDMTVPRftL" role="3clFbG">
+            <node concept="2Duq_I" id="1FDMTVPRfpY" role="2Oq$k0" />
+            <node concept="3TrEf2" id="1FDMTVPRfRE" role="2OqNvi">
               <ref role="3Tt5mk" to="8glu:1X5iFxIvrkv" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="SZTGh" id="6yZAKJ4P2w$" role="3bAxH5">
-      <property role="SZ$Ew" value="0..n" />
-    </node>
   </node>
   <node concept="2FtsKq" id="31ACvHGbEhm">
     <ref role="2Ftrf$" to="8glu:4e0TrwkW832" resolve="Statemachine" />
     <node concept="3clFbS" id="31ACvHGbEhn" role="2VODD2" />
-    <node concept="2FtV2u" id="6yZAKJ4PcLU" role="2Fo1ek">
-      <ref role="TCPAl" node="6yZAKJ4P8Ms" resolve="liftStatemachine" />
-    </node>
     <node concept="SZTGh" id="6yZAKJ4P2do" role="3bAxH5">
       <property role="SZ$Ew" value="0..n" />
     </node>
-  </node>
-  <node concept="3$x6cJ" id="6yZAKJ4P8Ms">
-    <property role="TrG5h" value="liftStatemachine" />
-    <ref role="3$x6cH" to="8glu:4e0TrwkW832" resolve="Statemachine" />
-    <node concept="TtxMd" id="6yZAKJ4P8MA" role="LF$s0" />
-    <node concept="3$$k6g" id="465Mcq_b_bm" role="3$wKg5">
-      <node concept="3$BIB7" id="465Mcq_b_sf" role="3$BHqD">
-        <node concept="3clFbS" id="465Mcq_b_si" role="2VODD2">
-          <node concept="3clFbF" id="465Mcq_b_Ba" role="3cqZAp">
-            <node concept="2OqwBi" id="465Mcq_b_IX" role="3clFbG">
-              <node concept="2Z9qAU" id="465Mcq_b_B9" role="2Oq$k0" />
-              <node concept="3TrcHB" id="465Mcq_bAxH" role="2OqNvi">
+    <node concept="1F$gsd" id="1FDMTVPRgz$" role="3JPsAa">
+      <node concept="1F$mhy" id="1FDMTVPRgz_" role="1F$m4N">
+        <node concept="3clFbS" id="1FDMTVPRgzA" role="2VODD2">
+          <node concept="3clFbF" id="1FDMTVPRgLz" role="3cqZAp">
+            <node concept="2OqwBi" id="1FDMTVPRgUP" role="3clFbG">
+              <node concept="2Duq_I" id="1FDMTVPRgLy" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1FDMTVPRihr" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="3$BHuL" id="EC1ZZEaa7B" role="3Bm913">
-        <node concept="3clFbS" id="EC1ZZEaa7C" role="2VODD2">
-          <node concept="3clFbF" id="EC1ZZEaaCg" role="3cqZAp">
-            <node concept="2OqwBi" id="EC1ZZEaaCh" role="3clFbG">
-              <node concept="2Z9qAU" id="EC1ZZEaaCi" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="6yZAKJ4PaBS" role="2OqNvi">
+      <node concept="1FzWYE" id="1FDMTVPRkiW" role="1FzXtB">
+        <node concept="3clFbS" id="1FDMTVPRkiX" role="2VODD2">
+          <node concept="3clFbF" id="1FDMTVPRk_f" role="3cqZAp">
+            <node concept="2OqwBi" id="1FDMTVPRkIX" role="3clFbG">
+              <node concept="2Duq_I" id="1FDMTVPRk_e" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1FDMTVPRltw" role="2OqNvi">
                 <ref role="3TtcxE" to="8glu:6xhsDCu4Tuw" />
               </node>
             </node>

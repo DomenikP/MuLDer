@@ -87,5 +87,9 @@
     <property role="3GE5qa" value="watches.values" />
     <ref role="1M2myG" to="vu5z:PjpCze40Yc" resolve="ValueFromTextGen" />
   </node>
+  <node concept="1M2fIO" id="3yIZjfAZsRC">
+    <property role="3GE5qa" value="valueLifter.external" />
+    <ref role="1M2myG" to="vu5z:465Mcq_Ab$w" resolve="ValueLifterReference" />
+  </node>
 </model>
 

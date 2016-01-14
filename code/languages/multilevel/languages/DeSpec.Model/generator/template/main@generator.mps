@@ -30,6 +30,7 @@
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="1jgv" ref="r:964ecf98-202b-480b-b409-e0cd58844391(DeSpec.generator.template.main@generator)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="y9q1" ref="r:af70830f-c192-4990-892f-0c7c981b275a(DeSpec.Model.runtime.plugin)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1992,8 +1993,8 @@
     <node concept="n94m4" id="8ik0RHRM2R" role="lGtFl">
       <ref role="n9lRv" to="2cz0:8ik0RHRBUd" resolve="VirtualFrameSpec" />
     </node>
-    <node concept="3uibUv" id="8ik0RHRMdH" role="EKbjA">
-      <ref role="3uigEE" to="3dui:8ik0RHRC5C" resolve="IVirtualFrameSpec" />
+    <node concept="3uibUv" id="6QCE2J2$X5i" role="EKbjA">
+      <ref role="3uigEE" to="y9q1:8ik0RHRC5C" resolve="IVirtualFrameSpec" />
     </node>
     <node concept="17Uvod" id="8ik0RHRMhb" role="lGtFl">
       <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -2003,8 +2004,8 @@
           <node concept="3clFbF" id="8ik0RHRMnu" role="3cqZAp">
             <node concept="2OqwBi" id="8ik0RHRMtD" role="3clFbG">
               <node concept="30H73N" id="8ik0RHRMnt" role="2Oq$k0" />
-              <node concept="2qgKlT" id="8ik0RI7NEL" role="2OqNvi">
-                <ref role="37wK5l" to="l756:465Mcq_eXq8" resolve="getClassName" />
+              <node concept="2qgKlT" id="6QCE2J4DNu_" role="2OqNvi">
+                <ref role="37wK5l" to="yh8:6QCE2J4DKqI" resolve="getClassName" />
               </node>
             </node>
           </node>
@@ -2228,8 +2229,8 @@
           <node concept="3clFbF" id="6t$AXNjIids" role="3cqZAp">
             <node concept="2OqwBi" id="6t$AXNjIiiN" role="3clFbG">
               <node concept="30H73N" id="6t$AXNjIidr" role="2Oq$k0" />
-              <node concept="2qgKlT" id="6t$AXNjIiT3" role="2OqNvi">
-                <ref role="37wK5l" to="l756:6t$AXNjIdlZ" resolve="getClassName" />
+              <node concept="2qgKlT" id="6QCE2J4DLoE" role="2OqNvi">
+                <ref role="37wK5l" to="yh8:6QCE2J4DKqI" resolve="getClassName" />
               </node>
             </node>
           </node>

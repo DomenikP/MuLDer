@@ -23,7 +23,11 @@
     <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(DeSpec.Model.structure)" />
     <import index="l756" ref="r:052aedf4-85d3-4173-8f24-9032633c8adf(DeSpec.Model.behavior)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="xqpa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
+    <import index="vu5z" ref="r:dbaf77d0-1f86-477c-b419-b4e718d8a53c(DeSpec.TextGen.structure)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="unno" ref="r:61e3d524-8c49-4491-b5e3-f6d6e9364527(jetbrains.mps.util)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -1274,13 +1278,13 @@
             <property role="TrG5h" value="providers" />
             <node concept="A3Dl8" id="4lU62Xsd9rQ" role="1tU5fm">
               <node concept="3uibUv" id="4lU62Xsd9cT" role="A3Ik2">
-                <ref role="3uigEE" to="3dui:1fTJB2YJ$da" resolve="IValueSpecificiation" />
+                <ref role="3uigEE" to="3dui:1fTJB2YJ$da" resolve="IValueProvider" />
               </node>
             </node>
             <node concept="2OqwBi" id="4lU62Xsd8AA" role="33vP2m">
               <node concept="2OqwBi" id="4lU62Xsd8AB" role="2Oq$k0">
                 <node concept="2O5UvJ" id="4lU62Xsd8AC" role="2Oq$k0">
-                  <ref role="2O5UnU" to="3dui:1fTJB2YJ$c2" resolve="ValueSpecificationProvider" />
+                  <ref role="2O5UnU" to="3dui:1fTJB2YJ$c2" resolve="ValueProvider" />
                 </node>
                 <node concept="SfwO_" id="4lU62Xsd8AD" role="2OqNvi" />
               </node>
