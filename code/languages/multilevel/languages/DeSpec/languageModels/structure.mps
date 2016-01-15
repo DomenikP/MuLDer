@@ -40,7 +40,6 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -88,40 +87,6 @@
   <node concept="PlHQZ" id="53P7aeD7Arx">
     <property role="TrG5h" value="IRequiresImports" />
     <property role="3GE5qa" value="util" />
-  </node>
-  <node concept="1TIwiD" id="4JWsYZwyrZP">
-    <property role="TrG5h" value="ValueProvider" />
-    <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="value.lifter" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-    <node concept="1TJgyj" id="4Fv0ty1hhEt" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="valueStructure" />
-      <ref role="20lvS9" node="1uxqFoJnJ6z" resolve="IValueSpec" />
-    </node>
-    <node concept="1TJgyj" id="1FDMTVPf08k" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="valueCopyFunc" />
-      <ref role="20lvS9" node="1FDMTVPLqWo" resolve="IValueLifterSpec" />
-    </node>
-    <node concept="1TJgyj" id="4JWsYZwys0b" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20kJfa" value="concept" />
-      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-    </node>
-    <node concept="PrWs8" id="10kQx64tEFI" role="PzmwI">
-      <ref role="PrY4T" node="10kQx64oLih" resolve="IRequiresStandalonePluginDescriptor" />
-    </node>
-    <node concept="PrWs8" id="2EVeRXc_RBI" role="PzmwI">
-      <ref role="PrY4T" node="4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
-    </node>
-    <node concept="PrWs8" id="31ACvHFrFcb" role="PzmwI">
-      <ref role="PrY4T" node="1aSLssz5BIE" resolve="IValueLifter" />
-    </node>
-    <node concept="PrWs8" id="1FDMTVP$C0L" role="PzmwI">
-      <ref role="PrY4T" node="5zifgCNc_uM" resolve="ICurrentNodeProvider" />
-    </node>
   </node>
   <node concept="PlHQZ" id="4JWsYZwzaZe">
     <property role="TrG5h" value="NodeParameterTypeProvider" />

@@ -40,6 +40,9 @@
       <concept id="4185783222026475861" name="com.mbeddr.core.statements.structure.StatementList" flags="ng" index="3XIRFW">
         <child id="4185783222026475862" name="statements" index="3XIRFZ" />
       </concept>
+      <concept id="2093108837558113914" name="com.mbeddr.core.statements.structure.LocalVarRef" flags="ng" index="3ZVu4v">
+        <reference id="2093108837558124071" name="var" index="3ZVs_2" />
+      </concept>
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="5046689135693761556" name="com.mbeddr.core.buildconfig.structure.Binary" flags="ng" index="2eOfOj">
@@ -159,9 +162,14 @@
         <child id="318113533128716676" name="type" index="2C2TGm" />
       </concept>
       <concept id="7892328519581699353" name="com.mbeddr.core.expressions.structure.VoidType" flags="ng" index="19Rifw" />
+      <concept id="22102029902365709" name="com.mbeddr.core.expressions.structure.AssignmentExpr" flags="ng" index="3pqW6w" />
       <concept id="8860443239512128054" name="com.mbeddr.core.expressions.structure.Type" flags="ng" index="3TlMgo">
         <property id="2941277002445651368" name="const" index="2c7vTL" />
         <property id="2941277002448691247" name="volatile" index="2caQfQ" />
+      </concept>
+      <concept id="8860443239512128052" name="com.mbeddr.core.expressions.structure.BinaryExpression" flags="ng" index="3TlMgq">
+        <child id="8860443239512128064" name="left" index="3TlMhI" />
+        <child id="8860443239512128065" name="right" index="3TlMhJ" />
       </concept>
       <concept id="8860443239512128103" name="com.mbeddr.core.expressions.structure.NumberLiteral" flags="ng" index="3TlMh9" />
     </language>
@@ -390,8 +398,17 @@
   </node>
   <node concept="N3F5e" id="3Opt216Uvqn">
     <property role="TrG5h" value="MinimalC" />
-    <node concept="2NXPZ9" id="31ACvHEUdf8" role="N3F5h">
-      <property role="TrG5h" value="empty_1451841241687_4" />
+    <node concept="1AkAjs" id="2RsptmFkl2c" role="N3F5h">
+      <property role="TrG5h" value="names" />
+      <node concept="1AkAjq" id="2RsptmFkl68" role="1AkAjA">
+        <property role="TrG5h" value="p" />
+      </node>
+      <node concept="1AkAjq" id="2RsptmFkl6g" role="1AkAjA">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="1AkAjq" id="2RsptmFkl6s" role="1AkAjA">
+        <property role="TrG5h" value="b" />
+      </node>
     </node>
     <node concept="N3Fnx" id="2Up4L468j6n" role="N3F5h">
       <property role="TrG5h" value="main" />
@@ -415,6 +432,27 @@
           </node>
           <node concept="3TlMh9" id="5zifgCS4HMF" role="3XIe9u">
             <property role="2hmy$m" value="2" />
+          </node>
+        </node>
+        <node concept="3XIRlf" id="2RsptmFkl77" role="3XIRFZ">
+          <property role="TrG5h" value="bla2" />
+          <node concept="1AkAi2" id="2RsptmFkl75" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+            <ref role="1AkAi1" node="2RsptmFkl2c" resolve="names" />
+          </node>
+          <node concept="1AkAhK" id="2RsptmFkl80" role="3XIe9u">
+            <ref role="1AkAhZ" node="2RsptmFkl68" resolve="p" />
+          </node>
+        </node>
+        <node concept="1_9egQ" id="2RsptmFkl8X" role="3XIRFZ">
+          <node concept="3pqW6w" id="2RsptmFkl9x" role="1_9egR">
+            <node concept="1AkAhK" id="2RsptmFklaf" role="3TlMhJ">
+              <ref role="1AkAhZ" node="2RsptmFkl6s" resolve="b" />
+            </node>
+            <node concept="3ZVu4v" id="2RsptmFkl8V" role="3TlMhI">
+              <ref role="3ZVs_2" node="2RsptmFkl77" resolve="bla2" />
+            </node>
           </node>
         </node>
         <node concept="2BFjQ_" id="2Up4L468j6x" role="3XIRFZ">

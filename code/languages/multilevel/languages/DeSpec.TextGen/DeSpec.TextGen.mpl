@@ -115,6 +115,20 @@
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_after">
+          <greater-priority-mapping>
+            <generator generatorUID="8165ef98-703d-4a4b-8a5a-c4f6e1dd4458(DeSpec.TextGen#7125955223611155185)" />
+            <external-mapping>
+              <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.TextGen.generator.template.main@generator)" nodeID="3304628194958377944" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="ec2a91d9-299c-4a21-ab13-4e7e4f6f44d9(DeSpec#1229019237294225049)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
       </mapping-priorities>
     </generator>
   </generators>
