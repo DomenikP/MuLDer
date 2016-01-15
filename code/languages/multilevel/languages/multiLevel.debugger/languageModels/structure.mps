@@ -64,10 +64,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="5bvBw$5wTjH">
-    <property role="TrG5h" value="SupportsBreakpoints" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
   <node concept="PlHQZ" id="3SnnFeub0mq">
     <property role="3GE5qa" value="watches" />
     <property role="TrG5h" value="IWatchablesProviderContext" />
@@ -216,9 +212,6 @@
   </node>
   <node concept="PlHQZ" id="PjpCzdQT6j">
     <property role="TrG5h" value="WatchDeclarationScope" />
-  </node>
-  <node concept="PlHQZ" id="PjpCze5iKR">
-    <property role="TrG5h" value="LiftWatchValueFromText" />
   </node>
   <node concept="PlHQZ" id="2Up4L46iz2A">
     <property role="TrG5h" value="ISupportsBreakpoints" />
