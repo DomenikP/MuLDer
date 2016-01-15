@@ -6,8 +6,9 @@
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
     <use id="72548d30-5797-4668-a0d3-be1e47fc05b7" name="MUnit.gen.efficient" version="-1" />
-    <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec" version="0" />
+    <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec.base" version="0" />
     <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
+    <use id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
@@ -31,6 +32,9 @@
     <import index="wpai" ref="r:2c2f3b98-e965-4be4-ab3f-ce43a01ae635(MUnit.gen.efficient.behavior)" />
   </imports>
   <registry>
+    <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator">
+      <concept id="7450251056332157791" name="" flags="ng" index="2Njay3" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -193,7 +197,7 @@
         <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
       <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
-      <concept id="7450251056332157791" name="DeSpec.Model.structure.LiftToNodeReference" flags="ng" index="2Njay3">
+      <concept id="7450251056332157791" name="DeSpec.Model.structure.LiftToNodeReference" flags="ng" index="2Njay4">
         <reference id="7450251056332157792" name="liftToNode" index="2NjayW" />
       </concept>
       <concept id="6252445355758092971" name="DeSpec.Model.structure.VirtualFrameAnnotation" flags="ng" index="31hqt7">

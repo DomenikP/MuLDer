@@ -6,7 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.base.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
@@ -196,14 +196,14 @@
     <property role="34LRSv" value="delegate to value provider" />
     <property role="3GE5qa" value="watches.values" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="1aSLssz5Dir" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:1aSLssz5BIE" resolve="IValueLifter" />
+    </node>
     <node concept="1TJgyj" id="3YtEbp4zmEQ" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="valueLiftedNode" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    </node>
-    <node concept="PrWs8" id="1aSLssz5Dir" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:1aSLssz5BIE" resolve="IValueLifter" />
     </node>
     <node concept="PrWs8" id="5zifgCNRZJe" role="PzmwI">
       <ref role="PrY4T" node="5zifgCNRZIY" resolve="IValueFromTextLifter" />

@@ -236,5 +236,14 @@
       <ref role="1YaFvo" to="gx1i:4JWsYZwyrZP" resolve="ValueProvider" />
     </node>
   </node>
+  <node concept="1YbPZF" id="5kxYjVobTQI">
+    <property role="TrG5h" value="typeof_LiftToNodeFunction" />
+    <property role="3GE5qa" value="inputNodes.lifterFunction" />
+    <node concept="3clFbS" id="5kxYjVobTQJ" role="18ibNy" />
+    <node concept="1YaCAy" id="5kxYjVobTQL" role="1YuTPh">
+      <property role="TrG5h" value="liftToNodeFunction" />
+      <ref role="1YaFvo" to="gx1i:6t$AXNjmDLy" resolve="LiftToNodeFunction" />
+    </node>
+  </node>
 </model>
 

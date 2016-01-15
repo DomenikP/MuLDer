@@ -11,6 +11,7 @@
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -101,6 +102,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="3szlS9U4Dl4">
+    <property role="3GE5qa" value="watches" />
     <ref role="1M2myG" to="2cz0:3oPrgty2jo_" resolve="GeneratedDelegatedValueLifterFromModel" />
     <node concept="nKS2y" id="3szlS9U4Dl5" role="1MLUbF">
       <node concept="3clFbS" id="3szlS9U4Dl6" role="2VODD2">
@@ -143,26 +145,8 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="3KVJl1ei51K">
-    <property role="3GE5qa" value="liftWatch" />
-    <ref role="1M2myG" to="2cz0:1CCsFHtcva8" resolve="LiftChildren2Watches" />
-    <node concept="nKS2y" id="3KVJl1ei51L" role="1MLUbF">
-      <node concept="3clFbS" id="3KVJl1ei51M" role="2VODD2">
-        <node concept="3clFbF" id="3KVJl1ei5DR" role="3cqZAp">
-          <node concept="2OqwBi" id="3KVJl1ei5Hs" role="3clFbG">
-            <node concept="nLn13" id="3KVJl1ei5DQ" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="3KVJl1ei5XK" role="2OqNvi">
-              <node concept="chp4Y" id="3KVJl1ei63h" role="cj9EA">
-                <ref role="cht4Q" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="7SsDM6Paam1">
-    <property role="3GE5qa" value="liftWatch" />
+    <property role="3GE5qa" value="watches" />
     <ref role="1M2myG" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
     <node concept="1N5Pfh" id="3KVJl1fA9pb" role="1Mr941">
       <ref role="1N5Vy1" to="2cz0:3KVJl1fA8uL" />
@@ -193,6 +177,24 @@
               </node>
               <node concept="2qgKlT" id="3KVJl1fA9pt" role="2OqNvi">
                 <ref role="37wK5l" to="tpcn:hEwILKK" resolve="getLinkDeclarations" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3KVJl1ei51K">
+    <property role="3GE5qa" value="liftWatch" />
+    <ref role="1M2myG" to="2cz0:1CCsFHtcva8" resolve="LiftChildren2Watches" />
+    <node concept="nKS2y" id="3KVJl1ei51L" role="1MLUbF">
+      <node concept="3clFbS" id="3KVJl1ei51M" role="2VODD2">
+        <node concept="3clFbF" id="3KVJl1ei5DR" role="3cqZAp">
+          <node concept="2OqwBi" id="3KVJl1ei5Hs" role="3clFbG">
+            <node concept="nLn13" id="3KVJl1ei5DQ" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="3KVJl1ei5XK" role="2OqNvi">
+              <node concept="chp4Y" id="3KVJl1ei63h" role="cj9EA">
+                <ref role="cht4Q" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
               </node>
             </node>
           </node>

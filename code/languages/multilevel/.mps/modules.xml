@@ -9,7 +9,6 @@
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.TextGen/DeSpec.TextGen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.mbeddr/DeSpec.mbeddr.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/GenerationTraceLang/GenerationTraceLang.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="component.atomic" />
       <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/sandbox/MAtomicComponent.sandbox.msd" folder="component.atomic" />
       <modulePath path="$PROJECT_DIR$/languages/MMockComponent/MMockComponent.mpl" folder="component.mock" />
@@ -24,7 +23,7 @@
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="statemachine" />
       <modulePath path="$PROJECT_DIR$/languages/multiLevel.debugger/multiLevel.debugger.mpl" folder="debugger.runtime" />
-      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.Model.runtime/DeSpec.Model.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.Generator.runtime/DeSpec.Generator.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.pluginSolution/DeSpec.pluginSolution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.runtime/DeSpec.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Tracing.runtime/Tracing.runtime.msd" folder="tracing" />

@@ -31,6 +31,9 @@
       <concept id="7763322639126652757" name="com.mbeddr.core.statements.structure.ITypeContainingType" flags="ng" index="2umbIr">
         <child id="7763322639126652758" name="baseType" index="2umbIo" />
       </concept>
+      <concept id="8850915533694634145" name="com.mbeddr.core.statements.structure.InitExpression" flags="ng" index="3o3WLD">
+        <child id="8850915533694634146" name="elements" index="3o3WLE" />
+      </concept>
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
         <child id="7254843406768833939" name="expr" index="1_9egR" />
       </concept>
@@ -63,6 +66,9 @@
       </concept>
     </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
+      <concept id="6113173064526131575" name="com.mbeddr.core.pointers.structure.StringLiteral" flags="ng" index="PhEJO">
+        <property id="6113173064526131578" name="value" index="PhEJT" />
+      </concept>
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
     </language>
@@ -410,10 +416,49 @@
         <property role="TrG5h" value="b" />
       </node>
     </node>
+    <node concept="2NXPZ9" id="2RsptmMiCPM" role="N3F5h">
+      <property role="TrG5h" value="empty_1452878386372_1" />
+    </node>
+    <node concept="1sgJKc" id="2RsptmMiCXC" role="N3F5h">
+      <property role="TrG5h" value="person" />
+      <node concept="1dpRTG" id="2RsptmMiD3T" role="HszBJ">
+        <property role="TrG5h" value="age" />
+        <node concept="26Vqph" id="2RsptmMiD3S" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+      <node concept="1dpRTG" id="2RsptmMiD4n" role="HszBJ">
+        <property role="TrG5h" value="name" />
+        <node concept="Pu267" id="2RsptmMiD4l" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="2RsptmMiD0K" role="N3F5h">
+      <property role="TrG5h" value="empty_1452878395091_3" />
+    </node>
     <node concept="N3Fnx" id="2Up4L468j6n" role="N3F5h">
       <property role="TrG5h" value="main" />
       <property role="2OOxQR" value="true" />
       <node concept="3XIRFW" id="2Up4L468j6p" role="3XIRFX">
+        <node concept="3XIRlf" id="2RsptmMiD5m" role="3XIRFZ">
+          <property role="TrG5h" value="kim" />
+          <node concept="1sgJKr" id="2RsptmMiD5l" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+            <ref role="1sgJKq" node="2RsptmMiCXC" resolve="person" />
+          </node>
+          <node concept="3o3WLD" id="2RsptmMiD7n" role="3XIe9u">
+            <node concept="3TlMh9" id="2RsptmMiD83" role="3o3WLE">
+              <property role="2hmy$m" value="27" />
+            </node>
+            <node concept="PhEJO" id="2RsptmMiDbZ" role="3o3WLE">
+              <property role="PhEJT" value="kim" />
+            </node>
+          </node>
+        </node>
         <node concept="3XIRlf" id="5zifgCS4HI8" role="3XIRFZ">
           <property role="TrG5h" value="bla" />
           <node concept="biTqx" id="5zifgCS4HI6" role="2C2TGm">

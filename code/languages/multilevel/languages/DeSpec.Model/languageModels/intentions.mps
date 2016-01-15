@@ -10,7 +10,7 @@
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(DeSpec.Model.structure)" />
     <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
-    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.structure)" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -477,7 +477,7 @@
                   <node concept="2Sf5sV" id="5r59uMnw9DY" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="5r59uMnw9DZ" role="2OqNvi">
                     <node concept="3CFYIy" id="5r59uMnw9WA" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameAnnotation" />
+                      <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
                     </node>
                   </node>
                 </node>
@@ -490,7 +490,7 @@
               <node concept="2Sf5sV" id="5r59uMnw9E4" role="2Oq$k0" />
               <node concept="3CFZ6_" id="5r59uMnw9E5" role="2OqNvi">
                 <node concept="3CFYIy" id="5r59uMnw9UL" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameAnnotation" />
+                  <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
                 </node>
               </node>
             </node>
@@ -504,7 +504,7 @@
                     <node concept="2Sf5sV" id="5r59uMnw9Ed" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="5r59uMnw9Ee" role="2OqNvi">
                       <node concept="3CFYIy" id="5r59uMnw9YR" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameAnnotation" />
+                        <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
                       </node>
                     </node>
                   </node>

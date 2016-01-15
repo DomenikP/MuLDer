@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5734a9ad-20c7-40b8-8ed7-68ed7c7b71b8(DeSpec.actions)">
+<model ref="r:5734a9ad-20c7-40b8-8ed7-68ed7c7b71b8(DeSpec.base.actions)">
   <persistence version="9" />
   <languages>
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />

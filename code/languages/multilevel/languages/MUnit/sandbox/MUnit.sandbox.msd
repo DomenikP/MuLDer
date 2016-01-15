@@ -12,7 +12,7 @@
     <dependency reexport="false">72548d30-5797-4668-a0d3-be1e47fc05b7(MUnit.gen.efficient)</dependency>
     <dependency reexport="false">61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</dependency>
     <dependency reexport="false">e11c169d-9fe2-4a19-8c43-ddd8ffefd883(DeSpec.mbeddr)</dependency>
-    <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec)</dependency>
+    <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec.base)</dependency>
     <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</dependency>
     <dependency reexport="false">ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</dependency>
     <dependency reexport="false">b25694ab-2b70-4644-a06e-4d199f64d0c5(DeSpec.Text)</dependency>
@@ -38,17 +38,13 @@
     <usedLanguage>2693fc71-9b0e-4b05-ab13-f57227d675f2(com.mbeddr.core.util)</usedLanguage>
     <usedLanguage>6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</usedLanguage>
     <usedLanguage>efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</usedLanguage>
-    <usedLanguage>d7a9631e-56a5-4073-bc8e-bd6c4f6624a6(GenerationTrace)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)</usedDevKit>
     <usedDevKit>ce31ac8f-18fd-49f2-8454-79c4edc3ad2f(MultiLevel)</usedDevKit>
   </usedDevKits>
   <languageVersions>
-    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="DeSpec" version="0" />
-    <language id="b25694ab-2b70-4644-a06e-4d199f64d0c5" fqName="DeSpec.Text" version="0" />
-    <language id="ce1120c1-075f-4f11-a8fc-36ddbe2de15f" fqName="DeSpec.TextGen" version="0" />
-    <language id="d7a9631e-56a5-4073-bc8e-bd6c4f6624a6" fqName="GenerationTrace" version="0" />
+    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="DeSpec.base" version="0" />
     <language id="5529be6b-f382-41f9-834c-9d6b2e079511" fqName="MAtomicComponent" version="0" />
     <language id="eb6e703a-d3cc-488e-a462-15d37e40ae7a" fqName="MMockComponent" version="0" />
     <language id="ca35bd95-fbad-4fae-9646-654a9a55ec5f" fqName="MStubComponent" version="0" />
