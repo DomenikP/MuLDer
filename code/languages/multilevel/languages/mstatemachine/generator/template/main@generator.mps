@@ -235,9 +235,7 @@
       <concept id="6134458215760782264" name="DeSpec.Model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
         <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
-      <concept id="1348472630505294351" name="DeSpec.Model.structure.LiftWatchFromModel" flags="ng" index="2gb7qT">
-        <reference id="4340270818532034481" name="valueLifter" index="1NCNFx" />
-      </concept>
+      <concept id="1348472630505294351" name="DeSpec.Model.structure.LiftWatchFromModel" flags="ng" index="2gb7qT" />
       <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz" />
       <concept id="1884882593102557832" name="DeSpec.Model.structure.LiftChildren2Watches" flags="ng" index="176o0N">
         <reference id="1884882593105356608" name="walker" index="17tdnV" />
@@ -372,7 +370,6 @@
                 </node>
               </node>
               <node concept="2gb7qT" id="7I1qpzSzhZ$" role="lGtFl">
-                <ref role="1NCNFx" to="mj1l:hEaDaGor64" />
                 <node concept="3b4$sX" id="7I1qpzSzihg" role="22L1k1" />
               </node>
             </node>
@@ -641,7 +638,7 @@
                 <ref role="1sgJKq" node="6xhsDCuer2S" resolve="sm_sateType" />
               </node>
               <node concept="176o0N" id="MPvpOY15jR" role="lGtFl">
-                <ref role="17tdnV" to="kvk0:6QCE2J1VxMt" resolve="structMembers2StateVariables" />
+                <ref role="17tdnV" to="kvk0:7O8TGlFc9Ym" resolve="structMembers2StateVariables" />
               </node>
             </node>
             <node concept="19Rifw" id="MPvpOY14SV" role="2C2TGm">

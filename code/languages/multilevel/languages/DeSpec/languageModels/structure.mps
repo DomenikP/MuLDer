@@ -10,6 +10,7 @@
     <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -35,6 +36,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -343,7 +345,7 @@
     </node>
     <node concept="1TJgyj" id="5zifgCSzaEJ" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <property role="20kJfa" value="concept" />
       <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
@@ -503,6 +505,91 @@
     <property role="TrG5h" value="IndexParameter" />
     <property role="34LRSv" value="index" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="2RsptmRkkKq">
+    <property role="TrG5h" value="CallableSpec" />
+    <property role="3GE5qa" value="debugSemantics" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Callable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2RsptmRkmko" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="nameFunction" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2RsptmRkkQC" resolve="NameFunction" />
+    </node>
+    <node concept="1TJgyj" id="2RsptmRknMo" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="contributesFrameFunction" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2RsptmRknel" resolve="BooleanFunction" />
+    </node>
+    <node concept="PrWs8" id="6P1S2fVdzA2" role="PzmwI">
+      <ref role="PrY4T" node="6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2RsptmRkkQC">
+    <property role="TrG5h" value="NameFunction" />
+    <property role="3GE5qa" value="debugSemantics.functions" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2RsptmRknel">
+    <property role="TrG5h" value="BooleanFunction" />
+    <property role="3GE5qa" value="debugSemantics.functions" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="PlHQZ" id="6P1S2fVdzzM">
+    <property role="3GE5qa" value="debugSemantics" />
+    <property role="TrG5h" value="DebuggingSemanticsSpec" />
+    <node concept="1TJgyj" id="2RsptmRkkP2" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="applicableConcept" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="PrWs8" id="6P1S2fVdz_U" role="PrDN$">
+      <ref role="PrY4T" node="6t$AXNjDNCZ" resolve="IGeneratedToJavaClass" />
+    </node>
+    <node concept="PrWs8" id="6P1S2fVdz_V" role="PrDN$">
+      <ref role="PrY4T" node="5zifgCNc_uM" resolve="ICurrentNodeProvider" />
+    </node>
+    <node concept="PrWs8" id="6P1S2fVdz_W" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="6P1S2fVdz_X" role="PrDN$">
+      <ref role="PrY4T" to="tpck:hqLv6T6" resolve="IResolveInfo" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6P1S2fVgGmN">
+    <property role="3GE5qa" value="debugSemantics" />
+    <property role="TrG5h" value="WatchScopeProviderSpec" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="WatchScopeProvider" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6P1S2fVgGoD" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="delegateToSorroundingScopeProvider" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2RsptmRknel" resolve="BooleanFunction" />
+    </node>
+    <node concept="1TJgyj" id="6P1S2fVgH_M" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="collectWatchProvider" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6P1S2fVgHnG" resolve="CollectWatchProviderFunction" />
+    </node>
+    <node concept="PrWs8" id="6P1S2fVgGmO" role="PzmwI">
+      <ref role="PrY4T" node="6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6P1S2fVgHnG">
+    <property role="3GE5qa" value="debugSemantics.functions" />
+    <property role="TrG5h" value="CollectWatchProviderFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="6P1S2fVjdtc">
+    <property role="3GE5qa" value="debugSemantics.functions" />
+    <property role="TrG5h" value="GetValueProviderFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

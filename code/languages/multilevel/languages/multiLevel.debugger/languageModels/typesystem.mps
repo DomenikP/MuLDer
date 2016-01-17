@@ -11,6 +11,7 @@
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" implicit="true" />
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(DeSpec.Model.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(multiLevel.debugger.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -72,10 +73,12 @@
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
+      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="6407023681583040688" name="jetbrains.mps.lang.smodel.structure.AllAttributeQualifier" flags="ng" index="3CFTEB" />
       <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
         <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
       </concept>
+      <concept id="1172323065820" name="jetbrains.mps.lang.smodel.structure.Node_GetConceptOperation" flags="nn" index="3NT_Vc" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -139,6 +142,38 @@
             </node>
             <node concept="1v1jN8" id="8ik0RGHP16" role="2OqNvi" />
           </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="6P1S2fV9FeU" role="3cqZAp">
+        <node concept="3clFbS" id="6P1S2fV9FeW" role="3clFbx">
+          <node concept="2MkqsV" id="6P1S2fV9GKQ" role="3cqZAp">
+            <node concept="1YBJjd" id="6P1S2fV9GLi" role="2OEOjV">
+              <ref role="1YBMHb" node="8ik0RGEU88" resolve="canContributeStackFrame" />
+            </node>
+            <node concept="Xl_RD" id="6P1S2fV9GxD" role="2MkJ7o">
+              <property role="Xl_RC" value="No CallableSpec available, please create one" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="6P1S2fV9Ggj" role="3clFbw">
+          <node concept="2OqwBi" id="6P1S2fV9FVM" role="2Oq$k0">
+            <node concept="2OqwBi" id="6P1S2fV9FjU" role="2Oq$k0">
+              <node concept="1YBJjd" id="6P1S2fV9Fic" role="2Oq$k0">
+                <ref role="1YBMHb" node="8ik0RGEU88" resolve="canContributeStackFrame" />
+              </node>
+              <node concept="3NT_Vc" id="6P1S2fV9FKy" role="2OqNvi" />
+            </node>
+            <node concept="2qgKlT" id="6P1S2fV9GcT" role="2OqNvi">
+              <ref role="37wK5l" to="c41m:jojP_GPwp5" resolve="getSpec" />
+              <node concept="2OqwBi" id="1qiz1eBU4jk" role="37wK5m">
+                <node concept="1YBJjd" id="1qiz1eBU4jl" role="2Oq$k0">
+                  <ref role="1YBMHb" node="8ik0RGEU88" resolve="canContributeStackFrame" />
+                </node>
+                <node concept="3NT_Vc" id="1qiz1eBU4jm" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="3w_OXm" id="6P1S2fV9Gxn" role="2OqNvi" />
         </node>
       </node>
     </node>

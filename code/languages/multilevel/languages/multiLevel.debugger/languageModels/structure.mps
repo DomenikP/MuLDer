@@ -205,16 +205,16 @@
     </node>
   </node>
   <node concept="PlHQZ" id="1rHBIiJ9Pyb">
-    <property role="TrG5h" value="WatchDeclartion" />
-    <node concept="PrWs8" id="6j53_d3y2dz" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+    <property role="TrG5h" value="WatchProvider" />
   </node>
   <node concept="PlHQZ" id="PjpCzdQT6j">
-    <property role="TrG5h" value="WatchDeclarationScope" />
+    <property role="TrG5h" value="WatchProviderScope" />
   </node>
   <node concept="PlHQZ" id="2Up4L46iz2A">
     <property role="TrG5h" value="ISupportsBreakpoints" />
+  </node>
+  <node concept="PlHQZ" id="6P1S2fVlatx">
+    <property role="TrG5h" value="ValueProvider" />
   </node>
 </model>
 

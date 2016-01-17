@@ -43,41 +43,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="4JWsYZwyrZP">
-    <property role="TrG5h" value="ValueProvider" />
-    <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="value.lifter" />
-    <property role="34LRSv" value="ValueProvider" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-    <node concept="1TJgyj" id="4Fv0ty1hhEt" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="valueStructure" />
-      <ref role="20lvS9" to="k6mm:1uxqFoJnJ6z" resolve="IValueSpec" />
-    </node>
-    <node concept="1TJgyj" id="1FDMTVPf08k" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="valueCopyFunc" />
-      <ref role="20lvS9" to="k6mm:1FDMTVPLqWo" resolve="IValueLifterSpec" />
-    </node>
-    <node concept="1TJgyj" id="4JWsYZwys0b" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="0..1" />
-      <property role="20kJfa" value="concept" />
-      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-    </node>
-    <node concept="PrWs8" id="10kQx64tEFI" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:10kQx64oLih" resolve="IRequiresStandalonePluginDescriptor" />
-    </node>
-    <node concept="PrWs8" id="2EVeRXc_RBI" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
-    </node>
-    <node concept="PrWs8" id="31ACvHFrFcb" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:1aSLssz5BIE" resolve="IValueLifter" />
-    </node>
-    <node concept="PrWs8" id="1FDMTVP$C0L" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:5zifgCNc_uM" resolve="ICurrentNodeProvider" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3oPrgty34CG">
     <property role="19KtqR" value="true" />
     <property role="TrG5h" value="ValueTransformer" />
@@ -108,6 +73,7 @@
     <property role="3GE5qa" value="liftWatch" />
     <property role="TrG5h" value="Children2WatchesWalker" />
     <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="LiftChildWatches2TopLevel" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1CCsFHt$0Il" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -149,21 +115,11 @@
     <property role="TrG5h" value="LLWatchesSelector" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
-  <node concept="1TIwiD" id="5zifgCSz9Vd">
-    <property role="3GE5qa" value="liftWatch" />
-    <property role="TrG5h" value="ValueCopyFromModelLifter" />
-    <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="ValueCopyLifter" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5zifgCSzDMm" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6t$AXNjmDBn">
     <property role="3GE5qa" value="inputNodes.lifterFunction" />
     <property role="TrG5h" value="LiftToNode" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Lift to Node" />
+    <property role="34LRSv" value="ResolveNode" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6t$AXNjmIj0" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -240,7 +196,7 @@
     <property role="3GE5qa" value="stackframes.virtual" />
     <property role="TrG5h" value="VirtualFrameSpec" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Virtual Stack Frame Spec" />
+    <property role="34LRSv" value="VirtualStackFrame" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="8ik0RHTP2M" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -277,6 +233,52 @@
     </node>
     <node concept="PrWs8" id="2RsptmMnZyj" role="PzmwI">
       <ref role="PrY4T" to="2cz0:2RsptmMnZ0C" resolve="IVirtualFrameSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6P1S2fVbIaV">
+    <property role="3GE5qa" value="debugSemantics" />
+    <property role="TrG5h" value="WatchProviderSpec" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="WatchProvider" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6P1S2fVdzzI" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="nameFunction" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="k6mm:2RsptmRkkQC" resolve="NameFunction" />
+    </node>
+    <node concept="1TJgyj" id="6P1S2fVjKaL" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="valueProvider" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="k6mm:6P1S2fVjdtc" resolve="GetValueProviderFunction" />
+    </node>
+    <node concept="PrWs8" id="6P1S2fVdC5L" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6P1S2fVutUZ">
+    <property role="3GE5qa" value="debugSemantics" />
+    <property role="TrG5h" value="ValueProviderSpec" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="ValueProvider" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1taDvhF3tej" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="valueStructure" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="k6mm:1uxqFoJnJ6z" resolve="IValueSpec" />
+    </node>
+    <node concept="1TJgyj" id="1taDvhF3tek" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="valueCopyFunc" />
+      <ref role="20lvS9" to="k6mm:1FDMTVPLqWo" resolve="IValueLifterSpec" />
+    </node>
+    <node concept="PrWs8" id="6P1S2fVuu0M" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+    <node concept="PrWs8" id="1taDvhHcbJ1" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
     </node>
   </node>
 </model>

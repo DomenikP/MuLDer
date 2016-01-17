@@ -630,18 +630,18 @@
             </node>
           </node>
           <node concept="3fqX7Q" id="MPvpOXPcAb" role="3uHU7w">
-            <node concept="2OqwBi" id="MPvpOXPcmT" role="3fr31v">
-              <node concept="1PxgMI" id="MPvpOXPci6" role="2Oq$k0">
+            <node concept="2OqwBi" id="6P1S2fY192J" role="3fr31v">
+              <node concept="1PxgMI" id="6P1S2fY18QY" role="2Oq$k0">
                 <ref role="1PxNhF" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
-                <node concept="2OqwBi" id="MPvpOXPbYg" role="1PxMeX">
-                  <node concept="1YBJjd" id="MPvpOXPbYh" role="2Oq$k0">
+                <node concept="2OqwBi" id="6P1S2fWx2jU" role="1PxMeX">
+                  <node concept="1YBJjd" id="6P1S2fWx2jV" role="2Oq$k0">
                     <ref role="1YBMHb" node="MPvpOXPaWx" resolve="liftFrameFromGen" />
                   </node>
-                  <node concept="1mfA1w" id="MPvpOXPbYi" role="2OqNvi" />
+                  <node concept="1mfA1w" id="6P1S2fWx2jW" role="2OqNvi" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="MPvpOXPcyp" role="2OqNvi">
-                <ref role="37wK5l" to="c41m:4dLPB5yjgm4" resolve="contributesStackFrame" />
+              <node concept="2qgKlT" id="6P1S2fY19uX" role="2OqNvi">
+                <ref role="37wK5l" to="c41m:6P1S2fVCSph" resolve="contributesStackFrame" />
               </node>
             </node>
           </node>
@@ -776,22 +776,18 @@
           </node>
         </node>
         <node concept="3y3z36" id="8ik0RIGdAF" role="3clFbw">
-          <node concept="2OqwBi" id="8ik0RIGg0E" role="3uHU7w">
-            <node concept="2OqwBi" id="8ik0RIGeNB" role="2Oq$k0">
-              <node concept="2OqwBi" id="8ik0RIGekv" role="2Oq$k0">
-                <node concept="2OqwBi" id="8ik0RIGdGs" role="2Oq$k0">
-                  <node concept="1YBJjd" id="8ik0RIGdBD" role="2Oq$k0">
-                    <ref role="1YBMHb" node="8ik0RIGcdC" resolve="virtualFrameAnnotation" />
-                  </node>
-                  <node concept="3TrEf2" id="8ik0RIGdZ0" role="2OqNvi">
-                    <ref role="3Tt5mk" to="2cz0:8ik0RHYxqP" />
-                  </node>
-                </node>
-                <node concept="2yIwOk" id="2RsptmMo8hj" role="2OqNvi" />
+          <node concept="2OqwBi" id="4dSJ8O4x0bL" role="3uHU7w">
+            <node concept="2OqwBi" id="8ik0RIGdGs" role="2Oq$k0">
+              <node concept="1YBJjd" id="8ik0RIGdBD" role="2Oq$k0">
+                <ref role="1YBMHb" node="8ik0RIGcdC" resolve="virtualFrameAnnotation" />
               </node>
-              <node concept="1rGIog" id="8ik0RIGfKi" role="2OqNvi" />
+              <node concept="3TrEf2" id="8ik0RIGdZ0" role="2OqNvi">
+                <ref role="3Tt5mk" to="2cz0:8ik0RHYxqP" />
+              </node>
             </node>
-            <node concept="FGMqu" id="8ik0RIGgfC" role="2OqNvi" />
+            <node concept="2qgKlT" id="4dSJ8O4x1ft" role="2OqNvi">
+              <ref role="37wK5l" to="l756:4dSJ8O4x0sI" resolve="annotatedNode" />
+            </node>
           </node>
           <node concept="2OqwBi" id="8ik0RIGcVD" role="3uHU7B">
             <node concept="2OqwBi" id="8ik0RIGcmZ" role="2Oq$k0">

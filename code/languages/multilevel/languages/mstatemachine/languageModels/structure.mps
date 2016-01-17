@@ -85,6 +85,9 @@
     <node concept="PrWs8" id="7WYWQThQ622" role="PzmwI">
       <ref role="PrY4T" to="pjlr:PjpCzdQT6j" resolve="WatchDeclarationScope" />
     </node>
+    <node concept="PrWs8" id="6P1S2fVpYlF" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:6P1S2fVlatx" resolve="ValueProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6xhsDCu1lL_">
     <property role="TrG5h" value="State" />

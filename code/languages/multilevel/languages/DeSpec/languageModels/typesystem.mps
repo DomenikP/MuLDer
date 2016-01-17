@@ -160,6 +160,7 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
@@ -783,16 +784,26 @@
             </node>
           </node>
         </node>
-        <node concept="2OqwBi" id="5zifgCNgSBV" role="3clFbw">
-          <node concept="2OqwBi" id="5zifgCNgS6h" role="2Oq$k0">
-            <node concept="1YBJjd" id="5zifgCSznY2" role="2Oq$k0">
+        <node concept="1Wc70l" id="3wE$$j_Y0E_" role="3clFbw">
+          <node concept="2OqwBi" id="3wE$$j_Y4qR" role="3uHU7w">
+            <node concept="1YBJjd" id="3wE$$j_Y4nH" role="2Oq$k0">
               <ref role="1YBMHb" node="5zifgCSznTy" resolve="iValueLifterRoot" />
             </node>
-            <node concept="3TrEf2" id="5zifgCSzixb" role="2OqNvi">
-              <ref role="3Tt5mk" to="k6mm:5zifgCSzaEP" />
+            <node concept="2qgKlT" id="3wE$$j_Y4F4" role="2OqNvi">
+              <ref role="37wK5l" to="yh8:3wE$$j_Y2WI" resolve="requiresConceptToBeSet" />
             </node>
           </node>
-          <node concept="3w_OXm" id="5zifgCNgSQu" role="2OqNvi" />
+          <node concept="2OqwBi" id="5zifgCNgSBV" role="3uHU7B">
+            <node concept="2OqwBi" id="5zifgCNgS6h" role="2Oq$k0">
+              <node concept="1YBJjd" id="5zifgCSznY2" role="2Oq$k0">
+                <ref role="1YBMHb" node="5zifgCSznTy" resolve="iValueLifterRoot" />
+              </node>
+              <node concept="3TrEf2" id="5zifgCSzixb" role="2OqNvi">
+                <ref role="3Tt5mk" to="k6mm:5zifgCSzaEP" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="5zifgCNgSQu" role="2OqNvi" />
+          </node>
         </node>
       </node>
     </node>

@@ -11,7 +11,6 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -265,15 +264,10 @@
     <property role="TrG5h" value="LiftWatchFromModel" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
-    <node concept="1TJgyj" id="3KVJl1fA8uL" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="valueLifter" />
-      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-    </node>
     <node concept="1TJgyj" id="7I1qpzSvfMr" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToWatch" />
-      <ref role="20lvS9" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+      <ref role="20lvS9" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
     </node>
     <node concept="M6xJ_" id="1aQJbq2AGCi" role="lGtFl">
       <property role="Hh88m" value="liftWatchFromGen" />

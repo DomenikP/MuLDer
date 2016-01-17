@@ -33,7 +33,9 @@
   </imports>
   <registry>
     <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator">
-      <concept id="7450251056332157791" name="" flags="ng" index="2Njay3" />
+      <concept id="7450251056332157791" name="DeSpec.Generator.structure.LiftToNodeReference" flags="ng" index="2Njay3">
+        <reference id="7450251056332157792" name="liftToNode" index="2NjayW" />
+      </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -197,10 +199,7 @@
         <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
       <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
-      <concept id="7450251056332157791" name="DeSpec.Model.structure.LiftToNodeReference" flags="ng" index="2Njay4">
-        <reference id="7450251056332157792" name="liftToNode" index="2NjayW" />
-      </concept>
-      <concept id="6252445355758092971" name="DeSpec.Model.structure.VirtualFrameAnnotation" flags="ng" index="31hqt7">
+      <concept id="6252445355758092971" name="DeSpec.Model.structure.VirtualFrameFromModel" flags="ng" index="31hqt7">
         <reference id="149269758414034613" name="spec" index="3JU4qS" />
       </concept>
       <concept id="9087321911340228636" name="DeSpec.Model.structure.Resolve2InputNode" flags="ng" index="3b4$sX" />
@@ -692,13 +691,13 @@
                   <node concept="raruj" id="8ik0RHZf9t" role="lGtFl">
                     <ref role="2sdACS" node="34OPjOAVYmE" resolve="testcaseRef2InlinedTestcase" />
                   </node>
-                  <node concept="31hqt7" id="8ik0RIHgBu" role="lGtFl">
-                    <ref role="3JU4qS" to="wpai:8ik0RHTKpB" resolve="blockStatement2Testcase" />
-                  </node>
                   <node concept="pAt3w" id="2Up4L47YYYB" role="lGtFl">
-                    <node concept="2Njay3" id="5kxYjVo27E5" role="22L1k1">
+                    <node concept="2Njay3" id="4dSJ8O4wRIh" role="22L1k1">
                       <ref role="2NjayW" to="wpai:5kxYjVnRQic" resolve="statementList2Testcase" />
                     </node>
+                  </node>
+                  <node concept="31hqt7" id="4dSJ8O4wXK_" role="lGtFl">
+                    <ref role="3JU4qS" to="wpai:8ik0RHTKpB" resolve="blockStatement2Testcase" />
                   </node>
                 </node>
               </node>

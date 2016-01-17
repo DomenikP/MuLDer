@@ -30,6 +30,7 @@
     <import index="8q6x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.event(JDK/java.awt.event@java_stub)" />
     <import index="srng" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
     <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(multiLevel.debugger.behavior)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -125,6 +126,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -168,6 +172,18 @@
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
     </language>
+    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec.base">
+      <concept id="7872820068763449586" name="DeSpec.base.structure.DebuggingSemanticsSpec" flags="ng" index="2mtXzh">
+        <reference id="3304628195161099586" name="applicableConcept" index="2qziyn" />
+      </concept>
+      <concept id="3304628195161109397" name="DeSpec.base.structure.BooleanFunction" flags="ig" index="2qzhp0" />
+      <concept id="3304628195161099688" name="DeSpec.base.structure.NameFunction" flags="ig" index="2qzixX" />
+      <concept id="3304628195161099290" name="DeSpec.base.structure.CallableSpec" flags="ng" index="2qziBf">
+        <child id="3304628195161105688" name="nameFunction" index="2qzg3d" />
+        <child id="3304628195161111704" name="contributesFrameFunction" index="2qzh_d" />
+      </concept>
+      <concept id="7901750452160627013" name="DeSpec.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -189,6 +205,9 @@
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -682,6 +701,31 @@
             <node concept="liA8E" id="6e5L1sgW2J6" role="2OqNvi">
               <ref role="37wK5l" to="vft3:~AtomicReference.get():java.lang.Object" resolve="get" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2qziBf" id="jojP_GU8hC">
+    <property role="TrG5h" value="Testcase_CallableSpec" />
+    <ref role="2qziyn" to="e1nu:14emBKkQvwe" resolve="Testcase" />
+    <node concept="2qzixX" id="jojP_GU8hD" role="2qzg3d">
+      <node concept="3clFbS" id="jojP_GU8hE" role="2VODD2">
+        <node concept="3clFbF" id="jojP_GU8Hb" role="3cqZAp">
+          <node concept="2OqwBi" id="jojP_GU8Qr" role="3clFbG">
+            <node concept="2Duq_I" id="jojP_GU8Ha" role="2Oq$k0" />
+            <node concept="3TrcHB" id="jojP_GU9qZ" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2qzhp0" id="jojP_GU8hF" role="2qzh_d">
+      <node concept="3clFbS" id="jojP_GU8hG" role="2VODD2">
+        <node concept="3clFbF" id="jojP_GU8C2" role="3cqZAp">
+          <node concept="3clFbT" id="jojP_GU8C1" role="3clFbG">
+            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>

@@ -26,8 +26,12 @@
   </imports>
   <registry>
     <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator">
-      <concept id="7450251056318683607" name="" flags="ng" index="2Ofw8b" />
-      <concept id="7450251056318684258" name="" flags="ng" index="2OfwuY" />
+      <concept id="7450251056318683607" name="DeSpec.Generator.structure.LiftToNode" flags="ng" index="2Ofw8b">
+        <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
+        <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
+        <child id="7450251056318702784" name="function" index="2OfBWs" />
+      </concept>
+      <concept id="7450251056318684258" name="DeSpec.Generator.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
     </language>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
       <concept id="1225194240794" name="jetbrains.mps.lang.behavior.structure.ConceptBehavior" flags="ng" index="13h7C7">
@@ -127,14 +131,16 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
-    <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="7450251056318683607" name="DeSpec.Model.structure.LiftToNode" flags="ng" index="2Ofw8c">
-        <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
-        <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
-        <child id="7450251056318702784" name="function" index="2OfBWs" />
-      </concept>
-    </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="DeSpec.base">
+      <concept id="7872820068763449586" name="DeSpec.base.structure.DebuggingSemanticsSpec" flags="ng" index="2mtXzh">
+        <reference id="3304628195161099586" name="applicableConcept" index="2qziyn" />
+      </concept>
+      <concept id="3304628195161109397" name="DeSpec.base.structure.BooleanFunction" flags="ig" index="2qzhp0" />
+      <concept id="3304628195161099688" name="DeSpec.base.structure.NameFunction" flags="ig" index="2qzixX" />
+      <concept id="3304628195161099290" name="DeSpec.base.structure.CallableSpec" flags="ng" index="2qziBf">
+        <child id="3304628195161105688" name="nameFunction" index="2qzg3d" />
+        <child id="3304628195161111704" name="contributesFrameFunction" index="2qzh_d" />
+      </concept>
       <concept id="7901750452160627013" name="DeSpec.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -493,29 +499,6 @@
       </node>
       <node concept="10Oyi0" id="7MFNr6Dm74g" role="3clF45" />
     </node>
-    <node concept="13i0hz" id="4dLPB5yjglT" role="13h7CS">
-      <property role="13i0iv" value="false" />
-      <property role="13i0it" value="false" />
-      <property role="TrG5h" value="getStackFrameName" />
-      <ref role="13i0hy" to="c41m:4dLPB5yjglT" resolve="getStackFrameName" />
-      <node concept="3Tm1VV" id="4dLPB5yjglU" role="1B3o_S" />
-      <node concept="3clFbS" id="6t$AXNkBA9G" role="3clF47">
-        <node concept="3clFbF" id="6t$AXNkBAdP" role="3cqZAp">
-          <node concept="3cpWs3" id="6t$AXNkBAjE" role="3clFbG">
-            <node concept="2OqwBi" id="6t$AXNkBAod" role="3uHU7w">
-              <node concept="13iPFW" id="6t$AXNkBAjS" role="2Oq$k0" />
-              <node concept="2qgKlT" id="6t$AXNkBAJr" role="2OqNvi">
-                <ref role="37wK5l" node="7MFNr6Dm748" resolve="index" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="6t$AXNkBAdO" role="3uHU7B">
-              <property role="Xl_RC" value="step:" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="17QB3L" id="4dLPB5yjgm1" role="3clF45" />
-    </node>
     <node concept="13hLZK" id="7MFNr6Dm746" role="13h7CW">
       <node concept="3clFbS" id="7MFNr6Dm747" role="2VODD2" />
     </node>
@@ -666,6 +649,36 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2qziBf" id="6P1S2fV9Pfh">
+    <property role="TrG5h" value="SequenceStep_CallableSpec" />
+    <ref role="2qziyn" to="ef37:7MFNr6Dm73S" resolve="SequenceStep" />
+    <node concept="2qzixX" id="6P1S2fV9Pfi" role="2qzg3d">
+      <node concept="3clFbS" id="6P1S2fV9Pfj" role="2VODD2">
+        <node concept="3clFbF" id="6P1S2fV9Qs2" role="3cqZAp">
+          <node concept="3cpWs3" id="6P1S2fV9Qs3" role="3clFbG">
+            <node concept="2OqwBi" id="6P1S2fV9Qs4" role="3uHU7w">
+              <node concept="2Duq_I" id="6P1S2fV9Q$M" role="2Oq$k0" />
+              <node concept="2qgKlT" id="6P1S2fV9Qs6" role="2OqNvi">
+                <ref role="37wK5l" node="7MFNr6Dm748" resolve="index" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="6P1S2fV9Qs7" role="3uHU7B">
+              <property role="Xl_RC" value="step:" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2qzhp0" id="6P1S2fV9Pfk" role="2qzh_d">
+      <node concept="3clFbS" id="6P1S2fV9Pfl" role="2VODD2">
+        <node concept="3clFbF" id="6P1S2fV9Pxd" role="3cqZAp">
+          <node concept="3clFbT" id="6P1S2fV9Pxc" role="3clFbG">
+            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>

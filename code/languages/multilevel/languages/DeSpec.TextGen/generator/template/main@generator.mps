@@ -321,7 +321,6 @@
       <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="5820409030208923287" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingLinkOperation" flags="nn" index="25OxAV" />
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -512,7 +511,7 @@
       <ref role="30HIoZ" to="tpee:fzclF8l" resolve="Statement" />
       <node concept="1Koe21" id="1rHBIiJ9o7T" role="1lVwrX">
         <node concept="WtQ9Q" id="1rHBIiJ9o7U" role="1Koe22">
-          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
           <node concept="11bSqf" id="1rHBIiJ9o7V" role="11c4hB">
             <node concept="3clFbS" id="1rHBIiJ9o7W" role="2VODD2">
               <node concept="3cpWs8" id="1rHBIiJ9o7X" role="3cqZAp">
@@ -798,7 +797,7 @@
       <ref role="30HIoZ" to="tpee:fzclF8l" resolve="Statement" />
       <node concept="1Koe21" id="2SyAeFjUEH5" role="1lVwrX">
         <node concept="WtQ9Q" id="2SyAeFjUEH6" role="1Koe22">
-          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
           <node concept="11bSqf" id="2SyAeFjUEH7" role="11c4hB">
             <node concept="3clFbS" id="2SyAeFjUEH8" role="2VODD2">
               <node concept="3cpWs8" id="2SyAeFjUEH9" role="3cqZAp">
@@ -1084,7 +1083,7 @@
       <ref role="30HIoZ" to="tpee:fzclF8l" resolve="Statement" />
       <node concept="1Koe21" id="PjpCze7gse" role="1lVwrX">
         <node concept="WtQ9Q" id="PjpCze7gsf" role="1Koe22">
-          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
           <node concept="11bSqf" id="PjpCze7gsg" role="11c4hB">
             <node concept="3clFbS" id="PjpCze7gsh" role="2VODD2">
               <node concept="3cpWs8" id="6hWVX3uOw8" role="3cqZAp">
@@ -1195,25 +1194,6 @@
                   </node>
                 </node>
                 <node concept="raruj" id="4lU62Xr7KTx" role="lGtFl" />
-              </node>
-              <node concept="3clFbF" id="4lU62Xr1Zc0" role="3cqZAp">
-                <node concept="37vLTI" id="4lU62Xr1Zc1" role="3clFbG">
-                  <node concept="2OqwBi" id="4lU62XreyY8" role="37vLTJ">
-                    <node concept="37vLTw" id="4lU62Xr1Zc3" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6hWVX3uOw9" resolve="textGenReducedValue" />
-                    </node>
-                    <node concept="3TrEf2" id="4lU62XrezAC" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tdvr:4lU62XqSZFN" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="4lU62Xr22DM" role="37vLTx">
-                    <node concept="37vLTw" id="4lU62Xr1Zc5" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4lU62Xr1Y_S" resolve="_nodeWithValueLifter" />
-                    </node>
-                    <node concept="25OxAV" id="4lU62Xr22QU" role="2OqNvi" />
-                  </node>
-                </node>
-                <node concept="raruj" id="4lU62Xr1Zc6" role="lGtFl" />
               </node>
               <node concept="3cpWs8" id="1qRlgEvKCSW" role="3cqZAp">
                 <node concept="3cpWsn" id="1qRlgEvKCSZ" role="3cpWs9">
@@ -1400,7 +1380,7 @@
       <ref role="30HIoZ" to="tpee:fzclF8l" resolve="Statement" />
       <node concept="1Koe21" id="1qRlgEw4X2Z" role="1lVwrX">
         <node concept="WtQ9Q" id="1qRlgEw4X30" role="1Koe22">
-          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
           <node concept="11bSqf" id="1qRlgEw4X31" role="11c4hB">
             <node concept="3clFbS" id="1qRlgEw4X32" role="2VODD2">
               <node concept="3cpWs8" id="1qRlgEw4X33" role="3cqZAp">
@@ -1511,24 +1491,6 @@
                                   </node>
                                 </node>
                               </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="4lU62Xr1Vhv" role="3cqZAp">
-                        <node concept="37vLTI" id="4lU62Xr1Wh5" role="3clFbG">
-                          <node concept="2OqwBi" id="4lU62Xr1Y0V" role="37vLTx">
-                            <node concept="37vLTw" id="4lU62Xr1XZG" role="2Oq$k0">
-                              <ref role="3cqZAo" node="4lU62Xr1Wo$" resolve="nodeWithValueLifter" />
-                            </node>
-                            <node concept="25OxAV" id="4lU62Xr1Ybk" role="2OqNvi" />
-                          </node>
-                          <node concept="2OqwBi" id="4lU62Xr1Vhx" role="37vLTJ">
-                            <node concept="37vLTw" id="4lU62Xr1Vhy" role="2Oq$k0">
-                              <ref role="3cqZAo" node="1qRlgEw4X34" resolve="textGenReducedValue" />
-                            </node>
-                            <node concept="3TrEf2" id="4lU62Xr1VRd" role="2OqNvi">
-                              <ref role="3Tt5mk" to="tdvr:4lU62XqSZFN" />
                             </node>
                           </node>
                         </node>
@@ -2502,7 +2464,7 @@
       <ref role="30HIoZ" to="tpee:fzclF8l" resolve="Statement" />
       <node concept="1Koe21" id="MPvpOSxr5F" role="1lVwrX">
         <node concept="WtQ9Q" id="MPvpOSxr5G" role="1Koe22">
-          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+          <ref role="WuzLi" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
           <node concept="11bSqf" id="MPvpOSxr5H" role="11c4hB">
             <node concept="3clFbS" id="MPvpOSxr5I" role="2VODD2">
               <node concept="3cpWs8" id="MPvpOSxr5J" role="3cqZAp">

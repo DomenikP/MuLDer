@@ -210,9 +210,7 @@
       <concept id="6134458215760782264" name="DeSpec.Model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
         <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
-      <concept id="1348472630505294351" name="DeSpec.Model.structure.LiftWatchFromModel" flags="ng" index="2gb7qT">
-        <reference id="4340270818532034481" name="valueLifter" index="1NCNFx" />
-      </concept>
+      <concept id="1348472630505294351" name="DeSpec.Model.structure.LiftWatchFromModel" flags="ng" index="2gb7qT" />
       <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
       <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz" />
       <concept id="1884882593102557832" name="DeSpec.Model.structure.LiftChildren2Watches" flags="ng" index="176o0N">
@@ -817,7 +815,6 @@
               </node>
             </node>
             <node concept="2gb7qT" id="7I1qpzSz95Q" role="lGtFl">
-              <ref role="1NCNFx" to="mj1l:hEaDaGor64" />
               <node concept="3b4$sX" id="7I1qpzSz9oe" role="22L1k1" />
             </node>
           </node>
@@ -1315,7 +1312,7 @@
                 </node>
               </node>
               <node concept="176o0N" id="MPvpOY0OYH" role="lGtFl">
-                <ref role="17tdnV" to="okt3:3KVJl1fMxgy" resolve="structMembers2Fields" />
+                <ref role="17tdnV" to="okt3:6P1S2fVJ$ak" resolve="structMembers2Fields" />
               </node>
             </node>
             <node concept="19Rifw" id="MPvpOY0MFJ" role="2C2TGm">

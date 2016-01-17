@@ -11,7 +11,6 @@
     <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -109,11 +108,6 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="kind" />
       <ref role="20lvS9" node="10kQx64GLPW" resolve="VariableKind" />
-    </node>
-    <node concept="1TJgyj" id="4lU62XqSZFN" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="valueLifter" />
-      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
     </node>
     <node concept="1TJgyi" id="6hWVX3sp7E" role="1TKVEl">
       <property role="TrG5h" value="category" />
