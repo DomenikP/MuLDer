@@ -10,6 +10,10 @@
     <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(DeSpec.Model.structure)" />
     <import index="3dui" ref="r:8f1039d4-1829-4754-95ac-8a801334ecda(DeSpec.runtime.plugin)" />
+    <import index="cu2c" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
+    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="88zw" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.module(MPS.OpenAPI/org.jetbrains.mps.openapi.module@java_stub)" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.base.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -19,6 +23,7 @@
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
+      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
@@ -43,6 +48,23 @@
     <node concept="1YaCAy" id="5kxYjVobTQL" role="1YuTPh">
       <property role="TrG5h" value="liftToNodeFunction" />
       <ref role="1YaFvo" to="gx1i:6t$AXNjmDLy" resolve="LiftToNodeFunction" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="UFIAu3nxHm">
+    <property role="TrG5h" value="check_ValueTransformer" />
+    <node concept="3clFbS" id="UFIAu3nxHn" role="18ibNy" />
+    <node concept="1YaCAy" id="UFIAu3nxHp" role="1YuTPh">
+      <property role="TrG5h" value="valueTransformer" />
+      <ref role="1YaFvo" to="gx1i:3oPrgty34CG" resolve="ValueTransformer" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="UFIAu4aeNi">
+    <property role="TrG5h" value="check_ValueProviderSpec" />
+    <property role="3GE5qa" value="debugSemantics" />
+    <node concept="3clFbS" id="UFIAu4aeNj" role="18ibNy" />
+    <node concept="1YaCAy" id="UFIAu4aeNl" role="1YuTPh">
+      <property role="TrG5h" value="valueProviderSpec" />
+      <ref role="1YaFvo" to="gx1i:6P1S2fVutUZ" resolve="ValueProviderSpec" />
     </node>
   </node>
 </model>

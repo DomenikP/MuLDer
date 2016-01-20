@@ -551,7 +551,7 @@
     <node concept="3Tm1VV" id="6P1S2fWVNm2" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="1taDvhF3mlG">
-    <property role="TrG5h" value="IValueProvider2" />
+    <property role="TrG5h" value="IValueProvider" />
     <node concept="3clFb_" id="1taDvhF3qEg" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="contributeValueCopier" />
@@ -572,7 +572,7 @@
       <node concept="3clFbS" id="1taDvhF3qEr" role="3clF47" />
       <node concept="3Tm1VV" id="1taDvhF3qEs" role="1B3o_S" />
       <node concept="3Tqbb2" id="1taDvhF3qEt" role="3clF45">
-        <ref role="ehGHo" to="k6mm:1uxqFoJnJ6z" resolve="IValueSpec" />
+        <ref role="ehGHo" to="k6mm:3MxRD99llOt" resolve="IValueSpecification" />
       </node>
     </node>
     <node concept="3Tm1VV" id="1taDvhF3mlH" role="1B3o_S" />

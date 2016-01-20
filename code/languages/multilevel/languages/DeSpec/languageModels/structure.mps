@@ -23,6 +23,7 @@
         <child id="7588428831947959310" name="attributed" index="EQaZv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -189,12 +190,12 @@
   <node concept="1TIwiD" id="6JLH6ZJR7dF">
     <property role="3GE5qa" value="watchables" />
     <property role="TrG5h" value="WatchableType" />
-    <property role="34LRSv" value="watchable" />
+    <property role="34LRSv" value="Watchable" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
-    <node concept="1TJgyj" id="4$20B80rZmY" role="1TKVEi">
+    <node concept="1TJgyj" id="7yWdW8OH6lc" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="fromValue" />
-      <ref role="20lvS9" node="6JLH6ZK0Eqd" resolve="FromValueSpec" />
+      <property role="20kJfa" value="watch" />
+      <ref role="20lvS9" node="3MxRD99llDn" resolve="IWatchSpecification" />
     </node>
   </node>
   <node concept="PlHQZ" id="6JLH6ZJS1GE">
@@ -273,11 +274,10 @@
     <property role="TrG5h" value="WatchValueType" />
     <property role="34LRSv" value="WatchValue" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
-    <node concept="1TJgyj" id="2yQSiVtgJ39" role="1TKVEi">
+    <node concept="1TJgyj" id="7yWdW8OLaxA" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="valueFrom" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6JLH6ZK0Eqd" resolve="FromValueSpec" />
+      <property role="20kJfa" value="value" />
+      <ref role="20lvS9" node="3MxRD99llOt" resolve="IValueSpecification" />
     </node>
   </node>
   <node concept="1TIwiD" id="4$20B80$BBZ">
@@ -371,7 +371,7 @@
   <node concept="1TIwiD" id="6QCE2J4OhP2">
     <property role="3GE5qa" value="value.constructor" />
     <property role="TrG5h" value="WatchParameter" />
-    <property role="34LRSv" value="watch" />
+    <property role="34LRSv" value="watchable" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="6QCE2J4OlD7">
@@ -590,6 +590,378 @@
     <property role="3GE5qa" value="debugSemantics.functions" />
     <property role="TrG5h" value="GetValueProviderFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="PlHQZ" id="7yWdW8Oe83p">
+    <property role="3GE5qa" value="value.spec.semantics" />
+    <property role="TrG5h" value="IValueProviderSemantics" />
+  </node>
+  <node concept="1TIwiD" id="7yWdW8Oe85e">
+    <property role="3GE5qa" value="value.spec.semantics" />
+    <property role="TrG5h" value="ValueProviderReferenceSemantics" />
+    <property role="34LRSv" value="reference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7yWdW8Oe8$z" role="PzmwI">
+      <ref role="PrY4T" node="7yWdW8Oe83p" resolve="IValueProviderSemantics" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7yWdW8Oe8E7">
+    <property role="3GE5qa" value="value.spec.semantics" />
+    <property role="TrG5h" value="ValueProviderDelegateSemantics" />
+    <property role="34LRSv" value="delegate" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7yWdW8Oe8E8" role="PzmwI">
+      <ref role="PrY4T" node="7yWdW8Oe83p" resolve="IValueProviderSemantics" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7yWdW8Oe8G3">
+    <property role="3GE5qa" value="value.spec.semantics" />
+    <property role="TrG5h" value="ValueProviderPureSemantics" />
+    <property role="34LRSv" value="value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7yWdW8Oe8G4" role="PzmwI">
+      <ref role="PrY4T" node="7yWdW8Oe83p" resolve="IValueProviderSemantics" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7yWdW8OmVMc">
+    <property role="3GE5qa" value="value.constructor.complex" />
+    <property role="TrG5h" value="NoChildren" />
+    <property role="34LRSv" value="no children" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7yWdW8OmVMd" role="PzmwI">
+      <ref role="PrY4T" node="5zifgCNnuvk" resolve="IChildLifter" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7yWdW8OppqH">
+    <property role="TrG5h" value="BooleanWithWatchFunction" />
+    <property role="3GE5qa" value="debugSemantics.functions" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="PlHQZ" id="7yWdW8OsVPo">
+    <property role="3GE5qa" value="value.spec.valueStructure" />
+    <property role="TrG5h" value="IValueStructure" />
+  </node>
+  <node concept="1TIwiD" id="7yWdW8OsVPp">
+    <property role="3GE5qa" value="value.spec.valueStructure" />
+    <property role="TrG5h" value="OtherValueStructure" />
+    <property role="34LRSv" value="value-of-other-provider" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3MxRD98ybSd" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="valueProvider" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="PrWs8" id="7yWdW8OsVPq" role="PzmwI">
+      <ref role="PrY4T" node="7yWdW8OsVPo" resolve="IValueStructure" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7yWdW8OsVRt">
+    <property role="3GE5qa" value="value.spec.valueStructure" />
+    <property role="TrG5h" value="ComplexValueValueStructure" />
+    <property role="34LRSv" value="complex-value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7yWdW8OsW2k" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..1" />
+      <property role="20kJfa" value="childWatches" />
+      <ref role="20lvS9" node="3MxRD98WzHI" resolve="IChildWatch" />
+    </node>
+    <node concept="PrWs8" id="7yWdW8OsVVy" role="PzmwI">
+      <ref role="PrY4T" node="7yWdW8OsVPo" resolve="IValueStructure" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7yWdW8OsVXJ">
+    <property role="3GE5qa" value="value.spec.valueStructure" />
+    <property role="TrG5h" value="PrimitiveValueValueStructure" />
+    <property role="34LRSv" value="primitive-value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7yWdW8OsVXK" role="PzmwI">
+      <ref role="PrY4T" node="7yWdW8OsVPo" resolve="IValueStructure" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7yWdW8OyuXN">
+    <property role="3GE5qa" value="value.spec.valueStructure.semantics" />
+    <property role="TrG5h" value="IValueSemantics" />
+  </node>
+  <node concept="1TIwiD" id="7yWdW8OyuXQ">
+    <property role="3GE5qa" value="value.spec.valueStructure.semantics" />
+    <property role="TrG5h" value="ValueValueSemantics" />
+    <property role="34LRSv" value="&lt;&gt;-" />
+    <property role="R4oN_" value="value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7yWdW8OyuXR" role="PzmwI">
+      <ref role="PrY4T" node="7yWdW8OyuXN" resolve="IValueSemantics" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7yWdW8OyuY2">
+    <property role="3GE5qa" value="value.spec.valueStructure.semantics" />
+    <property role="TrG5h" value="DelegateValueSemantics" />
+    <property role="34LRSv" value="|-&gt;" />
+    <property role="R4oN_" value="delegate" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7yWdW8OyuY3" role="PzmwI">
+      <ref role="PrY4T" node="7yWdW8OyuXN" resolve="IValueSemantics" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7yWdW8QxdtC">
+    <property role="3GE5qa" value="value.spec.valueStructure.semantics" />
+    <property role="TrG5h" value="ReferenceValueSemantics" />
+    <property role="34LRSv" value="*-&gt;" />
+    <property role="R4oN_" value="reference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7yWdW8QxdtD" role="PzmwI">
+      <ref role="PrY4T" node="7yWdW8OyuXN" resolve="IValueSemantics" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD98kYrk">
+    <property role="3GE5qa" value="value.spec.valueStructure" />
+    <property role="TrG5h" value="ValueContainer" />
+    <property role="34LRSv" value="value specification" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3MxRD98kYtD" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="semantics" />
+      <ref role="20lvS9" node="7yWdW8OyuXN" resolve="IValueSemantics" />
+    </node>
+    <node concept="1TJgyj" id="3MxRD98kYyf" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="structure" />
+      <ref role="20lvS9" node="7yWdW8OsVPo" resolve="IValueStructure" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD98G3Vm">
+    <property role="3GE5qa" value="value.spec.valueStructure" />
+    <property role="TrG5h" value="ThisWatchValueSpec" />
+    <property role="34LRSv" value="this-watch" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD98G3Y8" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD98G3WI" resolve="WatchSpec" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3MxRD98G3WI">
+    <property role="3GE5qa" value="value.spec" />
+    <property role="TrG5h" value="WatchSpec" />
+    <node concept="1TJgyj" id="3MxRD98JWYZ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="value" />
+      <ref role="20lvS9" node="3MxRD98JW$h" resolve="IValueSpec2" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD98HwSt">
+    <property role="3GE5qa" value="value.spec" />
+    <property role="TrG5h" value="KnownChildWatchSpec" />
+    <property role="34LRSv" value="known child-watch" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD98HwSu" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD98G3WI" resolve="WatchSpec" />
+    </node>
+    <node concept="PrWs8" id="3MxRD98WzIJ" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD98WzHI" resolve="IChildWatch" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD98JWyK">
+    <property role="3GE5qa" value="value.spec.valueStructure" />
+    <property role="TrG5h" value="KnownValue" />
+    <property role="34LRSv" value="known value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD98JWDc" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD98JW$h" resolve="IValueSpec2" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3MxRD98JW$h">
+    <property role="3GE5qa" value="value.spec.valueStructure" />
+    <property role="TrG5h" value="IValueSpec2" />
+    <node concept="1TJgyj" id="3MxRD98JWX$" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="semantics" />
+      <ref role="20lvS9" node="7yWdW8OyuXN" resolve="IValueSemantics" />
+    </node>
+    <node concept="1TJgyj" id="3MxRD98JWX_" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="structure" />
+      <ref role="20lvS9" node="7yWdW8OsVPo" resolve="IValueStructure" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD98JWDg">
+    <property role="3GE5qa" value="value.spec.valueStructure" />
+    <property role="TrG5h" value="UnknownValue" />
+    <property role="34LRSv" value="unknown value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3MxRD98JX2l" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="valueProvider" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="PrWs8" id="3MxRD98JWFP" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD98JW$h" resolve="IValueSpec2" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD98Wy_Z">
+    <property role="3GE5qa" value="value.spec" />
+    <property role="TrG5h" value="UnknownChildWatchSpec" />
+    <property role="34LRSv" value="unknown child-watch(es)" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3MxRD98WyDQ" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="watchProvider" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="PrWs8" id="3MxRD98WyA0" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD98G3WI" resolve="WatchSpec" />
+    </node>
+    <node concept="PrWs8" id="3MxRD98WzIQ" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD98WzHI" resolve="IChildWatch" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3MxRD98WzHI">
+    <property role="3GE5qa" value="value.spec" />
+    <property role="TrG5h" value="IChildWatch" />
+  </node>
+  <node concept="1TIwiD" id="3MxRD996eAw">
+    <property role="3GE5qa" value="value.spec" />
+    <property role="TrG5h" value="KnownChildWatchesSpec" />
+    <property role="34LRSv" value="known child-watches" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD996eAx" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD98G3WI" resolve="WatchSpec" />
+    </node>
+    <node concept="PrWs8" id="3MxRD996eAy" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD98WzHI" resolve="IChildWatch" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD9991BM">
+    <property role="3GE5qa" value="watchables.value" />
+    <property role="TrG5h" value="WatchValueIsNullOperation" />
+    <property role="34LRSv" value="isNull" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD9991G_" role="PzmwI">
+      <ref role="PrY4T" node="4$20B80_Fgk" resolve="OnWatchValueOperation" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3MxRD99llDn">
+    <property role="3GE5qa" value="value.spec.new" />
+    <property role="TrG5h" value="IWatchSpecification" />
+    <node concept="1TJgyj" id="3MxRD99m9gB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="value" />
+      <ref role="20lvS9" node="3MxRD99llOt" resolve="IValueSpecification" />
+    </node>
+    <node concept="1TJgyi" id="3MxRD99sqzi" role="1TKVEl">
+      <property role="TrG5h" value="isMultple" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD99llG3">
+    <property role="3GE5qa" value="value.spec.new" />
+    <property role="TrG5h" value="ThisWatchSpecification" />
+    <property role="34LRSv" value="this-watch" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD99llG4" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD99llDn" resolve="IWatchSpecification" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD99llIN">
+    <property role="3GE5qa" value="value.spec.new" />
+    <property role="TrG5h" value="WatchSpecification" />
+    <property role="34LRSv" value="watch" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD99llIO" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD99llDn" resolve="IWatchSpecification" />
+    </node>
+    <node concept="PrWs8" id="3MxRD99llIT" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3MxRD99llOt">
+    <property role="3GE5qa" value="value.spec.new.values" />
+    <property role="TrG5h" value="IValueSpecification" />
+    <node concept="1TJgyj" id="3MxRD99llU2" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="semantics" />
+      <ref role="20lvS9" node="3MxRD99llRf" resolve="IValueSemantic" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3MxRD99llRf">
+    <property role="3GE5qa" value="value.spec.new.semantics" />
+    <property role="TrG5h" value="IValueSemantic" />
+  </node>
+  <node concept="1TIwiD" id="3MxRD99llWR">
+    <property role="3GE5qa" value="value.spec.new.semantics" />
+    <property role="TrG5h" value="ReferenceSemantics" />
+    <property role="34LRSv" value="*-&gt;" />
+    <property role="R4oN_" value="reference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3MxRD99EVjy" role="1TKVEl">
+      <property role="TrG5h" value="nullRepresentation" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="3MxRD99llWS" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD99llRf" resolve="IValueSemantic" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD99lm2S">
+    <property role="3GE5qa" value="value.spec.new.semantics" />
+    <property role="TrG5h" value="ValueSemantics" />
+    <property role="34LRSv" value="&lt;&gt;-" />
+    <property role="R4oN_" value="value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD99lm2T" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD99llRf" resolve="IValueSemantic" />
+    </node>
+    <node concept="PrWs8" id="UFIAu3KuID" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD99lmoF">
+    <property role="3GE5qa" value="value.spec.new.semantics" />
+    <property role="TrG5h" value="DelegateSemantics" />
+    <property role="34LRSv" value="|-&gt;" />
+    <property role="R4oN_" value="delegate" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD99lmoG" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD99llRf" resolve="IValueSemantic" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD99lmoI">
+    <property role="3GE5qa" value="value.spec.new.values" />
+    <property role="TrG5h" value="PrimitiveValueSpecification" />
+    <property role="34LRSv" value="primitive-value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD99lmoJ" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD99llOt" resolve="IValueSpecification" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD99lmKC">
+    <property role="3GE5qa" value="value.spec.new.values" />
+    <property role="TrG5h" value="ComplexValueSpecification" />
+    <property role="34LRSv" value="complex-value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3MxRD99lmL7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="childWatches" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="3MxRD99llDn" resolve="IWatchSpecification" />
+    </node>
+    <node concept="PrWs8" id="3MxRD99lmKD" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD99llOt" resolve="IValueSpecification" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MxRD99lnaM">
+    <property role="3GE5qa" value="value.spec.new.values" />
+    <property role="TrG5h" value="AbsentValueSpecification" />
+    <property role="34LRSv" value="absent-value" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3MxRD99lnaX" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD99llOt" resolve="IValueSpecification" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="UFIAu3qoCX">
+    <property role="3GE5qa" value="value.spec.new" />
+    <property role="TrG5h" value="AbsentWatchSpecification" />
+    <property role="34LRSv" value="absent-watches" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="UFIAu3qoS5" role="PzmwI">
+      <ref role="PrY4T" node="3MxRD99llDn" resolve="IWatchSpecification" />
+    </node>
   </node>
 </model>
 

@@ -64,5 +64,13 @@
     <property role="34LRSv" value="global variable" />
     <ref role="1TJDcQ" node="10kQx64H7HL" resolve="mbeddrVariableKind" />
   </node>
+  <node concept="1TIwiD" id="UFIAu3YcYU">
+    <property role="TrG5h" value="GdbDebuggerBackend" />
+    <property role="34LRSv" value="gdb" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="UFIAu3YcZb" role="PzmwI">
+      <ref role="PrY4T" to="vu5z:UFIAu3YafC" resolve="IDebuggerBackend" />
+    </node>
+  </node>
 </model>
 

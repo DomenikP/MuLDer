@@ -236,9 +236,23 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="ValueFromTextLifter" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3MxRD99lnq5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expectedValueStructure" />
+      <ref role="20lvS9" to="k6mm:3MxRD99llG3" resolve="ThisWatchSpecification" />
+    </node>
+    <node concept="1TJgyj" id="UFIAu3YagK" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="debuggerBackend" />
+      <ref role="20lvS9" node="UFIAu3YafC" resolve="IDebuggerBackend" />
+    </node>
     <node concept="PrWs8" id="6QCE2J4EbU_" role="PzmwI">
       <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="UFIAu3YafC">
+    <property role="3GE5qa" value="cross" />
+    <property role="TrG5h" value="IDebuggerBackend" />
   </node>
 </model>
 

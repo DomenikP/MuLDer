@@ -96,6 +96,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -1992,6 +1993,27 @@
       </node>
       <node concept="3Tm1VV" id="1taDvhF7pQ0" role="1B3o_S" />
       <node concept="3clFbS" id="1taDvhF7pQ1" role="3clF47">
+        <node concept="3clFbH" id="UFIAu4VY9b" role="3cqZAp" />
+        <node concept="3clFbF" id="UFIAu4VYdd" role="3cqZAp">
+          <node concept="2OqwBi" id="UFIAu4VYda" role="3clFbG">
+            <node concept="10M0yZ" id="UFIAu4VYdb" role="2Oq$k0">
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="UFIAu4VYdc" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println():void" resolve="println" />
+              <node concept="3cpWs3" id="UFIAu4VYBI" role="37wK5m">
+                <node concept="37vLTw" id="UFIAu4VYCn" role="3uHU7w">
+                  <ref role="3cqZAo" node="1taDvhF7pPY" resolve="conceptNode" />
+                </node>
+                <node concept="Xl_RD" id="UFIAu4VYeB" role="3uHU7B">
+                  <property role="Xl_RC" value="getSpec: " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="UFIAu4VYav" role="3cqZAp" />
         <node concept="3cpWs8" id="1taDvhF7pQ2" role="3cqZAp">
           <node concept="3cpWsn" id="1taDvhF7pQ3" role="3cpWs9">
             <property role="TrG5h" value="aspects" />
@@ -2201,7 +2223,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="1taDvhF7rBf" role="3clF45">
-        <ref role="ehGHo" to="k6mm:1uxqFoJnJ6z" resolve="IValueSpec" />
+        <ref role="ehGHo" to="k6mm:7yWdW8OsVPo" resolve="IValueStructure" />
       </node>
     </node>
     <node concept="13i0hz" id="1taDvhF7rBg" role="13h7CS">
@@ -2251,7 +2273,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="1taDvhG_WMj" role="3clF45">
-        <ref role="ehGHo" to="k6mm:1uxqFoJnJ6z" resolve="IValueSpec" />
+        <ref role="ehGHo" to="k6mm:7yWdW8OsVPo" resolve="IValueStructure" />
       </node>
     </node>
     <node concept="13hLZK" id="1taDvhF7pIs" role="13h7CW">

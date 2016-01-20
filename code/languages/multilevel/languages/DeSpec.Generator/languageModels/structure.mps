@@ -52,6 +52,11 @@
       <property role="20kJfa" value="treeSpec" />
       <ref role="20lvS9" to="k6mm:6JLH6ZK0Eqd" resolve="FromValueSpec" />
     </node>
+    <node concept="1TJgyj" id="7yWdW8OBJY_" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="fromTree" />
+      <ref role="20lvS9" to="k6mm:7yWdW8OsVPo" resolve="IValueStructure" />
+    </node>
     <node concept="1TJgyj" id="3oPrgty3uC2" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="fromConcept" />
@@ -263,11 +268,10 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="ValueProvider" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1taDvhF3tej" role="1TKVEi">
+    <node concept="1TJgyj" id="3MxRD99lnq5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="valueStructure" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="k6mm:1uxqFoJnJ6z" resolve="IValueSpec" />
+      <property role="20kJfa" value="valueSpecification" />
+      <ref role="20lvS9" to="k6mm:3MxRD99llG3" resolve="ThisWatchSpecification" />
     </node>
     <node concept="1TJgyj" id="1taDvhF3tek" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
