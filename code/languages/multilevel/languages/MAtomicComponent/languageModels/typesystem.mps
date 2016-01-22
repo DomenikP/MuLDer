@@ -49,9 +49,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
-      </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -1236,28 +1233,6 @@
               </node>
               <node concept="3Tsc0h" id="6aU7c0v$CkE" role="2OqNvi">
                 <ref role="3TtcxE" to="x27k:4WTYg$PUiX5" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6aU7c0vwZC$" role="3cqZAp">
-          <node concept="2OqwBi" id="6aU7c0vwZCx" role="3clFbG">
-            <node concept="10M0yZ" id="6aU7c0vwZCy" role="2Oq$k0">
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="6aU7c0vwZCz" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="6aU7c0vxa6K" role="37wK5m">
-                <node concept="Xl_RD" id="6aU7c0vxa6Q" role="3uHU7B">
-                  <property role="Xl_RC" value="args: " />
-                </node>
-                <node concept="2OqwBi" id="6aU7c0vx0Sn" role="3uHU7w">
-                  <node concept="37vLTw" id="6aU7c0vwZUy" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6aU7c0vwWI1" resolve="arguments" />
-                  </node>
-                  <node concept="34oBXx" id="6aU7c0vxa3A" role="2OqNvi" />
-                </node>
               </node>
             </node>
           </node>

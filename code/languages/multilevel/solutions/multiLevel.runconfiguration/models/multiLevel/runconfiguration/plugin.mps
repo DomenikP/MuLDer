@@ -3476,27 +3476,7 @@
                 <ref role="3uigEE" to="e2lb:~Exception" resolve="Exception" />
               </node>
             </node>
-            <node concept="3clFbS" id="1dHOtDNfHVP" role="TDEfX">
-              <node concept="3clFbF" id="1dHOtDNfL4q" role="3cqZAp">
-                <node concept="2OqwBi" id="1dHOtDNfL4n" role="3clFbG">
-                  <node concept="10M0yZ" id="1dHOtDNfL4o" role="2Oq$k0">
-                    <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-                    <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                  </node>
-                  <node concept="liA8E" id="1dHOtDNfL4p" role="2OqNvi">
-                    <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-                    <node concept="3cpWs3" id="1dHOtDNfYuS" role="37wK5m">
-                      <node concept="37vLTw" id="1dHOtDNfYAR" role="3uHU7w">
-                        <ref role="3cqZAo" node="3rbPwYavi9T" resolve="line" />
-                      </node>
-                      <node concept="Xl_RD" id="1dHOtDNfLia" role="3uHU7B">
-                        <property role="Xl_RC" value="Failed to parse line: " />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+            <node concept="3clFbS" id="1dHOtDNfHVP" role="TDEfX" />
           </node>
         </node>
         <node concept="3cpWs6" id="3D3g9moMT3Q" role="3cqZAp">
@@ -9968,20 +9948,6 @@
       </node>
       <node concept="1Tq6V3" id="6k5ZPJUT3CI" role="1Tq6V0">
         <node concept="3clFbS" id="6k5ZPJUT3CJ" role="2VODD2">
-          <node concept="3clFbF" id="1xP_TBjeGt5" role="3cqZAp">
-            <node concept="2OqwBi" id="1xP_TBjeGt2" role="3clFbG">
-              <node concept="10M0yZ" id="1xP_TBjeGt3" role="2Oq$k0">
-                <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-              </node>
-              <node concept="liA8E" id="1xP_TBjeGt4" role="2OqNvi">
-                <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="Xl_RD" id="1xP_TBjeGxz" role="37wK5m">
-                  <property role="Xl_RC" value="bla" />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3cpWs8" id="6k5ZPJUT3PE" role="3cqZAp">
             <node concept="3cpWsn" id="6k5ZPJUT3PF" role="3cpWs9">
               <property role="TrG5h" value="settings" />

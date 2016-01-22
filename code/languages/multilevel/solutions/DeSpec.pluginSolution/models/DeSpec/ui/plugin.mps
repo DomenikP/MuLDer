@@ -176,7 +176,6 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -1086,34 +1085,6 @@
             </node>
             <node concept="37vLTw" id="1l1nW3o1vsp" role="37wK5m">
               <ref role="3cqZAo" node="1l1nW3o1vsm" resolve="icon" />
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="2LqMkzXukLH" role="3cqZAp">
-          <node concept="3SKWN0" id="2LqMkzXukLR" role="3SKWNk">
-            <node concept="3clFbF" id="2LqMkzXu9xq" role="3SKWNf">
-              <node concept="2OqwBi" id="2LqMkzXu9xn" role="3clFbG">
-                <node concept="10M0yZ" id="2LqMkzXu9xo" role="2Oq$k0">
-                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                  <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-                </node>
-                <node concept="liA8E" id="2LqMkzXu9xp" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-                  <node concept="3cpWs3" id="2LqMkzXu9Rc" role="37wK5m">
-                    <node concept="Xl_RD" id="2LqMkzXu9Eb" role="3uHU7B">
-                      <property role="Xl_RC" value="stepping: " />
-                    </node>
-                    <node concept="2OqwBi" id="2LqMkzXu6Kc" role="3uHU7w">
-                      <node concept="37vLTw" id="2LqMkzXu6tM" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2LqMkzXtNZ$" resolve="showStepping" />
-                      </node>
-                      <node concept="liA8E" id="2LqMkzXu8yy" role="2OqNvi">
-                        <ref role="37wK5l" to="dbrf:~AbstractButton.isSelected():boolean" resolve="isSelected" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
