@@ -46,26 +46,17 @@
   <node concept="1TIwiD" id="3oPrgty34CG">
     <property role="19KtqR" value="true" />
     <property role="TrG5h" value="ValueTransformer" />
+    <property role="34LRSv" value="ModelValueTransformer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6JLH6ZK5JEp" role="1TKVEi">
+    <node concept="1TJgyj" id="7YL4GJ1kHRs" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="treeSpec" />
-      <ref role="20lvS9" to="k6mm:6JLH6ZK0Eqd" resolve="FromValueSpec" />
+      <property role="20kJfa" value="sourceValue" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ1iaqn" resolve="SourceWatchWithValueProviderSpecification" />
     </node>
-    <node concept="1TJgyj" id="7yWdW8OBJY_" role="1TKVEi">
+    <node concept="1TJgyj" id="7YL4GJ24tXK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="fromTree" />
-      <ref role="20lvS9" to="k6mm:7yWdW8OsVPo" resolve="IValueStructure" />
-    </node>
-    <node concept="1TJgyj" id="3oPrgty3uC2" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="fromConcept" />
-      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-    </node>
-    <node concept="1TJgyj" id="3oPrgty3uEb" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="toConcept" />
-      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+      <property role="20kJfa" value="targetValue" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
     </node>
     <node concept="PrWs8" id="3oPrgty8AtU" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
@@ -266,12 +257,12 @@
     <property role="3GE5qa" value="debugSemantics" />
     <property role="TrG5h" value="ValueProviderSpec" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="ValueProvider" />
+    <property role="34LRSv" value="ValueSpecification" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3MxRD99lnq5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="valueSpecification" />
-      <ref role="20lvS9" to="k6mm:3MxRD99llG3" resolve="ThisWatchSpecification" />
+      <ref role="20lvS9" to="k6mm:3MxRD99llG3" resolve="ContextWatchSpecification" />
     </node>
     <node concept="1TJgyj" id="1taDvhF3tek" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

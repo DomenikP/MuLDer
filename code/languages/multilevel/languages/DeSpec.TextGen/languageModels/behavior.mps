@@ -28,7 +28,9 @@
     <import index="wqua" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.classloading(MPS.Core/jetbrains.mps.classloading@java_stub)" />
     <import index="42ru" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.module(MPS.Core/jetbrains.mps.module@java_stub)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
-    <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(multiLevel.debugger.behavior)" implicit="true" />
+    <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(multiLevel.debugger.behavior)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -169,6 +171,9 @@
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
@@ -756,8 +761,8 @@
         <node concept="3clFbF" id="UFIAu4AX7H" role="3cqZAp">
           <node concept="2OqwBi" id="UFIAu4AXbt" role="3clFbG">
             <node concept="13iPFW" id="UFIAu4AX7G" role="2Oq$k0" />
-            <node concept="3TrEf2" id="UFIAu4AXse" role="2OqNvi">
-              <ref role="3Tt5mk" to="vu5z:3MxRD99lnq5" />
+            <node concept="3TrEf2" id="7YL4GJ2FSW1" role="2OqNvi">
+              <ref role="3Tt5mk" to="vu5z:7YL4GJ2AKzd" />
             </node>
           </node>
         </node>
@@ -804,6 +809,38 @@
       <node concept="3Tqbb2" id="UFIAu4AW6f" role="3clF45">
         <ref role="ehGHo" to="k6mm:3MxRD99llDn" resolve="IWatchSpecification" />
       </node>
+    </node>
+    <node concept="13i0hz" id="hEwIMiw" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getPresentation" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3Tm1VV" id="hJrm0qh" role="1B3o_S" />
+      <node concept="3clFbS" id="7YL4GJ3fw3t" role="3clF47">
+        <node concept="3clFbF" id="7YL4GJ3fw3y" role="3cqZAp">
+          <node concept="2OqwBi" id="7YL4GJ3fw3v" role="3clFbG">
+            <node concept="13iAh5" id="7YL4GJ3fw3w" role="2Oq$k0" />
+            <node concept="2qgKlT" id="7YL4GJ3fw3x" role="2OqNvi">
+              <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7YL4GJ3fxum" role="3cqZAp">
+          <node concept="3cpWs3" id="7YL4GJ3fyar" role="3clFbG">
+            <node concept="Xl_RD" id="7YL4GJ3fyUH" role="3uHU7w">
+              <property role="Xl_RC" value="_TextValue2ModelValue" />
+            </node>
+            <node concept="2OqwBi" id="7YL4GJ3fxy5" role="3uHU7B">
+              <node concept="13iPFW" id="7YL4GJ3fxuk" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7YL4GJ3fxN0" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="4dKd5TsFYWs" role="3clF45" />
     </node>
   </node>
 </model>

@@ -234,12 +234,22 @@
     <property role="3GE5qa" value="watches.values" />
     <property role="TrG5h" value="ValueFromTextLifter" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="ValueFromTextLifter" />
+    <property role="34LRSv" value="TextValue2ModelValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3MxRD99lnq5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expectedValueStructure" />
-      <ref role="20lvS9" to="k6mm:3MxRD99llG3" resolve="ThisWatchSpecification" />
+      <ref role="20lvS9" to="k6mm:3MxRD99llG3" resolve="ContextWatchSpecification" />
+    </node>
+    <node concept="1TJgyj" id="7YL4GJ2_FFs" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="targetValueStructure" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+    </node>
+    <node concept="1TJgyj" id="7YL4GJ2AKzd" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="sourceValueStructure" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatchSpecification" />
     </node>
     <node concept="1TJgyj" id="UFIAu3YagK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
