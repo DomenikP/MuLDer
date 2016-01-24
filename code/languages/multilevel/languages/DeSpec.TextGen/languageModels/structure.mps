@@ -217,7 +217,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="valueFromTextLifter" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6QCE2J4AzRK" resolve="ValueFromTextLifter" />
+      <ref role="20lvS9" node="6QCE2J4AzRK" resolve="TextValue2ModelValue" />
     </node>
     <node concept="PrWs8" id="5zifgCNS023" role="PzmwI">
       <ref role="PrY4T" node="5zifgCNRZIY" resolve="IValueFromTextLifter" />
@@ -232,15 +232,10 @@
   </node>
   <node concept="1TIwiD" id="6QCE2J4AzRK">
     <property role="3GE5qa" value="watches.values" />
-    <property role="TrG5h" value="ValueFromTextLifter" />
+    <property role="TrG5h" value="TextValue2ModelValue" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="TextValue2ModelValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3MxRD99lnq5" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expectedValueStructure" />
-      <ref role="20lvS9" to="k6mm:3MxRD99llG3" resolve="ContextWatchSpecification" />
-    </node>
     <node concept="1TJgyj" id="7YL4GJ2_FFs" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="targetValueStructure" />
