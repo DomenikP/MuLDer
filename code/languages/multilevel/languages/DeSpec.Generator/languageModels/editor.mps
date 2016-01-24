@@ -323,7 +323,7 @@
     <ref role="1XX52x" to="gx1i:6t$AXNjmDBn" resolve="LiftToNode" />
     <node concept="3EZMnI" id="6t$AXNjmKvN" role="2wV5jI">
       <node concept="3F0ifn" id="6t$AXNjmKvO" role="3EZMnx">
-        <property role="3F0ifm" value="ResolveNode:" />
+        <property role="3F0ifm" value="NodeResolver:" />
         <ref role="1k5W1q" to="tpc5:2NgG6tkHXk9" resolve="KeyWord" />
         <node concept="VQ3r3" id="6t$AXNjmKvP" role="3F10Kt">
           <property role="2USNnj" value="2" />
