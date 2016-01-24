@@ -299,11 +299,10 @@
           <node concept="3w_OXm" id="UFIAu5caNg" role="2OqNvi" />
         </node>
       </node>
-      <node concept="3clFbH" id="UFIAu5caNy" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="UFIAu5ca5$" role="1YuTPh">
       <property role="TrG5h" value="valueFromTextLifter" />
-      <ref role="1YaFvo" to="vu5z:6QCE2J4AzRK" resolve="ValueFromTextLifter" />
+      <ref role="1YaFvo" to="vu5z:6QCE2J4AzRK" resolve="TextValue2ModelValue" />
     </node>
   </node>
 </model>
