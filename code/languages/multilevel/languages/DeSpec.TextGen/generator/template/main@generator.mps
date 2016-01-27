@@ -5152,7 +5152,7 @@
                           <node concept="TSZUe" id="1pKlcOG$abV" role="2OqNvi">
                             <node concept="2ShNRf" id="1pKlcOG$abW" role="25WWJ7">
                               <node concept="1pGfFk" id="1pKlcOG$abX" role="2ShVmc">
-                                <ref role="37wK5l" to="j2z0:4LxJUARHm$G" resolve="MWatchable" />
+                                <ref role="37wK5l" to="j2z0:2Kx5o1API3f" resolve="MWatchable" />
                                 <node concept="37vLTw" id="1pKlcOG$abY" role="37wK5m">
                                   <ref role="3cqZAo" node="1pKlcOG$aaY" resolve="attachToNode" />
                                 </node>
@@ -5161,6 +5161,9 @@
                                 </node>
                                 <node concept="37vLTw" id="1pKlcOG$ac0" role="37wK5m">
                                   <ref role="3cqZAo" node="1pKlcOG$aax" resolve="childWatchName" />
+                                </node>
+                                <node concept="37vLTw" id="2Kx5o1APMr5" role="37wK5m">
+                                  <ref role="3cqZAo" node="1pKlcOG$a9T" resolve="node" />
                                 </node>
                               </node>
                             </node>
@@ -5487,7 +5490,7 @@
                       <node concept="TSZUe" id="7YL4GJ3X0JX" role="2OqNvi">
                         <node concept="2ShNRf" id="7YL4GJ3X0JY" role="25WWJ7">
                           <node concept="1pGfFk" id="7YL4GJ3X0JZ" role="2ShVmc">
-                            <ref role="37wK5l" to="j2z0:4LxJUARHm$G" resolve="MWatchable" />
+                            <ref role="37wK5l" to="j2z0:2Kx5o1API3f" resolve="MWatchable" />
                             <node concept="37vLTw" id="1pKlcOGjELn" role="37wK5m">
                               <ref role="3cqZAo" node="1pKlcOGjz_k" resolve="attachToNode" />
                             </node>
@@ -5496,6 +5499,9 @@
                             </node>
                             <node concept="37vLTw" id="7YL4GJ3Xa_v" role="37wK5m">
                               <ref role="3cqZAo" node="7YL4GJ3WV9X" resolve="childWatchName" />
+                            </node>
+                            <node concept="37vLTw" id="2Kx5o1APMmI" role="37wK5m">
+                              <ref role="3cqZAo" node="7YL4GJ3WSlh" resolve="node" />
                             </node>
                           </node>
                         </node>

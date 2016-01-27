@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="e840b8ae-64d9-4b5b-b3b4-eca3f222d4da" name="com.mbeddr.mpsutil.iconchar" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14,6 +15,14 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="e840b8ae-64d9-4b5b-b3b4-eca3f222d4da" name="com.mbeddr.mpsutil.iconchar">
+      <concept id="8866176685648437750" name="com.mbeddr.mpsutil.iconchar.structure.IconChar" flags="ng" index="cTxPe">
+        <property id="8866176685648721500" name="borderColor" index="cYWF$" />
+        <property id="8866176685648721488" name="backgroundColor" index="cYWFC" />
+        <property id="8866176685648721493" name="textColor" index="cYWFH" />
+        <property id="8866176685648721485" name="char" index="cYWFP" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765956807" name="final" index="R5$K2" />
@@ -42,6 +51,11 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
+        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -52,15 +66,24 @@
     <property role="TrG5h" value="AtomicComponent" />
     <property role="3GE5qa" value="component" />
     <property role="34LRSv" value="atomic component" />
+    <property role="MwhBj" value="${module}/icons/AtomicComponentCharIcon.png" />
     <ref role="1TJDcQ" node="6aU7c0vIRMt" resolve="Component" />
     <node concept="PrWs8" id="2Z8Gfz2$zfX" role="PzmwI">
       <ref role="PrY4T" to="pjlr:6P1S2fVlatx" resolve="ValueProvider" />
+    </node>
+    <node concept="cTxPe" id="2Kx5o1AvJj6" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="A" />
+      <property role="cYWFC" value="#0AC92B" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
     </node>
   </node>
   <node concept="1TIwiD" id="1X5iFxI_Zap">
     <property role="TrG5h" value="Field" />
     <property role="3GE5qa" value="content" />
-    <property role="MwhBj" value="${module}/icons/field.png" />
+    <property role="MwhBj" value="${module}/icons/FieldCharIcon.png" />
     <property role="34LRSv" value="field" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1y5IIwWuCve" role="1TKVEi">
@@ -82,6 +105,14 @@
     </node>
     <node concept="PrWs8" id="7ZqGTTqWW8A" role="PzmwI">
       <ref role="PrY4T" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+    </node>
+    <node concept="cTxPe" id="2Kx5o1A5Oss" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="F" />
+      <property role="cYWFC" value="#0BB5FF" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
     </node>
   </node>
   <node concept="1TIwiD" id="1X5iFxIAgoN">
@@ -238,6 +269,7 @@
   <node concept="1TIwiD" id="1y5IIwWD5bb">
     <property role="TrG5h" value="ComponentInstance" />
     <property role="3GE5qa" value="instanceConfig" />
+    <property role="MwhBj" value="${module}/icons/ComponentInstanceCharIcon.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="RvNPiUOych" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -253,6 +285,14 @@
     </node>
     <node concept="PrWs8" id="4nblNEsbya9" role="PzmwI">
       <ref role="PrY4T" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+    </node>
+    <node concept="cTxPe" id="2Kx5o1A5O$u" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="C" />
+      <property role="cYWFC" value="#98faa3" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
     </node>
   </node>
   <node concept="PlHQZ" id="1y5IIwWGRVk">
@@ -372,6 +412,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="component" />
+    <property role="MwhBj" value="${module}/icons/ComponentCharIcon.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6aU7c0vIRMu" role="PzmwI">
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
@@ -387,6 +428,14 @@
       <property role="20kJfa" value="content" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6aU7c0vIRMw" resolve="IComponentContent" />
+    </node>
+    <node concept="cTxPe" id="2Kx5o1AvImK" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="C" />
+      <property role="cYWFC" value="#ebb98f" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
     </node>
   </node>
   <node concept="PlHQZ" id="6aU7c0vIRMw">

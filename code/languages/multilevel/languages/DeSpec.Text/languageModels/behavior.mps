@@ -438,7 +438,7 @@
         <node concept="3cpWs6" id="3YtEbp4w4QH" role="3cqZAp">
           <node concept="2ShNRf" id="3YtEbp4w2ST" role="3cqZAk">
             <node concept="1pGfFk" id="3YtEbp4w2SU" role="2ShVmc">
-              <ref role="37wK5l" to="j2z0:4LxJUARHm$G" resolve="MWatchable" />
+              <ref role="37wK5l" to="j2z0:2Kx5o1API3f" resolve="MWatchable" />
               <node concept="2OqwBi" id="3YtEbp4w2SV" role="37wK5m">
                 <node concept="13iPFW" id="3YtEbp4w2SW" role="2Oq$k0" />
                 <node concept="1mfA1w" id="MPvpOW8R7_" role="2OqNvi" />
@@ -456,6 +456,18 @@
                 </node>
                 <node concept="2qgKlT" id="6P1S2g2_UYj" role="2OqNvi">
                   <ref role="37wK5l" to="c41m:6P1S2g0pX5s" resolve="getWatchName" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2Kx5o1APObE" role="37wK5m">
+                <node concept="1PxgMI" id="2Kx5o1APObF" role="2Oq$k0">
+                  <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+                  <node concept="2OqwBi" id="2Kx5o1APObG" role="1PxMeX">
+                    <node concept="13iPFW" id="2Kx5o1APObH" role="2Oq$k0" />
+                    <node concept="1mfA1w" id="2Kx5o1APObI" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="2Kx5o1APObJ" role="2OqNvi">
+                  <ref role="37wK5l" to="c41m:6P1S2g0pXgW" resolve="getValueProvider" />
                 </node>
               </node>
             </node>

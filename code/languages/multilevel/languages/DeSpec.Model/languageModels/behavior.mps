@@ -1932,7 +1932,7 @@
         <node concept="3cpWs6" id="3KVJl1fAgFJ" role="3cqZAp">
           <node concept="2ShNRf" id="3KVJl1fAgFK" role="3cqZAk">
             <node concept="1pGfFk" id="3KVJl1fAgFL" role="2ShVmc">
-              <ref role="37wK5l" to="j2z0:4LxJUARHm$G" resolve="MWatchable" />
+              <ref role="37wK5l" to="j2z0:2Kx5o1API3f" resolve="MWatchable" />
               <node concept="37vLTw" id="3KVJl1fAgFM" role="37wK5m">
                 <ref role="3cqZAo" node="3KVJl1fAgEn" resolve="watch" />
               </node>
@@ -1953,6 +1953,9 @@
                 <node concept="2qgKlT" id="6P1S2g2k2cG" role="2OqNvi">
                   <ref role="37wK5l" to="c41m:6P1S2g0pX5s" resolve="getWatchName" />
                 </node>
+              </node>
+              <node concept="37vLTw" id="2Kx5o1APNsH" role="37wK5m">
+                <ref role="3cqZAo" node="6P1S2g2maRh" resolve="valueProvider" />
               </node>
             </node>
           </node>

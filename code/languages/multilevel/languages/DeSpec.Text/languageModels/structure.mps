@@ -90,7 +90,7 @@
       <ref role="PrY4T" to="k6mm:53P7aeD7Arx" resolve="IRequiresImports" />
     </node>
     <node concept="PrWs8" id="1qLJBRhr6UL" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
+      <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IWatchDebugInformation" />
     </node>
     <node concept="M6xJ_" id="2SyAeFjOM8n" role="lGtFl">
       <property role="Hh88m" value="liftConstantFromText" />
@@ -127,7 +127,7 @@
       <ref role="PrY4T" to="k6mm:53P7aeD7Arx" resolve="IRequiresImports" />
     </node>
     <node concept="PrWs8" id="7gtWUEopX5l" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
+      <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IWatchDebugInformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="2iiswCsOs8f">
@@ -158,8 +158,8 @@
     <node concept="PrWs8" id="1uxqFoJa2Fn" role="PzmwI">
       <ref role="PrY4T" to="k6mm:1uxqFoJa2Aa" resolve="ValueFromText" />
     </node>
-    <node concept="PrWs8" id="3EISKF0fEEV" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
+    <node concept="PrWs8" id="2Kx5o1_WE8g" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:2Kx5o1_WDzY" resolve="IValueDebugInformation" />
     </node>
   </node>
   <node concept="PlHQZ" id="6hWVX3oosf">

@@ -114,8 +114,8 @@
   <node concept="PlHQZ" id="1uxqFoJa2ya">
     <property role="3GE5qa" value="value.lifter" />
     <property role="TrG5h" value="ValueFromModel" />
-    <node concept="PrWs8" id="3EISKF0r3jl" role="PrDN$">
-      <ref role="PrY4T" node="7gtWUEoo$OF" resolve="IVariablesDebugInformation" />
+    <node concept="PrWs8" id="2Kx5o1_WE8N" role="PrDN$">
+      <ref role="PrY4T" node="2Kx5o1_WDzY" resolve="IValueDebugInformation" />
     </node>
   </node>
   <node concept="PlHQZ" id="1uxqFoJa2Aa">
@@ -229,7 +229,7 @@
     <property role="3GE5qa" value="util" />
   </node>
   <node concept="PlHQZ" id="7gtWUEoo$OF">
-    <property role="TrG5h" value="IVariablesDebugInformation" />
+    <property role="TrG5h" value="IWatchDebugInformation" />
     <property role="3GE5qa" value="debugInformation" />
     <node concept="PrWs8" id="3EISKF07RYR" role="PrDN$">
       <ref role="PrY4T" node="3EISKF07Lvw" resolve="IDebugInformation" />
@@ -756,6 +756,38 @@
     </node>
     <node concept="PrWs8" id="4nblNEsc2i$" role="PzmwI">
       <ref role="PrY4T" node="6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2Kx5o1_u0Is">
+    <property role="TrG5h" value="DebugInformationPreferences" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2Kx5o1_u10N" role="1TKVEl">
+      <property role="TrG5h" value="showBreakpoints" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2Kx5o1_A$yc" role="1TKVEl">
+      <property role="TrG5h" value="showStackFrames" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2Kx5o1_A$ys" role="1TKVEl">
+      <property role="TrG5h" value="showWatches" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2Kx5o1_A$yI" role="1TKVEl">
+      <property role="TrG5h" value="showValues" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2Kx5o1_A$yV" role="1TKVEl">
+      <property role="TrG5h" value="showStepping" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2Kx5o1_WDzY">
+    <property role="3GE5qa" value="debugInformation" />
+    <property role="TrG5h" value="IValueDebugInformation" />
+    <node concept="PrWs8" id="2Kx5o1_WD$H" role="PrDN$">
+      <ref role="PrY4T" node="3EISKF07Lvw" resolve="IDebugInformation" />
     </node>
   </node>
 </model>
