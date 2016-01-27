@@ -20,6 +20,12 @@
   <imports />
   <registry>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
+      <concept id="7763322639126652757" name="com.mbeddr.core.statements.structure.ITypeContainingType" flags="ng" index="2umbIr">
+        <child id="7763322639126652758" name="baseType" index="2umbIo" />
+      </concept>
+      <concept id="8850915533694634145" name="com.mbeddr.core.statements.structure.InitExpression" flags="ng" index="3o3WLD">
+        <child id="8850915533694634146" name="elements" index="3o3WLE" />
+      </concept>
       <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf">
         <child id="4185783222026502647" name="init" index="3XIe9u" />
       </concept>
@@ -50,6 +56,11 @@
       </concept>
       <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
         <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
+      </concept>
+    </language>
+    <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
+      <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42">
+        <child id="1452920870317474611" name="sizeExpr" index="1YbSNA" />
       </concept>
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
@@ -186,7 +197,31 @@
             <property role="2hmy$m" value="0" />
           </node>
         </node>
-        <node concept="3XISUE" id="69N_VEHVmgX" role="3XIRFZ" />
+        <node concept="3XIRlf" id="5cntRdxLkKO" role="3XIRFZ">
+          <property role="TrG5h" value="bla32" />
+          <node concept="3J0A42" id="5cntRdxLkMo" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+            <node concept="26Vqph" id="5cntRdxLkKM" role="2umbIo">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+            <node concept="3TlMh9" id="5cntRdxLkO6" role="1YbSNA">
+              <property role="2hmy$m" value="3" />
+            </node>
+          </node>
+          <node concept="3o3WLD" id="5cntRdxLkUK" role="3XIe9u">
+            <node concept="3TlMh9" id="5cntRdxLkYr" role="3o3WLE">
+              <property role="2hmy$m" value="1" />
+            </node>
+            <node concept="3TlMh9" id="5cntRdxLl4Q" role="3o3WLE">
+              <property role="2hmy$m" value="3" />
+            </node>
+            <node concept="3TlMh9" id="5cntRdxLlbl" role="3o3WLE">
+              <property role="2hmy$m" value="9" />
+            </node>
+          </node>
+        </node>
         <node concept="3XIRlf" id="69N_VEHH3KH" role="3XIRFZ">
           <property role="TrG5h" value="res" />
           <node concept="26Vqph" id="69N_VEHH3NN" role="2C2TGm">

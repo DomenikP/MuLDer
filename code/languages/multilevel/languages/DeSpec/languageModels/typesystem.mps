@@ -860,82 +860,6 @@
       <ref role="1YaFvo" to="k6mm:6t$AXNjDNCZ" resolve="IGeneratedToJavaClass" />
     </node>
   </node>
-  <node concept="18kY7G" id="5zifgCNnuDP">
-    <property role="TrG5h" value="check_ComplexValueFunction" />
-    <property role="3GE5qa" value="value.constructor" />
-    <node concept="3clFbS" id="5zifgCNnuDQ" role="18ibNy">
-      <node concept="3clFbJ" id="5zifgCNnuDW" role="3cqZAp">
-        <node concept="3clFbS" id="5zifgCNnuDX" role="3clFbx">
-          <node concept="2MkqsV" id="5zifgCNnv84" role="3cqZAp">
-            <node concept="Xl_RD" id="5zifgCNnv8g" role="2MkJ7o">
-              <property role="Xl_RC" value="No child lifter specified" />
-            </node>
-            <node concept="1YBJjd" id="5zifgCNnv9q" role="2OEOjV">
-              <ref role="1YBMHb" node="5zifgCNnuDS" resolve="complexValueFunction" />
-            </node>
-          </node>
-        </node>
-        <node concept="2OqwBi" id="5zifgCNnv0q" role="3clFbw">
-          <node concept="2OqwBi" id="5zifgCNnuFW" role="2Oq$k0">
-            <node concept="1YBJjd" id="5zifgCNnuE8" role="2Oq$k0">
-              <ref role="1YBMHb" node="5zifgCNnuDS" resolve="complexValueFunction" />
-            </node>
-            <node concept="3TrEf2" id="5zifgCNnuPC" role="2OqNvi">
-              <ref role="3Tt5mk" to="k6mm:5zifgCNnuDH" />
-            </node>
-          </node>
-          <node concept="3w_OXm" id="5zifgCNnv7T" role="2OqNvi" />
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="5zifgCNnuDS" role="1YuTPh">
-      <property role="TrG5h" value="complexValueFunction" />
-      <ref role="1YaFvo" to="k6mm:5zifgCNgNC7" resolve="ComplexValueFunction" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="5zifgCSznTv">
-    <property role="TrG5h" value="check_IValueLifterRoot" />
-    <property role="3GE5qa" value="value.constructor.complex" />
-    <node concept="3clFbS" id="5zifgCSznTw" role="18ibNy">
-      <node concept="3clFbJ" id="5zifgCNgS2_" role="3cqZAp">
-        <node concept="3clFbS" id="5zifgCNgS2A" role="3clFbx">
-          <node concept="2MkqsV" id="5zifgCNgSQY" role="3cqZAp">
-            <node concept="Xl_RD" id="5zifgCNgSRu" role="2MkJ7o">
-              <property role="Xl_RC" value="Please specify a value creator" />
-            </node>
-            <node concept="1YBJjd" id="5zifgCSznWf" role="2OEOjV">
-              <ref role="1YBMHb" node="5zifgCSznTy" resolve="iValueLifterRoot" />
-            </node>
-          </node>
-        </node>
-        <node concept="1Wc70l" id="3wE$$j_Y0E_" role="3clFbw">
-          <node concept="2OqwBi" id="3wE$$j_Y4qR" role="3uHU7w">
-            <node concept="1YBJjd" id="3wE$$j_Y4nH" role="2Oq$k0">
-              <ref role="1YBMHb" node="5zifgCSznTy" resolve="iValueLifterRoot" />
-            </node>
-            <node concept="2qgKlT" id="3wE$$j_Y4F4" role="2OqNvi">
-              <ref role="37wK5l" to="yh8:3wE$$j_Y2WI" resolve="requiresConceptToBeSet" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="5zifgCNgSBV" role="3uHU7B">
-            <node concept="2OqwBi" id="5zifgCNgS6h" role="2Oq$k0">
-              <node concept="1YBJjd" id="5zifgCSznY2" role="2Oq$k0">
-                <ref role="1YBMHb" node="5zifgCSznTy" resolve="iValueLifterRoot" />
-              </node>
-              <node concept="3TrEf2" id="5zifgCSzixb" role="2OqNvi">
-                <ref role="3Tt5mk" to="k6mm:5zifgCSzaEP" />
-              </node>
-            </node>
-            <node concept="3w_OXm" id="5zifgCNgSQu" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="5zifgCSznTy" role="1YuTPh">
-      <property role="TrG5h" value="iValueLifterRoot" />
-      <ref role="1YaFvo" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="3MxRD9991Hy">
     <property role="TrG5h" value="typeof_WatchValueIsNullOperation" />
     <property role="3GE5qa" value="watchables.value" />
@@ -962,7 +886,7 @@
   </node>
   <node concept="18kY7G" id="3MxRD99uh4v">
     <property role="TrG5h" value="check_UnknownValueSpecification" />
-    <property role="3GE5qa" value="value.spec.new.values" />
+    <property role="3GE5qa" value="value.specification.absent" />
     <node concept="3clFbS" id="3MxRD99uh4w" role="18ibNy">
       <node concept="3clFbJ" id="3MxRD99uh4A" role="3cqZAp">
         <node concept="3clFbS" id="3MxRD99uh4B" role="3clFbx">
@@ -1034,7 +958,7 @@
   </node>
   <node concept="18kY7G" id="UFIAu54d9x">
     <property role="TrG5h" value="check_ReferenceSemantics" />
-    <property role="3GE5qa" value="value.spec.new.semantics" />
+    <property role="3GE5qa" value="value.specification.semantics.reference" />
     <node concept="3clFbS" id="UFIAu54d9y" role="18ibNy">
       <node concept="3clFbJ" id="7YL4GJ349sj" role="3cqZAp">
         <node concept="3clFbS" id="7YL4GJ349sl" role="3clFbx">

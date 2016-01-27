@@ -106,6 +106,9 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -292,11 +295,11 @@
             <node concept="1YBJjd" id="UFIAu5ca6R" role="2Oq$k0">
               <ref role="1YBMHb" node="UFIAu5ca5$" resolve="valueFromTextLifter" />
             </node>
-            <node concept="3TrEf2" id="UFIAu5caqD" role="2OqNvi">
-              <ref role="3Tt5mk" to="vu5z:UFIAu3YagK" />
+            <node concept="3Tsc0h" id="1e5sJgmAGhD" role="2OqNvi">
+              <ref role="3TtcxE" to="vu5z:UFIAu3YagK" />
             </node>
           </node>
-          <node concept="3w_OXm" id="UFIAu5caNg" role="2OqNvi" />
+          <node concept="1v1jN8" id="1e5sJgmAKOj" role="2OqNvi" />
         </node>
       </node>
     </node>

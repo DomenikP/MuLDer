@@ -13,8 +13,6 @@
       <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/sandbox/MAtomicComponent.sandbox.msd" folder="component.atomic" />
       <modulePath path="$PROJECT_DIR$/languages/MMockComponent/MMockComponent.mpl" folder="component.mock" />
       <modulePath path="$PROJECT_DIR$/languages/MMockComponent/sandbox/MMockComponent.sandbox.msd" folder="component.mock" />
-      <modulePath path="$PROJECT_DIR$/languages/MStubComponent/MStubComponent.mpl" folder="component.stub" />
-      <modulePath path="$PROJECT_DIR$/languages/MStubComponent/sandbox/MStubComponent.sandbox.msd" folder="component.stub" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.def/MUnit.gen.def.mpl" folder="unit" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.efficient/MUnit.gen.efficient.mpl" folder="unit" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit/MUnit.mpl" folder="unit" />

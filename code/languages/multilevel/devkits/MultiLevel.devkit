@@ -3,7 +3,6 @@
   <exported-language name="bec9c00b-b5be-48af-9766-38765bcc974d(MUnit)" />
   <exported-language name="7ce26145-e88e-4147-80f6-84aca3a7cb16(MUnit.gen.def)" />
   <exported-language name="72548d30-5797-4668-a0d3-be1e47fc05b7(MUnit.gen.efficient)" />
-  <exported-language name="ca35bd95-fbad-4fae-9646-654a9a55ec5f(MStubComponent)" />
   <exported-language name="4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff(mstatemachine)" />
   <exported-language name="5529be6b-f382-41f9-834c-9d6b2e079511(MAtomicComponent)" />
   <exported-language name="eb6e703a-d3cc-488e-a462-15d37e40ae7a(MMockComponent)" />

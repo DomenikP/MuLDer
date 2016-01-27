@@ -1376,14 +1376,14 @@
           <node concept="3cpWsn" id="69N_VEHTM$W" role="3cpWs9">
             <property role="TrG5h" value="template" />
             <node concept="3Tqbb2" id="69N_VEHTM$X" role="1tU5fm">
-              <ref role="ehGHo" to="tpf8:QzR6ThdYAL" resolve="IParameterizedTemplate" />
+              <ref role="ehGHo" to="tpf8:fT3MO7g" resolve="TemplateDeclaration" />
             </node>
             <node concept="2OqwBi" id="69N_VEHTM$Y" role="33vP2m">
               <node concept="13iPFW" id="69N_VEHTM$Z" role="2Oq$k0" />
               <node concept="2Xjw5R" id="69N_VEHTM_0" role="2OqNvi">
                 <node concept="1xMEDy" id="69N_VEHTM_1" role="1xVPHs">
-                  <node concept="chp4Y" id="69N_VEHTMDA" role="ri$Ld">
-                    <ref role="cht4Q" to="tpf8:QzR6ThdYAL" resolve="IParameterizedTemplate" />
+                  <node concept="chp4Y" id="1e5sJgmAEVP" role="ri$Ld">
+                    <ref role="cht4Q" to="tpf8:fT3MO7g" resolve="TemplateDeclaration" />
                   </node>
                 </node>
               </node>
@@ -1441,8 +1441,8 @@
                     <node concept="37vLTw" id="69N_VEHTNDN" role="2Oq$k0">
                       <ref role="3cqZAo" node="69N_VEHTM$W" resolve="template" />
                     </node>
-                    <node concept="3TrEf2" id="69N_VEHTNSm" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tpf8:gZ0HIsK" />
+                    <node concept="3TrEf2" id="1e5sJgmAFTI" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpf8:h03gUQu" />
                     </node>
                   </node>
                   <node concept="1rGIog" id="69N_VEHTOCp" role="2OqNvi" />

@@ -264,11 +264,6 @@
       <property role="20kJfa" value="valueSpecification" />
       <ref role="20lvS9" to="k6mm:3MxRD99llG3" resolve="ContextWatchSpecification" />
     </node>
-    <node concept="1TJgyj" id="1taDvhF3tek" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="valueCopyFunc" />
-      <ref role="20lvS9" to="k6mm:1FDMTVPLqWo" resolve="IValueLifterSpec" />
-    </node>
     <node concept="PrWs8" id="6P1S2fVuu0M" role="PzmwI">
       <ref role="PrY4T" to="k6mm:6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
     </node>

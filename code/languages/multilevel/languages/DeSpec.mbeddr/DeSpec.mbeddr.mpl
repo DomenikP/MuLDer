@@ -24,6 +24,7 @@
       </usedDevKits>
       <languageVersions>
         <language id="b25694ab-2b70-4644-a06e-4d199f64d0c5" fqName="DeSpec.Text" version="0" />
+        <language id="ce1120c1-075f-4f11-a8fc-36ddbe2de15f" fqName="DeSpec.TextGen" version="0" />
         <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="DeSpec.base" version="0" />
         <language id="e11c169d-9fe2-4a19-8c43-ddd8ffefd883" fqName="DeSpec.mbeddr" version="-1" />
         <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />
@@ -94,6 +95,7 @@
   </languageVersions>
   <extendedLanguages>
     <extendedLanguage>b25694ab-2b70-4644-a06e-4d199f64d0c5(DeSpec.Text)</extendedLanguage>
+    <extendedLanguage>ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</extendedLanguage>
   </extendedLanguages>
 </language>
 
