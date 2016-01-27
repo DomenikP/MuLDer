@@ -66,6 +66,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
     </node>
+    <node concept="1TJgyj" id="RvNPiUZwFQ" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="inputNodeResolver" />
+      <ref role="20lvS9" to="gx1i:6t$AXNjmDBn" resolve="NodeResolver" />
+    </node>
     <node concept="PrWs8" id="3oPrgtyosBF" role="PzmwI">
       <ref role="PrY4T" to="k6mm:53P7aeD7Arx" resolve="IRequiresImports" />
     </node>

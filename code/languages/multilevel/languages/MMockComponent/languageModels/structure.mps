@@ -68,6 +68,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7MFNr6Dm73S" resolve="SequenceStep" />
     </node>
+    <node concept="PrWs8" id="69N_VEHChFR" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:6P1S2fVlatx" resolve="ValueProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7MFNr6DcyZX">
     <property role="TrG5h" value="ExpectedCalls" />

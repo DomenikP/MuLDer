@@ -1166,5 +1166,21 @@
     <property role="TrG5h" value="ResolveWatchesFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
+  <node concept="1TIwiD" id="4nblNEsc1EM">
+    <property role="3GE5qa" value="debugSemantics" />
+    <property role="TrG5h" value="WatchProviderContainerSpec" />
+    <property role="34LRSv" value="WatchProviderContainer" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4nblNEsc23O" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="collectWatchProvider" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6P1S2fVgHnG" resolve="CollectWatchProviderFunction" />
+    </node>
+    <node concept="PrWs8" id="4nblNEsc2i$" role="PzmwI">
+      <ref role="PrY4T" node="6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+  </node>
 </model>
 

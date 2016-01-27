@@ -18,8 +18,11 @@
       <concept id="1632319670390656274" name="MAtomicComponent.structure.InterfaceType" flags="ng" index="2n8Us5">
         <reference id="1632319670390661018" name="interface" index="2n8Vmd" />
       </concept>
+      <concept id="1632319670397256574" name="MAtomicComponent.structure.ComponentType" flags="ng" index="2njA_D">
+        <reference id="1632319670397258822" name="component" index="2njAph" />
+      </concept>
       <concept id="1767023935425368779" name="MAtomicComponent.structure.ComponentInstance" flags="ng" index="$8uwz">
-        <reference id="1632319670401591165" name="component" index="2kz4PE" />
+        <child id="999745605118075665" name="type" index="2R3uL5" />
       </concept>
       <concept id="1767023935425368670" name="MAtomicComponent.structure.InstancesConfig" flags="ng" index="$8uyQ">
         <child id="1767023935425523288" name="contents" index="$8LiK" />
@@ -137,15 +140,15 @@
         <node concept="1_9egQ" id="7MFNr6DOict" role="3XIRFZ">
           <node concept="3lQvWc" id="7MFNr6DOicr" role="1_9egR">
             <ref role="3lQvXz" node="7MFNr6DbRTk" resolve="instances" />
-            <ref role="3lQvXy" node="7MFNr6DbRVL" resolve="mock" />
             <ref role="3lQvX$" node="7MFNr6DnHGk" resolve="adder" />
             <ref role="3lQvXB" node="7MFNr6DnHGZ" resolve="doNothing" />
+            <ref role="3lQvXy" node="69N_VEHASrD" resolve="mock" />
           </node>
         </node>
         <node concept="2BFjQ_" id="7MFNr6DbIWE" role="3XIRFZ">
           <node concept="3l2op9" id="6t$AXNimmrw" role="2BFjQA">
             <ref role="3lkMfp" node="7MFNr6DbRTk" resolve="instances" />
-            <ref role="3lkMfo" node="7MFNr6DbRVL" resolve="mock" />
+            <ref role="3lkMfo" node="69N_VEHASrD" resolve="mock" />
           </node>
         </node>
       </node>
@@ -159,9 +162,13 @@
     </node>
     <node concept="$8uyQ" id="7MFNr6DbRTk" role="N3F5h">
       <property role="TrG5h" value="instances" />
-      <node concept="$8uwz" id="7MFNr6DbRVL" role="$8LiK">
+      <node concept="$8uwz" id="69N_VEHASrD" role="$8LiK">
         <property role="TrG5h" value="mock" />
-        <ref role="2kz4PE" node="7MFNr6DbJ3q" resolve="mockEx" />
+        <node concept="2njA_D" id="69N_VEHASrP" role="2R3uL5">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <ref role="2njAph" node="7MFNr6DbJ3q" resolve="mockEx" />
+        </node>
       </node>
     </node>
     <node concept="$YOx6" id="7MFNr6DnHpq" role="N3F5h">

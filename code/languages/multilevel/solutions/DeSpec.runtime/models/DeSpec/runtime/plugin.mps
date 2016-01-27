@@ -577,5 +577,27 @@
     </node>
     <node concept="3Tm1VV" id="1taDvhF3mlH" role="1B3o_S" />
   </node>
+  <node concept="3HP615" id="4nblNEscqnI">
+    <property role="TrG5h" value="IWatchProviderContainer" />
+    <node concept="3clFb_" id="4nblNEscpQ0" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="collectWatchProvider" />
+      <node concept="37vLTG" id="4nblNEscpQ1" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="4nblNEscpQ2" role="1tU5fm">
+          <ref role="ehGHo" to="pjlr:4nblNEsc0PQ" resolve="WatchProviderContainer" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4nblNEscpQ3" role="1B3o_S" />
+      <node concept="3clFbS" id="4nblNEscpQ4" role="3clF47" />
+      <node concept="A3Dl8" id="4nblNEscpQe" role="3clF45">
+        <node concept="3Tqbb2" id="4nblNEscpQf" role="A3Ik2">
+          <ref role="ehGHo" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4nblNEscqqB" role="jymVt" />
+    <node concept="3Tm1VV" id="4nblNEscqnJ" role="1B3o_S" />
+  </node>
 </model>
 

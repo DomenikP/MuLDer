@@ -53,6 +53,9 @@
     <property role="3GE5qa" value="component" />
     <property role="34LRSv" value="atomic component" />
     <ref role="1TJDcQ" node="6aU7c0vIRMt" resolve="Component" />
+    <node concept="PrWs8" id="2Z8Gfz2$zfX" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:6P1S2fVlatx" resolve="ValueProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1X5iFxI_Zap">
     <property role="TrG5h" value="Field" />
@@ -78,7 +81,7 @@
       <ref role="PrY4T" to="c4fa:6o2p2Z0DOCt" resolve="IAllowsIncompleteTypes" />
     </node>
     <node concept="PrWs8" id="7ZqGTTqWW8A" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+      <ref role="PrY4T" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="1X5iFxIAgoN">
@@ -166,7 +169,7 @@
       <ref role="PrY4T" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
     <node concept="PrWs8" id="7ZqGTTqGs7w" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:PjpCzdQT6j" resolve="WatchDeclarationScope" />
+      <ref role="PrY4T" to="pjlr:PjpCzdQT6j" resolve="WatchProviderScope" />
     </node>
     <node concept="PrWs8" id="2Up4L48UQg4" role="PzmwI">
       <ref role="PrY4T" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
@@ -228,22 +231,28 @@
     <node concept="PrWs8" id="8ik0RGGOOD" role="PzmwI">
       <ref role="PrY4T" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
+    <node concept="PrWs8" id="2Z8Gfz2kCTh" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:4nblNEsc0PQ" resolve="WatchProviderContainer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1y5IIwWD5bb">
     <property role="TrG5h" value="ComponentInstance" />
     <property role="3GE5qa" value="instanceConfig" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1qBaxu2aQtX" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="component" />
+    <node concept="1TJgyj" id="RvNPiUOych" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6aU7c0vIRMt" resolve="Component" />
+      <ref role="20lvS9" node="1qBaxu1UkdY" resolve="ComponentType" />
     </node>
     <node concept="PrWs8" id="1y5IIwWD5bc" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="1y5IIwWGRVo" role="PzmwI">
       <ref role="PrY4T" node="1y5IIwWGRVk" resolve="IInstanceConfigurationContent" />
+    </node>
+    <node concept="PrWs8" id="4nblNEsbya9" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
     </node>
   </node>
   <node concept="PlHQZ" id="1y5IIwWGRVk">
@@ -371,7 +380,7 @@
       <ref role="PrY4T" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
     </node>
     <node concept="PrWs8" id="7MFNr6DbUDd" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:PjpCzdQT6j" resolve="WatchDeclarationScope" />
+      <ref role="PrY4T" to="pjlr:PjpCzdQT6j" resolve="WatchProviderScope" />
     </node>
     <node concept="1TJgyj" id="6aU7c0vIRMv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -443,6 +452,9 @@
       <property role="20kJfa" value="component" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6aU7c0vIRMt" resolve="Component" />
+    </node>
+    <node concept="PrWs8" id="RvNPiUOqML" role="PzmwI">
+      <ref role="PrY4T" to="pjlr:6P1S2fVlatx" resolve="ValueProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="1qBaxu2GN2i">

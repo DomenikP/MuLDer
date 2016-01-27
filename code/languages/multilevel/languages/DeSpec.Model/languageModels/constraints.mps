@@ -16,6 +16,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -31,6 +32,10 @@
       </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
@@ -90,19 +95,35 @@
     <node concept="nKS2y" id="MPvpOXTeeY" role="1MLUbF">
       <node concept="3clFbS" id="MPvpOXTeeZ" role="2VODD2">
         <node concept="3clFbF" id="MPvpOXTeJF" role="3cqZAp">
-          <node concept="2OqwBi" id="MPvpOXTfdb" role="3clFbG">
-            <node concept="2OqwBi" id="MPvpOXTeNg" role="2Oq$k0">
-              <node concept="nLn13" id="MPvpOXTeJE" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="MPvpOXTf19" role="2OqNvi">
-                <node concept="1xMEDy" id="MPvpOXTf1b" role="1xVPHs">
-                  <node concept="chp4Y" id="MPvpOXTf6t" role="ri$Ld">
-                    <ref role="cht4Q" to="tpf8:gZ0H$p7" resolve="BaseMappingRule" />
+          <node concept="22lmx$" id="69N_VEHTLSH" role="3clFbG">
+            <node concept="2OqwBi" id="MPvpOXTfdb" role="3uHU7B">
+              <node concept="2OqwBi" id="MPvpOXTeNg" role="2Oq$k0">
+                <node concept="nLn13" id="MPvpOXTeJE" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="MPvpOXTf19" role="2OqNvi">
+                  <node concept="1xMEDy" id="MPvpOXTf1b" role="1xVPHs">
+                    <node concept="chp4Y" id="MPvpOXTf6t" role="ri$Ld">
+                      <ref role="cht4Q" to="tpf8:gZ0H$p7" resolve="BaseMappingRule" />
+                    </node>
                   </node>
+                  <node concept="1xIGOp" id="MPvpOXTfCb" role="1xVPHs" />
                 </node>
-                <node concept="1xIGOp" id="MPvpOXTfCb" role="1xVPHs" />
               </node>
+              <node concept="3x8VRR" id="MPvpOXTfvF" role="2OqNvi" />
             </node>
-            <node concept="3x8VRR" id="MPvpOXTfvF" role="2OqNvi" />
+            <node concept="2OqwBi" id="69N_VEHTM03" role="3uHU7w">
+              <node concept="2OqwBi" id="69N_VEHTM04" role="2Oq$k0">
+                <node concept="nLn13" id="69N_VEHTM05" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="69N_VEHTM06" role="2OqNvi">
+                  <node concept="1xMEDy" id="69N_VEHTM07" role="1xVPHs">
+                    <node concept="chp4Y" id="69N_VEHTM6p" role="ri$Ld">
+                      <ref role="cht4Q" to="tpf8:QzR6ThdYAL" resolve="IParameterizedTemplate" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="69N_VEHTM09" role="1xVPHs" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="69N_VEHTM0a" role="2OqNvi" />
+            </node>
           </node>
         </node>
       </node>

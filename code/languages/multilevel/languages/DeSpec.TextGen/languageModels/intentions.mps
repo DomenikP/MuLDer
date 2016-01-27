@@ -20,6 +20,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -66,6 +67,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -244,7 +248,7 @@
               </node>
               <node concept="2Zo12i" id="5zifgCOpmT$" role="2OqNvi">
                 <node concept="chp4Y" id="5zifgCOpn1$" role="2Zo12j">
-                  <ref role="cht4Q" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+                  <ref role="cht4Q" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
                 </node>
               </node>
             </node>
@@ -418,28 +422,42 @@
     <node concept="2SaL7w" id="6hWVX3qSAN" role="2ZfVeh">
       <node concept="3clFbS" id="6hWVX3qSAO" role="2VODD2">
         <node concept="3clFbF" id="3KVJl1h8LmN" role="3cqZAp">
-          <node concept="1Wc70l" id="3KVJl1h8OEO" role="3clFbG">
-            <node concept="1Wc70l" id="3KVJl1h8LCm" role="3uHU7B">
-              <node concept="2YIFZM" id="3KVJl1h8LmP" role="3uHU7B">
-                <ref role="37wK5l" node="3KVJl1h8AQU" resolve="isInTextGen" />
-                <ref role="1Pybhc" node="3KVJl1h8ALR" resolve="IntentionHelper" />
-                <node concept="2Sf5sV" id="3KVJl1h8LmQ" role="37wK5m" />
-              </node>
-              <node concept="2YIFZM" id="3KVJl1h8NSL" role="3uHU7w">
-                <ref role="37wK5l" node="3KVJl1h8LQz" resolve="textGenHasAnnotation" />
-                <ref role="1Pybhc" node="3KVJl1h8ALR" resolve="IntentionHelper" />
-                <node concept="2Sf5sV" id="3KVJl1h8NIL" role="37wK5m" />
-                <node concept="35c_gC" id="3KVJl1h8Ohc" role="37wK5m">
-                  <ref role="35c_gD" to="tdvr:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
-                </node>
-              </node>
-            </node>
-            <node concept="2YIFZM" id="3KVJl1h8OL1" role="3uHU7w">
-              <ref role="37wK5l" node="3KVJl1h8LQz" resolve="textGenHasAnnotation" />
+          <node concept="1Wc70l" id="3KVJl1h8LCm" role="3clFbG">
+            <node concept="2YIFZM" id="3KVJl1h8LmP" role="3uHU7B">
+              <ref role="37wK5l" node="3KVJl1h8AQU" resolve="isInTextGen" />
               <ref role="1Pybhc" node="3KVJl1h8ALR" resolve="IntentionHelper" />
-              <node concept="2Sf5sV" id="3KVJl1h8OL2" role="37wK5m" />
-              <node concept="35c_gC" id="3KVJl1h8OL3" role="37wK5m">
-                <ref role="35c_gD" to="vu5z:49lIkIod6tf" resolve="WatchFromTextGen" />
+              <node concept="2Sf5sV" id="3KVJl1h8LmQ" role="37wK5m" />
+            </node>
+            <node concept="1eOMI4" id="69N_VEGfj3w" role="3uHU7w">
+              <node concept="22lmx$" id="69N_VEGfjh$" role="1eOMHV">
+                <node concept="1eOMI4" id="69N_VEGfjoD" role="3uHU7B">
+                  <node concept="1Wc70l" id="69N_VEGfjvG" role="1eOMHV">
+                    <node concept="2YIFZM" id="3KVJl1h8NSL" role="3uHU7B">
+                      <ref role="1Pybhc" node="3KVJl1h8ALR" resolve="IntentionHelper" />
+                      <ref role="37wK5l" node="3KVJl1h8LQz" resolve="textGenHasAnnotation" />
+                      <node concept="2Sf5sV" id="3KVJl1h8NIL" role="37wK5m" />
+                      <node concept="35c_gC" id="3KVJl1h8Ohc" role="37wK5m">
+                        <ref role="35c_gD" to="tdvr:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
+                      </node>
+                    </node>
+                    <node concept="2YIFZM" id="3KVJl1h8OL1" role="3uHU7w">
+                      <ref role="1Pybhc" node="3KVJl1h8ALR" resolve="IntentionHelper" />
+                      <ref role="37wK5l" node="3KVJl1h8LQz" resolve="textGenHasAnnotation" />
+                      <node concept="2Sf5sV" id="3KVJl1h8OL2" role="37wK5m" />
+                      <node concept="35c_gC" id="3KVJl1h8OL3" role="37wK5m">
+                        <ref role="35c_gD" to="vu5z:49lIkIod6tf" resolve="WatchFromTextGen" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2YIFZM" id="69N_VEGfave" role="3uHU7w">
+                  <ref role="1Pybhc" node="3KVJl1h8ALR" resolve="IntentionHelper" />
+                  <ref role="37wK5l" node="3KVJl1h8LQz" resolve="textGenHasAnnotation" />
+                  <node concept="2Sf5sV" id="69N_VEGfavf" role="37wK5m" />
+                  <node concept="35c_gC" id="69N_VEGfavg" role="37wK5m">
+                    <ref role="35c_gD" to="vu5z:2iiswCs23Ce" resolve="ValueProviderFromTextGen" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

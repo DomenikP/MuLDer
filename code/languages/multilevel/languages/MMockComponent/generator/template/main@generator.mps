@@ -42,11 +42,14 @@
     <import index="n5ru" ref="r:4b3e6b4b-bf75-4546-8efd-c9fc0bc8ee0b(MAtomicComponent.behavior)" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(DeSpec.base.structure)" />
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
+    <import index="57k4" ref="r:447e7f64-54bb-4905-996e-5707ce60c3e2(MMockComponent.plugin)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator">
-      <concept id="7450251056332157791" name="" flags="ng" index="2Njay3" />
+      <concept id="7450251056332157791" name="DeSpec.Generator.structure.LiftToNodeReference" flags="ng" index="2Njay3">
+        <reference id="7450251056332157792" name="liftToNode" index="2NjayW" />
+      </concept>
     </language>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
       <concept id="1161622665029" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model" flags="nn" index="1Q6Npb" />
@@ -272,8 +275,8 @@
         <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
       <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz" />
-      <concept id="7450251056332157791" name="DeSpec.Model.structure.LiftToNodeReference" flags="ng" index="2Njay4">
-        <reference id="7450251056332157792" name="liftToNode" index="2NjayW" />
+      <concept id="3906148130290742816" name="DeSpec.Model.structure.GeneratedValueLifterFromModel" flags="ng" index="1kf5GB">
+        <reference id="3906148130290944737" name="valueLifterSpec" index="1keivA" />
       </concept>
       <concept id="149269758395750855" name="DeSpec.Model.structure.DoNotLiftStackFrameFromModel" flags="ng" index="3IWkBa" />
     </language>
@@ -962,7 +965,7 @@
                 </node>
               </node>
               <node concept="2xMITz" id="MPvpOY1frB" role="lGtFl">
-                <node concept="2Njay3" id="5kxYjVobHdP" role="22L1k1">
+                <node concept="2Njay3" id="69N_VEHBqq_" role="22L1k1">
                   <ref role="2NjayW" to="i2c5:8ik0RJ29En" resolve="runnable2Step" />
                 </node>
               </node>
@@ -1079,6 +1082,9 @@
             <node concept="raruj" id="7MFNr6Dvl9i" role="lGtFl" />
             <node concept="2ZBi8u" id="7MFNr6DfPVb" role="lGtFl">
               <ref role="2rW$FS" node="7MFNr6DfPVa" resolve="mock2Atomic" />
+            </node>
+            <node concept="1kf5GB" id="69N_VEHCfsu" role="lGtFl">
+              <ref role="1keivA" to="57k4:69N_VEHEOWH" resolve="component2Mock" />
             </node>
           </node>
           <node concept="2NXPZ9" id="7MFNr6Dvks$" role="N3F5h">

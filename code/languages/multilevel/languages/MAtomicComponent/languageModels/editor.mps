@@ -485,14 +485,8 @@
     <property role="3GE5qa" value="instanceConfig" />
     <ref role="1XX52x" to="32lw:1y5IIwWD5bb" resolve="ComponentInstance" />
     <node concept="3EZMnI" id="1y5IIwWD5c9" role="2wV5jI">
-      <node concept="1iCGBv" id="1qBaxu2g7ig" role="3EZMnx">
-        <ref role="1NtTu8" to="32lw:1qBaxu2aQtX" />
-        <node concept="1sVBvm" id="1qBaxu2g7ik" role="1sWHZn">
-          <node concept="3F0A7n" id="1qBaxu2g7iz" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
+      <node concept="3F1sOY" id="RvNPiUPm3L" role="3EZMnx">
+        <ref role="1NtTu8" to="32lw:RvNPiUOych" />
       </node>
       <node concept="3F0A7n" id="1y5IIwWD5c$" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />

@@ -30,7 +30,8 @@
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(multiLevel.debugger.behavior)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="t3eg" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.language(MPS.OpenAPI/org.jetbrains.mps.openapi.language@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -159,6 +160,7 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
@@ -712,9 +714,43 @@
   </node>
   <node concept="13h7C7" id="6QCE2J4DKdQ">
     <property role="3GE5qa" value="watches.values" />
-    <ref role="13h7C2" to="vu5z:6QCE2J4AzRK" resolve="ValueFromTextLifter" />
+    <ref role="13h7C2" to="vu5z:6QCE2J4AzRK" resolve="TextValue2ModelValue" />
     <node concept="13hLZK" id="6QCE2J4DKdR" role="13h7CW">
       <node concept="3clFbS" id="6QCE2J4DKdS" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5zifgCSzmuV" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getClassName" />
+      <ref role="13i0hy" to="yh8:6QCE2J4DKqI" resolve="getClassName" />
+      <node concept="3Tm1VV" id="5zifgCSzmuW" role="1B3o_S" />
+      <node concept="3clFbS" id="69N_VEGyGE5" role="3clF47">
+        <node concept="3clFbF" id="5zifgCSzmuX" role="3cqZAp">
+          <node concept="3cpWs3" id="6QCE2J4DPo5" role="3clFbG">
+            <node concept="2OqwBi" id="6QCE2J4DQIG" role="3uHU7w">
+              <node concept="2OqwBi" id="6QCE2J4DPxM" role="2Oq$k0">
+                <node concept="13iPFW" id="6QCE2J4DPsQ" role="2Oq$k0" />
+                <node concept="2yIwOk" id="6QCE2J55lW1" role="2OqNvi" />
+              </node>
+              <node concept="liA8E" id="6QCE2J55oJ8" role="2OqNvi">
+                <ref role="37wK5l" to="t3eg:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+              </node>
+            </node>
+            <node concept="3cpWs3" id="5zifgCSzmuY" role="3uHU7B">
+              <node concept="Xl_RD" id="5zifgCSzmuZ" role="3uHU7w">
+                <property role="Xl_RC" value="_" />
+              </node>
+              <node concept="2OqwBi" id="69N_VEGyKUD" role="3uHU7B">
+                <node concept="13iPFW" id="69N_VEGyKN9" role="2Oq$k0" />
+                <node concept="3TrcHB" id="69N_VEGyLzk" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6QCE2J4DKqQ" role="3clF45" />
     </node>
     <node concept="13i0hz" id="6QCE2J4Ea91" role="13h7CS">
       <property role="13i0iv" value="false" />

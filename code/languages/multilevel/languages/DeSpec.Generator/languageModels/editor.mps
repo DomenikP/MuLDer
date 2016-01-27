@@ -320,7 +320,7 @@
   </node>
   <node concept="24kQdi" id="6t$AXNjmIj8">
     <property role="3GE5qa" value="inputNodes.lifterFunction" />
-    <ref role="1XX52x" to="gx1i:6t$AXNjmDBn" resolve="LiftToNode" />
+    <ref role="1XX52x" to="gx1i:6t$AXNjmDBn" resolve="NodeResolver" />
     <node concept="3EZMnI" id="6t$AXNjmKvN" role="2wV5jI">
       <node concept="3F0ifn" id="6t$AXNjmKvO" role="3EZMnx">
         <property role="3F0ifm" value="NodeResolver:" />
@@ -703,10 +703,10 @@
   </node>
   <node concept="24kQdi" id="6P1S2fVutXz">
     <property role="3GE5qa" value="debugSemantics" />
-    <ref role="1XX52x" to="gx1i:6P1S2fVutUZ" resolve="ValueProviderSpec" />
+    <ref role="1XX52x" to="gx1i:6P1S2fVutUZ" resolve="ModelValue" />
     <node concept="3EZMnI" id="6P1S2fVutZk" role="2wV5jI">
       <node concept="3F0ifn" id="6P1S2fVutZl" role="3EZMnx">
-        <property role="3F0ifm" value="ValueSpecification" />
+        <property role="3F0ifm" value="ModelValue" />
         <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
         <node concept="VQ3r3" id="6P1S2fVutZm" role="3F10Kt">
           <property role="2USNnj" value="2" />
@@ -729,7 +729,7 @@
         <node concept="3EZMnI" id="6P1S2fVutZs" role="3EZMnx">
           <property role="3EZMnw" value="false" />
           <node concept="3F0ifn" id="6P1S2fVutZt" role="3EZMnx">
-            <property role="3F0ifm" value="concept:" />
+            <property role="3F0ifm" value="value provider:" />
             <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
             <node concept="VPM3Z" id="6P1S2fVutZu" role="3F10Kt">
               <property role="VOm3f" value="false" />
@@ -759,7 +759,7 @@
         <node concept="3EZMnI" id="3MxRD99loeE" role="3EZMnx">
           <property role="3EZMnw" value="false" />
           <node concept="3F0ifn" id="3MxRD99loeF" role="3EZMnx">
-            <property role="3F0ifm" value="value specification:" />
+            <property role="3F0ifm" value="value structure:" />
             <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
             <node concept="VPM3Z" id="3MxRD99loeG" role="3F10Kt">
               <property role="VOm3f" value="false" />

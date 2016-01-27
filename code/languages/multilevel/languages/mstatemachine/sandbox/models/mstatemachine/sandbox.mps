@@ -25,6 +25,9 @@
       <concept id="2253289344556970303" name="mstatemachine.structure.StatemachineType" flags="ng" index="1LefI7">
         <reference id="2253289344556971295" name="sm" index="1LefYB" />
       </concept>
+      <concept id="7516915259312981287" name="mstatemachine.structure.InEventRef" flags="ng" index="1QgjuX">
+        <reference id="7516915259312981288" name="event" index="1QgjuM" />
+      </concept>
       <concept id="7516915259313198964" name="mstatemachine.structure.StateVariable" flags="ng" index="1QgInI" />
       <concept id="7516915259312266341" name="mstatemachine.structure.State" flags="ng" index="1Ql2VZ">
         <child id="7516915259312455947" name="transitions" index="1Qmjeh" />
@@ -93,6 +96,7 @@
       </concept>
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
+      <concept id="767515563077204464" name="com.mbeddr.core.util.structure.MessageProperty" flags="ng" index="2qqzEA" />
       <concept id="2688792604367903085" name="com.mbeddr.core.util.structure.MessageDefinitionTable" flags="ng" index="2vmPJd">
         <child id="2688792604367903095" name="messages" index="2vmPJn" />
       </concept>
@@ -100,6 +104,7 @@
         <property id="2688792604367903089" name="text" index="2vmPJh" />
         <property id="2688792604367903094" name="kind" index="2vmPJm" />
         <property id="2688792604367947988" name="active" index="2vn0DO" />
+        <child id="767515563077204474" name="properties" index="2qqzEG" />
       </concept>
       <concept id="2688792604367964821" name="com.mbeddr.core.util.structure.ReportStatement" flags="ng" index="2vn4wP">
         <child id="2688792604367973273" name="msgref" index="2vn6$T" />
@@ -107,6 +112,7 @@
       <concept id="2688792604367964823" name="com.mbeddr.core.util.structure.MessageRef" flags="ng" index="2vn4wR">
         <reference id="2688792604367964824" name="table" index="2vn4wS" />
         <reference id="2688792604367964825" name="msg" index="2vn4wT" />
+        <child id="767515563077221084" name="propVals" index="2qqZAa" />
       </concept>
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
         <child id="4459718605982051999" name="strategy" index="2Q9FjI" />
@@ -152,9 +158,6 @@
       <concept id="3376775282622142916" name="com.mbeddr.core.modules.structure.AbstractDefineLike" flags="ng" index="2DRUVY">
         <child id="3376775282622233992" name="value" index="2DQcEM" />
       </concept>
-      <concept id="8105003328814797298" name="com.mbeddr.core.modules.structure.IFunctionLike" flags="ng" index="2H9T1B">
-        <child id="5708867820623310661" name="arguments" index="1UOdpc" />
-      </concept>
       <concept id="6437088627575722813" name="com.mbeddr.core.modules.structure.Module" flags="ng" index="N3F4X">
         <child id="6437088627575722833" name="contents" index="N3F5h" />
       </concept>
@@ -166,7 +169,6 @@
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
-      <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -216,6 +218,19 @@
         <property role="2vmPJm" value="1" />
         <property role="TrG5h" value="log" />
         <property role="2vmPJh" value="bla bla bla" />
+      </node>
+      <node concept="2vmPJf" id="4nblNEs7GuV" role="2vmPJn">
+        <property role="2vn0DO" value="true" />
+        <property role="2vmPJm" value="1" />
+        <property role="TrG5h" value="log2" />
+        <property role="2vmPJh" value="bla bla bla" />
+        <node concept="2qqzEA" id="4nblNEs7GuY" role="2qqzEG">
+          <property role="TrG5h" value="var" />
+          <node concept="26Vqph" id="4nblNEs7Gvc" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1sgJKc" id="4Ib7zQGLhAV" role="N3F5h">
@@ -290,24 +305,6 @@
         <property role="2caQfQ" value="false" />
         <property role="2c7vTL" value="false" />
       </node>
-      <node concept="19RgSI" id="6xhsDCu00Zv" role="1UOdpc">
-        <property role="TrG5h" value="argc" />
-        <node concept="26Vqph" id="6xhsDCu00Zw" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-      </node>
-      <node concept="19RgSI" id="6xhsDCu00Zx" role="1UOdpc">
-        <property role="TrG5h" value="argv" />
-        <node concept="3J0A42" id="6xhsDCu00Zy" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-          <node concept="Pu267" id="6xhsDCu00Zz" role="2umbIo">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="2NXPZ9" id="6xhsDCu1jyb" role="N3F5h">
       <property role="TrG5h" value="empty_1443283189220_5" />
@@ -344,6 +341,30 @@
           <ref role="1Q4UCZ" node="512cLuR$Qnn" resolve="event1" />
           <ref role="a_7ZU" node="512cLuR_Wmv" resolve="s2" />
           <node concept="3XIRFW" id="512cLuR_Wo5" role="1QlGbb">
+            <node concept="3XIRlf" id="4nblNEs7dPz" role="3XIRFZ">
+              <property role="TrG5h" value="event" />
+              <node concept="26Vqph" id="4nblNEs7dPH" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+              </node>
+              <node concept="1QgjuX" id="4nblNEs7dPI" role="3XIe9u">
+                <ref role="1QgjuM" node="512cLuR$Qnn" resolve="event1" />
+              </node>
+            </node>
+            <node concept="2vn4wP" id="4nblNEs7GrF" role="3XIRFZ">
+              <node concept="2vn4wR" id="4nblNEs7GrH" role="2vn6$T">
+                <ref role="2vn4wS" node="1X5iFxIzvRg" resolve="msgs" />
+                <ref role="2vn4wT" node="4nblNEs7GuV" resolve="log2" />
+                <node concept="3ZVu4v" id="4nblNEs7GuM" role="2qqZAa">
+                  <ref role="3ZVs_2" node="4nblNEs7dPz" resolve="event" />
+                </node>
+              </node>
+            </node>
+            <node concept="1_9egQ" id="4nblNEs7dMx" role="3XIRFZ">
+              <node concept="3ZVu4v" id="4nblNEs7dPJ" role="1_9egR">
+                <ref role="3ZVs_2" node="4nblNEs7dPz" resolve="event" />
+              </node>
+            </node>
             <node concept="3XIRlf" id="6b$uClswaaK" role="3XIRFZ">
               <property role="TrG5h" value="bla" />
               <node concept="26Vqph" id="6b$uClswaaI" role="2C2TGm">

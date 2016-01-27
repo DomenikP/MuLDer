@@ -13,6 +13,8 @@
     <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(DeSpec.Text.behavior)" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" implicit="true" />
+    <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(multiLevel.debugger.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -115,6 +117,10 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <reference id="1140138128738" name="concept" index="1PxNhF" />
+        <child id="1140138123956" name="leftExpression" index="1PxMeX" />
+      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -310,13 +316,16 @@
                 <node concept="3TQlhw" id="4lU62XqS_iJ" role="1Hhtcw">
                   <node concept="3clFbS" id="4lU62XqS_iK" role="2VODD2">
                     <node concept="3clFbF" id="4lU62XqS_iL" role="3cqZAp">
-                      <node concept="2OqwBi" id="4lU62XqS_iM" role="3clFbG">
-                        <node concept="2OqwBi" id="4lU62XqS_iN" role="2Oq$k0">
-                          <node concept="pncrf" id="4lU62XqS_iO" role="2Oq$k0" />
-                          <node concept="1mfA1w" id="4lU62XqS_iP" role="2OqNvi" />
+                      <node concept="2OqwBi" id="7XouITNUj1g" role="3clFbG">
+                        <node concept="1PxgMI" id="7XouITNUiRc" role="2Oq$k0">
+                          <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+                          <node concept="2OqwBi" id="4lU62XqS_iN" role="1PxMeX">
+                            <node concept="pncrf" id="4lU62XqS_iO" role="2Oq$k0" />
+                            <node concept="1mfA1w" id="4lU62XqS_iP" role="2OqNvi" />
+                          </node>
                         </node>
-                        <node concept="2qgKlT" id="4lU62XqS_iQ" role="2OqNvi">
-                          <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                        <node concept="2qgKlT" id="7XouITNUjfV" role="2OqNvi">
+                          <ref role="37wK5l" to="c41m:6P1S2g0pX5s" resolve="getWatchName" />
                         </node>
                       </node>
                     </node>

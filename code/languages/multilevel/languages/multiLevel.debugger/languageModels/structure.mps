@@ -216,5 +216,11 @@
   <node concept="PlHQZ" id="6P1S2fVlatx">
     <property role="TrG5h" value="ValueProvider" />
   </node>
+  <node concept="PlHQZ" id="4nblNEsc0PQ">
+    <property role="TrG5h" value="WatchProviderContainer" />
+    <node concept="PrWs8" id="2Z8Gfz2ybrt" role="PrDN$">
+      <ref role="PrY4T" node="1rHBIiJ9Pyb" resolve="WatchProvider" />
+    </node>
+  </node>
 </model>
 

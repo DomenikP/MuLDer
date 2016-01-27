@@ -17,6 +17,9 @@
     <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</dependency>
     <dependency reexport="false">ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</dependency>
     <dependency reexport="false">b25694ab-2b70-4644-a06e-4d199f64d0c5(DeSpec.Text)</dependency>
+    <dependency reexport="false">5529be6b-f382-41f9-834c-9d6b2e079511(MAtomicComponent)</dependency>
+    <dependency reexport="false">6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</dependency>
+    <dependency reexport="false">eb6e703a-d3cc-488e-a462-15d37e40ae7a(MMockComponent)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>eb6e703a-d3cc-488e-a462-15d37e40ae7a(MMockComponent)</usedLanguage>
