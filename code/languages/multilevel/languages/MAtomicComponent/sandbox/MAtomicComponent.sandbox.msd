@@ -14,9 +14,9 @@
     <dependency reexport="false">62296a07-bc38-46d2-8034-198c24063588(com.mbeddr.core.modules.gen)</dependency>
     <dependency reexport="false">e11c169d-9fe2-4a19-8c43-ddd8ffefd883(mbeddr.debugger.specification)</dependency>
     <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</dependency>
-    <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</dependency>
+    <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(mulder.model)</dependency>
     <dependency reexport="false">ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</dependency>
-    <dependency reexport="false">b25694ab-2b70-4644-a06e-4d199f64d0c5(DeSpec.Text)</dependency>
+    <dependency reexport="false">b25694ab-2b70-4644-a06e-4d199f64d0c5(mulder.text)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>5529be6b-f382-41f9-834c-9d6b2e079511(MAtomicComponent)</usedLanguage>

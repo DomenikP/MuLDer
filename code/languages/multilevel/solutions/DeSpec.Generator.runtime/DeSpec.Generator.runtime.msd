@@ -7,7 +7,7 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</dependency>
+    <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(mulder.model)</dependency>
     <dependency reexport="false">cc7da2f6-419f-4133-a811-31fcd3295a85(jetbrains.mps.debugger.api.api)</dependency>
   </dependencies>
   <usedLanguages>
