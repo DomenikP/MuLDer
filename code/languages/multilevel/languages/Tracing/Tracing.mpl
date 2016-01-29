@@ -47,7 +47,7 @@
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
-            <generator generatorUID="0f4d33b0-e7a4-4173-b7b6-76b7aa1a5ad5(Tracing#71553305890765482)" />
+            <generator generatorUID="0f4d33b0-e7a4-4173-b7b6-76b7aa1a5ad5(mulder.tracing#71553305890765482)" />
             <external-mapping>
               <mapping-node modelUID="r:a8853d7d-1fb4-41e6-903b-721b825a9020(mulder.tracing.generator.template.main@generator)" nodeID="71553305890765483" />
             </external-mapping>

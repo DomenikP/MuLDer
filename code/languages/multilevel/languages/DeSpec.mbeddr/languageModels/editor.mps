@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e6eb0f92-b473-4032-ba1d-4b3c1dc16aa4(DeSpec.mbeddr.editor)">
+<model ref="r:e6eb0f92-b473-4032-ba1d-4b3c1dc16aa4(mbeddr.debugger.specification.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
-    <import index="hpl9" ref="r:a565490e-12f3-492e-aa8d-d8392b54a1d4(DeSpec.mbeddr.structure)" implicit="true" />
+    <import index="hpl9" ref="r:a565490e-12f3-492e-aa8d-d8392b54a1d4(mbeddr.debugger.specification.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
   </imports>
   <registry>

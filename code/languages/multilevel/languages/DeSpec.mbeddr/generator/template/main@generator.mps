@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6a9db4ae-7261-46c8-96a0-71bb1f027f40(DeSpec.mbeddr.generator.template.main@generator)">
+<model ref="r:6a9db4ae-7261-46c8-96a0-71bb1f027f40(mbeddr.debugger.specification.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:06ffb63a-ea51-4965-8656-1c9ed7d61ab4(DeSpec.mbeddr.typesystem)">
+<model ref="r:06ffb63a-ea51-4965-8656-1c9ed7d61ab4(mbeddr.debugger.specification.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />

@@ -12,7 +12,7 @@
     <dependency reexport="true">4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff(mstatemachine)</dependency>
     <dependency reexport="true">efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</dependency>
     <dependency reexport="true">62296a07-bc38-46d2-8034-198c24063588(com.mbeddr.core.modules.gen)</dependency>
-    <dependency reexport="true">e11c169d-9fe2-4a19-8c43-ddd8ffefd883(DeSpec.mbeddr)</dependency>
+    <dependency reexport="true">e11c169d-9fe2-4a19-8c43-ddd8ffefd883(mbeddr.debugger.specification)</dependency>
     <dependency reexport="true">11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec.base)</dependency>
     <dependency reexport="true">f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</dependency>
     <dependency reexport="true">ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</dependency>
