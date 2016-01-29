@@ -28,10 +28,10 @@
         <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
         <usedLanguage>7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</usedLanguage>
         <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
-        <usedLanguage>558e8d91-d211-4de0-b141-9a8b8f04b79d(multiLevel.debugger)</usedLanguage>
         <usedLanguage>f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</usedLanguage>
         <usedLanguage>d063e9e6-a068-4a98-b5b4-a42dc5a1cf00(DeSpec.Generator)</usedLanguage>
         <usedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec.base)</usedLanguage>
+        <usedLanguage>558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -86,8 +86,8 @@
         <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="0" />
         <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
         <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" fqName="jetbrains.mps.lang.typesystem" version="0" />
+        <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="mbeddr.debugger.core" version="0" />
         <language id="4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff" fqName="mstatemachine" version="-1" />
-        <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="multiLevel.debugger" version="0" />
       </languageVersions>
       <mapping-priorities />
     </generator>
@@ -97,7 +97,7 @@
     <dependency reexport="false">4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff(mstatemachine)</dependency>
     <dependency reexport="false">61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(multiLevel.debugger)</dependency>
+    <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</dependency>
     <dependency reexport="false">cc7da2f6-419f-4133-a811-31fcd3295a85(jetbrains.mps.debugger.api.api)</dependency>
     <dependency reexport="false">efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</dependency>
     <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec.base)</dependency>
@@ -110,7 +110,6 @@
     <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
     <usedLanguage>f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</usedLanguage>
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
-    <usedLanguage>558e8d91-d211-4de0-b141-9a8b8f04b79d(multiLevel.debugger)</usedLanguage>
     <usedLanguage>3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)</usedLanguage>
     <usedLanguage>61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</usedLanguage>
     <usedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</usedLanguage>
@@ -121,6 +120,7 @@
     <usedLanguage>e840b8ae-64d9-4b5b-b3b4-eca3f222d4da(com.mbeddr.mpsutil.iconchar)</usedLanguage>
     <usedLanguage>443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)</usedLanguage>
     <usedLanguage>59a09bf6-2b13-49ef-80d1-741985a7f0ed(mulder.tracing)</usedLanguage>
+    <usedLanguage>558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
@@ -177,8 +177,8 @@
     <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" fqName="jetbrains.mps.lang.textGen" version="0" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" fqName="jetbrains.mps.lang.typesystem" version="0" />
+    <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="mbeddr.debugger.core" version="0" />
     <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" fqName="mulder.tracing" version="0" />
-    <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="multiLevel.debugger" version="0" />
   </languageVersions>
   <extendedLanguages>
     <extendedLanguage>6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</extendedLanguage>

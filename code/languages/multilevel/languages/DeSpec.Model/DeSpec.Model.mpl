@@ -21,7 +21,7 @@
         <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
         <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
         <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</dependency>
-        <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(multiLevel.debugger)</dependency>
+        <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
       </dependencies>
@@ -58,8 +58,8 @@
         <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" fqName="jetbrains.mps.lang.quotation" version="0" />
         <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="0" />
         <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
+        <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="mbeddr.debugger.core" version="0" />
         <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" fqName="mulder.tracing" version="0" />
-        <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="multiLevel.debugger" version="0" />
       </languageVersions>
       <mapping-priorities />
     </generator>
@@ -79,7 +79,7 @@
     <dependency reexport="false">b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
     <dependency reexport="false">8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)</dependency>
-    <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(multiLevel.debugger)</dependency>
+    <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</dependency>
     <dependency reexport="false">d063e9e6-a068-4a98-b5b4-a42dc5a1cf00(DeSpec.Generator)</dependency>
   </dependencies>
   <usedLanguages>

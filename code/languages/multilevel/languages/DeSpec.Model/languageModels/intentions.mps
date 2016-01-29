@@ -6,7 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(multiLevel.debugger.structure)" />
+    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" />
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(DeSpec.Model.structure)" />
     <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
@@ -688,7 +688,7 @@
   </node>
   <node concept="2S6QgY" id="1CCsFHtgyNk">
     <property role="TrG5h" value="ToggleLiftChildren2Watches" />
-    <ref role="2ZfgGC" to="pjlr:1rHBIiJ9Pyb" resolve="WatchDeclartion" />
+    <ref role="2ZfgGC" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
     <node concept="2S6ZIM" id="1CCsFHtgyNl" role="2ZfVej">
       <node concept="3clFbS" id="1CCsFHtgyNm" role="2VODD2">
         <node concept="3clFbF" id="1CCsFHtgz4L" role="3cqZAp">
