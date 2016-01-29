@@ -15,7 +15,7 @@
     <use id="558e8d91-d211-4de0-b141-9a8b8f04b79d" name="mbeddr.debugger.core" version="0" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
-    <devkit ref="ce31ac8f-18fd-49f2-8454-79c4edc3ad2f(MultiLevel)" />
+    <devkit ref="ce31ac8f-18fd-49f2-8454-79c4edc3ad2f(MuLDer)" />
   </languages>
   <imports />
   <registry>

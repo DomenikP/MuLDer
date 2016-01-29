@@ -21,12 +21,12 @@
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
-        <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec.base)</dependency>
+        <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</dependency>
         <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
         <dependency reexport="false">8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)</dependency>
         <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</dependency>
         <dependency reexport="false">a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)</dependency>
-        <dependency reexport="false">ec2a91d9-299c-4a21-ab13-4e7e4f6f44d9(DeSpec.base#1229019237294225049)</dependency>
+        <dependency reexport="false">ec2a91d9-299c-4a21-ab13-4e7e4f6f44d9(mulder.base#1229019237294225049)</dependency>
         <dependency reexport="false">cc7da2f6-419f-4133-a811-31fcd3295a85(jetbrains.mps.debugger.api.api)</dependency>
         <dependency reexport="false">b25694ab-2b70-4644-a06e-4d199f64d0c5(DeSpec.Text)</dependency>
         <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(DeSpec.Model)</dependency>
@@ -43,8 +43,8 @@
         <usedLanguage>18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</usedLanguage>
         <usedLanguage>654422bf-e75f-44dc-936d-188890a746ce(de.slisson.mps.reflection)</usedLanguage>
         <usedLanguage>ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</usedLanguage>
-        <usedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec.base)</usedLanguage>
         <usedLanguage>59a09bf6-2b13-49ef-80d1-741985a7f0ed(mulder.tracing)</usedLanguage>
+        <usedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -52,7 +52,6 @@
       <languageVersions>
         <language id="b25694ab-2b70-4644-a06e-4d199f64d0c5" fqName="DeSpec.Text" version="0" />
         <language id="ce1120c1-075f-4f11-a8fc-36ddbe2de15f" fqName="DeSpec.TextGen" version="-1" />
-        <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="DeSpec.base" version="0" />
         <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />
         <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
         <language id="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62" fqName="com.mbeddr.mpsutil.jung" version="0" />
@@ -80,6 +79,7 @@
         <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" fqName="jetbrains.mps.lang.textGen" version="0" />
         <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
         <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="mbeddr.debugger.core" version="0" />
+        <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="mulder.base" version="0" />
         <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" fqName="mulder.tracing" version="0" />
       </languageVersions>
       <mapping-priorities>
@@ -122,14 +122,14 @@
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="ec2a91d9-299c-4a21-ab13-4e7e4f6f44d9(DeSpec.base#1229019237294225049)" />
+            <generator generatorUID="ec2a91d9-299c-4a21-ab13-4e7e4f6f44d9(mulder.base#1229019237294225049)" />
             <external-mapping>
               <mapping-set>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(DeSpec.base.generator.template.main@generator)" nodeID="2933779798699395714" />
+                  <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(mulder.base.generator.template.main@generator)" nodeID="2933779798699395714" />
                 </mapping-set-element>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(DeSpec.base.generator.template.main@generator)" nodeID="3304628194979410168" />
+                  <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(mulder.base.generator.template.main@generator)" nodeID="3304628194979410168" />
                 </mapping-set-element>
               </mapping-set>
             </external-mapping>
@@ -143,14 +143,14 @@
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="ec2a91d9-299c-4a21-ab13-4e7e4f6f44d9(DeSpec.base#1229019237294225049)" />
+            <generator generatorUID="ec2a91d9-299c-4a21-ab13-4e7e4f6f44d9(mulder.base#1229019237294225049)" />
             <external-mapping>
               <mapping-set>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(DeSpec.base.generator.template.main@generator)" nodeID="2933779798699395714" />
+                  <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(mulder.base.generator.template.main@generator)" nodeID="2933779798699395714" />
                 </mapping-set-element>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(DeSpec.base.generator.template.main@generator)" nodeID="3304628194979410168" />
+                  <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(mulder.base.generator.template.main@generator)" nodeID="3304628194979410168" />
                 </mapping-set-element>
               </mapping-set>
             </external-mapping>
@@ -161,7 +161,7 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec.base)</dependency>
+    <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</dependency>
     <dependency reexport="false">83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</dependency>
     <dependency reexport="false">b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)</dependency>
     <dependency reexport="false">d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)</dependency>
@@ -226,7 +226,7 @@
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
     <extendedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</extendedLanguage>
     <extendedLanguage>b25694ab-2b70-4644-a06e-4d199f64d0c5(DeSpec.Text)</extendedLanguage>
-    <extendedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec.base)</extendedLanguage>
+    <extendedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</extendedLanguage>
   </extendedLanguages>
 </language>
 

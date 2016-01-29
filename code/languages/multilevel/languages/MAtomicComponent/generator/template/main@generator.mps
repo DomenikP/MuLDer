@@ -1752,7 +1752,7 @@
               </node>
               <node concept="1kf5GB" id="RvNPiUTDNT" role="lGtFl">
                 <ref role="1keivA" to="n5ru:RvNPiUTFR5" resolve="structType2ComponentType" />
-                <ref role="2R8smy" to="n5ru:RvNPiV0$Fn" resolve="globalVariable2ComponentInstance" />
+                <ref role="2R8smy" to="n5ru:RvNPiV0$Fn" resolve="structType2ComponentType" />
               </node>
             </node>
             <node concept="17Uvod" id="1qBaxu2sZAS" role="lGtFl">
