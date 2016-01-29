@@ -23,7 +23,6 @@
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <languageVersions>
-        <language id="ce1120c1-075f-4f11-a8fc-36ddbe2de15f" fqName="DeSpec.TextGen" version="0" />
         <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />
         <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
         <language id="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62" fqName="com.mbeddr.mpsutil.jung" version="0" />
@@ -47,6 +46,7 @@
         <language id="e11c169d-9fe2-4a19-8c43-ddd8ffefd883" fqName="mbeddr.debugger.specification" version="-1" />
         <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="mulder.base" version="0" />
         <language id="b25694ab-2b70-4644-a06e-4d199f64d0c5" fqName="mulder.text" version="0" />
+        <language id="ce1120c1-075f-4f11-a8fc-36ddbe2de15f" fqName="mulder.textgen" version="0" />
       </languageVersions>
       <mapping-priorities />
     </generator>
@@ -56,7 +56,7 @@
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
     <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</dependency>
-    <dependency reexport="false">ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</dependency>
+    <dependency reexport="false">ce1120c1-075f-4f11-a8fc-36ddbe2de15f(mulder.textgen)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
@@ -95,7 +95,7 @@
   </languageVersions>
   <extendedLanguages>
     <extendedLanguage>b25694ab-2b70-4644-a06e-4d199f64d0c5(mulder.text)</extendedLanguage>
-    <extendedLanguage>ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</extendedLanguage>
+    <extendedLanguage>ce1120c1-075f-4f11-a8fc-36ddbe2de15f(mulder.textgen)</extendedLanguage>
   </extendedLanguages>
 </language>
 

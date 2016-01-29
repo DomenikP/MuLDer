@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="DeSpec.TextGen" uuid="ce1120c1-075f-4f11-a8fc-36ddbe2de15f" version="0">
+<language namespace="mulder.textgen" uuid="ce1120c1-075f-4f11-a8fc-36ddbe2de15f" version="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator name="" generatorUID="DeSpec.TextGen#7125955223611155185" uuid="8165ef98-703d-4a4b-8a5a-c4f6e1dd4458">
+    <generator name="" generatorUID="mulder.textgen#7125955223611155185" uuid="8165ef98-703d-4a4b-8a5a-c4f6e1dd4458">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -16,7 +16,7 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false">b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)</dependency>
-        <dependency reexport="false">ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</dependency>
+        <dependency reexport="false">ce1120c1-075f-4f11-a8fc-36ddbe2de15f(mulder.textgen)</dependency>
         <dependency reexport="false">6477ee8f-eec2-4bda-bd85-252b93f5f0ec(jetbrains.mps.lang.textGen#1233678176149)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
@@ -42,15 +42,14 @@
         <usedLanguage>c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</usedLanguage>
         <usedLanguage>18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</usedLanguage>
         <usedLanguage>654422bf-e75f-44dc-936d-188890a746ce(de.slisson.mps.reflection)</usedLanguage>
-        <usedLanguage>ce1120c1-075f-4f11-a8fc-36ddbe2de15f(DeSpec.TextGen)</usedLanguage>
         <usedLanguage>59a09bf6-2b13-49ef-80d1-741985a7f0ed(mulder.tracing)</usedLanguage>
         <usedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</usedLanguage>
+        <usedLanguage>ce1120c1-075f-4f11-a8fc-36ddbe2de15f(mulder.textgen)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <languageVersions>
-        <language id="ce1120c1-075f-4f11-a8fc-36ddbe2de15f" fqName="DeSpec.TextGen" version="-1" />
         <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />
         <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
         <language id="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62" fqName="com.mbeddr.mpsutil.jung" version="0" />
@@ -80,6 +79,7 @@
         <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="mbeddr.debugger.core" version="0" />
         <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="mulder.base" version="0" />
         <language id="b25694ab-2b70-4644-a06e-4d199f64d0c5" fqName="mulder.text" version="0" />
+        <language id="ce1120c1-075f-4f11-a8fc-36ddbe2de15f" fqName="mulder.textgen" version="-1" />
         <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" fqName="mulder.tracing" version="0" />
       </languageVersions>
       <mapping-priorities>
@@ -89,10 +89,10 @@
             <external-mapping>
               <mapping-set>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.TextGen.generator.template.main@generator)" nodeID="7125955223611155186" />
+                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(mulder.textgen.generator.template.main@generator)" nodeID="7125955223611155186" />
                 </mapping-set-element>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.TextGen.generator.template.main@generator)" nodeID="915776213448746399" />
+                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(mulder.textgen.generator.template.main@generator)" nodeID="915776213448746399" />
                 </mapping-set-element>
               </mapping-set>
             </external-mapping>
@@ -110,13 +110,13 @@
             <external-mapping>
               <mapping-set>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.TextGen.generator.template.main@generator)" nodeID="7125955223611155186" />
+                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(mulder.textgen.generator.template.main@generator)" nodeID="7125955223611155186" />
                 </mapping-set-element>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.TextGen.generator.template.main@generator)" nodeID="915776213448746399" />
+                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(mulder.textgen.generator.template.main@generator)" nodeID="915776213448746399" />
                 </mapping-set-element>
                 <mapping-set-element>
-                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.TextGen.generator.template.main@generator)" nodeID="3304628194958377944" />
+                  <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(mulder.textgen.generator.template.main@generator)" nodeID="3304628194958377944" />
                 </mapping-set-element>
               </mapping-set>
             </external-mapping>
@@ -139,7 +139,7 @@
           <greater-priority-mapping>
             <generator generatorUID="8165ef98-703d-4a4b-8a5a-c4f6e1dd4458(DeSpec.TextGen#7125955223611155185)" />
             <external-mapping>
-              <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(DeSpec.TextGen.generator.template.main@generator)" nodeID="3304628194958377944" />
+              <mapping-node modelUID="r:5459777b-615f-4220-b5f5-cff3396d2f62(mulder.textgen.generator.template.main@generator)" nodeID="3304628194958377944" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
