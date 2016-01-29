@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="DeSpec.Generator.runtime" uuid="1b4696c4-7581-4b83-b80e-990bd5d0c762" compileInMPS="true">
+<solution name="mulder.generator.runtime" uuid="1b4696c4-7581-4b83-b80e-990bd5d0c762" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

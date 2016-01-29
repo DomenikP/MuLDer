@@ -29,7 +29,7 @@
         <dependency reexport="false">b25694ab-2b70-4644-a06e-4d199f64d0c5(mulder.text)</dependency>
         <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</dependency>
         <dependency reexport="false" scope="design">ec2a91d9-299c-4a21-ab13-4e7e4f6f44d9(mulder.base#1229019237294225049)</dependency>
-        <dependency reexport="false">99888d29-b855-436d-ae75-a4c97dc6a576(DeSpec.Model#5475378721077114270)</dependency>
+        <dependency reexport="false">99888d29-b855-436d-ae75-a4c97dc6a576(mulder.model#5475378721077114270)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
@@ -118,7 +118,7 @@
     <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
     <dependency reexport="false">18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
-    <dependency reexport="true">1b4696c4-7581-4b83-b80e-990bd5d0c762(DeSpec.Generator.runtime)</dependency>
+    <dependency reexport="true">1b4696c4-7581-4b83-b80e-990bd5d0c762(mulder.generator.runtime)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</dependency>
@@ -167,7 +167,7 @@
     <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" fqName="mulder.tracing" version="0" />
   </languageVersions>
   <runtime>
-    <dependency reexport="false">1b4696c4-7581-4b83-b80e-990bd5d0c762(DeSpec.Generator.runtime)</dependency>
+    <dependency reexport="false">1b4696c4-7581-4b83-b80e-990bd5d0c762(mulder.generator.runtime)</dependency>
   </runtime>
   <extendedLanguages>
     <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</extendedLanguage>
