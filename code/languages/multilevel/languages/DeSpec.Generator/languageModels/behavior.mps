@@ -833,7 +833,7 @@
                       <node concept="2Xjw5R" id="5kxYjVobVmn" role="2OqNvi">
                         <node concept="1xMEDy" id="5kxYjVobVmp" role="1xVPHs">
                           <node concept="chp4Y" id="5kxYjVobVmP" role="ri$Ld">
-                            <ref role="cht4Q" to="gx1i:6t$AXNjmDBn" resolve="LiftToNode" />
+                            <ref role="cht4Q" to="gx1i:6t$AXNjmDBn" resolve="NodeResolver" />
                           </node>
                         </node>
                       </node>
@@ -856,7 +856,7 @@
   </node>
   <node concept="13h7C7" id="6t$AXNjsCcI">
     <property role="3GE5qa" value="inputNodes.lifterFunction" />
-    <ref role="13h7C2" to="gx1i:6t$AXNjmDBn" resolve="LiftToNode" />
+    <ref role="13h7C2" to="gx1i:6t$AXNjmDBn" resolve="NodeResolver" />
     <node concept="13hLZK" id="6t$AXNjsCcJ" role="13h7CW">
       <node concept="3clFbS" id="6t$AXNjsCcK" role="2VODD2" />
     </node>
@@ -2082,7 +2082,7 @@
   </node>
   <node concept="13h7C7" id="6P1S2fVuu0O">
     <property role="3GE5qa" value="debugSemantics" />
-    <ref role="13h7C2" to="gx1i:6P1S2fVutUZ" resolve="ValueProviderSpec" />
+    <ref role="13h7C2" to="gx1i:6P1S2fVutUZ" resolve="ModelValue" />
     <node concept="13hLZK" id="6P1S2fVuu0P" role="13h7CW">
       <node concept="3clFbS" id="6P1S2fVuu0Q" role="2VODD2" />
     </node>

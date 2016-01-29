@@ -195,7 +195,7 @@
     </language>
   </registry>
   <node concept="2v9HqL" id="14emBKkRB_G">
-    <node concept="2xfidK" id="6t$AXNkJNZW" role="2AWWZH">
+    <node concept="2xfidK" id="6n681TV4_Jx" role="2AWWZH">
       <ref role="2xfifS" to="x71v:6xhsDCu1lLg" resolve="Desktop Platform" />
     </node>
     <node concept="2Q9Fgs" id="14emBKkRB_J" role="2Q9xDr">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="Tracing" uuid="59a09bf6-2b13-49ef-80d1-741985a7f0ed" version="0">
+<language namespace="mulder.tracing" uuid="59a09bf6-2b13-49ef-80d1-741985a7f0ed" version="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator name="" generatorUID="Tracing#71553305890765482" uuid="0f4d33b0-e7a4-4173-b7b6-76b7aa1a5ad5">
+    <generator name="" generatorUID="mulder.tracing#71553305890765482" uuid="0f4d33b0-e7a4-4173-b7b6-76b7aa1a5ad5">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -17,19 +17,18 @@
       <dependencies>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
-        <dependency reexport="false">59a09bf6-2b13-49ef-80d1-741985a7f0ed(Tracing)</dependency>
+        <dependency reexport="false">59a09bf6-2b13-49ef-80d1-741985a7f0ed(mulder.tracing)</dependency>
         <dependency reexport="false">6477ee8f-eec2-4bda-bd85-252b93f5f0ec(jetbrains.mps.lang.textGen#1233678176149)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
-        <usedLanguage>59a09bf6-2b13-49ef-80d1-741985a7f0ed(Tracing)</usedLanguage>
+        <usedLanguage>59a09bf6-2b13-49ef-80d1-741985a7f0ed(mulder.tracing)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <languageVersions>
-        <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" fqName="Tracing" version="-1" />
         <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
         <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
         <language id="fd392034-7849-419d-9071-12563d152375" fqName="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -43,13 +42,14 @@
         <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" fqName="jetbrains.mps.lang.quotation" version="0" />
         <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="0" />
         <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
+        <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" fqName="mulder.tracing" version="-1" />
       </languageVersions>
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
             <generator generatorUID="0f4d33b0-e7a4-4173-b7b6-76b7aa1a5ad5(Tracing#71553305890765482)" />
             <external-mapping>
-              <mapping-node modelUID="r:a8853d7d-1fb4-41e6-903b-721b825a9020(Tracing.generator.template.main@generator)" nodeID="71553305890765483" />
+              <mapping-node modelUID="r:a8853d7d-1fb4-41e6-903b-721b825a9020(mulder.tracing.generator.template.main@generator)" nodeID="71553305890765483" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
@@ -65,7 +65,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
-    <dependency reexport="true">60a9c5a2-3567-43ea-a84a-28dab8450187(Tracing.runtime)</dependency>
+    <dependency reexport="true">60a9c5a2-3567-43ea-a84a-28dab8450187(mulder.tracing.runtime)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
@@ -103,7 +103,7 @@
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" fqName="jetbrains.mps.lang.typesystem" version="0" />
   </languageVersions>
   <runtime>
-    <dependency reexport="false">60a9c5a2-3567-43ea-a84a-28dab8450187(Tracing.runtime)</dependency>
+    <dependency reexport="false">60a9c5a2-3567-43ea-a84a-28dab8450187(mulder.tracing.runtime)</dependency>
   </runtime>
   <extendedLanguages>
     <extendedLanguage>7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</extendedLanguage>

@@ -2,32 +2,32 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/devkits/MultiLevel.devkit" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/DeSpec.Generator/DeSpec.Generator.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/DeSpec.Model/DeSpec.Model.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/DeSpec.Text/DeSpec.Text.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/DeSpec.TextGen/DeSpec.TextGen.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/DeSpec.mbeddr/DeSpec.mbeddr.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="component.atomic" />
-      <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/sandbox/MAtomicComponent.sandbox.msd" folder="component.atomic" />
-      <modulePath path="$PROJECT_DIR$/languages/MMockComponent/MMockComponent.mpl" folder="component.mock" />
-      <modulePath path="$PROJECT_DIR$/languages/MMockComponent/sandbox/MMockComponent.sandbox.msd" folder="component.mock" />
-      <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.def/MUnit.gen.def.mpl" folder="unit" />
-      <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.efficient/MUnit.gen.efficient.mpl" folder="unit" />
-      <modulePath path="$PROJECT_DIR$/languages/MUnit/MUnit.mpl" folder="unit" />
-      <modulePath path="$PROJECT_DIR$/languages/MUnit/sandbox/MUnit.sandbox.msd" folder="unit" />
-      <modulePath path="$PROJECT_DIR$/languages/Tracing/Tracing.mpl" folder="tracing" />
-      <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="statemachine" />
-      <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="statemachine" />
-      <modulePath path="$PROJECT_DIR$/languages/multiLevel.debugger/multiLevel.debugger.mpl" folder="debugger.runtime" />
-      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.Generator.runtime/DeSpec.Generator.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.pluginSolution/DeSpec.pluginSolution.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.runtime/DeSpec.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/Tracing.runtime/Tracing.runtime.msd" folder="tracing" />
-      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.backendProvider/multiLevel.backendProvider.msd" folder="debugger.runtime" />
-      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.runconfiguration/multiLevel.runconfiguration.msd" folder="debugger.runtime" />
-      <modulePath path="$PROJECT_DIR$/solutions/test.ex.atomicomponents/test.ex.atomicomponents.msd" folder="component.atomic" />
+      <modulePath path="$PROJECT_DIR$/devkits/MultiLevel.devkit" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.Generator/DeSpec.Generator.mpl" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.Model/DeSpec.Model.mpl" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.Text/DeSpec.Text.mpl" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.TextGen/DeSpec.TextGen.mpl" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.mbeddr/DeSpec.mbeddr.mpl" folder="debugger" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="extensions.component" />
+      <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/sandbox/MAtomicComponent.sandbox.msd" folder="extensions.component" />
+      <modulePath path="$PROJECT_DIR$/languages/MMockComponent/MMockComponent.mpl" folder="extensions.component" />
+      <modulePath path="$PROJECT_DIR$/languages/MMockComponent/sandbox/MMockComponent.sandbox.msd" folder="extensions.component" />
+      <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.def/MUnit.gen.def.mpl" folder="extensions.unit" />
+      <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.efficient/MUnit.gen.efficient.mpl" folder="extensions.unit" />
+      <modulePath path="$PROJECT_DIR$/languages/MUnit/MUnit.mpl" folder="extensions.unit" />
+      <modulePath path="$PROJECT_DIR$/languages/MUnit/sandbox/MUnit.sandbox.msd" folder="extensions.unit" />
+      <modulePath path="$PROJECT_DIR$/languages/Tracing/Tracing.mpl" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="extensions.statemachine" />
+      <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="extensions.statemachine" />
+      <modulePath path="$PROJECT_DIR$/languages/multiLevel.debugger/multiLevel.debugger.mpl" folder="debugger." />
+      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.Generator.runtime/DeSpec.Generator.runtime.msd" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.pluginSolution/DeSpec.pluginSolution.msd" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.runtime/DeSpec.runtime.msd" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/solutions/Tracing.runtime/Tracing.runtime.msd" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.backendProvider/multiLevel.backendProvider.msd" folder="debugger." />
+      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.runconfiguration/multiLevel.runconfiguration.msd" folder="debugger." />
+      <modulePath path="$PROJECT_DIR$/solutions/test.ex.atomicomponents/test.ex.atomicomponents.msd" folder="extensions.component" />
     </projectModules>
   </component>
 </project>

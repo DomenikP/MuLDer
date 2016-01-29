@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="multiLevel.backendProvider" uuid="93907db4-777e-49e3-bf17-9c6039f27351" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="mbeddr.debugger.gdb" uuid="93907db4-777e-49e3-bf17-9c6039f27351" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

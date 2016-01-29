@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:dc35f627-7670-4f6a-aec5-b4a7b6b6645b(Tracing.typesystem)">
+<model ref="r:dc35f627-7670-4f6a-aec5-b4a7b6b6645b(mulder.tracing.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="6be1" ref="r:f8838c27-35cb-4208-b3cd-bd0141e6eb07(Tracing.structure)" />
-    <import index="2t59" ref="r:95f162b1-750b-4b22-82f7-9c870309dc19(Tracing.behavior)" implicit="true" />
+    <import index="6be1" ref="r:f8838c27-35cb-4208-b3cd-bd0141e6eb07(mulder.tracing.structure)" />
+    <import index="2t59" ref="r:95f162b1-750b-4b22-82f7-9c870309dc19(mulder.tracing.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

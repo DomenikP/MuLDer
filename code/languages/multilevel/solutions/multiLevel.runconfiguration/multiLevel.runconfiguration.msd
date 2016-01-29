@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="multiLevel.runconfiguration" uuid="18897875-8ab8-4388-9c05-48003f402896" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="mbeddr.debugger.runconfiguration" uuid="18897875-8ab8-4388-9c05-48003f402896" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -24,7 +24,7 @@
     <dependency reexport="false">a1250a4d-c090-42c3-ad7c-d298a3357dd4(jetbrains.mps.make.runtime)</dependency>
     <dependency reexport="false">558e8d91-d211-4de0-b141-9a8b8f04b79d(multiLevel.debugger)</dependency>
     <dependency reexport="false">2d7fadf5-33f6-4e80-a78f-0f739add2bde(com.mbeddr.core.buildconfig)</dependency>
-    <dependency reexport="false">93907db4-777e-49e3-bf17-9c6039f27351(multiLevel.backendProvider)</dependency>
+    <dependency reexport="false">93907db4-777e-49e3-bf17-9c6039f27351(mbeddr.debugger.gdb)</dependency>
     <dependency reexport="false">06d68b77-b699-4918-83b8-857e63787800(com.mbeddr.core.unittest)</dependency>
     <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(DeSpec.base)</dependency>
     <dependency reexport="false">f3eac385-54e3-4a21-896a-eb362971f50b(DeSpec.runtime)</dependency>

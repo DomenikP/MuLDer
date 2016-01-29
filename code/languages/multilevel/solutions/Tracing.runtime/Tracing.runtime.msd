@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="Tracing.runtime" uuid="60a9c5a2-3567-43ea-a84a-28dab8450187" compileInMPS="true">
+<solution name="mulder.tracing.runtime" uuid="60a9c5a2-3567-43ea-a84a-28dab8450187" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

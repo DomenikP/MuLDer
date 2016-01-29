@@ -48,7 +48,6 @@
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="DeSpec.base" version="0" />
     <language id="5529be6b-f382-41f9-834c-9d6b2e079511" fqName="MAtomicComponent" version="0" />
     <language id="eb6e703a-d3cc-488e-a462-15d37e40ae7a" fqName="MMockComponent" version="0" />
-    <language id="ca35bd95-fbad-4fae-9646-654a9a55ec5f" fqName="MStubComponent" version="0" />
     <language id="bec9c00b-b5be-48af-9766-38765bcc974d" fqName="MUnit" version="-1" />
     <language id="7ce26145-e88e-4147-80f6-84aca3a7cb16" fqName="MUnit.gen.def" version="0" />
     <language id="72548d30-5797-4668-a0d3-be1e47fc05b7" fqName="MUnit.gen.efficient" version="0" />
