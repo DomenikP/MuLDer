@@ -38,7 +38,7 @@
     <import index="tpf8" ref="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(mbeddr.debugger.core.behavior)" />
-    <import index="9rhm" ref="r:80d3eb79-bb4f-46ba-8821-a7f143f23c58(DeSpec.Generator.behavior)" implicit="true" />
+    <import index="pxd4" ref="r:189ee75c-303e-482c-a2bb-baf39be51dab(mulder.modelgen.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -344,7 +344,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="RvNPiV0yu5" role="2OqNvi">
-                    <ref role="37wK5l" to="9rhm:6t$AXNjIdr3" resolve="getLiftToNode" />
+                    <ref role="37wK5l" to="pxd4:6t$AXNjIdr3" resolve="getLiftToNode" />
                     <node concept="13iPFW" id="RvNPiV0yxd" role="37wK5m" />
                   </node>
                 </node>

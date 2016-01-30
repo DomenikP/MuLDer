@@ -9,31 +9,23 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="0" />
     <use id="b4d28e19-7d2d-47e9-943e-3a41f97a0e52" name="com.mbeddr.mpsutil.plantuml.node" version="0" />
     <use id="a482b416-d0c9-473f-8f67-725ed642b3f3" name="com.mbeddr.mpsutil.breadcrumb" version="0" />
-    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
+    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model" version="0" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="558e8d91-d211-4de0-b141-9a8b8f04b79d" name="mbeddr.debugger.core" version="0" />
     <use id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator" version="0" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
+    <use id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="32lw" ref="r:1318440f-b749-4109-b68d-6af6e6a2b304(MAtomicComponent.structure)" />
     <import index="ef37" ref="r:ab69a7e8-5e1f-45c2-b970-c04b490d9782(MMockComponent.structure)" />
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(mulder.model.structure)" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
-    <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator">
-      <concept id="7872820068767882943" name="DeSpec.Generator.structure.ModelValue" flags="ng" index="2me3Us">
-        <child id="4369017833403020933" name="valueSpecification" index="1PXawn" />
-      </concept>
-      <concept id="3906148130290944556" name="DeSpec.Generator.structure.ValueTransformer" flags="ng" index="1keisF">
-        <child id="9201156180038246256" name="targetValue" index="2XCcQV" />
-        <child id="9201156180025728476" name="sourceValue" index="2YSWWn" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -102,6 +94,15 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
+      <concept id="7872820068767882943" name="mulder.modelgen.structure.ModelValue" flags="ng" index="2me3Us">
+        <child id="4369017833403020933" name="valueSpecification" index="1PXawn" />
+      </concept>
+      <concept id="3906148130290944556" name="mulder.modelgen.structure.ValueTransformer" flags="ng" index="1keisF">
+        <child id="9201156180038246256" name="targetValue" index="2XCcQV" />
+        <child id="9201156180025728476" name="sourceValue" index="2YSWWn" />
+      </concept>
+    </language>
   </registry>
   <node concept="2me3Us" id="69N_VEHCWmY">
     <property role="TrG5h" value="MockComponent_ModelValue" />
@@ -153,14 +154,6 @@
   </node>
   <node concept="1keisF" id="69N_VEHEOWH">
     <property role="TrG5h" value="component2Mock" />
-    <node concept="2YYrhs" id="69N_VEHEOWI" role="2YSWWn">
-      <node concept="2YLCzo" id="69N_VEHEOWJ" role="2YZnDk">
-        <ref role="2YLC_M" to="32lw:1X5iFxI$VHM" resolve="AtomicComponent" />
-        <node concept="1PXbaU" id="69N_VEHEOWN" role="2YLCwC">
-          <node concept="2dKz1q" id="69N_VEHEOWM" role="1PXbbl" />
-        </node>
-      </node>
-    </node>
     <node concept="2XId1z" id="69N_VEHEOWQ" role="2XCcQV">
       <node concept="2YLCzo" id="69N_VEHEOWR" role="2XId1A">
         <ref role="2YLC_M" to="ef37:7MFNr6DbAdK" resolve="MockComponent" />
@@ -205,6 +198,14 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YYrhs" id="69N_VEHEOWI" role="2YSWWn">
+      <node concept="2YLCzo" id="69N_VEHEOWJ" role="2YZnDk">
+        <ref role="2YLC_M" to="32lw:1X5iFxI$VHM" resolve="AtomicComponent" />
+        <node concept="1PXbaU" id="69N_VEHEOWN" role="2YLCwC">
+          <node concept="2dKz1q" id="69N_VEHEOWM" role="1PXbbl" />
         </node>
       </node>
     </node>

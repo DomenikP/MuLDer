@@ -31,16 +31,15 @@
         <usedLanguage>63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</usedLanguage>
         <usedLanguage>7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</usedLanguage>
         <usedLanguage>b67a6ca0-735e-4903-b238-4b525bddf96a(com.mbeddr.mpsutil.genutil)</usedLanguage>
-        <usedLanguage>d063e9e6-a068-4a98-b5b4-a42dc5a1cf00(DeSpec.Generator)</usedLanguage>
         <usedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</usedLanguage>
         <usedLanguage>f2600f3d-2083-4803-a693-cff3268f4af9(mulder.model)</usedLanguage>
+        <usedLanguage>77535ba7-24b5-4667-bf00-2e9c9074a90d(mulder.modelgen)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
         <usedDevKit>d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)</usedDevKit>
       </usedDevKits>
       <languageVersions>
-        <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" fqName="DeSpec.Generator" version="0" />
         <language id="5529be6b-f382-41f9-834c-9d6b2e079511" fqName="MAtomicComponent" version="-1" />
         <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />
         <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" fqName="com.mbeddr.core.buildconfig" version="0" />
@@ -92,6 +91,7 @@
         <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="mbeddr.debugger.core" version="0" />
         <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="mulder.base" version="0" />
         <language id="f2600f3d-2083-4803-a693-cff3268f4af9" fqName="mulder.model" version="0" />
+        <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" fqName="mulder.modelgen" version="0" />
       </languageVersions>
       <mapping-priorities />
     </generator>
@@ -122,7 +122,6 @@
     <usedLanguage>af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)</usedLanguage>
     <usedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</usedLanguage>
     <usedLanguage>ef7bf5ac-d06c-4342-b11d-e42104eb9343(jetbrains.mps.lang.plugin.standalone)</usedLanguage>
-    <usedLanguage>d063e9e6-a068-4a98-b5b4-a42dc5a1cf00(DeSpec.Generator)</usedLanguage>
     <usedLanguage>d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)</usedLanguage>
     <usedLanguage>d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</usedLanguage>
     <usedLanguage>b4d28e19-7d2d-47e9-943e-3a41f97a0e52(com.mbeddr.mpsutil.plantuml.node)</usedLanguage>
@@ -133,13 +132,13 @@
     <usedLanguage>558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</usedLanguage>
     <usedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</usedLanguage>
     <usedLanguage>f2600f3d-2083-4803-a693-cff3268f4af9(mulder.model)</usedLanguage>
+    <usedLanguage>77535ba7-24b5-4667-bf00-2e9c9074a90d(mulder.modelgen)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
     <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
   </usedDevKits>
   <languageVersions>
-    <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" fqName="DeSpec.Generator" version="0" />
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />
     <language id="63e0e566-5131-447e-90e3-12ea330e1a00" fqName="com.mbeddr.mpsutil.blutil" version="0" />
     <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
@@ -184,6 +183,7 @@
     <language id="558e8d91-d211-4de0-b141-9a8b8f04b79d" fqName="mbeddr.debugger.core" version="0" />
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="mulder.base" version="0" />
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" fqName="mulder.model" version="0" />
+    <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" fqName="mulder.modelgen" version="0" />
     <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" fqName="mulder.tracing" version="0" />
   </languageVersions>
   <extendedLanguages>

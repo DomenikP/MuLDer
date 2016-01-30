@@ -17,9 +17,9 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="0" />
     <use id="b4d28e19-7d2d-47e9-943e-3a41f97a0e52" name="com.mbeddr.mpsutil.plantuml.node" version="0" />
     <use id="a482b416-d0c9-473f-8f67-725ed642b3f3" name="com.mbeddr.mpsutil.breadcrumb" version="0" />
-    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
-    <use id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator" version="0" />
+    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model" version="0" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
+    <use id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -44,22 +44,6 @@
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   </imports>
   <registry>
-    <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator">
-      <concept id="7872820068762968763" name="DeSpec.Generator.structure.WatchProviderSpec" flags="ng" index="2mrKao">
-        <child id="7872820068765074097" name="valueProvider" index="2m3Iai" />
-        <child id="7872820068763449582" name="nameFunction" index="2mtXzd" />
-      </concept>
-      <concept id="7450251056318683607" name="DeSpec.Generator.structure.NodeResolver" flags="ng" index="2Ofw8b">
-        <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
-        <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
-        <child id="7450251056318702784" name="function" index="2OfBWs" />
-      </concept>
-      <concept id="7450251056318684258" name="DeSpec.Generator.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
-      <concept id="3906148130290944556" name="DeSpec.Generator.structure.ValueTransformer" flags="ng" index="1keisF">
-        <child id="9201156180038246256" name="targetValue" index="2XCcQV" />
-        <child id="9201156180025728476" name="sourceValue" index="2YSWWn" />
-      </concept>
-    </language>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
       <concept id="1225194240794" name="jetbrains.mps.lang.behavior.structure.ConceptBehavior" flags="ng" index="13h7C7">
         <reference id="1225194240799" name="concept" index="13h7C2" />
@@ -207,6 +191,22 @@
     </language>
     <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="mulder.tracing">
       <concept id="7450251056321812345" name="mulder.tracing.structure.InputNodeOperation" flags="ng" index="2OVGM_" />
+    </language>
+    <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
+      <concept id="7872820068762968763" name="mulder.modelgen.structure.WatchProviderSpec" flags="ng" index="2mrKao">
+        <child id="7872820068765074097" name="valueProvider" index="2m3Iai" />
+        <child id="7872820068763449582" name="nameFunction" index="2mtXzd" />
+      </concept>
+      <concept id="7450251056318683607" name="mulder.modelgen.structure.NodeResolver" flags="ng" index="2Ofw8b">
+        <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
+        <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
+        <child id="7450251056318702784" name="function" index="2OfBWs" />
+      </concept>
+      <concept id="7450251056318684258" name="mulder.modelgen.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
+      <concept id="3906148130290944556" name="mulder.modelgen.structure.ValueTransformer" flags="ng" index="1keisF">
+        <child id="9201156180038246256" name="targetValue" index="2XCcQV" />
+        <child id="9201156180025728476" name="sourceValue" index="2YSWWn" />
+      </concept>
     </language>
   </registry>
   <node concept="13h7C7" id="6aU7c0uORso">
@@ -1024,18 +1024,6 @@
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="Field_WatchProviderSpec" />
     <ref role="2qziyn" to="32lw:1X5iFxI_Zap" resolve="Field" />
-    <node concept="2m3jtJ" id="6P1S2g0sJkf" role="2m3Iai">
-      <node concept="3clFbS" id="6P1S2g0sJkg" role="2VODD2">
-        <node concept="3clFbF" id="6P1S2g0sK3g" role="3cqZAp">
-          <node concept="2OqwBi" id="6P1S2g0sK86" role="3clFbG">
-            <node concept="2Duq_I" id="6P1S2g0sK3f" role="2Oq$k0" />
-            <node concept="3TrEf2" id="6P1S2g0sKOC" role="2OqNvi">
-              <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2qzixX" id="6P1S2g0sJkh" role="2mtXzd">
       <node concept="3clFbS" id="6P1S2g0sJki" role="2VODD2">
         <node concept="3clFbF" id="6P1S2g0sJt3" role="3cqZAp">
@@ -1043,6 +1031,18 @@
             <node concept="2Duq_I" id="6P1S2g0sJt2" role="2Oq$k0" />
             <node concept="3TrcHB" id="6P1S2g0sJW_" role="2OqNvi">
               <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2m3jtJ" id="6P1S2g0sJkf" role="2m3Iai">
+      <node concept="3clFbS" id="6P1S2g0sJkg" role="2VODD2">
+        <node concept="3clFbF" id="6P1S2g0sK3g" role="3cqZAp">
+          <node concept="2OqwBi" id="6P1S2g0sK86" role="3clFbG">
+            <node concept="2Duq_I" id="6P1S2g0sK3f" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6P1S2g0sKOC" role="2OqNvi">
+              <ref role="3Tt5mk" to="mj1l:hEaDaGor64" />
             </node>
           </node>
         </node>

@@ -42,8 +42,8 @@
     <import index="j2z0" ref="r:e018fc1c-c261-4cd9-b91c-fe6714dcbd6e(mbeddr.debugger.core.debug)" />
     <import index="k7g3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(mulder.text.behavior)" />
-    <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
     <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(mbeddr.debugger.core.behavior)" />
+    <import index="u27g" ref="r:cabbb7cf-8f86-4200-b4f3-4030cce9bd53(mulder.modelgen.structure)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="y5px" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator(MPS.Core/jetbrains.mps.generator@java_stub)" implicit="true" />
   </imports>
@@ -4279,7 +4279,7 @@
                                                   <node concept="3cpWsn" id="1pKlcOGVwHu" role="3cpWs9">
                                                     <property role="TrG5h" value="spec" />
                                                     <node concept="3Tqbb2" id="1pKlcOGVwHv" role="1tU5fm">
-                                                      <ref role="ehGHo" to="gx1i:6P1S2fVutUZ" resolve="ModelValue" />
+                                                      <ref role="ehGHo" to="u27g:6P1S2fVutUZ" resolve="ModelValue" />
                                                     </node>
                                                     <node concept="2OqwBi" id="1pKlcOGVwHw" role="33vP2m">
                                                       <node concept="35c_gC" id="1pKlcOGVwHx" role="2Oq$k0">
@@ -4319,7 +4319,7 @@
                                                               <ref role="3cqZAo" node="1pKlcOGVwHu" resolve="spec" />
                                                             </node>
                                                             <node concept="3TrEf2" id="1pKlcOGVKWM" role="2OqNvi">
-                                                              <ref role="3Tt5mk" to="gx1i:3MxRD99lnq5" />
+                                                              <ref role="3Tt5mk" to="u27g:3MxRD99lnq5" />
                                                             </node>
                                                           </node>
                                                           <node concept="2qgKlT" id="1pKlcOGVKWN" role="2OqNvi">
@@ -4428,7 +4428,7 @@
                                           <node concept="3cpWsn" id="1pKlcOGUWMx" role="3cpWs9">
                                             <property role="TrG5h" value="spec" />
                                             <node concept="3Tqbb2" id="1pKlcOGUWMy" role="1tU5fm">
-                                              <ref role="ehGHo" to="gx1i:6P1S2fVutUZ" resolve="ModelValue" />
+                                              <ref role="ehGHo" to="u27g:6P1S2fVutUZ" resolve="ModelValue" />
                                             </node>
                                             <node concept="2OqwBi" id="1pKlcOGUWMz" role="33vP2m">
                                               <node concept="35c_gC" id="1pKlcOGUWM$" role="2Oq$k0">
@@ -4465,7 +4465,7 @@
                                                         <ref role="3cqZAo" node="1pKlcOGUWMx" resolve="spec" />
                                                       </node>
                                                       <node concept="3TrEf2" id="1pKlcOGUWMR" role="2OqNvi">
-                                                        <ref role="3Tt5mk" to="gx1i:3MxRD99lnq5" />
+                                                        <ref role="3Tt5mk" to="u27g:3MxRD99lnq5" />
                                                       </node>
                                                     </node>
                                                     <node concept="2qgKlT" id="1pKlcOGUWMS" role="2OqNvi">

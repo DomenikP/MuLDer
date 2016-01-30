@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:1c811141-72f2-4b01-9274-1a512043b3e7(DeSpec.Generator.editor)">
+<model ref="r:ed14b056-4819-4978-bc8d-1efc79b1bc20(mulder.modelgen.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="gx1i" ref="r:41b5cdb5-83c2-45ad-a115-8461e12c2f3f(DeSpec.Generator.structure)" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
-    <import index="yh8" ref="r:cf8dc0a4-7e7f-4be5-9853-f747cd33208a(mulder.base.behavior)" />
-    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
-    <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(mulder.model.structure)" />
-    <import index="l756" ref="r:052aedf4-85d3-4173-8f24-9032633c8adf(mulder.model.behavior)" />
-    <import index="jwtc" ref="r:a2b271c3-ee73-475f-9551-9806d755317a(mulder.model.editor)" />
     <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
     <import index="wr1s" ref="r:0f9ddbb6-f761-4bd7-8dde-1e5300bd28c2(jetbrains.mps.lang.project.editor)" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" />
-    <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(mbeddr.debugger.core.behavior)" />
+    <import index="u27g" ref="r:cabbb7cf-8f86-4200-b4f3-4030cce9bd53(mulder.modelgen.structure)" />
+    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -88,7 +79,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="3oPrgty3uAv">
-    <ref role="1XX52x" to="gx1i:3oPrgty34CG" resolve="ValueTransformer" />
+    <ref role="1XX52x" to="u27g:3oPrgty34CG" resolve="ValueTransformer" />
     <node concept="3EZMnI" id="4JWsYZwB5IJ" role="2wV5jI">
       <node concept="3F0ifn" id="4JWsYZwB5IG" role="3EZMnx">
         <property role="3F0ifm" value="ModelValueTransformer:" />
@@ -124,7 +115,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="7YL4GJ1lEut" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:7YL4GJ1kHRs" />
+            <ref role="1NtTu8" to="u27g:7YL4GJ1kHRs" />
             <node concept="VPXOz" id="7YL4GJ1lEuu" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -147,7 +138,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="7YL4GJ24u07" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:7YL4GJ24tXK" />
+            <ref role="1NtTu8" to="u27g:7YL4GJ24tXK" />
             <node concept="VPXOz" id="7YL4GJ24u08" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -170,7 +161,7 @@
   </node>
   <node concept="24kQdi" id="1CCsFHtsE$q">
     <property role="3GE5qa" value="liftWatch" />
-    <ref role="1XX52x" to="gx1i:1CCsFHtn9nJ" resolve="Children2WatchesWalker" />
+    <ref role="1XX52x" to="u27g:1CCsFHtn9nJ" resolve="Children2WatchesWalker" />
     <node concept="3EZMnI" id="2EVeRXbH9ki" role="2wV5jI">
       <node concept="3F0ifn" id="2EVeRXbH9kj" role="3EZMnx">
         <property role="3F0ifm" value="LiftChildWatches2TopLevel:" />
@@ -207,7 +198,7 @@
           </node>
           <node concept="1iCGBv" id="2EVeRXbH9kA" role="3EZMnx">
             <property role="1$x2rV" value="&lt;none&gt;" />
-            <ref role="1NtTu8" to="gx1i:1CCsFHtsE$j" />
+            <ref role="1NtTu8" to="u27g:1CCsFHtsE$j" />
             <node concept="1sVBvm" id="2EVeRXbH9kB" role="1sWHZn">
               <node concept="3F0A7n" id="2EVeRXbH9kC" role="2wV5jI">
                 <property role="1Intyy" value="true" />
@@ -236,7 +227,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="2EVeRXbH9mI" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:1CCsFHt$0Il" />
+            <ref role="1NtTu8" to="u27g:1CCsFHt$0Il" />
             <node concept="VPXOz" id="2EVeRXbKxvA" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -263,7 +254,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="2EVeRXbH9kV" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:1CCsFHtC8Ts" />
+            <ref role="1NtTu8" to="u27g:1CCsFHtC8Ts" />
             <node concept="VPXOz" id="2EVeRXbH9kW" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -286,7 +277,7 @@
   </node>
   <node concept="24kQdi" id="6t$AXNjmIj8">
     <property role="3GE5qa" value="inputNodes.lifterFunction" />
-    <ref role="1XX52x" to="gx1i:6t$AXNjmDBn" resolve="NodeResolver" />
+    <ref role="1XX52x" to="u27g:6t$AXNjmDBn" resolve="NodeResolver" />
     <node concept="3EZMnI" id="6t$AXNjmKvN" role="2wV5jI">
       <node concept="3F0ifn" id="6t$AXNjmKvO" role="3EZMnx">
         <property role="3F0ifm" value="NodeResolver:" />
@@ -326,7 +317,7 @@
           </node>
           <node concept="1iCGBv" id="6t$AXNjmKvZ" role="3EZMnx">
             <property role="1$x2rV" value="&lt;none&gt;" />
-            <ref role="1NtTu8" to="gx1i:6t$AXNjmIiY" />
+            <ref role="1NtTu8" to="u27g:6t$AXNjmIiY" />
             <node concept="1sVBvm" id="6t$AXNjmKw0" role="1sWHZn">
               <node concept="3F0A7n" id="6t$AXNjmKw1" role="2wV5jI">
                 <property role="1Intyy" value="true" />
@@ -356,7 +347,7 @@
           </node>
           <node concept="1iCGBv" id="5kxYjVnle_8" role="3EZMnx">
             <property role="1$x2rV" value="&lt;none&gt;" />
-            <ref role="1NtTu8" to="gx1i:5kxYjVnqjVt" />
+            <ref role="1NtTu8" to="u27g:5kxYjVnqjVt" />
             <node concept="1sVBvm" id="5kxYjVnle_9" role="1sWHZn">
               <node concept="3F0A7n" id="5kxYjVnle_a" role="2wV5jI">
                 <property role="1Intyy" value="true" />
@@ -386,7 +377,7 @@
           </node>
           <node concept="3F1sOY" id="6t$AXNjmKw9" role="3EZMnx">
             <property role="1$x2rV" value="&lt;none&gt;" />
-            <ref role="1NtTu8" to="gx1i:6t$AXNjmIj0" />
+            <ref role="1NtTu8" to="u27g:6t$AXNjmIj0" />
             <node concept="VPXOz" id="6t$AXNjmKwa" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -409,9 +400,9 @@
   </node>
   <node concept="24kQdi" id="6t$AXNka3dB">
     <property role="3GE5qa" value="inputNodes.lifterFunction" />
-    <ref role="1XX52x" to="gx1i:6t$AXNka3dv" resolve="LiftToNodeReference" />
+    <ref role="1XX52x" to="u27g:6t$AXNka3dv" resolve="LiftToNodeReference" />
     <node concept="1iCGBv" id="6t$AXNka3dD" role="2wV5jI">
-      <ref role="1NtTu8" to="gx1i:6t$AXNka3dw" />
+      <ref role="1NtTu8" to="u27g:6t$AXNka3dw" />
       <node concept="1sVBvm" id="6t$AXNka3dF" role="1sWHZn">
         <node concept="3F0A7n" id="6t$AXNka3dP" role="2wV5jI">
           <property role="1Intyy" value="true" />
@@ -422,7 +413,7 @@
   </node>
   <node concept="24kQdi" id="8ik0RHTNfN">
     <property role="3GE5qa" value="stackframes.virtual" />
-    <ref role="1XX52x" to="gx1i:8ik0RHRBUd" resolve="VirtualFrameSpec" />
+    <ref role="1XX52x" to="u27g:8ik0RHRBUd" resolve="VirtualFrameSpec" />
     <node concept="3EZMnI" id="4Fv0ty1Pjk5" role="2wV5jI">
       <node concept="3F0ifn" id="4Fv0ty1Pjk6" role="3EZMnx">
         <property role="3F0ifm" value="VirtualStackFrame:" />
@@ -462,7 +453,7 @@
           </node>
           <node concept="1iCGBv" id="8ik0RHTQiX" role="3EZMnx">
             <property role="1$x2rV" value="&lt;none&gt;" />
-            <ref role="1NtTu8" to="gx1i:8ik0RHTP2M" />
+            <ref role="1NtTu8" to="u27g:8ik0RHTP2M" />
             <node concept="1sVBvm" id="8ik0RHTQiY" role="1sWHZn">
               <node concept="3F0A7n" id="8ik0RHTQiZ" role="2wV5jI">
                 <property role="1Intyy" value="true" />
@@ -491,7 +482,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="8ik0RHTQke" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:8ik0RHTNBO" />
+            <ref role="1NtTu8" to="u27g:8ik0RHTNBO" />
             <node concept="VPXOz" id="4Fv0ty1Pjkk" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -514,7 +505,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="8ik0RHTQkq" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:8ik0RHTNBQ" />
+            <ref role="1NtTu8" to="u27g:8ik0RHTNBQ" />
             <node concept="VPXOz" id="8ik0RHTQkz" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -537,7 +528,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="8ik0RHTQk_" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:8ik0RHTNIc" />
+            <ref role="1NtTu8" to="u27g:8ik0RHTNIc" />
             <node concept="VPXOz" id="8ik0RHTQkI" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -560,7 +551,7 @@
   </node>
   <node concept="24kQdi" id="6P1S2fVdC74">
     <property role="3GE5qa" value="debugSemantics" />
-    <ref role="1XX52x" to="gx1i:6P1S2fVbIaV" resolve="WatchProviderSpec" />
+    <ref role="1XX52x" to="u27g:6P1S2fVbIaV" resolve="WatchProviderSpec" />
     <node concept="3EZMnI" id="6P1S2fVdC8S" role="2wV5jI">
       <node concept="3F0ifn" id="6P1S2fVdC8T" role="3EZMnx">
         <property role="3F0ifm" value="WatchProvider" />
@@ -623,7 +614,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="6P1S2fVdC9m" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:6P1S2fVdzzI" />
+            <ref role="1NtTu8" to="u27g:6P1S2fVdzzI" />
             <node concept="VPXOz" id="6P1S2fVdC9n" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -646,7 +637,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="6P1S2fVjKcr" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:6P1S2fVjKaL" />
+            <ref role="1NtTu8" to="u27g:6P1S2fVjKaL" />
             <node concept="VPXOz" id="6P1S2fVjKcs" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -669,7 +660,7 @@
   </node>
   <node concept="24kQdi" id="6P1S2fVutXz">
     <property role="3GE5qa" value="debugSemantics" />
-    <ref role="1XX52x" to="gx1i:6P1S2fVutUZ" resolve="ModelValue" />
+    <ref role="1XX52x" to="u27g:6P1S2fVutUZ" resolve="ModelValue" />
     <node concept="3EZMnI" id="6P1S2fVutZk" role="2wV5jI">
       <node concept="3F0ifn" id="6P1S2fVutZl" role="3EZMnx">
         <property role="3F0ifm" value="ModelValue" />
@@ -732,7 +723,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="3MxRD99loeH" role="3EZMnx">
-            <ref role="1NtTu8" to="gx1i:3MxRD99lnq5" />
+            <ref role="1NtTu8" to="u27g:3MxRD99lnq5" />
             <node concept="VPXOz" id="3MxRD99loeI" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3ac2620a-7f73-4d89-b5dd-a51d2f3a2857(DeSpec.Generator.runtime.plugin)">
+<model ref="r:3ac2620a-7f73-4d89-b5dd-a51d2f3a2857(mulder.generator.runtime.plugin)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />

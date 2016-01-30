@@ -7,8 +7,8 @@
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
     <use id="72548d30-5797-4668-a0d3-be1e47fc05b7" name="MUnit.gen.efficient" version="-1" />
     <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="mulder.base" version="0" />
-    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
-    <use id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator" version="0" />
+    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model" version="0" />
+    <use id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
@@ -194,15 +194,15 @@
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
     </language>
-    <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="6134458215760782264" name="DeSpec.Model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
+    <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model">
+      <concept id="6134458215760782264" name="mulder.model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
         <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
-      <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
-      <concept id="6252445355758092971" name="DeSpec.Model.structure.VirtualFrameFromModel" flags="ng" index="31hqt7">
+      <concept id="5354543571940080098" name="mulder.model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
+      <concept id="6252445355758092971" name="mulder.model.structure.VirtualFrameFromModel" flags="ng" index="31hqt7">
         <reference id="149269758414034613" name="spec" index="3JU4qS" />
       </concept>
-      <concept id="9087321911340228636" name="DeSpec.Model.structure.Resolve2InputNode" flags="ng" index="3b4$sX" />
+      <concept id="9087321911340228636" name="mulder.model.structure.Resolve2InputNode" flags="ng" index="3b4$sX" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -262,6 +262,9 @@
       <concept id="8860443239512128103" name="com.mbeddr.core.expressions.structure.NumberLiteral" flags="ng" index="3TlMh9" />
       <concept id="8860443239512128099" name="com.mbeddr.core.expressions.structure.FalseLiteral" flags="ng" index="3TlMhd" />
       <concept id="4375898003726285486" name="com.mbeddr.core.expressions.structure.PostIncrementExpression" flags="ng" index="3TM6Ey" />
+    </language>
+    <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
+      <concept id="7450251056332157791" name="mulder.modelgen.structure.LiftToNodeReference" flags="ng" index="2Njay4" />
     </language>
   </registry>
   <node concept="bUwia" id="14emBKkXFp1">
@@ -692,7 +695,7 @@
                     <ref role="2sdACS" node="34OPjOAVYmE" resolve="testcaseRef2InlinedTestcase" />
                   </node>
                   <node concept="pAt3w" id="2Up4L47YYYB" role="lGtFl">
-                    <node concept="2Njay3" id="4dSJ8O4wRIh" role="22L1k1">
+                    <node concept="2Njay4" id="4dSJ8O4wRIh" role="22L1k1">
                       <ref role="2NjayW" to="wpai:5kxYjVnRQic" resolve="statementList2Testcase" />
                     </node>
                   </node>

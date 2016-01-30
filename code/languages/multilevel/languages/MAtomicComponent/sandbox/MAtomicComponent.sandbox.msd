@@ -7,7 +7,6 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">~_PreferencesModule#MultiLevelDebugging.__spreferences.PlatformTemplates(MultiLevelDebugging.__spreferences.PlatformTemplates)</dependency>
     <dependency reexport="false">61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</dependency>
     <dependency reexport="false">3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)</dependency>
     <dependency reexport="false">efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</dependency>

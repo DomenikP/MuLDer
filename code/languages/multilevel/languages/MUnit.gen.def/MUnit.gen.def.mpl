@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="MUnit.gen.def#1229019237291737942" uuid="79fb90b0-2c42-4be4-9761-fd75beededde">
+    <generator name="" generatorUID="MUnit.gen.def#1229019237291737942" uuid="79fb90b0-2c42-4be4-9761-fd75beededde">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -32,7 +32,6 @@
         <usedLanguage>a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)</usedLanguage>
         <usedLanguage>61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</usedLanguage>
         <usedLanguage>6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</usedLanguage>
-        <usedLanguage>d063e9e6-a068-4a98-b5b4-a42dc5a1cf00(DeSpec.Generator)</usedLanguage>
         <usedLanguage>558e8d91-d211-4de0-b141-9a8b8f04b79d(mbeddr.debugger.core)</usedLanguage>
         <usedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</usedLanguage>
         <usedLanguage>f2600f3d-2083-4803-a693-cff3268f4af9(mulder.model)</usedLanguage>
@@ -41,7 +40,6 @@
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <languageVersions>
-        <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" fqName="DeSpec.Generator" version="-1" />
         <language id="bec9c00b-b5be-48af-9766-38765bcc974d" fqName="MUnit" version="0" />
         <language id="7ce26145-e88e-4147-80f6-84aca3a7cb16" fqName="MUnit.gen.def" version="-1" />
         <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />

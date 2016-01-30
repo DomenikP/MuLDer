@@ -6,7 +6,7 @@
     <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="mulder.base" version="-1" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="-1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
+    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="558e8d91-d211-4de0-b141-9a8b8f04b79d" name="mbeddr.debugger.core" version="0" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="0" />
@@ -14,6 +14,7 @@
     <use id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="mulder.tracing" version="0" />
     <use id="b25694ab-2b70-4644-a06e-4d199f64d0c5" name="mulder.text" version="0" />
     <use id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator" version="0" />
+    <use id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -37,17 +38,6 @@
       <concept id="7872820068762968763" name="DeSpec.Generator.structure.WatchProviderSpec" flags="ng" index="2mrKao">
         <child id="7872820068765074097" name="valueProvider" index="2m3Iai" />
         <child id="7872820068763449582" name="nameFunction" index="2mtXzd" />
-      </concept>
-      <concept id="1884882593105352175" name="DeSpec.Generator.structure.Children2WatchesWalker" flags="ng" index="17tetk">
-        <reference id="1884882593106798867" name="applicableConcept" index="17mHIC" />
-        <child id="1884882593109806684" name="llWatchesSelector" index="17yfNB" />
-        <child id="1884882593108724629" name="childrenSelector" index="17I7$I" />
-      </concept>
-      <concept id="1884882593108750801" name="DeSpec.Generator.structure.LLWatchesSelector" flags="ig" index="17I0dE" />
-      <concept id="1884882593108724628" name="DeSpec.Generator.structure.ChildrenSelector" flags="ig" index="17I7$J" />
-      <concept id="3906148130290944556" name="DeSpec.Generator.structure.ValueTransformer" flags="ng" index="1keisF">
-        <child id="9201156180038246256" name="targetValue" index="2XCcQV" />
-        <child id="9201156180025728476" name="sourceValue" index="2YSWWn" />
       </concept>
     </language>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -194,6 +184,20 @@
     </language>
     <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="mulder.tracing">
       <concept id="7450251056321812345" name="mulder.tracing.structure.InputNodeOperation" flags="ng" index="2OVGM_" />
+    </language>
+    <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
+      <concept id="7872820068762968763" name="mulder.modelgen.structure.WatchProviderSpec" flags="ng" index="2mrKap" />
+      <concept id="1884882593105352175" name="mulder.modelgen.structure.Children2WatchesWalker" flags="ng" index="17tetk">
+        <reference id="1884882593106798867" name="applicableConcept" index="17mHIC" />
+        <child id="1884882593109806684" name="llWatchesSelector" index="17yfNB" />
+        <child id="1884882593108724629" name="childrenSelector" index="17I7$I" />
+      </concept>
+      <concept id="1884882593108750801" name="mulder.modelgen.structure.LLWatchesSelector" flags="ig" index="17I0dE" />
+      <concept id="1884882593108724628" name="mulder.modelgen.structure.ChildrenSelector" flags="ig" index="17I7$J" />
+      <concept id="3906148130290944556" name="mulder.modelgen.structure.ValueTransformer" flags="ng" index="1keisF">
+        <child id="9201156180038246256" name="targetValue" index="2XCcQV" />
+        <child id="9201156180025728476" name="sourceValue" index="2YSWWn" />
+      </concept>
     </language>
   </registry>
   <node concept="13h7C7" id="1X5iFxIwOQW">
@@ -399,14 +403,6 @@
   <node concept="1keisF" id="2EVeRXbbmV_">
     <property role="TrG5h" value="suType2SmType" />
     <ref role="1wnDu_" to="clbe:5yYXyc4Z0CS" resolve="StructType" />
-    <node concept="2YYrhs" id="7YL4GJ38Q8s" role="2YSWWn">
-      <node concept="2YLCzo" id="7YL4GJ38Q8t" role="2YZnDk">
-        <ref role="2YLC_M" to="clbe:5yYXyc4Z0CS" resolve="StructType" />
-        <node concept="1PXaKw" id="7YL4GJ38Qqu" role="2YLCwC">
-          <node concept="1PXbyT" id="7YL4GJ38Qqt" role="1PX80g" />
-        </node>
-      </node>
-    </node>
     <node concept="2XId1z" id="7YL4GJ38Qqx" role="2XCcQV">
       <node concept="2YLCzo" id="7YL4GJ38Qqy" role="2XId1A">
         <ref role="2YLC_M" to="8glu:1X5iFxIvr4Z" resolve="StatemachineType" />
@@ -440,27 +436,18 @@
         </node>
       </node>
     </node>
+    <node concept="2YYrhs" id="7YL4GJ38Q8s" role="2YSWWn">
+      <node concept="2YLCzo" id="7YL4GJ38Q8t" role="2YZnDk">
+        <ref role="2YLC_M" to="clbe:5yYXyc4Z0CS" resolve="StructType" />
+        <node concept="1PXaKw" id="7YL4GJ38Qqu" role="2YLCwC">
+          <node concept="1PXbyT" id="7YL4GJ38Qqt" role="1PX80g" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="17tetk" id="7O8TGlFc9Ym">
     <property role="TrG5h" value="structMembers2StateVariables" />
     <ref role="17mHIC" to="x27k:6Q7bJ$$my3n" resolve="Argument" />
-    <node concept="17I0dE" id="7O8TGlFc9Yn" role="17yfNB">
-      <node concept="3clFbS" id="7O8TGlFc9Yo" role="2VODD2">
-        <node concept="3clFbF" id="7O8TGlFcbKC" role="3cqZAp">
-          <node concept="2OqwBi" id="7O8TGlFcbKD" role="3clFbG">
-            <node concept="2OqwBi" id="7O8TGlFcbKE" role="2Oq$k0">
-              <node concept="2DurlD" id="7O8TGlFcbKF" role="2Oq$k0" />
-              <node concept="liA8E" id="7O8TGlFcbKG" role="2OqNvi">
-                <ref role="37wK5l" to="pry4:3SnNvqCaK40" resolve="getValue" />
-              </node>
-            </node>
-            <node concept="liA8E" id="7O8TGlFcbKH" role="2OqNvi">
-              <ref role="37wK5l" to="pry4:3SnNvqCaJId" resolve="getSubvalues" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="17I7$J" id="7O8TGlFc9Yp" role="17I7$I">
       <node concept="3clFbS" id="7O8TGlFc9Yq" role="2VODD2">
         <node concept="3clFbF" id="7O8TGlFcaua" role="3cqZAp">
@@ -486,8 +473,25 @@
         </node>
       </node>
     </node>
+    <node concept="17I0dE" id="7O8TGlFc9Yn" role="17yfNB">
+      <node concept="3clFbS" id="7O8TGlFc9Yo" role="2VODD2">
+        <node concept="3clFbF" id="7O8TGlFcbKC" role="3cqZAp">
+          <node concept="2OqwBi" id="7O8TGlFcbKD" role="3clFbG">
+            <node concept="2OqwBi" id="7O8TGlFcbKE" role="2Oq$k0">
+              <node concept="2DurlD" id="7O8TGlFcbKF" role="2Oq$k0" />
+              <node concept="liA8E" id="7O8TGlFcbKG" role="2OqNvi">
+                <ref role="37wK5l" to="pry4:3SnNvqCaK40" resolve="getValue" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7O8TGlFcbKH" role="2OqNvi">
+              <ref role="37wK5l" to="pry4:3SnNvqCaJId" resolve="getSubvalues" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
-  <node concept="2mrKao" id="6P1S2g0rgvv">
+  <node concept="2mrKap" id="6P1S2g0rgvv">
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="StateVariable_WatchProviderSpec" />
     <ref role="2qziyn" to="8glu:6xhsDCu4TtO" resolve="StateVariable" />

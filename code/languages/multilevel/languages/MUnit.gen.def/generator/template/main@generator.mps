@@ -12,8 +12,7 @@
     <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="-1" />
     <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="mulder.base" version="0" />
     <use id="558e8d91-d211-4de0-b141-9a8b8f04b79d" name="mbeddr.debugger.core" version="0" />
-    <use id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator" version="0" />
-    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
+    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -187,13 +186,13 @@
         <reference id="5950410542643524493" name="function" index="3O_q_h" />
       </concept>
     </language>
-    <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="6134458215760782264" name="DeSpec.Model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
+    <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model">
+      <concept id="6134458215760782264" name="mulder.model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
         <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
-      <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
-      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz" />
-      <concept id="9087321911340228636" name="DeSpec.Model.structure.Resolve2InputNode" flags="ng" index="3b4$sX" />
+      <concept id="5354543571940080098" name="mulder.model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
+      <concept id="7879092975090976563" name="mulder.model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz" />
+      <concept id="9087321911340228636" name="mulder.model.structure.Resolve2InputNode" flags="ng" index="3b4$sX" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">

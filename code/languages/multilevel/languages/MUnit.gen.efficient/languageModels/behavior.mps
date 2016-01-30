@@ -5,11 +5,12 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="mulder.base" version="0" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
+    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="558e8d91-d211-4de0-b141-9a8b8f04b79d" name="mbeddr.debugger.core" version="0" />
     <use id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="mulder.tracing" version="0" />
     <use id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator" version="0" />
+    <use id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -25,16 +26,12 @@
         <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
         <child id="7450251056318702784" name="function" index="2OfBWs" />
       </concept>
-      <concept id="7450251056318684258" name="DeSpec.Generator.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
       <concept id="149269758412226189" name="DeSpec.Generator.structure.VirtualFrameSpec" flags="ng" index="3JN2U0">
         <reference id="149269758412804274" name="annotatedNode" index="3JXg2Z" />
         <child id="149269758412798452" name="name" index="3JXmBT" />
         <child id="149269758412798454" name="outterPc" index="3JXmBV" />
         <child id="149269758412798860" name="liftToStackFrameContributor" index="3JXmI1" />
       </concept>
-      <concept id="149269758412802867" name="DeSpec.Generator.structure.PcFunction" flags="ig" index="3JXhGY" />
-      <concept id="149269758412798993" name="DeSpec.Generator.structure.LiftToStackFrameContributorFunction" flags="ig" index="3JXmKs" />
-      <concept id="149269758412798994" name="DeSpec.Generator.structure.LiftToNameFunction" flags="ig" index="3JXmKv" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -84,8 +81,16 @@
     <language id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="mulder.tracing">
       <concept id="7450251056321812345" name="mulder.tracing.structure.InputNodeOperation" flags="ng" index="2OVGM_" />
     </language>
+    <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
+      <concept id="7450251056318683607" name="" flags="ng" index="2Ofw8c" />
+      <concept id="7450251056318684258" name="" flags="ng" index="2OfwuY" />
+      <concept id="149269758412226189" name="" flags="ng" index="3JN2U1" />
+      <concept id="149269758412802867" name="" flags="ng" index="3JXhGY" />
+      <concept id="149269758412798993" name="" flags="ng" index="3JXmKs" />
+      <concept id="149269758412798994" name="" flags="ng" index="3JXmKv" />
+    </language>
   </registry>
-  <node concept="3JN2U0" id="8ik0RHTKpB">
+  <node concept="3JN2U1" id="8ik0RHTKpB">
     <property role="TrG5h" value="blockStatement2Testcase" />
     <ref role="3JXg2Z" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     <node concept="3JXmKs" id="8ik0RHWtHG" role="3JXmI1">
@@ -146,7 +151,7 @@
       </node>
     </node>
   </node>
-  <node concept="2Ofw8b" id="5kxYjVnRQic">
+  <node concept="2Ofw8c" id="5kxYjVnRQic">
     <property role="TrG5h" value="statementList2Testcase" />
     <ref role="2OfBXy" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     <ref role="22icvz" to="e1nu:14emBKkQvwe" resolve="Testcase" />

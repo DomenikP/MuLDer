@@ -8,9 +8,10 @@
     <use id="59a09bf6-2b13-49ef-80d1-741985a7f0ed" name="mulder.tracing" version="0" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
+    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model" version="0" />
     <use id="558e8d91-d211-4de0-b141-9a8b8f04b79d" name="mbeddr.debugger.core" version="0" />
     <use id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator" version="0" />
+    <use id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -31,7 +32,6 @@
         <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
         <child id="7450251056318702784" name="function" index="2OfBWs" />
       </concept>
-      <concept id="7450251056318684258" name="DeSpec.Generator.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
     </language>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
       <concept id="1225194240794" name="jetbrains.mps.lang.behavior.structure.ConceptBehavior" flags="ng" index="13h7C7">
@@ -198,6 +198,10 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
+    </language>
+    <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
+      <concept id="7450251056318683607" name="" flags="ng" index="2Ofw8c" />
+      <concept id="7450251056318684258" name="" flags="ng" index="2OfwuY" />
     </language>
   </registry>
   <node concept="13h7C7" id="7MFNr6DcDmw">
@@ -503,7 +507,7 @@
       <node concept="3clFbS" id="7MFNr6Dm747" role="2VODD2" />
     </node>
   </node>
-  <node concept="2Ofw8b" id="8ik0RJ29En">
+  <node concept="2Ofw8c" id="8ik0RJ29En">
     <property role="TrG5h" value="runnable2Step" />
     <ref role="2OfBXy" to="32lw:1y5IIwWxgUR" resolve="Runnable" />
     <ref role="22icvz" to="ef37:7MFNr6Dm73S" resolve="SequenceStep" />

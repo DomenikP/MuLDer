@@ -11,8 +11,8 @@
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
     <use id="b67a6ca0-735e-4903-b238-4b525bddf96a" name="com.mbeddr.mpsutil.genutil" version="0" />
     <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="mulder.base" version="0" />
-    <use id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator" version="0" />
-    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model" version="0" />
+    <use id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model" version="0" />
+    <use id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
@@ -211,18 +211,18 @@
         <reference id="2093108837558505659" name="arg" index="3ZUYvu" />
       </concept>
     </language>
-    <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="DeSpec.Model">
-      <concept id="6134458215760782264" name="DeSpec.Model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
+    <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model">
+      <concept id="6134458215760782264" name="mulder.model.structure.RequiresInputNodeResolver" flags="ng" index="22L1E6">
         <child id="6134458215760784447" name="liftToInputNodeResolver" index="22L1k1" />
       </concept>
-      <concept id="1348472630505294351" name="DeSpec.Model.structure.LiftWatchFromModel" flags="ng" index="2gb7qT" />
-      <concept id="5354543571940080098" name="DeSpec.Model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
-      <concept id="7879092975090976563" name="DeSpec.Model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz" />
-      <concept id="1884882593102557832" name="DeSpec.Model.structure.LiftChildren2Watches" flags="ng" index="176o0N">
+      <concept id="1348472630505294351" name="mulder.model.structure.LiftWatchFromModel" flags="ng" index="2gb7qT" />
+      <concept id="5354543571940080098" name="mulder.model.structure.DelegateBreakpoint" flags="ng" index="pAt3w" />
+      <concept id="7879092975090976563" name="mulder.model.structure.LiftFrame2FrameFromModel" flags="ng" index="2xMITz" />
+      <concept id="1884882593102557832" name="mulder.model.structure.LiftChildren2Watches" flags="ng" index="176o0N">
         <reference id="1884882593105356608" name="walker" index="17tdnV" />
       </concept>
-      <concept id="9087321911340228636" name="DeSpec.Model.structure.Resolve2InputNode" flags="ng" index="3b4$sX" />
-      <concept id="3906148130290742816" name="DeSpec.Model.structure.GeneratedValueLifterFromModel" flags="ng" index="1kf5GB">
+      <concept id="9087321911340228636" name="mulder.model.structure.Resolve2InputNode" flags="ng" index="3b4$sX" />
+      <concept id="3906148130290742816" name="mulder.model.structure.GeneratedValueLifterFromModel" flags="ng" index="1kf5GB">
         <reference id="999745605120953078" name="inputNodeResolver" index="2R8smy" />
         <reference id="3906148130290944737" name="valueLifterSpec" index="1keivA" />
       </concept>
@@ -316,6 +316,9 @@
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
+    </language>
+    <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
+      <concept id="7450251056332157791" name="mulder.modelgen.structure.LiftToNodeReference" flags="ng" index="2Njay4" />
     </language>
   </registry>
   <node concept="bUwia" id="1X5iFxI$Uk1">
@@ -1801,7 +1804,7 @@
               </node>
             </node>
             <node concept="2gb7qT" id="4nblNEs8cN1" role="lGtFl">
-              <node concept="2Njay3" id="4nblNEs8n9w" role="22L1k1">
+              <node concept="2Njay4" id="4nblNEs8n9w" role="22L1k1">
                 <ref role="2NjayW" to="n5ru:4nblNEs8dPJ" resolve="resolveComponentInstance" />
               </node>
             </node>

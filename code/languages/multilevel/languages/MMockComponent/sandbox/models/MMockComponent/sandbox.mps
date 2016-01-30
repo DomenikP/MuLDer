@@ -7,9 +7,7 @@
     <use id="5529be6b-f382-41f9-834c-9d6b2e079511" name="MAtomicComponent" version="-1" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
-  <imports>
-    <import index="x71v" ref="r:535bf74f-7613-4aea-b993-38599516270f(MultiLevelDebugging.__spreferences.PlatformTemplates)" />
-  </imports>
+  <imports />
   <registry>
     <language id="5529be6b-f382-41f9-834c-9d6b2e079511" name="MAtomicComponent">
       <concept id="1632319670410490002" name="MAtomicComponent.structure.InitializeInstnaces" flags="ng" index="2k51E5">
@@ -74,8 +72,14 @@
       <concept id="7717755763392524107" name="com.mbeddr.core.buildconfig.structure.ModuleRef" flags="ng" index="2v9HqM">
         <reference id="7717755763392524108" name="module" index="2v9HqP" />
       </concept>
-      <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
-        <reference id="8719112291175211414" name="template" index="2xfifS" />
+      <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
+        <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
+        <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
+        <property id="3963667026125442601" name="gdb" index="3r8Kw1" />
+        <property id="3963667026125442676" name="make" index="3r8Kxs" />
+      </concept>
+      <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
+        <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
       </concept>
     </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
@@ -214,8 +218,12 @@
     </node>
   </node>
   <node concept="2v9HqL" id="7MFNr6DbIJH">
-    <node concept="2xfidK" id="7MFNr6DbILf" role="2AWWZH">
-      <ref role="2xfifS" to="x71v:6xhsDCu1lLg" resolve="Desktop Platform" />
+    <node concept="2AWWZL" id="7eTd9dkl4kZ" role="2AWWZH">
+      <property role="2AWWZJ" value="gcc" />
+      <property role="3r8Kw1" value="gdb" />
+      <property role="3r8Kxs" value="make" />
+      <property role="2AWWZI" value="-std=c99" />
+      <property role="1FkSt$" value="-g" />
     </node>
     <node concept="2eOfOl" id="7MFNr6DbILh" role="2ePNbc">
       <property role="iO3LB" value="false" />

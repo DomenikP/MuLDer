@@ -12,6 +12,7 @@
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
     <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(mulder.text.structure)" />
     <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(mulder.text.behavior)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -25,7 +26,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
@@ -42,8 +42,11 @@
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
-        <child id="1196350785114" name="quotedNode" index="2c44tc" />
+      <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
+        <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
+      </concept>
+      <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
+        <reference id="5455284157993910961" name="concept" index="2pJxaS" />
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
@@ -130,9 +133,11 @@
         <node concept="3clFbS" id="3YdlD5V851" role="3clFbx">
           <node concept="1ZobV4" id="3YdlD5V852" role="3cqZAp">
             <property role="3wDh2S" value="true" />
-            <node concept="mw_s8" id="3YdlD5V853" role="1ZfhKB">
-              <node concept="2c44tf" id="3YdlD5V854" role="mwGJk">
-                <node concept="17QB3L" id="3YdlD5V855" role="2c44tc" />
+            <node concept="mw_s8" id="2D3lxRK3DSY" role="1ZfhKB">
+              <node concept="2pJPEk" id="2D3lxRK3DSQ" role="mwGJk">
+                <node concept="2pJPED" id="2D3lxRK3DT9" role="2pJPEn">
+                  <ref role="2pJxaS" to="tpee:hP7QB7G" resolve="StringType" />
+                </node>
               </node>
             </node>
             <node concept="mw_s8" id="3YdlD5V856" role="1ZfhK$">
