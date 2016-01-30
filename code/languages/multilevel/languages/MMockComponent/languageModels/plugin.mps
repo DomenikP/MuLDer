@@ -24,6 +24,7 @@
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(mulder.model.structure)" />
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -116,7 +117,7 @@
                 <node concept="2ShNRf" id="69N_VEHD0a2" role="3clFbG">
                   <node concept="2T8Vx0" id="69N_VEHD2BA" role="2ShVmc">
                     <node concept="2I9FWS" id="69N_VEHD2BC" role="2T96Bj">
-                      <ref role="2I9WkF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+                      <ref role="2I9WkF" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
                     </node>
                   </node>
                 </node>
@@ -165,7 +166,7 @@
                   <node concept="2ShNRf" id="69N_VEHEQFh" role="3clFbG">
                     <node concept="2T8Vx0" id="69N_VEHEQOJ" role="2ShVmc">
                       <node concept="2I9FWS" id="69N_VEHEQOL" role="2T96Bj">
-                        <ref role="2I9WkF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+                        <ref role="2I9WkF" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
                       </node>
                     </node>
                   </node>

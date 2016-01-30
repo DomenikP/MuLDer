@@ -113,14 +113,14 @@
     <node concept="M6xJ_" id="6Poal3c$GsQ" role="lGtFl">
       <property role="Hh88m" value="liftFrameFromGen" />
       <node concept="trNpa" id="1cnyw9ZxFij" role="EQaZv">
-        <ref role="trN6q" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+        <ref role="trN6q" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
       </node>
     </node>
     <node concept="PrWs8" id="3EISKF0f_t5" role="PzmwI">
       <ref role="PrY4T" to="k6mm:3EISKF075jw" resolve="IStackFramesDebugInformation" />
     </node>
     <node concept="PrWs8" id="8ik0RGEXNT" role="PzmwI">
-      <ref role="PrY4T" node="8ik0RGEXNm" resolve="IStackFrameLifter" />
+      <ref role="PrY4T" to="k6mm:8ik0RGEXNm" resolve="IStackFrameLifter" />
     </node>
     <node concept="PrWs8" id="2Up4L47KVPG" role="PzmwI">
       <ref role="PrY4T" node="2Up4L47KR5G" resolve="ExpectedInputNodeProvider" />
@@ -131,7 +131,7 @@
     <node concept="1TJgyj" id="MPvpOYbcnO" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToContributor" />
-      <ref role="20lvS9" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
   </node>
   <node concept="1TIwiD" id="4Dfag9jPJBy">
@@ -144,7 +144,7 @@
         <property role="tnX3d" value="false" />
       </node>
       <node concept="trNpa" id="2Up4L48Mkwk" role="EQaZv">
-        <ref role="trN6q" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+        <ref role="trN6q" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
       </node>
     </node>
     <node concept="PrWs8" id="3EISKF07XOG" role="PzmwI">
@@ -166,10 +166,6 @@
     <property role="3GE5qa" value="inputNodes" />
     <property role="TrG5h" value="InputNodeResolver" />
   </node>
-  <node concept="PlHQZ" id="8ik0RGEXNm">
-    <property role="3GE5qa" value="stackframes" />
-    <property role="TrG5h" value="IStackFrameLifter" />
-  </node>
   <node concept="1TIwiD" id="8ik0RGSLB7">
     <property role="TrG5h" value="DoNotLiftStackFrameFromModel" />
     <property role="3GE5qa" value="stackframes" />
@@ -183,14 +179,14 @@
     <node concept="M6xJ_" id="8ik0RGSLB9" role="lGtFl">
       <property role="Hh88m" value="doNotLiftFrame" />
       <node concept="trNpa" id="8ik0RGSLBa" role="EQaZv">
-        <ref role="trN6q" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+        <ref role="trN6q" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
       </node>
     </node>
     <node concept="PrWs8" id="8ik0RGSLBb" role="PzmwI">
       <ref role="PrY4T" to="k6mm:3EISKF075jw" resolve="IStackFramesDebugInformation" />
     </node>
     <node concept="PrWs8" id="8ik0RGSLBc" role="PzmwI">
-      <ref role="PrY4T" node="8ik0RGEXNm" resolve="IStackFrameLifter" />
+      <ref role="PrY4T" to="k6mm:8ik0RGEXNm" resolve="IStackFrameLifter" />
     </node>
     <node concept="PrWs8" id="2Up4L47KVNl" role="PzmwI">
       <ref role="PrY4T" node="2Up4L47KR5G" resolve="ExpectedInputNodeProvider" />
@@ -198,7 +194,7 @@
     <node concept="1TJgyj" id="8ik0RGSLBd" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToContributor" />
-      <ref role="20lvS9" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
   </node>
   <node concept="1TIwiD" id="Vn$QVHoFbK">
@@ -215,7 +211,7 @@
       <ref role="PrY4T" to="k6mm:3EISKF075jw" resolve="IStackFramesDebugInformation" />
     </node>
     <node concept="PrWs8" id="8ik0RHdldk" role="PzmwI">
-      <ref role="PrY4T" node="8ik0RGEXNm" resolve="IStackFrameLifter" />
+      <ref role="PrY4T" to="k6mm:8ik0RGEXNm" resolve="IStackFrameLifter" />
     </node>
   </node>
   <node concept="1TIwiD" id="5r59uMnw8aF">
@@ -272,7 +268,7 @@
     <node concept="1TJgyj" id="7I1qpzSvfMr" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToWatch" />
-      <ref role="20lvS9" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+      <ref role="20lvS9" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
     </node>
     <node concept="M6xJ_" id="1aQJbq2AGCi" role="lGtFl">
       <property role="Hh88m" value="liftWatchFromGen" />

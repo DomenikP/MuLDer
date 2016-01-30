@@ -91,7 +91,7 @@
     <import index="fy8e" ref="r:89c0fb70-0977-7777-a076-5906f9d8630f(jetbrains.mps.make.facets)" />
     <import index="sjfu" ref="r:1f4ec22e-71ca-4d2d-9dd6-ed345595375d(com.mbeddr.core.make.plugin)" />
     <import index="88zw" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.module(MPS.OpenAPI/org.jetbrains.mps.openapi.module@java_stub)" />
-    <import index="vog7" ref="r:eaa106c6-4c8f-4807-a686-9c6a09ced82c(com.mbeddr.core.make.behavior)" implicit="true" />
+    <import index="vog7" ref="r:eaa106c6-4c8f-4807-a686-9c6a09ced82c(com.mbeddr.core.make.behavior)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -804,7 +804,7 @@
               <node concept="3KmjVe" id="1xP_TBjsKF$" role="2Oq$k0" />
               <node concept="2Zo12i" id="1xP_TBjsLm3" role="2OqNvi">
                 <node concept="chp4Y" id="2Up4L46izdb" role="2Zo12j">
-                  <ref role="cht4Q" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+                  <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
                 </node>
               </node>
             </node>

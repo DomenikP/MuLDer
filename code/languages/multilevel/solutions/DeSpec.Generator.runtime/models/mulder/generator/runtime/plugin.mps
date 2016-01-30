@@ -11,7 +11,7 @@
     <import index="l756" ref="r:052aedf4-85d3-4173-8f24-9032633c8adf(mulder.model.behavior)" />
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(mulder.model.structure)" />
     <import index="pry4" ref="r:0a0d7eec-6e5a-412b-8e16-e3ee5ed7fb95(jetbrains.mps.debug.api.programState)" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" implicit="true" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -55,7 +55,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -93,9 +92,7 @@
       <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
         <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
       </concept>
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
-        <reference id="1138405853777" name="concept" index="ehGHo" />
-      </concept>
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -238,54 +235,6 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="8ik0RHRC5D" role="1B3o_S" />
-  </node>
-  <node concept="3HP615" id="6P1S2g0hLFs">
-    <property role="TrG5h" value="IWatchProvider" />
-    <node concept="3clFb_" id="6P1S2g0hM9D" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="attachLiftWatchFromModel" />
-      <node concept="3clFbS" id="6P1S2g0hM9G" role="3clF47" />
-      <node concept="3Tm1VV" id="6P1S2g0hM9H" role="1B3o_S" />
-      <node concept="3cqZAl" id="6P1S2g0hLGt" role="3clF45" />
-      <node concept="37vLTG" id="6P1S2g0hM9T" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3Tqbb2" id="6P1S2g0hM9S" role="1tU5fm">
-          <ref role="ehGHo" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="6P1S2g0hMn9" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getWatchName" />
-      <node concept="3clFbS" id="6P1S2g0hMna" role="3clF47" />
-      <node concept="3Tm1VV" id="6P1S2g0hMnb" role="1B3o_S" />
-      <node concept="17QB3L" id="6P1S2g0hMoh" role="3clF45" />
-      <node concept="37vLTG" id="6P1S2g0hMnd" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3Tqbb2" id="6P1S2g0hMne" role="1tU5fm">
-          <ref role="ehGHo" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="6P1S2g0hMaP" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getValueProvider" />
-      <node concept="3clFbS" id="6P1S2g0hMaQ" role="3clF47" />
-      <node concept="3Tm1VV" id="6P1S2g0hMaR" role="1B3o_S" />
-      <node concept="3Tqbb2" id="6P1S2g0hMbJ" role="3clF45">
-        <ref role="ehGHo" to="pjlr:6P1S2fVlatx" resolve="ValueProvider" />
-      </node>
-      <node concept="37vLTG" id="6P1S2g0hMaT" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3Tqbb2" id="6P1S2g0hMaU" role="1tU5fm">
-          <ref role="ehGHo" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
-        </node>
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="6P1S2g0hLFt" role="1B3o_S" />
   </node>
 </model>
 

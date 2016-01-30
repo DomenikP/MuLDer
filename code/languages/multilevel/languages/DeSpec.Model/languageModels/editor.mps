@@ -21,7 +21,6 @@
     <import index="wr1s" ref="r:0f9ddbb6-f761-4bd7-8dde-1e5300bd28c2(jetbrains.mps.lang.project.editor)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -444,7 +443,7 @@
                       <node concept="2OqwBi" id="1qiz1eBANmX" role="3clFbG">
                         <node concept="pncrf" id="1qiz1eBANi_" role="2Oq$k0" />
                         <node concept="2qgKlT" id="1qiz1eBANSk" role="2OqNvi">
-                          <ref role="37wK5l" to="c41m:6P1S2fVCSnv" resolve="getStackFrameName" />
+                          <ref role="37wK5l" to="yh8:41Rb5gQsoIA" resolve="getStackFrameName" />
                         </node>
                       </node>
                     </node>
@@ -841,14 +840,14 @@
                     <node concept="3clFbF" id="3KVJl1fAcf_" role="3cqZAp">
                       <node concept="2OqwBi" id="7XouITNTvwV" role="3clFbG">
                         <node concept="1PxgMI" id="7XouITNTvki" role="2Oq$k0">
-                          <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+                          <ref role="1PxNhF" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
                           <node concept="2OqwBi" id="3KVJl1fAcfD" role="1PxMeX">
                             <node concept="pncrf" id="3KVJl1fAcfE" role="2Oq$k0" />
                             <node concept="1mfA1w" id="7XouITNTqUS" role="2OqNvi" />
                           </node>
                         </node>
                         <node concept="2qgKlT" id="7XouITNTvJA" role="2OqNvi">
-                          <ref role="37wK5l" to="c41m:6P1S2g0pX5s" resolve="getWatchName" />
+                          <ref role="37wK5l" to="yh8:6P1S2g0pX5s" resolve="getWatchName" />
                         </node>
                       </node>
                     </node>
@@ -904,7 +903,7 @@
                           </node>
                         </node>
                         <node concept="2qgKlT" id="1qiz1eCHrvT" role="2OqNvi">
-                          <ref role="37wK5l" to="c41m:6P1S2g0pX5s" resolve="getWatchName" />
+                          <ref role="37wK5l" to="yh8:6P1S2g0pX5s" resolve="getWatchName" />
                         </node>
                       </node>
                     </node>

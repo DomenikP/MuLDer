@@ -235,7 +235,7 @@
   </node>
   <node concept="2S6QgY" id="5O4u2zWJa6J">
     <property role="TrG5h" value="ToggleLiftFrameFromGen" />
-    <ref role="2ZfgGC" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    <ref role="2ZfgGC" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     <node concept="2Sbjvc" id="5O4u2zWJa6K" role="2ZfgGD">
       <node concept="3clFbS" id="5O4u2zWJa6L" role="2VODD2">
         <node concept="3clFbJ" id="5O4u2zWJa6M" role="3cqZAp">
@@ -302,7 +302,7 @@
               <node concept="2Sf5sV" id="MPvpOXBwo6" role="2Oq$k0" />
               <node concept="1mIQ4w" id="MPvpOXBwKJ" role="2OqNvi">
                 <node concept="chp4Y" id="MPvpOXBwRg" role="cj9EA">
-                  <ref role="cht4Q" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+                  <ref role="cht4Q" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
                 </node>
               </node>
             </node>
@@ -319,7 +319,7 @@
   </node>
   <node concept="2S6QgY" id="4Dfag9jPXpU">
     <property role="TrG5h" value="ToggleDelegateBreakpoint" />
-    <ref role="2ZfgGC" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+    <ref role="2ZfgGC" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
     <node concept="2Sbjvc" id="4Dfag9jPXpV" role="2ZfgGD">
       <node concept="3clFbS" id="4Dfag9jPXpW" role="2VODD2">
         <node concept="3clFbJ" id="4Dfag9jPXpX" role="3cqZAp">
@@ -381,7 +381,7 @@
   </node>
   <node concept="2S6QgY" id="8ik0RGTpan">
     <property role="TrG5h" value="ToggleNotLiftedFrameFromGen" />
-    <ref role="2ZfgGC" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    <ref role="2ZfgGC" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     <node concept="2Sbjvc" id="8ik0RGTpao" role="2ZfgGD">
       <node concept="3clFbS" id="8ik0RGTpap" role="2VODD2">
         <node concept="3clFbJ" id="8ik0RGTpaq" role="3cqZAp">
@@ -448,7 +448,7 @@
               <node concept="2Sf5sV" id="8ik0RGTpaV" role="2Oq$k0" />
               <node concept="1mIQ4w" id="8ik0RGTpaW" role="2OqNvi">
                 <node concept="chp4Y" id="8ik0RGTpaX" role="cj9EA">
-                  <ref role="cht4Q" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+                  <ref role="cht4Q" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
                 </node>
               </node>
             </node>
@@ -539,7 +539,7 @@
   </node>
   <node concept="2S6QgY" id="Vn$QVHoFV1">
     <property role="TrG5h" value="ToggleInlineFrameAnnotation" />
-    <ref role="2ZfgGC" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    <ref role="2ZfgGC" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     <node concept="2Sbjvc" id="Vn$QVHoFV2" role="2ZfgGD">
       <node concept="3clFbS" id="Vn$QVHoFV3" role="2VODD2">
         <node concept="3clFbJ" id="Vn$QVHoFV4" role="3cqZAp">
@@ -687,7 +687,7 @@
   </node>
   <node concept="2S6QgY" id="1CCsFHtgyNk">
     <property role="TrG5h" value="ToggleLiftChildren2Watches" />
-    <ref role="2ZfgGC" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+    <ref role="2ZfgGC" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
     <node concept="2S6ZIM" id="1CCsFHtgyNl" role="2ZfVej">
       <node concept="3clFbS" id="1CCsFHtgyNm" role="2VODD2">
         <node concept="3clFbF" id="1CCsFHtgz4L" role="3cqZAp">

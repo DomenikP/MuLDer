@@ -12,9 +12,8 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(mulder.text.behavior)" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" implicit="true" />
-    <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(mbeddr.debugger.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -318,14 +317,14 @@
                     <node concept="3clFbF" id="4lU62XqS_iL" role="3cqZAp">
                       <node concept="2OqwBi" id="7XouITNUj1g" role="3clFbG">
                         <node concept="1PxgMI" id="7XouITNUiRc" role="2Oq$k0">
-                          <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+                          <ref role="1PxNhF" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
                           <node concept="2OqwBi" id="4lU62XqS_iN" role="1PxMeX">
                             <node concept="pncrf" id="4lU62XqS_iO" role="2Oq$k0" />
                             <node concept="1mfA1w" id="4lU62XqS_iP" role="2OqNvi" />
                           </node>
                         </node>
                         <node concept="2qgKlT" id="7XouITNUjfV" role="2OqNvi">
-                          <ref role="37wK5l" to="c41m:6P1S2g0pX5s" resolve="getWatchName" />
+                          <ref role="37wK5l" to="yh8:6P1S2g0pX5s" resolve="getWatchName" />
                         </node>
                       </node>
                     </node>

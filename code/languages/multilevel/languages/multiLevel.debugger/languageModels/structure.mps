@@ -218,35 +218,12 @@
     <property role="TrG5h" value="IBreakpointSupport" />
     <property role="3GE5qa" value="breakpoint" />
   </node>
-  <node concept="PlHQZ" id="4dLPB5yd2k3">
-    <property role="TrG5h" value="CanContributeStackFrame" />
-    <node concept="PrWs8" id="1cnyw9YW4jV" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="1rHBIiJ9Pyb">
-    <property role="TrG5h" value="WatchProvider" />
-  </node>
-  <node concept="PlHQZ" id="PjpCzdQT6j">
-    <property role="TrG5h" value="WatchProviderScope" />
-  </node>
-  <node concept="PlHQZ" id="2Up4L46iz2A">
-    <property role="TrG5h" value="ISupportsBreakpoints" />
-  </node>
-  <node concept="PlHQZ" id="6P1S2fVlatx">
-    <property role="TrG5h" value="ValueProvider" />
-  </node>
-  <node concept="PlHQZ" id="4nblNEsc0PQ">
-    <property role="TrG5h" value="WatchProviderContainer" />
-    <node concept="PrWs8" id="2Z8Gfz2ybrt" role="PrDN$">
-      <ref role="PrY4T" node="1rHBIiJ9Pyb" resolve="WatchProvider" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2Kx5o1BPmrJ">
     <property role="TrG5h" value="LevelIconProvider" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="MwhBj" value="${module}/icons/LevelIconProviderCharIcon.png" />
+    <property role="3GE5qa" value="util" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="cTxPe" id="2Kx5o1BPmtW" role="lGtFl">
       <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />

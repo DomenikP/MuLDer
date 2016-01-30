@@ -59,33 +59,14 @@
     <node concept="PrWs8" id="1taDvhHcbJ1" role="PzmwI">
       <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
     </node>
+    <node concept="PrWs8" id="41Rb5gQuqVC" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:41Rb5gQuqEf" resolve="IModelValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6t$AXNjmDLy">
     <property role="3GE5qa" value="inputNodes.lifterFunction" />
     <property role="TrG5h" value="LiftToNodeFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-  </node>
-  <node concept="1TIwiD" id="6P1S2fVbIaV">
-    <property role="3GE5qa" value="debugSemantics" />
-    <property role="TrG5h" value="WatchProviderSpec" />
-    <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="WatchProvider" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6P1S2fVdzzI" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="nameFunction" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="k6mm:2RsptmRkkQC" resolve="NameFunction" />
-    </node>
-    <node concept="1TJgyj" id="6P1S2fVjKaL" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="valueProvider" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="k6mm:6P1S2fVjdtc" resolve="GetValueProviderFunction" />
-    </node>
-    <node concept="PrWs8" id="6P1S2fVdC5L" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6t$AXNka3dv">
     <property role="3GE5qa" value="inputNodes.lifterFunction" />
@@ -268,6 +249,31 @@
     </node>
     <node concept="PrWs8" id="1FDMTVR6O2k" role="PzmwI">
       <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6P1S2fVbIaV">
+    <property role="3GE5qa" value="debugSemantics" />
+    <property role="TrG5h" value="WatchProviderSpec" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="WatchProvider" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6P1S2fVdzzI" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="nameFunction" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="k6mm:2RsptmRkkQC" resolve="NameFunction" />
+    </node>
+    <node concept="1TJgyj" id="6P1S2fVjKaL" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="valueProvider" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="k6mm:6P1S2fVjdtc" resolve="GetValueProviderFunction" />
+    </node>
+    <node concept="PrWs8" id="6P1S2fVdC5L" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+    <node concept="PrWs8" id="41Rb5gRyPWY" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:41Rb5gRyPWU" resolve="IWatchProviderSpec" />
     </node>
   </node>
 </model>

@@ -9,9 +9,8 @@
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
     <import index="tdvr" ref="r:584f710e-f1e3-453b-bb3f-bc2f387d9f9d(mulder.text.structure)" />
     <import index="ekkt" ref="r:edea95f4-0dba-497d-b87f-82bde96f3299(mulder.text.behavior)" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" implicit="true" />
+    <import index="yh8" ref="r:cf8dc0a4-7e7f-4be5-9853-f747cd33208a(mulder.base.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(mbeddr.debugger.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -156,7 +155,7 @@
           <node concept="3Tqbb2" id="4lU62XqXovq" role="1tU5fm" />
           <node concept="2OqwBi" id="6P1S2g2_XKO" role="33vP2m">
             <node concept="1PxgMI" id="6P1S2g2_XDE" role="2Oq$k0">
-              <ref role="1PxNhF" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+              <ref role="1PxNhF" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
               <node concept="2OqwBi" id="1uxqFoJa9DX" role="1PxMeX">
                 <node concept="1YBJjd" id="1uxqFoJa9DY" role="2Oq$k0">
                   <ref role="1YBMHb" node="1uxqFoJ9ZIN" resolve="liftVariableFromText" />
@@ -165,7 +164,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="6P1S2g2_XWK" role="2OqNvi">
-              <ref role="37wK5l" to="c41m:6P1S2g0pXgW" resolve="getValueProvider" />
+              <ref role="37wK5l" to="yh8:6P1S2g0pXgW" resolve="getValueProvider" />
             </node>
           </node>
         </node>

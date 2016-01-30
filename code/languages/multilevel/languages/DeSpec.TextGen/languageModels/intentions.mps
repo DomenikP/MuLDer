@@ -248,7 +248,7 @@
               </node>
               <node concept="2Zo12i" id="5zifgCOpmT$" role="2OqNvi">
                 <node concept="chp4Y" id="5zifgCOpn1$" role="2Zo12j">
-                  <ref role="cht4Q" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+                  <ref role="cht4Q" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
                 </node>
               </node>
             </node>
@@ -681,7 +681,7 @@
               <ref role="1Pybhc" node="3KVJl1h8ALR" resolve="IntentionHelper" />
               <node concept="2Sf5sV" id="3KVJl1h8JRm" role="37wK5m" />
               <node concept="35c_gC" id="3KVJl1h8Jy6" role="37wK5m">
-                <ref role="35c_gD" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+                <ref role="35c_gD" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
               </node>
             </node>
             <node concept="2YIFZM" id="3KVJl1h8IFq" role="3uHU7B">

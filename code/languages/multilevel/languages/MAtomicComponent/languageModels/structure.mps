@@ -12,6 +12,7 @@
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -69,7 +70,7 @@
     <property role="MwhBj" value="${module}/icons/AtomicComponentCharIcon.png" />
     <ref role="1TJDcQ" node="6aU7c0vIRMt" resolve="Component" />
     <node concept="PrWs8" id="2Z8Gfz2$zfX" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:6P1S2fVlatx" resolve="ValueProvider" />
+      <ref role="PrY4T" to="k6mm:6P1S2fVlatx" resolve="ValueProvider" />
     </node>
     <node concept="cTxPe" id="2Kx5o1AvJj6" role="lGtFl">
       <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
@@ -104,7 +105,7 @@
       <ref role="PrY4T" to="c4fa:6o2p2Z0DOCt" resolve="IAllowsIncompleteTypes" />
     </node>
     <node concept="PrWs8" id="7ZqGTTqWW8A" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+      <ref role="PrY4T" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
     </node>
     <node concept="cTxPe" id="2Kx5o1A5Oss" role="lGtFl">
       <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
@@ -197,13 +198,13 @@
       <ref role="PrY4T" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
     </node>
     <node concept="PrWs8" id="74jo7PVoywz" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
     <node concept="PrWs8" id="7ZqGTTqGs7w" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:PjpCzdQT6j" resolve="WatchProviderScope" />
+      <ref role="PrY4T" to="k6mm:PjpCzdQT6j" resolve="WatchProviderScope" />
     </node>
     <node concept="PrWs8" id="2Up4L48UQg4" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+      <ref role="PrY4T" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
     </node>
     <node concept="1TJgyj" id="1y5IIwWy3iM" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -260,10 +261,10 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="8ik0RGGOOD" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
     <node concept="PrWs8" id="2Z8Gfz2kCTh" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:4nblNEsc0PQ" resolve="WatchProviderContainer" />
+      <ref role="PrY4T" to="k6mm:4nblNEsc0PQ" resolve="WatchProviderContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="1y5IIwWD5bb">
@@ -284,7 +285,7 @@
       <ref role="PrY4T" node="1y5IIwWGRVk" resolve="IInstanceConfigurationContent" />
     </node>
     <node concept="PrWs8" id="4nblNEsbya9" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:1rHBIiJ9Pyb" resolve="WatchProvider" />
+      <ref role="PrY4T" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
     </node>
     <node concept="cTxPe" id="2Kx5o1A5O$u" role="lGtFl">
       <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
@@ -421,7 +422,7 @@
       <ref role="PrY4T" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
     </node>
     <node concept="PrWs8" id="7MFNr6DbUDd" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:PjpCzdQT6j" resolve="WatchProviderScope" />
+      <ref role="PrY4T" to="k6mm:PjpCzdQT6j" resolve="WatchProviderScope" />
     </node>
     <node concept="1TJgyj" id="6aU7c0vIRMv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -503,7 +504,7 @@
       <ref role="20lvS9" node="6aU7c0vIRMt" resolve="Component" />
     </node>
     <node concept="PrWs8" id="RvNPiUOqML" role="PzmwI">
-      <ref role="PrY4T" to="pjlr:6P1S2fVlatx" resolve="ValueProvider" />
+      <ref role="PrY4T" to="k6mm:6P1S2fVlatx" resolve="ValueProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="1qBaxu2GN2i">

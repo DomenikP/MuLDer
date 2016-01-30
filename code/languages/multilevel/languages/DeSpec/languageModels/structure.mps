@@ -7,10 +7,7 @@
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="2omo" ref="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
-    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -789,6 +786,44 @@
     <node concept="PrWs8" id="2Kx5o1_WD$H" role="PrDN$">
       <ref role="PrY4T" node="3EISKF07Lvw" resolve="IDebugInformation" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="4dLPB5yd2k3">
+    <property role="TrG5h" value="CanContributeStackFrame" />
+    <node concept="PrWs8" id="1cnyw9YW4jV" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2Up4L46iz2A">
+    <property role="TrG5h" value="ISupportsBreakpoints" />
+  </node>
+  <node concept="PlHQZ" id="6P1S2fVlatx">
+    <property role="TrG5h" value="ValueProvider" />
+  </node>
+  <node concept="PlHQZ" id="1rHBIiJ9Pyb">
+    <property role="TrG5h" value="WatchProvider" />
+  </node>
+  <node concept="PlHQZ" id="4nblNEsc0PQ">
+    <property role="TrG5h" value="WatchProviderContainer" />
+    <node concept="PrWs8" id="2Z8Gfz2ybrt" role="PrDN$">
+      <ref role="PrY4T" node="1rHBIiJ9Pyb" resolve="WatchProvider" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="PjpCzdQT6j">
+    <property role="TrG5h" value="WatchProviderScope" />
+  </node>
+  <node concept="PlHQZ" id="8ik0RGEXNm">
+    <property role="3GE5qa" value="stackframes" />
+    <property role="TrG5h" value="IStackFrameLifter" />
+  </node>
+  <node concept="PlHQZ" id="41Rb5gQuqEf">
+    <property role="TrG5h" value="IModelValue" />
+    <node concept="PrWs8" id="41Rb5gRAcAz" role="PrDN$">
+      <ref role="PrY4T" node="6QCE2J4Ea4r" resolve="IValueLifterRoot" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="41Rb5gRyPWU">
+    <property role="3GE5qa" value="debugSemantics" />
+    <property role="TrG5h" value="IWatchProviderSpec" />
   </node>
 </model>
 

@@ -20,6 +20,7 @@
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="c41m" ref="r:e59b8b52-a612-49b8-a0a3-6610af7b7d80(mbeddr.debugger.core.behavior)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="yh8" ref="r:cf8dc0a4-7e7f-4be5-9853-f747cd33208a(mulder.base.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -405,7 +406,7 @@
             </node>
             <node concept="1mIQ4w" id="4Dfag9jScJH" role="2OqNvi">
               <node concept="chp4Y" id="2Up4L46iHUH" role="cj9EA">
-                <ref role="cht4Q" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+                <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
               </node>
             </node>
           </node>
@@ -481,7 +482,7 @@
               </node>
               <node concept="1mIQ4w" id="2DeOJAhNzXG" role="2OqNvi">
                 <node concept="chp4Y" id="2DeOJAhN$10" role="cj9EA">
-                  <ref role="cht4Q" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+                  <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
                 </node>
               </node>
             </node>
@@ -533,7 +534,7 @@
               </node>
               <node concept="1mIQ4w" id="MPvpOXPbKU" role="2OqNvi">
                 <node concept="chp4Y" id="MPvpOXPbLd" role="cj9EA">
-                  <ref role="cht4Q" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+                  <ref role="cht4Q" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
                 </node>
               </node>
             </node>
@@ -541,7 +542,7 @@
           <node concept="3fqX7Q" id="MPvpOXPcAb" role="3uHU7w">
             <node concept="2OqwBi" id="6P1S2fY192J" role="3fr31v">
               <node concept="1PxgMI" id="6P1S2fY18QY" role="2Oq$k0">
-                <ref role="1PxNhF" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+                <ref role="1PxNhF" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
                 <node concept="2OqwBi" id="6P1S2fWx2jU" role="1PxMeX">
                   <node concept="1YBJjd" id="6P1S2fWx2jV" role="2Oq$k0">
                     <ref role="1YBMHb" node="MPvpOXPaWx" resolve="liftFrameFromGen" />
@@ -550,7 +551,7 @@
                 </node>
               </node>
               <node concept="2qgKlT" id="6P1S2fY19uX" role="2OqNvi">
-                <ref role="37wK5l" to="c41m:6P1S2fVCSph" resolve="contributesStackFrame" />
+                <ref role="37wK5l" to="yh8:41Rb5gQsoIG" resolve="contributesStackFrame" />
               </node>
             </node>
           </node>
@@ -1084,7 +1085,7 @@
             </node>
             <node concept="2Zo12i" id="2Up4L48Kkgk" role="2OqNvi">
               <node concept="chp4Y" id="2Up4L48Kl1g" role="2Zo12j">
-                <ref role="cht4Q" to="pjlr:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+                <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
               </node>
             </node>
           </node>

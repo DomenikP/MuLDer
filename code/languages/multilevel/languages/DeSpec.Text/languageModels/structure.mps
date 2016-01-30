@@ -62,7 +62,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToContributor" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="pjlr:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
     <node concept="1TJgyi" id="6Poal3coIaN" role="1TKVEl">
       <property role="TrG5h" value="reducedStackFrameName" />
