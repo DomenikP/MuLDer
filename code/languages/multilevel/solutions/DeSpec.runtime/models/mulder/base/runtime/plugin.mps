@@ -646,8 +646,8 @@
     <node concept="3Tm1VV" id="4nblNEscqnJ" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="1b42fk5g_2t">
-    <property role="3GE5qa" value="mapper.state.datatypes.values" />
-    <property role="TrG5h" value="MPrimitiveValue" />
+    <property role="3GE5qa" value="debugger" />
+    <property role="TrG5h" value="PrimitiveValue" />
     <node concept="3Tm1VV" id="1b42fk5g_2u" role="1B3o_S" />
     <node concept="3uibUv" id="1b42fk5g_2$" role="EKbjA">
       <ref role="3uigEE" to="pry4:3SnNvqCaJHZ" resolve="IValue" />
@@ -836,8 +836,8 @@
     </node>
   </node>
   <node concept="312cEu" id="1b42fk5g_3O">
-    <property role="3GE5qa" value="mapper.state.datatypes.values" />
-    <property role="TrG5h" value="MComplexValue" />
+    <property role="3GE5qa" value="debugger" />
+    <property role="TrG5h" value="MomplexValue" />
     <node concept="3Tm1VV" id="1b42fk5g_3P" role="1B3o_S" />
     <node concept="3uibUv" id="1b42fk5g_3U" role="EKbjA">
       <ref role="3uigEE" to="pry4:3SnNvqCaJHZ" resolve="IValue" />
@@ -1130,8 +1130,8 @@
     <node concept="3Tm1VV" id="6P1S2g0hLFt" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="4F7MaHWZAvw">
-    <property role="3GE5qa" value="mapper.state.categories" />
-    <property role="TrG5h" value="IMCategoryRegistry" />
+    <property role="3GE5qa" value="debugger" />
+    <property role="TrG5h" value="ICategoryRegistry" />
     <node concept="3Tm1VV" id="4F7MaHWZAvx" role="1B3o_S" />
     <node concept="3clFb_" id="4F7MaHWZRES" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -1148,11 +1148,11 @@
     </node>
   </node>
   <node concept="312cEu" id="4F7MaHWZUl6">
-    <property role="3GE5qa" value="mapper.state.categories.impl" />
-    <property role="TrG5h" value="MCategoryRegistryImpl" />
+    <property role="3GE5qa" value="debugger" />
+    <property role="TrG5h" value="CategoryRegistryImpl" />
     <node concept="3Tm1VV" id="4F7MaHWZUl7" role="1B3o_S" />
     <node concept="3uibUv" id="4F7MaHWZUlc" role="EKbjA">
-      <ref role="3uigEE" node="4F7MaHWZAvw" resolve="IMCategoryRegistry" />
+      <ref role="3uigEE" node="4F7MaHWZAvw" resolve="ICategoryRegistry" />
     </node>
     <node concept="312cEg" id="4F7MaHWZUll" role="jymVt">
       <property role="TrG5h" value="categories" />
@@ -1375,8 +1375,8 @@
     <node concept="2tJIrI" id="4LxJUARBCIz" role="jymVt" />
   </node>
   <node concept="312cEu" id="6EW69Px3ktu">
-    <property role="3GE5qa" value="mapper.state.datatypes" />
-    <property role="TrG5h" value="MWatchable" />
+    <property role="3GE5qa" value="debugger" />
+    <property role="TrG5h" value="Watchable" />
     <node concept="3Tm1VV" id="6EW69Px3ktv" role="1B3o_S" />
     <node concept="3uibUv" id="6EW69Px3kui" role="EKbjA">
       <ref role="3uigEE" to="pry4:3SnNvqCaK3Q" resolve="IWatchable" />
@@ -1532,7 +1532,7 @@
               <node concept="37vLTI" id="4LxJUARBBDR" role="3clFbG">
                 <node concept="2YIFZM" id="4LxJUARBEc6" role="37vLTx">
                   <ref role="37wK5l" node="4LxJUARBDh2" resolve="getGlobalCategory" />
-                  <ref role="1Pybhc" node="4F7MaHWZUl6" resolve="MCategoryRegistryImpl" />
+                  <ref role="1Pybhc" node="4F7MaHWZUl6" resolve="CategoryRegistryImpl" />
                   <node concept="2OqwBi" id="4LxJUARBEv9" role="37wK5m">
                     <node concept="2OqwBi" id="4LxJUARBEeE" role="2Oq$k0">
                       <node concept="37vLTw" id="4LxJUARBEd6" role="2Oq$k0">
@@ -1649,7 +1649,7 @@
           <node concept="37vLTI" id="4LxJUARHm_f" role="3clFbG">
             <node concept="2YIFZM" id="4LxJUARHm_g" role="37vLTx">
               <ref role="37wK5l" node="4LxJUARBDh2" resolve="getGlobalCategory" />
-              <ref role="1Pybhc" node="4F7MaHWZUl6" resolve="MCategoryRegistryImpl" />
+              <ref role="1Pybhc" node="4F7MaHWZUl6" resolve="CategoryRegistryImpl" />
               <node concept="2OqwBi" id="4LxJUARHm_h" role="37wK5m">
                 <node concept="2OqwBi" id="4LxJUARHm_i" role="2Oq$k0">
                   <node concept="37vLTw" id="4LxJUARHm_j" role="2Oq$k0">
@@ -1758,7 +1758,7 @@
           <node concept="37vLTI" id="2Kx5o1API3D" role="3clFbG">
             <node concept="2YIFZM" id="2Kx5o1API3E" role="37vLTx">
               <ref role="37wK5l" node="4LxJUARBDh2" resolve="getGlobalCategory" />
-              <ref role="1Pybhc" node="4F7MaHWZUl6" resolve="MCategoryRegistryImpl" />
+              <ref role="1Pybhc" node="4F7MaHWZUl6" resolve="CategoryRegistryImpl" />
               <node concept="2OqwBi" id="2Kx5o1API3F" role="37wK5m">
                 <node concept="2OqwBi" id="2Kx5o1API3G" role="2Oq$k0">
                   <node concept="37vLTw" id="2Kx5o1API3H" role="2Oq$k0">
