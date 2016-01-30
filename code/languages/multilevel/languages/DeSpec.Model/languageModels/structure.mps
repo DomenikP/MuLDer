@@ -7,9 +7,6 @@
   </languages>
   <imports>
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
-    <import index="pjlr" ref="r:0a66b211-d40a-4a81-8cc2-746eb50a3781(mbeddr.debugger.core.structure)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="u27g" ref="r:cabbb7cf-8f86-4200-b4f3-4030cce9bd53(mulder.modelgen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -69,7 +66,7 @@
     <node concept="1TJgyj" id="RvNPiUZwFQ" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="inputNodeResolver" />
-      <ref role="20lvS9" to="u27g:6t$AXNjmDBn" resolve="NodeResolver" />
+      <ref role="20lvS9" to="k6mm:6t$AXNjmDBn" resolve="NodeResolver" />
     </node>
     <node concept="PrWs8" id="3oPrgtyosBF" role="PzmwI">
       <ref role="PrY4T" to="k6mm:53P7aeD7Arx" resolve="IRequiresImports" />

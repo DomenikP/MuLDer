@@ -130,6 +130,7 @@
       </concept>
       <concept id="3304628195161099688" name="mulder.base.structure.NameFunction" flags="ig" index="2qzixX" />
       <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
+      <concept id="7450251056318683607" name="" flags="ng" index="2Ofw8b" />
       <concept id="9201156180056181316" name="mulder.base.structure.ResolveDelegateToValueProviderFunction" flags="ig" index="2W$Dyf" />
       <concept id="9201156180037714600" name="mulder.base.structure.TargetWatchSpecification" flags="ng" index="2XId1z">
         <child id="9201156180037714605" name="valueProvider" index="2XId1A" />
@@ -197,7 +198,7 @@
         <child id="7872820068765074097" name="valueProvider" index="2m3Iai" />
         <child id="7872820068763449582" name="nameFunction" index="2mtXzd" />
       </concept>
-      <concept id="7450251056318683607" name="mulder.modelgen.structure.NodeResolver" flags="ng" index="2Ofw8b">
+      <concept id="7450251056318683607" name="mulder.modelgen.structure.NodeResolver" flags="ng" index="2Ofw8c">
         <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
         <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
         <child id="7450251056318702784" name="function" index="2OfBWs" />

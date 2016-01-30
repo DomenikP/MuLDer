@@ -50,6 +50,7 @@
     </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="mulder.base">
       <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
+      <concept id="7450251056318683607" name="" flags="ng" index="2Ofw8c" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -82,12 +83,11 @@
       <concept id="7450251056321812345" name="mulder.tracing.structure.InputNodeOperation" flags="ng" index="2OVGM_" />
     </language>
     <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
-      <concept id="7450251056318683607" name="" flags="ng" index="2Ofw8c" />
-      <concept id="7450251056318684258" name="" flags="ng" index="2OfwuY" />
-      <concept id="149269758412226189" name="" flags="ng" index="3JN2U1" />
-      <concept id="149269758412802867" name="" flags="ng" index="3JXhGY" />
-      <concept id="149269758412798993" name="" flags="ng" index="3JXmKs" />
-      <concept id="149269758412798994" name="" flags="ng" index="3JXmKv" />
+      <concept id="7450251056318684258" name="mulder.modelgen.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
+      <concept id="149269758412226189" name="mulder.modelgen.structure.VirtualFrameSpec" flags="ng" index="3JN2U1" />
+      <concept id="149269758412802867" name="mulder.modelgen.structure.PcFunction" flags="ig" index="3JXhGY" />
+      <concept id="149269758412798993" name="mulder.modelgen.structure.LiftToStackFrameContributorFunction" flags="ig" index="3JXmKs" />
+      <concept id="149269758412798994" name="mulder.modelgen.structure.LiftToNameFunction" flags="ig" index="3JXmKv" />
     </language>
   </registry>
   <node concept="3JN2U1" id="8ik0RHTKpB">

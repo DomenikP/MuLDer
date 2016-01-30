@@ -142,6 +142,7 @@
         <child id="3304628195161111704" name="contributesFrameFunction" index="2qzh_d" />
       </concept>
       <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
+      <concept id="7450251056318683607" name="" flags="ng" index="2Ofw8c" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -200,8 +201,7 @@
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
     </language>
     <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
-      <concept id="7450251056318683607" name="" flags="ng" index="2Ofw8c" />
-      <concept id="7450251056318684258" name="" flags="ng" index="2OfwuY" />
+      <concept id="7450251056318684258" name="mulder.modelgen.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
     </language>
   </registry>
   <node concept="13h7C7" id="7MFNr6DcDmw">

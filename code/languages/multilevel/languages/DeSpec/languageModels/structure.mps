@@ -8,6 +8,7 @@
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="u27g" ref="r:cabbb7cf-8f86-4200-b4f3-4030cce9bd53(mulder.modelgen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -827,6 +828,43 @@
   </node>
   <node concept="PlHQZ" id="41Rb5gVbXVo">
     <property role="TrG5h" value="IContainsValueProvider" />
+  </node>
+  <node concept="1TIwiD" id="6t$AXNjmDBn">
+    <property role="3GE5qa" value="inputNodes.lifterFunction" />
+    <property role="TrG5h" value="NodeResolver" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="NodeResolver" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6t$AXNjmIj0" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="u27g:6t$AXNjmDLy" resolve="LiftToNodeFunction" />
+    </node>
+    <node concept="1TJgyj" id="6t$AXNjmIiY" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="sourceConcept" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="5kxYjVnqjVt" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="targetConcept" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="PrWs8" id="6t$AXNjmILh" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="6t$AXNjsCcE" role="PzmwI">
+      <ref role="PrY4T" node="4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
+    </node>
+    <node concept="PrWs8" id="6t$AXNjDOcZ" role="PzmwI">
+      <ref role="PrY4T" node="6t$AXNjDNCZ" resolve="IGeneratedToJavaClass" />
+    </node>
+    <node concept="PrWs8" id="2EVeRXbRF4H" role="PzmwI">
+      <ref role="PrY4T" node="5zifgCNc_uM" resolve="ICurrentNodeProvider" />
+    </node>
   </node>
 </model>
 
