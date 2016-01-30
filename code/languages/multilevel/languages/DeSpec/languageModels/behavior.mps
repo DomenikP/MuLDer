@@ -5903,5 +5903,19 @@
       <node concept="3clFbS" id="41Rb5gRyXtf" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="41Rb5gVbYmu">
+    <ref role="13h7C2" to="k6mm:41Rb5gVbXVo" resolve="IContainsValueProvider" />
+    <node concept="13i0hz" id="41Rb5gVbYVl" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getSubValueProvider" />
+      <node concept="3Tm1VV" id="41Rb5gVbYVm" role="1B3o_S" />
+      <node concept="3clFbS" id="41Rb5gVbYVn" role="3clF47" />
+      <node concept="3Tqbb2" id="41Rb5gVbZ1j" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="41Rb5gVbYmv" role="13h7CW">
+      <node concept="3clFbS" id="41Rb5gVbYmw" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

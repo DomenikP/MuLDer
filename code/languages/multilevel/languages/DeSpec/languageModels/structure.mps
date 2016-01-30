@@ -825,5 +825,8 @@
     <property role="3GE5qa" value="debugSemantics" />
     <property role="TrG5h" value="IWatchProviderSpec" />
   </node>
+  <node concept="PlHQZ" id="41Rb5gVbXVo">
+    <property role="TrG5h" value="IContainsValueProvider" />
+  </node>
 </model>
 
