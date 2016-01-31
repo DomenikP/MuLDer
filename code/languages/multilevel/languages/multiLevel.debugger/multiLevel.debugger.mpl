@@ -75,6 +75,7 @@
     <dependency reexport="false">f2600f3d-2083-4803-a693-cff3268f4af9(mulder.model)</dependency>
     <dependency reexport="false">b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</dependency>
     <dependency reexport="false">77535ba7-24b5-4667-bf00-2e9c9074a90d(mulder.modelgen)</dependency>
+    <dependency reexport="false">20efe9a4-f7d4-42e9-8446-6b2dfc4fa631(mulder.model.runtime)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>c0080a47-7e37-4558-bee9-9ae18e690549(jetbrains.mps.lang.extension)</usedLanguage>
