@@ -313,5 +313,38 @@
       <ref role="1YaFvo" to="vu5z:6QCE2J4AzRK" resolve="TextValue2ModelValue" />
     </node>
   </node>
+  <node concept="18kY7G" id="1UlZYp$KgvX">
+    <property role="TrG5h" value="check_ConditionalTextValue2ModelValue" />
+    <property role="3GE5qa" value="watches.values" />
+    <node concept="3clFbS" id="1UlZYp$KgvY" role="18ibNy">
+      <node concept="3clFbJ" id="1UlZYp$KgxM" role="3cqZAp">
+        <node concept="3clFbS" id="1UlZYp$KgxN" role="3clFbx">
+          <node concept="2MkqsV" id="1UlZYp$KgxO" role="3cqZAp">
+            <node concept="Xl_RD" id="1UlZYp$KgxP" role="2MkJ7o">
+              <property role="Xl_RC" value="No debugger backend specified" />
+            </node>
+            <node concept="1YBJjd" id="1UlZYp$Kh9P" role="2OEOjV">
+              <ref role="1YBMHb" node="1UlZYp$Kgw0" resolve="conditionalTextValue2ModelValue" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1UlZYp$KgxR" role="3clFbw">
+          <node concept="2OqwBi" id="1UlZYp$KgxS" role="2Oq$k0">
+            <node concept="1YBJjd" id="1UlZYp$Kh7U" role="2Oq$k0">
+              <ref role="1YBMHb" node="1UlZYp$Kgw0" resolve="conditionalTextValue2ModelValue" />
+            </node>
+            <node concept="3Tsc0h" id="1UlZYp_rYaK" role="2OqNvi">
+              <ref role="3TtcxE" to="vu5z:1UlZYp$JUsc" />
+            </node>
+          </node>
+          <node concept="1v1jN8" id="1UlZYp$KgxV" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1UlZYp$Kgw0" role="1YuTPh">
+      <property role="TrG5h" value="conditionalTextValue2ModelValue" />
+      <ref role="1YaFvo" to="vu5z:1UlZYp$JUr3" resolve="ConditionalTextValue2ModelValue" />
+    </node>
+  </node>
 </model>
 

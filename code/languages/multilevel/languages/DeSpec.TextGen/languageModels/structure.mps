@@ -236,7 +236,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="valueFromTextLifter" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6QCE2J4AzRK" resolve="TextValue2ModelValue" />
+      <ref role="20lvS9" node="1UlZYp_nL4u" resolve="ITextValue2ModelValue" />
     </node>
     <node concept="PrWs8" id="5zifgCNS023" role="PzmwI">
       <ref role="PrY4T" node="5zifgCNRZIY" resolve="IValueFromTextLifter" />
@@ -275,11 +275,14 @@
     <node concept="PrWs8" id="6QCE2J4EbU_" role="PzmwI">
       <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
     </node>
+    <node concept="PrWs8" id="1UlZYp_nLtv" role="PzmwI">
+      <ref role="PrY4T" node="1UlZYp_nL4u" resolve="ITextValue2ModelValue" />
+    </node>
     <node concept="cTxPe" id="6tM3H54SOBp" role="lGtFl">
       <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
       <property role="2qtEX9" value="iconPath" />
       <property role="cYWFP" value="V" />
-      <property role="cYWFC" value="#ff00ff" />
+      <property role="cYWFC" value="#00e5e5" />
       <property role="cYWF$" value="#000000" />
       <property role="cYWFH" value="#000000" />
     </node>
@@ -295,6 +298,103 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4P41_Ik9EfC" role="PzmwI">
       <ref role="PrY4T" node="UFIAu3YafC" resolve="IDebuggerBackend" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1UlZYp$JUr3">
+    <property role="3GE5qa" value="watches.values" />
+    <property role="TrG5h" value="ConditionalTextValue2ModelValue" />
+    <property role="34LRSv" value="Conditional TextValue2ModelValue" />
+    <property role="MwhBj" value="${module}/icons/ConditionalTextValue2ModelValueCharIcon.png" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1UlZYp$JUsc" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="debuggerBackends" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="UFIAu3YafC" resolve="IDebuggerBackend" />
+    </node>
+    <node concept="1TJgyj" id="1lK4d_VgWhg" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="lifter" />
+      <ref role="20lvS9" node="1lK4d_VgWhf" resolve="IConditionalText2ModelValueLifter" />
+    </node>
+    <node concept="PrWs8" id="1UlZYp$JUus" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
+    </node>
+    <node concept="PrWs8" id="1UlZYp_nLuE" role="PzmwI">
+      <ref role="PrY4T" node="1UlZYp_nL4u" resolve="ITextValue2ModelValue" />
+    </node>
+    <node concept="cTxPe" id="1UlZYp$Ms_u" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="C" />
+      <property role="cYWFC" value="#00e5e5" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1UlZYp$M$hc">
+    <property role="3GE5qa" value="watches.values" />
+    <property role="TrG5h" value="ConditionalText2ModelValueLifter" />
+    <property role="34LRSv" value="when lifter" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="1TJgyj" id="1UlZYp$RnLS" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="targetValueStructure" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+    </node>
+    <node concept="1TJgyj" id="1UlZYp$ThXH" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="sourceValueStructure" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatchSpecification" />
+    </node>
+    <node concept="PrWs8" id="1UlZYp$WfSK" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:1UlZYp$W8tc" resolve="ValueLifter" />
+    </node>
+    <node concept="PrWs8" id="1UlZYp$XA3b" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:5zifgCNc_uM" resolve="ICurrentNodeProvider" />
+    </node>
+    <node concept="PrWs8" id="1lK4d_VgWh$" role="PzmwI">
+      <ref role="PrY4T" node="1lK4d_VgWhf" resolve="IConditionalText2ModelValueLifter" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1UlZYp_nL4u">
+    <property role="3GE5qa" value="watches.values" />
+    <property role="TrG5h" value="ITextValue2ModelValue" />
+  </node>
+  <node concept="PlHQZ" id="1lK4d_VgWhf">
+    <property role="3GE5qa" value="watches.values" />
+    <property role="TrG5h" value="IConditionalText2ModelValueLifter" />
+  </node>
+  <node concept="1TIwiD" id="1lK4d_VgWhP">
+    <property role="3GE5qa" value="watches.values" />
+    <property role="TrG5h" value="SwitchConditionalTextValue2ModelValue" />
+    <property role="34LRSv" value="switch" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1lK4d_VgWj8" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="lifters" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1UlZYp$M$hc" resolve="ConditionalText2ModelValueLifter" />
+    </node>
+    <node concept="1TJgyj" id="1lK4d_VmoTy" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="defaultTargetValueStructure" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+    </node>
+    <node concept="1TJgyj" id="1lK4d_VmoTz" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="defaultSourceValueStructure" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatchSpecification" />
+    </node>
+    <node concept="PrWs8" id="1lK4d_VgWj6" role="PzmwI">
+      <ref role="PrY4T" node="1lK4d_VgWhf" resolve="IConditionalText2ModelValueLifter" />
+    </node>
+    <node concept="PrWs8" id="1lK4d_VnpaF" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:5zifgCNc_uM" resolve="ICurrentNodeProvider" />
+    </node>
+    <node concept="PrWs8" id="1lK4d_VnpaP" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:1UlZYp$W8tc" resolve="ValueLifter" />
     </node>
   </node>
 </model>

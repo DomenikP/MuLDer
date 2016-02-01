@@ -1084,16 +1084,16 @@
           <node concept="3clFbS" id="7YL4GJ2iJCa" role="3clFbx">
             <node concept="3cpWs8" id="UFIAu5dxWj" role="3cqZAp">
               <node concept="3cpWsn" id="UFIAu5dxWk" role="3cpWs9">
-                <property role="TrG5h" value="valueLifterRoot" />
+                <property role="TrG5h" value="valueLifter" />
                 <node concept="3Tqbb2" id="UFIAu5dxVV" role="1tU5fm">
-                  <ref role="ehGHo" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
+                  <ref role="ehGHo" to="k6mm:1UlZYp$W8tc" resolve="ValueLifter" />
                 </node>
                 <node concept="2OqwBi" id="UFIAu5dxWq" role="33vP2m">
                   <node concept="nLn13" id="UFIAu5dxWr" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="UFIAu5dxWs" role="2OqNvi">
                     <node concept="1xMEDy" id="UFIAu5dxWt" role="1xVPHs">
-                      <node concept="chp4Y" id="UFIAu5dxWu" role="ri$Ld">
-                        <ref role="cht4Q" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
+                      <node concept="chp4Y" id="1UlZYp$X16V" role="ri$Ld">
+                        <ref role="cht4Q" to="k6mm:1UlZYp$W8tc" resolve="ValueLifter" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="UFIAu5eGBi" role="1xVPHs" />
@@ -1111,10 +1111,10 @@
                     </node>
                     <node concept="2OqwBi" id="UFIAu5dAGo" role="33vP2m">
                       <node concept="37vLTw" id="UFIAu5dAGp" role="2Oq$k0">
-                        <ref role="3cqZAo" node="UFIAu5dxWk" resolve="valueLifterRoot" />
+                        <ref role="3cqZAo" node="UFIAu5dxWk" resolve="valueLifter" />
                       </node>
-                      <node concept="2qgKlT" id="UFIAu5dAGq" role="2OqNvi">
-                        <ref role="37wK5l" to="yh8:UFIAu4AW3p" resolve="liftToValueStructure" />
+                      <node concept="2qgKlT" id="1UlZYp$X1wx" role="2OqNvi">
+                        <ref role="37wK5l" to="yh8:1UlZYp$W9p9" resolve="liftToValueStructure" />
                       </node>
                     </node>
                   </node>
@@ -1172,7 +1172,7 @@
               </node>
               <node concept="2OqwBi" id="UFIAu5dx46" role="3clFbw">
                 <node concept="37vLTw" id="UFIAu5dxWv" role="2Oq$k0">
-                  <ref role="3cqZAo" node="UFIAu5dxWk" resolve="valueLifterRoot" />
+                  <ref role="3cqZAo" node="UFIAu5dxWk" resolve="valueLifter" />
                 </node>
                 <node concept="3x8VRR" id="UFIAu5dxA9" role="2OqNvi" />
               </node>

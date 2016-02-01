@@ -947,26 +947,6 @@
   <node concept="13h7C7" id="6QCE2J4Ea8Y">
     <property role="3GE5qa" value="value.specification.constructor.complex" />
     <ref role="13h7C2" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
-    <node concept="13i0hz" id="UFIAu4AVX$" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="liftFromValueStructure" />
-      <node concept="3Tm1VV" id="UFIAu4AVX_" role="1B3o_S" />
-      <node concept="3clFbS" id="UFIAu4AVXA" role="3clF47" />
-      <node concept="3Tqbb2" id="UFIAu4AW6a" role="3clF45">
-        <ref role="ehGHo" to="k6mm:3MxRD99llDn" resolve="IWatchSpecification" />
-      </node>
-    </node>
-    <node concept="13i0hz" id="UFIAu4AW3p" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="liftToValueStructure" />
-      <node concept="3Tm1VV" id="UFIAu4AW3q" role="1B3o_S" />
-      <node concept="3clFbS" id="UFIAu4AW3r" role="3clF47" />
-      <node concept="3Tqbb2" id="UFIAu4AW6f" role="3clF45">
-        <ref role="ehGHo" to="k6mm:3MxRD99llDn" resolve="IWatchSpecification" />
-      </node>
-    </node>
     <node concept="13i0hz" id="3MxRD99ISWn" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
@@ -1415,16 +1395,16 @@
       <node concept="3clFbS" id="6QCE2J4OhQ9" role="3clF47">
         <node concept="3cpWs8" id="UFIAu4WjZ3" role="3cqZAp">
           <node concept="3cpWsn" id="UFIAu4WjZ4" role="3cpWs9">
-            <property role="TrG5h" value="valueLifterRoot" />
+            <property role="TrG5h" value="valueLifter" />
             <node concept="3Tqbb2" id="UFIAu4WjYF" role="1tU5fm">
-              <ref role="ehGHo" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
+              <ref role="ehGHo" to="k6mm:1UlZYp$W8tc" resolve="ValueLifter" />
             </node>
             <node concept="2OqwBi" id="UFIAu4WjZa" role="33vP2m">
               <node concept="13iPFW" id="UFIAu4WjZb" role="2Oq$k0" />
               <node concept="2Xjw5R" id="UFIAu4WjZc" role="2OqNvi">
                 <node concept="1xMEDy" id="UFIAu4WjZd" role="1xVPHs">
-                  <node concept="chp4Y" id="UFIAu4WjZe" role="ri$Ld">
-                    <ref role="cht4Q" to="k6mm:6QCE2J4Ea4r" resolve="IValueLifterRoot" />
+                  <node concept="chp4Y" id="1UlZYp$Wbh$" role="ri$Ld">
+                    <ref role="cht4Q" to="k6mm:1UlZYp$W8tc" resolve="ValueLifter" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="UFIAu4X$Q9" role="1xVPHs" />
@@ -1443,10 +1423,10 @@
                     <node concept="36biLy" id="UFIAu4WnI1" role="2pJxcZ">
                       <node concept="2OqwBi" id="UFIAu4Wla5" role="36biLW">
                         <node concept="37vLTw" id="UFIAu4Wl5o" role="2Oq$k0">
-                          <ref role="3cqZAo" node="UFIAu4WjZ4" resolve="valueLifterRoot" />
+                          <ref role="3cqZAo" node="UFIAu4WjZ4" resolve="valueLifter" />
                         </node>
-                        <node concept="2qgKlT" id="UFIAu4Wnrp" role="2OqNvi">
-                          <ref role="37wK5l" node="UFIAu4AVX$" resolve="liftFromValueStructure" />
+                        <node concept="2qgKlT" id="1UlZYp$Wbtc" role="2OqNvi">
+                          <ref role="37wK5l" node="1UlZYp$W9p5" resolve="liftFromValueStructure" />
                         </node>
                       </node>
                     </node>
@@ -1457,7 +1437,7 @@
           </node>
           <node concept="2OqwBi" id="UFIAu4WkAb" role="3clFbw">
             <node concept="37vLTw" id="UFIAu4WkxM" role="2Oq$k0">
-              <ref role="3cqZAo" node="UFIAu4WjZ4" resolve="valueLifterRoot" />
+              <ref role="3cqZAo" node="UFIAu4WjZ4" resolve="valueLifter" />
             </node>
             <node concept="3x8VRR" id="UFIAu4Wl4J" role="2OqNvi" />
           </node>
@@ -3735,6 +3715,27 @@
       <node concept="3Tqbb2" id="7YL4GJ3xjoO" role="3clF45">
         <ref role="ehGHo" to="k6mm:3MxRD99llOt" resolve="IValueSpecification" />
       </node>
+    </node>
+    <node concept="13i0hz" id="1UlZYp_aFB6" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="currentNode" />
+      <ref role="13i0hy" node="5zifgCNc_Dd" resolve="currentNode" />
+      <node concept="3Tm1VV" id="1UlZYp_aFB7" role="1B3o_S" />
+      <node concept="3clFbS" id="1UlZYp_aFB4" role="3clF47">
+        <node concept="3clFbF" id="1UlZYp_aFNt" role="3cqZAp">
+          <node concept="2OqwBi" id="1UlZYp_aGq7" role="3clFbG">
+            <node concept="2OqwBi" id="1UlZYp_aFPH" role="2Oq$k0">
+              <node concept="13iPFW" id="1UlZYp_aFNs" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1UlZYp_aG5b" role="2OqNvi">
+                <ref role="3Tt5mk" to="k6mm:7YL4GJ1tTIT" />
+              </node>
+            </node>
+            <node concept="1rGIog" id="1UlZYp_aHDF" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3bZ5Sz" id="1UlZYp_aFB8" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="7YL4GJ2jPb2">
@@ -6203,6 +6204,33 @@
         </node>
       </node>
       <node concept="3bZ5Sz" id="5kxYjVn$eoG" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1UlZYp$W8LL">
+    <property role="3GE5qa" value="value.specification.constructor.complex" />
+    <ref role="13h7C2" to="k6mm:1UlZYp$W8tc" resolve="ValueLifter" />
+    <node concept="13i0hz" id="1UlZYp$W9p5" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="liftFromValueStructure" />
+      <node concept="3Tm1VV" id="1UlZYp$W9p6" role="1B3o_S" />
+      <node concept="3clFbS" id="1UlZYp$W9p7" role="3clF47" />
+      <node concept="3Tqbb2" id="1UlZYp$W9p8" role="3clF45">
+        <ref role="ehGHo" to="k6mm:3MxRD99llDn" resolve="IWatchSpecification" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="1UlZYp$W9p9" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="liftToValueStructure" />
+      <node concept="3Tm1VV" id="1UlZYp$W9pa" role="1B3o_S" />
+      <node concept="3clFbS" id="1UlZYp$W9pb" role="3clF47" />
+      <node concept="3Tqbb2" id="1UlZYp$W9pc" role="3clF45">
+        <ref role="ehGHo" to="k6mm:3MxRD99llDn" resolve="IWatchSpecification" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="1UlZYp$W8LM" role="13h7CW">
+      <node concept="3clFbS" id="1UlZYp$W8LN" role="2VODD2" />
     </node>
   </node>
 </model>

@@ -292,6 +292,9 @@
     <node concept="PrWs8" id="1FDMTVOOxNN" role="PrDN$">
       <ref role="PrY4T" node="1aSLssz5BIE" resolve="IValueLifter" />
     </node>
+    <node concept="PrWs8" id="1UlZYp$W9tb" role="PrDN$">
+      <ref role="PrY4T" node="1UlZYp$W8tc" resolve="ValueLifter" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6QCE2J4Og55">
     <property role="3GE5qa" value="value.currentNode" />
@@ -655,6 +658,9 @@
     <node concept="PrWs8" id="7YL4GJ1Sagn" role="PzmwI">
       <ref role="PrY4T" node="3MxRD99llOt" resolve="IValueSpecification" />
     </node>
+    <node concept="PrWs8" id="1UlZYp_aF_q" role="PzmwI">
+      <ref role="PrY4T" node="5zifgCNc_uM" resolve="ICurrentNodeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7YL4GJ1iaqn">
     <property role="TrG5h" value="SourceWatchWithValueProviderSpecification" />
@@ -921,6 +927,10 @@
       <property role="cYWF$" value="#000000" />
       <property role="cYWFH" value="#000000" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="1UlZYp$W8tc">
+    <property role="3GE5qa" value="value.specification.constructor.complex" />
+    <property role="TrG5h" value="ValueLifter" />
   </node>
 </model>
 
