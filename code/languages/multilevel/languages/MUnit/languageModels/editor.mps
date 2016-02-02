@@ -44,6 +44,7 @@
     <import index="rw00" ref="r:d910d08e-4a00-41f9-ac8b-b7c374586874(jetbrains.mps.debug.api.breakpoints)" />
     <import index="j2z0" ref="r:e018fc1c-c261-4cd9-b91c-fe6714dcbd6e(mbeddr.debugger.core.debug)" />
     <import index="3dui" ref="r:8f1039d4-1829-4754-95ac-8a801334ecda(mulder.base.runtime.plugin)" />
+    <import index="2m3p" ref="r:61bba127-8ab7-465e-bd68-664adb1ee556(mbeddr.debugger.runtime.plugin)" />
     <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" implicit="true" />
   </imports>
   <registry>
@@ -2564,11 +2565,11 @@
         <node concept="3clFbF" id="R$GYrEcI14" role="3cqZAp">
           <node concept="2OqwBi" id="R$GYrEcJyC" role="3clFbG">
             <node concept="2YIFZM" id="R$GYrEcIYF" role="2Oq$k0">
-              <ref role="1Pybhc" to="j2z0:3nxOvgY3JxI" resolve="MEBreakpointRegistryImpl" />
-              <ref role="37wK5l" to="j2z0:R$GYrE5Xoz" resolve="getInstance" />
+              <ref role="1Pybhc" to="2m3p:3nxOvgY3JxI" resolve="MEBreakpointRegistryImpl" />
+              <ref role="37wK5l" to="2m3p:R$GYrE5Xoz" resolve="getInstance" />
             </node>
             <node concept="liA8E" id="R$GYrEcKcn" role="2OqNvi">
-              <ref role="37wK5l" to="j2z0:R$GYrEcM2y" resolve="isAssociatedBreakpoint" />
+              <ref role="37wK5l" to="2m3p:R$GYrEcM2y" resolve="isAssociatedBreakpoint" />
               <node concept="pncrf" id="R$GYrEd1Cy" role="37wK5m" />
             </node>
           </node>
@@ -2596,11 +2597,11 @@
               <node concept="3clFbF" id="R$GYrEzKPI" role="3cqZAp">
                 <node concept="2OqwBi" id="R$GYrEzKPJ" role="3clFbG">
                   <node concept="2YIFZM" id="R$GYrEzKPK" role="2Oq$k0">
-                    <ref role="1Pybhc" to="j2z0:3nxOvgY3JxI" resolve="MEBreakpointRegistryImpl" />
-                    <ref role="37wK5l" to="j2z0:R$GYrE5Xoz" resolve="getInstance" />
+                    <ref role="37wK5l" to="2m3p:R$GYrE5Xoz" resolve="getInstance" />
+                    <ref role="1Pybhc" to="2m3p:3nxOvgY3JxI" resolve="MEBreakpointRegistryImpl" />
                   </node>
                   <node concept="liA8E" id="R$GYrEzKPL" role="2OqNvi">
-                    <ref role="37wK5l" to="j2z0:R$GYrEs3Kc" resolve="getActualBreakpoint" />
+                    <ref role="37wK5l" to="2m3p:R$GYrEs3Kc" resolve="getActualBreakpoint" />
                     <node concept="pncrf" id="R$GYrEzKPM" role="37wK5m" />
                   </node>
                 </node>
