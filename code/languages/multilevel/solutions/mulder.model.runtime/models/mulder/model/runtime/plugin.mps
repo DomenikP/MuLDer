@@ -276,6 +276,7 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
@@ -2475,8 +2476,44 @@
           </node>
         </node>
         <node concept="3cpWs6" id="192S7Gd_FZm" role="3cqZAp">
-          <node concept="37vLTw" id="192S7Gd_FZn" role="3cqZAk">
-            <ref role="3cqZAo" node="192S7Gd_FY_" resolve="sortedModels" />
+          <node concept="2OqwBi" id="A6YWTLZI_F" role="3cqZAk">
+            <node concept="2OqwBi" id="A6YWTLZBTU" role="2Oq$k0">
+              <node concept="37vLTw" id="192S7Gd_FZn" role="2Oq$k0">
+                <ref role="3cqZAo" node="192S7Gd_FY_" resolve="sortedModels" />
+              </node>
+              <node concept="3zZkjj" id="A6YWTLZDLH" role="2OqNvi">
+                <node concept="1bVj0M" id="A6YWTLZDLJ" role="23t8la">
+                  <node concept="3clFbS" id="A6YWTLZDLK" role="1bW5cS">
+                    <node concept="3clFbF" id="A6YWTLZE14" role="3cqZAp">
+                      <node concept="2OqwBi" id="A6YWTLZEYJ" role="3clFbG">
+                        <node concept="2OqwBi" id="A6YWTLZEer" role="2Oq$k0">
+                          <node concept="37vLTw" id="A6YWTLZE13" role="2Oq$k0">
+                            <ref role="3cqZAo" node="A6YWTLZDLL" resolve="it" />
+                          </node>
+                          <node concept="liA8E" id="A6YWTLZEFb" role="2OqNvi">
+                            <ref role="37wK5l" to="ec5l:~SModel.getModelName():java.lang.String" resolve="getModelName" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="A6YWTLZGWy" role="2OqNvi">
+                          <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                          <node concept="2OqwBi" id="A6YWTLZHSt" role="37wK5m">
+                            <node concept="37vLTw" id="A6YWTLZHCy" role="2Oq$k0">
+                              <ref role="3cqZAo" node="192S7Gd_FYr" resolve="inputModel" />
+                            </node>
+                            <node concept="LkI2h" id="A6YWTLZIfB" role="2OqNvi" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="A6YWTLZDLL" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="A6YWTLZDLM" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="ANE8D" id="A6YWTLZJD2" role="2OqNvi" />
           </node>
         </node>
       </node>
