@@ -23,7 +23,6 @@
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="applications" />
       <modulePath path="$PROJECT_DIR$/languages/mulder.modelgen/mulder.modelgen.mpl" folder="mulder" />
-      <modulePath path="$PROJECT_DIR$/languages/multiLevel.debugger/multiLevel.debugger.mpl" folder="mbeddr.debugger" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.Generator.runtime/DeSpec.Generator.runtime.msd" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.pluginSolution/DeSpec.pluginSolution.msd" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.runtime/DeSpec.runtime.msd" folder="mulder" />
