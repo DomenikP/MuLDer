@@ -4,6 +4,8 @@
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="0" />
+    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="0" />
+    <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
   </languages>
   <imports>
     <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
@@ -12,9 +14,13 @@
     <import index="as9o" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/f:java_stub#3f233e7f-b8a6-46d2-a57f-795d56775243#org.jetbrains.annotations(Annotations/org.jetbrains.annotations@java_stub)" />
     <import index="1l1h" ref="r:c02662c0-67c5-4c3a-8d3a-cd7ffe189340(jetbrains.mps.debug.api)" />
     <import index="3dui" ref="r:8f1039d4-1829-4754-95ac-8a801334ecda(mulder.base.runtime.plugin)" />
+    <import index="wfqx" ref="85d9f97b-1654-4692-b61c-fcc40db03653/f:java_stub#85d9f97b-1654-4692-b61c-fcc40db03653#org.eclipse.cdt.debug.core.cdi(Eclipse.Debugger/org.eclipse.cdt.debug.core.cdi@java_stub)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
+    <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
+      <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
@@ -119,8 +125,15 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+    </language>
+    <language id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension">
+      <concept id="3729007189729192406" name="jetbrains.mps.lang.extension.structure.ExtensionPointDeclaration" flags="ng" index="vrV6u">
+        <property id="5911785528834333590" name="extensionName" index="20vvCb" />
+        <child id="8029776554053057803" name="objectType" index="luc8K" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
@@ -631,5 +644,44 @@
       <ref role="3uigEE" to="3dui:3gwY0Fae6Vj" resolve="IDebuggerSettings" />
     </node>
   </node>
+  <node concept="3HP615" id="7B__YhMLdfT">
+    <property role="TrG5h" value="IMultiLevelDebuggerBackendProvider" />
+    <node concept="3clFb_" id="7B__YhMLdfU" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="acceptsRunConfigType" />
+      <node concept="37vLTG" id="7B__YhMLdfV" role="3clF46">
+        <property role="TrG5h" value="debuggerSettings" />
+        <node concept="3uibUv" id="5rKcRbejLB2" role="1tU5fm">
+          <ref role="3uigEE" to="3dui:3gwY0Fae6Vj" resolve="IDebuggerSettings" />
+        </node>
+      </node>
+      <node concept="10P_77" id="7B__YhMLdfX" role="3clF45" />
+      <node concept="3Tm1VV" id="7B__YhMLdfY" role="1B3o_S" />
+      <node concept="3clFbS" id="7B__YhMLdfZ" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="7B__YhMLdg0" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="createSession" />
+      <node concept="37vLTG" id="7B__YhMLdg1" role="3clF46">
+        <property role="TrG5h" value="debuggerSettings" />
+        <node concept="3uibUv" id="5rKcRbejLFB" role="1tU5fm">
+          <ref role="3uigEE" to="3dui:3gwY0Fae6Vj" resolve="IDebuggerSettings" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7B__YhMLdg3" role="3clF45">
+        <ref role="3uigEE" to="wfqx:~ICDISession" resolve="ICDISession" />
+      </node>
+      <node concept="3Tm1VV" id="7B__YhMLdg4" role="1B3o_S" />
+      <node concept="3clFbS" id="7B__YhMLdg5" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="7B__YhMLdg6" role="1B3o_S" />
+  </node>
+  <node concept="vrV6u" id="7B__YhMLdfR">
+    <property role="20vvCb" value="MultiLevelDebuggerBackendProvider" />
+    <node concept="3uibUv" id="7B__YhMLdfS" role="luc8K">
+      <ref role="3uigEE" node="7B__YhMLdfT" resolve="IMultiLevelDebuggerBackendProvider" />
+    </node>
+  </node>
+  <node concept="2DaZZR" id="7SijymUuxco" />
 </model>
 
