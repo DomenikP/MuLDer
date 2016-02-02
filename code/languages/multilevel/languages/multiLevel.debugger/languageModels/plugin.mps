@@ -41,6 +41,8 @@
     <import index="yo81" ref="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)" />
     <import index="bq0a" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.messages(MPS.Core/jetbrains.mps.messages@java_stub)" />
     <import index="53gy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.concurrent(JDK/java.util.concurrent@java_stub)" />
+    <import index="2m3p" ref="r:61bba127-8ab7-465e-bd68-664adb1ee556(mbeddr.debugger.runtime.plugin)" />
+    <import index="3dui" ref="r:8f1039d4-1829-4754-95ac-8a801334ecda(mulder.base.runtime.plugin)" />
   </imports>
   <registry>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -99,7 +101,7 @@
       <node concept="37vLTG" id="7B__YhMLdfV" role="3clF46">
         <property role="TrG5h" value="debuggerSettings" />
         <node concept="3uibUv" id="5rKcRbejLB2" role="1tU5fm">
-          <ref role="3uigEE" to="j2z0:3gwY0Fae6Vj" resolve="IMbeddrDebuggerSettings" />
+          <ref role="3uigEE" to="3dui:3gwY0Fae6Vj" resolve="IDebuggerSettings" />
         </node>
       </node>
       <node concept="10P_77" id="7B__YhMLdfX" role="3clF45" />
@@ -112,7 +114,7 @@
       <node concept="37vLTG" id="7B__YhMLdg1" role="3clF46">
         <property role="TrG5h" value="debuggerSettings" />
         <node concept="3uibUv" id="5rKcRbejLFB" role="1tU5fm">
-          <ref role="3uigEE" to="j2z0:3gwY0Fae6Vj" resolve="IMbeddrDebuggerSettings" />
+          <ref role="3uigEE" to="3dui:3gwY0Fae6Vj" resolve="IDebuggerSettings" />
         </node>
       </node>
       <node concept="3uibUv" id="7B__YhMLdg3" role="3clF45">

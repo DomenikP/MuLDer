@@ -4,6 +4,7 @@
   <languages>
     <use id="4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff" name="mstatemachine" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports />
@@ -167,9 +168,6 @@
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
-      <concept id="5950410542643524492" name="com.mbeddr.core.modules.structure.FunctionCall" flags="ng" index="3O_q_g">
-        <reference id="5950410542643524493" name="function" index="3O_q_h" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -479,11 +477,7 @@
             <ref role="1LefYB" node="512cLuR$Q5F" resolve="sm" />
           </node>
         </node>
-        <node concept="1_9egQ" id="1lK4d_U8Gqb" role="3XIRFZ">
-          <node concept="3O_q_g" id="1lK4d_U8Gq9" role="1_9egR">
-            <ref role="3O_q_h" node="1lK4d_U8FQz" resolve="dummy" />
-          </node>
-        </node>
+        <node concept="3XISUE" id="1lK4d_U8Goi" role="3XIRFZ" />
         <node concept="1_9egQ" id="512cLuR$TpD" role="3XIRFZ">
           <node concept="2qmXGp" id="512cLuR$TrE" role="1_9egR">
             <node concept="29IFpF" id="512cLuR$TuI" role="1ESnxz" />

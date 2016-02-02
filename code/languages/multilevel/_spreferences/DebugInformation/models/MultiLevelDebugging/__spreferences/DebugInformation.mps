@@ -15,11 +15,11 @@
     </language>
   </registry>
   <node concept="19mhSs" id="2Kx5o1_w$mj">
-    <property role="19mgmN" value="false" />
+    <property role="19mgmN" value="true" />
     <property role="19IPOc" value="true" />
-    <property role="19IPOs" value="false" />
-    <property role="19IPOI" value="false" />
-    <property role="19IPOV" value="false" />
+    <property role="19IPOs" value="true" />
+    <property role="19IPOI" value="true" />
+    <property role="19IPOV" value="true" />
   </node>
 </model>
 

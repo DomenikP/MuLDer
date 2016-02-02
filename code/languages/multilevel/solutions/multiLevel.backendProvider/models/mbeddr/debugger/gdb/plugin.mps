@@ -17,6 +17,8 @@
     <import index="qxbt" ref="r:68b3115f-659e-4d7b-9a80-66020c5b791f(mbeddr.debugger.core.plugin)" />
     <import index="j2z0" ref="r:e018fc1c-c261-4cd9-b91c-fe6714dcbd6e(mbeddr.debugger.core.debug)" />
     <import index="1l1h" ref="r:c02662c0-67c5-4c3a-8d3a-cd7ffe189340(jetbrains.mps.debug.api)" />
+    <import index="2m3p" ref="r:61bba127-8ab7-465e-bd68-664adb1ee556(mbeddr.debugger.runtime.plugin)" />
+    <import index="3dui" ref="r:8f1039d4-1829-4754-95ac-8a801334ecda(mulder.base.runtime.plugin)" />
   </imports>
   <registry>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -111,9 +113,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -183,7 +182,7 @@
                   <node concept="37vLTG" id="7B__YhMLdfV" role="3clF46">
                     <property role="TrG5h" value="debuggerSettings" />
                     <node concept="3uibUv" id="5rKcRbejLB2" role="1tU5fm">
-                      <ref role="3uigEE" to="j2z0:3gwY0Fae6Vj" resolve="IMbeddrDebuggerSettings" />
+                      <ref role="3uigEE" to="3dui:3gwY0Fae6Vj" resolve="IDebuggerSettings" />
                     </node>
                   </node>
                   <node concept="10P_77" id="7B__YhMLdfX" role="3clF45" />
@@ -207,7 +206,7 @@
                   <node concept="37vLTG" id="7B__YhMLdg1" role="3clF46">
                     <property role="TrG5h" value="debuggerSettings" />
                     <node concept="3uibUv" id="5rKcRbejLFB" role="1tU5fm">
-                      <ref role="3uigEE" to="j2z0:3gwY0Fae6Vj" resolve="IMbeddrDebuggerSettings" />
+                      <ref role="3uigEE" to="3dui:3gwY0Fae6Vj" resolve="IDebuggerSettings" />
                     </node>
                   </node>
                   <node concept="3uibUv" id="7B__YhMLdg3" role="3clF45">
@@ -285,7 +284,7 @@
                                       <ref role="3cqZAo" node="7c6uq_OaDNu" resolve="settings" />
                                     </node>
                                     <node concept="liA8E" id="3WFvXLXBQQI" role="2OqNvi">
-                                      <ref role="37wK5l" to="j2z0:5t7wq7v4vuT" resolve="getBinaryPath" />
+                                      <ref role="37wK5l" to="2m3p:5t7wq7v4vuT" resolve="getBinaryPath" />
                                     </node>
                                   </node>
                                 </node>
@@ -305,7 +304,7 @@
                                   <ref role="3cqZAo" node="7c6uq_OaDNu" resolve="settings" />
                                 </node>
                                 <node concept="liA8E" id="7B__YhMRDk7" role="2OqNvi">
-                                  <ref role="37wK5l" to="j2z0:5t7wq7v4vvp" resolve="getLaunchTimeout" />
+                                  <ref role="37wK5l" to="2m3p:5t7wq7v4vvp" resolve="getLaunchTimeout" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="7B__YhMRDv8" role="37wK5m">
@@ -313,7 +312,7 @@
                                   <ref role="3cqZAo" node="7c6uq_OaDNu" resolve="settings" />
                                 </node>
                                 <node concept="liA8E" id="7B__YhMRDva" role="2OqNvi">
-                                  <ref role="37wK5l" to="j2z0:5t7wq7v4vvx" resolve="getCommandTimeout" />
+                                  <ref role="37wK5l" to="2m3p:5t7wq7v4vvx" resolve="getCommandTimeout" />
                                 </node>
                               </node>
                             </node>
@@ -372,7 +371,7 @@
       <node concept="3Tm1VV" id="7B__YhMUq3E" role="1B3o_S" />
       <node concept="3clFbS" id="7B__YhMUq3F" role="3clF47">
         <node concept="XkiVB" id="7B__YhMUq3G" role="3cqZAp">
-          <ref role="37wK5l" to="j2z0:5t7wq7v4vsS" resolve="AbstractDebuggerSettings" />
+          <ref role="37wK5l" to="2m3p:5t7wq7v4vsS" resolve="AbstractDebuggerSettings" />
           <node concept="37vLTw" id="7B__YhMUq3H" role="37wK5m">
             <ref role="3cqZAo" node="7B__YhMUq3P" resolve="project" />
           </node>
@@ -453,22 +452,8 @@
     </node>
     <node concept="2tJIrI" id="7c6uq_OaANO" role="jymVt" />
     <node concept="3uibUv" id="7B__YhMUq45" role="1zkMxy">
-      <ref role="3uigEE" to="j2z0:5t7wq7v4vst" resolve="AbstractDebuggerSettings" />
+      <ref role="3uigEE" to="2m3p:5t7wq7v4vst" resolve="AbstractDebuggerSettings" />
     </node>
-    <node concept="3clFb_" id="7YbLAHTVeVH" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="showUnmappedVariables" />
-      <node concept="10P_77" id="7YbLAHTVeVI" role="3clF45" />
-      <node concept="3Tm1VV" id="7YbLAHTVeVJ" role="1B3o_S" />
-      <node concept="3clFbS" id="7YbLAHTVeVN" role="3clF47">
-        <node concept="3clFbF" id="7YbLAHTVf3E" role="3cqZAp">
-          <node concept="3clFbT" id="7YbLAHTVf3D" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="7c6uq_OaAWj" role="jymVt" />
     <node concept="3clFb_" id="7c6uq_OaCpg" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="pathToGdb" />

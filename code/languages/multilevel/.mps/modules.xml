@@ -6,7 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.Model/DeSpec.Model.mpl" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.Text/DeSpec.Text.mpl" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.TextGen/DeSpec.TextGen.mpl" folder="mulder" />
-      <modulePath path="$PROJECT_DIR$/languages/DeSpec.mbeddr/DeSpec.mbeddr.mpl" folder="debugger" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.mbeddr/DeSpec.mbeddr.mpl" folder="mbeddr.debugger" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/MMockComponent/MMockComponent.mpl" folder="languages" />
@@ -16,17 +16,23 @@
       <modulePath path="$PROJECT_DIR$/languages/MUnit/MUnit.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit/sandbox/MUnit.sandbox.msd" folder="applications" />
       <modulePath path="$PROJECT_DIR$/languages/Tracing/Tracing.mpl" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.core.debug.test/solutions/pluginSolution/runtime.msd" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.core.debug.test/test.mpl" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/languages/mbeddr.debugger.testing.adapter/mbeddr.debugger.testing.adapter.mpl" folder="mbeddr.testing" />
+      <modulePath path="$PROJECT_DIR$/languages/mbeddr.debugger.testing/mbeddr.debugger.testing.mpl" folder="mbeddr.testing" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/mstatemachine/sandbox/mstatemachine.sandbox.msd" folder="applications" />
       <modulePath path="$PROJECT_DIR$/languages/mulder.modelgen/mulder.modelgen.mpl" folder="mulder" />
-      <modulePath path="$PROJECT_DIR$/languages/multiLevel.debugger/multiLevel.debugger.mpl" folder="debugger." />
+      <modulePath path="$PROJECT_DIR$/languages/multiLevel.debugger/multiLevel.debugger.mpl" folder="mbeddr.debugger" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.Generator.runtime/DeSpec.Generator.runtime.msd" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.pluginSolution/DeSpec.pluginSolution.msd" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.runtime/DeSpec.runtime.msd" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/solutions/NewSolution/NewSolution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Tracing.runtime/Tracing.runtime.msd" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/solutions/mbeddr.debugger.runtime/mbeddr.debugger.runtime.msd" folder="mbeddr.debugger" />
       <modulePath path="$PROJECT_DIR$/solutions/mulder.model.runtime/mulder.model.runtime.msd" folder="mulder" />
-      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.backendProvider/multiLevel.backendProvider.msd" folder="debugger." />
-      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.runconfiguration/multiLevel.runconfiguration.msd" folder="debugger." />
+      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.backendProvider/multiLevel.backendProvider.msd" folder="mbeddr.debugger" />
+      <modulePath path="$PROJECT_DIR$/solutions/multiLevel.runconfiguration/multiLevel.runconfiguration.msd" folder="mbeddr.debugger" />
     </projectModules>
   </component>
 </project>

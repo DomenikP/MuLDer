@@ -16,6 +16,7 @@
     <import index="sn11" ref="r:836426ab-a6f4-4fa3-9a9c-34c02ed6ab5d(jetbrains.mps.ide.icons)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="as9o" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/f:java_stub#3f233e7f-b8a6-46d2-a57f-795d56775243#org.jetbrains.annotations(Annotations/org.jetbrains.annotations@java_stub)" />
+    <import index="b2mh" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.project(MPS.IDEA/com.intellij.openapi.project@java_stub)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -65,6 +66,7 @@
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg">
         <property id="8606350594693632173" name="isTransient" index="eg7rD" />
@@ -157,6 +159,7 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
+      <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
@@ -2122,6 +2125,71 @@
       <node concept="2AHcQZ" id="QgqG6mCTiw" role="2AJF6D">
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="3gwY0Fae6Vj">
+    <property role="3GE5qa" value="mps-integration.session-creator.settings" />
+    <property role="TrG5h" value="IDebuggerSettings" />
+    <node concept="3Tm1VV" id="3gwY0Fae6Vk" role="1B3o_S" />
+    <node concept="3clFb_" id="3gwY0Fae6Vn" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getProject" />
+      <node concept="3uibUv" id="5zgShfc1sqm" role="3clF45">
+        <ref role="3uigEE" to="b2mh:~Project" resolve="Project" />
+      </node>
+      <node concept="3Tm1VV" id="3gwY0Fae6Vp" role="1B3o_S" />
+      <node concept="3clFbS" id="3gwY0Fae6Vq" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="3gwY0Fae6Vs" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getBinary" />
+      <node concept="3uibUv" id="3gwY0Fae6VJ" role="3clF45">
+        <ref role="3uigEE" to="ec5l:~SNode" resolve="SNode" />
+      </node>
+      <node concept="3Tm1VV" id="3gwY0Fae6Vu" role="1B3o_S" />
+      <node concept="3clFbS" id="3gwY0Fae6Vv" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="3_wnXoquIbI" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getModel" />
+      <node concept="H_c77" id="3_wnXoquIeN" role="3clF45" />
+      <node concept="3Tm1VV" id="3_wnXoquIbL" role="1B3o_S" />
+      <node concept="3clFbS" id="3_wnXoquIbM" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5ibmMvPfURi" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getModules" />
+      <node concept="2I9FWS" id="5ibmMvPfURm" role="3clF45" />
+      <node concept="3Tm1VV" id="5ibmMvPfURk" role="1B3o_S" />
+      <node concept="3clFbS" id="5ibmMvPfURl" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="3gwY0Fae6Vz" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getTracePath" />
+      <node concept="17QB3L" id="3gwY0Fae6VB" role="3clF45" />
+      <node concept="3Tm1VV" id="3gwY0Fae6V_" role="1B3o_S" />
+      <node concept="3clFbS" id="3gwY0Fae6VA" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="3gwY0Fae6VC" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getBinaryPath" />
+      <node concept="17QB3L" id="3gwY0Fae6VG" role="3clF45" />
+      <node concept="3Tm1VV" id="3gwY0Fae6VE" role="1B3o_S" />
+      <node concept="3clFbS" id="3gwY0Fae6VF" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6uomHeVMMM7" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getLaunchTimeout" />
+      <node concept="10Oyi0" id="6uomHeVMMMb" role="3clF45" />
+      <node concept="3Tm1VV" id="6uomHeVMMM9" role="1B3o_S" />
+      <node concept="3clFbS" id="6uomHeVMMMa" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6CecrTFCNw1" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getCommandTimeout" />
+      <node concept="10Oyi0" id="6CecrTFCNw2" role="3clF45" />
+      <node concept="3Tm1VV" id="6CecrTFCNw3" role="1B3o_S" />
+      <node concept="3clFbS" id="6CecrTFCNw4" role="3clF47" />
     </node>
   </node>
 </model>

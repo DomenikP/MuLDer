@@ -27,6 +27,7 @@
     <dependency reexport="false">93907db4-777e-49e3-bf17-9c6039f27351(mbeddr.debugger.gdb)</dependency>
     <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</dependency>
     <dependency reexport="false">f93d1dbe-bfd1-42dd-932a-f375fa6f5373(com.mbeddr.core.make)</dependency>
+    <dependency reexport="false">673a7ad2-a2ca-4ff5-bc44-a00ba6aa95eb(mbeddr.debugger.runtime)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>982eb8df-2c96-4bd7-9963-11712ea622e5(jetbrains.mps.lang.resources)</usedLanguage>
