@@ -932,5 +932,21 @@
     <property role="3GE5qa" value="value.specification.constructor.complex" />
     <property role="TrG5h" value="ValueLifter" />
   </node>
+  <node concept="1TIwiD" id="2Kx5o1BPmrJ">
+    <property role="TrG5h" value="LevelIconProvider" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="MwhBj" value="${module}/icons/LevelIconProviderCharIcon.png" />
+    <property role="3GE5qa" value="util" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="cTxPe" id="2Kx5o1BPmtW" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="L" />
+      <property role="cYWFC" value="#ffa500" />
+      <property role="cYWF$" value="#FFFFFF" />
+      <property role="cYWFH" value="#FFFFFF" />
+    </node>
+  </node>
 </model>
 
