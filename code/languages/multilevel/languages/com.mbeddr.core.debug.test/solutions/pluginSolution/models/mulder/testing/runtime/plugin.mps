@@ -539,12 +539,24 @@
     <node concept="3clFb_" id="7EgG63O33tY" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getCallStack" />
+      <property role="TrG5h" value="getTopLevelCallStack" />
       <node concept="3clFbS" id="7EgG63O33u1" role="3clF47" />
       <node concept="3Tm1VV" id="7EgG63O33u2" role="1B3o_S" />
       <node concept="_YKpA" id="7EgG63O33mP" role="3clF45">
         <node concept="3uibUv" id="7EgG63O33tT" role="_ZDj9">
           <ref role="3uigEE" to="pry4:3SnNvqCaJt9" resolve="IStackFrame" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="17b57mEZaG" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getLevels" />
+      <node concept="3clFbS" id="17b57mEZaH" role="3clF47" />
+      <node concept="3Tm1VV" id="17b57mEZaI" role="1B3o_S" />
+      <node concept="_YKpA" id="17b57mEZaJ" role="3clF45">
+        <node concept="3uibUv" id="17b57mF5CF" role="_ZDj9">
+          <ref role="3uigEE" to="pry4:3SnNvqCaJfr" resolve="IThread" />
         </node>
       </node>
     </node>
@@ -4350,7 +4362,7 @@
     <node concept="3clFb_" id="7EgG63O3475" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getCallStack" />
+      <property role="TrG5h" value="getTopLevelCallStack" />
       <node concept="3Tm1VV" id="7EgG63O3477" role="1B3o_S" />
       <node concept="_YKpA" id="7EgG63O3478" role="3clF45">
         <node concept="3uibUv" id="7EgG63O3479" role="_ZDj9">
@@ -4373,6 +4385,29 @@
             </node>
             <node concept="liA8E" id="7EgG63O34$K" role="2OqNvi">
               <ref role="37wK5l" to="pry4:3SnNvqCaJft" resolve="getFrames" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="17b57mFcad" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getLevels" />
+      <node concept="3Tm1VV" id="17b57mFcae" role="1B3o_S" />
+      <node concept="_YKpA" id="17b57mFcaf" role="3clF45">
+        <node concept="3uibUv" id="17b57mFcag" role="_ZDj9">
+          <ref role="3uigEE" to="pry4:3SnNvqCaJfr" resolve="IThread" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="17b57mFcac" role="3clF47">
+        <node concept="3clFbF" id="17b57mFcSi" role="3cqZAp">
+          <node concept="2OqwBi" id="17b57mFcSk" role="3clFbG">
+            <node concept="2N2G$s" id="17b57mFcSl" role="2Oq$k0">
+              <ref role="3cqZAo" node="6MI7HAglBZB" resolve="programStateManager" />
+            </node>
+            <node concept="liA8E" id="17b57mFcSm" role="2OqNvi">
+              <ref role="37wK5l" to="2m3p:6MI7HAgl_fy" resolve="getProgramState" />
             </node>
           </node>
         </node>

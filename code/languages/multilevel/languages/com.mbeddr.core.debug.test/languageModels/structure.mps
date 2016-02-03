@@ -639,11 +639,15 @@
     <property role="34LRSv" value="level stack" />
     <property role="3GE5qa" value="level" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="17b57mGRKr" role="1TKVEl">
+      <property role="TrG5h" value="comparisonSemantics" />
+      <ref role="AX2Wp" node="17b57mGRKm" resolve="ComparisonSemantics" />
+    </node>
     <node concept="1TJgyj" id="3ELV2aP28nk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="levels" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3ELV2aP28jy" resolve="LevelDeclaration" />
+      <ref role="20lvS9" node="3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
     </node>
     <node concept="1TJgyj" id="5Wc0QVxnuZP" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -659,12 +663,21 @@
   </node>
   <node concept="1TIwiD" id="3ELV2aP28jy">
     <property role="3GE5qa" value="level" />
-    <property role="TrG5h" value="LevelDeclaration" />
+    <property role="TrG5h" value="LevelWithCallStackDeclaration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="17b57mcf7R" role="1TKVEl">
+      <property role="TrG5h" value="model" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="3ELV2aP9B$L" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="callStack" />
       <ref role="20lvS9" node="3ELV2aP9B$O" resolve="ICallStack" />
+    </node>
+    <node concept="1TJgyj" id="17b57n0M0c" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="phase" />
+      <ref role="20lvS9" node="17b57n0Lr5" resolve="Phase" />
     </node>
     <node concept="PrWs8" id="3ELV2aP4lK8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -840,6 +853,28 @@
   <node concept="PlHQZ" id="1lK4d_WjpbI">
     <property role="3GE5qa" value="module" />
     <property role="TrG5h" value="ExecutableReference" />
+  </node>
+  <node concept="AxPO7" id="17b57mGRKm">
+    <property role="3GE5qa" value="level" />
+    <property role="TrG5h" value="ComparisonSemantics" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="M4N5e" id="17b57mGRKn" role="M5hS2">
+      <property role="1uS6qv" value="0" />
+      <property role="1uS6qo" value="equals" />
+    </node>
+    <node concept="M4N5e" id="17b57mGRKo" role="M5hS2">
+      <property role="1uS6qo" value="contains" />
+      <property role="1uS6qv" value="1" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="17b57n0Lr5">
+    <property role="3GE5qa" value="level" />
+    <property role="TrG5h" value="Phase" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="17b57n0Lra" role="1TKVEl">
+      <property role="TrG5h" value="phase" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 

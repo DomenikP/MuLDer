@@ -12,6 +12,9 @@
     <import index="rpmx" ref="r:64720d49-3cb5-4469-81c5-0c62eda0a2cb(mulder.testing.structure)" />
     <import index="dm5s" ref="r:cc63f437-a3eb-4092-9c7c-2b5860f74f8d(mulder.testing.behavior)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="tpeu" ref="r:00000000-0000-4000-0000-011c895902fa(jetbrains.mps.lang.smodel.behavior)" />
+    <import index="88zw" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.module(MPS.OpenAPI/org.jetbrains.mps.openapi.module@java_stub)" />
+    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1290,6 +1293,52 @@
                     <property role="TrG5h" value="cs" />
                     <node concept="2jxLKc" id="5Wc0QVxr69P" role="1tU5fm" />
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="17b57l$Crd">
+    <property role="3GE5qa" value="level" />
+    <ref role="1M2myG" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
+    <node concept="EnEH3" id="17b57n5sQ0" role="1MhHOB">
+      <ref role="EomxK" to="rpmx:17b57mcf7R" resolve="model" />
+      <node concept="QB0g5" id="17b57n5tHH" role="QCWH9">
+        <node concept="3clFbS" id="17b57n5tHI" role="2VODD2">
+          <node concept="3clFbF" id="17b57n5tKz" role="3cqZAp">
+            <node concept="3fqX7Q" id="17b57n5tQI" role="3clFbG">
+              <node concept="2OqwBi" id="17b57n5sWq" role="3fr31v">
+                <node concept="1Wqviy" id="17b57n5sQB" role="2Oq$k0" />
+                <node concept="liA8E" id="17b57n5tC0" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                  <node concept="Xl_RD" id="17b57n5tCG" role="37wK5m">
+                    <property role="Xl_RC" value="@" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="17b57n0LwG">
+    <property role="3GE5qa" value="level" />
+    <ref role="1M2myG" to="rpmx:17b57n0Lr5" resolve="Phase" />
+    <node concept="EnEH3" id="17b57n0Lxa" role="1MhHOB">
+      <ref role="EomxK" to="rpmx:17b57n0Lra" resolve="phase" />
+      <node concept="QB0g5" id="17b57n0Lxb" role="QCWH9">
+        <node concept="3clFbS" id="17b57n0Lxc" role="2VODD2">
+          <node concept="3clFbF" id="17b57n0Lxd" role="3cqZAp">
+            <node concept="2OqwBi" id="17b57n0Lxe" role="3clFbG">
+              <node concept="1Wqviy" id="17b57n0Lxf" role="2Oq$k0" />
+              <node concept="liA8E" id="17b57n0Lxg" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.matches(java.lang.String):boolean" resolve="matches" />
+                <node concept="Xl_RD" id="17b57n0Lxh" role="37wK5m">
+                  <property role="Xl_RC" value="([0-9]+)(_([0-9]+))?" />
                 </node>
               </node>
             </node>

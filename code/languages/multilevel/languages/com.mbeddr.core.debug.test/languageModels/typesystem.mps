@@ -2580,7 +2580,7 @@
         <node concept="3clFbS" id="3uCwkM8JsRM" role="3clFbx">
           <node concept="2MkqsV" id="3uCwkM8JtEl" role="3cqZAp">
             <node concept="1YBJjd" id="3uCwkM8JtE$" role="2OEOjV">
-              <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="ld" />
+              <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="thisLevel" />
             </node>
             <node concept="Xl_RD" id="3uCwkM8JtEx" role="2MkJ7o">
               <property role="Xl_RC" value="No Call Stack specified" />
@@ -2590,7 +2590,7 @@
         <node concept="2OqwBi" id="3uCwkM8Jtos" role="3clFbw">
           <node concept="2OqwBi" id="3uCwkM8JsVh" role="2Oq$k0">
             <node concept="1YBJjd" id="3uCwkM8JsS_" role="2Oq$k0">
-              <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="ld" />
+              <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="thisLevel" />
             </node>
             <node concept="3TrEf2" id="3uCwkM8Jte6" role="2OqNvi">
               <ref role="3Tt5mk" to="rpmx:3ELV2aP9B$L" />
@@ -2611,7 +2611,7 @@
                 <ref role="1PxNhF" to="rpmx:5Wc0QVxwIR7" resolve="ExtendedCallStack" />
                 <node concept="2OqwBi" id="3uCwkM8uznq" role="1PxMeX">
                   <node concept="1YBJjd" id="3uCwkM8uznr" role="2Oq$k0">
-                    <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="ld" />
+                    <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="thisLevel" />
                   </node>
                   <node concept="3TrEf2" id="3uCwkM8uzns" role="2OqNvi">
                     <ref role="3Tt5mk" to="rpmx:3ELV2aP9B$L" />
@@ -2620,14 +2620,11 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="3uCwkM8uykj" role="3cqZAp" />
-          <node concept="3clFbH" id="3uCwkM8uzlr" role="3cqZAp" />
-          <node concept="3clFbH" id="3uCwkM8uzlw" role="3cqZAp" />
         </node>
         <node concept="2OqwBi" id="3uCwkM8uz0C" role="3clFbw">
           <node concept="2OqwBi" id="3uCwkM8uyGV" role="2Oq$k0">
             <node concept="1YBJjd" id="3uCwkM8uykD" role="2Oq$k0">
-              <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="ld" />
+              <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="thisLevel" />
             </node>
             <node concept="3TrEf2" id="3uCwkM8uyQ9" role="2OqNvi">
               <ref role="3Tt5mk" to="rpmx:3ELV2aP9B$L" />
@@ -2640,12 +2637,85 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="3uCwkM8uxeS" role="3cqZAp" />
-      <node concept="3clFbH" id="3uCwkM8uxeX" role="3cqZAp" />
+      <node concept="3clFbH" id="17b57mFri$" role="3cqZAp" />
+      <node concept="2Gpval" id="17b57mF_rv" role="3cqZAp">
+        <node concept="2GrKxI" id="17b57mF_rx" role="2Gsz3X">
+          <property role="TrG5h" value="otherLevel" />
+        </node>
+        <node concept="3clFbS" id="17b57mF_rz" role="2LFqv$">
+          <node concept="3clFbJ" id="17b57mF_Co" role="3cqZAp">
+            <node concept="3clFbS" id="17b57mF_Cp" role="3clFbx">
+              <node concept="2MkqsV" id="17b57mFBh_" role="3cqZAp">
+                <node concept="Xl_RD" id="17b57mFBFx" role="2MkJ7o">
+                  <property role="Xl_RC" value="name already in use" />
+                </node>
+                <node concept="2GrUjf" id="17b57mFBhL" role="2OEOjV">
+                  <ref role="2Gs0qQ" node="17b57mF_rx" resolve="otherLevel" />
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="17b57mF_Kk" role="3clFbw">
+              <node concept="3y3z36" id="17b57mF_Ez" role="3uHU7B">
+                <node concept="2GrUjf" id="17b57mF_C$" role="3uHU7B">
+                  <ref role="2Gs0qQ" node="17b57mF_rx" resolve="otherLevel" />
+                </node>
+                <node concept="1YBJjd" id="17b57mF_GI" role="3uHU7w">
+                  <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="thisLevel" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="17b57mF_R5" role="3uHU7w">
+                <node concept="2OqwBi" id="17b57mF_R6" role="2Oq$k0">
+                  <node concept="2qgKlT" id="17b57mF_R8" role="2OqNvi">
+                    <ref role="37wK5l" to="dm5s:17b57mFxMT" resolve="levelName" />
+                  </node>
+                  <node concept="2GrUjf" id="17b57mFA4$" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="17b57mF_rx" resolve="otherLevel" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="17b57mF_R9" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="2OqwBi" id="17b57mFAim" role="37wK5m">
+                    <node concept="1YBJjd" id="17b57mFAbE" role="2Oq$k0">
+                      <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="thisLevel" />
+                    </node>
+                    <node concept="2qgKlT" id="17b57mFB3u" role="2OqNvi">
+                      <ref role="37wK5l" to="dm5s:17b57mFxMT" resolve="levelName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="17b57mFv9Z" role="2GsD0m">
+          <node concept="2OqwBi" id="17b57mFrO1" role="2Oq$k0">
+            <node concept="2OqwBi" id="17b57mFrnM" role="2Oq$k0">
+              <node concept="1YBJjd" id="17b57mFrlN" role="2Oq$k0">
+                <ref role="1YBMHb" node="3uCwkM8uwZ7" resolve="thisLevel" />
+              </node>
+              <node concept="2Xjw5R" id="17b57mFrJl" role="2OqNvi">
+                <node concept="1xMEDy" id="17b57mFrJn" role="1xVPHs">
+                  <node concept="chp4Y" id="17b57mFrLc" role="ri$Ld">
+                    <ref role="cht4Q" to="rpmx:3ELV2aP1ZdU" resolve="LevelStackDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3Tsc0h" id="17b57mFs6W" role="2OqNvi">
+              <ref role="3TtcxE" to="rpmx:3ELV2aP28nk" />
+            </node>
+          </node>
+          <node concept="v3k3i" id="17b57mFx5I" role="2OqNvi">
+            <node concept="chp4Y" id="17b57mFxaK" role="v3oSu">
+              <ref role="cht4Q" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="3uCwkM8uwZ7" role="1YuTPh">
-      <property role="TrG5h" value="ld" />
-      <ref role="1YaFvo" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+      <property role="TrG5h" value="thisLevel" />
+      <ref role="1YaFvo" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
     </node>
   </node>
   <node concept="18kY7G" id="3uCwkM8uH$_">
@@ -2678,7 +2748,7 @@
             <node concept="3cpWsn" id="3uCwkM8uNq3" role="3cpWs9">
               <property role="TrG5h" value="levelsFromExtended" />
               <node concept="2I9FWS" id="3uCwkM8uNpZ" role="1tU5fm">
-                <ref role="2I9WkF" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+                <ref role="2I9WkF" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
               </node>
               <node concept="2OqwBi" id="3uCwkM8uNq4" role="33vP2m">
                 <node concept="2OqwBi" id="3uCwkM8uNq5" role="2Oq$k0">
@@ -2704,7 +2774,7 @@
             <node concept="3cpWsn" id="3uCwkM8uO2n" role="3cpWs9">
               <property role="TrG5h" value="ownLevels" />
               <node concept="2I9FWS" id="3uCwkM8uO2j" role="1tU5fm">
-                <ref role="2I9WkF" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+                <ref role="2I9WkF" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
               </node>
               <node concept="2OqwBi" id="3uCwkM8uO2o" role="33vP2m">
                 <node concept="1YBJjd" id="3uCwkM8uO2p" role="2Oq$k0">
@@ -2740,7 +2810,7 @@
             <node concept="3cpWsn" id="3uCwkM8HzWK" role="3cpWs9">
               <property role="TrG5h" value="extensionsInOwnLevels" />
               <node concept="2I9FWS" id="3uCwkM8LoAf" role="1tU5fm">
-                <ref role="2I9WkF" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+                <ref role="2I9WkF" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
               </node>
               <node concept="2OqwBi" id="3uCwkM8Lpg6" role="33vP2m">
                 <node concept="37vLTw" id="3uCwkM8HzWM" role="2Oq$k0">
@@ -2830,20 +2900,6 @@
             <node concept="3clFbS" id="3uCwkM8uQ6L" role="2LFqv$">
               <node concept="3clFbJ" id="3uCwkM8uQ6M" role="3cqZAp">
                 <node concept="3clFbS" id="3uCwkM8uQ6N" role="3clFbx">
-                  <node concept="3clFbF" id="3uCwkM8NveT" role="3cqZAp">
-                    <node concept="2OqwBi" id="3uCwkM8NveQ" role="3clFbG">
-                      <node concept="10M0yZ" id="3uCwkM8NveR" role="2Oq$k0">
-                        <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                        <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-                      </node>
-                      <node concept="liA8E" id="3uCwkM8NveS" role="2OqNvi">
-                        <ref role="37wK5l" to="fxg7:~PrintStream.println():void" resolve="println" />
-                        <node concept="Xl_RD" id="3uCwkM8Nvfl" role="37wK5m">
-                          <property role="Xl_RC" value="bla" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
                   <node concept="2MkqsV" id="3uCwkM8uQ6O" role="3cqZAp">
                     <node concept="1YBJjd" id="3uCwkM8vGUf" role="2OEOjV">
                       <ref role="1YBMHb" node="3uCwkM8uH$C" resolve="lsd" />
@@ -3068,7 +3124,7 @@
                                   <node concept="2Xjw5R" id="3uCwkM8MQOA" role="2OqNvi">
                                     <node concept="1xMEDy" id="3uCwkM8MQOC" role="1xVPHs">
                                       <node concept="chp4Y" id="3uCwkM8MQOK" role="ri$Ld">
-                                        <ref role="cht4Q" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+                                        <ref role="cht4Q" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
                                       </node>
                                     </node>
                                   </node>
@@ -3171,13 +3227,13 @@
     <node concept="Q6JDH" id="3uCwkM8uYQq" role="Q6Id_">
       <property role="TrG5h" value="levels" />
       <node concept="2I9FWS" id="3uCwkM8uYQr" role="Q6QK4">
-        <ref role="2I9WkF" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+        <ref role="2I9WkF" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
       </node>
     </node>
     <node concept="Q6JDH" id="3uCwkM8uYQs" role="Q6Id_">
       <property role="TrG5h" value="newLevel" />
       <node concept="3Tqbb2" id="3uCwkM8uYQt" role="Q6QK4">
-        <ref role="ehGHo" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+        <ref role="ehGHo" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
       </node>
     </node>
     <node concept="Q5ZZ6" id="3uCwkM8uYQu" role="Q6x$H">
@@ -3205,12 +3261,12 @@
           <node concept="3cpWsn" id="3uCwkM8uYQB" role="3cpWs9">
             <property role="TrG5h" value="newLevelDeclaration" />
             <node concept="3Tqbb2" id="3uCwkM8uYQC" role="1tU5fm">
-              <ref role="ehGHo" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+              <ref role="ehGHo" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
             </node>
             <node concept="2ShNRf" id="3uCwkM8uYQD" role="33vP2m">
               <node concept="3zrR0B" id="3uCwkM8uYQE" role="2ShVmc">
                 <node concept="3Tqbb2" id="3uCwkM8uYQF" role="3zrR0E">
-                  <ref role="ehGHo" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+                  <ref role="ehGHo" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
                 </node>
               </node>
             </node>
@@ -3406,7 +3462,7 @@
     <node concept="Q6JDH" id="3uCwkM8MuLY" role="Q6Id_">
       <property role="TrG5h" value="levelToMove" />
       <node concept="3Tqbb2" id="3uCwkM8MuLZ" role="Q6QK4">
-        <ref role="ehGHo" to="rpmx:3ELV2aP28jy" resolve="LevelDeclaration" />
+        <ref role="ehGHo" to="rpmx:3ELV2aP28jy" resolve="LevelWithCallStackDeclaration" />
       </node>
     </node>
     <node concept="Q6JDH" id="3uCwkM8MuM0" role="Q6Id_">
