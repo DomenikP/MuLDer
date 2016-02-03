@@ -89,7 +89,22 @@
         <language id="f9c49961-72fd-4908-826c-b9e67ef3b152" fqName="mbeddr.debugger.testing.adapter" version="-1" />
         <language id="89c70b13-7f9c-47c3-b3c2-c218b52ed82c" fqName="mulder.testing" version="0" />
       </languageVersions>
-      <mapping-priorities />
+      <mapping-priorities>
+        <mapping-priority-rule kind="after_or_together">
+          <greater-priority-mapping>
+            <generator generatorUID="7c0b6514-027c-4f47-8410-82b63d877b97(mbeddr.debugger.testing#1544753198467486280)" />
+            <external-mapping>
+              <mapping-node modelUID="r:6e0bdce1-7394-4e9f-a689-317e918134e2(mbeddr.debugger.testing.generator.template.main@generator)" nodeID="1544753198467486281" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="1b881fe2-dedf-490a-bc16-7cf24e5d1226(mulder.testing#4193597469137492863)" />
+            <external-mapping>
+              <mapping-node modelUID="r:0f65fa18-de0b-4b5d-8744-46c3a95fc665(mulder.testing.generator.template.main@generator)" nodeID="4193597469137492904" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+      </mapping-priorities>
     </generator>
   </generators>
   <sourcePath />

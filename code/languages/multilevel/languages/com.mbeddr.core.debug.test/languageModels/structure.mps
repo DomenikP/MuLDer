@@ -126,20 +126,6 @@
       <ref role="20lvS9" node="5t7wq7uqigT" resolve="IDebuggerBackend" />
     </node>
   </node>
-  <node concept="1TIwiD" id="67gjJAxY3KQ">
-    <property role="TrG5h" value="ValidateDebuggerSuspended" />
-    <property role="3GE5qa" value="validation.suspended" />
-    <property role="34LRSv" value="suspended at" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="67gjJAxY3KR" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="marker" />
-      <ref role="20lvS9" node="3CMDERQUHE$" resolve="MarkerRef" />
-    </node>
-    <node concept="PrWs8" id="3M3l$fn_oo5" role="PzmwI">
-      <ref role="PrY4T" node="3M3l$fn_bXb" resolve="IValidationConfigurationElement" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3ESKAEuEBRB">
     <property role="3GE5qa" value="stepping" />
     <property role="TrG5h" value="StepOutCommand" />
@@ -166,34 +152,12 @@
       <ref role="PrY4T" node="5S3xvtkvmT" resolve="ISteppingConfigurationElement" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3W_lGXEf2pw">
-    <property role="3GE5qa" value="validation.stack-frames" />
-    <property role="TrG5h" value="StackFramesValidationList" />
-    <property role="34LRSv" value="call stack declaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3M3l$fn_oo7" role="PzmwI">
-      <ref role="PrY4T" node="3M3l$fn_bXb" resolve="IValidationConfigurationElement" />
-    </node>
-    <node concept="PrWs8" id="13C5RDfAVMP" role="PzmwI">
-      <ref role="PrY4T" node="13C5RDfAVMM" resolve="IStackFrameList" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="4r78KUsjp7o">
     <property role="TrG5h" value="ISteppingCommand" />
     <property role="3GE5qa" value="stepping" />
     <node concept="1TJgyi" id="xTAOoa4eOf" role="1TKVEl">
       <property role="TrG5h" value="times" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3W_lGXEf01U">
-    <property role="3GE5qa" value="validation.stack-frames" />
-    <property role="TrG5h" value="StackFrame" />
-    <property role="34LRSv" value="stack frame" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="3W_lGXEf01Y" role="1TKVEl">
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="3ESKAEuEBRt">
@@ -207,27 +171,6 @@
     </node>
     <node concept="PrWs8" id="5S3xvtkzZz" role="PzmwI">
       <ref role="PrY4T" node="5S3xvtkvmT" resolve="ISteppingConfigurationElement" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3W_lGXEdjP1">
-    <property role="3GE5qa" value="validation.watches" />
-    <property role="TrG5h" value="WatchablesValidationList" />
-    <property role="34LRSv" value="watchables" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3W_lGXEdrSz" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="watchables" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5YGS28LSmkk" resolve="WatchableExpression" />
-    </node>
-    <node concept="1TJgyj" id="13C5RDf_2r8" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="extends" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="13C5RDf_2qZ" resolve="WatchableDeclarationReference" />
-    </node>
-    <node concept="PrWs8" id="3M3l$fn_oo6" role="PzmwI">
-      <ref role="PrY4T" node="3M3l$fn_bXb" resolve="IValidationConfigurationElement" />
     </node>
   </node>
   <node concept="PlHQZ" id="5S3xvt8bfv">
@@ -535,42 +478,6 @@
     </node>
     <node concept="PrWs8" id="4UpzIuJLhz" role="PzmwI">
       <ref role="PrY4T" node="4UpzIuJLhy" resolve="IExtendedWatchables" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="13C5RDfAVKW">
-    <property role="3GE5qa" value="stackframe" />
-    <property role="TrG5h" value="StackFramesDeclaration" />
-    <property role="34LRSv" value="call stack" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="13C5RDfAVKX" role="PzmwI">
-      <ref role="PrY4T" node="7Jr7T0w5cWg" resolve="IDebuggerTestDeclaration" />
-    </node>
-    <node concept="PrWs8" id="13C5RDfAVMR" role="PzmwI">
-      <ref role="PrY4T" node="13C5RDfAVMM" resolve="IStackFrameList" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="13C5RDfAVMM">
-    <property role="3GE5qa" value="validation.stack-frames" />
-    <property role="TrG5h" value="IStackFrameList" />
-    <node concept="1TJgyj" id="13C5RDfAVMN" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="stackFrames" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3W_lGXEf01U" resolve="StackFrame" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="13C5RDfBevC">
-    <property role="3GE5qa" value="validation.stack-frames" />
-    <property role="TrG5h" value="StackFramesReference" />
-    <property role="34LRSv" value="call stack reference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="13C5RDfBevD" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="sfDeclaration" />
-      <ref role="20lvS9" node="13C5RDfAVKW" resolve="StackFramesDeclaration" />
-    </node>
-    <node concept="PrWs8" id="13C5RDfBevE" role="PzmwI">
-      <ref role="PrY4T" node="3M3l$fn_bXb" resolve="IValidationConfigurationElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="4WY_RKGwG4d">

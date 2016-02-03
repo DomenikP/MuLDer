@@ -47,24 +47,20 @@
       </concept>
     </language>
     <language id="89c70b13-7f9c-47c3-b3c2-c218b52ed82c" name="mulder.testing">
+      <concept id="4229421158914492798" name="mulder.testing.structure.CallStackDeclaration" flags="ng" index="2cbQls" />
+      <concept id="4229421158889847092" name="mulder.testing.structure.ICallStack" flags="ng" index="2f_Tkm">
+        <child id="4229421158914492803" name="stackFrames" index="2cbQmx" />
+      </concept>
+      <concept id="88495548922948556" name="mulder.testing.structure.IStackFrame" flags="ng" index="2sYKRR">
+        <child id="7289224522160877411" name="watches" index="1unUxQ" />
+        <child id="7289224522144589990" name="location" index="1vlyYN" />
+        <child id="7289224522148393580" name="name" index="1v$3lT" />
+      </concept>
       <concept id="7048220250905867886" name="mulder.testing.structure.DebuggerTest" flags="lg" index="309jyn">
         <child id="6289137936867385367" name="debuggerBackend" index="29bA6Q" />
         <child id="5100083648679329380" name="executable" index="3qy1PE" />
       </concept>
-      <concept id="7048220250906049590" name="mulder.testing.structure.ValidateDebuggerSuspended" flags="ng" index="30a7bf">
-        <child id="7048220250906049591" name="marker" index="30a7be" />
-      </concept>
-      <concept id="4193597469137492644" name="mulder.testing.structure.MarkerRef" flags="ng" index="3cQ7K9">
-        <property id="105850086903157559" name="name" index="3sdDOw" />
-        <reference id="4193597469137492645" name="marker" index="3cQ7K8" />
-      </concept>
-      <concept id="4550138447367847233" name="mulder.testing.structure.WatchablesValidationList" flags="ng" index="1l46Ie">
-        <child id="4550138447367880227" name="watchables" index="1l4ezG" />
-      </concept>
-      <concept id="4550138447368290426" name="mulder.testing.structure.StackFrame" flags="ng" index="1l6lqP">
-        <property id="4550138447368290430" name="name" index="1l6lqL" />
-      </concept>
-      <concept id="4550138447368300128" name="mulder.testing.structure.StackFramesValidationList" flags="ng" index="1l6n2J" />
+      <concept id="7289224522084913821" name="mulder.testing.structure.StackFrameDeclaration" flags="ng" index="1jQ9m8" />
       <concept id="105850086902839305" name="mulder.testing.structure.DebuggerTestcase" flags="ng" index="3scrou">
         <child id="105850086902839308" name="suspension" index="3scror" />
         <child id="4360423713604451010" name="validation" index="3F5AM1" />
@@ -75,25 +71,18 @@
       <concept id="105850086903250145" name="mulder.testing.structure.SuspensionPointConfiguration" flags="ng" index="3sdZbQ">
         <child id="105850086903250160" name="suspensionPoint" index="3sdZbB" />
       </concept>
-      <concept id="1218249513292774578" name="mulder.testing.structure.IStackFrameList" flags="ng" index="1vsUJ8">
-        <child id="1218249513292774579" name="stackFrames" index="1vsUJ9" />
+      <concept id="105850086901771260" name="mulder.testing.structure.EmptyDebuggerContent" flags="ng" index="3sgmnF" />
+      <concept id="7289224522159894453" name="mulder.testing.structure.AnyWatchables" flags="ng" index="1ugayw" />
+      <concept id="7289224522141260770" name="mulder.testing.structure.AnyLocation" flags="ng" index="1voPNR" />
+      <concept id="1218249513292256529" name="mulder.testing.structure.WatchablesDeclaration" flags="ng" index="1vuW9F" />
+      <concept id="7289224522148393577" name="mulder.testing.structure.SpecificStackFrameName" flags="ng" index="1v$3lW">
+        <property id="7289224522148393578" name="name" index="1v$3lZ" />
       </concept>
       <concept id="5710167937130927554" name="mulder.testing.structure.IDebuggerTest" flags="ng" index="1zJgaY">
         <child id="5710167937130937944" name="contents" index="1zJi$$" />
       </concept>
       <concept id="4360423713604419372" name="mulder.testing.structure.ValidationConfiguration" flags="ng" index="3F5Y_J">
         <child id="4360423713604419402" name="validations" index="3F5Y$9" />
-      </concept>
-      <concept id="6894131567068111611" name="mulder.testing.structure.LiteralValue" flags="ng" index="1Iiwbp">
-        <property id="6894131567068111701" name="value" index="1IiwdR" />
-      </concept>
-      <concept id="6894131567067751726" name="mulder.testing.structure.PrimitiveValueExpression" flags="ng" index="1Ijokc">
-        <child id="6894131567068111705" name="value" index="1IiwdV" />
-      </concept>
-      <concept id="6894131567067751702" name="mulder.testing.structure.WatchableNameExpression" flags="ng" index="1IjokO" />
-      <concept id="6894131567067751707" name="mulder.testing.structure.WatchableWithValueExpression" flags="ng" index="1IjokT">
-        <child id="6894131567067751708" name="name" index="1IjokY" />
-        <child id="6894131567067751709" name="value" index="1IjokZ" />
       </concept>
     </language>
   </registry>
@@ -106,6 +95,24 @@
       <ref role="30ajXG" to="ral1:JaQEvLDCXh" resolve="MAInMod" />
     </node>
     <node concept="29bEnc" id="JaQEvLDCXn" role="29bA6Q" />
+    <node concept="3sgmnF" id="17b57lnstb" role="1zJi$$" />
+    <node concept="3sgmnF" id="17b57lpwhG" role="1zJi$$" />
+    <node concept="1vuW9F" id="17b57ljo9z" role="1zJi$$">
+      <property role="TrG5h" value="bla123" />
+    </node>
+    <node concept="3sgmnF" id="17b57lpwj1" role="1zJi$$" />
+    <node concept="2cbQls" id="17b57l89U$" role="1zJi$$">
+      <property role="TrG5h" value="bla2" />
+      <node concept="1jQ9m8" id="17b57l89UV" role="2cbQmx">
+        <node concept="1v$3lW" id="17b57l89UW" role="1v$3lT">
+          <property role="1v$3lZ" value="bla" />
+        </node>
+        <node concept="1ugayw" id="17b57l89UX" role="1unUxQ" />
+        <node concept="1voPNR" id="17b57l89UY" role="1vlyYN" />
+      </node>
+    </node>
+    <node concept="3sgmnF" id="17b57lpwju" role="1zJi$$" />
+    <node concept="3sgmnF" id="17b57lpwkS" role="1zJi$$" />
     <node concept="3scrou" id="JaQEvLDCXp" role="1zJi$$">
       <property role="TrG5h" value="blaala" />
       <node concept="3cqZAl" id="JaQEvLDCXr" role="3clF45" />
@@ -116,33 +123,14 @@
         </node>
       </node>
       <node concept="3F5Y_J" id="JaQEvLDCX$" role="3F5AM1">
-        <node concept="1l46Ie" id="JaQEvM84aB" role="3F5Y$9">
-          <node concept="1IjokO" id="JaQEvM84aL" role="1l4ezG">
-            <property role="TrG5h" value="argc" />
-          </node>
-          <node concept="1IjokO" id="JaQEvM84aN" role="1l4ezG">
-            <property role="TrG5h" value="argv" />
-          </node>
-          <node concept="1IjokT" id="YNx8qp6YK2" role="1l4ezG">
-            <node concept="1IjokO" id="YNx8qp6CKd" role="1IjokY">
-              <property role="TrG5h" value="bla123" />
+        <node concept="2cbQls" id="17b57lxYYq" role="3F5Y$9">
+          <property role="TrG5h" value="bla3" />
+          <node concept="1jQ9m8" id="17b57lxYYD" role="2cbQmx">
+            <node concept="1v$3lW" id="17b57lxYYE" role="1v$3lT">
+              <property role="1v$3lZ" value="main" />
             </node>
-            <node concept="1Ijokc" id="YNx8qp6YK6" role="1IjokZ">
-              <node concept="1Iiwbp" id="YNx8qp6YK7" role="1IiwdV">
-                <property role="1IiwdR" value="0" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="30a7bf" id="JaQEvLDCXA" role="3F5Y$9">
-          <node concept="3cQ7K9" id="YNx8qp6kWD" role="30a7be">
-            <property role="3sdDOw" value="marker" />
-            <ref role="3cQ7K8" to="ral1:JaQEvLDCRm" resolve="main" />
-          </node>
-        </node>
-        <node concept="1l6n2J" id="JaQEvM8tA9" role="3F5Y$9">
-          <node concept="1l6lqP" id="JaQEvM8tAq" role="1vsUJ9">
-            <property role="1l6lqL" value="main" />
+            <node concept="1ugayw" id="17b57lxYYF" role="1unUxQ" />
+            <node concept="1voPNR" id="17b57lxYYG" role="1vlyYN" />
           </node>
         </node>
       </node>
