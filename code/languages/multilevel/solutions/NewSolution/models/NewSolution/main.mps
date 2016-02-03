@@ -60,6 +60,7 @@
         <child id="6289137936867385367" name="debuggerBackend" index="29bA6Q" />
         <child id="5100083648679329380" name="executable" index="3qy1PE" />
       </concept>
+      <concept id="5641871277853139329" name="mulder.testing.structure.EmptyValidationConfigurationElement" flags="ng" index="16Cpm8" />
       <concept id="7289224522084913821" name="mulder.testing.structure.StackFrameDeclaration" flags="ng" index="1jQ9m8" />
       <concept id="105850086902839305" name="mulder.testing.structure.DebuggerTestcase" flags="ng" index="3scrou">
         <child id="105850086902839308" name="suspension" index="3scror" />
@@ -127,12 +128,23 @@
           <property role="TrG5h" value="bla3" />
           <node concept="1jQ9m8" id="17b57lxYYD" role="2cbQmx">
             <node concept="1v$3lW" id="17b57lxYYE" role="1v$3lT">
-              <property role="1v$3lZ" value="main" />
+              <property role="1v$3lZ" value="main123" />
             </node>
             <node concept="1ugayw" id="17b57lxYYF" role="1unUxQ" />
             <node concept="1voPNR" id="17b57lxYYG" role="1vlyYN" />
           </node>
         </node>
+        <node concept="2cbQls" id="17b57lybcg" role="3F5Y$9">
+          <property role="TrG5h" value="bla4" />
+          <node concept="1jQ9m8" id="17b57lybch" role="2cbQmx">
+            <node concept="1v$3lW" id="17b57lybci" role="1v$3lT">
+              <property role="1v$3lZ" value="main321" />
+            </node>
+            <node concept="1ugayw" id="17b57lybcj" role="1unUxQ" />
+            <node concept="1voPNR" id="17b57lybck" role="1vlyYN" />
+          </node>
+        </node>
+        <node concept="16Cpm8" id="17b57lybbU" role="3F5Y$9" />
       </node>
     </node>
   </node>
