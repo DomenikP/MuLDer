@@ -61,14 +61,10 @@
       <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
       <concept id="7901750452160634178" name="mulder.base.structure.WatchParameter" flags="ng" index="2DurlD" />
       <concept id="1616885506415405561" name="mulder.base.structure.ResolveWatchesFunction" flags="ig" index="UbBOO" />
-      <concept id="9201156180056181316" name="mulder.base.structure.ResolveDelegateToValueProviderFunction" flags="ig" index="2W$Dyf" />
       <concept id="9201156180023774569" name="mulder.base.structure.AbsentWatchesResolverFunction" flags="ig" index="2Yx1Yy" />
       <concept id="9201156180021183581" name="mulder.base.structure.ResolverAbsentValueProviderFunction" flags="ig" index="2YJ9qm" />
       <concept id="6400245134465915240" name="mulder.base.structure.RootValueFunction" flags="ig" index="1F$mhy" />
       <concept id="2933779798677129903" name="mulder.base.structure.WatchValueSubvaluesOperation" flags="ng" index="3PUeI1" />
-      <concept id="4369017833403014429" name="mulder.base.structure.IValueSpecification" flags="ng" index="1PX8ef">
-        <child id="4369017833403014786" name="semantics" index="1PX80g" />
-      </concept>
       <concept id="4369017833403013719" name="mulder.base.structure.IWatchSpecification" flags="ng" index="1PX8j5">
         <child id="4369017833403225127" name="value" index="1PYkEP" />
       </concept>
@@ -79,9 +75,6 @@
       <concept id="4369017833403018280" name="mulder.base.structure.ComplexValueSpecification" flags="ng" index="1PXbaU">
         <child id="9201156180023221824" name="rootValue" index="2YBoMb" />
         <child id="4369017833403018311" name="childWatches" index="1PXbbl" />
-      </concept>
-      <concept id="4369017833403016747" name="mulder.base.structure.DelegateSemantics" flags="ng" index="1PXbyT">
-        <child id="9201156180056180482" name="resolveDelegate" index="2W$Dn9" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -208,27 +201,13 @@
     <property role="TrG5h" value="StatemachineType_ValueProviderSpec" />
     <ref role="2qziyn" to="8glu:1X5iFxIvr4Z" resolve="StatemachineType" />
     <node concept="1PX8mh" id="UFIAu5gacc" role="1PXawn">
-      <node concept="1PXaKw" id="UFIAu5gaeF" role="1PYkEP">
-        <node concept="1PXbyT" id="UFIAu5gaeJ" role="1PX80g">
-          <node concept="2W$Dyf" id="77Xe7_RCdID" role="2W$Dn9">
-            <node concept="3clFbS" id="77Xe7_RCdIE" role="2VODD2">
-              <node concept="3clFbF" id="77Xe7_RCdNq" role="3cqZAp">
-                <node concept="2OqwBi" id="77Xe7_RCdRL" role="3clFbG">
-                  <node concept="2Duq_I" id="77Xe7_RCdNp" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="77Xe7_RCeCT" role="2OqNvi">
-                    <ref role="3Tt5mk" to="8glu:1X5iFxIvrkv" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2YJ9qm" id="7YL4GJ16SrD" role="2YJTTe">
-          <node concept="3clFbS" id="7YL4GJ16SrE" role="2VODD2">
-            <node concept="3clFbF" id="7YL4GJ16Sw8" role="3cqZAp">
-              <node concept="2OqwBi" id="7YL4GJ16S$v" role="3clFbG">
-                <node concept="2Duq_I" id="7YL4GJ16Sw7" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7YL4GJ16SXL" role="2OqNvi">
+      <node concept="1PXaKw" id="8pd8fSbi9H" role="1PYkEP">
+        <node concept="2YJ9qm" id="8pd8fSbiaW" role="2YJTTe">
+          <node concept="3clFbS" id="8pd8fSbiaX" role="2VODD2">
+            <node concept="3clFbF" id="8pd8fSbieD" role="3cqZAp">
+              <node concept="2OqwBi" id="8pd8fSbii_" role="3clFbG">
+                <node concept="2Duq_I" id="8pd8fSbieC" role="2Oq$k0" />
+                <node concept="3TrEf2" id="8pd8fSbiZl" role="2OqNvi">
                   <ref role="3Tt5mk" to="8glu:1X5iFxIvrkv" />
                 </node>
               </node>

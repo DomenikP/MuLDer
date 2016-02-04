@@ -128,7 +128,6 @@
       <concept id="3304628195161099688" name="mulder.base.structure.NameFunction" flags="ig" index="2qzixX" />
       <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
       <concept id="7450251056318683607" name="mulder.base.structure.NodeResolver" flags="ng" index="2Ofw8b" />
-      <concept id="9201156180056181316" name="mulder.base.structure.ResolveDelegateToValueProviderFunction" flags="ig" index="2W$Dyf" />
       <concept id="9201156180037714600" name="mulder.base.structure.TargetWatchSpecification" flags="ng" index="2XId1z">
         <child id="9201156180037714605" name="valueProvider" index="2XId1A" />
       </concept>
@@ -140,14 +139,8 @@
       <concept id="9201156180025058967" name="mulder.base.structure.SourceWatchWithValueProviderSpecification" flags="ng" index="2YYrhs">
         <child id="9201156180025305247" name="valueProvider" index="2YZnDk" />
       </concept>
-      <concept id="4369017833403014429" name="mulder.base.structure.IValueSpecification" flags="ng" index="1PX8ef">
-        <child id="4369017833403014786" name="semantics" index="1PX80g" />
-      </concept>
       <concept id="4369017833403019954" name="mulder.base.structure.AbsentValueSpecification" flags="ng" index="1PXaKw">
         <child id="9201156180021251205" name="absentValueResolver" index="2YJTTe" />
-      </concept>
-      <concept id="4369017833403016747" name="mulder.base.structure.DelegateSemantics" flags="ng" index="1PXbyT">
-        <child id="9201156180056180482" name="resolveDelegate" index="2W$Dn9" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1070,35 +1063,19 @@
     <node concept="2YYrhs" id="RvNPiUTFR6" role="2YSWWn">
       <node concept="2YLCzo" id="RvNPiUTFR7" role="2YZnDk">
         <ref role="2YLC_M" to="clbe:5yYXyc4Z0CS" resolve="StructType" />
-        <node concept="1PXaKw" id="RvNPiUTFRb" role="2YLCwC">
-          <node concept="1PXbyT" id="RvNPiUTFRa" role="1PX80g" />
-        </node>
+        <node concept="1PXaKw" id="8pd8fSbgGr" role="2YLCwC" />
       </node>
     </node>
     <node concept="2XId1z" id="RvNPiUTFRe" role="2XCcQV">
       <node concept="2YLCzo" id="RvNPiUTFRf" role="2XId1A">
         <ref role="2YLC_M" to="32lw:1qBaxu1UkdY" resolve="ComponentType" />
-        <node concept="1PXaKw" id="RvNPiUTFRj" role="2YLCwC">
-          <node concept="1PXbyT" id="RvNPiUTFRi" role="1PX80g">
-            <node concept="2W$Dyf" id="RvNPiUTFRm" role="2W$Dn9">
-              <node concept="3clFbS" id="RvNPiUTFRn" role="2VODD2">
-                <node concept="3clFbF" id="RvNPiUTFRO" role="3cqZAp">
-                  <node concept="2OqwBi" id="RvNPiUTFZ8" role="3clFbG">
-                    <node concept="2Duq_I" id="RvNPiUTFRN" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="RvNPiUTGw8" role="2OqNvi">
-                      <ref role="3Tt5mk" to="clbe:5yYXyc4Z0CT" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2YJ9qm" id="RvNPiUTGxx" role="2YJTTe">
-            <node concept="3clFbS" id="RvNPiUTGxy" role="2VODD2">
-              <node concept="3clFbF" id="RvNPiUTGyX" role="3cqZAp">
-                <node concept="2OqwBi" id="RvNPiUTGyY" role="3clFbG">
-                  <node concept="2Duq_I" id="RvNPiUTGyZ" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="RvNPiUTGz0" role="2OqNvi">
+        <node concept="1PXaKw" id="8pd8fSbgNI" role="2YLCwC">
+          <node concept="2YJ9qm" id="8pd8fSbgNY" role="2YJTTe">
+            <node concept="3clFbS" id="8pd8fSbgNZ" role="2VODD2">
+              <node concept="3clFbF" id="8pd8fSbgOK" role="3cqZAp">
+                <node concept="2OqwBi" id="8pd8fSbgVF" role="3clFbG">
+                  <node concept="2Duq_I" id="8pd8fSbgOJ" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="8pd8fSbhT5" role="2OqNvi">
                     <ref role="3Tt5mk" to="clbe:5yYXyc4Z0CT" />
                   </node>
                 </node>

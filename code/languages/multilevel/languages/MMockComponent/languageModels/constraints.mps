@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="32lw" ref="r:1318440f-b749-4109-b68d-6af6e6a2b304(MAtomicComponent.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="ef37" ref="r:ab69a7e8-5e1f-45c2-b970-c04b490d9782(MMockComponent.structure)" implicit="true" />
   </imports>
   <registry>
@@ -86,6 +87,9 @@
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
+        <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
+      </concept>
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -121,11 +125,21 @@
         <node concept="3clFbF" id="7MFNr6Dv1A$" role="3cqZAp">
           <node concept="22lmx$" id="7MFNr6Dve55" role="3clFbG">
             <node concept="22lmx$" id="7MFNr6Dv2D9" role="3uHU7B">
-              <node concept="2OqwBi" id="7MFNr6Dv1Fo" role="3uHU7B">
-                <node concept="otxO1" id="7MFNr6Dv1Az" role="2Oq$k0" />
-                <node concept="3O6GUB" id="7MFNr6Dv1Uu" role="2OqNvi">
-                  <node concept="chp4Y" id="6t$AXNioWGw" role="3QVz_e">
-                    <ref role="cht4Q" to="ef37:7MFNr6Dm73S" resolve="SequenceStep" />
+              <node concept="22lmx$" id="8pd8fT8fof" role="3uHU7B">
+                <node concept="2OqwBi" id="7MFNr6Dv1Fo" role="3uHU7w">
+                  <node concept="otxO1" id="7MFNr6Dv1Az" role="2Oq$k0" />
+                  <node concept="3O6GUB" id="7MFNr6Dv1Uu" role="2OqNvi">
+                    <node concept="chp4Y" id="6t$AXNioWGw" role="3QVz_e">
+                      <ref role="cht4Q" to="ef37:7MFNr6Dm73S" resolve="SequenceStep" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="8pd8fT8eFW" role="3uHU7B">
+                  <node concept="otxO1" id="8pd8fT8eB9" role="2Oq$k0" />
+                  <node concept="2Zo12i" id="8pd8fT8eWj" role="2OqNvi">
+                    <node concept="chp4Y" id="8pd8fT8f54" role="2Zo12j">
+                      <ref role="cht4Q" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+                    </node>
                   </node>
                 </node>
               </node>

@@ -84,7 +84,6 @@
       <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
       <concept id="7901750452160634178" name="mulder.base.structure.WatchParameter" flags="ng" index="2DurlD" />
       <concept id="1616885506415405561" name="mulder.base.structure.ResolveWatchesFunction" flags="ig" index="UbBOO" />
-      <concept id="9201156180056181316" name="mulder.base.structure.ResolveDelegateToValueProviderFunction" flags="ig" index="2W$Dyf" />
       <concept id="9201156180037714600" name="mulder.base.structure.TargetWatchSpecification" flags="ng" index="2XId1z">
         <child id="9201156180037714605" name="valueProvider" index="2XId1A" />
       </concept>
@@ -102,9 +101,6 @@
       </concept>
       <concept id="6400245134465915240" name="mulder.base.structure.RootValueFunction" flags="ig" index="1F$mhy" />
       <concept id="2933779798677129903" name="mulder.base.structure.WatchValueSubvaluesOperation" flags="ng" index="3PUeI1" />
-      <concept id="4369017833403014429" name="mulder.base.structure.IValueSpecification" flags="ng" index="1PX8ef">
-        <child id="4369017833403014786" name="semantics" index="1PX80g" />
-      </concept>
       <concept id="4369017833403013719" name="mulder.base.structure.IWatchSpecification" flags="ng" index="1PX8j5">
         <child id="4369017833403225127" name="value" index="1PYkEP" />
       </concept>
@@ -115,9 +111,6 @@
       <concept id="4369017833403018280" name="mulder.base.structure.ComplexValueSpecification" flags="ng" index="1PXbaU">
         <child id="9201156180023221824" name="rootValue" index="2YBoMb" />
         <child id="4369017833403018311" name="childWatches" index="1PXbbl" />
-      </concept>
-      <concept id="4369017833403016747" name="mulder.base.structure.DelegateSemantics" flags="ng" index="1PXbyT">
-        <child id="9201156180056180482" name="resolveDelegate" index="2W$Dn9" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -520,27 +513,13 @@
     <property role="TrG5h" value="ComponentType_ModelValue" />
     <ref role="2qziyn" to="32lw:1qBaxu1UkdY" resolve="ComponentType" />
     <node concept="1PX8mh" id="RvNPiUPA_3" role="1PXawn">
-      <node concept="1PXaKw" id="RvNPiUPA_5" role="1PYkEP">
-        <node concept="1PXbyT" id="RvNPiUPA_8" role="1PX80g">
-          <node concept="2W$Dyf" id="RvNPiUPA_a" role="2W$Dn9">
-            <node concept="3clFbS" id="RvNPiUPA_b" role="2VODD2">
-              <node concept="3clFbF" id="RvNPiUPAOZ" role="3cqZAp">
-                <node concept="2OqwBi" id="RvNPiUPASX" role="3clFbG">
-                  <node concept="2Duq_I" id="RvNPiUPAOY" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="RvNPiUPBiJ" role="2OqNvi">
-                    <ref role="3Tt5mk" to="32lw:1qBaxu1UkL6" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2YJ9qm" id="RvNPiUPBlU" role="2YJTTe">
-          <node concept="3clFbS" id="RvNPiUPBlV" role="2VODD2">
-            <node concept="3clFbF" id="RvNPiUPBnM" role="3cqZAp">
-              <node concept="2OqwBi" id="RvNPiUPBnO" role="3clFbG">
-                <node concept="2Duq_I" id="RvNPiUPBnP" role="2Oq$k0" />
-                <node concept="3TrEf2" id="RvNPiUPBnQ" role="2OqNvi">
+      <node concept="1PXaKw" id="8pd8fSbhZN" role="1PYkEP">
+        <node concept="2YJ9qm" id="8pd8fSbi2N" role="2YJTTe">
+          <node concept="3clFbS" id="8pd8fSbi2O" role="2VODD2">
+            <node concept="3clFbF" id="8pd8fSbi3p" role="3cqZAp">
+              <node concept="2OqwBi" id="RvNPiUPASX" role="3clFbG">
+                <node concept="2Duq_I" id="RvNPiUPAOY" role="2Oq$k0" />
+                <node concept="3TrEf2" id="RvNPiUPBiJ" role="2OqNvi">
                   <ref role="3Tt5mk" to="32lw:1qBaxu1UkL6" />
                 </node>
               </node>

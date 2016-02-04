@@ -1121,49 +1121,25 @@
                 </node>
                 <node concept="3clFbH" id="UFIAu5f41d" role="3cqZAp" />
                 <node concept="3cpWs6" id="UFIAu5dDuA" role="3cqZAp">
-                  <node concept="1Wc70l" id="UFIAu5dH6B" role="3cqZAk">
-                    <node concept="1Wc70l" id="UFIAu5dEW7" role="3uHU7B">
-                      <node concept="2OqwBi" id="UFIAu5dDNn" role="3uHU7B">
-                        <node concept="37vLTw" id="UFIAu5dD$a" role="2Oq$k0">
+                  <node concept="1Wc70l" id="UFIAu5dEW7" role="3cqZAk">
+                    <node concept="2OqwBi" id="UFIAu5dDNn" role="3uHU7B">
+                      <node concept="37vLTw" id="UFIAu5dD$a" role="2Oq$k0">
+                        <ref role="3cqZAo" node="UFIAu5dAGk" resolve="valueStructure" />
+                      </node>
+                      <node concept="3x8VRR" id="UFIAu5dEsd" role="2OqNvi" />
+                    </node>
+                    <node concept="2OqwBi" id="UFIAu5dFVT" role="3uHU7w">
+                      <node concept="2OqwBi" id="UFIAu5dFlw" role="2Oq$k0">
+                        <node concept="37vLTw" id="UFIAu5dF8b" role="2Oq$k0">
                           <ref role="3cqZAo" node="UFIAu5dAGk" resolve="valueStructure" />
                         </node>
-                        <node concept="3x8VRR" id="UFIAu5dEsd" role="2OqNvi" />
-                      </node>
-                      <node concept="2OqwBi" id="UFIAu5dFVT" role="3uHU7w">
-                        <node concept="2OqwBi" id="UFIAu5dFlw" role="2Oq$k0">
-                          <node concept="37vLTw" id="UFIAu5dF8b" role="2Oq$k0">
-                            <ref role="3cqZAo" node="UFIAu5dAGk" resolve="valueStructure" />
-                          </node>
-                          <node concept="2qgKlT" id="7YL4GJ2oHrp" role="2OqNvi">
-                            <ref role="37wK5l" to="yh8:7YL4GJ2oF8E" resolve="getValueSpecification" />
-                          </node>
-                        </node>
-                        <node concept="1mIQ4w" id="UFIAu5dGf6" role="2OqNvi">
-                          <node concept="chp4Y" id="UFIAu5dGrj" role="cj9EA">
-                            <ref role="cht4Q" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValueSpecification" />
-                          </node>
+                        <node concept="2qgKlT" id="7YL4GJ2oHrp" role="2OqNvi">
+                          <ref role="37wK5l" to="yh8:7YL4GJ2oF8E" resolve="getValueSpecification" />
                         </node>
                       </node>
-                    </node>
-                    <node concept="3fqX7Q" id="UFIAu5dHjl" role="3uHU7w">
-                      <node concept="2OqwBi" id="UFIAu5dHjm" role="3fr31v">
-                        <node concept="2OqwBi" id="UFIAu5dHjn" role="2Oq$k0">
-                          <node concept="2qgKlT" id="UFIAu5f4Ad" role="2OqNvi">
-                            <ref role="37wK5l" to="yh8:UFIAu3$xVO" resolve="getSemantics" />
-                          </node>
-                          <node concept="2OqwBi" id="UFIAu5dHUb" role="2Oq$k0">
-                            <node concept="37vLTw" id="UFIAu5dH_K" role="2Oq$k0">
-                              <ref role="3cqZAo" node="UFIAu5dAGk" resolve="valueStructure" />
-                            </node>
-                            <node concept="2qgKlT" id="7YL4GJ2oHhc" role="2OqNvi">
-                              <ref role="37wK5l" to="yh8:7YL4GJ2oF8E" resolve="getValueSpecification" />
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="1mIQ4w" id="UFIAu5dHjq" role="2OqNvi">
-                          <node concept="chp4Y" id="UFIAu5dHjr" role="cj9EA">
-                            <ref role="cht4Q" to="k6mm:3MxRD99lmoF" resolve="DelegateSemantics" />
-                          </node>
+                      <node concept="1mIQ4w" id="UFIAu5dGf6" role="2OqNvi">
+                        <node concept="chp4Y" id="UFIAu5dGrj" role="cj9EA">
+                          <ref role="cht4Q" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValueSpecification" />
                         </node>
                       </node>
                     </node>
