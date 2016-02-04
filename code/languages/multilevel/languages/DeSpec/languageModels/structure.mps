@@ -542,21 +542,6 @@
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3MxRD99lmoF">
-    <property role="3GE5qa" value="value.specification.semantics.delegate" />
-    <property role="TrG5h" value="DelegateSemantics" />
-    <property role="34LRSv" value="|-&gt;" />
-    <property role="R4oN_" value="delegate" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7YL4GJ38Ss2" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="resolveDelegate" />
-      <ref role="20lvS9" node="7YL4GJ38SD4" resolve="ResolveDelegateToValueProviderFunction" />
-    </node>
-    <node concept="PrWs8" id="3MxRD99lmoG" role="PzmwI">
-      <ref role="PrY4T" node="3MxRD99llRf" resolve="IValueSemantic" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3MxRD99lmoI">
     <property role="3GE5qa" value="value.specification" />
     <property role="TrG5h" value="PrimitiveValueSpecification" />
@@ -709,11 +694,6 @@
   <node concept="PlHQZ" id="7YL4GJ2Uu1r">
     <property role="TrG5h" value="ISourceWatchSpecification" />
     <property role="3GE5qa" value="value.specification" />
-  </node>
-  <node concept="1TIwiD" id="7YL4GJ38SD4">
-    <property role="3GE5qa" value="value.specification.semantics.delegate" />
-    <property role="TrG5h" value="ResolveDelegateToValueProviderFunction" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="7YL4GJ3r0IL">
     <property role="3GE5qa" value="value.specification.absent" />

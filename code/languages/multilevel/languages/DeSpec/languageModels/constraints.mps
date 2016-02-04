@@ -928,52 +928,6 @@
     <property role="3GE5qa" value="value.specification.absent" />
     <ref role="1M2myG" to="k6mm:3MxRD99lnaM" resolve="AbsentValueSpecification" />
   </node>
-  <node concept="1M2fIO" id="3MxRD99qBaD">
-    <property role="3GE5qa" value="value.specification.semantics.delegate" />
-    <ref role="1M2myG" to="k6mm:3MxRD99lmoF" resolve="DelegateSemantics" />
-    <node concept="nKS2y" id="3MxRD99qBaH" role="1MLUbF">
-      <node concept="3clFbS" id="3MxRD99qBaI" role="2VODD2">
-        <node concept="3clFbF" id="3MxRD99qBfD" role="3cqZAp">
-          <node concept="1Wc70l" id="7YL4GJ16Zwe" role="3clFbG">
-            <node concept="1eOMI4" id="7YL4GJ3wQF7" role="3uHU7B">
-              <node concept="22lmx$" id="7YL4GJ3wQT3" role="1eOMHV">
-                <node concept="2OqwBi" id="7YL4GJ3wR4Q" role="3uHU7w">
-                  <node concept="nLn13" id="7YL4GJ3wR0a" role="2Oq$k0" />
-                  <node concept="1mIQ4w" id="7YL4GJ3wRjZ" role="2OqNvi">
-                    <node concept="chp4Y" id="7YL4GJ3wREp" role="cj9EA">
-                      <ref role="cht4Q" to="k6mm:7YL4GJ3r0IL" resolve="AbenstValueProviderValueSpecificaiton" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7YL4GJ16ZKE" role="3uHU7B">
-                  <node concept="nLn13" id="7YL4GJ16ZGV" role="2Oq$k0" />
-                  <node concept="1mIQ4w" id="7YL4GJ16ZYQ" role="2OqNvi">
-                    <node concept="chp4Y" id="7YL4GJ17058" role="cj9EA">
-                      <ref role="cht4Q" to="k6mm:3MxRD99lnaM" resolve="AbsentValueSpecification" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3MxRD99qC6g" role="3uHU7w">
-              <node concept="2OqwBi" id="3MxRD99qBlF" role="2Oq$k0">
-                <node concept="nLn13" id="3MxRD99qBfC" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="3MxRD99qBTh" role="2OqNvi">
-                  <node concept="1xMEDy" id="3MxRD99qBTk" role="1xVPHs">
-                    <node concept="chp4Y" id="3MxRD99qBYA" role="ri$Ld">
-                      <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
-                    </node>
-                  </node>
-                  <node concept="1xIGOp" id="36$DQmcJS$4" role="1xVPHs" />
-                </node>
-              </node>
-              <node concept="3w_OXm" id="3MxRD99qCkS" role="2OqNvi" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="3MxRD99ExVA">
     <property role="3GE5qa" value="watchables.value" />
     <ref role="1M2myG" to="k6mm:4$20B80$BBZ" resolve="WatchValuePresentationOperation" />

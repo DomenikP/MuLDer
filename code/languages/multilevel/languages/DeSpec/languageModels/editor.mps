@@ -3116,35 +3116,6 @@
       <node concept="l2Vlx" id="7YL4GJ2BqYB" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="7YL4GJ39Xpc">
-    <property role="3GE5qa" value="value.specification.semantics.delegate" />
-    <ref role="1XX52x" to="k6mm:3MxRD99lmoF" resolve="DelegateSemantics" />
-    <node concept="PMmxH" id="7YL4GJ39Xpe" role="2wV5jI">
-      <ref role="PMmxG" node="3MxRD99EVj7" resolve="IValueSemantics" />
-    </node>
-    <node concept="3F1sOY" id="7YL4GJ39Xpk" role="6VMZX">
-      <ref role="1NtTu8" to="k6mm:7YL4GJ38Ss2" />
-      <node concept="pkWqt" id="7YL4GJ39Xpm" role="pqm2j">
-        <node concept="3clFbS" id="7YL4GJ39Xpn" role="2VODD2">
-          <node concept="3clFbF" id="7YL4GJ39XCI" role="3cqZAp">
-            <node concept="2OqwBi" id="7YL4GJ39XCJ" role="3clFbG">
-              <node concept="2OqwBi" id="7YL4GJ39XCK" role="2Oq$k0">
-                <node concept="pncrf" id="7YL4GJ39XCL" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="7YL4GJ39XCM" role="2OqNvi">
-                  <node concept="1xMEDy" id="7YL4GJ39XCN" role="1xVPHs">
-                    <node concept="chp4Y" id="7YL4GJ39XCO" role="ri$Ld">
-                      <ref role="cht4Q" to="k6mm:7YL4GJ2Uu1r" resolve="ISourceWatchSpecification" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3w_OXm" id="7YL4GJ39XCP" role="2OqNvi" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="7YL4GJ3r0J5">
     <property role="3GE5qa" value="value.specification.absent" />
     <ref role="1XX52x" to="k6mm:7YL4GJ3r0IL" resolve="AbenstValueProviderValueSpecificaiton" />
