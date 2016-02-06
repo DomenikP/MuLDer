@@ -928,5 +928,17 @@
       <property role="cYWFH" value="#FFFFFF" />
     </node>
   </node>
+  <node concept="PlHQZ" id="4VYXLgqcAv1">
+    <property role="TrG5h" value="CanBeSteppable" />
+    <property role="3GE5qa" value="steppable" />
+  </node>
+  <node concept="PlHQZ" id="4VYXLgqZLMw">
+    <property role="3GE5qa" value="steppable" />
+    <property role="TrG5h" value="StepIntoable" />
+  </node>
+  <node concept="PlHQZ" id="4VYXLgrcIvN">
+    <property role="3GE5qa" value="steppable" />
+    <property role="TrG5h" value="SteppableContext" />
+  </node>
 </model>
 

@@ -112,6 +112,31 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="4VYXLgqPll3" role="3acgRq">
+      <ref role="30HIoZ" to="6be1:4VYXLgqPlf7" resolve="IsDirectlyReducedByTextGenOperation" />
+      <node concept="gft3U" id="4VYXLgqPll4" role="1lVwrX">
+        <node concept="2YIFZM" id="4VYXLgqPm5z" role="gfFT$">
+          <ref role="37wK5l" to="oc1c:4dLPB5zxTwR" resolve="IsDirectlyReducedByTextGen" />
+          <ref role="1Pybhc" to="oc1c:4dLPB5z5fnx" resolve="TracingHelper" />
+          <node concept="10Nm6u" id="4VYXLgqPll6" role="37wK5m">
+            <node concept="29HgVG" id="4VYXLgqPll7" role="lGtFl">
+              <node concept="3NFfHV" id="4VYXLgqPll8" role="3NFExx">
+                <node concept="3clFbS" id="4VYXLgqPll9" role="2VODD2">
+                  <node concept="3clFbF" id="4VYXLgqPlla" role="3cqZAp">
+                    <node concept="2OqwBi" id="4VYXLgqPllb" role="3clFbG">
+                      <node concept="30H73N" id="4VYXLgqPllc" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="4VYXLgqPlld" role="2OqNvi">
+                        <ref role="37wK5l" to="tpeu:hEwJdGu" resolve="getLeftExpression" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="3YdlD4qXH_" role="3acgRq">
       <ref role="30HIoZ" to="6be1:3YdlD4ia2g" resolve="GetCopyFromHigherLevelOperation" />
       <node concept="gft3U" id="3YdlD4qXHA" role="1lVwrX">

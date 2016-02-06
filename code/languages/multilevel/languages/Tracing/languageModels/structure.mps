@@ -75,5 +75,10 @@
     <property role="34LRSv" value="loweLevelModel" />
     <ref role="1TJDcQ" node="3YdlD48B5O" resolve="TracingOperation" />
   </node>
+  <node concept="1TIwiD" id="4VYXLgqPlf7">
+    <property role="TrG5h" value="IsDirectlyReducedByTextGenOperation" />
+    <property role="34LRSv" value="isDirectlyReducedByTextGen" />
+    <ref role="1TJDcQ" node="3YdlD48B5O" resolve="TracingOperation" />
+  </node>
 </model>
 
