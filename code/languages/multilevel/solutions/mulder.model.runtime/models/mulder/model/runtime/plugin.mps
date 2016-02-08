@@ -33,7 +33,6 @@
     <import index="3dui" ref="r:8f1039d4-1829-4754-95ac-8a801334ecda(mulder.base.runtime.plugin)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="b2mh" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.project(MPS.IDEA/com.intellij.openapi.project@java_stub)" />
-    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
     <import index="iiw6" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.components(MPS.IDEA/com.intellij.openapi.components@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -104,9 +103,6 @@
       <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
         <child id="1081256993305" name="classType" index="2ZW6by" />
         <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -5872,53 +5868,6 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="4nwiEYaKBWA" role="3clF47">
-        <node concept="3clFbF" id="4nwiEYb1_GO" role="3cqZAp">
-          <node concept="2OqwBi" id="4nwiEYb1_GL" role="3clFbG">
-            <node concept="10M0yZ" id="4nwiEYb1_GM" role="2Oq$k0">
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="4nwiEYb1_GN" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="4nwiEYb1ApG" role="37wK5m">
-                <node concept="Xl_RD" id="4nwiEYb1AeU" role="3uHU7B">
-                  <property role="Xl_RC" value="index: " />
-                </node>
-                <node concept="2OqwBi" id="4nwiEYb4uTv" role="3uHU7w">
-                  <node concept="Xjq3P" id="4nwiEYb4uTw" role="2Oq$k0" />
-                  <node concept="2S8uIT" id="4nwiEYb4uTx" role="2OqNvi">
-                    <ref role="2S8YL0" node="4nwiEYb4o9A" resolve="index" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4nwiEYb1BMu" role="3cqZAp">
-          <node concept="2OqwBi" id="4nwiEYb1BMr" role="3clFbG">
-            <node concept="10M0yZ" id="4nwiEYb1BMs" role="2Oq$k0">
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="4nwiEYb1BMt" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="4nwiEYb1CNL" role="37wK5m">
-                <node concept="Xl_RD" id="4nwiEYb1CqP" role="3uHU7B">
-                  <property role="Xl_RC" value="frames: " />
-                </node>
-                <node concept="2OqwBi" id="4nwiEYb1DmV" role="3uHU7w">
-                  <node concept="2OqwBi" id="4nwiEYb1COe" role="2Oq$k0">
-                    <node concept="Xjq3P" id="4nwiEYb1COf" role="2Oq$k0" />
-                    <node concept="2OwXpG" id="4nwiEYb1COg" role="2OqNvi">
-                      <ref role="2Oxat6" node="4nwiEYaK_VG" resolve="callStack" />
-                    </node>
-                  </node>
-                  <node concept="34oBXx" id="4nwiEYb1F8m" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="4nwiEYaKSDk" role="3cqZAp">
           <node concept="3clFbS" id="4nwiEYaKSDl" role="3clFbx">
             <node concept="3cpWs6" id="4nwiEYaKSDm" role="3cqZAp">
