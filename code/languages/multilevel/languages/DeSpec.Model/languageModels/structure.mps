@@ -229,6 +229,9 @@
     <node concept="PrWs8" id="3EISKF07KsH" role="PzmwI">
       <ref role="PrY4T" to="k6mm:3EISKF075jw" resolve="IStackFramesDebugInformation" />
     </node>
+    <node concept="PrWs8" id="36FVi83j52u" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:8ik0RGEXNm" resolve="IStackFrameLifter" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7SsDM6P3I0s">
     <property role="TrG5h" value="Resolve2InputNode" />
