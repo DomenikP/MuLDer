@@ -6,9 +6,7 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
-  <imports>
-    <import index="x71v" ref="r:535bf74f-7613-4aea-b993-38599516270f(MultiLevelDebugging.__spreferences.PlatformTemplates)" />
-  </imports>
+  <imports />
   <registry>
     <language id="5529be6b-f382-41f9-834c-9d6b2e079511" name="MAtomicComponent">
       <concept id="1632319670410490002" name="MAtomicComponent.structure.InitializeInstnaces" flags="ng" index="2k51E5">
@@ -16,6 +14,9 @@
       </concept>
       <concept id="1632319670390656274" name="MAtomicComponent.structure.InterfaceType" flags="ng" index="2n8Us5">
         <reference id="1632319670390661018" name="interface" index="2n8Vmd" />
+      </concept>
+      <concept id="1632319670397256574" name="MAtomicComponent.structure.ComponentType" flags="ng" index="2njA_D">
+        <reference id="1632319670397258822" name="component" index="2njAph" />
       </concept>
       <concept id="1632319670388856428" name="MAtomicComponent.structure.RequiredPortRef" flags="ng" index="2nNzLV">
         <reference id="1632319670388859143" name="port" index="2nNwGg" />
@@ -34,7 +35,7 @@
         <reference id="1767023935424414678" name="op" index="$47$Y" />
       </concept>
       <concept id="1767023935425368779" name="MAtomicComponent.structure.ComponentInstance" flags="ng" index="$8uwz">
-        <reference id="1632319670401591165" name="component" index="2kz4PE" />
+        <child id="999745605118075665" name="type" index="2R3uL5" />
       </concept>
       <concept id="1767023935425368670" name="MAtomicComponent.structure.InstancesConfig" flags="ng" index="$8uyQ">
         <child id="1767023935425523288" name="contents" index="$8LiK" />
@@ -65,6 +66,9 @@
       </concept>
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
+      <concept id="7763322639126652757" name="com.mbeddr.core.statements.structure.ITypeContainingType" flags="ng" index="2umbIr">
+        <child id="7763322639126652758" name="baseType" index="2umbIo" />
+      </concept>
       <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf">
         <child id="4185783222026502647" name="init" index="3XIe9u" />
       </concept>
@@ -86,9 +90,19 @@
       <concept id="7717755763392524107" name="com.mbeddr.core.buildconfig.structure.ModuleRef" flags="ng" index="2v9HqM">
         <reference id="7717755763392524108" name="module" index="2v9HqP" />
       </concept>
-      <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
-        <reference id="8719112291175211414" name="template" index="2xfifS" />
+      <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
+        <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
+        <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
+        <property id="3963667026125442601" name="gdb" index="3r8Kw1" />
+        <property id="3963667026125442676" name="make" index="3r8Kxs" />
       </concept>
+      <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
+        <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
+      </concept>
+    </language>
+    <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
+      <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
+      <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -157,7 +171,7 @@
     </language>
   </registry>
   <node concept="N3F5e" id="1X5iFxI_0U5">
-    <property role="TrG5h" value="AtomicMain" />
+    <property role="TrG5h" value="AtomicMain2" />
     <node concept="$YOx6" id="1Rm5R2RYq0I" role="N3F5h">
       <property role="2caQfQ" value="false" />
       <property role="2c7vTL" value="false" />
@@ -186,18 +200,26 @@
     </node>
     <node concept="$8uyQ" id="1Rm5R2Srwfz" role="N3F5h">
       <property role="TrG5h" value="instances" />
-      <node concept="$8uwz" id="1qBaxu2hoyl" role="$8LiK">
+      <node concept="$8uwz" id="6WUNGeE77C2" role="$8LiK">
         <property role="TrG5h" value="adder" />
-        <ref role="2kz4PE" node="1Rm5R2Sq2xt" resolve="Adder" />
+        <node concept="2njA_D" id="6WUNGeE77Cg" role="2R3uL5">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <ref role="2njAph" node="1Rm5R2Sq2xt" resolve="Adder" />
+        </node>
       </node>
-      <node concept="$8uwz" id="7ZqGTTqNBJC" role="$8LiK">
+      <node concept="$8uwz" id="6WUNGeE77Cx" role="$8LiK">
         <property role="TrG5h" value="adderProxy" />
-        <ref role="2kz4PE" node="7ZqGTTqNAfs" resolve="AdderProxy" />
+        <node concept="2njA_D" id="6WUNGeE77CJ" role="2R3uL5">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <ref role="2njAph" node="7ZqGTTqNAfs" resolve="AdderProxy" />
+        </node>
       </node>
       <node concept="1WmEjD" id="7ZqGTTqNBJT" role="$8LiK">
-        <ref role="2kECyS" node="1qBaxu2hoyl" resolve="adder" />
         <ref role="2kECyF" node="1qBaxu1Xcm7" resolve="add" />
-        <ref role="2kECyw" node="7ZqGTTqNBJC" resolve="adderProxy" />
+        <ref role="2kECyS" node="6WUNGeE77C2" resolve="adder" />
+        <ref role="2kECyw" node="6WUNGeE77Cx" resolve="adderProxy" />
         <ref role="2kECzh" node="7ZqGTTqNAjn" resolve="adder" />
       </node>
     </node>
@@ -205,14 +227,24 @@
       <property role="TrG5h" value="main" />
       <property role="2OOxQR" value="true" />
       <node concept="3XIRFW" id="1Rm5R2SjCWw" role="3XIRFX">
+        <node concept="3XIRlf" id="6WUNGeEj8GQ" role="3XIRFZ">
+          <property role="TrG5h" value="dummyVar" />
+          <node concept="26Vqph" id="6WUNGeEj8GO" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+          <node concept="3TlMh9" id="6WUNGeEj96j" role="3XIe9u">
+            <property role="2hmy$m" value="0" />
+          </node>
+        </node>
         <node concept="2k51E5" id="14emBKkBspZ" role="3XIRFZ">
           <ref role="2k51E4" node="1Rm5R2Srwfz" resolve="instances" />
         </node>
         <node concept="2BFjQ_" id="1Rm5R2SjCWC" role="3XIRFZ">
           <node concept="1X8h0F" id="7ZqGTTqNBYK" role="2BFjQA">
-            <ref role="1X8hha" node="7ZqGTTqNBqs" resolve="doAdd" />
             <ref role="1X8hfa" node="1Rm5R2Srwfz" resolve="instances" />
-            <ref role="1X8h7S" node="7ZqGTTqNBJC" resolve="adderProxy" />
+            <ref role="1X8h7S" node="6WUNGeE77Cx" resolve="adderProxy" />
+            <ref role="1X8hha" node="7ZqGTTqNBqs" resolve="doAdd" />
             <node concept="3TlMh9" id="7ZqGTTqNCbP" role="1AmG6M">
               <property role="2hmy$m" value="2" />
             </node>
@@ -222,9 +254,27 @@
           </node>
         </node>
       </node>
-      <node concept="26Vqph" id="1Rm5R2SjCWy" role="2C2TGm">
+      <node concept="26Vqph" id="6WUNGeE77Ot" role="2C2TGm">
         <property role="2caQfQ" value="false" />
         <property role="2c7vTL" value="false" />
+      </node>
+      <node concept="19RgSI" id="6WUNGeE77Ov" role="1UOdpc">
+        <property role="TrG5h" value="argc" />
+        <node concept="26Vqph" id="6WUNGeE77Ou" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+      <node concept="19RgSI" id="6WUNGeE77Oy" role="1UOdpc">
+        <property role="TrG5h" value="argv" />
+        <node concept="3J0A42" id="6WUNGeE77Ox" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <node concept="Pu267" id="6WUNGeE77Ow" role="2umbIo">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2NXPZ9" id="1Rm5R2RYq0a" role="N3F5h">
@@ -365,17 +415,21 @@
     </node>
   </node>
   <node concept="2v9HqL" id="1X5iFxI_0Wn">
-    <node concept="2xfidK" id="1X5iFxI_0XT" role="2AWWZH">
-      <ref role="2xfifS" to="x71v:6xhsDCu1lLg" resolve="Desktop Platform" />
+    <node concept="2AWWZL" id="6WUNGeEjdjC" role="2AWWZH">
+      <property role="2AWWZJ" value="gcc" />
+      <property role="3r8Kw1" value="gdb" />
+      <property role="3r8Kxs" value="make" />
+      <property role="2AWWZI" value="-std=c99" />
+      <property role="1FkSt$" value="-g" />
     </node>
     <node concept="2Q9Fgs" id="1X5iFxI_0XW" role="2Q9xDr">
       <node concept="2Q9FjX" id="1X5iFxI_0XX" role="2Q9FjI" />
     </node>
     <node concept="2eOfOl" id="1X5iFxI_0Y2" role="2ePNbc">
       <property role="iO3LB" value="false" />
-      <property role="TrG5h" value="Main" />
+      <property role="TrG5h" value="Main2" />
       <node concept="2v9HqM" id="1X5iFxI_0Y5" role="2eOfOg">
-        <ref role="2v9HqP" node="1X5iFxI_0U5" resolve="AtomicMain" />
+        <ref role="2v9HqP" node="1X5iFxI_0U5" resolve="AtomicMain2" />
       </node>
     </node>
   </node>

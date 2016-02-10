@@ -1230,7 +1230,9 @@
           </node>
         </node>
       </node>
-      <node concept="3Tqbb2" id="8ik0RHRBHL" role="3clF45" />
+      <node concept="3Tqbb2" id="8ik0RHRBHL" role="3clF45">
+        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+      </node>
     </node>
     <node concept="13i0hz" id="8ik0RHRBHY" role="13h7CS">
       <property role="TrG5h" value="getLiftToStackFrameContributor" />
@@ -1887,7 +1889,7 @@
                 </node>
                 <node concept="2ShNRf" id="3KVJl1fAgFz" role="37vLTx">
                   <node concept="1pGfFk" id="3KVJl1fAgF$" role="2ShVmc">
-                    <ref role="37wK5l" to="3dui:1b42fk5g_2v" resolve="MPrimitiveValue" />
+                    <ref role="37wK5l" to="3dui:1b42fk5g_2v" resolve="PrimitiveValue" />
                     <node concept="3cpWs3" id="3KVJl1fAgF_" role="37wK5m">
                       <node concept="Xl_RD" id="3KVJl1fAgFA" role="3uHU7B">
                         <property role="Xl_RC" value="&lt;not lifted&gt; " />
@@ -1921,7 +1923,7 @@
         <node concept="3cpWs6" id="3KVJl1fAgFJ" role="3cqZAp">
           <node concept="2ShNRf" id="3KVJl1fAgFK" role="3cqZAk">
             <node concept="1pGfFk" id="3KVJl1fAgFL" role="2ShVmc">
-              <ref role="37wK5l" to="3dui:2Kx5o1API3f" resolve="MWatchable" />
+              <ref role="37wK5l" to="3dui:2Kx5o1API3f" resolve="Watchable" />
               <node concept="37vLTw" id="3KVJl1fAgFM" role="37wK5m">
                 <ref role="3cqZAo" node="3KVJl1fAgEn" resolve="watch" />
               </node>
@@ -2807,7 +2809,9 @@
       </node>
       <node concept="3Tm1VV" id="2RsptmMnZrS" role="1B3o_S" />
       <node concept="3clFbS" id="2RsptmMnZrT" role="3clF47" />
-      <node concept="3Tqbb2" id="2RsptmMnZs7" role="3clF45" />
+      <node concept="3Tqbb2" id="2RsptmMnZs7" role="3clF45">
+        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+      </node>
     </node>
     <node concept="13i0hz" id="2RsptmMnZs8" role="13h7CS">
       <property role="TrG5h" value="getLiftToStackFrameContributor" />

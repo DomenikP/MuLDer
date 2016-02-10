@@ -13,6 +13,7 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="2gv2" ref="r:055bac8c-a50b-42ec-a317-e20a256152b4(com.mbeddr.core.debug.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="e840b8ae-64d9-4b5b-b3b4-eca3f222d4da" name="com.mbeddr.mpsutil.iconchar">
@@ -204,6 +205,9 @@
     </node>
     <node concept="PrWs8" id="2Up4L48UQg4" role="PzmwI">
       <ref role="PrY4T" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+    </node>
+    <node concept="PrWs8" id="6WUNGeE6lJ7" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
     </node>
     <node concept="1TJgyj" id="1y5IIwWy3iM" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -406,6 +410,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
+    <node concept="PrWs8" id="6WUNGeE64qz" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6aU7c0vIRMt">
     <property role="TrG5h" value="Component" />
@@ -480,6 +487,12 @@
     </node>
     <node concept="PrWs8" id="1qBaxu1M76z" role="PzmwI">
       <ref role="PrY4T" to="x27k:6WGVxckB05U" resolve="ICallLike" />
+    </node>
+    <node concept="PrWs8" id="6WUNGeEjRNC" role="PzmwI">
+      <ref role="PrY4T" to="2gv2:2R5TvtOl$CY" resolve="IStepIntoable" />
+    </node>
+    <node concept="PrWs8" id="6WUNGeElreo" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
     </node>
   </node>
   <node concept="1TIwiD" id="1qBaxu1x8Oi">
@@ -560,6 +573,9 @@
       <property role="20kJfa" value="op" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="x27k:5_l8w1EmTvw" resolve="FunctionPrototype" />
+    </node>
+    <node concept="PrWs8" id="6WUNGeE0WoF" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MFNr6DC$JS">

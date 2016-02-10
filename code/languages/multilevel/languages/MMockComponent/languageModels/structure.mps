@@ -161,6 +161,9 @@
     <node concept="PrWs8" id="6t$AXNkBA6K" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
     </node>
+    <node concept="PrWs8" id="6WUNGeE0Ccw" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7MFNr6DnHW7">
     <property role="TrG5h" value="PortOperationRef" />

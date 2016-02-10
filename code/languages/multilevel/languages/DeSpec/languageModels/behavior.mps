@@ -6196,11 +6196,11 @@
     <node concept="13i0hz" id="4VYXLgr04uy" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="getTarget" />
+      <property role="TrG5h" value="getPossibleTargets" />
       <node concept="3Tm1VV" id="4VYXLgr04uz" role="1B3o_S" />
       <node concept="3clFbS" id="4VYXLgr04u$" role="3clF47" />
-      <node concept="3Tqbb2" id="4VYXLgr056F" role="3clF45">
-        <ref role="ehGHo" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
+      <node concept="2I9FWS" id="6WUNGe_T4EW" role="3clF45">
+        <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
       </node>
     </node>
     <node concept="13hLZK" id="4VYXLgr03RA" role="13h7CW">
@@ -6226,6 +6226,27 @@
     </node>
     <node concept="13hLZK" id="6jIVkP_0td5" role="13h7CW">
       <node concept="3clFbS" id="6jIVkP_0td6" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6WUNGeArBCa">
+    <property role="3GE5qa" value="steppable" />
+    <ref role="13h7C2" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
+    <node concept="13i0hz" id="6WUNGeArBCd" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="isTargetFor" />
+      <node concept="37vLTG" id="6WUNGeArBFj" role="3clF46">
+        <property role="TrG5h" value="stepIntoable" />
+        <node concept="3Tqbb2" id="6WUNGeArBLf" role="1tU5fm">
+          <ref role="ehGHo" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6WUNGeArBCe" role="1B3o_S" />
+      <node concept="3clFbS" id="6WUNGeArBCf" role="3clF47" />
+      <node concept="10P_77" id="6WUNGeArBFg" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="6WUNGeArBCb" role="13h7CW">
+      <node concept="3clFbS" id="6WUNGeArBCc" role="2VODD2" />
     </node>
   </node>
 </model>

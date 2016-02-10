@@ -1387,7 +1387,9 @@
           <ref role="ehGHo" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
         </node>
       </node>
-      <node concept="3Tqbb2" id="2RsptmMnZL6" role="3clF45" />
+      <node concept="3Tqbb2" id="2RsptmMnZL6" role="3clF45">
+        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+      </node>
     </node>
     <node concept="13i0hz" id="2RsptmMnZLh" role="13h7CS">
       <property role="TrG5h" value="getLiftToStackFrameContributor" />
@@ -1675,6 +1677,12 @@
           <node concept="2pJPEk" id="2D3lxRK3CZm" role="3cqZAk">
             <node concept="2pJPED" id="2D3lxRK3CZB" role="2pJPEn">
               <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+              <node concept="2pIpSj" id="6WUNGe$L8vB" role="2pJxcM">
+                <ref role="2pIpSl" to="tp25:g$ehGDh" />
+                <node concept="36bGnv" id="6WUNGe$L93F" role="2pJxcZ">
+                  <ref role="36bGnp" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
