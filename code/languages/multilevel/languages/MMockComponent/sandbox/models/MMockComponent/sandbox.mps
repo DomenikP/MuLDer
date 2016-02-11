@@ -48,6 +48,9 @@
       </concept>
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
+      <concept id="7763322639126652757" name="com.mbeddr.core.statements.structure.ITypeContainingType" flags="ng" index="2umbIr">
+        <child id="7763322639126652758" name="baseType" index="2umbIo" />
+      </concept>
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
         <child id="7254843406768833939" name="expr" index="1_9egR" />
       </concept>
@@ -82,9 +85,16 @@
         <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
       </concept>
     </language>
+    <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
+      <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
+      <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
       <concept id="8967919205527146149" name="com.mbeddr.core.modules.structure.ReturnStatement" flags="ng" index="2BFjQ_">
         <child id="8967919205527146150" name="expression" index="2BFjQA" />
+      </concept>
+      <concept id="8105003328814797298" name="com.mbeddr.core.modules.structure.IFunctionLike" flags="ng" index="2H9T1B">
+        <child id="5708867820623310661" name="arguments" index="1UOdpc" />
       </concept>
       <concept id="6437088627575722813" name="com.mbeddr.core.modules.structure.Module" flags="ng" index="N3F4X">
         <child id="6437088627575722833" name="contents" index="N3F5h" />
@@ -98,6 +108,7 @@
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
+      <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
     </language>
     <language id="eb6e703a-d3cc-488e-a462-15d37e40ae7a" name="MMockComponent">
       <concept id="8983500044651881328" name="MMockComponent.structure.MockComponent" flags="ng" index="3lxqV1">
@@ -157,9 +168,27 @@
           </node>
         </node>
       </node>
-      <node concept="26Vqph" id="7MFNr6DbIW$" role="2C2TGm">
+      <node concept="26Vqph" id="eQI29RApLn" role="2C2TGm">
         <property role="2caQfQ" value="false" />
         <property role="2c7vTL" value="false" />
+      </node>
+      <node concept="19RgSI" id="eQI29RApLp" role="1UOdpc">
+        <property role="TrG5h" value="argc" />
+        <node concept="26Vqph" id="eQI29RApLo" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+      <node concept="19RgSI" id="eQI29RApLs" role="1UOdpc">
+        <property role="TrG5h" value="argv" />
+        <node concept="3J0A42" id="eQI29RApLr" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <node concept="Pu267" id="eQI29RApLq" role="2umbIo">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2NXPZ9" id="7MFNr6DbIZR" role="N3F5h">

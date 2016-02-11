@@ -940,5 +940,15 @@
     <property role="3GE5qa" value="steppable" />
     <property role="TrG5h" value="SteppableContext" />
   </node>
+  <node concept="1TIwiD" id="5hQOM0TdjeX">
+    <property role="TrG5h" value="StepIntoOnStepOver" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="5hQOM0Tdkhr" role="lGtFl">
+      <property role="Hh88m" value="stepIntoOnStepOver" />
+      <node concept="trNpa" id="5hQOM0Tft6i" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+    </node>
+  </node>
 </model>
 

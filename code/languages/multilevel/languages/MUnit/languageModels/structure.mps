@@ -70,6 +70,9 @@
     <node concept="PrWs8" id="4nwiEYdSKp_" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
     </node>
+    <node concept="PrWs8" id="5hQOM0T0lwa" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+    </node>
     <node concept="1TJgyj" id="14emBKkRscF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="body" />

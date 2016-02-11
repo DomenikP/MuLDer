@@ -152,7 +152,7 @@
     </language>
   </registry>
   <node concept="N3F5e" id="1X5iFxI_0U5">
-    <property role="TrG5h" value="AtomicMain" />
+    <property role="TrG5h" value="AtomicMain2" />
     <node concept="$YOx6" id="1Rm5R2RYq0I" role="N3F5h">
       <property role="2caQfQ" value="false" />
       <property role="2c7vTL" value="false" />
@@ -304,9 +304,9 @@
     </node>
     <node concept="2eOfOl" id="1X5iFxI_0Y2" role="2ePNbc">
       <property role="iO3LB" value="false" />
-      <property role="TrG5h" value="MinimalComponent" />
+      <property role="TrG5h" value="MinimalComponent2" />
       <node concept="2v9HqM" id="1X5iFxI_0Y5" role="2eOfOg">
-        <ref role="2v9HqP" node="1X5iFxI_0U5" resolve="AtomicMain" />
+        <ref role="2v9HqP" node="1X5iFxI_0U5" resolve="AtomicMain2" />
       </node>
     </node>
   </node>

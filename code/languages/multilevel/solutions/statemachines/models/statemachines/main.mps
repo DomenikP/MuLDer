@@ -1,14 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:bd1384f0-b63e-4117-aa86-e4989feca7c1(mstatemachine.sandbox)">
+<model ref="r:a6a4ab95-718e-46c1-ac3c-7a76b95265cf(statemachines.main)">
   <persistence version="9" />
   <languages>
+    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="-1" />
     <use id="4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff" name="mstatemachine" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
-    <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
-    <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
+    <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="-1" />
+    <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="-1" />
+    <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
+    <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="-1" />
+    <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="-1" />
+    <use id="c1c2a88a-323c-4605-a37d-9ab77a2ccbd2" name="com.mbeddr.mpsutil.suppresswarning" version="0" />
+    <use id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="mulder.base" version="0" />
+    <use id="5529be6b-f382-41f9-834c-9d6b2e079511" name="MAtomicComponent" version="0" />
+    <use id="a482b416-d0c9-473f-8f67-725ed642b3f3" name="com.mbeddr.mpsutil.breadcrumb" version="0" />
+    <use id="223dd778-c44f-4ef3-9535-7aa7d12244a6" name="com.mbeddr.core.debug" version="0" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="0" />
+    <use id="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62" name="com.mbeddr.mpsutil.jung" version="0" />
+    <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="b4d28e19-7d2d-47e9-943e-3a41f97a0e52" name="com.mbeddr.mpsutil.plantuml.node" version="0" />
+    <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
   </languages>
   <imports />
   <registry>
+    <language id="5529be6b-f382-41f9-834c-9d6b2e079511" name="MAtomicComponent">
+      <concept id="1632319670410490002" name="MAtomicComponent.structure.InitializeInstnaces" flags="ng" index="2k51E5">
+        <reference id="1632319670410490003" name="instaceConfig" index="2k51E4" />
+      </concept>
+      <concept id="1632319670390656274" name="MAtomicComponent.structure.InterfaceType" flags="ng" index="2n8Us5">
+        <reference id="1632319670390661018" name="interface" index="2n8Vmd" />
+      </concept>
+      <concept id="1632319670397256574" name="MAtomicComponent.structure.ComponentType" flags="ng" index="2njA_D">
+        <reference id="1632319670397258822" name="component" index="2njAph" />
+      </concept>
+      <concept id="1767023935423319735" name="MAtomicComponent.structure.Runnable" flags="ng" index="$0bhv">
+        <child id="1767023935423594207" name="trigger" index="$38gR" />
+        <child id="1767023935423526066" name="body" index="$3oTq" />
+      </concept>
+      <concept id="1767023935424414673" name="MAtomicComponent.structure.OperationTrigger" flags="ng" index="$47$T">
+        <reference id="1632319670407917407" name="port" index="2kbcl8" />
+        <reference id="1767023935424414678" name="op" index="$47$Y" />
+      </concept>
+      <concept id="1767023935425368779" name="MAtomicComponent.structure.ComponentInstance" flags="ng" index="$8uwz">
+        <child id="999745605118075665" name="type" index="2R3uL5" />
+      </concept>
+      <concept id="1767023935425368670" name="MAtomicComponent.structure.InstancesConfig" flags="ng" index="$8uyQ">
+        <child id="1767023935425523288" name="contents" index="$8LiK" />
+      </concept>
+      <concept id="1767023935422919341" name="MAtomicComponent.structure.Port" flags="ng" index="$YOx5">
+        <child id="1632319670390673533" name="portType" index="2n8ZDE" />
+      </concept>
+      <concept id="1767023935422919342" name="MAtomicComponent.structure.Interface" flags="ng" index="$YOx6">
+        <child id="7114030172873712497" name="operations" index="1XdBYL" />
+      </concept>
+      <concept id="1767023935422919345" name="MAtomicComponent.structure.ProvidedPort" flags="ng" index="$YOxp" />
+      <concept id="2253289344558414706" name="MAtomicComponent.structure.AtomicComponent" flags="ng" index="1LPJ7a" />
+      <concept id="7114030172876799133" name="MAtomicComponent.structure.Component" flags="ng" index="1X0m1t">
+        <child id="7114030172876799135" name="content" index="1X0m1v" />
+      </concept>
+      <concept id="7114030172874673387" name="MAtomicComponent.structure.RunnableCallExpr" flags="ng" index="1X8h0F">
+        <reference id="7114030172874673464" name="instance" index="1X8h7S" />
+        <reference id="7114030172874673930" name="conf" index="1X8hfa" />
+        <reference id="7114030172874672266" name="runnable" index="1X8hha" />
+        <child id="8230733038424928677" name="actuals" index="1AmG6M" />
+      </concept>
+    </language>
     <language id="4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff" name="mstatemachine">
       <concept id="2868224608244285257" name="mstatemachine.structure.TriggerStatemachineTarget" flags="ng" index="29CGhs">
         <reference id="2868224608244285294" name="event" index="29CGhV" />
@@ -119,11 +180,15 @@
       <concept id="6437088627575722831" name="com.mbeddr.core.modules.structure.IModuleContent" flags="ng" index="N3F5f">
         <property id="1317894735999272944" name="exported" index="2OOxQR" />
       </concept>
+      <concept id="6437088627575724000" name="com.mbeddr.core.modules.structure.FunctionPrototype" flags="ng" index="N3Fnw" />
       <concept id="6437088627575724001" name="com.mbeddr.core.modules.structure.Function" flags="ng" index="N3Fnx">
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
       <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
+      <concept id="2093108837558505658" name="com.mbeddr.core.modules.structure.ArgumentRef" flags="ng" index="3ZUYvv">
+        <reference id="2093108837558505659" name="arg" index="3ZUYvu" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -142,6 +207,7 @@
       <concept id="4620120465980402700" name="com.mbeddr.core.expressions.structure.GenericDotExpression" flags="ng" index="2qmXGp">
         <child id="7034214596252529803" name="target" index="1ESnxz" />
       </concept>
+      <concept id="5763383285156373013" name="com.mbeddr.core.expressions.structure.PlusExpression" flags="ng" index="2BOciq" />
       <concept id="318113533128716675" name="com.mbeddr.core.expressions.structure.ITyped" flags="ng" index="2C2TGh">
         <child id="318113533128716676" name="type" index="2C2TGm" />
       </concept>
@@ -150,12 +216,16 @@
         <property id="2941277002445651368" name="const" index="2c7vTL" />
         <property id="2941277002448691247" name="volatile" index="2caQfQ" />
       </concept>
+      <concept id="8860443239512128052" name="com.mbeddr.core.expressions.structure.BinaryExpression" flags="ng" index="3TlMgq">
+        <child id="8860443239512128064" name="left" index="3TlMhI" />
+        <child id="8860443239512128065" name="right" index="3TlMhJ" />
+      </concept>
       <concept id="8860443239512128103" name="com.mbeddr.core.expressions.structure.NumberLiteral" flags="ng" index="3TlMh9" />
       <concept id="8860443239512128094" name="com.mbeddr.core.expressions.structure.TrueLiteral" flags="ng" index="3TlMhK" />
     </language>
   </registry>
   <node concept="N3F5e" id="6xhsDCu007i">
-    <property role="TrG5h" value="StatemachineModule" />
+    <property role="TrG5h" value="SmModule" />
     <node concept="N3Fnx" id="6xhsDCu00Zq" role="N3F5h">
       <property role="TrG5h" value="main" />
       <property role="2OOxQR" value="true" />
@@ -176,12 +246,23 @@
             </node>
           </node>
         </node>
+        <node concept="2k51E5" id="ucdY6WEbiZ" role="3XIRFZ">
+          <ref role="2k51E4" node="ucdY6WEb6d" resolve="instances" />
+        </node>
         <node concept="1_9egQ" id="512cLuR$RCu" role="3XIRFZ">
           <node concept="2qmXGp" id="512cLuR$Tex" role="1_9egR">
             <node concept="29CGhs" id="512cLuR$Th4" role="1ESnxz">
               <ref role="29CGhV" node="512cLuR$Qnn" resolve="event1" />
-              <node concept="3TlMh9" id="512cLuR$Tlk" role="$QhfN">
-                <property role="2hmy$m" value="123" />
+              <node concept="1X8h0F" id="ucdY6WEbo_" role="$QhfN">
+                <ref role="1X8hha" node="ucdY6WE9_s" resolve="add" />
+                <ref role="1X8h7S" node="ucdY6WEbeL" resolve="adder" />
+                <ref role="1X8hfa" node="ucdY6WEb6d" resolve="instances" />
+                <node concept="3TlMh9" id="ucdY6WEbvx" role="1AmG6M">
+                  <property role="2hmy$m" value="2" />
+                </node>
+                <node concept="3TlMh9" id="ucdY6WEb$V" role="1AmG6M">
+                  <property role="2hmy$m" value="2" />
+                </node>
               </node>
             </node>
             <node concept="3ZVu4v" id="512cLuR$RCs" role="1_9fRO">
@@ -306,8 +387,97 @@
         <property role="TrG5h" value="s2" />
       </node>
     </node>
+    <node concept="2NXPZ9" id="ucdY6WDYI7" role="N3F5h">
+      <property role="TrG5h" value="empty_1455227434982_1" />
+    </node>
+    <node concept="$YOx6" id="ucdY6WE5xx" role="N3F5h">
+      <property role="TrG5h" value="IAdder" />
+      <node concept="N3Fnw" id="ucdY6WE5B6" role="1XdBYL">
+        <property role="TrG5h" value="add" />
+        <node concept="19RgSI" id="ucdY6WE5D4" role="1UOdpc">
+          <property role="TrG5h" value="a" />
+          <node concept="26Vqph" id="ucdY6WE5D2" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="19RgSI" id="ucdY6WE9xM" role="1UOdpc">
+          <property role="TrG5h" value="b" />
+          <node concept="26Vqph" id="ucdY6WE9xN" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="26Vqph" id="ucdY6WE5Bs" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="ucdY6WE5sl" role="N3F5h">
+      <property role="TrG5h" value="empty_1455227449193_4" />
+    </node>
+    <node concept="1LPJ7a" id="ucdY6WE5hZ" role="N3F5h">
+      <property role="TrG5h" value="Adder" />
+      <node concept="$YOxp" id="ucdY6WE9_9" role="1X0m1v">
+        <property role="TrG5h" value="adder" />
+        <node concept="2n8Us5" id="ucdY6WE9_h" role="2n8ZDE">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <ref role="2n8Vmd" node="ucdY6WE5xx" resolve="IAdder" />
+        </node>
+      </node>
+      <node concept="$0bhv" id="ucdY6WE9_s" role="1X0m1v">
+        <property role="TrG5h" value="add" />
+        <node concept="19RgSI" id="ucdY6WE9NV" role="1UOdpc">
+          <property role="TrG5h" value="a" />
+          <node concept="26Vqph" id="ucdY6WE9NW" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="19RgSI" id="ucdY6WE9NX" role="1UOdpc">
+          <property role="TrG5h" value="b" />
+          <node concept="26Vqph" id="ucdY6WE9NY" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="26Vqph" id="ucdY6WE9Oq" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="ucdY6WE9_v" role="$3oTq">
+          <node concept="2BFjQ_" id="ucdY6WE9Oi" role="3XIRFZ">
+            <node concept="2BOciq" id="ucdY6WEaYN" role="2BFjQA">
+              <node concept="3ZUYvv" id="ucdY6WEaYQ" role="3TlMhJ">
+                <ref role="3ZUYvu" node="ucdY6WE9NX" resolve="b" />
+              </node>
+              <node concept="3ZUYvv" id="ucdY6WE9OC" role="3TlMhI">
+                <ref role="3ZUYvu" node="ucdY6WE9NV" resolve="a" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="$47$T" id="ucdY6WE9Nn" role="$38gR">
+          <ref role="2kbcl8" node="ucdY6WE9_9" resolve="adder" />
+          <ref role="$47$Y" node="ucdY6WE5B6" resolve="add" />
+        </node>
+      </node>
+    </node>
     <node concept="2NXPZ9" id="6xhsDCu1jzi" role="N3F5h">
       <property role="TrG5h" value="empty_1443283189425_6" />
+    </node>
+    <node concept="$8uyQ" id="ucdY6WEb6d" role="N3F5h">
+      <property role="TrG5h" value="instances" />
+      <node concept="$8uwz" id="ucdY6WEbeL" role="$8LiK">
+        <property role="TrG5h" value="adder" />
+        <node concept="2njA_D" id="ucdY6WEbeV" role="2R3uL5">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+          <ref role="2njAph" node="ucdY6WE5hZ" resolve="Adder" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="2v9HqL" id="6xhsDCuf3S9">
@@ -323,9 +493,9 @@
     </node>
     <node concept="2eOfOl" id="6xhsDCuf3Tm" role="2ePNbc">
       <property role="iO3LB" value="false" />
-      <property role="TrG5h" value="SMBinary" />
+      <property role="TrG5h" value="SMBinary2" />
       <node concept="2v9HqM" id="6xhsDCuf3Tp" role="2eOfOg">
-        <ref role="2v9HqP" node="6xhsDCu007i" resolve="StatemachineModule" />
+        <ref role="2v9HqP" node="6xhsDCu007i" resolve="SmModule" />
       </node>
     </node>
   </node>

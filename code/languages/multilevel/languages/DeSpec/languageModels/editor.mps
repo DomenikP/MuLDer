@@ -42,6 +42,7 @@
     <import index="2m3p" ref="r:61bba127-8ab7-465e-bd68-664adb1ee556(mbeddr.debugger.runtime.plugin)" />
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <import index="dd55" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.cache(MPS.Core/jetbrains.mps.generator.cache@java_stub)" />
+    <import index="jwtc" ref="r:a2b271c3-ee73-475f-9551-9806d755317a(mulder.model.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -3447,6 +3448,21 @@
       </node>
       <node concept="Rtstu" id="Qdx8WkVsVb" role="3EZMnx" />
       <node concept="l2Vlx" id="R$GYrEzJDt" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5hQOM0Tdkkb">
+    <ref role="1XX52x" to="k6mm:5hQOM0TdjeX" resolve="StepIntoOnStepOver" />
+    <node concept="3EZMnI" id="5hQOM0Tdolg" role="2wV5jI">
+      <node concept="3F0ifn" id="5hQOM0Tdoln" role="3EZMnx">
+        <property role="3F0ifm" value="@StepIntoOnStepOver" />
+        <ref role="1k5W1q" to="jwtc:MPvpOXPptz" resolve="DebuggerGeneratorAnnotation" />
+      </node>
+      <node concept="2SsqMj" id="5hQOM0Tdolt" role="3EZMnx">
+        <node concept="2R9Tw8" id="5hQOM0TdsHM" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="5hQOM0TfROc" role="2iSdaV" />
     </node>
   </node>
 </model>
