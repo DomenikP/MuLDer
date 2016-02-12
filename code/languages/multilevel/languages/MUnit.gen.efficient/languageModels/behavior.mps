@@ -17,21 +17,9 @@
     <import index="k146" ref="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" />
     <import index="e1nu" ref="r:f5f1bc6c-b40f-4bd3-9e1f-a729425b397c(MUnit.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" implicit="true" />
   </imports>
   <registry>
-    <language id="d063e9e6-a068-4a98-b5b4-a42dc5a1cf00" name="DeSpec.Generator">
-      <concept id="7450251056318683607" name="DeSpec.Generator.structure.NodeResolver" flags="ng" index="2Ofw8b">
-        <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
-        <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
-        <child id="7450251056318702784" name="function" index="2OfBWs" />
-      </concept>
-      <concept id="149269758412226189" name="DeSpec.Generator.structure.VirtualFrameSpec" flags="ng" index="3JN2U0">
-        <reference id="149269758412804274" name="annotatedNode" index="3JXg2Z" />
-        <child id="149269758412798452" name="name" index="3JXmBT" />
-        <child id="149269758412798454" name="outterPc" index="3JXmBV" />
-        <child id="149269758412798860" name="liftToStackFrameContributor" index="3JXmI1" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -49,7 +37,11 @@
     </language>
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="mulder.base">
       <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
-      <concept id="7450251056318683607" name="mulder.base.structure.NodeResolver" flags="ng" index="2Ofw8c" />
+      <concept id="7450251056318683607" name="mulder.base.structure.NodeResolver" flags="ng" index="2Ofw8b">
+        <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
+        <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
+        <child id="7450251056318702784" name="function" index="2OfBWs" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -83,13 +75,18 @@
     </language>
     <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
       <concept id="7450251056318684258" name="mulder.modelgen.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
-      <concept id="149269758412226189" name="mulder.modelgen.structure.VirtualFrameSpec" flags="ng" index="3JN2U1" />
+      <concept id="149269758412226189" name="mulder.modelgen.structure.VirtualFrameSpec" flags="ng" index="3JN2U0">
+        <reference id="149269758412804274" name="annotatedNode" index="3JXg2Z" />
+        <child id="149269758412798452" name="name" index="3JXmBT" />
+        <child id="149269758412798454" name="outterPc" index="3JXmBV" />
+        <child id="149269758412798860" name="liftToStackFrameContributor" index="3JXmI1" />
+      </concept>
       <concept id="149269758412802867" name="mulder.modelgen.structure.PcFunction" flags="ig" index="3JXhGY" />
       <concept id="149269758412798993" name="mulder.modelgen.structure.LiftToStackFrameContributorFunction" flags="ig" index="3JXmKs" />
       <concept id="149269758412798994" name="mulder.modelgen.structure.LiftToNameFunction" flags="ig" index="3JXmKv" />
     </language>
   </registry>
-  <node concept="3JN2U1" id="8ik0RHTKpB">
+  <node concept="3JN2U0" id="8ik0RHTKpB">
     <property role="TrG5h" value="blockStatement2Testcase" />
     <ref role="3JXg2Z" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     <node concept="3JXmKs" id="8ik0RHWtHG" role="3JXmI1">
@@ -110,9 +107,34 @@
         </node>
       </node>
     </node>
-    <node concept="3JXmKv" id="4dSJ8O4wUQy" role="3JXmBT">
-      <node concept="3clFbS" id="4dSJ8O4wUQz" role="2VODD2">
-        <node concept="3clFbF" id="8ik0RHWtLm" role="3cqZAp">
+    <node concept="3JXhGY" id="7Tm6uYI5$oD" role="3JXmBV">
+      <node concept="3clFbS" id="7Tm6uYI5$oG" role="2VODD2">
+        <node concept="3clFbF" id="4dSJ8O4wUcQ" role="3cqZAp">
+          <node concept="2OqwBi" id="jwnp09ka$d" role="3clFbG">
+            <node concept="2OqwBi" id="8ik0RI94To" role="2Oq$k0">
+              <node concept="2Duq_I" id="2EVeRXbRCwJ" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="8ik0RIDujN" role="2OqNvi">
+                <node concept="1xMEDy" id="8ik0RIDujP" role="1xVPHs">
+                  <node concept="chp4Y" id="8ik0RIDAYU" role="ri$Ld">
+                    <ref role="cht4Q" to="k146:4VEDcE28so4" resolve="BlockExpression" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2Xjw5R" id="jwnp09kcHq" role="2OqNvi">
+              <node concept="1xMEDy" id="jwnp09kcHs" role="1xVPHs">
+                <node concept="chp4Y" id="jwnp09kcJf" role="ri$Ld">
+                  <ref role="cht4Q" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3JXmKv" id="7Tm6uYI5_8S" role="3JXmBT">
+      <node concept="3clFbS" id="7Tm6uYI5_8T" role="2VODD2">
+        <node concept="3clFbF" id="7Tm6uYI5_ga" role="3cqZAp">
           <node concept="2OqwBi" id="8ik0RHW_y2" role="3clFbG">
             <node concept="2OqwBi" id="8ik0RHW_15" role="2Oq$k0">
               <node concept="1PxgMI" id="8ik0RHWzvD" role="2Oq$k0">
@@ -133,29 +155,13 @@
         </node>
       </node>
     </node>
-    <node concept="3JXhGY" id="4dSJ8O4wVcv" role="3JXmBV">
-      <node concept="3clFbS" id="4dSJ8O4wVcw" role="2VODD2">
-        <node concept="3clFbF" id="4dSJ8O4wUcQ" role="3cqZAp">
-          <node concept="2OqwBi" id="8ik0RI94To" role="3clFbG">
-            <node concept="2Duq_I" id="2EVeRXbRCwJ" role="2Oq$k0" />
-            <node concept="2Xjw5R" id="8ik0RIDujN" role="2OqNvi">
-              <node concept="1xMEDy" id="8ik0RIDujP" role="1xVPHs">
-                <node concept="chp4Y" id="8ik0RIDAYU" role="ri$Ld">
-                  <ref role="cht4Q" to="k146:4VEDcE28so4" resolve="BlockExpression" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
-  <node concept="2Ofw8c" id="5kxYjVnRQic">
+  <node concept="2Ofw8b" id="5kxYjVnRQic">
     <property role="TrG5h" value="statementList2Testcase" />
     <ref role="2OfBXy" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     <ref role="22icvz" to="e1nu:14emBKkQvwe" resolve="Testcase" />
-    <node concept="2OfwuY" id="5kxYjVnRQid" role="2OfBWs">
-      <node concept="3clFbS" id="5kxYjVnRQie" role="2VODD2">
+    <node concept="2OfwuY" id="7Tm6uYI9oKc" role="2OfBWs">
+      <node concept="3clFbS" id="7Tm6uYI9oKd" role="2VODD2">
         <node concept="3clFbF" id="5kxYjVnRQLD" role="3cqZAp">
           <node concept="2OqwBi" id="5kxYjVnRQLE" role="3clFbG">
             <node concept="1PxgMI" id="5kxYjVnRQLF" role="2Oq$k0">

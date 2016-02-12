@@ -149,7 +149,7 @@
     <node concept="1TJgyj" id="6t$AXNip1aS" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="body" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     </node>
     <node concept="1TJgyj" id="7MFNr6DnWPE" role="1TKVEi">
@@ -163,6 +163,9 @@
     </node>
     <node concept="PrWs8" id="6WUNGeE0Ccw" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
+    </node>
+    <node concept="PrWs8" id="jwnp0aTLkx" role="PzmwI">
+      <ref role="PrY4T" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MFNr6DnHW7">

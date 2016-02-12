@@ -2,7 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/devkits/MultiLevel.devkit" folder="mulder" />
+      <modulePath path="$PROJECT_DIR$/devkits/MultiLevel.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.Model/DeSpec.Model.mpl" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.Text/DeSpec.Text.mpl" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.TextGen/DeSpec.TextGen.mpl" folder="mulder" />
