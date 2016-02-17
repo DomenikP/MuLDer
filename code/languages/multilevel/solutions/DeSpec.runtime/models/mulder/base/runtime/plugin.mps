@@ -6,6 +6,9 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
+    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
   </languages>
   <imports>
     <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
@@ -156,6 +159,12 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
+    </language>
+    <language id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension">
+      <concept id="3729007189729192406" name="jetbrains.mps.lang.extension.structure.ExtensionPointDeclaration" flags="ng" index="vrV6u">
+        <property id="5911785528834333590" name="extensionName" index="20vvCb" />
+        <child id="8029776554053057803" name="objectType" index="luc8K" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
@@ -2191,6 +2200,32 @@
       <node concept="3Tm1VV" id="6CecrTFCNw3" role="1B3o_S" />
       <node concept="3clFbS" id="6CecrTFCNw4" role="3clF47" />
     </node>
+  </node>
+  <node concept="vrV6u" id="2G9hzeb3CaC">
+    <property role="20vvCb" value="SteppingAlgorithmProvider" />
+    <node concept="3uibUv" id="2G9hzeb3D80" role="luc8K">
+      <ref role="3uigEE" node="2G9hzeb3Cbq" resolve="SteppingAlgorithm" />
+    </node>
+  </node>
+  <node concept="3HP615" id="2G9hzeb3Cbq">
+    <property role="TrG5h" value="SteppingAlgorithm" />
+    <node concept="3clFb_" id="2G9hzeb3CCo" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getName" />
+      <node concept="3clFbS" id="2G9hzeb3CCr" role="3clF47" />
+      <node concept="3Tm1VV" id="2G9hzeb3CCs" role="1B3o_S" />
+      <node concept="17QB3L" id="2G9hzeb3CCh" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="NCDzgwq2w9" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getID" />
+      <node concept="3clFbS" id="NCDzgwq2wa" role="3clF47" />
+      <node concept="3Tm1VV" id="NCDzgwq2wb" role="1B3o_S" />
+      <node concept="17QB3L" id="NCDzgwq2wc" role="3clF45" />
+    </node>
+    <node concept="3Tm1VV" id="2G9hzeb3Cbr" role="1B3o_S" />
   </node>
 </model>
 

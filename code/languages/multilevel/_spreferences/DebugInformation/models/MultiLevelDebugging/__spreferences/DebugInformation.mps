@@ -10,7 +10,7 @@
         <property id="3179846453104887948" name="showStackFrames" index="19IPOc" />
         <property id="3179846453104887964" name="showWatches" index="19IPOs" />
         <property id="3179846453104887982" name="showValues" index="19IPOI" />
-        <property id="3179846453104887995" name="showStepping" index="19IPOV" />
+        <property id="3179846453104887995" name="steppingAlgorithm" index="19IPOV" />
       </concept>
     </language>
   </registry>
@@ -19,7 +19,7 @@
     <property role="19IPOc" value="true" />
     <property role="19IPOs" value="false" />
     <property role="19IPOI" value="false" />
-    <property role="19IPOV" value="false" />
+    <property role="19IPOV" value="Low-level Breakpoint-based" />
   </node>
 </model>
 
