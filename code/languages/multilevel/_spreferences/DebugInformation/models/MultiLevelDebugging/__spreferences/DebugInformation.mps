@@ -19,7 +19,7 @@
     <property role="19IPOc" value="false" />
     <property role="19IPOs" value="false" />
     <property role="19IPOI" value="false" />
-    <property role="19IPOV" value="Low-level Breakpoint-based" />
+    <property role="19IPOV" value="Low-level StepInto-based" />
   </node>
 </model>
 
