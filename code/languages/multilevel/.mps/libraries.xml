@@ -19,6 +19,14 @@
             </Library>
           </value>
         </entry>
+        <entry key="doc">
+          <value>
+            <Library>
+              <option name="name" value="doc" />
+              <option name="path" value="$PROJECT_DIR$/../../../../mbeddr.core.phd/code/languages/com.mbeddr.doc" />
+            </Library>
+          </value>
+        </entry>
         <entry key="mpsutil">
           <value>
             <Library>

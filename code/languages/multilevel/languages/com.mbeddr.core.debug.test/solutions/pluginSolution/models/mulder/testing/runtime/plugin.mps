@@ -1879,6 +1879,14 @@
               <node concept="2ShNRf" id="30gDo8BIbzh" role="37wK5m">
                 <node concept="1pGfFk" id="30gDo8BIbzi" role="2ShVmc">
                   <ref role="37wK5l" to="2m3p:4iuDOPeNwS$" resolve="MapperModule" />
+                  <node concept="2OqwBi" id="5NJjtdFTAN6" role="37wK5m">
+                    <node concept="37vLTw" id="5NJjtdFT_kg" role="2Oq$k0">
+                      <ref role="3cqZAo" node="30gDo8BIbz4" resolve="debuggerSettings" />
+                    </node>
+                    <node concept="liA8E" id="5NJjtdFTB23" role="2OqNvi">
+                      <ref role="37wK5l" to="3dui:3gwY0Fae6Vn" resolve="getProject" />
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="2ShNRf" id="30gDo8BIbzl" role="37wK5m">
@@ -1889,6 +1897,14 @@
               <node concept="2ShNRf" id="30gDo8BIbzn" role="37wK5m">
                 <node concept="1pGfFk" id="30gDo8BIbzo" role="2ShVmc">
                   <ref role="37wK5l" to="2m3p:5sA47pBsYyv" resolve="CDebuggerWrapperModule" />
+                  <node concept="2OqwBi" id="5NJjtdFTBkj" role="37wK5m">
+                    <node concept="37vLTw" id="5NJjtdFTBkk" role="2Oq$k0">
+                      <ref role="3cqZAo" node="30gDo8BIbz4" resolve="debuggerSettings" />
+                    </node>
+                    <node concept="liA8E" id="5NJjtdFTBkl" role="2OqNvi">
+                      <ref role="37wK5l" to="3dui:3gwY0Fae6Vn" resolve="getProject" />
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="2ShNRf" id="30gDo8BIbzp" role="37wK5m">

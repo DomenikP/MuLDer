@@ -809,6 +809,10 @@
       <property role="TrG5h" value="showValues" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="9tjUHFV$wG" role="1TKVEl">
+      <property role="TrG5h" value="showCheckingResults" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="2Kx5o1_A$yV" role="1TKVEl">
       <property role="TrG5h" value="steppingAlgorithm" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -938,7 +942,7 @@
   </node>
   <node concept="PlHQZ" id="4VYXLgrcIvN">
     <property role="3GE5qa" value="steppable" />
-    <property role="TrG5h" value="SteppableContext" />
+    <property role="TrG5h" value="ControlFlowProvider" />
   </node>
   <node concept="1TIwiD" id="5hQOM0TdjeX">
     <property role="TrG5h" value="StepIntoOnStepOver" />
@@ -949,6 +953,10 @@
         <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
     </node>
+  </node>
+  <node concept="PlHQZ" id="WsW$R6dIy7">
+    <property role="3GE5qa" value="steppable" />
+    <property role="TrG5h" value="SteppableContext" />
   </node>
 </model>
 

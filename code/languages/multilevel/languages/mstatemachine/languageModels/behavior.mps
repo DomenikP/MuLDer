@@ -182,6 +182,7 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
@@ -222,6 +223,7 @@
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
     </language>
     <language id="77535ba7-24b5-4667-bf00-2e9c9074a90d" name="mulder.modelgen">
       <concept id="7872820068762968763" name="mulder.modelgen.structure.WatchProviderSpec" flags="ng" index="2mrKap" />
@@ -330,6 +332,57 @@
       </node>
       <node concept="10P_77" id="6WUNGeArBFg" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="9tjUHFT4zH" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getContainedSteppables" />
+      <ref role="13i0hy" to="yh8:WsW$R6dJcx" resolve="getContainedSteppables" />
+      <node concept="3Tm1VV" id="9tjUHFT4zI" role="1B3o_S" />
+      <node concept="3clFbS" id="9tjUHFT4zF" role="3clF47">
+        <node concept="3cpWs8" id="9tjUHFT4$_" role="3cqZAp">
+          <node concept="3cpWsn" id="9tjUHFT4$C" role="3cpWs9">
+            <property role="TrG5h" value="steppables" />
+            <node concept="2I9FWS" id="9tjUHFT4$$" role="1tU5fm">
+              <ref role="2I9WkF" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+            </node>
+            <node concept="2ShNRf" id="9tjUHFT4$R" role="33vP2m">
+              <node concept="2T8Vx0" id="9tjUHFT52B" role="2ShVmc">
+                <node concept="2I9FWS" id="9tjUHFT52G" role="2T96Bj">
+                  <ref role="2I9WkF" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="9tjUHFT595" role="3cqZAp">
+          <node concept="2OqwBi" id="9tjUHFT5x1" role="3clFbG">
+            <node concept="37vLTw" id="9tjUHFT593" role="2Oq$k0">
+              <ref role="3cqZAo" node="9tjUHFT4$C" resolve="steppables" />
+            </node>
+            <node concept="X8dFx" id="9tjUHFT8x7" role="2OqNvi">
+              <node concept="2OqwBi" id="9tjUHFT9rr" role="25WWJ7">
+                <node concept="13iPFW" id="9tjUHFT8_o" role="2Oq$k0" />
+                <node concept="2Rf3mk" id="9tjUHFTaSQ" role="2OqNvi">
+                  <node concept="1xMEDy" id="9tjUHFTaSS" role="1xVPHs">
+                    <node concept="chp4Y" id="9tjUHFTbCj" role="ri$Ld">
+                      <ref role="cht4Q" to="8glu:6xhsDCu1V1e" resolve="Transition" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="9tjUHFTdyT" role="3cqZAp">
+          <node concept="37vLTw" id="9tjUHFTevQ" role="3cqZAk">
+            <ref role="3cqZAo" node="9tjUHFT4$C" resolve="steppables" />
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="9tjUHFT4zJ" role="3clF45">
+        <ref role="2I9WkF" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="2vdYLmIt7tO">
     <property role="3GE5qa" value="invocation" />
@@ -366,12 +419,12 @@
           <node concept="3cpWsn" id="6WUNGeE1c9B" role="3cpWs9">
             <property role="TrG5h" value="ctx" />
             <node concept="2I9FWS" id="6WUNGeE1c9y" role="1tU5fm">
-              <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
+              <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
             </node>
             <node concept="2ShNRf" id="6WUNGeE1cbT" role="33vP2m">
               <node concept="2T8Vx0" id="6WUNGeE1cjM" role="2ShVmc">
                 <node concept="2I9FWS" id="6WUNGeE1cjO" role="2T96Bj">
-                  <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
+                  <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
                 </node>
               </node>
             </node>
@@ -419,7 +472,7 @@
         </node>
       </node>
       <node concept="2I9FWS" id="6WUNGe_T4EW" role="3clF45">
-        <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
+        <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
       </node>
     </node>
   </node>
@@ -627,6 +680,60 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="9tjUHFT009">
+    <property role="3GE5qa" value="content" />
+    <ref role="13h7C2" to="8glu:6xhsDCu1V1e" resolve="Transition" />
+    <node concept="13hLZK" id="9tjUHFT00a" role="13h7CW">
+      <node concept="3clFbS" id="9tjUHFT00b" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="WsW$R6dJcx" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getContainedSteppables" />
+      <ref role="13i0hy" to="yh8:WsW$R6dJcx" resolve="getContainedSteppables" />
+      <node concept="3Tm1VV" id="WsW$R6dJcy" role="1B3o_S" />
+      <node concept="3clFbS" id="9tjUHFT034" role="3clF47">
+        <node concept="3cpWs8" id="9tjUHFT03b" role="3cqZAp">
+          <node concept="3cpWsn" id="9tjUHFT03e" role="3cpWs9">
+            <property role="TrG5h" value="steppables" />
+            <node concept="2I9FWS" id="9tjUHFT03a" role="1tU5fm">
+              <ref role="2I9WkF" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+            </node>
+            <node concept="2ShNRf" id="9tjUHFT03t" role="33vP2m">
+              <node concept="2T8Vx0" id="9tjUHFT0bo" role="2ShVmc">
+                <node concept="2I9FWS" id="9tjUHFT0bq" role="2T96Bj">
+                  <ref role="2I9WkF" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="9tjUHFT0iG" role="3cqZAp">
+          <node concept="2OqwBi" id="9tjUHFT0EK" role="3clFbG">
+            <node concept="37vLTw" id="9tjUHFT0iE" role="2Oq$k0">
+              <ref role="3cqZAo" node="9tjUHFT03e" resolve="steppables" />
+            </node>
+            <node concept="TSZUe" id="9tjUHFT3ES" role="2OqNvi">
+              <node concept="2OqwBi" id="9tjUHFT3Nb" role="25WWJ7">
+                <node concept="13iPFW" id="9tjUHFT3I5" role="2Oq$k0" />
+                <node concept="3TrEf2" id="9tjUHFT422" role="2OqNvi">
+                  <ref role="3Tt5mk" to="8glu:6xhsDCu1V1h" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="9tjUHFT0hR" role="3cqZAp">
+          <node concept="37vLTw" id="9tjUHFT0in" role="3cqZAk">
+            <ref role="3cqZAo" node="9tjUHFT03e" resolve="steppables" />
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="WsW$R6dKFp" role="3clF45">
+        <ref role="2I9WkF" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
       </node>
     </node>
   </node>
