@@ -965,6 +965,7 @@
     <property role="TrG5h" value="CanBeSteppableSpec" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/CanBeSteppableSpecCharIcon.png" />
+    <property role="34LRSv" value="CanBeSteppable" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2QZOBEh$UIC" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1000,6 +1001,7 @@
     <property role="TrG5h" value="ControlFlowProviderSpec" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/ControlFlowProviderSpecCharIcon.png" />
+    <property role="34LRSv" value="ControlFlowProvider" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2QZOBEhUTn7" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

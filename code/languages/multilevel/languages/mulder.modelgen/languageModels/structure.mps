@@ -193,6 +193,7 @@
     <property role="TrG5h" value="VirtualFrameSpec" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="VirtualStackFrame" />
+    <property role="MwhBj" value="${module}/icons/VirtualFrameSpecCharIcon.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="8ik0RHTP2M" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -229,6 +230,14 @@
     </node>
     <node concept="PrWs8" id="2RsptmMnZyj" role="PzmwI">
       <ref role="PrY4T" to="2cz0:2RsptmMnZ0C" resolve="IVirtualFrameSpec" />
+    </node>
+    <node concept="cTxPe" id="77nQVyu8bYP" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="V" />
+      <property role="cYWFC" value="#0723c0" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
     </node>
   </node>
   <node concept="1TIwiD" id="3oPrgty34CG">
