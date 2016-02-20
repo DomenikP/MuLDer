@@ -30,6 +30,7 @@
         <dependency reexport="false">59a09bf6-2b13-49ef-80d1-741985a7f0ed(mulder.tracing)</dependency>
         <dependency reexport="false">83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</dependency>
         <dependency reexport="true">654422bf-e75f-44dc-936d-188890a746ce(de.slisson.mps.reflection)</dependency>
+        <dependency reexport="false">857d0a79-6f44-4f46-84ed-9c5b42632011(jetbrains.mps.baseLanguage.closures#1199623535494)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
@@ -89,6 +90,9 @@
                 </mapping-set-element>
                 <mapping-set-element>
                   <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(mulder.base.generator.template.main@generator)" nodeID="3304628194979410168" />
+                </mapping-set-element>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:964ecf98-202b-480b-b409-e0cd58844391(mulder.base.generator.template.main@generator)" nodeID="3296584876130117203" />
                 </mapping-set-element>
               </mapping-set>
             </external-mapping>

@@ -57,6 +57,8 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -190,10 +192,12 @@
       </concept>
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <reference id="1171315804605" name="concept" index="2RRcyH" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="6995935425733782641" name="jetbrains.mps.lang.smodel.structure.Model_GetModule" flags="nn" index="13u695" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
@@ -1376,6 +1380,67 @@
     <node concept="1YaCAy" id="9tjUHDsK2p" role="1YuTPh">
       <property role="TrG5h" value="canBeSteppable" />
       <ref role="1YaFvo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2QZOBEh$S3z">
+    <property role="TrG5h" value="check_IMustBeLocatedInPluginAspect" />
+    <property role="3GE5qa" value="util" />
+    <node concept="3clFbS" id="2QZOBEh$S3$" role="18ibNy">
+      <node concept="3cpWs8" id="3dlzMguEWYt" role="3cqZAp">
+        <node concept="3cpWsn" id="3dlzMguEWYw" role="3cpWs9">
+          <property role="TrG5h" value="expectedModelName" />
+          <node concept="17QB3L" id="3dlzMguEWYs" role="1tU5fm" />
+          <node concept="3cpWs3" id="3dlzMguEX0J" role="33vP2m">
+            <node concept="2OqwBi" id="3dlzMguEXOK" role="3uHU7B">
+              <node concept="2OqwBi" id="3dlzMguEXBI" role="2Oq$k0">
+                <node concept="2OqwBi" id="3dlzMguEX4N" role="2Oq$k0">
+                  <node concept="1YBJjd" id="2QZOBEh$SP0" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2QZOBEh$S3A" resolve="iMustBeLocatedInPluginAspect" />
+                  </node>
+                  <node concept="I4A8Y" id="3dlzMguEXeC" role="2OqNvi" />
+                </node>
+                <node concept="13u695" id="3dlzMguEXHf" role="2OqNvi" />
+              </node>
+              <node concept="2qgKlT" id="3dlzMguEYcA" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="3dlzMguEWZk" role="3uHU7w">
+              <property role="Xl_RC" value=".plugin" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="3dlzMguEYql" role="3cqZAp">
+        <node concept="3clFbS" id="3dlzMguEYqo" role="3clFbx">
+          <node concept="2MkqsV" id="3dlzMguEZO5" role="3cqZAp">
+            <node concept="Xl_RD" id="3dlzMguEZOt" role="2MkJ7o">
+              <property role="Xl_RC" value="Has to be in plugin asepct" />
+            </node>
+            <node concept="1YBJjd" id="2QZOBEh$TgT" role="2OEOjV">
+              <ref role="1YBMHb" node="2QZOBEh$S3A" resolve="iMustBeLocatedInPluginAspect" />
+            </node>
+          </node>
+        </node>
+        <node concept="17QLQc" id="3dlzMguEYGX" role="3clFbw">
+          <node concept="2OqwBi" id="3dlzMguEZkl" role="3uHU7w">
+            <node concept="2OqwBi" id="3dlzMguEYL_" role="2Oq$k0">
+              <node concept="1YBJjd" id="2QZOBEh$SUC" role="2Oq$k0">
+                <ref role="1YBMHb" node="2QZOBEh$S3A" resolve="iMustBeLocatedInPluginAspect" />
+              </node>
+              <node concept="I4A8Y" id="3dlzMguEZ0h" role="2OqNvi" />
+            </node>
+            <node concept="LkI2h" id="3dlzMguEZIl" role="2OqNvi" />
+          </node>
+          <node concept="37vLTw" id="3dlzMguEYxQ" role="3uHU7B">
+            <ref role="3cqZAo" node="3dlzMguEWYw" resolve="expectedModelName" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2QZOBEh$S3A" role="1YuTPh">
+      <property role="TrG5h" value="iMustBeLocatedInPluginAspect" />
+      <ref role="1YaFvo" to="k6mm:2QZOBEh$S3t" resolve="IMustBeLocatedInPluginAspect" />
     </node>
   </node>
 </model>

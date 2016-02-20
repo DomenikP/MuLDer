@@ -191,7 +191,9 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
-      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
+      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
+        <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
+      </concept>
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -2409,6 +2411,97 @@
       <node concept="3Tqbb2" id="2QZOBEh26QL" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="2QZOBEh0BRn" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="2QZOBEhDWhQ">
+    <property role="TrG5h" value="ICanBeCallableSpec" />
+    <node concept="3clFb_" id="2QZOBEhDWME" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="requiresSorroundingSteppableContext" />
+      <node concept="37vLTG" id="2QZOBEhDWMF" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="2QZOBEhDWMG" role="1tU5fm">
+          <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+        </node>
+      </node>
+      <node concept="10P_77" id="2QZOBEhDWMH" role="3clF45" />
+      <node concept="3Tm1VV" id="2QZOBEhDWMI" role="1B3o_S" />
+      <node concept="3clFbS" id="2QZOBEhDWMJ" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="2QZOBEhDW$g" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="hasSteppableSemantics" />
+      <node concept="37vLTG" id="2QZOBEhDWFz" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="2QZOBEhDWLD" role="1tU5fm">
+          <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+        </node>
+      </node>
+      <node concept="10P_77" id="2QZOBEhDWES" role="3clF45" />
+      <node concept="3Tm1VV" id="2QZOBEhDW$i" role="1B3o_S" />
+      <node concept="3clFbS" id="2QZOBEhDW$j" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="2QZOBEhDWhR" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="2QZOBEhUTz9">
+    <property role="TrG5h" value="IControlFlowProvider" />
+    <node concept="3clFb_" id="2QZOBEhUTAi" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isStepIntoTargetFor" />
+      <node concept="37vLTG" id="6WUNGeArBFj" role="3clF46">
+        <property role="TrG5h" value="stepIntoable" />
+        <node concept="3Tqbb2" id="6WUNGeArBLf" role="1tU5fm">
+          <ref role="ehGHo" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2QZOBEhUTD$" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="2QZOBEhUTJy" role="1tU5fm">
+          <ref role="ehGHo" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
+        </node>
+      </node>
+      <node concept="10P_77" id="2QZOBEhUTDn" role="3clF45" />
+      <node concept="3Tm1VV" id="2QZOBEhUTAl" role="1B3o_S" />
+      <node concept="3clFbS" id="2QZOBEhUTAm" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="2QZOBEhUTza" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="2QZOBEi$QjP">
+    <property role="TrG5h" value="IStepIntoableSpec" />
+    <node concept="3clFb_" id="2QZOBEi$QmU" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getPossibleTargets" />
+      <node concept="37vLTG" id="2QZOBEi$Qnw" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="2QZOBEi$Qts" role="1tU5fm">
+          <ref role="ehGHo" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2QZOBEi$QmX" role="1B3o_S" />
+      <node concept="3clFbS" id="2QZOBEi$QmY" role="3clF47" />
+      <node concept="2I9FWS" id="6WUNGe_T4EW" role="3clF45">
+        <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="2QZOBEi$QjQ" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="2QZOBEiEkR7">
+    <property role="TrG5h" value="ISteppableContextSpec" />
+    <node concept="3clFb_" id="2QZOBEiEkWN" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getContainedSteppables" />
+      <node concept="37vLTG" id="2QZOBEiEl39" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="2QZOBEiEl95" role="1tU5fm">
+          <ref role="ehGHo" to="k6mm:WsW$R6dIy7" resolve="SteppableContext" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2QZOBEiEkWQ" role="1B3o_S" />
+      <node concept="3clFbS" id="2QZOBEiEkWR" role="3clF47" />
+      <node concept="2I9FWS" id="WsW$R6dKFp" role="3clF45">
+        <ref role="2I9WkF" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="2QZOBEiEkR8" role="1B3o_S" />
   </node>
 </model>
 

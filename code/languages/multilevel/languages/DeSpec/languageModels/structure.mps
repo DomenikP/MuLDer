@@ -935,28 +935,173 @@
   <node concept="PlHQZ" id="4VYXLgqcAv1">
     <property role="TrG5h" value="CanBeSteppable" />
     <property role="3GE5qa" value="steppable" />
+    <node concept="PrWs8" id="2QZOBEhV0fU" role="PrDN$">
+      <ref role="PrY4T" node="2QZOBEhUTLT" resolve="ILoadClassFromPluginAspect" />
+    </node>
   </node>
   <node concept="PlHQZ" id="4VYXLgqZLMw">
     <property role="3GE5qa" value="steppable" />
     <property role="TrG5h" value="StepIntoable" />
+    <node concept="PrWs8" id="2QZOBEi$TyW" role="PrDN$">
+      <ref role="PrY4T" node="2QZOBEhUTLT" resolve="ILoadClassFromPluginAspect" />
+    </node>
   </node>
   <node concept="PlHQZ" id="4VYXLgrcIvN">
     <property role="3GE5qa" value="steppable" />
     <property role="TrG5h" value="ControlFlowProvider" />
-  </node>
-  <node concept="1TIwiD" id="5hQOM0TdjeX">
-    <property role="TrG5h" value="StepIntoOnStepOver" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="5hQOM0Tdkhr" role="lGtFl">
-      <property role="Hh88m" value="stepIntoOnStepOver" />
-      <node concept="trNpa" id="5hQOM0Tft6i" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
+    <node concept="PrWs8" id="2QZOBEhX2bw" role="PrDN$">
+      <ref role="PrY4T" node="2QZOBEhUTLT" resolve="ILoadClassFromPluginAspect" />
     </node>
   </node>
   <node concept="PlHQZ" id="WsW$R6dIy7">
     <property role="3GE5qa" value="steppable" />
     <property role="TrG5h" value="SteppableContext" />
+    <node concept="PrWs8" id="2QZOBEiEn8o" role="PrDN$">
+      <ref role="PrY4T" node="2QZOBEhUTLT" resolve="ILoadClassFromPluginAspect" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2QZOBEh$S0t">
+    <property role="3GE5qa" value="steppable.spec.canBeSteppable" />
+    <property role="TrG5h" value="CanBeSteppableSpec" />
+    <property role="19KtqR" value="true" />
+    <property role="MwhBj" value="${module}/icons/CanBeSteppableSpecCharIcon.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2QZOBEh$UIC" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="hasSteppableSemantics" />
+      <ref role="20lvS9" node="2RsptmRknel" resolve="BooleanFunction" />
+    </node>
+    <node concept="1TJgyj" id="2QZOBEh$UIE" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="requiresSteppableContext" />
+      <ref role="20lvS9" node="2RsptmRknel" resolve="BooleanFunction" />
+    </node>
+    <node concept="PrWs8" id="2QZOBEh$Tqz" role="PzmwI">
+      <ref role="PrY4T" node="2QZOBEh$S3t" resolve="IMustBeLocatedInPluginAspect" />
+    </node>
+    <node concept="PrWs8" id="2QZOBEh$U5j" role="PzmwI">
+      <ref role="PrY4T" node="6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+    <node concept="cTxPe" id="2QZOBEhCFnD" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="C" />
+      <property role="cYWFC" value="#818aa0" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2QZOBEh$S3t">
+    <property role="3GE5qa" value="util" />
+    <property role="TrG5h" value="IMustBeLocatedInPluginAspect" />
+  </node>
+  <node concept="1TIwiD" id="2QZOBEhUTjO">
+    <property role="3GE5qa" value="steppable.spec.controlFlowProvider" />
+    <property role="TrG5h" value="ControlFlowProviderSpec" />
+    <property role="19KtqR" value="true" />
+    <property role="MwhBj" value="${module}/icons/ControlFlowProviderSpecCharIcon.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2QZOBEhUTn7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="isTargetForStepIntoable" />
+      <ref role="20lvS9" node="2QZOBEhVTwg" resolve="IsTargetForStepIntoableFunction" />
+    </node>
+    <node concept="PrWs8" id="2QZOBEhUTn3" role="PzmwI">
+      <ref role="PrY4T" node="2QZOBEh$S3t" resolve="IMustBeLocatedInPluginAspect" />
+    </node>
+    <node concept="PrWs8" id="2QZOBEhUTn4" role="PzmwI">
+      <ref role="PrY4T" node="6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+    <node concept="cTxPe" id="2QZOBEhWNcY" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="C" />
+      <property role="cYWFC" value="#f3d3aa" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2QZOBEhUTLT">
+    <property role="3GE5qa" value="steppable.spec" />
+    <property role="TrG5h" value="ILoadClassFromPluginAspect" />
+  </node>
+  <node concept="1TIwiD" id="2QZOBEhVSD9">
+    <property role="3GE5qa" value="steppable.spec.controlFlowProvider" />
+    <property role="TrG5h" value="StepIntoableNode" />
+    <property role="34LRSv" value="stepIntoable" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="2QZOBEhVTwg">
+    <property role="3GE5qa" value="steppable.spec.controlFlowProvider" />
+    <property role="TrG5h" value="IsTargetForStepIntoableFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2QZOBEi$MsL">
+    <property role="3GE5qa" value="steppable.spec.stepIntoable" />
+    <property role="TrG5h" value="StepIntoableSpec" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="StepIntoable" />
+    <property role="MwhBj" value="${module}/icons/StepIntoableSpecCharIcon.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2QZOBEi$MGm" role="PzmwI">
+      <ref role="PrY4T" node="2QZOBEh$S3t" resolve="IMustBeLocatedInPluginAspect" />
+    </node>
+    <node concept="PrWs8" id="2QZOBEi$MGn" role="PzmwI">
+      <ref role="PrY4T" node="6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+    <node concept="1TJgyj" id="2QZOBEi$OFj" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="possibleTargets" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2QZOBEi$MWc" resolve="PossibleTargetsFunction" />
+    </node>
+    <node concept="cTxPe" id="2QZOBEi$TQl" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="S" />
+      <property role="cYWFC" value="#595df5" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2QZOBEi$MWc">
+    <property role="3GE5qa" value="steppable.spec.stepIntoable" />
+    <property role="TrG5h" value="PossibleTargetsFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2QZOBEiEe4g">
+    <property role="3GE5qa" value="steppable.spec.steppableContext" />
+    <property role="TrG5h" value="SteppableContextSpec" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="SteppableContext" />
+    <property role="MwhBj" value="${module}/icons/SteppableContextSpecCharIcon.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2QZOBEiEe8E" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="containedSteppables" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2QZOBEiEkh3" resolve="ContainedSteppablesFunction" />
+    </node>
+    <node concept="PrWs8" id="2QZOBEiEe7M" role="PzmwI">
+      <ref role="PrY4T" node="2QZOBEh$S3t" resolve="IMustBeLocatedInPluginAspect" />
+    </node>
+    <node concept="PrWs8" id="2QZOBEiEe7N" role="PzmwI">
+      <ref role="PrY4T" node="6P1S2fVdzzM" resolve="DebuggingSemanticsSpec" />
+    </node>
+    <node concept="cTxPe" id="2QZOBEkfDvJ" role="lGtFl">
+      <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
+      <property role="2qtEX9" value="iconPath" />
+      <property role="cYWFP" value="S" />
+      <property role="cYWFC" value="#1ba8cb" />
+      <property role="cYWF$" value="#000000" />
+      <property role="cYWFH" value="#000000" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2QZOBEiEkh3">
+    <property role="3GE5qa" value="steppable.spec.steppableContext" />
+    <property role="TrG5h" value="ContainedSteppablesFunction" />
+    <property role="34LRSv" value="ContainedSteppables" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

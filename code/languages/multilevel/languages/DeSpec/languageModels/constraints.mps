@@ -1373,5 +1373,29 @@
   <node concept="1M2fIO" id="3r$IWGl4V3g">
     <ref role="1M2myG" to="k6mm:2Kx5o1_u0Is" resolve="DebugInformationPreferences" />
   </node>
+  <node concept="1M2fIO" id="2QZOBEhVU_e">
+    <property role="3GE5qa" value="steppable.spec.controlFlowProvider" />
+    <ref role="1M2myG" to="k6mm:2QZOBEhVSD9" resolve="StepIntoableNode" />
+    <node concept="nKS2y" id="2QZOBEhVUHL" role="1MLUbF">
+      <node concept="3clFbS" id="2QZOBEhVUHM" role="2VODD2">
+        <node concept="3clFbF" id="2QZOBEhVUMH" role="3cqZAp">
+          <node concept="2OqwBi" id="2QZOBEhVVqs" role="3clFbG">
+            <node concept="2OqwBi" id="2QZOBEhVUQi" role="2Oq$k0">
+              <node concept="nLn13" id="2QZOBEhVUMG" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="2QZOBEhVV4b" role="2OqNvi">
+                <node concept="1xMEDy" id="2QZOBEhVV4d" role="1xVPHs">
+                  <node concept="chp4Y" id="2QZOBEhVV72" role="ri$Ld">
+                    <ref role="cht4Q" to="k6mm:2QZOBEhVTwg" resolve="IsTargetForStepIntoableFunction" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="2QZOBEhVVgW" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="2QZOBEhVW6u" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
