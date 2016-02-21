@@ -687,7 +687,6 @@
     <node concept="3Tm1VV" id="4nblNEscqnJ" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="1b42fk5g_2t">
-    <property role="3GE5qa" value="debugger" />
     <property role="TrG5h" value="PrimitiveValue" />
     <node concept="3Tm1VV" id="1b42fk5g_2u" role="1B3o_S" />
     <node concept="3uibUv" id="1b42fk5g_2$" role="EKbjA">
@@ -931,7 +930,6 @@
     </node>
   </node>
   <node concept="312cEu" id="1b42fk5g_3O">
-    <property role="3GE5qa" value="debugger" />
     <property role="TrG5h" value="ComplexValue" />
     <node concept="3Tm1VV" id="1b42fk5g_3P" role="1B3o_S" />
     <node concept="3uibUv" id="1b42fk5g_3U" role="EKbjA">
@@ -1315,7 +1313,6 @@
     <node concept="3Tm1VV" id="6P1S2g0hLFt" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="4F7MaHWZAvw">
-    <property role="3GE5qa" value="debugger" />
     <property role="TrG5h" value="ICategoryRegistry" />
     <node concept="3Tm1VV" id="4F7MaHWZAvx" role="1B3o_S" />
     <node concept="3clFb_" id="4F7MaHWZRES" role="jymVt">
@@ -1333,7 +1330,6 @@
     </node>
   </node>
   <node concept="312cEu" id="4F7MaHWZUl6">
-    <property role="3GE5qa" value="debugger" />
     <property role="TrG5h" value="CategoryRegistryImpl" />
     <node concept="3Tm1VV" id="4F7MaHWZUl7" role="1B3o_S" />
     <node concept="3uibUv" id="4F7MaHWZUlc" role="EKbjA">
@@ -1560,7 +1556,6 @@
     <node concept="2tJIrI" id="4LxJUARBCIz" role="jymVt" />
   </node>
   <node concept="312cEu" id="6EW69Px3ktu">
-    <property role="3GE5qa" value="debugger" />
     <property role="TrG5h" value="Watchable" />
     <node concept="3Tm1VV" id="6EW69Px3ktv" role="1B3o_S" />
     <node concept="3uibUv" id="6EW69Px3kui" role="EKbjA">
@@ -2170,7 +2165,7 @@
     </node>
   </node>
   <node concept="3HP615" id="3gwY0Fae6Vj">
-    <property role="3GE5qa" value="mps-integration.session-creator.settings" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="IDebuggerSettings" />
     <node concept="3Tm1VV" id="3gwY0Fae6Vk" role="1B3o_S" />
     <node concept="3clFb_" id="3gwY0Fae6Vn" role="jymVt">

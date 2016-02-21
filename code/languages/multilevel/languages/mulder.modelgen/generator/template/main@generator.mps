@@ -536,7 +536,9 @@
         <node concept="3Tqbb2" id="8ik0RHSCud" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="8ik0RHTGxu" role="1B3o_S" />
-      <node concept="3Tqbb2" id="8ik0RHTGxv" role="3clF45" />
+      <node concept="3Tqbb2" id="8ik0RHTGxv" role="3clF45">
+        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+      </node>
       <node concept="3clFbS" id="8ik0RHTGxs" role="3clF47">
         <node concept="3clFbF" id="8ik0RHXNu0" role="3cqZAp">
           <node concept="10Nm6u" id="8ik0RHXNu1" role="3clFbG" />

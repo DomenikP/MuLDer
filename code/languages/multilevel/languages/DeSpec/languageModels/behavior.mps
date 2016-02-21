@@ -6225,8 +6225,11 @@
               <node concept="10QFUN" id="2QZOBEi$Tal" role="1eOMHV">
                 <node concept="BsUDl" id="2QZOBEi$Tam" role="10QFUP">
                   <ref role="37wK5l" node="2QZOBEhUUob" resolve="getSpec" />
-                  <node concept="35c_gC" id="2QZOBEi$Tan" role="37wK5m">
+                  <node concept="35c_gC" id="S5R5dwGy$$" role="37wK5m">
                     <ref role="35c_gD" to="k6mm:2QZOBEi$MsL" resolve="StepIntoableSpec" />
+                  </node>
+                  <node concept="35c_gC" id="2QZOBEi$Tan" role="37wK5m">
+                    <ref role="35c_gD" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="2QZOBEi$Tpe" role="10QFUM">
@@ -6254,6 +6257,30 @@
       <property role="TrG5h" value="hasSteppableSemantics" />
       <node concept="3Tm1VV" id="6jIVkP_0tdb" role="1B3o_S" />
       <node concept="3clFbS" id="6jIVkP_0tdc" role="3clF47">
+        <node concept="3clFbF" id="S5R5dwF3bG" role="3cqZAp">
+          <node concept="2OqwBi" id="S5R5dwF3bD" role="3clFbG">
+            <node concept="10M0yZ" id="S5R5dwF3bE" role="2Oq$k0">
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="S5R5dwF3bF" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="S5R5dwF3nc" role="37wK5m">
+                <node concept="2OqwBi" id="S5R5dwF3Nq" role="3uHU7w">
+                  <node concept="2JrnkZ" id="S5R5dwF3JD" role="2Oq$k0">
+                    <node concept="13iPFW" id="S5R5dwF3oz" role="2JrQYb" />
+                  </node>
+                  <node concept="liA8E" id="S5R5dwF4rl" role="2OqNvi">
+                    <ref role="37wK5l" to="ec5l:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="S5R5dwF3dz" role="3uHU7B">
+                  <property role="Xl_RC" value="hasSteppableSemantics:" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2QZOBEhSJQF" role="3cqZAp">
           <node concept="2OqwBi" id="2QZOBEhSJRd" role="3clFbG">
             <node concept="1eOMI4" id="2QZOBEhV2bb" role="2Oq$k0">
@@ -6262,6 +6289,9 @@
                   <ref role="37wK5l" node="2QZOBEhUUob" resolve="getSpec" />
                   <node concept="35c_gC" id="2QZOBEhV29L" role="37wK5m">
                     <ref role="35c_gD" to="k6mm:2QZOBEh$S0t" resolve="CanBeSteppableSpec" />
+                  </node>
+                  <node concept="35c_gC" id="S5R5dwGwC7" role="37wK5m">
+                    <ref role="35c_gD" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="2QZOBEhV2nC" role="10QFUM">
@@ -6284,6 +6314,30 @@
       <property role="TrG5h" value="requiresSteppableContext" />
       <node concept="3Tm1VV" id="9tjUHFDdRZ" role="1B3o_S" />
       <node concept="3clFbS" id="9tjUHFDdS0" role="3clF47">
+        <node concept="3clFbF" id="S5R5dwF4v$" role="3cqZAp">
+          <node concept="2OqwBi" id="S5R5dwF4v_" role="3clFbG">
+            <node concept="10M0yZ" id="S5R5dwF4vA" role="2Oq$k0">
+              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="S5R5dwF4vB" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="S5R5dwF4vC" role="37wK5m">
+                <node concept="2OqwBi" id="S5R5dwF4vD" role="3uHU7w">
+                  <node concept="2JrnkZ" id="S5R5dwF4vE" role="2Oq$k0">
+                    <node concept="13iPFW" id="S5R5dwF4vF" role="2JrQYb" />
+                  </node>
+                  <node concept="liA8E" id="S5R5dwF4vG" role="2OqNvi">
+                    <ref role="37wK5l" to="ec5l:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="S5R5dwF4vH" role="3uHU7B">
+                  <property role="Xl_RC" value="requiresSteppableContext:" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2QZOBEhSK7_" role="3cqZAp">
           <node concept="2OqwBi" id="2QZOBEhSK7A" role="3clFbG">
             <node concept="liA8E" id="2QZOBEhSK7C" role="2OqNvi">
@@ -6296,6 +6350,9 @@
                   <ref role="37wK5l" node="2QZOBEhUUob" resolve="getSpec" />
                   <node concept="35c_gC" id="2QZOBEhV2sZ" role="37wK5m">
                     <ref role="35c_gD" to="k6mm:2QZOBEh$S0t" resolve="CanBeSteppableSpec" />
+                  </node>
+                  <node concept="35c_gC" id="S5R5dwGyqZ" role="37wK5m">
+                    <ref role="35c_gD" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="2QZOBEhV2t0" role="10QFUM">
@@ -6335,8 +6392,11 @@
                   <node concept="13iPFW" id="2QZOBEhX2fd" role="2Oq$k0" />
                   <node concept="2qgKlT" id="2QZOBEhX2tr" role="2OqNvi">
                     <ref role="37wK5l" node="2QZOBEhUUob" resolve="getSpec" />
-                    <node concept="35c_gC" id="2QZOBEhX2WB" role="37wK5m">
+                    <node concept="35c_gC" id="S5R5dwGyud" role="37wK5m">
                       <ref role="35c_gD" to="k6mm:2QZOBEhUTjO" resolve="ControlFlowProviderSpec" />
+                    </node>
+                    <node concept="35c_gC" id="2QZOBEhX2WB" role="37wK5m">
+                      <ref role="35c_gD" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
                     </node>
                   </node>
                 </node>
@@ -6410,8 +6470,11 @@
             <node concept="10QFUN" id="2QZOBEjIzaj" role="33vP2m">
               <node concept="BsUDl" id="2QZOBEjIzak" role="10QFUP">
                 <ref role="37wK5l" node="2QZOBEhUUob" resolve="getSpec" />
-                <node concept="35c_gC" id="2QZOBEjIzal" role="37wK5m">
+                <node concept="35c_gC" id="S5R5dwGyWJ" role="37wK5m">
                   <ref role="35c_gD" to="k6mm:2QZOBEiEe4g" resolve="SteppableContextSpec" />
+                </node>
+                <node concept="35c_gC" id="2QZOBEjIzal" role="37wK5m">
+                  <ref role="35c_gD" to="k6mm:WsW$R6dIy7" resolve="SteppableContext" />
                 </node>
               </node>
               <node concept="3uibUv" id="2QZOBEjIzam" role="10QFUM">
@@ -6620,8 +6683,12 @@
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="getSpec" />
       <node concept="37vLTG" id="2QZOBEhUYgK" role="3clF46">
-        <property role="TrG5h" value="concept" />
+        <property role="TrG5h" value="specConcept" />
         <node concept="3bZ5Sz" id="2QZOBEhUYgL" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="S5R5dwGxtX" role="3clF46">
+        <property role="TrG5h" value="expectedConcept" />
+        <node concept="3bZ5Sz" id="S5R5dwGxtY" role="1tU5fm" />
       </node>
       <node concept="3Tmbuc" id="2QZOBEhV1v$" role="1B3o_S" />
       <node concept="3clFbS" id="2QZOBEhUUod" role="3clF47">
@@ -6636,7 +6703,7 @@
               <node concept="3cpWs3" id="2QZOBEksiPt" role="37wK5m">
                 <node concept="2OqwBi" id="2QZOBEksiUf" role="3uHU7w">
                   <node concept="37vLTw" id="2QZOBEksiQO" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2QZOBEhUYgK" resolve="concept" />
+                    <ref role="3cqZAo" node="2QZOBEhUYgK" resolve="specConcept" />
                   </node>
                   <node concept="liA8E" id="2QZOBEksj9s" role="2OqNvi">
                     <ref role="37wK5l" to="t3eg:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
@@ -6662,7 +6729,7 @@
                 <node concept="3NT_Vc" id="2QZOBEhUUok" role="2OqNvi" />
               </node>
               <node concept="37vLTw" id="2QZOBEhUYCt" role="37wK5m">
-                <ref role="3cqZAo" node="2QZOBEhUYgK" resolve="concept" />
+                <ref role="3cqZAo" node="2QZOBEhUYgK" resolve="specConcept" />
               </node>
             </node>
           </node>
@@ -6707,8 +6774,8 @@
                               </node>
                               <node concept="2Zo12i" id="2QZOBEhUUoI" role="2OqNvi">
                                 <node concept="25Kdxt" id="2QZOBEhUZ7c" role="2Zo12j">
-                                  <node concept="37vLTw" id="2QZOBEhUZek" role="25KhWn">
-                                    <ref role="3cqZAo" node="2QZOBEhUYgK" resolve="concept" />
+                                  <node concept="37vLTw" id="S5R5dwGxXm" role="25KhWn">
+                                    <ref role="3cqZAo" node="S5R5dwGxtX" resolve="expectedConcept" />
                                   </node>
                                 </node>
                               </node>
@@ -6741,7 +6808,7 @@
                           <ref role="2Gs0qQ" node="2QZOBEhUUoN" resolve="superConcept" />
                         </node>
                         <node concept="37vLTw" id="2QZOBEhUYQk" role="37wK5m">
-                          <ref role="3cqZAo" node="2QZOBEhUYgK" resolve="concept" />
+                          <ref role="3cqZAo" node="2QZOBEhUYgK" resolve="specConcept" />
                         </node>
                       </node>
                     </node>

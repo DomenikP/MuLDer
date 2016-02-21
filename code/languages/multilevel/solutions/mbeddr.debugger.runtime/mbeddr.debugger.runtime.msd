@@ -17,7 +17,7 @@
     <dependency reexport="false">e11c169d-9fe2-4a19-8c43-ddd8ffefd883(mbeddr.debugger.specification)</dependency>
     <dependency reexport="false">b25694ab-2b70-4644-a06e-4d199f64d0c5(mulder.text)</dependency>
     <dependency reexport="false">11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</dependency>
-    <dependency reexport="false">20efe9a4-f7d4-42e9-8446-6b2dfc4fa631(mulder.model.runtime)</dependency>
+    <dependency reexport="true">20efe9a4-f7d4-42e9-8446-6b2dfc4fa631(mulder.model.runtime)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)</dependency>
     <dependency reexport="false">9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)</dependency>
