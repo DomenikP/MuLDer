@@ -915,7 +915,7 @@
       <node concept="37vLTG" id="30gDo8BIaPd" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="30gDo8BIaPe" role="1tU5fm">
-          <ref role="ehGHo" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+          <ref role="ehGHo" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
         </node>
       </node>
       <node concept="37vLTG" id="30gDo8BIaPf" role="3clF46">
@@ -1160,13 +1160,13 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getBreakable" />
       <node concept="3Tqbb2" id="30gDo8BIkHA" role="3clF45">
-        <ref role="ehGHo" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+        <ref role="ehGHo" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
       </node>
       <node concept="3Tm1VV" id="30gDo8BIkHB" role="1B3o_S" />
       <node concept="3clFbS" id="30gDo8BIkHC" role="3clF47">
         <node concept="3clFbF" id="30gDo8BIkHD" role="3cqZAp">
           <node concept="1PxgMI" id="30gDo8BIkHE" role="3clFbG">
-            <ref role="1PxNhF" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+            <ref role="1PxNhF" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
             <node concept="2OqwBi" id="30gDo8BIkHG" role="1PxMeX">
               <node concept="37vLTw" id="4WqJ5ShBNP5" role="2Oq$k0">
                 <ref role="3cqZAo" node="30gDo8BIaOI" resolve="myLocation" />
@@ -1987,7 +1987,7 @@
                             <node concept="liA8E" id="65KmIn8rQ1z" role="2OqNvi">
                               <ref role="37wK5l" to="nybc:~LinkedBindingBuilder.toInstance(java.lang.Object):void" resolve="toInstance" />
                               <node concept="3cmrfG" id="65KmIn8suHb" role="37wK5m">
-                                <property role="3cmrfH" value="10000" />
+                                <property role="3cmrfH" value="30000" />
                               </node>
                             </node>
                           </node>
@@ -2608,7 +2608,7 @@
                 <ref role="37wK5l" to="e2lb:~Thread.sleep(long):void" resolve="sleep" />
                 <ref role="1Pybhc" to="e2lb:~Thread" resolve="Thread" />
                 <node concept="3cmrfG" id="3W_lGXEfEgc" role="37wK5m">
-                  <property role="3cmrfH" value="50" />
+                  <property role="3cmrfH" value="200" />
                 </node>
               </node>
             </node>
@@ -2862,7 +2862,7 @@
                 <ref role="1Pybhc" to="e2lb:~Thread" resolve="Thread" />
                 <ref role="37wK5l" to="e2lb:~Thread.sleep(long):void" resolve="sleep" />
                 <node concept="3cmrfG" id="3W_lGXEfEgf" role="37wK5m">
-                  <property role="3cmrfH" value="50" />
+                  <property role="3cmrfH" value="200" />
                 </node>
               </node>
             </node>
@@ -3116,7 +3116,7 @@
                 <ref role="1Pybhc" to="e2lb:~Thread" resolve="Thread" />
                 <ref role="37wK5l" to="e2lb:~Thread.sleep(long):void" resolve="sleep" />
                 <node concept="3cmrfG" id="3W_lGXEfEgi" role="37wK5m">
-                  <property role="3cmrfH" value="50" />
+                  <property role="3cmrfH" value="200" />
                 </node>
               </node>
             </node>
@@ -3367,7 +3367,7 @@
       <node concept="3Tm1VV" id="30gDo8BIkHm" role="1B3o_S" />
       <node concept="3clFbS" id="30gDo8BIkHn" role="3clF47" />
       <node concept="3Tqbb2" id="30gDo8BIkHo" role="3clF45">
-        <ref role="ehGHo" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+        <ref role="ehGHo" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
       </node>
     </node>
   </node>
@@ -3635,7 +3635,7 @@
                   <ref role="3cqZAo" node="7C_wgEF3En2" resolve="breakpointable" />
                 </node>
                 <node concept="3TUQnm" id="42zGBUYhpEA" role="37wK5m">
-                  <ref role="3TV0OU" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+                  <ref role="3TV0OU" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
                 </node>
               </node>
             </node>

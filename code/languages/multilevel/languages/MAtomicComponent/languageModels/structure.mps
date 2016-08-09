@@ -203,9 +203,6 @@
     <node concept="PrWs8" id="7ZqGTTqGs7w" role="PzmwI">
       <ref role="PrY4T" to="k6mm:PjpCzdQT6j" resolve="WatchProviderScope" />
     </node>
-    <node concept="PrWs8" id="2Up4L48UQg4" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
-    </node>
     <node concept="PrWs8" id="6WUNGeE6lJ7" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
     </node>

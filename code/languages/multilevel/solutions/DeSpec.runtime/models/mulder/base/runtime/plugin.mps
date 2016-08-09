@@ -581,7 +581,7 @@
       <node concept="37vLTG" id="6P1S2fVxI8i" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="6P1S2fVxI8j" role="1tU5fm">
-          <ref role="ehGHo" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+          <ref role="ehGHo" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
         </node>
       </node>
       <node concept="10P_77" id="6P1S2fVxFlV" role="3clF45" />
@@ -597,7 +597,7 @@
       <node concept="37vLTG" id="6P1S2fVxI7E" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="6P1S2fVxI7D" role="1tU5fm">
-          <ref role="ehGHo" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+          <ref role="ehGHo" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
         </node>
       </node>
     </node>
@@ -611,7 +611,7 @@
       <node concept="37vLTG" id="6P1S2fXdTRj" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="6P1S2fXdTXx" role="1tU5fm">
-          <ref role="ehGHo" to="k6mm:PjpCzdQT6j" resolve="WatchProviderScope" />
+          <ref role="ehGHo" to="k6mm:PjpCzdQT6j" resolve="ProviderScope" />
         </node>
       </node>
       <node concept="A3Dl8" id="6P1S2fX$jAD" role="3clF45">
@@ -628,7 +628,7 @@
       <node concept="37vLTG" id="6P1S2fXdTZF" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="6P1S2fXdTZG" role="1tU5fm">
-          <ref role="ehGHo" to="k6mm:PjpCzdQT6j" resolve="WatchProviderScope" />
+          <ref role="ehGHo" to="k6mm:PjpCzdQT6j" resolve="ProviderScope" />
         </node>
       </node>
       <node concept="10P_77" id="6P1S2fWVNRE" role="3clF45" />
@@ -2415,7 +2415,7 @@
       <node concept="37vLTG" id="2QZOBEhDWMF" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="2QZOBEhDWMG" role="1tU5fm">
-          <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+          <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
         </node>
       </node>
       <node concept="10P_77" id="2QZOBEhDWMH" role="3clF45" />
@@ -2428,7 +2428,7 @@
       <node concept="37vLTG" id="2QZOBEhDWFz" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="2QZOBEhDWLD" role="1tU5fm">
-          <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+          <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
         </node>
       </node>
       <node concept="10P_77" id="2QZOBEhDWES" role="3clF45" />
@@ -2487,13 +2487,13 @@
       <node concept="37vLTG" id="2QZOBEiEl39" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="2QZOBEiEl95" role="1tU5fm">
-          <ref role="ehGHo" to="k6mm:WsW$R6dIy7" resolve="SteppableContext" />
+          <ref role="ehGHo" to="k6mm:WsW$R6dIy7" resolve="SteppableComposite" />
         </node>
       </node>
       <node concept="3Tm1VV" id="2QZOBEiEkWQ" role="1B3o_S" />
       <node concept="3clFbS" id="2QZOBEiEkWR" role="3clF47" />
       <node concept="2I9FWS" id="WsW$R6dKFp" role="3clF45">
-        <ref role="2I9WkF" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+        <ref role="2I9WkF" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
       </node>
     </node>
     <node concept="3Tm1VV" id="2QZOBEiEkR8" role="1B3o_S" />

@@ -2209,33 +2209,6 @@
           </node>
           <node concept="2iRfu4" id="2EVeRXbH9kG" role="2iSdaV" />
         </node>
-        <node concept="3EZMnI" id="2EVeRXbH9kR" role="3EZMnx">
-          <property role="3EZMnw" value="false" />
-          <node concept="3F0ifn" id="2EVeRXbH9kS" role="3EZMnx">
-            <property role="3F0ifm" value="contributes stack frame:" />
-            <ref role="1k5W1q" to="tpc5:2NgG6tkHXk9" resolve="KeyWord" />
-            <node concept="VPM3Z" id="2EVeRXbH9kT" role="3F10Kt">
-              <property role="VOm3f" value="false" />
-            </node>
-            <node concept="3$7jql" id="2EVeRXbH9kU" role="3F10Kt">
-              <property role="3$6WeP" value="1" />
-              <property role="2hoDZC" value="PIXELS" />
-            </node>
-          </node>
-          <node concept="3F1sOY" id="2EVeRXbH9kV" role="3EZMnx">
-            <ref role="1NtTu8" to="k6mm:2RsptmRknMo" />
-            <node concept="VPXOz" id="2EVeRXbH9kW" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-          </node>
-          <node concept="VPM3Z" id="2EVeRXbH9kX" role="3F10Kt">
-            <property role="VOm3f" value="false" />
-          </node>
-          <node concept="VPXOz" id="2EVeRXbH9kY" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="2iRfu4" id="2EVeRXbH9kZ" role="2iSdaV" />
-        </node>
         <node concept="3EZMnI" id="2EVeRXbH9kH" role="3EZMnx">
           <property role="3EZMnw" value="false" />
           <node concept="3F0ifn" id="2EVeRXbH9kI" role="3EZMnx">
@@ -2269,10 +2242,10 @@
   </node>
   <node concept="24kQdi" id="6P1S2fVgGYr">
     <property role="3GE5qa" value="debugSemantics" />
-    <ref role="1XX52x" to="k6mm:6P1S2fVgGmN" resolve="WatchScopeProviderSpec" />
+    <ref role="1XX52x" to="k6mm:6P1S2fVgGmN" resolve="ScopeProviderSpec" />
     <node concept="3EZMnI" id="6P1S2fVgH0f" role="2wV5jI">
       <node concept="3F0ifn" id="6P1S2fVgH0g" role="3EZMnx">
-        <property role="3F0ifm" value="WatchScopeProvider" />
+        <property role="3F0ifm" value="ScopeProvider" />
         <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
         <node concept="VQ3r3" id="6P1S2fVgH0h" role="3F10Kt">
           <property role="2USNnj" value="2" />
@@ -2348,7 +2321,7 @@
         <node concept="3EZMnI" id="6P1S2fVgH0x" role="3EZMnx">
           <property role="3EZMnw" value="false" />
           <node concept="3F0ifn" id="6P1S2fVgH0y" role="3EZMnx">
-            <property role="3F0ifm" value="delegate to sorrounding ScopeProvider:" />
+            <property role="3F0ifm" value="delegate to surrounding ScopeProvider:" />
             <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
             <node concept="VPM3Z" id="6P1S2fVgH0z" role="3F10Kt">
               <property role="VOm3f" value="false" />
@@ -2723,7 +2696,6 @@
         <node concept="3F1sOY" id="7YL4GJ3YB4Y" role="3EZMnx">
           <ref role="1NtTu8" to="k6mm:7YL4GJ3XpQ4" />
         </node>
-        <node concept="3F0ifn" id="1pKlcOG8$SG" role="3EZMnx" />
         <node concept="l2Vlx" id="1pKlcOGarFf" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="1pKlcOG8$MH" role="3EZMnx">
@@ -3007,10 +2979,19 @@
       <node concept="l2Vlx" id="1pKlcOFVOVc" role="2iSdaV" />
     </node>
     <node concept="3EZMnI" id="1pKlcOFVW6a" role="6VMZX">
-      <node concept="3F1sOY" id="1pKlcOFVW6b" role="3EZMnx">
-        <ref role="1NtTu8" to="k6mm:1pKlcOFVOnf" />
-        <node concept="pkWqt" id="1pKlcOFVW6c" role="pqm2j">
-          <node concept="3clFbS" id="1pKlcOFVW6d" role="2VODD2">
+      <node concept="3EZMnI" id="2XtSW2joCJC" role="3EZMnx">
+        <node concept="VPM3Z" id="2XtSW2joCJO" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="2XtSW2joDx3" role="3EZMnx">
+          <property role="3F0ifm" value="watch name" />
+        </node>
+        <node concept="3F1sOY" id="1pKlcOFVW6b" role="3EZMnx">
+          <ref role="1NtTu8" to="k6mm:1pKlcOFVOnf" />
+        </node>
+        <node concept="l2Vlx" id="2XtSW2joCK1" role="2iSdaV" />
+        <node concept="pkWqt" id="2XtSW2joCVe" role="pqm2j">
+          <node concept="3clFbS" id="2XtSW2joCVf" role="2VODD2">
             <node concept="3clFbF" id="1pKlcOFVW6e" role="3cqZAp">
               <node concept="2OqwBi" id="1pKlcOFVW6f" role="3clFbG">
                 <node concept="2OqwBi" id="1pKlcOFVW6g" role="2Oq$k0">
@@ -3029,11 +3010,29 @@
           </node>
         </node>
       </node>
-      <node concept="3F1sOY" id="1pKlcOFVW6m" role="3EZMnx">
-        <ref role="1NtTu8" to="k6mm:1pKlcOFVOng" />
+      <node concept="3EZMnI" id="2XtSW2joBOR" role="3EZMnx">
+        <node concept="VPM3Z" id="2XtSW2joBOT" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="2XtSW2joBUM" role="3EZMnx">
+          <property role="3F0ifm" value="attach to node" />
+        </node>
+        <node concept="3F1sOY" id="1pKlcOFVW6m" role="3EZMnx">
+          <ref role="1NtTu8" to="k6mm:1pKlcOFVOng" />
+        </node>
+        <node concept="l2Vlx" id="2XtSW2joBUJ" role="2iSdaV" />
       </node>
-      <node concept="3F1sOY" id="1pKlcOFVW6n" role="3EZMnx">
-        <ref role="1NtTu8" to="k6mm:1pKlcOFVOnh" />
+      <node concept="3EZMnI" id="2XtSW2joCD$" role="3EZMnx">
+        <node concept="VPM3Z" id="2XtSW2joCDA" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="2XtSW2joCJx" role="3EZMnx">
+          <property role="3F0ifm" value="resolve watch" />
+        </node>
+        <node concept="3F1sOY" id="1pKlcOFVW6n" role="3EZMnx">
+          <ref role="1NtTu8" to="k6mm:1pKlcOFVOnh" />
+        </node>
+        <node concept="l2Vlx" id="2XtSW2joCDD" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="1pKlcOFVW6o" role="2iSdaV" />
     </node>
@@ -3645,10 +3644,10 @@
   </node>
   <node concept="24kQdi" id="2QZOBEh$TQ9">
     <property role="3GE5qa" value="steppable.spec.canBeSteppable" />
-    <ref role="1XX52x" to="k6mm:2QZOBEh$S0t" resolve="CanBeSteppableSpec" />
+    <ref role="1XX52x" to="k6mm:2QZOBEh$S0t" resolve="SteppableSpec" />
     <node concept="3EZMnI" id="2QZOBEh$TRX" role="2wV5jI">
       <node concept="3F0ifn" id="2QZOBEh$TRY" role="3EZMnx">
-        <property role="3F0ifm" value="CanBeSteppable" />
+        <property role="3F0ifm" value="Steppable" />
         <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
         <node concept="VQ3r3" id="2QZOBEh$TRZ" role="3F10Kt">
           <property role="2USNnj" value="2" />
@@ -3697,30 +3696,6 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="2iRfu4" id="2QZOBEh$TSe" role="2iSdaV" />
-        </node>
-        <node concept="3EZMnI" id="2QZOBEh$TSf" role="3EZMnx">
-          <property role="3EZMnw" value="false" />
-          <node concept="3F0ifn" id="2QZOBEh$TSg" role="3EZMnx">
-            <property role="3F0ifm" value="requires sorrounding SteppableContext:" />
-            <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
-            <node concept="VPM3Z" id="2QZOBEh$TSh" role="3F10Kt">
-              <property role="VOm3f" value="false" />
-            </node>
-          </node>
-          <node concept="3F1sOY" id="2QZOBEh$TSi" role="3EZMnx">
-            <property role="1$x2rV" value="true" />
-            <ref role="1NtTu8" to="k6mm:2QZOBEh$UIE" />
-            <node concept="VPXOz" id="2QZOBEh$TSj" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-          </node>
-          <node concept="VPM3Z" id="2QZOBEh$TSk" role="3F10Kt">
-            <property role="VOm3f" value="false" />
-          </node>
-          <node concept="VPXOz" id="2QZOBEh$TSl" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="2iRfu4" id="2QZOBEh$TSm" role="2iSdaV" />
         </node>
         <node concept="3EZMnI" id="2QZOBEh$TSn" role="3EZMnx">
           <property role="3EZMnw" value="false" />
@@ -3850,7 +3825,7 @@
     <ref role="1XX52x" to="k6mm:2QZOBEi$MsL" resolve="StepIntoableSpec" />
     <node concept="3EZMnI" id="2QZOBEi$MIl" role="2wV5jI">
       <node concept="3F0ifn" id="2QZOBEi$MIm" role="3EZMnx">
-        <property role="3F0ifm" value="StepIntoable" />
+        <property role="3F0ifm" value="Callable Call" />
         <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
         <node concept="VQ3r3" id="2QZOBEi$MIn" role="3F10Kt">
           <property role="2USNnj" value="2" />
@@ -3934,10 +3909,10 @@
   </node>
   <node concept="24kQdi" id="2QZOBEiEea5">
     <property role="3GE5qa" value="steppable.spec.steppableContext" />
-    <ref role="1XX52x" to="k6mm:2QZOBEiEe4g" resolve="SteppableContextSpec" />
+    <ref role="1XX52x" to="k6mm:2QZOBEiEe4g" resolve="SteppableCompositeSpec" />
     <node concept="3EZMnI" id="2QZOBEiEebu" role="2wV5jI">
       <node concept="3F0ifn" id="2QZOBEiEebv" role="3EZMnx">
-        <property role="3F0ifm" value="SteppableContext" />
+        <property role="3F0ifm" value="SteppableComposite" />
         <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
         <node concept="VQ3r3" id="2QZOBEiEebw" role="3F10Kt">
           <property role="2USNnj" value="2" />

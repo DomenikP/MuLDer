@@ -13,6 +13,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -44,6 +47,7 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -95,6 +99,7 @@
       <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
         <child id="1138662048170" name="value" index="tz02z" />
       </concept>
+      <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -208,7 +213,7 @@
                 <node concept="2Sf5sV" id="67gjJAxYCj7" role="2Oq$k0" />
                 <node concept="1mIQ4w" id="67gjJAxYCjy" role="2OqNvi">
                   <node concept="chp4Y" id="1lK4d_WlGPP" role="cj9EA">
-                    <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+                    <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
                   </node>
                 </node>
               </node>
@@ -269,7 +274,7 @@
                 <node concept="2Sf5sV" id="2s7Bv57J4Kl" role="2Oq$k0" />
                 <node concept="1mIQ4w" id="2s7Bv57J4Km" role="2OqNvi">
                   <node concept="chp4Y" id="1lK4d_WlHuw" role="cj9EA">
-                    <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+                    <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
                   </node>
                 </node>
               </node>
@@ -303,7 +308,7 @@
                 <node concept="2Sf5sV" id="3W_lGXEggKY" role="2Oq$k0" />
                 <node concept="1mIQ4w" id="3W_lGXEggKZ" role="2OqNvi">
                   <node concept="chp4Y" id="1lK4d_WlIzW" role="cj9EA">
-                    <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+                    <ref role="cht4Q" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
                   </node>
                 </node>
               </node>
@@ -606,6 +611,68 @@
               <node concept="1mIQ4w" id="41LNfYHHIsO" role="2OqNvi">
                 <node concept="chp4Y" id="41LNfYHHIAj" role="cj9EA">
                   <ref role="cht4Q" to="rpmx:5YGS28LTIbV" resolve="LiteralValue" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="2qHrNOs93b3">
+    <property role="TrG5h" value="ToggleMeasureStepping" />
+    <ref role="2ZfgGC" to="rpmx:5S3xvtirw9" resolve="DebuggerTestcase" />
+    <node concept="2S6ZIM" id="2qHrNOs93b4" role="2ZfVej">
+      <node concept="3clFbS" id="2qHrNOs93b5" role="2VODD2">
+        <node concept="3clFbF" id="2qHrNOs93m1" role="3cqZAp">
+          <node concept="Xl_RD" id="2qHrNOs93m0" role="3clFbG">
+            <property role="Xl_RC" value="Toggle Measure Stepping" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="2qHrNOs93b6" role="2ZfgGD">
+      <node concept="3clFbS" id="2qHrNOs93b7" role="2VODD2">
+        <node concept="3clFbJ" id="2qHrNOs96yP" role="3cqZAp">
+          <node concept="3clFbS" id="2qHrNOs96yR" role="3clFbx">
+            <node concept="3clFbF" id="2qHrNOs93_x" role="3cqZAp">
+              <node concept="2OqwBi" id="2qHrNOs967D" role="3clFbG">
+                <node concept="2OqwBi" id="2qHrNOs93I$" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="2qHrNOs93_w" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="2qHrNOs961U" role="2OqNvi">
+                    <node concept="3CFYIy" id="2qHrNOs965c" role="3CFYIz">
+                      <ref role="3CFYIx" to="rpmx:2qHrNOs6MgD" resolve="MeasureSteppingTime" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="zfrQC" id="2qHrNOs96vv" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2qHrNOs96DG" role="3clFbw">
+            <node concept="2OqwBi" id="2qHrNOs96A$" role="2Oq$k0">
+              <node concept="2Sf5sV" id="2qHrNOs96A_" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="2qHrNOs96AA" role="2OqNvi">
+                <node concept="3CFYIy" id="2qHrNOs96AB" role="3CFYIz">
+                  <ref role="3CFYIx" to="rpmx:2qHrNOs6MgD" resolve="MeasureSteppingTime" />
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="2qHrNOs96OU" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="2qHrNOs96W2" role="9aQIa">
+            <node concept="3clFbS" id="2qHrNOs96W3" role="9aQI4">
+              <node concept="3clFbF" id="2qHrNOs96ZL" role="3cqZAp">
+                <node concept="2OqwBi" id="2qHrNOs972u" role="3clFbG">
+                  <node concept="2OqwBi" id="2qHrNOs96ZN" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="2qHrNOs96ZO" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="2qHrNOs96ZP" role="2OqNvi">
+                      <node concept="3CFYIy" id="2qHrNOs96ZQ" role="3CFYIz">
+                        <ref role="3CFYIx" to="rpmx:2qHrNOs6MgD" resolve="MeasureSteppingTime" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1PgB_6" id="2qHrNOs97o3" role="2OqNvi" />
                 </node>
               </node>
             </node>

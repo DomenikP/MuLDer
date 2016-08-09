@@ -62,16 +62,16 @@
       <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="3cY0XBrZCf0" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     </node>
     <node concept="PrWs8" id="2Up4L47FYvJ" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+      <ref role="PrY4T" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
     </node>
     <node concept="PrWs8" id="4nwiEYdSKp_" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4VYXLgrcIvN" resolve="SteppableContext" />
+      <ref role="PrY4T" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
     </node>
-    <node concept="PrWs8" id="5hQOM0T0lwa" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+    <node concept="PrWs8" id="1kvAObPrY_L" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
     </node>
     <node concept="1TJgyj" id="14emBKkRscF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

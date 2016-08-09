@@ -62,6 +62,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123135" name="body" index="3clF47" />
@@ -71,6 +72,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
@@ -499,6 +503,28 @@
     <ref role="13h7C2" to="8glu:6xhsDCu1V1e" resolve="Transition" />
     <node concept="13hLZK" id="9tjUHFT00a" role="13h7CW">
       <node concept="3clFbS" id="9tjUHFT00b" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7Y7QNUu0Gw$">
+    <property role="3GE5qa" value="references" />
+    <ref role="13h7C2" to="8glu:6xhsDCu5C3u" resolve="StateVariableRef" />
+    <node concept="13hLZK" id="7Y7QNUu0Gw_" role="13h7CW">
+      <node concept="3clFbS" id="7Y7QNUu0GwA" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6iIoqg1yDKH" role="13h7CS">
+      <property role="TrG5h" value="isLValue" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="ywuz:6iIoqg1yDKH" resolve="isLValue" />
+      <node concept="3Tm1VV" id="6iIoqg1yDKI" role="1B3o_S" />
+      <node concept="3clFbS" id="7Y7QNUu0GD1" role="3clF47">
+        <node concept="3clFbF" id="7Y7QNUu0HYu" role="3cqZAp">
+          <node concept="3clFbT" id="7Y7QNUu0HYt" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="6iIoqg1yDKL" role="3clF45" />
     </node>
   </node>
 </model>

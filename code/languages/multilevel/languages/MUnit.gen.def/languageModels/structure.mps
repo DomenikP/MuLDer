@@ -8,6 +8,7 @@
   <imports>
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="e1nu" ref="r:f5f1bc6c-b40f-4bd3-9e1f-a729425b397c(MUnit.structure)" />
+    <import index="k146" ref="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -36,6 +37,10 @@
     <node concept="PrWs8" id="14emBKkWJqf" role="PzmwI">
       <ref role="PrY4T" to="e1nu:14emBKkWJpZ" resolve="MUnitGeneratorStrategy" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="3460_FmHY3V">
+    <property role="TrG5h" value="VarBlockExpression" />
+    <ref role="1TJDcQ" to="k146:4VEDcE28so4" resolve="BlockExpression" />
   </node>
 </model>
 

@@ -28,6 +28,7 @@
       </concept>
       <concept id="1206442659665" name="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" flags="in" index="3__wT9" />
       <concept id="1206442747519" name="jetbrains.mps.lang.dataFlow.structure.NodeParameter" flags="nn" index="3__QtB" />
+      <concept id="1206443660532" name="jetbrains.mps.lang.dataFlow.structure.EmitNopStatement" flags="nn" index="3_DlnG" />
       <concept id="1206454052847" name="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" flags="nn" index="3AgYrR">
         <child id="1206454079161" name="codeFor" index="3Ah4Yx" />
       </concept>
@@ -42,6 +43,7 @@
     <ref role="3_znuS" to="e1nu:14emBKkQvwe" resolve="Testcase" />
     <node concept="3__wT9" id="4nwiEYedevO" role="3_A6iZ">
       <node concept="3clFbS" id="4nwiEYedevP" role="2VODD2">
+        <node concept="3_DlnG" id="1kvAObQ$41m" role="3cqZAp" />
         <node concept="3AgYrR" id="4nwiEYedqy4" role="3cqZAp">
           <node concept="2OqwBi" id="4nwiEYedsG6" role="3Ah4Yx">
             <node concept="3__QtB" id="4nwiEYeds_C" role="2Oq$k0" />
@@ -50,6 +52,14 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3_zdsH" id="3460_FmHd2M">
+    <ref role="3_znuS" to="e1nu:14emBKkRUqa" resolve="AssertStatement" />
+    <node concept="3__wT9" id="3460_FmHd2N" role="3_A6iZ">
+      <node concept="3clFbS" id="3460_FmHd2O" role="2VODD2">
+        <node concept="3_DlnG" id="3460_FmHdRk" role="3cqZAp" />
       </node>
     </node>
   </node>

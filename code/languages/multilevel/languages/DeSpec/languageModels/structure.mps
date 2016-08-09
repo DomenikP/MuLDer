@@ -399,9 +399,9 @@
   </node>
   <node concept="1TIwiD" id="6P1S2fVgGmN">
     <property role="3GE5qa" value="debugSemantics" />
-    <property role="TrG5h" value="WatchScopeProviderSpec" />
+    <property role="TrG5h" value="ScopeProviderSpec" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="WatchScopeProvider" />
+    <property role="34LRSv" value="ScopeProvider" />
     <property role="MwhBj" value="${module}/icons/WatchScopeProviderSpecCharIcon.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6P1S2fVgGoD" role="1TKVEi">
@@ -826,13 +826,13 @@
     </node>
   </node>
   <node concept="PlHQZ" id="4dLPB5yd2k3">
-    <property role="TrG5h" value="CanContributeStackFrame" />
+    <property role="TrG5h" value="Callable" />
     <node concept="PrWs8" id="1cnyw9YW4jV" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="2Up4L46iz2A">
-    <property role="TrG5h" value="ISupportsBreakpoints" />
+    <property role="TrG5h" value="Breakable" />
   </node>
   <node concept="PlHQZ" id="6P1S2fVlatx">
     <property role="TrG5h" value="ValueProvider" />
@@ -847,7 +847,7 @@
     </node>
   </node>
   <node concept="PlHQZ" id="PjpCzdQT6j">
-    <property role="TrG5h" value="WatchProviderScope" />
+    <property role="TrG5h" value="ProviderScope" />
   </node>
   <node concept="PlHQZ" id="8ik0RGEXNm">
     <property role="3GE5qa" value="stackframes" />
@@ -933,7 +933,7 @@
     </node>
   </node>
   <node concept="PlHQZ" id="4VYXLgqcAv1">
-    <property role="TrG5h" value="CanBeSteppable" />
+    <property role="TrG5h" value="Steppable" />
     <property role="3GE5qa" value="steppable" />
     <node concept="PrWs8" id="2QZOBEhV0fU" role="PrDN$">
       <ref role="PrY4T" node="2QZOBEhUTLT" resolve="ILoadClassFromPluginAspect" />
@@ -955,17 +955,17 @@
   </node>
   <node concept="PlHQZ" id="WsW$R6dIy7">
     <property role="3GE5qa" value="steppable" />
-    <property role="TrG5h" value="SteppableContext" />
+    <property role="TrG5h" value="SteppableComposite" />
     <node concept="PrWs8" id="2QZOBEiEn8o" role="PrDN$">
       <ref role="PrY4T" node="2QZOBEhUTLT" resolve="ILoadClassFromPluginAspect" />
     </node>
   </node>
   <node concept="1TIwiD" id="2QZOBEh$S0t">
     <property role="3GE5qa" value="steppable.spec.canBeSteppable" />
-    <property role="TrG5h" value="CanBeSteppableSpec" />
+    <property role="TrG5h" value="SteppableSpec" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/CanBeSteppableSpecCharIcon.png" />
-    <property role="34LRSv" value="CanBeSteppable" />
+    <property role="34LRSv" value="Steppable" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2QZOBEh$UIC" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1030,7 +1030,7 @@
   <node concept="1TIwiD" id="2QZOBEhVSD9">
     <property role="3GE5qa" value="steppable.spec.controlFlowProvider" />
     <property role="TrG5h" value="StepIntoableNode" />
-    <property role="34LRSv" value="stepIntoable" />
+    <property role="34LRSv" value="callableCall" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="2QZOBEhVTwg">
@@ -1073,9 +1073,9 @@
   </node>
   <node concept="1TIwiD" id="2QZOBEiEe4g">
     <property role="3GE5qa" value="steppable.spec.steppableContext" />
-    <property role="TrG5h" value="SteppableContextSpec" />
+    <property role="TrG5h" value="SteppableCompositeSpec" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="SteppableContext" />
+    <property role="34LRSv" value="SteppableComposite" />
     <property role="MwhBj" value="${module}/icons/SteppableContextSpecCharIcon.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2QZOBEiEe8E" role="1TKVEi">
@@ -1103,6 +1103,11 @@
     <property role="3GE5qa" value="steppable.spec.steppableContext" />
     <property role="TrG5h" value="ContainedSteppablesFunction" />
     <property role="34LRSv" value="ContainedSteppables" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4zL7dLfAZoM">
+    <property role="3GE5qa" value="debugSemantics.functions" />
+    <property role="TrG5h" value="NodeFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>

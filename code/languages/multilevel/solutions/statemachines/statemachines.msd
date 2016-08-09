@@ -50,6 +50,7 @@
     <usedLanguage>7ce26145-e88e-4147-80f6-84aca3a7cb16(MUnit.gen.def)</usedLanguage>
     <usedLanguage>72548d30-5797-4668-a0d3-be1e47fc05b7(MUnit.gen.efficient)</usedLanguage>
     <usedLanguage>eb6e703a-d3cc-488e-a462-15d37e40ae7a(MMockComponent)</usedLanguage>
+    <usedLanguage>efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</usedLanguage>
   </usedLanguages>
   <languageVersions>
     <language id="5529be6b-f382-41f9-834c-9d6b2e079511" fqName="MAtomicComponent" version="0" />

@@ -12,6 +12,7 @@
     <import index="tpfo" ref="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" />
     <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -352,15 +353,17 @@
     <property role="TrG5h" value="WatchableExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5YGS28LYBDH" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="1TIwiD" id="5YGS28LSmkm">
     <property role="3GE5qa" value="validation.watches" />
     <property role="TrG5h" value="WatchableNameExpression" />
-    <property role="34LRSv" value="name" />
     <ref role="1TJDcQ" node="5YGS28LSmkk" resolve="WatchableExpression" />
+    <node concept="1TJgyj" id="2M$$wSP6qDU" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="watchProvider" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5YGS28LSmkr">
     <property role="3GE5qa" value="validation.watches" />
@@ -371,7 +374,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="name" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5YGS28LSmkm" resolve="WatchableNameExpression" />
+      <ref role="20lvS9" node="5YGS28LSmkk" resolve="WatchableExpression" />
     </node>
     <node concept="1TJgyj" id="5YGS28LSmkt" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -674,11 +677,6 @@
       <property role="20kJfa" value="callStack" />
       <ref role="20lvS9" node="3ELV2aP9B$O" resolve="ICallStack" />
     </node>
-    <node concept="1TJgyj" id="17b57n0M0c" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="phase" />
-      <ref role="20lvS9" node="17b57n0Lr5" resolve="Phase" />
-    </node>
     <node concept="PrWs8" id="3ELV2aP4lK8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -815,10 +813,10 @@
       <property role="20kJfa" value="location" />
       <ref role="20lvS9" node="6kCxLkUvEyl" resolve="ISuspendLocation" />
     </node>
-    <node concept="1TJgyj" id="6kCxLkUIb9G" role="1TKVEi">
+    <node concept="1TJgyj" id="2M$$wSNzKWu" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="name" />
-      <ref role="20lvS9" node="6kCxLkUWty9" resolve="IStackFrameName" />
+      <property role="20kJfa" value="callable" />
+      <ref role="20lvS9" node="2M$$wSNyTio" resolve="CallableRef" />
     </node>
   </node>
   <node concept="PlHQZ" id="4UpzIuJLhy">
@@ -867,13 +865,52 @@
       <property role="1uS6qv" value="1" />
     </node>
   </node>
-  <node concept="1TIwiD" id="17b57n0Lr5">
-    <property role="3GE5qa" value="level" />
-    <property role="TrG5h" value="Phase" />
+  <node concept="1TIwiD" id="2M$$wSNyTio">
+    <property role="3GE5qa" value="stackframe" />
+    <property role="TrG5h" value="CallableRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="17b57n0Lra" role="1TKVEl">
-      <property role="TrG5h" value="phase" />
+    <node concept="1TJgyj" id="2M$$wSNyTip" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="callable" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2M$$wSOV81w">
+    <property role="3GE5qa" value="validation.watches" />
+    <property role="TrG5h" value="WatchProviderRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2M$$wSOV81x" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="watchProvider" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="k6mm:1rHBIiJ9Pyb" resolve="WatchProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2M$$wSP8WEm">
+    <property role="3GE5qa" value="validation.watches" />
+    <property role="TrG5h" value="EmptyWatchExpression" />
+    <property role="34LRSv" value=" " />
+    <ref role="1TJDcQ" node="5YGS28LSmkk" resolve="WatchableExpression" />
+  </node>
+  <node concept="1TIwiD" id="3v460C1Plez">
+    <property role="3GE5qa" value="validation.watches" />
+    <property role="TrG5h" value="WatchableTextNameExpression" />
+    <ref role="1TJDcQ" node="5YGS28LSmkk" resolve="WatchableExpression" />
+    <node concept="1TJgyi" id="3v460C1Pl_P" role="1TKVEl">
+      <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2qHrNOs6MgD">
+    <property role="3GE5qa" value="testcase" />
+    <property role="TrG5h" value="MeasureSteppingTime" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="2qHrNOs6MgE" role="lGtFl">
+      <property role="Hh88m" value="measureStepping" />
+      <node concept="trNpa" id="2qHrNOs6MgG" role="EQaZv">
+        <ref role="trN6q" node="5S3xvtirw9" resolve="DebuggerTestcase" />
+      </node>
     </node>
   </node>
 </model>

@@ -43,6 +43,14 @@
             </Library>
           </value>
         </entry>
+        <entry key="sm">
+          <value>
+            <Library>
+              <option name="name" value="sm" />
+              <option name="path" value="$PROJECT_DIR$/../../../../mbeddr.core.phd/code/languages/com.mbeddr.ext/languages/com.mbeddr.ext.statemachines" />
+            </Library>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

@@ -95,6 +95,9 @@
     <node concept="PrWs8" id="69N_VEHChFR" role="PzmwI">
       <ref role="PrY4T" to="k6mm:6P1S2fVlatx" resolve="ValueProvider" />
     </node>
+    <node concept="PrWs8" id="2aspXW0LlXF" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:WsW$R6dIy7" resolve="SteppableComposite" />
+    </node>
     <node concept="cTxPe" id="2Kx5o1AvJ1t" role="lGtFl">
       <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />
       <property role="2qtEX9" value="iconPath" />
@@ -159,7 +162,7 @@
       <ref role="20lvS9" node="7MFNr6DnHW7" resolve="PortOperationRef" />
     </node>
     <node concept="PrWs8" id="6t$AXNkBA6K" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     </node>
     <node concept="PrWs8" id="6WUNGeE0Ccw" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
@@ -168,7 +171,13 @@
       <ref role="PrY4T" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
     </node>
     <node concept="PrWs8" id="9tjUHFToLA" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:WsW$R6dIy7" resolve="SteppableContext" />
+      <ref role="PrY4T" to="k6mm:WsW$R6dIy7" resolve="SteppableComposite" />
+    </node>
+    <node concept="PrWs8" id="2aspXW0_FcB" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
+    </node>
+    <node concept="PrWs8" id="6QSAyvRPVzA" role="PzmwI">
+      <ref role="PrY4T" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MFNr6DnHW7">

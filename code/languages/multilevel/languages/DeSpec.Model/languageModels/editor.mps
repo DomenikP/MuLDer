@@ -661,7 +661,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="6bdDYiErpt_" role="3EZMnx">
-          <property role="3F0ifm" value="@VirtualStackFrame:" />
+          <property role="3F0ifm" value="@OutlineStackFrame:" />
           <ref role="1k5W1q" node="MPvpOXPptz" resolve="DebuggerGeneratorAnnotation" />
         </node>
         <node concept="1iCGBv" id="8ik0RIGG0f" role="3EZMnx">

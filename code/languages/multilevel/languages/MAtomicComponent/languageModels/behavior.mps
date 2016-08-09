@@ -143,7 +143,11 @@
       </concept>
       <concept id="3304628195161099688" name="mulder.base.structure.NameFunction" flags="ig" index="2qzixX" />
       <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
-      <concept id="7450251056318683607" name="mulder.base.structure.NodeResolver" flags="ng" index="2Ofw8b" />
+      <concept id="7450251056318683607" name="mulder.base.structure.NodeResolver" flags="ng" index="2Ofw8b">
+        <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
+        <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
+        <child id="7450251056318702784" name="function" index="2OfBWs" />
+      </concept>
       <concept id="9201156180037714600" name="mulder.base.structure.TargetWatchSpecification" flags="ng" index="2XId1z">
         <child id="9201156180037714605" name="valueProvider" index="2XId1A" />
       </concept>
@@ -222,11 +226,6 @@
       <concept id="7872820068762968763" name="mulder.modelgen.structure.WatchProviderSpec" flags="ng" index="2mrKao">
         <child id="7872820068765074097" name="valueProvider" index="2m3Iai" />
         <child id="7872820068763449582" name="nameFunction" index="2mtXzd" />
-      </concept>
-      <concept id="7450251056318683607" name="mulder.modelgen.structure.NodeResolver" flags="ng" index="2Ofw8c">
-        <reference id="6134458215752613597" name="targetConcept" index="22icvz" />
-        <reference id="7450251056318702782" name="sourceConcept" index="2OfBXy" />
-        <child id="7450251056318702784" name="function" index="2OfBWs" />
       </concept>
       <concept id="7450251056318684258" name="mulder.modelgen.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
       <concept id="3906148130290944556" name="mulder.modelgen.structure.ValueTransformer" flags="ng" index="1keisF">
@@ -330,6 +329,29 @@
         </node>
       </node>
       <node concept="17QB3L" id="1Rm5R2SubfM" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="6I4O4cktbxy" role="13h7CS">
+      <property role="TrG5h" value="genPortInstanceSUMember" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="6I4O4cktbjL" resolve="genPortInstanceSUMember" />
+      <node concept="3Tm1VV" id="6I4O4cktbxz" role="1B3o_S" />
+      <node concept="3clFbS" id="6I4O4cktbxw" role="3clF47">
+        <node concept="3cpWs6" id="6I4O4cktbDj" role="3cqZAp">
+          <node concept="3cpWs3" id="6I4O4cktbDk" role="3cqZAk">
+            <node concept="2OqwBi" id="6I4O4cktbDl" role="3uHU7w">
+              <node concept="13iPFW" id="6I4O4cktbDm" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6I4O4cktbDn" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="6I4O4cktbDo" role="3uHU7B">
+              <property role="Xl_RC" value="requiredPortInstance_" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6I4O4cktbx$" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="6aU7c0uRveJ">
@@ -523,6 +545,14 @@
       <node concept="3Tm1VV" id="1Rm5R2SuawB" role="1B3o_S" />
       <node concept="17QB3L" id="1Rm5R2SuawQ" role="3clF45" />
       <node concept="3clFbS" id="1Rm5R2SuawD" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="6I4O4cktbjL" role="13h7CS">
+      <property role="TrG5h" value="genPortInstanceSUMember" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="6I4O4cktbjM" role="1B3o_S" />
+      <node concept="17QB3L" id="6I4O4cktbjN" role="3clF45" />
+      <node concept="3clFbS" id="6I4O4cktbjO" role="3clF47" />
     </node>
     <node concept="13i0hz" id="1qBaxu1uBVm" role="13h7CS">
       <property role="13i0iv" value="false" />
@@ -875,6 +905,29 @@
       </node>
       <node concept="17QB3L" id="1Rm5R2Suax3" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="6I4O4cktbWx" role="13h7CS">
+      <property role="TrG5h" value="genPortInstanceSUMember" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="6I4O4cktbjL" resolve="genPortInstanceSUMember" />
+      <node concept="3Tm1VV" id="6I4O4cktbWy" role="1B3o_S" />
+      <node concept="3clFbS" id="6I4O4cktbWv" role="3clF47">
+        <node concept="3cpWs6" id="6I4O4cktc0D" role="3cqZAp">
+          <node concept="3cpWs3" id="6I4O4cktc0E" role="3cqZAk">
+            <node concept="2OqwBi" id="6I4O4cktc0F" role="3uHU7w">
+              <node concept="13iPFW" id="6I4O4cktc0G" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6I4O4cktc0H" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="6I4O4cktc0I" role="3uHU7B">
+              <property role="Xl_RC" value="providedPortInstance_" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6I4O4cktbWz" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="1qBaxu1t0aw">
     <property role="3GE5qa" value="content.ports" />
@@ -1188,10 +1241,10 @@
   </node>
   <node concept="2Ofw8b" id="4nblNEs8dPJ">
     <property role="TrG5h" value="resolveComponentInstance" />
-    <ref role="2OfBXy" to="x27k:5IYyAOzCrre" resolve="GlobalVariableDeclaration" />
     <ref role="22icvz" to="32lw:1y5IIwWD5bb" resolve="ComponentInstance" />
-    <node concept="2OfwuY" id="4nblNEs8dPK" role="2OfBWs">
-      <node concept="3clFbS" id="4nblNEs8dPL" role="2VODD2">
+    <ref role="2OfBXy" to="x27k:5IYyAOzCrre" resolve="GlobalVariableDeclaration" />
+    <node concept="2OfwuY" id="6VZcAFbpRPc" role="2OfBWs">
+      <node concept="3clFbS" id="6VZcAFbpRPd" role="2VODD2">
         <node concept="3clFbF" id="4nblNEsaSua" role="3cqZAp">
           <node concept="1PxgMI" id="4nblNEsb1Vh" role="3clFbG">
             <ref role="1PxNhF" to="32lw:1y5IIwWD5bb" resolve="ComponentInstance" />
@@ -1236,8 +1289,8 @@
     <property role="TrG5h" value="structType2ComponentType" />
     <ref role="2OfBXy" to="clbe:5yYXyc4Z0CS" resolve="StructType" />
     <ref role="22icvz" to="32lw:1qBaxu1UkdY" resolve="ComponentType" />
-    <node concept="2OfwuY" id="RvNPiV0$Fo" role="2OfBWs">
-      <node concept="3clFbS" id="RvNPiV0$Fp" role="2VODD2">
+    <node concept="2OfwuY" id="6VZcAFbpZy0" role="2OfBWs">
+      <node concept="3clFbS" id="6VZcAFbpZy1" role="2VODD2">
         <node concept="3cpWs8" id="RvNPiV0BB3" role="3cqZAp">
           <node concept="3cpWsn" id="RvNPiV0BB4" role="3cpWs9">
             <property role="TrG5h" value="componentInstance" />

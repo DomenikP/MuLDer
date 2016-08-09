@@ -348,10 +348,6 @@
     <property role="3GE5qa" value="content.runnable" />
     <ref role="1XX52x" to="32lw:1y5IIwWxgUR" resolve="Runnable" />
     <node concept="3EZMnI" id="1y5IIwWxgVb" role="2wV5jI">
-      <node concept="3F0ifn" id="6aU7c0vene8" role="3EZMnx">
-        <property role="3F0ifm" value="runnable" />
-        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
-      </node>
       <node concept="3F1sOY" id="1y5IIwWyKLb" role="3EZMnx">
         <ref role="1NtTu8" to="mj1l:hEaDaGor64" />
         <node concept="VPxyj" id="1y5IIwWyKN0" role="3F10Kt">

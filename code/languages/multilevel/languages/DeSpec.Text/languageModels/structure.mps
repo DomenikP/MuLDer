@@ -82,7 +82,7 @@
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
     <node concept="1TJgyi" id="2SyAeFjOJ05" role="1TKVEl">
-      <property role="TrG5h" value="reducedConstantName" />
+      <property role="TrG5h" value="targetLevelName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="2SyAeFjOIZZ" role="PzmwI">
@@ -92,7 +92,7 @@
       <ref role="PrY4T" to="k6mm:7gtWUEoo$OF" resolve="IWatchDebugInformation" />
     </node>
     <node concept="M6xJ_" id="2SyAeFjOM8n" role="lGtFl">
-      <property role="Hh88m" value="liftConstantFromText" />
+      <property role="Hh88m" value="T2MConstant" />
       <node concept="trNpa" id="2SyAeFjOM8p" role="EQaZv">
         <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>

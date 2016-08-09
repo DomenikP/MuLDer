@@ -293,7 +293,7 @@
     <ref role="1XX52x" to="u27g:8ik0RHRBUd" resolve="VirtualFrameSpec" />
     <node concept="3EZMnI" id="4Fv0ty1Pjk5" role="2wV5jI">
       <node concept="3F0ifn" id="4Fv0ty1Pjk6" role="3EZMnx">
-        <property role="3F0ifm" value="VirtualStackFrame:" />
+        <property role="3F0ifm" value="OutlineStackFrame:" />
         <ref role="1k5W1q" to="tpc5:2NgG6tkHXk9" resolve="KeyWord" />
         <node concept="VQ3r3" id="4Fv0ty1Pjk7" role="3F10Kt">
           <property role="2USNnj" value="2" />
@@ -570,7 +570,7 @@
         <node concept="3EZMnI" id="6P1S2fVdC9j" role="3EZMnx">
           <property role="3EZMnw" value="false" />
           <node concept="3F0ifn" id="6P1S2fVdC9k" role="3EZMnx">
-            <property role="3F0ifm" value="watch name:" />
+            <property role="3F0ifm" value="watch identifier:" />
             <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
             <node concept="VPM3Z" id="6P1S2fVdC9l" role="3F10Kt">
               <property role="VOm3f" value="false" />
