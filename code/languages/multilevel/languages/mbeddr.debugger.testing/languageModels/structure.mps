@@ -18,6 +18,7 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -62,6 +63,73 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5t7wq7uqihI" role="PzmwI">
       <ref role="PrY4T" to="rpmx:5t7wq7uqigT" resolve="IDebuggerBackend" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2qHrNOseYvk">
+    <property role="TrG5h" value="MbeddrDebuggerConfiguration" />
+    <property role="34LRSv" value="mbeddr configuration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2qHrNOseYvx" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="debuggerBackend" />
+      <ref role="20lvS9" to="rpmx:5t7wq7uqigT" resolve="IDebuggerBackend" />
+    </node>
+    <node concept="1TJgyj" id="2qHrNOseYvL" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="steppingAlgorithms" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2qHrNOseYw2" resolve="ISteppingAlgorithm" />
+    </node>
+    <node concept="1TJgyj" id="6zNZ1PK4nlK" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="configItems" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6zNZ1PK4nmd" resolve="IDebuggerTestingConfigItem" />
+    </node>
+    <node concept="PrWs8" id="2qHrNOseYvv" role="PzmwI">
+      <ref role="PrY4T" to="rpmx:2qHrNOsbauz" resolve="IDebuggerConfiguration" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2qHrNOseYw2">
+    <property role="TrG5h" value="ISteppingAlgorithm" />
+    <property role="3GE5qa" value="stepping" />
+  </node>
+  <node concept="1TIwiD" id="2qHrNOseYwg">
+    <property role="TrG5h" value="BottomUpSteppingAlgorithm" />
+    <property role="3GE5qa" value="stepping" />
+    <property role="34LRSv" value="BottomUp" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2qHrNOseYwt" role="PzmwI">
+      <ref role="PrY4T" node="2qHrNOseYw2" resolve="ISteppingAlgorithm" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2qHrNOseYwx">
+    <property role="TrG5h" value="TopDownSteppingAlgorithm" />
+    <property role="3GE5qa" value="stepping" />
+    <property role="34LRSv" value="TopDown" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2qHrNOseYwO" role="PzmwI">
+      <ref role="PrY4T" node="2qHrNOseYw2" resolve="ISteppingAlgorithm" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2qHrNOseYwK">
+    <property role="TrG5h" value="SingleSteppingSteppingAlgorithm" />
+    <property role="3GE5qa" value="stepping" />
+    <property role="34LRSv" value="SingleStepping" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2qHrNOseYwL" role="PzmwI">
+      <ref role="PrY4T" node="2qHrNOseYw2" resolve="ISteppingAlgorithm" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6zNZ1PK4nmd">
+    <property role="TrG5h" value="IDebuggerTestingConfigItem" />
+  </node>
+  <node concept="1TIwiD" id="6zNZ1PK4ABZ">
+    <property role="TrG5h" value="MeasureSteppingPerformanceConfigItem" />
+    <property role="34LRSv" value="measure performance" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6zNZ1PK4ACO" role="PzmwI">
+      <ref role="PrY4T" node="6zNZ1PK4nmd" resolve="IDebuggerTestingConfigItem" />
     </node>
   </node>
 </model>

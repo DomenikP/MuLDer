@@ -126,6 +126,11 @@
       <property role="20kJfa" value="debuggerBackend" />
       <ref role="20lvS9" node="5t7wq7uqigT" resolve="IDebuggerBackend" />
     </node>
+    <node concept="1TJgyj" id="2qHrNOsbalK" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="configuration" />
+      <ref role="20lvS9" node="2qHrNOsbauz" resolve="IDebuggerConfiguration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3ESKAEuEBRB">
     <property role="3GE5qa" value="stepping" />
@@ -196,6 +201,11 @@
     <property role="TrG5h" value="DebuggerTestcase" />
     <property role="34LRSv" value="test" />
     <ref role="1TJDcQ" to="tp5g:hHlHkQ8" resolve="NodesTestMethod" />
+    <node concept="1TJgyj" id="2qHrNOtsOCX" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="debuggerTest" />
+      <ref role="20lvS9" node="67gjJAxXnpI" resolve="DebuggerTest" />
+    </node>
     <node concept="1TJgyi" id="5S3xvtjRLp" role="1TKVEl">
       <property role="TrG5h" value="abstract" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
@@ -912,6 +922,10 @@
         <ref role="trN6q" node="5S3xvtirw9" resolve="DebuggerTestcase" />
       </node>
     </node>
+  </node>
+  <node concept="PlHQZ" id="2qHrNOsbauz">
+    <property role="3GE5qa" value="module" />
+    <property role="TrG5h" value="IDebuggerConfiguration" />
   </node>
 </model>
 

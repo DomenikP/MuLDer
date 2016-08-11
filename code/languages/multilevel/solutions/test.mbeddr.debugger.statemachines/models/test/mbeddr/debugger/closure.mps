@@ -26,6 +26,11 @@
     </language>
     <language id="2bb324a8-ef4a-4dc7-b73a-557460350bd8" name="mbeddr.debugger.testing">
       <concept id="6289137936867337325" name="mbeddr.debugger.testing.structure.GdbDebuggerBackend" flags="ng" index="29bEnc" />
+      <concept id="2787006052669581345" name="mbeddr.debugger.testing.structure.TopDownSteppingAlgorithm" flags="ng" index="U_Css" />
+      <concept id="2787006052669581268" name="mbeddr.debugger.testing.structure.MbeddrDebuggerConfiguration" flags="ng" index="U_CzD">
+        <child id="2787006052669581297" name="steppingAlgorithms" index="U_Czc" />
+        <child id="2787006052669581281" name="debuggerBackend" index="U_Czs" />
+      </concept>
       <concept id="5100083648679329379" name="mbeddr.debugger.testing.structure.BinaryRef" flags="ng" index="3qy1PH">
         <reference id="7048220250906128789" name="binary" index="30ajXG" />
       </concept>
@@ -61,13 +66,13 @@
       <concept id="3216856623541359768" name="mulder.testing.structure.CallableRef" flags="ng" index="vbKqm">
         <reference id="3216856623541359769" name="callable" index="vbKqn" />
       </concept>
-      <concept id="4231345613098876386" name="mulder.testing.structure.StepIntoCommand" flags="ng" index="2$4FY8" />
       <concept id="4231345613098876391" name="mulder.testing.structure.StepOutCommand" flags="ng" index="2$4FYd" />
       <concept id="6848852908085995822" name="mulder.testing.structure.LevelStackReference" flags="ng" index="2YkuD0">
         <reference id="6848852908085995847" name="declaration" index="2YkuCD" />
       </concept>
       <concept id="7048220250905867886" name="mulder.testing.structure.DebuggerTest" flags="lg" index="309jyn">
         <child id="6289137936867385367" name="debuggerBackend" index="29bA6Q" />
+        <child id="2787006052668581232" name="configuration" index="UwsDd" />
         <child id="5100083648679329380" name="executable" index="3qy1PE" />
       </concept>
       <concept id="4193597469137492644" name="mulder.testing.structure.MarkerRef" flags="ng" index="3cQ7K9">
@@ -98,32 +103,16 @@
       <concept id="105850086901771260" name="mulder.testing.structure.EmptyDebuggerContent" flags="ng" index="3sgmnF" />
       <concept id="7289224522159894453" name="mulder.testing.structure.AnyWatchables" flags="ng" index="1ugayw" />
       <concept id="7289224522141260770" name="mulder.testing.structure.AnyLocation" flags="ng" index="1voPNR" />
-      <concept id="1218249513292256529" name="mulder.testing.structure.WatchablesDeclaration" flags="ng" index="1vuW9F">
-        <child id="1218249513292256533" name="watchables" index="1vuW9J" />
-      </concept>
       <concept id="5710167937130927554" name="mulder.testing.structure.IDebuggerTest" flags="ng" index="1zJgaY">
         <child id="5710167937130937944" name="contents" index="1zJi$$" />
       </concept>
       <concept id="4360423713604419372" name="mulder.testing.structure.ValidationConfiguration" flags="ng" index="3F5Y_J">
         <child id="4360423713604419402" name="validations" index="3F5Y$9" />
       </concept>
-      <concept id="6894131567068111611" name="mulder.testing.structure.LiteralValue" flags="ng" index="1Iiwbp">
-        <property id="6894131567068111701" name="value" index="1IiwdR" />
-      </concept>
-      <concept id="6894131567067751726" name="mulder.testing.structure.PrimitiveValueExpression" flags="ng" index="1Ijokc">
-        <child id="6894131567068111705" name="value" index="1IiwdV" />
-      </concept>
-      <concept id="6894131567067751702" name="mulder.testing.structure.WatchableNameExpression" flags="ng" index="1IjokO">
-        <reference id="3216856623567448698" name="watchProvider" index="pJjxO" />
-      </concept>
-      <concept id="6894131567067751707" name="mulder.testing.structure.WatchableWithValueExpression" flags="ng" index="1IjokT">
-        <child id="6894131567067751708" name="name" index="1IjokY" />
-        <child id="6894131567067751709" name="value" index="1IjokZ" />
-      </concept>
     </language>
   </registry>
   <node concept="309jyn" id="7Y7QNUtTPIR">
-    <property role="TrG5h" value="Closure" />
+    <property role="TrG5h" value="ClosureBase" />
     <node concept="2fHxXo" id="2M$$wSPh2Ex" role="1zJi$$">
       <property role="TrG5h" value="inTestClosures" />
       <property role="3mX51a" value="1" />
@@ -175,77 +164,6 @@
         <ref role="2YkuCD" node="2M$$wSPh2Ex" resolve="inTestClosures" />
       </node>
     </node>
-    <node concept="3scrou" id="GPUCAiSsMf" role="1zJi$$">
-      <property role="TrG5h" value="stepIntoClosure" />
-      <node concept="3cqZAl" id="GPUCAiSsMg" role="3clF45" />
-      <node concept="3clFbS" id="GPUCAiSsMh" role="3clF47" />
-      <node concept="3sdZbQ" id="GPUCAiSsMi" role="3scror">
-        <node concept="3sdZbA" id="GPUCAiT0Er" role="3sdZbB">
-          <ref role="3sa5fj" to="dsf0:GPUCAiSYuh" resolve="closureCall" />
-        </node>
-      </node>
-      <node concept="3savIG" id="GPUCAiSsMk" role="3savwP">
-        <node concept="2$4FY8" id="GPUCAiT0Eu" role="3savID">
-          <property role="2qnp9" value="1" />
-        </node>
-      </node>
-      <node concept="3F5Y_J" id="GPUCAiSsMm" role="3F5AM1">
-        <node concept="2fHxXo" id="GPUCAiSsMn" role="3F5Y$9">
-          <property role="TrG5h" value="ls" />
-          <property role="3mX51a" value="1" />
-          <node concept="2fImz0" id="3v460C1OJpC" role="2fImBQ">
-            <property role="3mtXQA" value="testcode.mbeddr.debugger.closure.closure" />
-            <node concept="2cbQls" id="3v460C1OJpE" role="2f_Tkj">
-              <node concept="1s2qdC" id="3v460C1OJpF" role="1s2qdL">
-                <ref role="1s2qet" node="2M$$wSPhBGF" />
-              </node>
-              <node concept="2cbQmw" id="3v460C1OJpP" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPhBGO" />
-                <node concept="1vuW9F" id="3TJOpAHGgOK" role="1unUxQ">
-                  <property role="TrG5h" value="w" />
-                  <node concept="1IjokT" id="3TJOpAHGh98" role="1vuW9J">
-                    <node concept="1IjokO" id="3TJOpAHGh8A" role="1IjokY">
-                      <ref role="pJjxO" to="dsf0:GPUCAiSXqK" resolve="a" />
-                    </node>
-                    <node concept="1Ijokc" id="3TJOpAHGh9c" role="1IjokZ">
-                      <node concept="1Iiwbp" id="3TJOpAHGh9d" role="1IiwdV">
-                        <property role="1IiwdR" value="2" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="1IjokT" id="3TJOpAHGh8N" role="1vuW9J">
-                    <node concept="1IjokO" id="3TJOpAHGh8E" role="1IjokY">
-                      <ref role="pJjxO" to="dsf0:GPUCAiSXra" resolve="b" />
-                    </node>
-                    <node concept="1Ijokc" id="3TJOpAHGh8R" role="1IjokZ">
-                      <node concept="1Iiwbp" id="3TJOpAHGh8S" role="1IiwdV">
-                        <property role="1IiwdR" value="2" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="1IjokO" id="3TJOpAHHwA4" role="1vuW9J">
-                    <ref role="pJjxO" to="dsf0:7Y7QNUtTNru" resolve="conditionVar" />
-                  </node>
-                </node>
-                <node concept="3cQ7K9" id="3TJOpAHGh8u" role="1vlyYN">
-                  <property role="3sdDOw" value="marker" />
-                  <ref role="3cQ7K8" to="dsf0:GPUCAiSYcD" resolve="inClosure" />
-                </node>
-              </node>
-              <node concept="2cbQmw" id="3v460C1OJpQ" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPhBGK" />
-              </node>
-              <node concept="2cbQmw" id="3v460C1OJpR" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPhBGL" />
-              </node>
-            </node>
-          </node>
-          <node concept="2YkuD0" id="GPUCAiT0Ex" role="2YkuMr">
-            <ref role="2YkuCD" node="2M$$wSPh2LJ" resolve="inClosure" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3scrou" id="GPUCAiSt1v" role="1zJi$$">
       <property role="TrG5h" value="stepOutOfClosure" />
       <node concept="3cqZAl" id="GPUCAiSt1w" role="3clF45" />
@@ -264,29 +182,20 @@
         <node concept="2fHxXo" id="GPUCAiSt1B" role="3F5Y$9">
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
-          <node concept="2fImz0" id="GPUCAiSt1C" role="2fImBQ">
+          <node concept="2fImz0" id="6zNZ1PK3qiB" role="2fImBQ">
             <property role="3mtXQA" value="testcode.mbeddr.debugger.closure.closure" />
-            <node concept="2cbQls" id="GPUCAiSt1D" role="2f_Tkj">
-              <node concept="1s2qdC" id="GPUCAiSt1E" role="1s2qdL">
+            <node concept="2cbQls" id="6zNZ1PK3qiD" role="2f_Tkj">
+              <node concept="1s2qdC" id="6zNZ1PK3qiE" role="1s2qdL">
                 <ref role="1s2qet" node="2M$$wSPh2Ez" />
               </node>
-              <node concept="2cbQmw" id="GPUCAiSt1F" role="2cbQmx">
+              <node concept="2cbQmw" id="6zNZ1PK3qiI" role="2cbQmx">
                 <ref role="2cbOmP" node="2M$$wSPh2EC" />
-                <node concept="1vuW9F" id="GPUCAiSt1G" role="1unUxQ">
-                  <property role="TrG5h" value="w" />
-                  <node concept="1IjokO" id="GPUCAiSt1H" role="1vuW9J">
-                    <ref role="pJjxO" to="dsf0:7Y7QNUtTNru" resolve="conditionVar" />
-                  </node>
-                  <node concept="1IjokO" id="GPUCAiT0Io" role="1vuW9J">
-                    <ref role="pJjxO" to="dsf0:GPUCAiSY9k" resolve="res" />
-                  </node>
-                </node>
-                <node concept="3cQ7K9" id="YzlSGa7cIT" role="1vlyYN">
+                <node concept="3cQ7K9" id="6zNZ1PK3qiQ" role="1vlyYN">
                   <property role="3sdDOw" value="marker" />
                   <ref role="3cQ7K8" to="dsf0:GPUCAiSYuh" resolve="closureCall" />
                 </node>
               </node>
-              <node concept="2cbQmw" id="GPUCAiSt1K" role="2cbQmx">
+              <node concept="2cbQmw" id="6zNZ1PK3qiJ" role="2cbQmx">
                 <ref role="2cbOmP" node="2M$$wSPh2EG" />
               </node>
             </node>
@@ -302,6 +211,10 @@
       <ref role="30ajXG" to="dsf0:7Y7QNUtTIfB" resolve="Closure" />
     </node>
     <node concept="29bEnc" id="7Y7QNUtZDao" role="29bA6Q" />
+    <node concept="U_CzD" id="6zNZ1PJSix3" role="UwsDd">
+      <node concept="29bEnc" id="6zNZ1PJSix6" role="U_Czs" />
+      <node concept="U_Css" id="6zNZ1PJSixa" role="U_Czc" />
+    </node>
   </node>
   <node concept="2XOHcx" id="7Y7QNUtTGfC">
     <property role="2XOHcw" value="${mulder.home}/code/languages/multilevel/" />

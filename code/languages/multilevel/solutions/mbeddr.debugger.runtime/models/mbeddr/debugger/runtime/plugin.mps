@@ -56741,9 +56741,10 @@
                   <node concept="3Tm1VV" id="2G9hzeb3CCs" role="1B3o_S" />
                   <node concept="17QB3L" id="2G9hzeb3CCh" role="3clF45" />
                   <node concept="3clFbS" id="2G9hzeb4xlw" role="3clF47">
-                    <node concept="3clFbF" id="2G9hzeb4BpY" role="3cqZAp">
-                      <node concept="Xl_RD" id="2G9hzeaZwQ1" role="3clFbG">
-                        <property role="Xl_RC" value="Low-level StepInto-based" />
+                    <node concept="3clFbF" id="2qHrNOshWbu" role="3cqZAp">
+                      <node concept="10M0yZ" id="2qHrNOshWbQ" role="3clFbG">
+                        <ref role="1PxDUh" node="2qHrNOshF9E" resolve="SteppingAlgorithmIDs" />
+                        <ref role="3cqZAo" node="2qHrNOshVvc" resolve="SINGLE_STEPPING" />
                       </node>
                     </node>
                   </node>
@@ -56794,9 +56795,10 @@
                   <node concept="3Tm1VV" id="2G9hzeb4CBs" role="1B3o_S" />
                   <node concept="17QB3L" id="2G9hzeb4CBt" role="3clF45" />
                   <node concept="3clFbS" id="2G9hzeb4CBj" role="3clF47">
-                    <node concept="3clFbF" id="2G9hzeb4FpK" role="3cqZAp">
-                      <node concept="Xl_RD" id="2G9hzeaZycf" role="3clFbG">
-                        <property role="Xl_RC" value="Low-level Breakpoint-based" />
+                    <node concept="3clFbF" id="2qHrNOshWEm" role="3cqZAp">
+                      <node concept="10M0yZ" id="2qHrNOshWEl" role="3clFbG">
+                        <ref role="1PxDUh" node="2qHrNOshF9E" resolve="SteppingAlgorithmIDs" />
+                        <ref role="3cqZAo" node="2qHrNOshW3O" resolve="BOTTOM_UP" />
                       </node>
                     </node>
                   </node>
@@ -56848,9 +56850,10 @@
                   <node concept="3Tm1VV" id="2G9hzeb4GBe" role="1B3o_S" />
                   <node concept="17QB3L" id="2G9hzeb4GBf" role="3clF45" />
                   <node concept="3clFbS" id="2G9hzeb4GB5" role="3clF47">
-                    <node concept="3clFbF" id="2G9hzeb4M3E" role="3cqZAp">
-                      <node concept="Xl_RD" id="2G9hzeb4M3D" role="3clFbG">
-                        <property role="Xl_RC" value="High-level Breakpoint-based" />
+                    <node concept="3clFbF" id="2qHrNOshWoA" role="3cqZAp">
+                      <node concept="10M0yZ" id="2qHrNOshWo_" role="3clFbG">
+                        <ref role="1PxDUh" node="2qHrNOshF9E" resolve="SteppingAlgorithmIDs" />
+                        <ref role="3cqZAo" node="2qHrNOshW3l" resolve="TOP_DOWN" />
                       </node>
                     </node>
                   </node>
@@ -57788,6 +57791,41 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="312cEu" id="2qHrNOshF9E">
+    <property role="3GE5qa" value="mapper.stepping.ll.breakpoints" />
+    <property role="TrG5h" value="SteppingAlgorithmIDs" />
+    <node concept="Wx3nA" id="2qHrNOshVvc" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="SINGLE_STEPPING" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="2qHrNOshVuT" role="1tU5fm" />
+      <node concept="3Tm1VV" id="2qHrNOshVvs" role="1B3o_S" />
+      <node concept="Xl_RD" id="2qHrNOshW2U" role="33vP2m">
+        <property role="Xl_RC" value="Low-level StepInto-based" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="2qHrNOshW3l" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="TOP_DOWN" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="2qHrNOshW3m" role="1tU5fm" />
+      <node concept="3Tm1VV" id="2qHrNOshW3n" role="1B3o_S" />
+      <node concept="Xl_RD" id="2G9hzeb4M3D" role="33vP2m">
+        <property role="Xl_RC" value="High-level Breakpoint-based" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="2qHrNOshW3O" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="BOTTOM_UP" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="2qHrNOshW3P" role="1tU5fm" />
+      <node concept="3Tm1VV" id="2qHrNOshW3Q" role="1B3o_S" />
+      <node concept="Xl_RD" id="2G9hzeaZycf" role="33vP2m">
+        <property role="Xl_RC" value="Low-level Breakpoint-based" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="2qHrNOshF9F" role="1B3o_S" />
   </node>
 </model>
 

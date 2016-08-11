@@ -13,6 +13,7 @@
       <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.def/MUnit.gen.def.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.efficient/MUnit.gen.efficient.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit/MUnit.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/PerformanceSimulator/PerformanceSimulator.mpl" folder="performance" />
       <modulePath path="$PROJECT_DIR$/languages/Tracing/Tracing.mpl" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.core.debug.test/solutions/pluginSolution/runtime.msd" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.core.debug.test/test.mpl" folder="mulder" />
@@ -23,13 +24,47 @@
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.Generator.runtime/DeSpec.Generator.runtime.msd" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.pluginSolution/DeSpec.pluginSolution.msd" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/solutions/DeSpec.runtime/DeSpec.runtime.msd" folder="mulder" />
-      <modulePath path="$PROJECT_DIR$/solutions/SteppingPerformance/SteppingPerformance.msd" folder="performance" />
+      <modulePath path="$PROJECT_DIR$/solutions/Performance_P1_1/Performance_P1_1.msd" folder="performance.p1" />
+      <modulePath path="$PROJECT_DIR$/solutions/Performance_P1_10/Performance_P1_10.msd" folder="performance.p1" />
+      <modulePath path="$PROJECT_DIR$/solutions/Performance_P1_15/Performance_P1_15.msd" folder="performance.p1" />
+      <modulePath path="$PROJECT_DIR$/solutions/Performance_P1_20/Performance_P1_20.msd" folder="performance.p1" />
+      <modulePath path="$PROJECT_DIR$/solutions/Performance_P1_25/Performance_P1_25.msd" folder="performance.p1" />
+      <modulePath path="$PROJECT_DIR$/solutions/Performance_P1_5/Performance_P1_5.msd" folder="performance.p1" />
       <modulePath path="$PROJECT_DIR$/solutions/Tracing.runtime/Tracing.runtime.msd" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/solutions/mbeddr.debugger.runtime/mbeddr.debugger.runtime.msd" folder="mbeddr.debugger" />
       <modulePath path="$PROJECT_DIR$/solutions/mulder.model.runtime/mulder.model.runtime.msd" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/solutions/multiLevel.backendProvider/multiLevel.backendProvider.msd" folder="mbeddr.debugger" />
       <modulePath path="$PROJECT_DIR$/solutions/multiLevel.runconfiguration/multiLevel.runconfiguration.msd" folder="mbeddr.debugger" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p2.1/performance.mbeddr.debugger.p2.1.msd" folder="performance.p2" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p2.10/performance.mbeddr.debugger.p2.10.msd" folder="performance.p2" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p2.15/performance.mbeddr.debugger.p2.15.msd" folder="performance.p2" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p2.20/performance.mbeddr.debugger.p2.20.msd" folder="performance.p2" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p2.25/performance.mbeddr.debugger.p2.25.msd" folder="performance.p2" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p2.5/performance.mbeddr.debugger.p2.5.msd" folder="performance.p2" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p2/performance.mbeddr.debugger.p2.msd" folder="performance.p2" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3a.1/performance.mbeddr.debugger.p3a.1.msd" folder="performance.p3a" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3a.10/performance.mbeddr.debugger.p3a.10.msd" folder="performance.p3a" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3a.15/performance.mbeddr.debugger.p3a.15.msd" folder="performance.p3a" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3a.20/performance.mbeddr.debugger.p3a.20.msd" folder="performance.p3a" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3a.25/performance.mbeddr.debugger.p3a.25.msd" folder="performance.p3a" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3a.5/performance.mbeddr.debugger.p3a.5.msd" folder="performance.p3a" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3a/performance.mbeddr.debugger.p3a.msd" folder="performance.p3a" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3b.1/performance.mbeddr.debugger.p3b.1.msd" folder="performance.p3b" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3b.10/performance.mbeddr.debugger.p3b.10.msd" folder="performance.p3b" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3b.15/performance.mbeddr.debugger.p3b.15.msd" folder="performance.p3b" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3b.20/performance.mbeddr.debugger.p3b.20.msd" folder="performance.p3b" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3b.25/performance.mbeddr.debugger.p3b.25.msd" folder="performance.p3b" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p3b.5/performance.mbeddr.debugger.p3b.5.msd" folder="performance.p3b" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p4.1/performance.mbeddr.debugger.p4.1.msd" folder="performance.p4" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p4.10/performance.mbeddr.debugger.p4.10.msd" folder="performance.p4" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p4.15/performance.mbeddr.debugger.p4.15.msd" folder="performance.p4" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p4.20/performance.mbeddr.debugger.p4.20.msd" folder="performance.p4" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p4.25/performance.mbeddr.debugger.p4.25.msd" folder="performance.p4" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p4.5/performance.mbeddr.debugger.p4.5.msd" folder="performance.p4" />
       <modulePath path="$PROJECT_DIR$/solutions/statemachines/statemachines.msd" folder="applications" />
+      <modulePath path="$PROJECT_DIR$/solutions/test.mbeddr.debugger.p1/test.mbeddr.debugger.p1.msd" folder="performance.p1" />
+      <modulePath path="$PROJECT_DIR$/solutions/test.mbeddr.debugger.p3b/test.mbeddr.debugger.p3b.msd" folder="performance.p3b" />
+      <modulePath path="$PROJECT_DIR$/solutions/test.mbeddr.debugger.p4/test.mbeddr.debugger.p4.msd" folder="performance.p4" />
       <modulePath path="$PROJECT_DIR$/solutions/test.mbeddr.debugger.statemachines/test.mbeddr.debugger.statemachines.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/test.mbeddr.debugger.testingDefault/test.mbeddr.debugger.testingDefault.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/testcode.mbeddr.debugger.blockexpr/testcode.mbeddr.debugger.blockexpr.msd" folder="tests" />

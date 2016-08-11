@@ -202,6 +202,8 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
+      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
@@ -594,6 +596,14 @@
       <node concept="3cqZAl" id="30gDo8BIaMQ" role="3clF45" />
       <node concept="3Tm1VV" id="30gDo8BIaMR" role="1B3o_S" />
       <node concept="3clFbS" id="30gDo8BIaMS" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6zNZ1PK50GI" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="durationOfLastCommandMS" />
+      <node concept="3clFbS" id="6zNZ1PK50GL" role="3clF47" />
+      <node concept="3Tm1VV" id="6zNZ1PK50GM" role="1B3o_S" />
+      <node concept="3cpWsb" id="6zNZ1PK50FR" role="3clF45" />
     </node>
   </node>
   <node concept="312cEu" id="30gDo8BIaNk">
@@ -2295,6 +2305,20 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="6zNZ1PKfxDO" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="durationOfLastCommandMS" />
+      <node concept="3Tm1VV" id="6zNZ1PKfxDP" role="1B3o_S" />
+      <node concept="3cpWsb" id="6zNZ1PKfxDQ" role="3clF45" />
+      <node concept="3clFbS" id="6zNZ1PKfxDN" role="3clF47">
+        <node concept="3clFbF" id="6zNZ1PKfyIO" role="3cqZAp">
+          <node concept="37vLTw" id="6zNZ1PKfyIN" role="3clFbG">
+            <ref role="3cqZAo" node="6zNZ1PK54B6" resolve="lastSteppingCommandDurationMS" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="312cEg" id="7C_wgEF4DSc" role="jymVt">
       <property role="TrG5h" value="stepPerformed" />
       <node concept="3Tm6S6" id="7C_wgEF4DSd" role="1B3o_S" />
@@ -2309,6 +2333,18 @@
         <ref role="3uigEE" to="vkwc:~Condition" resolve="Condition" />
       </node>
     </node>
+    <node concept="312cEg" id="6zNZ1PK54B6" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="lastSteppingCommandDurationMS" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="6zNZ1PK52AA" role="1B3o_S" />
+      <node concept="3cpWsb" id="6zNZ1PK55Ab" role="1tU5fm" />
+      <node concept="3cmrfG" id="6zNZ1PK55DK" role="33vP2m">
+        <property role="3cmrfH" value="-1" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6zNZ1PK55GW" role="jymVt" />
     <node concept="312cEg" id="6MI7HAgl_hg" role="jymVt">
       <property role="TrG5h" value="programStatePovider" />
       <node concept="3Tm6S6" id="6MI7HAgl_hh" role="1B3o_S" />
@@ -2539,6 +2575,16 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3cpWs8" id="6zNZ1PK48tX" role="3cqZAp">
+                    <node concept="3cpWsn" id="6zNZ1PK48u0" role="3cpWs9">
+                      <property role="TrG5h" value="beforeStep" />
+                      <node concept="3cpWsb" id="6zNZ1PK48tV" role="1tU5fm" />
+                      <node concept="2YIFZM" id="6zNZ1PK48Vx" role="33vP2m">
+                        <ref role="37wK5l" to="e2lb:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                        <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="7C_wgEF4DNw" role="3cqZAp">
                     <node concept="2OqwBi" id="7C_wgEF4DNK" role="3clFbG">
                       <node concept="2N2G$s" id="7C_wgEF4DNx" role="2Oq$k0">
@@ -2551,6 +2597,33 @@
                         </node>
                         <node concept="37vLTw" id="6fQfWqrjHO$" role="37wK5m">
                           <ref role="3cqZAo" node="7C_wgEF4DOn" resolve="programState" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="6zNZ1PK49aF" role="3cqZAp">
+                    <node concept="3cpWsn" id="6zNZ1PK49aG" role="3cpWs9">
+                      <property role="TrG5h" value="afterStep" />
+                      <node concept="3cpWsb" id="6zNZ1PK49aH" role="1tU5fm" />
+                      <node concept="2YIFZM" id="6zNZ1PK49aI" role="33vP2m">
+                        <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+                        <ref role="37wK5l" to="e2lb:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="6zNZ1PK579a" role="3cqZAp">
+                    <node concept="37vLTI" id="6zNZ1PK57JB" role="3clFbG">
+                      <node concept="37vLTw" id="6zNZ1PK58df" role="37vLTJ">
+                        <ref role="3cqZAo" node="6zNZ1PK54B6" resolve="lastSteppingCommandDurationMS" />
+                      </node>
+                      <node concept="1eOMI4" id="6zNZ1PK4afw" role="37vLTx">
+                        <node concept="3cpWsd" id="6zNZ1PK4aDU" role="1eOMHV">
+                          <node concept="37vLTw" id="6zNZ1PK4aJl" role="3uHU7w">
+                            <ref role="3cqZAo" node="6zNZ1PK48u0" resolve="beforeStep" />
+                          </node>
+                          <node concept="37vLTw" id="6zNZ1PK4akD" role="3uHU7B">
+                            <ref role="3cqZAo" node="6zNZ1PK49aG" resolve="afterStep" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -2793,6 +2866,16 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3cpWs8" id="6zNZ1PK58s$" role="3cqZAp">
+                    <node concept="3cpWsn" id="6zNZ1PK58s_" role="3cpWs9">
+                      <property role="TrG5h" value="beforeStep" />
+                      <node concept="3cpWsb" id="6zNZ1PK58sA" role="1tU5fm" />
+                      <node concept="2YIFZM" id="6zNZ1PK58sB" role="33vP2m">
+                        <ref role="37wK5l" to="e2lb:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                        <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="7W4QWPKuNee" role="3cqZAp">
                     <node concept="2OqwBi" id="7W4QWPKuNef" role="3clFbG">
                       <node concept="2N2G$s" id="7W4QWPKuNeg" role="2Oq$k0">
@@ -2805,6 +2888,33 @@
                         </node>
                         <node concept="37vLTw" id="6fQfWqrjI9_" role="37wK5m">
                           <ref role="3cqZAo" node="7C_wgEF4DOn" resolve="programState" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="6zNZ1PK59ds" role="3cqZAp">
+                    <node concept="3cpWsn" id="6zNZ1PK59dt" role="3cpWs9">
+                      <property role="TrG5h" value="afterStep" />
+                      <node concept="3cpWsb" id="6zNZ1PK59du" role="1tU5fm" />
+                      <node concept="2YIFZM" id="6zNZ1PK59dv" role="33vP2m">
+                        <ref role="37wK5l" to="e2lb:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                        <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="6zNZ1PK59dw" role="3cqZAp">
+                    <node concept="37vLTI" id="6zNZ1PK59dx" role="3clFbG">
+                      <node concept="37vLTw" id="6zNZ1PK59dy" role="37vLTJ">
+                        <ref role="3cqZAo" node="6zNZ1PK54B6" resolve="lastSteppingCommandDurationMS" />
+                      </node>
+                      <node concept="1eOMI4" id="6zNZ1PK59dz" role="37vLTx">
+                        <node concept="3cpWsd" id="6zNZ1PK59d$" role="1eOMHV">
+                          <node concept="37vLTw" id="6zNZ1PK59d_" role="3uHU7w">
+                            <ref role="3cqZAo" node="6zNZ1PK58s_" resolve="beforeStep" />
+                          </node>
+                          <node concept="37vLTw" id="6zNZ1PK59dA" role="3uHU7B">
+                            <ref role="3cqZAo" node="6zNZ1PK59dt" resolve="afterStep" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -3047,6 +3157,16 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3cpWs8" id="6zNZ1PK58OF" role="3cqZAp">
+                    <node concept="3cpWsn" id="6zNZ1PK58OG" role="3cpWs9">
+                      <property role="TrG5h" value="beforeStep" />
+                      <node concept="3cpWsb" id="6zNZ1PK58OH" role="1tU5fm" />
+                      <node concept="2YIFZM" id="6zNZ1PK58OI" role="33vP2m">
+                        <ref role="37wK5l" to="e2lb:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                        <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="7W4QWPKuNfH" role="3cqZAp">
                     <node concept="2OqwBi" id="7W4QWPKuNfI" role="3clFbG">
                       <node concept="2N2G$s" id="7W4QWPKuNfJ" role="2Oq$k0">
@@ -3059,6 +3179,33 @@
                         </node>
                         <node concept="37vLTw" id="6fQfWqrjIrK" role="37wK5m">
                           <ref role="3cqZAo" node="7C_wgEF4DOn" resolve="programState" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="6zNZ1PK59Hk" role="3cqZAp">
+                    <node concept="3cpWsn" id="6zNZ1PK59Hl" role="3cpWs9">
+                      <property role="TrG5h" value="afterStep" />
+                      <node concept="3cpWsb" id="6zNZ1PK59Hm" role="1tU5fm" />
+                      <node concept="2YIFZM" id="6zNZ1PK59Hn" role="33vP2m">
+                        <ref role="37wK5l" to="e2lb:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                        <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="6zNZ1PK59Ho" role="3cqZAp">
+                    <node concept="37vLTI" id="6zNZ1PK59Hp" role="3clFbG">
+                      <node concept="37vLTw" id="6zNZ1PK59Hq" role="37vLTJ">
+                        <ref role="3cqZAo" node="6zNZ1PK54B6" resolve="lastSteppingCommandDurationMS" />
+                      </node>
+                      <node concept="1eOMI4" id="6zNZ1PK59Hr" role="37vLTx">
+                        <node concept="3cpWsd" id="6zNZ1PK59Hs" role="1eOMHV">
+                          <node concept="37vLTw" id="6zNZ1PK59Ht" role="3uHU7w">
+                            <ref role="3cqZAo" node="6zNZ1PK58OG" resolve="beforeStep" />
+                          </node>
+                          <node concept="37vLTw" id="6zNZ1PK59Hu" role="3uHU7B">
+                            <ref role="3cqZAo" node="6zNZ1PK59Hl" resolve="afterStep" />
+                          </node>
                         </node>
                       </node>
                     </node>
