@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<DebuggerTest name="P3B_25_CFG">
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="40995"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="39669"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="39485"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="39628"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="39601"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="4344"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="4309"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="4315"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="4303"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="4352"/>
+	</Testcase>
+</DebuggerTest>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<DebuggerTest name="P1_25">
+	<Testcase name="stepInto" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="9092"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="9115"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="9082"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="9120"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="9177"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="5482"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="5451"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="5413"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="5443"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="5484"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="21551"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="21540"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="21428"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="21438"/>
+	</Testcase>
+	<Testcase name="stepInto" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="21451"/>
+	</Testcase>
+</DebuggerTest>

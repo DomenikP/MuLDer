@@ -121,15 +121,10 @@
       <property role="20kJfa" value="executable" />
       <ref role="20lvS9" node="1lK4d_WjpbI" resolve="ExecutableReference" />
     </node>
-    <node concept="1TJgyj" id="5t7wq7uqu0n" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="debuggerBackend" />
-      <ref role="20lvS9" node="5t7wq7uqigT" resolve="IDebuggerBackend" />
-    </node>
     <node concept="1TJgyj" id="2qHrNOsbalK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="configuration" />
-      <ref role="20lvS9" node="2qHrNOsbauz" resolve="IDebuggerConfiguration" />
+      <ref role="20lvS9" node="2qHrNOsbauz" resolve="IDebuggerConfig" />
     </node>
   </node>
   <node concept="1TIwiD" id="3ESKAEuEBRB">
@@ -925,7 +920,7 @@
   </node>
   <node concept="PlHQZ" id="2qHrNOsbauz">
     <property role="3GE5qa" value="module" />
-    <property role="TrG5h" value="IDebuggerConfiguration" />
+    <property role="TrG5h" value="IDebuggerConfig" />
   </node>
 </model>
 

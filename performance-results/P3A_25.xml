@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<DebuggerTest name="P3A_25">
+	<Testcase name="stepOverSteppable" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="50970"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="44073"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="40451"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="40143"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="BottomUp">
+		<SteppingCommand kind="StepOver" durationMS="43724"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="6718"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="6644"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="6650"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="6747"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="TopDown">
+		<SteppingCommand kind="StepOver" durationMS="6722"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="8314"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="8367"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="8300"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="8261"/>
+	</Testcase>
+	<Testcase name="stepOverSteppable" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="8273"/>
+	</Testcase>
+</DebuggerTest>

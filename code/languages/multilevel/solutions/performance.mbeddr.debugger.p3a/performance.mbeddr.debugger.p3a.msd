@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="test.mbeddr.debugger.p3a" uuid="4e9e8c79-9182-4fbc-8d0e-516b0484bd9d" compileInMPS="true">
+<solution name="test.mbeddr.debugger.p3a" uuid="4e9e8c79-9182-4fbc-8d0e-516b0484bd9d" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

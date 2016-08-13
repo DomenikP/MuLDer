@@ -33,11 +33,13 @@
     </language>
     <language id="2bb324a8-ef4a-4dc7-b73a-557460350bd8" name="mbeddr.debugger.testing">
       <concept id="6289137936867337325" name="mbeddr.debugger.testing.structure.GdbDebuggerBackend" flags="ng" index="29bEnc" />
-      <concept id="7562665402649700863" name="mbeddr.debugger.testing.structure.MeasureSteppingPerformanceConfigItem" flags="ng" index="oSpny" />
+      <concept id="7562665402649700863" name="mbeddr.debugger.testing.structure.MeasureSteppingPerformanceConfigItem" flags="ng" index="oSpny">
+        <property id="3399084567992012554" name="repeat" index="3zxJpH" />
+      </concept>
       <concept id="2787006052669581360" name="mbeddr.debugger.testing.structure.SingleSteppingSteppingAlgorithm" flags="ng" index="U_Csd" />
       <concept id="2787006052669581345" name="mbeddr.debugger.testing.structure.TopDownSteppingAlgorithm" flags="ng" index="U_Css" />
       <concept id="2787006052669581328" name="mbeddr.debugger.testing.structure.BottomUpSteppingAlgorithm" flags="ng" index="U_CsH" />
-      <concept id="2787006052669581268" name="mbeddr.debugger.testing.structure.MbeddrDebuggerConfiguration" flags="ng" index="U_CzD">
+      <concept id="2787006052669581268" name="mbeddr.debugger.testing.structure.MbeddrDebuggerConfig" flags="ng" index="U_CzD">
         <child id="7562665402649638256" name="configItems" index="oSC_H" />
         <child id="2787006052669581297" name="steppingAlgorithms" index="U_Czc" />
         <child id="2787006052669581281" name="debuggerBackend" index="U_Czs" />
@@ -113,13 +115,15 @@
     <property role="TrG5h" value="P3A_01" />
     <node concept="U_CzD" id="2WFYmvaN8mK" role="UwsDd">
       <node concept="29bEnc" id="2WFYmvaN8mL" role="U_Czs" />
-      <node concept="oSpny" id="2WFYmvaN8mM" role="oSC_H" />
-      <node concept="U_CsH" id="2WFYmvaN8mN" role="U_Czc" />
-      <node concept="U_Css" id="2WFYmvaN8mO" role="U_Czc" />
-      <node concept="U_Csd" id="2WFYmvaN8mP" role="U_Czc" />
+      <node concept="oSpny" id="2WFYmvaN8mM" role="oSC_H">
+        <property role="3zxJpH" value="5" />
+      </node>
+      <node concept="U_Css" id="41fErNWgdLD" role="U_Czc" />
+      <node concept="U_CsH" id="41fErNWqFgN" role="U_Czc" />
+      <node concept="U_Csd" id="41fErNWqFgV" role="U_Czc" />
     </node>
     <node concept="3scrou" id="2WFYmvaN8mQ" role="1zJi$$">
-      <property role="TrG5h" value="stepIntoCallableCall" />
+      <property role="TrG5h" value="stepOverSteppable" />
       <node concept="3cqZAl" id="2WFYmvaN8mR" role="3clF45" />
       <node concept="3clFbS" id="2WFYmvaN8mS" role="3clF47" />
       <node concept="3sdZbQ" id="2WFYmvaN8mT" role="3scror">
@@ -137,7 +141,7 @@
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
           <node concept="2fImz0" id="2WFYmvaN8mZ" role="2fImBQ">
-            <property role="3mtXQA" value="performance.mbeddr.debugger.p2_1.main" />
+            <property role="3mtXQA" value="performance.mbeddr.debugger.p3a_1.main" />
             <node concept="2cbQls" id="2WFYmvaN8n0" role="2f_Tkj">
               <node concept="1jQ9m8" id="2WFYmvaN8n5" role="2cbQmx">
                 <node concept="vbKqm" id="2WFYmvaPjBO" role="vaTOg">
@@ -171,49 +175,51 @@
   <node concept="309jyn" id="2WFYmvaPjGF">
     <property role="TrG5h" value="P3A_05" />
     <node concept="U_CzD" id="2WFYmvaPjGG" role="UwsDd">
-      <node concept="29bEnc" id="2WFYmvaPjGH" role="U_Czs" />
-      <node concept="oSpny" id="2WFYmvaPjGI" role="oSC_H" />
-      <node concept="U_CsH" id="2WFYmvaPjGJ" role="U_Czc" />
-      <node concept="U_Css" id="2WFYmvaPjGK" role="U_Czc" />
-      <node concept="U_Csd" id="2WFYmvaPjGL" role="U_Czc" />
+      <node concept="29bEnc" id="6k98OVcPWj9" role="U_Czs" />
+      <node concept="oSpny" id="2WFYmvaPjGI" role="oSC_H">
+        <property role="3zxJpH" value="5" />
+      </node>
+      <node concept="U_Css" id="41fErNWqFhc" role="U_Czc" />
+      <node concept="U_CsH" id="41fErNWqFhd" role="U_Czc" />
+      <node concept="U_Csd" id="41fErNWqFhe" role="U_Czc" />
     </node>
-    <node concept="3scrou" id="2WFYmvaPjGM" role="1zJi$$">
-      <property role="TrG5h" value="stepIntoCallableCall" />
-      <node concept="3cqZAl" id="2WFYmvaPjGN" role="3clF45" />
-      <node concept="3clFbS" id="2WFYmvaPjGO" role="3clF47" />
-      <node concept="3sdZbQ" id="2WFYmvaPjGP" role="3scror">
-        <node concept="3sdZbA" id="2WFYmvaPjGQ" role="3sdZbB">
-          <ref role="3sa5fj" to="9jeg:2WFYmvaPh1d" resolve="onAssertStatement" />
+    <node concept="3scrou" id="6k98OVeauwa" role="1zJi$$">
+      <property role="TrG5h" value="stepOverSteppable" />
+      <node concept="3cqZAl" id="6k98OVeauwb" role="3clF45" />
+      <node concept="3clFbS" id="6k98OVeauwc" role="3clF47" />
+      <node concept="3sdZbQ" id="6k98OVeauwd" role="3scror">
+        <node concept="3sdZbA" id="6k98OVeauwe" role="3sdZbB">
+          <ref role="3sa5fj" to="9jeg:6k98OVdW$nV" resolve="onAssertStatement" />
         </node>
       </node>
-      <node concept="3savIG" id="2WFYmvaPjGR" role="3savwP">
-        <node concept="2$4FYR" id="2WFYmvaPjGS" role="3savID">
+      <node concept="3savIG" id="6k98OVeauwf" role="3savwP">
+        <node concept="2$4FYR" id="6k98OVeauwg" role="3savID">
           <property role="2qnp9" value="1" />
         </node>
       </node>
-      <node concept="3F5Y_J" id="2WFYmvaPjGT" role="3F5AM1">
-        <node concept="2fHxXo" id="2WFYmvaPjGU" role="3F5Y$9">
+      <node concept="3F5Y_J" id="6k98OVeauwh" role="3F5AM1">
+        <node concept="2fHxXo" id="6k98OVeauwi" role="3F5Y$9">
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
-          <node concept="2fImz0" id="2WFYmvaPjGV" role="2fImBQ">
-            <property role="3mtXQA" value="performance.mbeddr.debugger.p2_1.main" />
-            <node concept="2cbQls" id="2WFYmvaPjGW" role="2f_Tkj">
-              <node concept="1jQ9m8" id="2WFYmvaPjGX" role="2cbQmx">
-                <node concept="vbKqm" id="2WFYmvaPjGY" role="vaTOg">
+          <node concept="2fImz0" id="6k98OVeauwj" role="2fImBQ">
+            <property role="3mtXQA" value="performance.mbeddr.debugger.p3a_5.main" />
+            <node concept="2cbQls" id="6k98OVeauwk" role="2f_Tkj">
+              <node concept="1jQ9m8" id="6k98OVeauwl" role="2cbQmx">
+                <node concept="vbKqm" id="6k98OVeauwm" role="vaTOg">
                   <ref role="vbKqn" to="9jeg:2WFYmvaPhKs" resolve="p1_1" />
                 </node>
-                <node concept="1ugayw" id="2WFYmvaPjGZ" role="1unUxQ" />
-                <node concept="3cQ7K9" id="2WFYmvaPjH0" role="1vlyYN">
+                <node concept="1ugayw" id="6k98OVeauwn" role="1unUxQ" />
+                <node concept="3cQ7K9" id="6k98OVeauwo" role="1vlyYN">
                   <property role="3sdDOw" value="marker" />
                   <ref role="3cQ7K8" to="9jeg:2WFYmvaPhf1" resolve="afterAssertStatement" />
                 </node>
               </node>
-              <node concept="1jQ9m8" id="2WFYmvaPjH1" role="2cbQmx">
-                <node concept="vbKqm" id="2WFYmvaPjH2" role="vaTOg">
+              <node concept="1jQ9m8" id="6k98OVeauwp" role="2cbQmx">
+                <node concept="vbKqm" id="6k98OVeauwq" role="vaTOg">
                   <ref role="vbKqn" to="9jeg:2WFYmvaPhKg" resolve="main" />
                 </node>
-                <node concept="1ugayw" id="2WFYmvaPjH3" role="1unUxQ" />
-                <node concept="1voPNR" id="2WFYmvaPjH4" role="1vlyYN" />
+                <node concept="1ugayw" id="6k98OVeauwr" role="1unUxQ" />
+                <node concept="1voPNR" id="6k98OVeauws" role="1vlyYN" />
               </node>
             </node>
           </node>
@@ -228,13 +234,15 @@
     <property role="TrG5h" value="P3A_10" />
     <node concept="U_CzD" id="2WFYmvaPjIq" role="UwsDd">
       <node concept="29bEnc" id="2WFYmvaPjIr" role="U_Czs" />
-      <node concept="oSpny" id="2WFYmvaPjIs" role="oSC_H" />
-      <node concept="U_CsH" id="2WFYmvaPjIt" role="U_Czc" />
+      <node concept="oSpny" id="2WFYmvaPjIs" role="oSC_H">
+        <property role="3zxJpH" value="5" />
+      </node>
       <node concept="U_Css" id="2WFYmvaPjIu" role="U_Czc" />
       <node concept="U_Csd" id="2WFYmvaPjIv" role="U_Czc" />
+      <node concept="U_CsH" id="2WFYmvaPjIt" role="U_Czc" />
     </node>
     <node concept="3scrou" id="2WFYmvaPjIw" role="1zJi$$">
-      <property role="TrG5h" value="stepIntoCallableCall" />
+      <property role="TrG5h" value="stepOverSteppable" />
       <node concept="3cqZAl" id="2WFYmvaPjIx" role="3clF45" />
       <node concept="3clFbS" id="2WFYmvaPjIy" role="3clF47" />
       <node concept="3sdZbQ" id="2WFYmvaPjIz" role="3scror">
@@ -252,7 +260,7 @@
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
           <node concept="2fImz0" id="2WFYmvaPjID" role="2fImBQ">
-            <property role="3mtXQA" value="performance.mbeddr.debugger.p2_1.main" />
+            <property role="3mtXQA" value="performance.mbeddr.debugger.p3a_10.main" />
             <node concept="2cbQls" id="2WFYmvaPjIE" role="2f_Tkj">
               <node concept="1jQ9m8" id="2WFYmvaPjIF" role="2cbQmx">
                 <node concept="vbKqm" id="2WFYmvaPjIG" role="vaTOg">
@@ -284,13 +292,15 @@
     <property role="TrG5h" value="P3A_15" />
     <node concept="U_CzD" id="2WFYmvaPjKz" role="UwsDd">
       <node concept="29bEnc" id="2WFYmvaPjK$" role="U_Czs" />
-      <node concept="oSpny" id="2WFYmvaPjK_" role="oSC_H" />
+      <node concept="oSpny" id="2WFYmvaPjK_" role="oSC_H">
+        <property role="3zxJpH" value="5" />
+      </node>
       <node concept="U_CsH" id="2WFYmvaPjKA" role="U_Czc" />
       <node concept="U_Css" id="2WFYmvaPjKB" role="U_Czc" />
       <node concept="U_Csd" id="2WFYmvaPjKC" role="U_Czc" />
     </node>
     <node concept="3scrou" id="2WFYmvaPjKD" role="1zJi$$">
-      <property role="TrG5h" value="stepIntoCallableCall" />
+      <property role="TrG5h" value="stepOverSteppable" />
       <node concept="3cqZAl" id="2WFYmvaPjKE" role="3clF45" />
       <node concept="3clFbS" id="2WFYmvaPjKF" role="3clF47" />
       <node concept="3sdZbQ" id="2WFYmvaPjKG" role="3scror">
@@ -308,7 +318,7 @@
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
           <node concept="2fImz0" id="2WFYmvaPjKM" role="2fImBQ">
-            <property role="3mtXQA" value="performance.mbeddr.debugger.p2_1.main" />
+            <property role="3mtXQA" value="performance.mbeddr.debugger.p3a_15.main" />
             <node concept="2cbQls" id="2WFYmvaPjKN" role="2f_Tkj">
               <node concept="1jQ9m8" id="2WFYmvaPjKO" role="2cbQmx">
                 <node concept="vbKqm" id="2WFYmvaPjKP" role="vaTOg">
@@ -340,13 +350,15 @@
     <property role="TrG5h" value="P3A_20" />
     <node concept="U_CzD" id="2WFYmvaPjMG" role="UwsDd">
       <node concept="29bEnc" id="2WFYmvaPjMH" role="U_Czs" />
-      <node concept="oSpny" id="2WFYmvaPjMI" role="oSC_H" />
+      <node concept="oSpny" id="2WFYmvaPjMI" role="oSC_H">
+        <property role="3zxJpH" value="5" />
+      </node>
       <node concept="U_CsH" id="2WFYmvaPjMJ" role="U_Czc" />
       <node concept="U_Css" id="2WFYmvaPjMK" role="U_Czc" />
       <node concept="U_Csd" id="2WFYmvaPjML" role="U_Czc" />
     </node>
     <node concept="3scrou" id="2WFYmvaPjMM" role="1zJi$$">
-      <property role="TrG5h" value="stepIntoCallableCall" />
+      <property role="TrG5h" value="stepOverSteppable" />
       <node concept="3cqZAl" id="2WFYmvaPjMN" role="3clF45" />
       <node concept="3clFbS" id="2WFYmvaPjMO" role="3clF47" />
       <node concept="3sdZbQ" id="2WFYmvaPjMP" role="3scror">
@@ -364,7 +376,7 @@
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
           <node concept="2fImz0" id="2WFYmvaPjMV" role="2fImBQ">
-            <property role="3mtXQA" value="performance.mbeddr.debugger.p2_1.main" />
+            <property role="3mtXQA" value="performance.mbeddr.debugger.p3a_20.main" />
             <node concept="2cbQls" id="2WFYmvaPjMW" role="2f_Tkj">
               <node concept="1jQ9m8" id="2WFYmvaPjMX" role="2cbQmx">
                 <node concept="vbKqm" id="2WFYmvaPjMY" role="vaTOg">
@@ -396,13 +408,15 @@
     <property role="TrG5h" value="P3A_25" />
     <node concept="U_CzD" id="2WFYmvaPjOq" role="UwsDd">
       <node concept="29bEnc" id="2WFYmvaPjOr" role="U_Czs" />
-      <node concept="oSpny" id="2WFYmvaPjOs" role="oSC_H" />
+      <node concept="oSpny" id="2WFYmvaPjOs" role="oSC_H">
+        <property role="3zxJpH" value="5" />
+      </node>
       <node concept="U_CsH" id="2WFYmvaPjOt" role="U_Czc" />
       <node concept="U_Css" id="2WFYmvaPjOu" role="U_Czc" />
       <node concept="U_Csd" id="2WFYmvaPjOv" role="U_Czc" />
     </node>
     <node concept="3scrou" id="2WFYmvaPjOw" role="1zJi$$">
-      <property role="TrG5h" value="stepIntoCallableCall" />
+      <property role="TrG5h" value="stepOverSteppable" />
       <node concept="3cqZAl" id="2WFYmvaPjOx" role="3clF45" />
       <node concept="3clFbS" id="2WFYmvaPjOy" role="3clF47" />
       <node concept="3sdZbQ" id="2WFYmvaPjOz" role="3scror">
@@ -420,7 +434,7 @@
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
           <node concept="2fImz0" id="2WFYmvaPjOD" role="2fImBQ">
-            <property role="3mtXQA" value="performance.mbeddr.debugger.p2_1.main" />
+            <property role="3mtXQA" value="performance.mbeddr.debugger.p3a_25.main" />
             <node concept="2cbQls" id="2WFYmvaPjOE" role="2f_Tkj">
               <node concept="1jQ9m8" id="2WFYmvaPjOF" role="2cbQmx">
                 <node concept="vbKqm" id="2WFYmvaPjOG" role="vaTOg">

@@ -42,10 +42,17 @@
     <usedLanguage>fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)</usedLanguage>
     <usedLanguage>2bb324a8-ef4a-4dc7-b73a-557460350bd8(mbeddr.debugger.testing)</usedLanguage>
     <usedLanguage>f9c49961-72fd-4908-826c-b9e67ef3b152(mbeddr.debugger.testing.adapter)</usedLanguage>
+    <usedLanguage>c1c2a88a-323c-4605-a37d-9ab77a2ccbd2(com.mbeddr.mpsutil.suppresswarning)</usedLanguage>
+    <usedLanguage>11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)</usedLanguage>
+    <usedLanguage>5b29fadb-2f7b-469e-bb2d-6707fc10a1b7(MUnit.performance)</usedLanguage>
+    <usedLanguage>f93d1dbe-bfd1-42dd-932a-f375fa6f5373(com.mbeddr.core.make)</usedLanguage>
+    <usedLanguage>efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</usedLanguage>
+    <usedLanguage>223dd778-c44f-4ef3-9535-7aa7d12244a6(com.mbeddr.core.debug)</usedLanguage>
   </usedLanguages>
   <languageVersions>
     <language id="bec9c00b-b5be-48af-9766-38765bcc974d" fqName="MUnit" version="0" />
     <language id="7ce26145-e88e-4147-80f6-84aca3a7cb16" fqName="MUnit.gen.def" version="0" />
+    <language id="5b29fadb-2f7b-469e-bb2d-6707fc10a1b7" fqName="MUnit.performance" version="0" />
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" fqName="com.mbeddr.core.base" version="0" />
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" fqName="com.mbeddr.core.buildconfig" version="0" />
     <language id="223dd778-c44f-4ef3-9535-7aa7d12244a6" fqName="com.mbeddr.core.debug" version="0" />

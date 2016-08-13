@@ -26,6 +26,13 @@
     </language>
     <language id="2bb324a8-ef4a-4dc7-b73a-557460350bd8" name="mbeddr.debugger.testing">
       <concept id="6289137936867337325" name="mbeddr.debugger.testing.structure.GdbDebuggerBackend" flags="ng" index="29bEnc" />
+      <concept id="2787006052669581360" name="mbeddr.debugger.testing.structure.SingleSteppingSteppingAlgorithm" flags="ng" index="U_Csd" />
+      <concept id="2787006052669581345" name="mbeddr.debugger.testing.structure.TopDownSteppingAlgorithm" flags="ng" index="U_Css" />
+      <concept id="2787006052669581328" name="mbeddr.debugger.testing.structure.BottomUpSteppingAlgorithm" flags="ng" index="U_CsH" />
+      <concept id="2787006052669581268" name="mbeddr.debugger.testing.structure.MbeddrDebuggerConfiguration" flags="ng" index="U_CzD">
+        <child id="2787006052669581297" name="steppingAlgorithms" index="U_Czc" />
+        <child id="2787006052669581281" name="debuggerBackend" index="U_Czs" />
+      </concept>
       <concept id="5100083648679329379" name="mbeddr.debugger.testing.structure.BinaryRef" flags="ng" index="3qy1PH">
         <reference id="7048220250906128789" name="binary" index="30ajXG" />
       </concept>
@@ -67,7 +74,7 @@
         <reference id="6848852908085995847" name="declaration" index="2YkuCD" />
       </concept>
       <concept id="7048220250905867886" name="mulder.testing.structure.DebuggerTest" flags="lg" index="309jyn">
-        <child id="6289137936867385367" name="debuggerBackend" index="29bA6Q" />
+        <child id="2787006052668581232" name="configuration" index="UwsDd" />
         <child id="5100083648679329380" name="executable" index="3qy1PE" />
       </concept>
       <concept id="4193597469137492644" name="mulder.testing.structure.MarkerRef" flags="ng" index="3cQ7K9">
@@ -288,7 +295,12 @@
     <node concept="3qy1PH" id="GPUCAiQjyI" role="3qy1PE">
       <ref role="30ajXG" to="y3wt:7Y7QNUtTIfB" resolve="DecTab" />
     </node>
-    <node concept="29bEnc" id="7Y7QNUtZDao" role="29bA6Q" />
+    <node concept="U_CzD" id="2WFYmvbZoFO" role="UwsDd">
+      <node concept="29bEnc" id="2WFYmvbZoFR" role="U_Czs" />
+      <node concept="U_CsH" id="2WFYmvbZoFT" role="U_Czc" />
+      <node concept="U_Csd" id="2WFYmvbZoG2" role="U_Czc" />
+      <node concept="U_Css" id="2WFYmvbZoFY" role="U_Czc" />
+    </node>
   </node>
   <node concept="2XOHcx" id="7Y7QNUtTGfC">
     <property role="2XOHcw" value="${mulder.home}/code/languages/multilevel/" />

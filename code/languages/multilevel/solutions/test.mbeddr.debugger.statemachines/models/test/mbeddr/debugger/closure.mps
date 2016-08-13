@@ -26,7 +26,9 @@
     </language>
     <language id="2bb324a8-ef4a-4dc7-b73a-557460350bd8" name="mbeddr.debugger.testing">
       <concept id="6289137936867337325" name="mbeddr.debugger.testing.structure.GdbDebuggerBackend" flags="ng" index="29bEnc" />
+      <concept id="2787006052669581360" name="mbeddr.debugger.testing.structure.SingleSteppingSteppingAlgorithm" flags="ng" index="U_Csd" />
       <concept id="2787006052669581345" name="mbeddr.debugger.testing.structure.TopDownSteppingAlgorithm" flags="ng" index="U_Css" />
+      <concept id="2787006052669581328" name="mbeddr.debugger.testing.structure.BottomUpSteppingAlgorithm" flags="ng" index="U_CsH" />
       <concept id="2787006052669581268" name="mbeddr.debugger.testing.structure.MbeddrDebuggerConfiguration" flags="ng" index="U_CzD">
         <child id="2787006052669581297" name="steppingAlgorithms" index="U_Czc" />
         <child id="2787006052669581281" name="debuggerBackend" index="U_Czs" />
@@ -66,12 +68,12 @@
       <concept id="3216856623541359768" name="mulder.testing.structure.CallableRef" flags="ng" index="vbKqm">
         <reference id="3216856623541359769" name="callable" index="vbKqn" />
       </concept>
+      <concept id="4231345613098876386" name="mulder.testing.structure.StepIntoCommand" flags="ng" index="2$4FY8" />
       <concept id="4231345613098876391" name="mulder.testing.structure.StepOutCommand" flags="ng" index="2$4FYd" />
       <concept id="6848852908085995822" name="mulder.testing.structure.LevelStackReference" flags="ng" index="2YkuD0">
         <reference id="6848852908085995847" name="declaration" index="2YkuCD" />
       </concept>
       <concept id="7048220250905867886" name="mulder.testing.structure.DebuggerTest" flags="lg" index="309jyn">
-        <child id="6289137936867385367" name="debuggerBackend" index="29bA6Q" />
         <child id="2787006052668581232" name="configuration" index="UwsDd" />
         <child id="5100083648679329380" name="executable" index="3qy1PE" />
       </concept>
@@ -103,11 +105,27 @@
       <concept id="105850086901771260" name="mulder.testing.structure.EmptyDebuggerContent" flags="ng" index="3sgmnF" />
       <concept id="7289224522159894453" name="mulder.testing.structure.AnyWatchables" flags="ng" index="1ugayw" />
       <concept id="7289224522141260770" name="mulder.testing.structure.AnyLocation" flags="ng" index="1voPNR" />
+      <concept id="1218249513292256529" name="mulder.testing.structure.WatchablesDeclaration" flags="ng" index="1vuW9F">
+        <child id="1218249513292256533" name="watchables" index="1vuW9J" />
+      </concept>
       <concept id="5710167937130927554" name="mulder.testing.structure.IDebuggerTest" flags="ng" index="1zJgaY">
         <child id="5710167937130937944" name="contents" index="1zJi$$" />
       </concept>
       <concept id="4360423713604419372" name="mulder.testing.structure.ValidationConfiguration" flags="ng" index="3F5Y_J">
         <child id="4360423713604419402" name="validations" index="3F5Y$9" />
+      </concept>
+      <concept id="6894131567068111611" name="mulder.testing.structure.LiteralValue" flags="ng" index="1Iiwbp">
+        <property id="6894131567068111701" name="value" index="1IiwdR" />
+      </concept>
+      <concept id="6894131567067751726" name="mulder.testing.structure.PrimitiveValueExpression" flags="ng" index="1Ijokc">
+        <child id="6894131567068111705" name="value" index="1IiwdV" />
+      </concept>
+      <concept id="6894131567067751702" name="mulder.testing.structure.WatchableNameExpression" flags="ng" index="1IjokO">
+        <reference id="3216856623567448698" name="watchProvider" index="pJjxO" />
+      </concept>
+      <concept id="6894131567067751707" name="mulder.testing.structure.WatchableWithValueExpression" flags="ng" index="1IjokT">
+        <child id="6894131567067751708" name="name" index="1IjokY" />
+        <child id="6894131567067751709" name="value" index="1IjokZ" />
       </concept>
     </language>
   </registry>
@@ -206,14 +224,86 @@
         </node>
       </node>
     </node>
+    <node concept="3scrou" id="GPUCAiSsMf" role="1zJi$$">
+      <property role="TrG5h" value="stepIntoClosure" />
+      <node concept="3cqZAl" id="GPUCAiSsMg" role="3clF45" />
+      <node concept="3clFbS" id="GPUCAiSsMh" role="3clF47" />
+      <node concept="3sdZbQ" id="GPUCAiSsMi" role="3scror">
+        <node concept="3sdZbA" id="GPUCAiT0Er" role="3sdZbB">
+          <ref role="3sa5fj" to="dsf0:GPUCAiSYuh" resolve="closureCall" />
+        </node>
+      </node>
+      <node concept="3savIG" id="GPUCAiSsMk" role="3savwP">
+        <node concept="2$4FY8" id="GPUCAiT0Eu" role="3savID">
+          <property role="2qnp9" value="1" />
+        </node>
+      </node>
+      <node concept="3F5Y_J" id="GPUCAiSsMm" role="3F5AM1">
+        <node concept="2fHxXo" id="GPUCAiSsMn" role="3F5Y$9">
+          <property role="TrG5h" value="ls" />
+          <property role="3mX51a" value="1" />
+          <node concept="2fImz0" id="2WFYmvc1EiS" role="2fImBQ">
+            <property role="3mtXQA" value="testcode.mbeddr.debugger.closure.closure" />
+            <node concept="2cbQls" id="2WFYmvc1EiU" role="2f_Tkj">
+              <node concept="1s2qdC" id="2WFYmvc1EiV" role="1s2qdL">
+                <ref role="1s2qet" node="2M$$wSPhBGF" />
+              </node>
+              <node concept="2cbQmw" id="2WFYmvc1Ejg" role="2cbQmx">
+                <ref role="2cbOmP" node="2M$$wSPhBGO" />
+                <node concept="3cQ7K9" id="2WFYmvc1Ejw" role="1vlyYN">
+                  <property role="3sdDOw" value="marker" />
+                  <ref role="3cQ7K8" to="dsf0:GPUCAiSYcD" resolve="inClosure" />
+                </node>
+                <node concept="1vuW9F" id="2WFYmvc1En4" role="1unUxQ">
+                  <property role="TrG5h" value="w" />
+                  <node concept="1IjokT" id="2WFYmvc1EnV" role="1vuW9J">
+                    <node concept="1IjokO" id="2WFYmvc1En8" role="1IjokY">
+                      <ref role="pJjxO" to="dsf0:GPUCAiSXqK" resolve="a" />
+                    </node>
+                    <node concept="1Ijokc" id="2WFYmvc1EnZ" role="1IjokZ">
+                      <node concept="1Iiwbp" id="2WFYmvc1Eo0" role="1IiwdV">
+                        <property role="1IiwdR" value="2" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1IjokT" id="2WFYmvc1En_" role="1vuW9J">
+                    <node concept="1IjokO" id="2WFYmvc1Ene" role="1IjokY">
+                      <ref role="pJjxO" to="dsf0:GPUCAiSXra" resolve="b" />
+                    </node>
+                    <node concept="1Ijokc" id="2WFYmvc1EnD" role="1IjokZ">
+                      <node concept="1Iiwbp" id="2WFYmvc1EnE" role="1IiwdV">
+                        <property role="1IiwdR" value="2" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1IjokO" id="2WFYmvc1Enr" role="1vuW9J">
+                    <ref role="pJjxO" to="dsf0:7Y7QNUtTNru" resolve="conditionVar" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2cbQmw" id="2WFYmvc1Ejh" role="2cbQmx">
+                <ref role="2cbOmP" node="2M$$wSPhBGK" />
+              </node>
+              <node concept="2cbQmw" id="2WFYmvc1Eji" role="2cbQmx">
+                <ref role="2cbOmP" node="2M$$wSPhBGL" />
+              </node>
+            </node>
+          </node>
+          <node concept="2YkuD0" id="2WFYmvc1EiP" role="2YkuMr">
+            <ref role="2YkuCD" node="2M$$wSPh2LJ" resolve="inClosure" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3sgmnF" id="GPUCAiSsKn" role="1zJi$$" />
     <node concept="3qy1PH" id="GPUCAiT0mM" role="3qy1PE">
       <ref role="30ajXG" to="dsf0:7Y7QNUtTIfB" resolve="Closure" />
     </node>
-    <node concept="29bEnc" id="7Y7QNUtZDao" role="29bA6Q" />
     <node concept="U_CzD" id="6zNZ1PJSix3" role="UwsDd">
       <node concept="29bEnc" id="6zNZ1PJSix6" role="U_Czs" />
       <node concept="U_Css" id="6zNZ1PJSixa" role="U_Czc" />
+      <node concept="U_Csd" id="2WFYmvbZoRk" role="U_Czc" />
+      <node concept="U_CsH" id="2WFYmvbZoST" role="U_Czc" />
     </node>
   </node>
   <node concept="2XOHcx" id="7Y7QNUtTGfC">

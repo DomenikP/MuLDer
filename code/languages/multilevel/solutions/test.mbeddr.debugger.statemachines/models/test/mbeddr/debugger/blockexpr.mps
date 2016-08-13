@@ -74,7 +74,6 @@
         <reference id="6848852908085995847" name="declaration" index="2YkuCD" />
       </concept>
       <concept id="7048220250905867886" name="mulder.testing.structure.DebuggerTest" flags="lg" index="309jyn">
-        <child id="6289137936867385367" name="debuggerBackend" index="29bA6Q" />
         <child id="2787006052668581232" name="configuration" index="UwsDd" />
         <child id="5100083648679329380" name="executable" index="3qy1PE" />
       </concept>
@@ -375,7 +374,6 @@
     <node concept="3qy1PH" id="GPUCAiSs1j" role="3qy1PE">
       <ref role="30ajXG" to="696j:7Y7QNUtTIfB" resolve="BlockExpr" />
     </node>
-    <node concept="29bEnc" id="7Y7QNUtZDao" role="29bA6Q" />
     <node concept="U_CzD" id="6zNZ1PJE2ij" role="UwsDd">
       <node concept="U_CsH" id="6zNZ1PJE2io" role="U_Czc" />
       <node concept="U_Csd" id="6zNZ1PJE2vk" role="U_Czc" />

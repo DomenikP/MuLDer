@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DebuggerTest name="P3B_05_SS">
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="168"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="175"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="185"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="169"/>
+	</Testcase>
+	<Testcase name="stepOverInBlockExpr" steppingAlgorithm="SingleStepping">
+		<SteppingCommand kind="StepOver" durationMS="170"/>
+	</Testcase>
+</DebuggerTest>

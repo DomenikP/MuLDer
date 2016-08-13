@@ -17,6 +17,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
@@ -25,6 +26,9 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -66,7 +70,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2qHrNOseYvk">
-    <property role="TrG5h" value="MbeddrDebuggerConfiguration" />
+    <property role="TrG5h" value="MbeddrDebuggerConfig" />
     <property role="34LRSv" value="mbeddr configuration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2qHrNOseYvx" role="1TKVEi">
@@ -87,7 +91,7 @@
       <ref role="20lvS9" node="6zNZ1PK4nmd" resolve="IDebuggerTestingConfigItem" />
     </node>
     <node concept="PrWs8" id="2qHrNOseYvv" role="PzmwI">
-      <ref role="PrY4T" to="rpmx:2qHrNOsbauz" resolve="IDebuggerConfiguration" />
+      <ref role="PrY4T" to="rpmx:2qHrNOsbauz" resolve="IDebuggerConfig" />
     </node>
   </node>
   <node concept="PlHQZ" id="2qHrNOseYw2">
@@ -128,6 +132,10 @@
     <property role="TrG5h" value="MeasureSteppingPerformanceConfigItem" />
     <property role="34LRSv" value="measure performance" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2WFYmvcFgWa" role="1TKVEl">
+      <property role="TrG5h" value="repeat" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="PrWs8" id="6zNZ1PK4ACO" role="PzmwI">
       <ref role="PrY4T" node="6zNZ1PK4nmd" resolve="IDebuggerTestingConfigItem" />
     </node>
