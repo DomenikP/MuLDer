@@ -201,7 +201,7 @@
             </node>
           </node>
           <node concept="3cQ7KT" id="2WFYmvbwTdb" role="lGtFl">
-            <property role="TrG5h" value="stepOutTarget" />
+            <property role="TrG5h" value="stepTarget" />
           </node>
         </node>
         <node concept="2BFjQ_" id="6p8E5o1DKNb" role="3XIRFZ">
@@ -249,7 +249,7 @@
             <property role="2hmy$m" value="0" />
           </node>
           <node concept="3cQ7KT" id="2WFYmvaWxXd" role="lGtFl">
-            <property role="TrG5h" value="stepOutSource" />
+            <property role="TrG5h" value="stepSource" />
           </node>
         </node>
         <node concept="1_9egQ" id="4ghKOJ7Effh" role="3XIRFZ">

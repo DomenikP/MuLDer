@@ -242,7 +242,7 @@
             </node>
           </node>
           <node concept="3cQ7KT" id="2WFYmvaPh1d" role="lGtFl">
-            <property role="TrG5h" value="onAssertStatement" />
+            <property role="TrG5h" value="onAssert" />
           </node>
         </node>
         <node concept="1_9egQ" id="2WFYmvaPixG" role="3XIRFZ">
@@ -260,7 +260,7 @@
             </node>
           </node>
           <node concept="3cQ7KT" id="2WFYmvaPhf1" role="lGtFl">
-            <property role="TrG5h" value="afterAssertStatement" />
+            <property role="TrG5h" value="afterAssert" />
           </node>
         </node>
       </node>

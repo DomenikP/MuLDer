@@ -61,6 +61,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p4.20/performance.mbeddr.debugger.p4.20.msd" folder="performance.p4" />
       <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p4.25/performance.mbeddr.debugger.p4.25.msd" folder="performance.p4" />
       <modulePath path="$PROJECT_DIR$/solutions/performance.mbeddr.debugger.p4.5/performance.mbeddr.debugger.p4.5.msd" folder="performance.p4" />
+      <modulePath path="$PROJECT_DIR$/solutions/performance.testresults/performance.testresults.msd" folder="performance" />
       <modulePath path="$PROJECT_DIR$/solutions/statemachines/statemachines.msd" folder="applications" />
       <modulePath path="$PROJECT_DIR$/solutions/test.mbeddr.debugger.p1/test.mbeddr.debugger.p1.msd" folder="performance.p1" />
       <modulePath path="$PROJECT_DIR$/solutions/test.mbeddr.debugger.p3b/test.mbeddr.debugger.p3b.msd" folder="performance.p3b" />

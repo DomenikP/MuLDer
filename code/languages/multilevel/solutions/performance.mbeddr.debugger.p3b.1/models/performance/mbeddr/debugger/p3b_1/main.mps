@@ -238,7 +238,7 @@
       <property role="TrG5h" value="p1_1" />
       <node concept="3XIRFW" id="6p8E5o1DLOv" role="5OT_n">
         <node concept="3XIRlf" id="4ghKOJ7EeTp" role="3XIRFZ">
-          <property role="TrG5h" value="dummyVariable" />
+          <property role="TrG5h" value="lVar" />
           <node concept="26Vqph" id="4ghKOJ7EeTq" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
@@ -254,7 +254,7 @@
             <property role="2c7vTL" value="false" />
           </node>
           <node concept="3cQ7KT" id="2WFYmvb7xoQ" role="lGtFl">
-            <property role="TrG5h" value="cfgStepOverTarget" />
+            <property role="TrG5h" value="cfg" />
           </node>
           <node concept="3BGuax" id="6k98OVduJw0" role="3XIe9u">
             <node concept="3XIRFW" id="6k98OVduJw1" role="3cMQbf">
@@ -273,7 +273,7 @@
                   <ref role="3ZVs_2" node="6k98OVduJw2" resolve="bla" />
                 </node>
                 <node concept="3cQ7KT" id="6k98OVduJw7" role="lGtFl">
-                  <property role="TrG5h" value="stepOverSource" />
+                  <property role="TrG5h" value="stepSource" />
                 </node>
               </node>
             </node>
@@ -282,19 +282,19 @@
         <node concept="1_9egQ" id="4ghKOJ7Effh" role="3XIRFZ">
           <node concept="3pqW6w" id="4ghKOJ7Efhz" role="1_9egR">
             <node concept="3ZVu4v" id="4ghKOJ7Efff" role="3TlMhI">
-              <ref role="3ZVs_2" node="4ghKOJ7EeTp" resolve="dummyVariable" />
+              <ref role="3ZVs_2" node="4ghKOJ7EeTp" resolve="lVar" />
             </node>
             <node concept="2BOciq" id="4ghKOJ7Efq6" role="3TlMhJ">
               <node concept="3TlMh9" id="4ghKOJ7Efq7" role="3TlMhJ">
                 <property role="2hmy$m" value="2" />
               </node>
               <node concept="3ZVu4v" id="4ghKOJ7Efq8" role="3TlMhI">
-                <ref role="3ZVs_2" node="4ghKOJ7EeTp" resolve="dummyVariable" />
+                <ref role="3ZVs_2" node="4ghKOJ7EeTp" resolve="lVar" />
               </node>
             </node>
           </node>
           <node concept="3cQ7KT" id="2WFYmvb7xrC" role="lGtFl">
-            <property role="TrG5h" value="singleSteppingStepOverTarget" />
+            <property role="TrG5h" value="ss" />
           </node>
         </node>
       </node>

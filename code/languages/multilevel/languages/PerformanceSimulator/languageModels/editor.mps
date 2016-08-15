@@ -8,6 +8,7 @@
   <imports>
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
+    <import index="k146" ref="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" />
     <import index="5nnj" ref="r:66931f08-d31c-4783-aa56-0d8544dde6f1(MUnit.performance.structure)" implicit="true" />
     <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" implicit="true" />
   </imports>
@@ -22,6 +23,7 @@
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
+      <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
@@ -47,6 +49,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1176749715029" name="jetbrains.mps.lang.editor.structure.QueryFunction_CellProvider" flags="in" index="3VJUX4" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
@@ -178,6 +181,36 @@
         <property role="3F0ifm" value="nested BlockExprs" />
       </node>
       <node concept="2iRfu4" id="7BM50R2caaL" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="41fErNWCygk">
+    <ref role="1XX52x" to="5nnj:41fErNWC02a" resolve="ParseResults" />
+    <node concept="3EZMnI" id="41fErNWCyFA" role="2wV5jI">
+      <node concept="3F0ifn" id="41fErNWCyFH" role="3EZMnx">
+        <property role="3F0ifm" value="Process Measurement Result XMLs" />
+      </node>
+      <node concept="3F0ifn" id="41fErNWCyFK" role="3EZMnx" />
+      <node concept="3F0ifn" id="41fErNWDpzO" role="3EZMnx">
+        <property role="3F0ifm" value="xml files:" />
+      </node>
+      <node concept="3F2HdR" id="41fErNWDcaU" role="3EZMnx">
+        <ref role="1NtTu8" to="5nnj:41fErNWCygd" />
+        <node concept="2iRkQZ" id="41fErNWDC3V" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="41fErNWCyFD" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="41fErNWLlHX">
+    <ref role="1XX52x" to="5nnj:3460_FmHY3V" resolve="VarBlockExpression" />
+    <node concept="3EZMnI" id="4VEDcE28so8" role="2wV5jI">
+      <node concept="l2Vlx" id="5oGU$loBUUH" role="2iSdaV" />
+      <node concept="3F0ifn" id="5oGU$loBUUG" role="3EZMnx">
+        <property role="3F0ifm" value="varblockexpr" />
+        <ref role="1k5W1q" to="r4b4:2$$_2GR98qK" resolve="nothing" />
+      </node>
+      <node concept="3F1sOY" id="4VEDcE28xXU" role="3EZMnx">
+        <ref role="1NtTu8" to="k146:4VEDcE28so5" />
+      </node>
     </node>
   </node>
 </model>

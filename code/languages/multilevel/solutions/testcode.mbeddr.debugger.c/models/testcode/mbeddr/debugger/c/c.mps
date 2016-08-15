@@ -610,7 +610,7 @@
             <property role="2hmy$m" value="-1" />
           </node>
           <node concept="3cQ7KT" id="3v460C1UArt" role="lGtFl">
-            <property role="TrG5h" value="beforeIfStmnt" />
+            <property role="TrG5h" value="beforeIf" />
           </node>
         </node>
         <node concept="c0U19" id="3v460C1KBuy" role="3XIRFZ">
@@ -691,7 +691,7 @@
             </node>
           </node>
           <node concept="3cQ7KT" id="3v460C1UB9u" role="lGtFl">
-            <property role="TrG5h" value="afterIfStmnt" />
+            <property role="TrG5h" value="afterIf" />
           </node>
         </node>
         <node concept="3XISUE" id="3v460C1KBxf" role="3XIRFZ" />

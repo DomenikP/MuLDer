@@ -179,7 +179,7 @@
         <node concept="2BFjQ_" id="4ghKOJ7DTjm" role="3XIRFZ">
           <node concept="5OV2r" id="4ghKOJ7DTjn" role="2BFjQA">
             <node concept="5O54F" id="2WFYmvaMAvG" role="5O541">
-              <ref role="5O54p" node="6p8E5o2lt0j" resolve="testcase" />
+              <ref role="5O54p" node="6p8E5o2lt0j" resolve="tc" />
             </node>
           </node>
         </node>
@@ -208,7 +208,7 @@
       </node>
     </node>
     <node concept="5PU9M" id="6p8E5o2lt0j" role="N3F5h">
-      <property role="TrG5h" value="testcase" />
+      <property role="TrG5h" value="tc" />
       <node concept="3XIRFW" id="6p8E5o2lt0k" role="5OT_n">
         <node concept="3XIRlf" id="6p8E5o2lt0l" role="3XIRFZ">
           <property role="TrG5h" value="funcRefPointer" />
