@@ -83,7 +83,7 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="49lIkIod6tf">
-    <property role="TrG5h" value="WatchFromTextGen" />
+    <property role="TrG5h" value="M2TWatchProvider" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyj" id="10kQx64GNsA" role="1TKVEi">
@@ -112,7 +112,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3YdlD5V84d">
-    <property role="TrG5h" value="NameInTextGen" />
+    <property role="TrG5h" value="M2TIdentifier" />
     <property role="3GE5qa" value="cross" />
     <property role="34LRSv" value="NameProvider" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
@@ -127,7 +127,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="PjpCze40Yc">
-    <property role="TrG5h" value="ValueFromTextGen" />
+    <property role="TrG5h" value="M2TValue" />
     <property role="3GE5qa" value="watches.values" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyi" id="1qRlgEvnCWq" role="1TKVEl">
@@ -148,7 +148,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2iiswCs23Ce">
-    <property role="TrG5h" value="ValueProviderFromTextGen" />
+    <property role="TrG5h" value="M2TValueProvider" />
     <property role="3GE5qa" value="watches.values" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyj" id="2iiswCsS1$B" role="1TKVEi">
@@ -161,7 +161,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="valueLifter" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5zifgCNRZIY" resolve="IValueFromTextLifter" />
+      <ref role="20lvS9" node="5zifgCNRZIY" resolve="IM2TValueFromTextLifter" />
     </node>
     <node concept="M6xJ_" id="2iiswCs23Uz" role="lGtFl">
       <property role="Hh88m" value="valueFromTextGen" />
@@ -178,7 +178,7 @@
   </node>
   <node concept="1TIwiD" id="MPvpOSw4NJ">
     <property role="3GE5qa" value="stackframes" />
-    <property role="TrG5h" value="StackFrameFromTextGen" />
+    <property role="TrG5h" value="M2TCallable" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="PrWs8" id="MPvpOSw4Yr" role="PzmwI">
       <ref role="PrY4T" to="tdvr:6hWVX3oosf" resolve="TextGenLifterAnnotation" />
@@ -194,7 +194,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2SyAeFjUez3">
-    <property role="TrG5h" value="LiftConstantFromTextGen" />
+    <property role="TrG5h" value="M2TConstantProvider" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="PrWs8" id="2SyAeFjUeHl" role="PzmwI">
@@ -211,7 +211,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2iiswCsPAji">
-    <property role="TrG5h" value="DelegateToNodeWithValueLifter" />
+    <property role="TrG5h" value="M2TDelegateToNodeWithValueLifter" />
     <property role="34LRSv" value="delegate to value provider" />
     <property role="3GE5qa" value="watches.values" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
@@ -225,11 +225,11 @@
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
     <node concept="PrWs8" id="5zifgCNRZJe" role="PzmwI">
-      <ref role="PrY4T" node="5zifgCNRZIY" resolve="IValueFromTextLifter" />
+      <ref role="PrY4T" node="5zifgCNRZIY" resolve="IM2TValueFromTextLifter" />
     </node>
   </node>
   <node concept="1TIwiD" id="465Mcq_Ab$w">
-    <property role="TrG5h" value="ValueLifterReference" />
+    <property role="TrG5h" value="M2TValueLifterReference" />
     <property role="3GE5qa" value="valueLifter.external" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5zifgCNRIeM" role="1TKVEi">
@@ -239,32 +239,32 @@
       <ref role="20lvS9" node="1UlZYp_nL4u" resolve="ITextValue2ModelValue" />
     </node>
     <node concept="PrWs8" id="5zifgCNS023" role="PzmwI">
-      <ref role="PrY4T" node="5zifgCNRZIY" resolve="IValueFromTextLifter" />
+      <ref role="PrY4T" node="5zifgCNRZIY" resolve="IM2TValueFromTextLifter" />
     </node>
   </node>
   <node concept="PlHQZ" id="5zifgCNRZIY">
     <property role="3GE5qa" value="watches.values" />
-    <property role="TrG5h" value="IValueFromTextLifter" />
+    <property role="TrG5h" value="IM2TValueFromTextLifter" />
     <node concept="PrWs8" id="5zifgCQTEHp" role="PrDN$">
       <ref role="PrY4T" to="k6mm:1aSLssz5BIE" resolve="IValueLifter" />
     </node>
   </node>
   <node concept="1TIwiD" id="6QCE2J4AzRK">
     <property role="3GE5qa" value="watches.values" />
-    <property role="TrG5h" value="TextValue2ModelValue" />
+    <property role="TrG5h" value="T2MValueTransformation" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="TextValue2ModelValue" />
+    <property role="34LRSv" value="Value Transformation" />
     <property role="MwhBj" value="${module}/icons/TextValue2ModelValueCharIcon.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7YL4GJ2_FFs" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="targetValueStructure" />
-      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatch" />
     </node>
     <node concept="1TJgyj" id="7YL4GJ2AKzd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="sourceValueStructure" />
-      <ref role="20lvS9" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatchSpecification" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatch" />
     </node>
     <node concept="1TJgyj" id="UFIAu3YagK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -302,8 +302,8 @@
   </node>
   <node concept="1TIwiD" id="1UlZYp$JUr3">
     <property role="3GE5qa" value="watches.values" />
-    <property role="TrG5h" value="ConditionalTextValue2ModelValue" />
-    <property role="34LRSv" value="Conditional TextValue2ModelValue" />
+    <property role="TrG5h" value="T2MConditionalValueTransformation" />
+    <property role="34LRSv" value="Conditional Value Transformation" />
     <property role="MwhBj" value="${module}/icons/ConditionalTextValue2ModelValueCharIcon.png" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -335,18 +335,18 @@
   </node>
   <node concept="1TIwiD" id="1UlZYp$M$hc">
     <property role="3GE5qa" value="watches.values" />
-    <property role="TrG5h" value="ConditionalText2ModelValueLifter" />
+    <property role="TrG5h" value="M2TConditionalValueLifer" />
     <property role="34LRSv" value="when lifter" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
     <node concept="1TJgyj" id="1UlZYp$RnLS" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="targetValueStructure" />
-      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatch" />
     </node>
     <node concept="1TJgyj" id="1UlZYp$ThXH" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="sourceValueStructure" />
-      <ref role="20lvS9" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatchSpecification" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatch" />
     </node>
     <node concept="PrWs8" id="1UlZYp$WfSK" role="PzmwI">
       <ref role="PrY4T" to="k6mm:1UlZYp$W8tc" resolve="ValueLifter" />
@@ -368,24 +368,24 @@
   </node>
   <node concept="1TIwiD" id="1lK4d_VgWhP">
     <property role="3GE5qa" value="watches.values" />
-    <property role="TrG5h" value="SwitchConditionalTextValue2ModelValue" />
+    <property role="TrG5h" value="T2MConditionalSwitch" />
     <property role="34LRSv" value="switch" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1lK4d_VgWj8" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="lifters" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1UlZYp$M$hc" resolve="ConditionalText2ModelValueLifter" />
+      <ref role="20lvS9" node="1UlZYp$M$hc" resolve="M2TConditionalValueLifer" />
     </node>
     <node concept="1TJgyj" id="1lK4d_VmoTy" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="defaultTargetValueStructure" />
-      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ22saC" resolve="TargetWatch" />
     </node>
     <node concept="1TJgyj" id="1lK4d_VmoTz" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="defaultSourceValueStructure" />
-      <ref role="20lvS9" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatchSpecification" />
+      <ref role="20lvS9" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatch" />
     </node>
     <node concept="PrWs8" id="1lK4d_VgWj6" role="PzmwI">
       <ref role="PrY4T" node="1lK4d_VgWhf" resolve="IConditionalText2ModelValueLifter" />

@@ -2362,7 +2362,7 @@
   </node>
   <node concept="24kQdi" id="3MxRD99lmIE">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="1XX52x" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValueSpecification" />
+    <ref role="1XX52x" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValue" />
     <node concept="3EZMnI" id="3MxRD99lmIG" role="2wV5jI">
       <node concept="3F1sOY" id="3MxRD99lmIN" role="3EZMnx">
         <ref role="1NtTu8" to="k6mm:3MxRD99llU2" />
@@ -2417,7 +2417,7 @@
   </node>
   <node concept="24kQdi" id="3MxRD99lmKK">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="1XX52x" to="k6mm:3MxRD99lmKC" resolve="ComplexValueSpecification" />
+    <ref role="1XX52x" to="k6mm:3MxRD99lmKC" resolve="ComplexValue" />
     <node concept="3EZMnI" id="3MxRD99lmKM" role="2wV5jI">
       <node concept="3F1sOY" id="3MxRD99lmKT" role="3EZMnx">
         <ref role="1NtTu8" to="k6mm:3MxRD99llU2" />
@@ -2566,7 +2566,7 @@
   </node>
   <node concept="24kQdi" id="3MxRD99lnaS">
     <property role="3GE5qa" value="value.specification.absent" />
-    <ref role="1XX52x" to="k6mm:3MxRD99lnaM" resolve="AbsentValueSpecification" />
+    <ref role="1XX52x" to="k6mm:3MxRD99lnaM" resolve="AbsentValue" />
     <node concept="3EZMnI" id="3MxRD99uRN_" role="2wV5jI">
       <node concept="xShMh" id="7YL4GJ1ArC$" role="3F10Kt" />
       <node concept="3F1sOY" id="3MxRD99uRNJ" role="3EZMnx">
@@ -2633,7 +2633,7 @@
   </node>
   <node concept="24kQdi" id="3MxRD99m9fs">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="1XX52x" to="k6mm:3MxRD99llG3" resolve="ContextWatchSpecification" />
+    <ref role="1XX52x" to="k6mm:3MxRD99llG3" resolve="ContextWatch" />
     <node concept="3EZMnI" id="3MxRD99m9fx" role="2wV5jI">
       <node concept="3F0ifn" id="3MxRD99m9fu" role="3EZMnx">
         <property role="3F0ifm" value="context-watch" />
@@ -2649,7 +2649,7 @@
   </node>
   <node concept="24kQdi" id="3MxRD99m9Bj">
     <property role="3GE5qa" value="value.specification.childwatches" />
-    <ref role="1XX52x" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
+    <ref role="1XX52x" to="k6mm:3MxRD99llIN" resolve="SingleWatch" />
     <node concept="3EZMnI" id="3MxRD99m9B$" role="2wV5jI">
       <node concept="3F0ifn" id="1pKlcOFVW5a" role="3EZMnx">
         <property role="3F0ifm" value="watch" />
@@ -2804,7 +2804,7 @@
   </node>
   <node concept="24kQdi" id="UFIAu3qoTh">
     <property role="3GE5qa" value="value.specification.childwatches" />
-    <ref role="1XX52x" to="k6mm:UFIAu3qoCX" resolve="AbsentWatchSpecification" />
+    <ref role="1XX52x" to="k6mm:UFIAu3qoCX" resolve="AbsentWatch" />
     <node concept="PMmxH" id="UFIAu3qsTJ" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" to="tpc5:2NgG6tkHXk9" resolve="KeyWord" />
@@ -2850,7 +2850,7 @@
   </node>
   <node concept="24kQdi" id="7YL4GJ1wYw0">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="1XX52x" to="k6mm:7YL4GJ1tTCj" resolve="ValueProviderValueSpecificaiton" />
+    <ref role="1XX52x" to="k6mm:7YL4GJ1tTCj" resolve="ValueProviderValue" />
     <node concept="3EZMnI" id="7YL4GJ1wYw2" role="2wV5jI">
       <node concept="1iCGBv" id="7YL4GJ1wZks" role="3EZMnx">
         <ref role="1NtTu8" to="k6mm:7YL4GJ1tTIT" />
@@ -2871,7 +2871,7 @@
   </node>
   <node concept="24kQdi" id="7YL4GJ1icxZ">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="1XX52x" to="k6mm:7YL4GJ1iaqn" resolve="SourceWatchWithValueProviderSpecification" />
+    <ref role="1XX52x" to="k6mm:7YL4GJ1iaqn" resolve="SourceWatch" />
     <node concept="3EZMnI" id="7YL4GJ1icAd" role="2wV5jI">
       <node concept="3F0ifn" id="7YL4GJ1icAk" role="3EZMnx">
         <property role="3F0ifm" value="source-watch" />
@@ -2887,7 +2887,7 @@
   </node>
   <node concept="24kQdi" id="7YL4GJ22saT">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="1XX52x" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+    <ref role="1XX52x" to="k6mm:7YL4GJ22saC" resolve="TargetWatch" />
     <node concept="3EZMnI" id="7YL4GJ22sba" role="2wV5jI">
       <node concept="3F0ifn" id="7YL4GJ22sbb" role="3EZMnx">
         <property role="3F0ifm" value="target-watch" />
@@ -2903,7 +2903,7 @@
   </node>
   <node concept="24kQdi" id="7YL4GJ2BqY3">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="1XX52x" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatchSpecification" />
+    <ref role="1XX52x" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatch" />
     <node concept="3EZMnI" id="7YL4GJ2BqYz" role="2wV5jI">
       <node concept="3F0ifn" id="7YL4GJ2BqY$" role="3EZMnx">
         <property role="3F0ifm" value="source-watch" />
@@ -2919,7 +2919,7 @@
   </node>
   <node concept="24kQdi" id="7YL4GJ3r0J5">
     <property role="3GE5qa" value="value.specification.absent" />
-    <ref role="1XX52x" to="k6mm:7YL4GJ3r0IL" resolve="AbenstValueProviderValueSpecificaiton" />
+    <ref role="1XX52x" to="k6mm:7YL4GJ3r0IL" resolve="AbenstValueProviderValue" />
     <node concept="3EZMnI" id="7YL4GJ3r0Jv" role="2wV5jI">
       <node concept="3F1sOY" id="7YL4GJ3r1iW" role="3EZMnx">
         <ref role="1NtTu8" to="k6mm:3MxRD99llU2" />
@@ -2946,7 +2946,7 @@
                       <node concept="2Xjw5R" id="3MxRD99uSm0" role="2OqNvi">
                         <node concept="1xMEDy" id="3MxRD99uSm2" role="1xVPHs">
                           <node concept="chp4Y" id="3MxRD99uSrv" role="ri$Ld">
-                            <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
+                            <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatch" />
                           </node>
                         </node>
                       </node>
@@ -2967,7 +2967,7 @@
   </node>
   <node concept="24kQdi" id="1pKlcOFVOUj">
     <property role="3GE5qa" value="value.specification.childwatches" />
-    <ref role="1XX52x" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatchesSpecification" />
+    <ref role="1XX52x" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatches" />
     <node concept="3EZMnI" id="1pKlcOFVOUZ" role="2wV5jI">
       <node concept="3F0ifn" id="1pKlcOFVW4S" role="3EZMnx">
         <property role="3F0ifm" value="watches" />
@@ -3643,7 +3643,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2QZOBEh$TQ9">
-    <property role="3GE5qa" value="steppable.spec.canBeSteppable" />
+    <property role="3GE5qa" value="steppable.spec.steppable" />
     <ref role="1XX52x" to="k6mm:2QZOBEh$S0t" resolve="SteppableSpec" />
     <node concept="3EZMnI" id="2QZOBEh$TRX" role="2wV5jI">
       <node concept="3F0ifn" id="2QZOBEh$TRY" role="3EZMnx">
@@ -3821,8 +3821,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="2QZOBEi$MGW">
-    <property role="3GE5qa" value="steppable.spec.stepIntoable" />
-    <ref role="1XX52x" to="k6mm:2QZOBEi$MsL" resolve="StepIntoableSpec" />
+    <property role="3GE5qa" value="steppable.spec.callablecall" />
+    <ref role="1XX52x" to="k6mm:2QZOBEi$MsL" resolve="CallableCallSpec" />
     <node concept="3EZMnI" id="2QZOBEi$MIl" role="2wV5jI">
       <node concept="3F0ifn" id="2QZOBEi$MIm" role="3EZMnx">
         <property role="3F0ifm" value="Callable Call" />

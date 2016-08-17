@@ -54,7 +54,7 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="3oPrgty2jow">
-    <property role="TrG5h" value="GeneratedValueLifterFromModel" />
+    <property role="TrG5h" value="M2MGeneratedValueLifter" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="1TJgyj" id="3oPrgty34Fx" role="1TKVEi">
@@ -82,7 +82,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3oPrgty2jo_">
-    <property role="TrG5h" value="GeneratedDelegatedValueLifterFromModel" />
+    <property role="TrG5h" value="M2MGeneratedDelegateToValueProvider" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="1TJgyj" id="3oPrgty35UL" role="1TKVEi">
@@ -104,13 +104,13 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6Poal3c$GsN">
-    <property role="TrG5h" value="LiftFrame2FrameFromModel" />
+    <property role="TrG5h" value="M2MFrame2Frame" />
     <property role="3GE5qa" value="stackframes" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="M6xJ_" id="6Poal3c$GsQ" role="lGtFl">
       <property role="Hh88m" value="liftFrameFromGen" />
       <node concept="trNpa" id="1cnyw9ZxFij" role="EQaZv">
-        <ref role="trN6q" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+        <ref role="trN6q" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
       </node>
     </node>
     <node concept="PrWs8" id="3EISKF0f_t5" role="PzmwI">
@@ -128,11 +128,11 @@
     <node concept="1TJgyj" id="MPvpOYbcnO" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToContributor" />
-      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     </node>
   </node>
   <node concept="1TIwiD" id="4Dfag9jPJBy">
-    <property role="TrG5h" value="DelegateBreakpoint" />
+    <property role="TrG5h" value="M2MDelegateBreakpoint" />
     <property role="3GE5qa" value="breakpoints" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="M6xJ_" id="4Dfag9jPJBK" role="lGtFl">
@@ -141,7 +141,7 @@
         <property role="tnX3d" value="false" />
       </node>
       <node concept="trNpa" id="2Up4L48Mkwk" role="EQaZv">
-        <ref role="trN6q" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+        <ref role="trN6q" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
       </node>
     </node>
     <node concept="PrWs8" id="3EISKF07XOG" role="PzmwI">
@@ -164,7 +164,7 @@
     <property role="TrG5h" value="InputNodeResolver" />
   </node>
   <node concept="1TIwiD" id="8ik0RGSLB7">
-    <property role="TrG5h" value="DoNotLiftStackFrameFromModel" />
+    <property role="TrG5h" value="M2MDoNotLiftStackFrameFromModel" />
     <property role="3GE5qa" value="stackframes" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="1TJgyj" id="8ik0RGSLB8" role="1TKVEi">
@@ -176,7 +176,7 @@
     <node concept="M6xJ_" id="8ik0RGSLB9" role="lGtFl">
       <property role="Hh88m" value="doNotLiftFrame" />
       <node concept="trNpa" id="8ik0RGSLBa" role="EQaZv">
-        <ref role="trN6q" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+        <ref role="trN6q" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
       </node>
     </node>
     <node concept="PrWs8" id="8ik0RGSLBb" role="PzmwI">
@@ -191,11 +191,11 @@
     <node concept="1TJgyj" id="8ik0RGSLBd" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToContributor" />
-      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     </node>
   </node>
   <node concept="1TIwiD" id="Vn$QVHoFbK">
-    <property role="TrG5h" value="InlineFrameAnnotation" />
+    <property role="TrG5h" value="M2MInlineFrame" />
     <property role="3GE5qa" value="stackframes" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="M6xJ_" id="Vn$QVHoFbL" role="lGtFl">
@@ -212,7 +212,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5r59uMnw8aF">
-    <property role="TrG5h" value="VirtualFrameFromModel" />
+    <property role="TrG5h" value="M2MOutlineFrame" />
     <property role="3GE5qa" value="stackframes" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="1TJgyj" id="8ik0RHYxqP" role="1TKVEi">
@@ -244,7 +244,7 @@
   </node>
   <node concept="1TIwiD" id="2SyAeFjOLXp">
     <property role="3GE5qa" value="constants" />
-    <property role="TrG5h" value="LiftConstantFromModel" />
+    <property role="TrG5h" value="M2MConstant" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="M6xJ_" id="2SyAeFjOMws" role="lGtFl">
       <property role="Hh88m" value="liftConstantFromModel" />
@@ -262,7 +262,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="1aQJbq2AGCf">
-    <property role="TrG5h" value="LiftWatchFromModel" />
+    <property role="TrG5h" value="M2MWatch2Watch" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="1TJgyj" id="7I1qpzSvfMr" role="1TKVEi">
@@ -298,7 +298,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3p1iWQOtW5M">
-    <property role="TrG5h" value="LiftValueFromModel" />
+    <property role="TrG5h" value="M2MLiftValue" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="1TJgyj" id="3p1iWQOtW8x" role="1TKVEi">
@@ -348,7 +348,7 @@
   </node>
   <node concept="1TIwiD" id="1CCsFHtcva8">
     <property role="3GE5qa" value="liftWatch" />
-    <property role="TrG5h" value="LiftChildren2Watches" />
+    <property role="TrG5h" value="M2MChildWatches2Watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$D_V" resolve="GenDebugAnnotation" />
     <node concept="1TJgyj" id="1CCsFHtnat0" role="1TKVEi">
       <property role="20lmBu" value="reference" />

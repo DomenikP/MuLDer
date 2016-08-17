@@ -26,10 +26,10 @@
     </language>
     <language id="2bb324a8-ef4a-4dc7-b73a-557460350bd8" name="mbeddr.debugger.testing">
       <concept id="6289137936867337325" name="mbeddr.debugger.testing.structure.GdbDebuggerBackend" flags="ng" index="29bEnc" />
-      <concept id="2787006052669581360" name="mbeddr.debugger.testing.structure.SingleSteppingSteppingAlgorithm" flags="ng" index="U_Csd" />
-      <concept id="2787006052669581345" name="mbeddr.debugger.testing.structure.TopDownSteppingAlgorithm" flags="ng" index="U_Css" />
-      <concept id="2787006052669581328" name="mbeddr.debugger.testing.structure.BottomUpSteppingAlgorithm" flags="ng" index="U_CsH" />
-      <concept id="2787006052669581268" name="mbeddr.debugger.testing.structure.MbeddrDebuggerConfiguration" flags="ng" index="U_CzD">
+      <concept id="2787006052669581360" name="mbeddr.debugger.testing.structure.SingleStepping" flags="ng" index="U_Csd" />
+      <concept id="2787006052669581345" name="mbeddr.debugger.testing.structure.TopDown" flags="ng" index="U_Css" />
+      <concept id="2787006052669581328" name="mbeddr.debugger.testing.structure.BottomUp" flags="ng" index="U_CsH" />
+      <concept id="2787006052669581268" name="mbeddr.debugger.testing.structure.MbeddrDebuggerConfig" flags="ng" index="U_CzD">
         <child id="2787006052669581297" name="steppingAlgorithms" index="U_Czc" />
         <child id="2787006052669581281" name="debuggerBackend" index="U_Czs" />
       </concept>
@@ -88,7 +88,7 @@
       <concept id="7289224522121684093" name="mulder.testing.structure.CallStackReferencee" flags="ng" index="1s2qdC">
         <reference id="7289224522121684104" name="declaration" index="1s2qet" />
       </concept>
-      <concept id="105850086903379387" name="mulder.testing.structure.SteppingConfiguration" flags="ng" index="3savIG">
+      <concept id="105850086903379387" name="mulder.testing.structure.SteppingConfig" flags="ng" index="3savIG">
         <child id="105850086903379390" name="steppingElements" index="3savID" />
       </concept>
       <concept id="105850086902839305" name="mulder.testing.structure.DebuggerTestcase" flags="ng" index="3scrou">
@@ -99,19 +99,19 @@
       <concept id="105850086903250161" name="mulder.testing.structure.MarkerReference" flags="ng" index="3sdZbA">
         <reference id="105850086903274948" name="marker" index="3sa5fj" />
       </concept>
-      <concept id="105850086903250145" name="mulder.testing.structure.SuspensionPointConfiguration" flags="ng" index="3sdZbQ">
+      <concept id="105850086903250145" name="mulder.testing.structure.SuspendConfig" flags="ng" index="3sdZbQ">
         <child id="105850086903250160" name="suspensionPoint" index="3sdZbB" />
       </concept>
       <concept id="105850086901771260" name="mulder.testing.structure.EmptyDebuggerContent" flags="ng" index="3sgmnF" />
       <concept id="7289224522159894453" name="mulder.testing.structure.AnyWatchables" flags="ng" index="1ugayw" />
       <concept id="7289224522141260770" name="mulder.testing.structure.AnyLocation" flags="ng" index="1voPNR" />
-      <concept id="1218249513292256529" name="mulder.testing.structure.WatchablesDeclaration" flags="ng" index="1vuW9F">
+      <concept id="1218249513292256529" name="mulder.testing.structure.WatchList" flags="ng" index="1vuW9F">
         <child id="1218249513292256533" name="watchables" index="1vuW9J" />
       </concept>
       <concept id="5710167937130927554" name="mulder.testing.structure.IDebuggerTest" flags="ng" index="1zJgaY">
         <child id="5710167937130937944" name="contents" index="1zJi$$" />
       </concept>
-      <concept id="4360423713604419372" name="mulder.testing.structure.ValidationConfiguration" flags="ng" index="3F5Y_J">
+      <concept id="4360423713604419372" name="mulder.testing.structure.ValidationConfig" flags="ng" index="3F5Y_J">
         <child id="4360423713604419402" name="validations" index="3F5Y$9" />
       </concept>
       <concept id="6894131567068111611" name="mulder.testing.structure.LiteralValue" flags="ng" index="1Iiwbp">
@@ -164,7 +164,7 @@
             <ref role="1s2qet" node="2M$$wSPh2Ez" />
           </node>
           <node concept="1jQ9m8" id="2M$$wSPhBGO" role="2cbQmx">
-            <node concept="vbKqm" id="GPUCAiT0mQ" role="vaTOg">
+            <node concept="vbKqm" id="2uXzASCZ$I1" role="vaTOg">
               <ref role="vbKqn" to="dsf0:GPUCAiSXgR" />
             </node>
             <node concept="1ugayw" id="2M$$wSPhBGQ" role="1unUxQ" />
@@ -300,8 +300,8 @@
       <ref role="30ajXG" to="dsf0:7Y7QNUtTIfB" resolve="Closure" />
     </node>
     <node concept="U_CzD" id="6zNZ1PJSix3" role="UwsDd">
-      <node concept="29bEnc" id="6zNZ1PJSix6" role="U_Czs" />
       <node concept="U_Css" id="6zNZ1PJSixa" role="U_Czc" />
+      <node concept="29bEnc" id="6zNZ1PJSix6" role="U_Czs" />
       <node concept="U_Csd" id="2WFYmvbZoRk" role="U_Czc" />
       <node concept="U_CsH" id="2WFYmvbZoST" role="U_Czc" />
     </node>

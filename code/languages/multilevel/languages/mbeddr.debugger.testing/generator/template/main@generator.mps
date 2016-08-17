@@ -417,6 +417,7 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
+      <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1226511727824" name="jetbrains.mps.baseLanguage.collections.structure.SetType" flags="in" index="2hMVRd">
         <child id="1226511765987" name="elementType" index="2hN53Y" />
       </concept>
@@ -463,7 +464,7 @@
       <ref role="3lhOvi" node="3ESKAEuEjOE" resolve="testClass" />
     </node>
     <node concept="3aamgX" id="2qHrNOshe57" role="3acgRq">
-      <ref role="30HIoZ" to="mhrp:2qHrNOseYwK" resolve="SingleSteppingSteppingAlgorithm" />
+      <ref role="30HIoZ" to="mhrp:2qHrNOseYwK" resolve="SingleStepping" />
       <node concept="gft3U" id="2qHrNOszutE" role="1lVwrX">
         <node concept="10M0yZ" id="2qHrNOszutF" role="gfFT$">
           <ref role="1PxDUh" to="2m3p:2qHrNOshF9E" resolve="SteppingAlgorithmIDs" />
@@ -472,7 +473,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="2qHrNOsgX$F" role="3acgRq">
-      <ref role="30HIoZ" to="mhrp:2qHrNOseYwx" resolve="TopDownSteppingAlgorithm" />
+      <ref role="30HIoZ" to="mhrp:2qHrNOseYwx" resolve="TopDown" />
       <node concept="gft3U" id="2qHrNOszurL" role="1lVwrX">
         <node concept="10M0yZ" id="2qHrNOszurM" role="gfFT$">
           <ref role="1PxDUh" to="2m3p:2qHrNOshF9E" resolve="SteppingAlgorithmIDs" />
@@ -481,7 +482,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="2qHrNOshf02" role="3acgRq">
-      <ref role="30HIoZ" to="mhrp:2qHrNOseYwg" resolve="BottomUpSteppingAlgorithm" />
+      <ref role="30HIoZ" to="mhrp:2qHrNOseYwg" resolve="BottomUp" />
       <node concept="gft3U" id="2qHrNOszuqE" role="1lVwrX">
         <node concept="10M0yZ" id="2qHrNOshZ2j" role="gfFT$">
           <ref role="3cqZAo" to="2m3p:2qHrNOshW3O" resolve="BOTTOM_UP" />
@@ -1227,7 +1228,7 @@
                                     <node concept="3cpWsn" id="2WFYmvc_7R1" role="3cpWs9">
                                       <property role="TrG5h" value="performanceConfig" />
                                       <node concept="3Tqbb2" id="2WFYmvc_7Pa" role="1tU5fm">
-                                        <ref role="ehGHo" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                                        <ref role="ehGHo" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                                       </node>
                                       <node concept="2OqwBi" id="2WFYmvc_7Rd" role="33vP2m">
                                         <node concept="2OqwBi" id="2WFYmvc_7Re" role="2Oq$k0">
@@ -1249,7 +1250,7 @@
                                           </node>
                                           <node concept="v3k3i" id="2WFYmvc_7Rl" role="2OqNvi">
                                             <node concept="chp4Y" id="2WFYmvc_7Rm" role="v3oSu">
-                                              <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                                              <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                                             </node>
                                           </node>
                                         </node>
@@ -1399,6 +1400,33 @@
                 <node concept="3clFbS" id="6zNZ1PJRkJ$" role="2GVbov">
                   <node concept="3clFbJ" id="6zNZ1PJR68X" role="3cqZAp">
                     <node concept="3clFbS" id="6zNZ1PJR68Z" role="3clFbx">
+                      <node concept="3clFbF" id="2uXzASCYziU" role="3cqZAp">
+                        <node concept="2OqwBi" id="2uXzASCYzxp" role="3clFbG">
+                          <node concept="37vLTw" id="2uXzASCYziS" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6zNZ1PJQQDQ" resolve="throwables" />
+                          </node>
+                          <node concept="2es0OD" id="2uXzASCY_kb" role="2OqNvi">
+                            <node concept="1bVj0M" id="2uXzASCY_kd" role="23t8la">
+                              <node concept="3clFbS" id="2uXzASCY_ke" role="1bW5cS">
+                                <node concept="3clFbF" id="2uXzASCY_m9" role="3cqZAp">
+                                  <node concept="2OqwBi" id="2uXzASCY_ov" role="3clFbG">
+                                    <node concept="37vLTw" id="2uXzASCY_m8" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="2uXzASCY_kf" resolve="it" />
+                                    </node>
+                                    <node concept="liA8E" id="2uXzASCY_OP" role="2OqNvi">
+                                      <ref role="37wK5l" to="e2lb:~Throwable.printStackTrace():void" resolve="printStackTrace" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="Rh6nW" id="2uXzASCY_kf" role="1bW2Oz">
+                                <property role="TrG5h" value="it" />
+                                <node concept="2jxLKc" id="2uXzASCY_kg" role="1tU5fm" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="YS8fn" id="6zNZ1PJR6eS" role="3cqZAp">
                         <node concept="2ShNRf" id="6zNZ1PJR6gr" role="YScLw">
                           <node concept="1pGfFk" id="6zNZ1PJR6N4" role="2ShVmc">
@@ -2246,7 +2274,7 @@
                 </node>
                 <node concept="v3k3i" id="6zNZ1PK5qyP" role="2OqNvi">
                   <node concept="chp4Y" id="6zNZ1PK5qF$" role="v3oSu">
-                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                   </node>
                 </node>
               </node>
@@ -2419,7 +2447,7 @@
                 </node>
                 <node concept="v3k3i" id="6zNZ1PK5s6l" role="2OqNvi">
                   <node concept="chp4Y" id="6zNZ1PK5s6m" role="v3oSu">
-                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                   </node>
                 </node>
               </node>
@@ -2592,7 +2620,7 @@
                 </node>
                 <node concept="v3k3i" id="6zNZ1PK5D13" role="2OqNvi">
                   <node concept="chp4Y" id="6zNZ1PK5D14" role="v3oSu">
-                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                   </node>
                 </node>
               </node>
@@ -2708,7 +2736,7 @@
                 </node>
                 <node concept="v3k3i" id="6zNZ1PK5Dpv" role="2OqNvi">
                   <node concept="chp4Y" id="6zNZ1PK5Dpw" role="v3oSu">
-                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                   </node>
                 </node>
               </node>
@@ -2824,7 +2852,7 @@
                 </node>
                 <node concept="v3k3i" id="6zNZ1PK5F59" role="2OqNvi">
                   <node concept="chp4Y" id="6zNZ1PK5F5a" role="v3oSu">
-                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                   </node>
                 </node>
               </node>
@@ -2997,7 +3025,7 @@
                 </node>
                 <node concept="v3k3i" id="6zNZ1PK5EGI" role="2OqNvi">
                   <node concept="chp4Y" id="6zNZ1PK5EGJ" role="v3oSu">
-                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                    <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                   </node>
                 </node>
               </node>
@@ -3161,7 +3189,7 @@
                       </node>
                       <node concept="v3k3i" id="4j964BsD4Vp" role="2OqNvi">
                         <node concept="chp4Y" id="4j964BsD4Vq" role="v3oSu">
-                          <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                          <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                         </node>
                       </node>
                     </node>
@@ -3400,7 +3428,7 @@
                     </node>
                     <node concept="v3k3i" id="6zNZ1PKrHk8" role="2OqNvi">
                       <node concept="chp4Y" id="6zNZ1PKrHk9" role="v3oSu">
-                        <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformanceConfigItem" />
+                        <ref role="cht4Q" to="mhrp:6zNZ1PK4ABZ" resolve="MeasureSteppingPerformance" />
                       </node>
                     </node>
                   </node>

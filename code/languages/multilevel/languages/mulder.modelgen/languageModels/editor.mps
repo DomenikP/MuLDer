@@ -82,7 +82,7 @@
     <ref role="1XX52x" to="u27g:3oPrgty34CG" resolve="ValueTransformer" />
     <node concept="3EZMnI" id="4JWsYZwB5IJ" role="2wV5jI">
       <node concept="3F0ifn" id="4JWsYZwB5IG" role="3EZMnx">
-        <property role="3F0ifm" value="ModelValueTransformer:" />
+        <property role="3F0ifm" value="ValueTransformer:" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
         <node concept="VQ3r3" id="2RsptmHgfPC" role="3F10Kt">
           <property role="2USNnj" value="2" />
@@ -428,10 +428,10 @@
   </node>
   <node concept="24kQdi" id="6P1S2fVutXz">
     <property role="3GE5qa" value="debugSemantics" />
-    <ref role="1XX52x" to="u27g:6P1S2fVutUZ" resolve="ModelValue" />
+    <ref role="1XX52x" to="u27g:6P1S2fVutUZ" resolve="ValueContract" />
     <node concept="3EZMnI" id="6P1S2fVutZk" role="2wV5jI">
       <node concept="3F0ifn" id="6P1S2fVutZl" role="3EZMnx">
-        <property role="3F0ifm" value="ModelValue" />
+        <property role="3F0ifm" value="Value Contract" />
         <ref role="1k5W1q" to="wr1s:eY0iPzB7gM" resolve="KeyWord" />
         <node concept="VQ3r3" id="6P1S2fVutZm" role="3F10Kt">
           <property role="2USNnj" value="2" />

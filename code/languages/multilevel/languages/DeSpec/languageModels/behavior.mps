@@ -2956,7 +2956,7 @@
   </node>
   <node concept="13h7C7" id="3MxRD99xSXG">
     <property role="3GE5qa" value="value.specification.absent" />
-    <ref role="13h7C2" to="k6mm:3MxRD99lnaM" resolve="AbsentValueSpecification" />
+    <ref role="13h7C2" to="k6mm:3MxRD99lnaM" resolve="AbsentValue" />
     <node concept="13i0hz" id="3MxRD99xSXO" role="13h7CS">
       <property role="TrG5h" value="isInThisWatchSpecificiation" />
       <node concept="3Tm1VV" id="3MxRD99xSXP" role="1B3o_S" />
@@ -2969,7 +2969,7 @@
                 <node concept="2Xjw5R" id="3MxRD99uSm0" role="2OqNvi">
                   <node concept="1xMEDy" id="3MxRD99uSm2" role="1xVPHs">
                     <node concept="chp4Y" id="3MxRD99uSrv" role="ri$Ld">
-                      <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
+                      <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatch" />
                     </node>
                   </node>
                 </node>
@@ -3010,7 +3010,7 @@
                 </node>
               </node>
               <node concept="1shVQo" id="7YL4GJ3lnZS" role="ccFIB">
-                <ref role="1shVQp" to="k6mm:3MxRD99lnaM" resolve="AbsentValueSpecification" />
+                <ref role="1shVQp" to="k6mm:3MxRD99lnaM" resolve="AbsentValue" />
               </node>
             </node>
           </node>
@@ -3026,7 +3026,7 @@
   </node>
   <node concept="13h7C7" id="UFIAu3yfsY">
     <property role="3GE5qa" value="value.specification.childwatches" />
-    <ref role="13h7C2" to="k6mm:UFIAu3qoCX" resolve="AbsentWatchSpecification" />
+    <ref role="13h7C2" to="k6mm:UFIAu3qoCX" resolve="AbsentWatch" />
     <node concept="13hLZK" id="UFIAu3yfsZ" role="13h7CW">
       <node concept="3clFbS" id="UFIAu3yft0" role="2VODD2" />
     </node>
@@ -3042,7 +3042,7 @@
             <node concept="1sne01" id="7YL4GJ1Ddii" role="1sne8H">
               <ref role="1snh0D" to="tpck:4uZwTti3__2" />
               <node concept="1shVQo" id="7YL4GJ1Ddiw" role="ccFIB">
-                <ref role="1shVQp" to="k6mm:UFIAu3qoCX" resolve="AbsentWatchSpecification" />
+                <ref role="1shVQp" to="k6mm:UFIAu3qoCX" resolve="AbsentWatch" />
               </node>
             </node>
           </node>
@@ -3143,7 +3143,7 @@
               <node concept="2Xjw5R" id="7YL4GJ31_re" role="2OqNvi">
                 <node concept="1xMEDy" id="7YL4GJ31_rf" role="1xVPHs">
                   <node concept="chp4Y" id="7YL4GJ31_rg" role="ri$Ld">
-                    <ref role="cht4Q" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+                    <ref role="cht4Q" to="k6mm:7YL4GJ22saC" resolve="TargetWatch" />
                   </node>
                 </node>
               </node>
@@ -3166,7 +3166,7 @@
                 <node concept="2Xjw5R" id="7YL4GJ31$Hi" role="2OqNvi">
                   <node concept="1xMEDy" id="7YL4GJ31$Hj" role="1xVPHs">
                     <node concept="chp4Y" id="7YL4GJ31CVQ" role="ri$Ld">
-                      <ref role="cht4Q" to="k6mm:3MxRD99llG3" resolve="ContextWatchSpecification" />
+                      <ref role="cht4Q" to="k6mm:3MxRD99llG3" resolve="ContextWatch" />
                     </node>
                   </node>
                 </node>
@@ -3179,7 +3179,7 @@
                 <node concept="2Xjw5R" id="77Xe7_OESgs" role="2OqNvi">
                   <node concept="1xMEDy" id="77Xe7_OESgt" role="1xVPHs">
                     <node concept="chp4Y" id="77Xe7_OESij" role="ri$Ld">
-                      <ref role="cht4Q" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+                      <ref role="cht4Q" to="k6mm:7YL4GJ22saC" resolve="TargetWatch" />
                     </node>
                   </node>
                 </node>
@@ -3453,7 +3453,7 @@
   </node>
   <node concept="13h7C7" id="7YL4GJ1D4q_">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="13h7C2" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValueSpecification" />
+    <ref role="13h7C2" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValue" />
     <node concept="13i0hz" id="7YL4GJ1D4qQ" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
@@ -3483,7 +3483,7 @@
                 </node>
               </node>
               <node concept="1shVQo" id="7YL4GJ1DasB" role="ccFIB">
-                <ref role="1shVQp" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValueSpecification" />
+                <ref role="1shVQp" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValue" />
               </node>
             </node>
           </node>
@@ -3499,7 +3499,7 @@
   </node>
   <node concept="13h7C7" id="7YL4GJ1DbMY">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="13h7C2" to="k6mm:3MxRD99lmKC" resolve="ComplexValueSpecification" />
+    <ref role="13h7C2" to="k6mm:3MxRD99lmKC" resolve="ComplexValue" />
     <node concept="13hLZK" id="7YL4GJ1DbMZ" role="13h7CW">
       <node concept="3clFbS" id="7YL4GJ1DbN0" role="2VODD2" />
     </node>
@@ -3548,7 +3548,7 @@
                 </node>
               </node>
               <node concept="1shVQo" id="7YL4GJ1DbXG" role="ccFIB">
-                <ref role="1shVQp" to="k6mm:3MxRD99lmKC" resolve="ComplexValueSpecification" />
+                <ref role="1shVQp" to="k6mm:3MxRD99lmKC" resolve="ComplexValue" />
               </node>
             </node>
           </node>
@@ -3597,7 +3597,7 @@
   </node>
   <node concept="13h7C7" id="7YL4GJ1De7e">
     <property role="3GE5qa" value="value.specification.childwatches" />
-    <ref role="13h7C2" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
+    <ref role="13h7C2" to="k6mm:3MxRD99llIN" resolve="SingleWatch" />
     <node concept="13hLZK" id="7YL4GJ1De7f" role="13h7CW">
       <node concept="3clFbS" id="7YL4GJ1De7g" role="2VODD2" />
     </node>
@@ -3629,7 +3629,7 @@
                 </node>
               </node>
               <node concept="1shVQo" id="7YL4GJ1De7H" role="ccFIB">
-                <ref role="1shVQp" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
+                <ref role="1shVQp" to="k6mm:3MxRD99llIN" resolve="SingleWatch" />
               </node>
             </node>
           </node>
@@ -3642,7 +3642,7 @@
   </node>
   <node concept="13h7C7" id="7YL4GJ1DeLP">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="13h7C2" to="k6mm:3MxRD99llG3" resolve="ContextWatchSpecification" />
+    <ref role="13h7C2" to="k6mm:3MxRD99llG3" resolve="ContextWatch" />
     <node concept="13hLZK" id="7YL4GJ1DeLQ" role="13h7CW">
       <node concept="3clFbS" id="7YL4GJ1DeLR" role="2VODD2" />
     </node>
@@ -3674,7 +3674,7 @@
                 </node>
               </node>
               <node concept="1shVQo" id="7YL4GJ1DeMk" role="ccFIB">
-                <ref role="1shVQp" to="k6mm:3MxRD99llG3" resolve="ContextWatchSpecification" />
+                <ref role="1shVQp" to="k6mm:3MxRD99llG3" resolve="ContextWatch" />
               </node>
             </node>
           </node>
@@ -3687,7 +3687,7 @@
   </node>
   <node concept="13h7C7" id="7YL4GJ1WCvo">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="13h7C2" to="k6mm:7YL4GJ1tTCj" resolve="ValueProviderValueSpecificaiton" />
+    <ref role="13h7C2" to="k6mm:7YL4GJ1tTCj" resolve="ValueProviderValue" />
     <node concept="13hLZK" id="7YL4GJ1WCvp" role="13h7CW">
       <node concept="3clFbS" id="7YL4GJ1WCvq" role="2VODD2" />
     </node>
@@ -3761,7 +3761,7 @@
               <node concept="2Xjw5R" id="8pd8fRW1CL" role="2OqNvi">
                 <node concept="1xMEDy" id="8pd8fRW1CN" role="1xVPHs">
                   <node concept="chp4Y" id="8pd8fRW1Dr" role="ri$Ld">
-                    <ref role="cht4Q" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+                    <ref role="cht4Q" to="k6mm:7YL4GJ22saC" resolve="TargetWatch" />
                   </node>
                 </node>
               </node>
@@ -3790,7 +3790,7 @@
   </node>
   <node concept="13h7C7" id="7YL4GJ2jPb2">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="13h7C2" to="k6mm:7YL4GJ1iaqn" resolve="SourceWatchWithValueProviderSpecification" />
+    <ref role="13h7C2" to="k6mm:7YL4GJ1iaqn" resolve="SourceWatch" />
     <node concept="13hLZK" id="7YL4GJ2jPb3" role="13h7CW">
       <node concept="3clFbS" id="7YL4GJ2jPb4" role="2VODD2" />
     </node>
@@ -3880,7 +3880,7 @@
   </node>
   <node concept="13h7C7" id="7YL4GJ2jPcA">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="13h7C2" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+    <ref role="13h7C2" to="k6mm:7YL4GJ22saC" resolve="TargetWatch" />
     <node concept="13hLZK" id="7YL4GJ2jPcB" role="13h7CW">
       <node concept="3clFbS" id="7YL4GJ2jPcC" role="2VODD2" />
     </node>
@@ -3927,7 +3927,7 @@
   </node>
   <node concept="13h7C7" id="7YL4GJ2BqYI">
     <property role="3GE5qa" value="value.specification" />
-    <ref role="13h7C2" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatchSpecification" />
+    <ref role="13h7C2" to="k6mm:7YL4GJ2BqXA" resolve="UnknownSourceWatch" />
     <node concept="13hLZK" id="7YL4GJ2BqYJ" role="13h7CW">
       <node concept="3clFbS" id="7YL4GJ2BqYK" role="2VODD2" />
     </node>
@@ -3949,7 +3949,7 @@
   </node>
   <node concept="13h7C7" id="7YL4GJ3tgKH">
     <property role="3GE5qa" value="value.specification.absent" />
-    <ref role="13h7C2" to="k6mm:7YL4GJ3r0IL" resolve="AbenstValueProviderValueSpecificaiton" />
+    <ref role="13h7C2" to="k6mm:7YL4GJ3r0IL" resolve="AbenstValueProviderValue" />
     <node concept="13hLZK" id="7YL4GJ3tgKI" role="13h7CW">
       <node concept="3clFbS" id="7YL4GJ3tgKJ" role="2VODD2" />
     </node>
@@ -4245,7 +4245,7 @@
   </node>
   <node concept="13h7C7" id="1pKlcOFVWpR">
     <property role="3GE5qa" value="value.specification.childwatches" />
-    <ref role="13h7C2" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatchesSpecification" />
+    <ref role="13h7C2" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatches" />
     <node concept="13i0hz" id="1pKlcOFVWqN" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
@@ -4274,7 +4274,7 @@
                 </node>
               </node>
               <node concept="1shVQo" id="1pKlcOFVWxp" role="ccFIB">
-                <ref role="1shVQp" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatchesSpecification" />
+                <ref role="1shVQp" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatches" />
               </node>
             </node>
           </node>
@@ -6204,7 +6204,7 @@
   </node>
   <node concept="13h7C7" id="4VYXLgr03R_">
     <property role="3GE5qa" value="steppable" />
-    <ref role="13h7C2" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+    <ref role="13h7C2" to="k6mm:4VYXLgqZLMw" resolve="CallableCall" />
     <node concept="13i0hz" id="4VYXLgr04uy" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
@@ -6222,10 +6222,10 @@
                 <node concept="BsUDl" id="2QZOBEi$Tam" role="10QFUP">
                   <ref role="37wK5l" node="2QZOBEhUUob" resolve="getSpec" />
                   <node concept="35c_gC" id="S5R5dwGy$$" role="37wK5m">
-                    <ref role="35c_gD" to="k6mm:2QZOBEi$MsL" resolve="StepIntoableSpec" />
+                    <ref role="35c_gD" to="k6mm:2QZOBEi$MsL" resolve="CallableCallSpec" />
                   </node>
                   <node concept="35c_gC" id="2QZOBEi$Tan" role="37wK5m">
-                    <ref role="35c_gD" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+                    <ref role="35c_gD" to="k6mm:4VYXLgqZLMw" resolve="CallableCall" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="2QZOBEi$Tpe" role="10QFUM">
@@ -6327,7 +6327,7 @@
       <node concept="37vLTG" id="6WUNGeArBFj" role="3clF46">
         <property role="TrG5h" value="stepIntoable" />
         <node concept="3Tqbb2" id="6WUNGeArBLf" role="1tU5fm">
-          <ref role="ehGHo" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+          <ref role="ehGHo" to="k6mm:4VYXLgqZLMw" resolve="CallableCall" />
         </node>
       </node>
       <node concept="3Tm1VV" id="6WUNGeArBCe" role="1B3o_S" />
@@ -6394,7 +6394,7 @@
               <node concept="BsUDl" id="2QZOBEjIzak" role="10QFUP">
                 <ref role="37wK5l" node="2QZOBEhUUob" resolve="getSpec" />
                 <node concept="35c_gC" id="S5R5dwGyWJ" role="37wK5m">
-                  <ref role="35c_gD" to="k6mm:2QZOBEiEe4g" resolve="SteppableContextSpec" />
+                  <ref role="35c_gD" to="k6mm:2QZOBEiEe4g" resolve="SteppableCompositeSpec" />
                 </node>
                 <node concept="35c_gC" id="2QZOBEjIzal" role="37wK5m">
                   <ref role="35c_gD" to="k6mm:WsW$R6dIy7" resolve="SteppableComposite" />
@@ -6507,7 +6507,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="2QZOBEhBosY">
-    <property role="3GE5qa" value="steppable.spec.canBeSteppable" />
+    <property role="3GE5qa" value="steppable.spec.steppable" />
     <ref role="13h7C2" to="k6mm:2QZOBEh$S0t" resolve="SteppableSpec" />
     <node concept="13hLZK" id="2QZOBEhBosZ" role="13h7CW">
       <node concept="3clFbS" id="2QZOBEhBot0" role="2VODD2" />
@@ -6919,7 +6919,7 @@
   </node>
   <node concept="13h7C7" id="2QZOBEhVSDa">
     <property role="3GE5qa" value="steppable.spec.controlFlowProvider" />
-    <ref role="13h7C2" to="k6mm:2QZOBEhVSD9" resolve="StepIntoableNode" />
+    <ref role="13h7C2" to="k6mm:2QZOBEhVSD9" resolve="CallableCallNode" />
     <node concept="13i0hz" id="2QZOBEhVTsC" role="13h7CS">
       <property role="TrG5h" value="getType" />
       <property role="13i0it" value="false" />
@@ -6934,7 +6934,7 @@
               <node concept="2pIpSj" id="2QZOBEhVTsI" role="2pJxcM">
                 <ref role="2pIpSl" to="tp25:g$ehGDh" />
                 <node concept="36bGnv" id="2QZOBEhVTvA" role="2pJxcZ">
-                  <ref role="36bGnp" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+                  <ref role="36bGnp" to="k6mm:4VYXLgqZLMw" resolve="CallableCall" />
                 </node>
               </node>
             </node>
@@ -6951,7 +6951,7 @@
   </node>
   <node concept="13h7C7" id="2QZOBEhVT$z">
     <property role="3GE5qa" value="steppable.spec.controlFlowProvider" />
-    <ref role="13h7C2" to="k6mm:2QZOBEhVTwg" resolve="IsTargetForStepIntoableFunction" />
+    <ref role="13h7C2" to="k6mm:2QZOBEhVTwg" resolve="IsTargetForCallableCallFunction" />
     <node concept="13i0hz" id="2QZOBEhVT_O" role="13h7CS">
       <property role="2Ki8OM" value="true" />
       <property role="13i0is" value="false" />
@@ -7002,7 +7002,7 @@
             </node>
             <node concept="TSZUe" id="2QZOBEhVTFF" role="2OqNvi">
               <node concept="3B5_sB" id="2QZOBEhVTFG" role="25WWJ7">
-                <ref role="3B5MYn" to="k6mm:2QZOBEhVSD9" resolve="StepIntoableNode" />
+                <ref role="3B5MYn" to="k6mm:2QZOBEhVSD9" resolve="CallableCallNode" />
               </node>
             </node>
           </node>
@@ -7037,8 +7037,8 @@
     </node>
   </node>
   <node concept="13h7C7" id="2QZOBEi$MJO">
-    <property role="3GE5qa" value="steppable.spec.stepIntoable" />
-    <ref role="13h7C2" to="k6mm:2QZOBEi$MsL" resolve="StepIntoableSpec" />
+    <property role="3GE5qa" value="steppable.spec.callablecall" />
+    <ref role="13h7C2" to="k6mm:2QZOBEi$MsL" resolve="CallableCallSpec" />
     <node concept="13hLZK" id="2QZOBEi$MJP" role="13h7CW">
       <node concept="3clFbS" id="2QZOBEi$MJQ" role="2VODD2" />
     </node>
@@ -7051,7 +7051,7 @@
       <node concept="3clFbS" id="2QZOBEi$MJV" role="3clF47">
         <node concept="3clFbF" id="2QZOBEi$MVT" role="3cqZAp">
           <node concept="35c_gC" id="2QZOBEi$MVQ" role="3clFbG">
-            <ref role="35c_gD" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+            <ref role="35c_gD" to="k6mm:4VYXLgqZLMw" resolve="CallableCall" />
           </node>
         </node>
       </node>
@@ -7059,7 +7059,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="2QZOBEi$Ono">
-    <property role="3GE5qa" value="steppable.spec.stepIntoable" />
+    <property role="3GE5qa" value="steppable.spec.callablecall" />
     <ref role="13h7C2" to="k6mm:2QZOBEi$MWc" resolve="PossibleTargetsFunction" />
     <node concept="13i0hz" id="2QZOBEi$Ou3" role="13h7CS">
       <property role="2Ki8OM" value="true" />
@@ -7141,7 +7141,7 @@
   </node>
   <node concept="13h7C7" id="2QZOBEiEefr">
     <property role="3GE5qa" value="steppable.spec.steppableContext" />
-    <ref role="13h7C2" to="k6mm:2QZOBEiEe4g" resolve="SteppableContextSpec" />
+    <ref role="13h7C2" to="k6mm:2QZOBEiEe4g" resolve="SteppableCompositeSpec" />
     <node concept="13i0hz" id="2QZOBEiEefK" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />

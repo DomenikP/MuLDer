@@ -463,7 +463,7 @@
   </node>
   <node concept="1TIwiD" id="3MxRD99llG3">
     <property role="3GE5qa" value="value.specification" />
-    <property role="TrG5h" value="ContextWatchSpecification" />
+    <property role="TrG5h" value="ContextWatch" />
     <property role="34LRSv" value="context-watch" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3MxRD99llG4" role="PzmwI">
@@ -472,7 +472,7 @@
   </node>
   <node concept="1TIwiD" id="3MxRD99llIN">
     <property role="3GE5qa" value="value.specification.childwatches" />
-    <property role="TrG5h" value="SingleWatchSpecification" />
+    <property role="TrG5h" value="SingleWatch" />
     <property role="34LRSv" value="watch" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7YL4GJ1g7Bc" role="1TKVEi">
@@ -544,7 +544,7 @@
   </node>
   <node concept="1TIwiD" id="3MxRD99lmoI">
     <property role="3GE5qa" value="value.specification" />
-    <property role="TrG5h" value="PrimitiveValueSpecification" />
+    <property role="TrG5h" value="PrimitiveValue" />
     <property role="34LRSv" value="primitive-value" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7YL4GJ198bH" role="1TKVEi">
@@ -558,7 +558,7 @@
   </node>
   <node concept="1TIwiD" id="3MxRD99lmKC">
     <property role="3GE5qa" value="value.specification" />
-    <property role="TrG5h" value="ComplexValueSpecification" />
+    <property role="TrG5h" value="ComplexValue" />
     <property role="34LRSv" value="complex-value" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3MxRD99lmL7" role="1TKVEi">
@@ -578,7 +578,7 @@
   </node>
   <node concept="1TIwiD" id="3MxRD99lnaM">
     <property role="3GE5qa" value="value.specification.absent" />
-    <property role="TrG5h" value="AbsentValueSpecification" />
+    <property role="TrG5h" value="AbsentValue" />
     <property role="34LRSv" value="absent-value" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7YL4GJ13CM5" role="1TKVEi">
@@ -592,7 +592,7 @@
   </node>
   <node concept="1TIwiD" id="UFIAu3qoCX">
     <property role="3GE5qa" value="value.specification.childwatches" />
-    <property role="TrG5h" value="AbsentWatchSpecification" />
+    <property role="TrG5h" value="AbsentWatch" />
     <property role="34LRSv" value="absent-watches" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7YL4GJ1e99d" role="1TKVEi">
@@ -627,7 +627,7 @@
   </node>
   <node concept="1TIwiD" id="7YL4GJ1tTCj">
     <property role="3GE5qa" value="value.specification" />
-    <property role="TrG5h" value="ValueProviderValueSpecificaiton" />
+    <property role="TrG5h" value="ValueProviderValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7YL4GJ1tTIT" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -648,14 +648,14 @@
     </node>
   </node>
   <node concept="1TIwiD" id="7YL4GJ1iaqn">
-    <property role="TrG5h" value="SourceWatchWithValueProviderSpecification" />
+    <property role="TrG5h" value="SourceWatch" />
     <property role="3GE5qa" value="value.specification" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7YL4GJ1j6yv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="valueProvider" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7YL4GJ1tTCj" resolve="ValueProviderValueSpecificaiton" />
+      <ref role="20lvS9" node="7YL4GJ1tTCj" resolve="ValueProviderValue" />
     </node>
     <node concept="PrWs8" id="7YL4GJ2jdiA" role="PzmwI">
       <ref role="PrY4T" node="3MxRD99llDn" resolve="IWatchSpecification" />
@@ -665,7 +665,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="7YL4GJ22saC">
-    <property role="TrG5h" value="TargetWatchSpecification" />
+    <property role="TrG5h" value="TargetWatch" />
     <property role="34LRSv" value="target-watch" />
     <property role="3GE5qa" value="value.specification" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -673,14 +673,14 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="valueProvider" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7YL4GJ1tTCj" resolve="ValueProviderValueSpecificaiton" />
+      <ref role="20lvS9" node="7YL4GJ1tTCj" resolve="ValueProviderValue" />
     </node>
     <node concept="PrWs8" id="7YL4GJ2jdiD" role="PzmwI">
       <ref role="PrY4T" node="3MxRD99llDn" resolve="IWatchSpecification" />
     </node>
   </node>
   <node concept="1TIwiD" id="7YL4GJ2BqXA">
-    <property role="TrG5h" value="UnknownSourceWatchSpecification" />
+    <property role="TrG5h" value="UnknownSourceWatch" />
     <property role="34LRSv" value="source-watch" />
     <property role="3GE5qa" value="value.specification" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -697,12 +697,12 @@
   </node>
   <node concept="1TIwiD" id="7YL4GJ3r0IL">
     <property role="3GE5qa" value="value.specification.absent" />
-    <property role="TrG5h" value="AbenstValueProviderValueSpecificaiton" />
+    <property role="TrG5h" value="AbenstValueProviderValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7YL4GJ3tfR3" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="valueProvider" />
-      <ref role="20lvS9" node="7YL4GJ1tTCj" resolve="ValueProviderValueSpecificaiton" />
+      <ref role="20lvS9" node="7YL4GJ1tTCj" resolve="ValueProviderValue" />
     </node>
     <node concept="PrWs8" id="7YL4GJ3tgKC" role="PzmwI">
       <ref role="PrY4T" node="3MxRD99llOt" resolve="IValueSpecification" />
@@ -737,7 +737,7 @@
   </node>
   <node concept="1TIwiD" id="1pKlcOFVOmW">
     <property role="3GE5qa" value="value.specification.childwatches" />
-    <property role="TrG5h" value="MultipleWatchesSpecification" />
+    <property role="TrG5h" value="MultipleWatches" />
     <property role="34LRSv" value="watches" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1pKlcOFVOnf" role="1TKVEi">
@@ -941,7 +941,7 @@
   </node>
   <node concept="PlHQZ" id="4VYXLgqZLMw">
     <property role="3GE5qa" value="steppable" />
-    <property role="TrG5h" value="StepIntoable" />
+    <property role="TrG5h" value="CallableCall" />
     <node concept="PrWs8" id="2QZOBEi$TyW" role="PrDN$">
       <ref role="PrY4T" node="2QZOBEhUTLT" resolve="ILoadClassFromPluginAspect" />
     </node>
@@ -961,7 +961,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2QZOBEh$S0t">
-    <property role="3GE5qa" value="steppable.spec.canBeSteppable" />
+    <property role="3GE5qa" value="steppable.spec.steppable" />
     <property role="TrG5h" value="SteppableSpec" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/CanBeSteppableSpecCharIcon.png" />
@@ -1006,7 +1006,7 @@
     <node concept="1TJgyj" id="2QZOBEhUTn7" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="isTargetForStepIntoable" />
-      <ref role="20lvS9" node="2QZOBEhVTwg" resolve="IsTargetForStepIntoableFunction" />
+      <ref role="20lvS9" node="2QZOBEhVTwg" resolve="IsTargetForCallableCallFunction" />
     </node>
     <node concept="PrWs8" id="2QZOBEhUTn3" role="PzmwI">
       <ref role="PrY4T" node="2QZOBEh$S3t" resolve="IMustBeLocatedInPluginAspect" />
@@ -1029,20 +1029,20 @@
   </node>
   <node concept="1TIwiD" id="2QZOBEhVSD9">
     <property role="3GE5qa" value="steppable.spec.controlFlowProvider" />
-    <property role="TrG5h" value="StepIntoableNode" />
+    <property role="TrG5h" value="CallableCallNode" />
     <property role="34LRSv" value="callableCall" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="2QZOBEhVTwg">
     <property role="3GE5qa" value="steppable.spec.controlFlowProvider" />
-    <property role="TrG5h" value="IsTargetForStepIntoableFunction" />
+    <property role="TrG5h" value="IsTargetForCallableCallFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="2QZOBEi$MsL">
-    <property role="3GE5qa" value="steppable.spec.stepIntoable" />
-    <property role="TrG5h" value="StepIntoableSpec" />
+    <property role="3GE5qa" value="steppable.spec.callablecall" />
+    <property role="TrG5h" value="CallableCallSpec" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="StepIntoable" />
+    <property role="34LRSv" value="CallableCall" />
     <property role="MwhBj" value="${module}/icons/StepIntoableSpecCharIcon.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2QZOBEi$MGm" role="PzmwI">
@@ -1067,7 +1067,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2QZOBEi$MWc">
-    <property role="3GE5qa" value="steppable.spec.stepIntoable" />
+    <property role="3GE5qa" value="steppable.spec.callablecall" />
     <property role="TrG5h" value="PossibleTargetsFunction" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>

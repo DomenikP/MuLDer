@@ -54,14 +54,14 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="6Poal3coI9c">
-    <property role="TrG5h" value="LiftFrame2FrameFromText" />
+    <property role="TrG5h" value="T2MFrame2Frame" />
     <property role="3GE5qa" value="stackframes" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
     <node concept="1TJgyj" id="6j53_d3kRWl" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="liftToContributor" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="20lvS9" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     </node>
     <node concept="1TJgyi" id="6Poal3coIaN" role="1TKVEl">
       <property role="TrG5h" value="reducedStackFrameName" />
@@ -78,7 +78,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2SyAeFjOIVx">
-    <property role="TrG5h" value="LiftConstantFromText" />
+    <property role="TrG5h" value="T2MConstant" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
     <node concept="1TJgyi" id="2SyAeFjOJ05" role="1TKVEl">
@@ -99,7 +99,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3BCiriJn_2T">
-    <property role="TrG5h" value="LiftWatchFromText" />
+    <property role="TrG5h" value="T2MWatch2Watch" />
     <property role="34LRSv" value="WatchFromGen" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
@@ -130,7 +130,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2iiswCsOs8f">
-    <property role="TrG5h" value="LiftValueFromText" />
+    <property role="TrG5h" value="T2MValueLifter" />
     <property role="3GE5qa" value="watches" />
     <ref role="1TJDcQ" to="k6mm:1aQJbq2$Dva" resolve="TextGenDebugAnnotation" />
     <node concept="1TJgyj" id="3YtEbp4QgCM" role="1TKVEi">

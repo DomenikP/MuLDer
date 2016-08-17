@@ -15,7 +15,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="k7g3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" implicit="true" />
-    <import index="yh8" ref="r:cf8dc0a4-7e7f-4be5-9853-f747cd33208a(mulder.base.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -60,6 +59,7 @@
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -620,7 +620,7 @@
             <node concept="3cpWsn" id="7Jr7T0w2L49" role="3cpWs9">
               <property role="TrG5h" value="suspensionConf" />
               <node concept="3Tqbb2" id="7Jr7T0w2L4a" role="1tU5fm">
-                <ref role="ehGHo" to="rpmx:5S3xvtjZNx" resolve="SuspensionPointConfiguration" />
+                <ref role="ehGHo" to="rpmx:5S3xvtjZNx" resolve="SuspendConfig" />
               </node>
               <node concept="2OqwBi" id="7Jr7T0w2L4v" role="33vP2m">
                 <node concept="1YBJjd" id="7Jr7T0w2L4c" role="2Oq$k0">
@@ -667,7 +667,7 @@
             <node concept="3cpWsn" id="7Jr7T0w2L6l" role="3cpWs9">
               <property role="TrG5h" value="validationConf" />
               <node concept="3Tqbb2" id="7Jr7T0w2L6m" role="1tU5fm">
-                <ref role="ehGHo" to="rpmx:3M3l$fn_bWG" resolve="ValidationConfiguration" />
+                <ref role="ehGHo" to="rpmx:3M3l$fn_bWG" resolve="ValidationConfig" />
               </node>
               <node concept="2OqwBi" id="7Jr7T0w2L6n" role="33vP2m">
                 <node concept="1YBJjd" id="7Jr7T0w2L6o" role="2Oq$k0">
@@ -979,7 +979,7 @@
     </node>
     <node concept="1YaCAy" id="5S3xvtktqq" role="1YuTPh">
       <property role="TrG5h" value="spc" />
-      <ref role="1YaFvo" to="rpmx:5S3xvtjZNx" resolve="SuspensionPointConfiguration" />
+      <ref role="1YaFvo" to="rpmx:5S3xvtjZNx" resolve="SuspendConfig" />
     </node>
   </node>
   <node concept="1YbPZF" id="4TbX0$8SjJA">
@@ -1906,22 +1906,17 @@
       <node concept="3clFbS" id="6kCxLkR22qw" role="2VODD2">
         <node concept="3clFbF" id="6kCxLkR22zV" role="3cqZAp">
           <node concept="3cpWs3" id="6kCxLkR2knq" role="3clFbG">
-            <node concept="2OqwBi" id="2M$$wSNzUi2" role="3uHU7w">
-              <node concept="2OqwBi" id="6kCxLkW33Ou" role="2Oq$k0">
-                <node concept="2OqwBi" id="6kCxLkR2kyD" role="2Oq$k0">
-                  <node concept="QwW4i" id="6kCxLkR2ksB" role="2Oq$k0">
-                    <ref role="QwW4h" node="6kCxLkR0dni" resolve="newFrame" />
-                  </node>
-                  <node concept="3TrEf2" id="2M$$wSNzT8c" role="2OqNvi">
-                    <ref role="3Tt5mk" to="rpmx:2M$$wSNzKWu" />
-                  </node>
+            <node concept="2OqwBi" id="6kCxLkW33Ou" role="3uHU7w">
+              <node concept="2OqwBi" id="6kCxLkR2kyD" role="2Oq$k0">
+                <node concept="QwW4i" id="6kCxLkR2ksB" role="2Oq$k0">
+                  <ref role="QwW4h" node="6kCxLkR0dni" resolve="newFrame" />
                 </node>
-                <node concept="3TrEf2" id="2M$$wSNzU4X" role="2OqNvi">
-                  <ref role="3Tt5mk" to="rpmx:2M$$wSNyTip" />
+                <node concept="3TrEf2" id="2M$$wSNzT8c" role="2OqNvi">
+                  <ref role="3Tt5mk" to="rpmx:2M$$wSNzKWu" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="2M$$wSNzUFv" role="2OqNvi">
-                <ref role="37wK5l" to="yh8:41Rb5gQsoIA" resolve="getStackFrameName" />
+              <node concept="2qgKlT" id="2uXzASCJcr_" role="2OqNvi">
+                <ref role="37wK5l" to="dm5s:6kCxLkV38mL" resolve="getName" />
               </node>
             </node>
             <node concept="Xl_RD" id="6kCxLkR22zU" role="3uHU7B">
@@ -2526,10 +2521,10 @@
                   <ref role="1YBMHb" node="6kCxLkVEMM0" resolve="sf" />
                 </node>
                 <node concept="2qgKlT" id="4UpzItP3Yt" role="2OqNvi">
-                  <ref role="37wK5l" to="dm5s:4UpzItL40l" resolve="getCallable" />
+                  <ref role="37wK5l" to="dm5s:4UpzItL40l" resolve="getCallableName" />
                 </node>
               </node>
-              <node concept="3w_OXm" id="6kCxLkVENaB" role="2OqNvi" />
+              <node concept="17RlXB" id="2uXzASCN9gO" role="2OqNvi" />
             </node>
           </node>
           <node concept="3clFbJ" id="6kCxLkVEPax" role="3cqZAp">

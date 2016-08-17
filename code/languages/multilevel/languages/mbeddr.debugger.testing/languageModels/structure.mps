@@ -88,7 +88,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="configItems" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6zNZ1PK4nmd" resolve="IDebuggerTestingConfigItem" />
+      <ref role="20lvS9" node="6zNZ1PK4nmd" resolve="ITestConfigItem" />
     </node>
     <node concept="PrWs8" id="2qHrNOseYvv" role="PzmwI">
       <ref role="PrY4T" to="rpmx:2qHrNOsbauz" resolve="IDebuggerConfig" />
@@ -99,7 +99,7 @@
     <property role="3GE5qa" value="stepping" />
   </node>
   <node concept="1TIwiD" id="2qHrNOseYwg">
-    <property role="TrG5h" value="BottomUpSteppingAlgorithm" />
+    <property role="TrG5h" value="BottomUp" />
     <property role="3GE5qa" value="stepping" />
     <property role="34LRSv" value="BottomUp" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -108,7 +108,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2qHrNOseYwx">
-    <property role="TrG5h" value="TopDownSteppingAlgorithm" />
+    <property role="TrG5h" value="TopDown" />
     <property role="3GE5qa" value="stepping" />
     <property role="34LRSv" value="TopDown" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -117,7 +117,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2qHrNOseYwK">
-    <property role="TrG5h" value="SingleSteppingSteppingAlgorithm" />
+    <property role="TrG5h" value="SingleStepping" />
     <property role="3GE5qa" value="stepping" />
     <property role="34LRSv" value="SingleStepping" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -126,10 +126,10 @@
     </node>
   </node>
   <node concept="PlHQZ" id="6zNZ1PK4nmd">
-    <property role="TrG5h" value="IDebuggerTestingConfigItem" />
+    <property role="TrG5h" value="ITestConfigItem" />
   </node>
   <node concept="1TIwiD" id="6zNZ1PK4ABZ">
-    <property role="TrG5h" value="MeasureSteppingPerformanceConfigItem" />
+    <property role="TrG5h" value="MeasureSteppingPerformance" />
     <property role="34LRSv" value="measure performance" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2WFYmvcFgWa" role="1TKVEl">
@@ -137,7 +137,7 @@
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="PrWs8" id="6zNZ1PK4ACO" role="PzmwI">
-      <ref role="PrY4T" node="6zNZ1PK4nmd" resolve="IDebuggerTestingConfigItem" />
+      <ref role="PrY4T" node="6zNZ1PK4nmd" resolve="ITestConfigItem" />
     </node>
   </node>
 </model>
