@@ -119,14 +119,6 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
-    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
-        <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
-      </concept>
-      <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
-        <reference id="5455284157993910961" name="concept" index="2pJxaS" />
-      </concept>
-    </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
@@ -1734,31 +1726,6 @@
     <node concept="1YaCAy" id="1qBaxu2Ov1b" role="1YuTPh">
       <property role="TrG5h" value="fieldRef" />
       <ref role="1YaFvo" to="32lw:1qBaxu2OuV9" resolve="FieldRef" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="7MFNr6DC_hY">
-    <property role="TrG5h" value="typeof_failedExpectations" />
-    <node concept="3clFbS" id="7MFNr6DC_hZ" role="18ibNy">
-      <node concept="1Z5TYs" id="7MFNr6DC_js" role="3cqZAp">
-        <node concept="mw_s8" id="7MFNr6DC_jK" role="1ZfhKB">
-          <node concept="2pJPEk" id="7MFNr6DC_jG" role="mwGJk">
-            <node concept="2pJPED" id="7MFNr6DCXj3" role="2pJPEn">
-              <ref role="2pJxaS" to="mj1l:7lNBHBNBzy8" resolve="Int32tType" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="7MFNr6DC_jv" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7MFNr6DC_i5" role="mwGJk">
-            <node concept="1YBJjd" id="7MFNr6DC_ix" role="1Z2MuG">
-              <ref role="1YBMHb" node="7MFNr6DC_i1" resolve="failedExpectations" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7MFNr6DC_i1" role="1YuTPh">
-      <property role="TrG5h" value="failedExpectations" />
-      <ref role="1YaFvo" to="32lw:7MFNr6DC$JS" resolve="FailedExpectations" />
     </node>
   </node>
 </model>

@@ -111,6 +111,9 @@
       <concept id="1632319670390656274" name="MAtomicComponent.structure.InterfaceType" flags="ng" index="2n8Us5">
         <reference id="1632319670390661018" name="interface" index="2n8Vmd" />
       </concept>
+      <concept id="1632319670397256574" name="MAtomicComponent.structure.ComponentType" flags="ng" index="2njA_D">
+        <reference id="1632319670397258822" name="component" index="2njAph" />
+      </concept>
       <concept id="1767023935423319735" name="MAtomicComponent.structure.Runnable" flags="ng" index="$0bhv">
         <child id="1767023935423594207" name="trigger" index="$38gR" />
         <child id="1767023935423526066" name="body" index="$3oTq" />
@@ -118,6 +121,12 @@
       <concept id="1767023935424414673" name="MAtomicComponent.structure.OperationTrigger" flags="ng" index="$47$T">
         <reference id="1632319670407917407" name="port" index="2kbcl8" />
         <reference id="1767023935424414678" name="op" index="$47$Y" />
+      </concept>
+      <concept id="1767023935425368779" name="MAtomicComponent.structure.ComponentInstance" flags="ng" index="$8uwz">
+        <child id="999745605118075665" name="type" index="2R3uL5" />
+      </concept>
+      <concept id="1767023935425368670" name="MAtomicComponent.structure.InstancesConfig" flags="ng" index="$8uyQ">
+        <child id="1767023935425523288" name="contents" index="$8LiK" />
       </concept>
       <concept id="1767023935422919341" name="MAtomicComponent.structure.Port" flags="ng" index="$YOx5">
         <child id="1632319670390673533" name="portType" index="2n8ZDE" />
@@ -132,6 +141,11 @@
       <concept id="2253289344558414706" name="MAtomicComponent.structure.AtomicComponent" flags="ng" index="1LPJ7a" />
       <concept id="7114030172876799133" name="MAtomicComponent.structure.Component" flags="ng" index="1X0m1t">
         <child id="7114030172876799135" name="content" index="1X0m1v" />
+      </concept>
+      <concept id="7114030172874673387" name="MAtomicComponent.structure.RunnableCallExpr" flags="ng" index="1X8h0F">
+        <reference id="7114030172874673464" name="instance" index="1X8h7S" />
+        <reference id="7114030172874673930" name="conf" index="1X8hfa" />
+        <reference id="7114030172874672266" name="runnable" index="1X8hha" />
       </concept>
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
@@ -281,14 +295,17 @@
       </concept>
       <concept id="6437088627575722830" name="com.mbeddr.core.modules.structure.ImplementationModule" flags="ng" index="N3F5e" />
       <concept id="6437088627575724000" name="com.mbeddr.core.modules.structure.FunctionPrototype" flags="ng" index="N3Fnw" />
+      <concept id="6437088627575724001" name="com.mbeddr.core.modules.structure.Function" flags="ng" index="N3Fnx">
+        <child id="4185783222026475860" name="body" index="3XIRFX" />
+      </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
       <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
     </language>
     <language id="f2600f3d-2083-4803-a693-cff3268f4af9" name="mulder.model">
-      <concept id="6252445355758092971" name="mulder.model.structure.VirtualFrameFromModel" flags="ng" index="31hqt7">
+      <concept id="6252445355758092971" name="mulder.model.structure.M2MOutlineFrame" flags="ng" index="31hqt7">
         <reference id="149269758414034613" name="spec" index="3JU4qS" />
       </concept>
-      <concept id="3906148130290742816" name="mulder.model.structure.GeneratedValueLifterFromModel" flags="ng" index="1kf5GB">
+      <concept id="3906148130290742816" name="mulder.model.structure.M2MGeneratedValueLifter" flags="ng" index="1kf5GB">
         <reference id="3906148130290944737" name="valueLifterSpec" index="1keivA" />
       </concept>
     </language>
@@ -1296,6 +1313,109 @@
           </node>
           <node concept="2NXPZ9" id="7MFNr6Dvks$" role="N3F5h">
             <property role="TrG5h" value="empty_1451942841600_13" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="5BV0G0QTEVL" role="3acgRq">
+      <ref role="30HIoZ" to="ef37:5BV0G0QQJ0D" resolve="FaildExpectationsExpression" />
+      <node concept="1Koe21" id="5BV0G0QTIpb" role="1lVwrX">
+        <node concept="N3F5e" id="5BV0G0QTIph" role="1Koe22">
+          <property role="TrG5h" value="dummy" />
+          <node concept="1LPJ7a" id="5BV0G0QTIA2" role="N3F5h">
+            <property role="TrG5h" value="mock" />
+            <node concept="$0bhv" id="5BV0G0QTICt" role="1X0m1v">
+              <property role="TrG5h" value="getNumberOfFailedExpectations" />
+              <node concept="26Vqph" id="5BV0G0QTICu" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+              </node>
+              <node concept="3XIRFW" id="5BV0G0QTICv" role="$3oTq">
+                <node concept="2BFjQ_" id="5BV0G0QTICS" role="3XIRFZ">
+                  <node concept="3TlMh9" id="5BV0G0QTID5" role="2BFjQA">
+                    <property role="2hmy$m" value="0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="$8uyQ" id="5BV0G0QTIFm" role="N3F5h">
+            <property role="TrG5h" value="cfg" />
+            <node concept="$8uwz" id="5BV0G0QTIGB" role="$8LiK">
+              <property role="TrG5h" value="m" />
+              <node concept="2njA_D" id="5BV0G0QTIGL" role="2R3uL5">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+                <ref role="2njAph" node="5BV0G0QTIA2" resolve="mock" />
+              </node>
+            </node>
+          </node>
+          <node concept="N3Fnx" id="5BV0G0QTI$v" role="N3F5h">
+            <property role="TrG5h" value="bla" />
+            <node concept="19Rifw" id="5BV0G0QTI$w" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+            <node concept="3XIRFW" id="5BV0G0QTI$x" role="3XIRFX">
+              <node concept="1_9egQ" id="5BV0G0QTI$R" role="3XIRFZ">
+                <node concept="3TlM44" id="5BV0G0QTINd" role="1_9egR">
+                  <node concept="3TlMh9" id="5BV0G0QTIOu" role="3TlMhJ">
+                    <property role="2hmy$m" value="0" />
+                  </node>
+                  <node concept="1X8h0F" id="5BV0G0QTI$P" role="3TlMhI">
+                    <ref role="1X8hfa" node="5BV0G0QTIFm" resolve="cfg" />
+                    <ref role="1X8h7S" node="5BV0G0QTIGB" resolve="m" />
+                    <ref role="1X8hha" node="5BV0G0QTICt" resolve="getNumberOfFailedExpectations" />
+                    <node concept="1ZhdrF" id="5BV0G0QTQzi" role="lGtFl">
+                      <property role="P3scX" value="5529be6b-f382-41f9-834c-9d6b2e079511/7114030172874673387/7114030172874673930" />
+                      <property role="2qtEX8" value="conf" />
+                      <node concept="3$xsQk" id="5BV0G0QTQzj" role="3$ytzL">
+                        <node concept="3clFbS" id="5BV0G0QTQzk" role="2VODD2">
+                          <node concept="3clFbF" id="5BV0G0QTQCG" role="3cqZAp">
+                            <node concept="2OqwBi" id="5BV0G0QTQFo" role="3clFbG">
+                              <node concept="30H73N" id="5BV0G0QTQCF" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="5BV0G0QTRmF" role="2OqNvi">
+                                <ref role="3Tt5mk" to="ef37:7MFNr6Dszbi" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1ZhdrF" id="5BV0G0QTRoD" role="lGtFl">
+                      <property role="P3scX" value="5529be6b-f382-41f9-834c-9d6b2e079511/7114030172874673387/7114030172874673464" />
+                      <property role="2qtEX8" value="instance" />
+                      <node concept="3$xsQk" id="5BV0G0QTRoE" role="3$ytzL">
+                        <node concept="3clFbS" id="5BV0G0QTRoF" role="2VODD2">
+                          <node concept="3clFbF" id="5BV0G0QTRw5" role="3cqZAp">
+                            <node concept="2OqwBi" id="5BV0G0QTRyD" role="3clFbG">
+                              <node concept="30H73N" id="5BV0G0QTRw4" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="5BV0G0QTRQB" role="2OqNvi">
+                                <ref role="3Tt5mk" to="ef37:7MFNr6Dszbj" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1ZhdrF" id="5BV0G0QTRSR" role="lGtFl">
+                      <property role="P3scX" value="5529be6b-f382-41f9-834c-9d6b2e079511/7114030172874673387/7114030172874672266" />
+                      <property role="2qtEX8" value="runnable" />
+                      <node concept="3$xsQk" id="5BV0G0QTRSS" role="3$ytzL">
+                        <node concept="3clFbS" id="5BV0G0QTRST" role="2VODD2">
+                          <node concept="3clFbF" id="5BV0G0QTS1l" role="3cqZAp">
+                            <node concept="Xl_RD" id="5BV0G0QTS1k" role="3clFbG">
+                              <property role="Xl_RC" value="getNumberOfFailedExpectations" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="raruj" id="5BV0G0QTQuI" role="lGtFl" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

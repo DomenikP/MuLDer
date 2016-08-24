@@ -517,7 +517,7 @@
             </node>
           </node>
           <node concept="3cQ7KT" id="3v460C2fORH" role="lGtFl">
-            <property role="TrG5h" value="poinerisNull" />
+            <property role="TrG5h" value="pointerisNull" />
           </node>
         </node>
         <node concept="3XIRlf" id="3v460C1KBAr" role="3XIRFZ">

@@ -196,5 +196,22 @@
       <ref role="20lvS9" to="x27k:5_l8w1EmTvw" resolve="FunctionPrototype" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5BV0G0QQJ0D">
+    <property role="TrG5h" value="FailedExpectationsExpression" />
+    <property role="34LRSv" value="faildExpectations" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="7MFNr6Dszbi" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="conf" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="32lw:1y5IIwWD59u" resolve="InstancesConfig" />
+    </node>
+    <node concept="1TJgyj" id="7MFNr6Dszbj" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="instance" />
+      <ref role="20lvS9" to="32lw:1y5IIwWD5bb" resolve="ComponentInstance" />
+    </node>
+  </node>
 </model>
 

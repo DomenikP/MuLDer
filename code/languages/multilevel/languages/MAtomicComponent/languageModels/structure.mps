@@ -198,16 +198,16 @@
       <ref role="PrY4T" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
     </node>
     <node concept="PrWs8" id="74jo7PVoywz" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     </node>
     <node concept="PrWs8" id="7ZqGTTqGs7w" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:PjpCzdQT6j" resolve="WatchProviderScope" />
+      <ref role="PrY4T" to="k6mm:PjpCzdQT6j" resolve="ProviderScope" />
     </node>
     <node concept="PrWs8" id="6WUNGeE6lJ7" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
     </node>
     <node concept="PrWs8" id="9tjUHFTyOu" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:WsW$R6dIy7" resolve="SteppableContext" />
+      <ref role="PrY4T" to="k6mm:WsW$R6dIy7" resolve="SteppableComposite" />
     </node>
     <node concept="1TJgyj" id="1y5IIwWy3iM" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -264,7 +264,7 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="8ik0RGGOOD" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="PrY4T" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     </node>
     <node concept="PrWs8" id="2Z8Gfz2kCTh" role="PzmwI">
       <ref role="PrY4T" to="k6mm:4nblNEsc0PQ" resolve="WatchProviderContainer" />
@@ -411,7 +411,7 @@
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="6WUNGeE64qz" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+      <ref role="PrY4T" to="k6mm:4VYXLgqZLMw" resolve="CallableCall" />
     </node>
   </node>
   <node concept="1TIwiD" id="6aU7c0vIRMt">
@@ -428,7 +428,7 @@
       <ref role="PrY4T" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
     </node>
     <node concept="PrWs8" id="7MFNr6DbUDd" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:PjpCzdQT6j" resolve="WatchProviderScope" />
+      <ref role="PrY4T" to="k6mm:PjpCzdQT6j" resolve="ProviderScope" />
     </node>
     <node concept="1TJgyj" id="6aU7c0vIRMv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -492,7 +492,7 @@
       <ref role="PrY4T" to="2gv2:2R5TvtOl$CY" resolve="IStepIntoable" />
     </node>
     <node concept="PrWs8" id="6WUNGeElreo" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
+      <ref role="PrY4T" to="k6mm:4VYXLgqZLMw" resolve="CallableCall" />
     </node>
   </node>
   <node concept="1TIwiD" id="1qBaxu1x8Oi">
@@ -575,24 +575,7 @@
       <ref role="20lvS9" to="x27k:5_l8w1EmTvw" resolve="FunctionPrototype" />
     </node>
     <node concept="PrWs8" id="6WUNGeE0WoF" role="PzmwI">
-      <ref role="PrY4T" to="k6mm:4VYXLgqZLMw" resolve="StepIntoable" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7MFNr6DC$JS">
-    <property role="TrG5h" value="FailedExpectations" />
-    <property role="34LRSv" value="failedExpectations" />
-    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
-    <node concept="1TJgyj" id="7MFNr6DYeTC" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="conf" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1y5IIwWD59u" resolve="InstancesConfig" />
-    </node>
-    <node concept="1TJgyj" id="7MFNr6DYeTD" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="instance" />
-      <ref role="20lvS9" node="1y5IIwWD5bb" resolve="ComponentInstance" />
+      <ref role="PrY4T" to="k6mm:4VYXLgqZLMw" resolve="CallableCall" />
     </node>
   </node>
 </model>

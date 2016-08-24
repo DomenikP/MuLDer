@@ -171,9 +171,22 @@
       <concept id="6437088627575724001" name="com.mbeddr.core.modules.structure.Function" flags="ng" index="N3Fnx">
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
+      <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
       <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
     </language>
     <language id="bec9c00b-b5be-48af-9766-38765bcc974d" name="MUnit">
+      <concept id="1229019237291264855" name="MUnit.structure.TestcaseRef" flags="ng" index="5O54F">
+        <reference id="1229019237291264869" name="test" index="5O54p" />
+      </concept>
+      <concept id="1229019237291370122" name="MUnit.structure.AssertStatement" flags="ng" index="5OvNQ">
+        <child id="1229019237291370123" name="assertion" index="5OvNR" />
+      </concept>
+      <concept id="1229019237291256551" name="MUnit.structure.ExecuteTestExpression" flags="ng" index="5OV2r">
+        <child id="1229019237291264893" name="tests" index="5O541" />
+      </concept>
+      <concept id="1229019237290997774" name="MUnit.structure.Testcase" flags="ng" index="5PU9M">
+        <child id="1229019237291246379" name="body" index="5OT_n" />
+      </concept>
       <concept id="1229019237292635695" name="MUnit.structure.MUnitConfigItem" flags="ng" index="5ZaLj">
         <child id="1229019237292635789" name="strategy" index="5ZaNL" />
       </concept>
@@ -189,6 +202,10 @@
       <concept id="8983500044655058695" name="MMockComponent.structure.PortOperationRef" flags="ng" index="3lXhaQ">
         <reference id="8983500044655058793" name="port" index="3lXhbo" />
         <reference id="8983500044655058795" name="op" index="3lXhbq" />
+      </concept>
+      <concept id="6483779113107255337" name="MMockComponent.structure.FaildExpectationsExpression" flags="ng" index="1J8vbD">
+        <reference id="8983500044656325331" name="instance" index="3lQvX_" />
+        <reference id="8983500044656325330" name="conf" index="3lQvXA" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -393,6 +410,14 @@
             <ref role="3lQvXB" node="6VZcAFamRvv" resolve="dummy" />
           </node>
         </node>
+        <node concept="1_9egQ" id="5BV0G0QQGVd" role="3XIRFZ">
+          <node concept="3lQvWc" id="5BV0G0QQGVe" role="1_9egR">
+            <ref role="3lQvXy" node="6VZcAFao85A" resolve="mc" />
+            <ref role="3lQvXB" node="6VZcAFamRvv" resolve="dummy" />
+            <ref role="3lQvXz" node="6VZcAFao83T" resolve="i" />
+            <ref role="3lQvX$" node="6VZcAFamREe" resolve="adder" />
+          </node>
+        </node>
         <node concept="1_9egQ" id="6VZcAFbzq5L" role="3XIRFZ">
           <node concept="3lQvWc" id="6VZcAFbzq5M" role="1_9egR">
             <ref role="3lQvXB" node="6VZcAFamRvv" resolve="dummy" />
@@ -410,8 +435,10 @@
           </node>
         </node>
         <node concept="2BFjQ_" id="6VZcAFao87y" role="3XIRFZ">
-          <node concept="3TlMh9" id="6VZcAFao87z" role="2BFjQA">
-            <property role="2hmy$m" value="0" />
+          <node concept="5OV2r" id="5BV0G0QXuLO" role="2BFjQA">
+            <node concept="5O54F" id="5BV0G0QXuMB" role="5O541">
+              <ref role="5O54p" node="5BV0G0QXuDS" resolve="bla" />
+            </node>
           </node>
         </node>
       </node>
@@ -434,6 +461,20 @@
           <node concept="Pu267" id="6VZcAFao87x" role="2umbIo">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="5BV0G0QXuBD" role="N3F5h">
+      <property role="TrG5h" value="empty_1472057300312_3" />
+    </node>
+    <node concept="5PU9M" id="5BV0G0QXuDS" role="N3F5h">
+      <property role="TrG5h" value="bla" />
+      <node concept="3XIRFW" id="5BV0G0QXuDU" role="5OT_n">
+        <node concept="5OvNQ" id="5BV0G0QUMSI" role="3XIRFZ">
+          <node concept="1J8vbD" id="5BV0G0QW7zY" role="5OvNR">
+            <ref role="3lQvX_" node="6VZcAFao85A" resolve="mc" />
+            <ref role="3lQvXA" node="6VZcAFao83T" resolve="i" />
           </node>
         </node>
       </node>
