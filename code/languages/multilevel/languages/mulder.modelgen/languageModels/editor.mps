@@ -349,29 +349,6 @@
           </node>
           <node concept="2iRfu4" id="8ik0RHTQj3" role="2iSdaV" />
         </node>
-        <node concept="3EZMnI" id="4Fv0ty1Pjke" role="3EZMnx">
-          <property role="3EZMnw" value="false" />
-          <node concept="3F0ifn" id="4Fv0ty1Pjkf" role="3EZMnx">
-            <property role="3F0ifm" value="stack frame name:" />
-            <ref role="1k5W1q" to="tpc5:2NgG6tkHXk9" resolve="KeyWord" />
-            <node concept="VPM3Z" id="4Fv0ty1Pjkg" role="3F10Kt">
-              <property role="VOm3f" value="false" />
-            </node>
-          </node>
-          <node concept="3F1sOY" id="8ik0RHTQke" role="3EZMnx">
-            <ref role="1NtTu8" to="u27g:8ik0RHTNBO" />
-            <node concept="VPXOz" id="4Fv0ty1Pjkk" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-          </node>
-          <node concept="VPM3Z" id="4Fv0ty1Pjkl" role="3F10Kt">
-            <property role="VOm3f" value="false" />
-          </node>
-          <node concept="VPXOz" id="4Fv0ty1Pjkm" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="2iRfu4" id="4Fv0ty1Pjkn" role="2iSdaV" />
-        </node>
         <node concept="3EZMnI" id="4Fv0ty1Pjko" role="3EZMnx">
           <property role="3EZMnw" value="false" />
           <node concept="3F0ifn" id="4Fv0ty1Pjkp" role="3EZMnx">

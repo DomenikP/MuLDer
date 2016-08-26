@@ -1297,52 +1297,6 @@
         <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
       </node>
     </node>
-    <node concept="13i0hz" id="2RsptmMnZKN" role="13h7CS">
-      <property role="TrG5h" value="getStackFrameName" />
-      <property role="13i0it" value="false" />
-      <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="l756:2RsptmMnZry" resolve="getStackFrameName" />
-      <node concept="3Tm1VV" id="2RsptmMnZKO" role="1B3o_S" />
-      <node concept="3clFbS" id="2RsptmMnZKJ" role="3clF47">
-        <node concept="3cpWs8" id="8ik0RHSBqK" role="3cqZAp">
-          <node concept="3cpWsn" id="8ik0RHSBqL" role="3cpWs9">
-            <property role="TrG5h" value="intance" />
-            <node concept="3uibUv" id="8ik0RHSBqP" role="1tU5fm">
-              <ref role="3uigEE" to="r3d5:8ik0RHRC5C" resolve="IVirtualFrameSpec" />
-            </node>
-            <node concept="2OqwBi" id="8ik0RHSBqQ" role="33vP2m">
-              <node concept="13iPFW" id="8ik0RHSBqR" role="2Oq$k0" />
-              <node concept="2qgKlT" id="8ik0RHSBqS" role="2OqNvi">
-                <ref role="37wK5l" node="4kLkufAMrYy" resolve="getIntance" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="8ik0RHSAUq" role="3cqZAp">
-          <node concept="2OqwBi" id="8ik0RHSBv5" role="3clFbG">
-            <node concept="37vLTw" id="8ik0RHSBqT" role="2Oq$k0">
-              <ref role="3cqZAo" node="8ik0RHSBqL" resolve="intance" />
-            </node>
-            <node concept="liA8E" id="8ik0RHSB_K" role="2OqNvi">
-              <ref role="37wK5l" to="r3d5:8ik0RHRCz7" resolve="getStackFrameName" />
-              <node concept="2OqwBi" id="8ik0RHSCm8" role="37wK5m">
-                <node concept="37vLTw" id="2RsptmMo1ni" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2RsptmMnZKP" resolve="virtualFrameAnnotation" />
-                </node>
-                <node concept="1mfA1w" id="8ik0RHSCma" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="2RsptmMnZKP" role="3clF46">
-        <property role="TrG5h" value="virtualFrameAnnotation" />
-        <node concept="3Tqbb2" id="2RsptmMnZKQ" role="1tU5fm">
-          <ref role="ehGHo" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
-        </node>
-      </node>
-      <node concept="17QB3L" id="2RsptmMnZKR" role="3clF45" />
-    </node>
     <node concept="13i0hz" id="2RsptmMnZL2" role="13h7CS">
       <property role="TrG5h" value="getPC" />
       <property role="13i0it" value="false" />
@@ -1384,11 +1338,11 @@
       <node concept="37vLTG" id="2RsptmMnZL4" role="3clF46">
         <property role="TrG5h" value="virtualFrameAnnotation" />
         <node concept="3Tqbb2" id="2RsptmMnZL5" role="1tU5fm">
-          <ref role="ehGHo" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
+          <ref role="ehGHo" to="2cz0:5r59uMnw8aF" resolve="M2MOutlineFrame" />
         </node>
       </node>
       <node concept="3Tqbb2" id="2RsptmMnZL6" role="3clF45">
-        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
       </node>
     </node>
     <node concept="13i0hz" id="2RsptmMnZLh" role="13h7CS">
@@ -1432,7 +1386,7 @@
       <node concept="37vLTG" id="2RsptmMnZLj" role="3clF46">
         <property role="TrG5h" value="virtualFrameAnnotation" />
         <node concept="3Tqbb2" id="2RsptmMnZLk" role="1tU5fm">
-          <ref role="ehGHo" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
+          <ref role="ehGHo" to="2cz0:5r59uMnw8aF" resolve="M2MOutlineFrame" />
         </node>
       </node>
       <node concept="3Tqbb2" id="2RsptmMnZLl" role="3clF45" />
@@ -1584,7 +1538,7 @@
               <node concept="2pIpSj" id="2D3lxRK3D6h" role="2pJxcM">
                 <ref role="2pIpSl" to="tp25:g$ehGDh" />
                 <node concept="36bGnv" id="2D3lxRK3D6S" role="2pJxcZ">
-                  <ref role="36bGnp" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+                  <ref role="36bGnp" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
                 </node>
               </node>
             </node>
@@ -1680,7 +1634,7 @@
               <node concept="2pIpSj" id="6WUNGe$L8vB" role="2pJxcM">
                 <ref role="2pIpSl" to="tp25:g$ehGDh" />
                 <node concept="36bGnv" id="6WUNGe$L93F" role="2pJxcZ">
-                  <ref role="36bGnp" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+                  <ref role="36bGnp" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
                 </node>
               </node>
             </node>
@@ -1695,7 +1649,7 @@
   </node>
   <node concept="13h7C7" id="6P1S2fVuu0O">
     <property role="3GE5qa" value="debugSemantics" />
-    <ref role="13h7C2" to="u27g:6P1S2fVutUZ" resolve="ModelValue" />
+    <ref role="13h7C2" to="u27g:6P1S2fVutUZ" resolve="ValueContract" />
     <node concept="13hLZK" id="6P1S2fVuu0P" role="13h7CW">
       <node concept="3clFbS" id="6P1S2fVuu0Q" role="2VODD2" />
     </node>

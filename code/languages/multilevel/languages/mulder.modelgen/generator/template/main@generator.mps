@@ -487,46 +487,6 @@
         <ref role="3uigEE" node="8ik0RHRM2P" resolve="VirtualFrameSpec" />
       </node>
     </node>
-    <node concept="3clFb_" id="8ik0RHTGxj" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getStackFrameName" />
-      <node concept="37vLTG" id="8ik0RHSCuK" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3Tqbb2" id="8ik0RHSCuL" role="1tU5fm" />
-      </node>
-      <node concept="3Tm1VV" id="8ik0RHTGxk" role="1B3o_S" />
-      <node concept="17QB3L" id="8ik0RHTGxl" role="3clF45" />
-      <node concept="3clFbS" id="8ik0RHTGxi" role="3clF47">
-        <node concept="3clFbF" id="8ik0RHTGEL" role="3cqZAp">
-          <node concept="10Nm6u" id="8ik0RHTGEK" role="3clFbG" />
-          <node concept="2b32R4" id="8ik0RHXNe$" role="lGtFl">
-            <node concept="3JmXsc" id="8ik0RHXNeC" role="2P8S$">
-              <node concept="3clFbS" id="8ik0RHXNeG" role="2VODD2">
-                <node concept="3clFbF" id="8ik0RHXLed" role="3cqZAp">
-                  <node concept="2OqwBi" id="8ik0RHXMfN" role="3clFbG">
-                    <node concept="2OqwBi" id="8ik0RHXLwY" role="2Oq$k0">
-                      <node concept="2OqwBi" id="8ik0RHXLe8" role="2Oq$k0">
-                        <node concept="3TrEf2" id="8ik0RHXLeb" role="2OqNvi">
-                          <ref role="3Tt5mk" to="u27g:8ik0RHTNBO" />
-                        </node>
-                        <node concept="30H73N" id="8ik0RHXLec" role="2Oq$k0" />
-                      </node>
-                      <node concept="3TrEf2" id="8ik0RHXLQC" role="2OqNvi">
-                        <ref role="3Tt5mk" to="tpee:gyVODHa" />
-                      </node>
-                    </node>
-                    <node concept="3Tsc0h" id="8ik0RHXMXc" role="2OqNvi">
-                      <ref role="3TtcxE" to="tpee:fzcqZ_x" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="8ik0RHTGxt" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -537,7 +497,7 @@
       </node>
       <node concept="3Tm1VV" id="8ik0RHTGxu" role="1B3o_S" />
       <node concept="3Tqbb2" id="8ik0RHTGxv" role="3clF45">
-        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
       </node>
       <node concept="3clFbS" id="8ik0RHTGxs" role="3clF47">
         <node concept="3clFbF" id="8ik0RHXNu0" role="3cqZAp">
@@ -1065,7 +1025,7 @@
                             </node>
                             <node concept="3CFZ6_" id="2Up4L465PJb" role="2OqNvi">
                               <node concept="3CFYIy" id="2Up4L465PV9" role="3CFYIz">
-                                <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+                                <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
                               </node>
                             </node>
                           </node>
@@ -1226,11 +1186,11 @@
       <ref role="3lhOvi" node="1FDMTVNW1Ws" resolve="IValueLifterRoot" />
     </node>
     <node concept="3lhOvk" id="1taDvhF3TxC" role="3lj3bC">
-      <ref role="30HIoZ" to="u27g:6P1S2fVutUZ" resolve="ModelValue" />
+      <ref role="30HIoZ" to="u27g:6P1S2fVutUZ" resolve="ValueContract" />
       <ref role="3lhOvi" node="1taDvhF3_vV" resolve="ValueProviderSpec" />
     </node>
     <node concept="3aamgX" id="77Xe7_Om34l" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:7YL4GJ22saC" resolve="TargetWatchSpecification" />
+      <ref role="30HIoZ" to="k6mm:7YL4GJ22saC" resolve="TargetWatch" />
       <node concept="30G5F_" id="77Xe7_Om5Ad" role="30HLyM">
         <node concept="3clFbS" id="77Xe7_Om5Ae" role="2VODD2">
           <node concept="3cpWs8" id="77Xe7_Om5Dv" role="3cqZAp">
@@ -1344,7 +1304,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7YL4GJ3EwMp" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:3MxRD99llG3" resolve="ContextWatchSpecification" />
+      <ref role="30HIoZ" to="k6mm:3MxRD99llG3" resolve="ContextWatch" />
       <node concept="1Koe21" id="7YL4GJ3Ezp2" role="1lVwrX">
         <node concept="312cEu" id="7YL4GJ3Ezp3" role="1Koe22">
           <property role="2bfB8j" value="true" />
@@ -1458,7 +1418,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7YL4GJ3EWke" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValueSpecification" />
+      <ref role="30HIoZ" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValue" />
       <node concept="1Koe21" id="7YL4GJ3EWkf" role="1lVwrX">
         <node concept="312cEu" id="7YL4GJ3EWkg" role="1Koe22">
           <property role="2bfB8j" value="true" />
@@ -1581,7 +1541,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7YL4GJ3ECaX" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValueSpecification" />
+      <ref role="30HIoZ" to="k6mm:3MxRD99lmoI" resolve="PrimitiveValue" />
       <node concept="1Koe21" id="7YL4GJ3EFsN" role="1lVwrX">
         <node concept="312cEu" id="7YL4GJ3EFsO" role="1Koe22">
           <property role="2bfB8j" value="true" />
@@ -1857,7 +1817,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7YL4GJ3WB4k" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:3MxRD99lmKC" resolve="ComplexValueSpecification" />
+      <ref role="30HIoZ" to="k6mm:3MxRD99lmKC" resolve="ComplexValue" />
       <node concept="30G5F_" id="7YL4GJ3WDR3" role="30HLyM">
         <node concept="3clFbS" id="7YL4GJ3WDR4" role="2VODD2">
           <node concept="3clFbF" id="7YL4GJ3WDTU" role="3cqZAp">
@@ -2029,7 +1989,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7YL4GJ4eZlr" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:3MxRD99lmKC" resolve="ComplexValueSpecification" />
+      <ref role="30HIoZ" to="k6mm:3MxRD99lmKC" resolve="ComplexValue" />
       <node concept="30G5F_" id="7YL4GJ4eZls" role="30HLyM">
         <node concept="3clFbS" id="7YL4GJ4eZlt" role="2VODD2">
           <node concept="3clFbF" id="7YL4GJ4eZlu" role="3cqZAp">
@@ -2310,7 +2270,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="1pKlcOH0UZ1" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:UFIAu3qoCX" resolve="AbsentWatchSpecification" />
+      <ref role="30HIoZ" to="k6mm:UFIAu3qoCX" resolve="AbsentWatch" />
       <node concept="1Koe21" id="1pKlcOH0XIk" role="1lVwrX">
         <node concept="312cEu" id="1pKlcOH0XIl" role="1Koe22">
           <property role="2bfB8j" value="true" />
@@ -2542,7 +2502,7 @@
                                               </node>
                                               <node concept="3CFZ6_" id="4P41_Im1gHj" role="2OqNvi">
                                                 <node concept="3CFYIy" id="4P41_Im1gHk" role="3CFYIz">
-                                                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+                                                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
                                                 </node>
                                               </node>
                                             </node>
@@ -2572,7 +2532,7 @@
                                   </node>
                                   <node concept="3CFZ6_" id="4P41_Im1gHt" role="2OqNvi">
                                     <node concept="3CFYIy" id="4P41_Im1gHu" role="3CFYIz">
-                                      <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+                                      <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
                                     </node>
                                   </node>
                                 </node>
@@ -2598,7 +2558,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="1pKlcOG$72a" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatchesSpecification" />
+      <ref role="30HIoZ" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatches" />
       <node concept="1Koe21" id="1pKlcOG$a9O" role="1lVwrX">
         <node concept="312cEu" id="1pKlcOG$a9P" role="1Koe22">
           <property role="2bfB8j" value="true" />
@@ -2988,7 +2948,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7YL4GJ3WOvG" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
+      <ref role="30HIoZ" to="k6mm:3MxRD99llIN" resolve="SingleWatch" />
       <node concept="1Koe21" id="7YL4GJ3WSlc" role="1lVwrX">
         <node concept="312cEu" id="7YL4GJ3WSld" role="1Koe22">
           <property role="2bfB8j" value="true" />
@@ -3329,7 +3289,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7YL4GJ3Xd9p" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:3MxRD99lnaM" resolve="AbsentValueSpecification" />
+      <ref role="30HIoZ" to="k6mm:3MxRD99lnaM" resolve="AbsentValue" />
       <node concept="1Koe21" id="7YL4GJ3XfV3" role="1lVwrX">
         <node concept="312cEu" id="7YL4GJ3XfV4" role="1Koe22">
           <property role="2bfB8j" value="true" />
@@ -3498,7 +3458,7 @@
                   <node concept="2Xjw5R" id="8pd8fRKAwn" role="2OqNvi">
                     <node concept="1xMEDy" id="8pd8fRKAwp" role="1xVPHs">
                       <node concept="chp4Y" id="8pd8fRKABu" role="ri$Ld">
-                        <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
+                        <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatch" />
                       </node>
                     </node>
                   </node>
@@ -3511,7 +3471,7 @@
                   <node concept="2Xjw5R" id="8pd8fRKBCt" role="2OqNvi">
                     <node concept="1xMEDy" id="8pd8fRKBCu" role="1xVPHs">
                       <node concept="chp4Y" id="8pd8fRKBKA" role="ri$Ld">
-                        <ref role="cht4Q" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatchesSpecification" />
+                        <ref role="cht4Q" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatches" />
                       </node>
                     </node>
                   </node>
@@ -3524,7 +3484,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="77Xe7_MtA8$" role="3acgRq">
-      <ref role="30HIoZ" to="k6mm:3MxRD99lnaM" resolve="AbsentValueSpecification" />
+      <ref role="30HIoZ" to="k6mm:3MxRD99lnaM" resolve="AbsentValue" />
       <node concept="1Koe21" id="77Xe7_MtA8_" role="1lVwrX">
         <node concept="312cEu" id="77Xe7_MtA8A" role="1Koe22">
           <property role="2bfB8j" value="true" />
@@ -3661,7 +3621,7 @@
                   <node concept="2Xjw5R" id="8pd8fRKCb2" role="2OqNvi">
                     <node concept="1xMEDy" id="8pd8fRKCb3" role="1xVPHs">
                       <node concept="chp4Y" id="8pd8fRKCb4" role="ri$Ld">
-                        <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
+                        <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatch" />
                       </node>
                     </node>
                   </node>
@@ -3674,7 +3634,7 @@
                   <node concept="2Xjw5R" id="8pd8fRKCb9" role="2OqNvi">
                     <node concept="1xMEDy" id="8pd8fRKCba" role="1xVPHs">
                       <node concept="chp4Y" id="8pd8fRKCbb" role="ri$Ld">
-                        <ref role="cht4Q" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatchesSpecification" />
+                        <ref role="cht4Q" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatches" />
                       </node>
                     </node>
                   </node>
@@ -3760,7 +3720,7 @@
               </node>
               <node concept="3CFZ6_" id="1taDvhF3Ao8" role="2OqNvi">
                 <node concept="3CFYIy" id="1taDvhHc7gH" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:3p1iWQOtW5M" resolve="LiftValueFromModel" />
+                  <ref role="3CFYIx" to="2cz0:3p1iWQOtW5M" resolve="M2MLiftValue" />
                 </node>
               </node>
             </node>
@@ -3776,7 +3736,7 @@
                 </node>
                 <node concept="3CFZ6_" id="77Xe7_OWR0v" role="2OqNvi">
                   <node concept="3CFYIy" id="77Xe7_OWR0w" role="3CFYIz">
-                    <ref role="3CFYIx" to="2cz0:3p1iWQOtW5M" resolve="LiftValueFromModel" />
+                    <ref role="3CFYIx" to="2cz0:3p1iWQOtW5M" resolve="M2MLiftValue" />
                   </node>
                 </node>
               </node>
@@ -4155,7 +4115,7 @@
     </node>
     <node concept="3Tm1VV" id="1taDvhF3_vW" role="1B3o_S" />
     <node concept="n94m4" id="1taDvhF3_vX" role="lGtFl">
-      <ref role="n9lRv" to="u27g:6P1S2fVutUZ" resolve="ModelValue" />
+      <ref role="n9lRv" to="u27g:6P1S2fVutUZ" resolve="ValueContract" />
     </node>
     <node concept="3uibUv" id="1taDvhF3_Af" role="EKbjA">
       <ref role="3uigEE" to="3dui:1taDvhF3mlG" resolve="IValueProvider" />
@@ -4249,7 +4209,7 @@
           <node concept="3cpWsn" id="26bhLIqHh8Z" role="3cpWs9">
             <property role="TrG5h" value="liftWatch" />
             <node concept="3Tqbb2" id="26bhLIqHh90" role="1tU5fm">
-              <ref role="ehGHo" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+              <ref role="ehGHo" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
             </node>
             <node concept="1sne9v" id="26bhLIqHh91" role="33vP2m">
               <node concept="1sne01" id="26bhLIqHh92" role="1sne8H">
@@ -4267,7 +4227,7 @@
                   </node>
                 </node>
                 <node concept="1shVQo" id="26bhLIqHh9d" role="ccFIB">
-                  <ref role="1shVQp" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+                  <ref role="1shVQp" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
                 </node>
               </node>
             </node>
@@ -4281,7 +4241,7 @@
               </node>
               <node concept="3CFZ6_" id="26bhLIqHh9i" role="2OqNvi">
                 <node concept="3CFYIy" id="6P1S2g0hOJH" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
                 </node>
               </node>
             </node>

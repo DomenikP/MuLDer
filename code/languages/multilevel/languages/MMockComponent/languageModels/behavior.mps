@@ -201,13 +201,11 @@
       <concept id="7450251056318684258" name="mulder.modelgen.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
       <concept id="149269758412226189" name="mulder.modelgen.structure.VirtualFrameSpec" flags="ng" index="3JN2U0">
         <reference id="149269758412804274" name="annotatedNode" index="3JXg2Z" />
-        <child id="149269758412798452" name="name" index="3JXmBT" />
         <child id="149269758412798454" name="outterPc" index="3JXmBV" />
         <child id="149269758412798860" name="liftToStackFrameContributor" index="3JXmI1" />
       </concept>
       <concept id="149269758412802867" name="mulder.modelgen.structure.PcFunction" flags="ig" index="3JXhGY" />
       <concept id="149269758412798993" name="mulder.modelgen.structure.LiftToStackFrameContributorFunction" flags="ig" index="3JXmKs" />
-      <concept id="149269758412798994" name="mulder.modelgen.structure.LiftToNameFunction" flags="ig" index="3JXmKv" />
     </language>
   </registry>
   <node concept="13h7C7" id="7MFNr6DcDmw">
@@ -734,38 +732,6 @@
   <node concept="3JN2U0" id="6VZcAFahlDG">
     <property role="TrG5h" value="stepFromStatementList" />
     <ref role="3JXg2Z" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
-    <node concept="3JXmKv" id="6VZcAFahlDH" role="3JXmBT">
-      <node concept="3clFbS" id="6VZcAFahlDI" role="2VODD2">
-        <node concept="3cpWs8" id="6VZcAFbB4he" role="3cqZAp">
-          <node concept="3cpWsn" id="6VZcAFbB4hf" role="3cpWs9">
-            <property role="TrG5h" value="i" />
-            <node concept="10Oyi0" id="6VZcAFbB4hm" role="1tU5fm" />
-            <node concept="2OqwBi" id="6VZcAFbB4hn" role="33vP2m">
-              <node concept="1PxgMI" id="6VZcAFbB4ho" role="2Oq$k0">
-                <ref role="1PxNhF" to="ef37:7MFNr6Dm73S" resolve="SequenceStep" />
-                <node concept="2OqwBi" id="6VZcAFbB4hp" role="1PxMeX">
-                  <node concept="2Duq_I" id="6VZcAFbB4hq" role="2Oq$k0" />
-                  <node concept="2OVGM_" id="6VZcAFbB4hr" role="2OqNvi" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="6VZcAFbB4hs" role="2OqNvi">
-                <ref role="37wK5l" node="7MFNr6Dm748" resolve="index" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2G1sn$OQjmo" role="3cqZAp">
-          <node concept="3cpWs3" id="2G1sn$OQk86" role="3clFbG">
-            <node concept="37vLTw" id="2G1sn$OQk8c" role="3uHU7w">
-              <ref role="3cqZAo" node="6VZcAFbB4hf" resolve="i" />
-            </node>
-            <node concept="Xl_RD" id="2G1sn$OQjmn" role="3uHU7B">
-              <property role="Xl_RC" value="step " />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3JXhGY" id="6VZcAFahlDJ" role="3JXmBV">
       <node concept="3clFbS" id="6VZcAFahlDK" role="2VODD2">
         <node concept="3clFbF" id="6VZcAFahytD" role="3cqZAp">

@@ -30,7 +30,6 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
-      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -178,7 +177,7 @@
               </node>
               <node concept="3CFZ6_" id="1n130k8Aact" role="2OqNvi">
                 <node concept="3CFYIy" id="1n130k8Aacu" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
                 </node>
               </node>
             </node>
@@ -200,18 +199,6 @@
   </node>
   <node concept="3HP615" id="8ik0RHRC5C">
     <property role="TrG5h" value="IVirtualFrameSpec" />
-    <node concept="3clFb_" id="8ik0RHRCz7" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getStackFrameName" />
-      <node concept="37vLTG" id="8ik0RHSCuK" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3Tqbb2" id="8ik0RHSCuL" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="8ik0RHRCza" role="3clF47" />
-      <node concept="3Tm1VV" id="8ik0RHRCzb" role="1B3o_S" />
-      <node concept="17QB3L" id="8ik0RHRCz5" role="3clF45" />
-    </node>
     <node concept="3clFb_" id="8ik0RHRCzB" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
@@ -223,7 +210,7 @@
       <node concept="3clFbS" id="8ik0RHRCzC" role="3clF47" />
       <node concept="3Tm1VV" id="8ik0RHRCzD" role="1B3o_S" />
       <node concept="3Tqbb2" id="8ik0RHRCBA" role="3clF45">
-        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+        <ref role="ehGHo" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
       </node>
     </node>
     <node concept="3clFb_" id="8ik0RHRC$0" role="jymVt">

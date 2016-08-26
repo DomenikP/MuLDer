@@ -16,7 +16,6 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="k146" ref="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" />
     <import index="e1nu" ref="r:f5f1bc6c-b40f-4bd3-9e1f-a729425b397c(MUnit.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" implicit="true" />
   </imports>
   <registry>
@@ -72,9 +71,6 @@
         <child id="1140138123956" name="leftExpression" index="1PxMeX" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
-      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
-        <reference id="1138056395725" name="property" index="3TsBF5" />
-      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -91,13 +87,11 @@
       <concept id="7450251056318684258" name="mulder.modelgen.structure.LiftToNodeFunction" flags="ig" index="2OfwuY" />
       <concept id="149269758412226189" name="mulder.modelgen.structure.VirtualFrameSpec" flags="ng" index="3JN2U0">
         <reference id="149269758412804274" name="annotatedNode" index="3JXg2Z" />
-        <child id="149269758412798452" name="name" index="3JXmBT" />
         <child id="149269758412798454" name="outterPc" index="3JXmBV" />
         <child id="149269758412798860" name="liftToStackFrameContributor" index="3JXmI1" />
       </concept>
       <concept id="149269758412802867" name="mulder.modelgen.structure.PcFunction" flags="ig" index="3JXhGY" />
       <concept id="149269758412798993" name="mulder.modelgen.structure.LiftToStackFrameContributorFunction" flags="ig" index="3JXmKs" />
-      <concept id="149269758412798994" name="mulder.modelgen.structure.LiftToNameFunction" flags="ig" index="3JXmKv" />
     </language>
   </registry>
   <node concept="3JN2U0" id="8ik0RHTKpB">
@@ -150,29 +144,6 @@
                   <ref role="cht4Q" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3JXmKv" id="7Tm6uYI5_8S" role="3JXmBT">
-      <node concept="3clFbS" id="7Tm6uYI5_8T" role="2VODD2">
-        <node concept="3clFbF" id="7Tm6uYI5_ga" role="3cqZAp">
-          <node concept="2OqwBi" id="8ik0RHW_y2" role="3clFbG">
-            <node concept="2OqwBi" id="8ik0RHW_15" role="2Oq$k0">
-              <node concept="1PxgMI" id="8ik0RHWzvD" role="2Oq$k0">
-                <ref role="1PxNhF" to="e1nu:14emBKkRwHn" resolve="TestcaseRef" />
-                <node concept="2OqwBi" id="8ik0RHWtZd" role="1PxMeX">
-                  <node concept="2Duq_I" id="2EVeRXbRCxO" role="2Oq$k0" />
-                  <node concept="2OVGM_" id="8ik0RHW$QZ" role="2OqNvi" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="8ik0RHW_fK" role="2OqNvi">
-                <ref role="3Tt5mk" to="e1nu:14emBKkRwH_" />
-              </node>
-            </node>
-            <node concept="3TrcHB" id="8ik0RHWAzu" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
         </node>
