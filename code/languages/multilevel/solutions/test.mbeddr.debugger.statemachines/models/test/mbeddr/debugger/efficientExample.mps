@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6c574e97-581c-4919-b56a-5497a5c27aae(test.mbeddr.debugger.blockexpr)">
+<model ref="r:6f8636ce-22f1-44b2-9259-4fa625925616(test.mbeddr.debugger.efficientExample)">
   <persistence version="9" />
   <languages>
-    <use id="89c70b13-7f9c-47c3-b3c2-c218b52ed82c" name="mulder.testing" version="-1" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
+    <use id="89c70b13-7f9c-47c3-b3c2-c218b52ed82c" name="mulder.testing" version="-1" />
     <use id="2bb324a8-ef4a-4dc7-b73a-557460350bd8" name="mbeddr.debugger.testing" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
   </languages>
   <imports>
-    <import index="696j" ref="r:b654012c-dfbd-4dc1-9e9f-9c2da1f5033b(testcode.mbeddr.debugger.blockexpr.blockexpr)" />
+    <import index="d13k" ref="r:9a7d1de5-19e3-4f5c-8d56-341cc8174d75(testcode.mbeddr.debugger.example.efficient.example)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -27,8 +27,6 @@
     <language id="2bb324a8-ef4a-4dc7-b73a-557460350bd8" name="mbeddr.debugger.testing">
       <concept id="6289137936867337325" name="mbeddr.debugger.testing.structure.GdbDebuggerBackend" flags="ng" index="29bEnc" />
       <concept id="2787006052669581360" name="mbeddr.debugger.testing.structure.SingleStepping" flags="ng" index="U_Csd" />
-      <concept id="2787006052669581345" name="mbeddr.debugger.testing.structure.TopDown" flags="ng" index="U_Css" />
-      <concept id="2787006052669581328" name="mbeddr.debugger.testing.structure.BottomUp" flags="ng" index="U_CsH" />
       <concept id="2787006052669581268" name="mbeddr.debugger.testing.structure.MbeddrDebuggerConfig" flags="ng" index="U_CzD">
         <child id="2787006052669581297" name="steppingAlgorithms" index="U_Czc" />
         <child id="2787006052669581281" name="debuggerBackend" index="U_Czs" />
@@ -69,7 +67,14 @@
         <reference id="3216856623541359769" name="callable" index="vbKqn" />
       </concept>
       <concept id="4231345613098876386" name="mulder.testing.structure.StepIntoCommand" flags="ng" index="2$4FY8" />
+      <concept id="4231345613098876391" name="mulder.testing.structure.StepOutCommand" flags="ng" index="2$4FYd" />
       <concept id="4231345613098876381" name="mulder.testing.structure.StepOverCommand" flags="ng" index="2$4FYR" />
+      <concept id="4018363198780822435" name="mulder.testing.structure.WatchableTextNameExpression" flags="ng" index="Q4kID">
+        <property id="4018363198780823925" name="name" index="Q4k5Z" />
+      </concept>
+      <concept id="8867272038842303611" name="mulder.testing.structure.DebuggerTestcaseReference" flags="ng" index="UZuib">
+        <reference id="8867272038842351965" name="testCase" index="UZi6H" />
+      </concept>
       <concept id="6848852908085995822" name="mulder.testing.structure.LevelStackReference" flags="ng" index="2YkuD0">
         <reference id="6848852908085995847" name="declaration" index="2YkuCD" />
       </concept>
@@ -92,6 +97,8 @@
         <child id="105850086903379390" name="steppingElements" index="3savID" />
       </concept>
       <concept id="105850086902839305" name="mulder.testing.structure.DebuggerTestcase" flags="ng" index="3scrou">
+        <property id="105850086903217241" name="abstract" index="3sdR9e" />
+        <child id="8867272038842435497" name="extends" index="UYYtp" />
         <child id="105850086903379490" name="stepping" index="3savwP" />
         <child id="105850086902839308" name="suspension" index="3scror" />
         <child id="4360423713604451010" name="validation" index="3F5AM1" />
@@ -114,75 +121,86 @@
       <concept id="4360423713604419372" name="mulder.testing.structure.ValidationConfig" flags="ng" index="3F5Y_J">
         <child id="4360423713604419402" name="validations" index="3F5Y$9" />
       </concept>
+      <concept id="6894131567068111611" name="mulder.testing.structure.LiteralValue" flags="ng" index="1Iiwbp">
+        <property id="6894131567068111701" name="value" index="1IiwdR" />
+      </concept>
+      <concept id="6894131567067751726" name="mulder.testing.structure.PrimitiveValueExpression" flags="ng" index="1Ijokc">
+        <child id="6894131567068111705" name="value" index="1IiwdV" />
+      </concept>
       <concept id="6894131567067751702" name="mulder.testing.structure.WatchableNameExpression" flags="ng" index="1IjokO">
         <reference id="3216856623567448698" name="watchProvider" index="pJjxO" />
       </concept>
+      <concept id="6894131567067751707" name="mulder.testing.structure.WatchableWithValueExpression" flags="ng" index="1IjokT">
+        <child id="6894131567067751708" name="name" index="1IjokY" />
+        <child id="6894131567067751709" name="value" index="1IjokZ" />
+      </concept>
     </language>
   </registry>
+  <node concept="2XOHcx" id="7Y7QNUtTGfC">
+    <property role="2XOHcw" value="${mulder.home}/code/languages/multilevel/" />
+  </node>
   <node concept="309jyn" id="7Y7QNUtTPIR">
-    <property role="TrG5h" value="BlockExpr" />
+    <property role="TrG5h" value="UnitTesting" />
     <node concept="2fHxXo" id="2M$$wSPh2Ex" role="1zJi$$">
-      <property role="TrG5h" value="inTestBlockExpr" />
+      <property role="TrG5h" value="inMain" />
       <property role="3mX51a" value="1" />
       <node concept="2fImz0" id="2M$$wSPh2Ey" role="2fImBQ">
-        <property role="3mtXQA" value="testcode.mbeddr.debugger.blockexpr.blockexpr" />
+        <property role="3mtXQA" value="testcode.mbeddr.debugger.example.efficient.example" />
         <node concept="2cbQls" id="2M$$wSPh2Ez" role="2f_Tkj">
-          <node concept="1jQ9m8" id="2M$$wSPh2EC" role="2cbQmx">
-            <node concept="vbKqm" id="GPUCAiQjGF" role="vaTOg">
-              <ref role="vbKqn" to="696j:2M$$wSPtH$B" resolve="testBlockExpr" />
-            </node>
-            <node concept="1ugayw" id="2M$$wSPh2EE" role="1unUxQ" />
-            <node concept="1voPNR" id="2M$$wSPh2EF" role="1vlyYN" />
-          </node>
           <node concept="1jQ9m8" id="2M$$wSPh2EG" role="2cbQmx">
             <node concept="vbKqm" id="7HBsxOmZQVr" role="vaTOg">
-              <ref role="vbKqn" to="696j:2M$$wSPtH$n" resolve="main" />
+              <ref role="vbKqn" to="d13k:3Kl1xgfCB1S" resolve="main" />
             </node>
             <node concept="1ugayw" id="2M$$wSPh2EI" role="1unUxQ" />
-            <node concept="1voPNR" id="2M$$wSPh2EJ" role="1vlyYN" />
+            <node concept="3cQ7K9" id="3Kl1xgfDbPr" role="1vlyYN">
+              <property role="3sdDOw" value="marker" />
+              <ref role="3cQ7K8" to="d13k:3Kl1xgfCBag" resolve="onReturnInMain" />
+            </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="2fHxXo" id="2M$$wSPh2LJ" role="1zJi$$">
-      <property role="TrG5h" value="inResFunc" />
+      <property role="TrG5h" value="inTestcase" />
       <property role="3mX51a" value="1" />
       <node concept="2fImz0" id="2M$$wSPhBGD" role="2fImBQ">
-        <property role="3mtXQA" value="testcode.mbeddr.debugger.blockexpr.blockexpr" />
+        <property role="3mtXQA" value="testcode.mbeddr.debugger.example.efficient.example" />
         <node concept="2cbQls" id="2M$$wSPhBGF" role="2f_Tkj">
-          <node concept="1s2qdC" id="2M$$wSPhBGG" role="1s2qdL">
+          <node concept="1s2qdC" id="3Kl1xgfDc0X" role="1s2qdL">
             <ref role="1s2qet" node="2M$$wSPh2Ez" />
           </node>
-          <node concept="1jQ9m8" id="2M$$wSPhBGO" role="2cbQmx">
-            <node concept="vbKqm" id="GPUCAiQjGC" role="vaTOg">
-              <ref role="vbKqn" to="696j:2aspXW0ZrUM" resolve="returnFour" />
+          <node concept="1jQ9m8" id="3Kl1xgfDc2o" role="2cbQmx">
+            <node concept="vbKqm" id="3Kl1xgfDc2x" role="vaTOg">
+              <ref role="vbKqn" to="d13k:3Kl1xgfCB2w" resolve="sumTesting" />
             </node>
-            <node concept="1ugayw" id="2M$$wSPhBGQ" role="1unUxQ" />
-            <node concept="1voPNR" id="2M$$wSPhBGR" role="1vlyYN" />
+            <node concept="1vuW9F" id="3Kl1xgfDc2$" role="1unUxQ">
+              <property role="TrG5h" value="w" />
+              <node concept="Q4kID" id="3Kl1xgfDc2K" role="1vuW9J">
+                <property role="Q4k5Z" value="sum" />
+              </node>
+            </node>
+            <node concept="1voPNR" id="3Kl1xgfDcer" role="1vlyYN" />
           </node>
-          <node concept="2cbQmw" id="2M$$wSPhBGK" role="2cbQmx">
-            <ref role="2cbOmP" node="2M$$wSPh2EC" />
-          </node>
-          <node concept="2cbQmw" id="2M$$wSPhBGL" role="2cbQmx">
+          <node concept="2cbQmw" id="3Kl1xgfDbRi" role="2cbQmx">
             <ref role="2cbOmP" node="2M$$wSPh2EG" />
           </node>
         </node>
       </node>
       <node concept="2YkuD0" id="2M$$wSPhBGA" role="2YkuMr">
-        <ref role="2YkuCD" node="2M$$wSPh2Ex" resolve="inTestBlockExpr" />
+        <ref role="2YkuCD" node="2M$$wSPh2Ex" resolve="inMain" />
       </node>
     </node>
     <node concept="3scrou" id="GPUCAiQjKg" role="1zJi$$">
-      <property role="TrG5h" value="stepToBlockExpr" />
+      <property role="TrG5h" value="stepIntoTestcase" />
       <node concept="3cqZAl" id="GPUCAiQjKi" role="3clF45" />
       <node concept="3clFbS" id="GPUCAiQjKk" role="3clF47" />
       <node concept="3sdZbQ" id="GPUCAiQjM9" role="3scror">
-        <node concept="3sdZbA" id="GPUCAiSs$V" role="3sdZbB">
-          <ref role="3sa5fj" to="696j:GPUCAiSsvm" resolve="beforeBlockExpr" />
+        <node concept="3sdZbA" id="3Kl1xgfDceu" role="3sdZbB">
+          <ref role="3sa5fj" to="d13k:3Kl1xgfCBag" resolve="onReturnInMain" />
         </node>
       </node>
       <node concept="3savIG" id="GPUCAiQjMd" role="3savwP">
-        <node concept="2$4FYR" id="GPUCAiQjMf" role="3savID">
+        <node concept="2$4FY8" id="3Kl1xgfDcex" role="3savID">
           <property role="2qnp9" value="1" />
         </node>
       </node>
@@ -190,199 +208,169 @@
         <node concept="2fHxXo" id="GPUCAiQjMj" role="3F5Y$9">
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
-          <node concept="2fImz0" id="GPUCAiQjTI" role="2fImBQ">
-            <property role="3mtXQA" value="testcode.mbeddr.debugger.blockexpr.blockexpr" />
-            <node concept="2cbQls" id="GPUCAiQjTK" role="2f_Tkj">
-              <node concept="1s2qdC" id="GPUCAiQjTL" role="1s2qdL">
-                <ref role="1s2qet" node="2M$$wSPh2Ez" />
+          <node concept="2fImz0" id="3Kl1xgfDcgf" role="2fImBQ">
+            <property role="3mtXQA" value="testcode.mbeddr.debugger.example.efficient.example" />
+            <node concept="2cbQls" id="3Kl1xgfDcgh" role="2f_Tkj">
+              <node concept="1s2qdC" id="3Kl1xgfDcgi" role="1s2qdL">
+                <ref role="1s2qet" node="2M$$wSPhBGF" />
               </node>
-              <node concept="2cbQmw" id="GPUCAiQjTP" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPh2EC" />
-                <node concept="1vuW9F" id="GPUCAiQjTV" role="1unUxQ">
-                  <property role="TrG5h" value="w" />
-                  <node concept="1IjokO" id="GPUCAiSsK0" role="1vuW9J">
-                    <ref role="pJjxO" to="696j:7Y7QNUtTNru" resolve="conditionVar" />
-                  </node>
-                  <node concept="1IjokO" id="GPUCAiSsJW" role="1vuW9J">
-                    <ref role="pJjxO" to="696j:GPUCAiSs8S" resolve="res" />
-                  </node>
-                </node>
-                <node concept="3cQ7K9" id="GPUCAiSsIJ" role="1vlyYN">
+              <node concept="2cbQmw" id="3Kl1xgfDcgF" role="2cbQmx">
+                <ref role="2cbOmP" node="3Kl1xgfDc2o" />
+                <node concept="3cQ7K9" id="3Kl1xgfDcjQ" role="1vlyYN">
                   <property role="3sdDOw" value="marker" />
-                  <ref role="3cQ7K8" to="696j:GPUCAiSseO" resolve="onBlockexpr" />
+                  <ref role="3cQ7K8" to="d13k:3Kl1xgfCB4Q" resolve="onSumDeclaration" />
                 </node>
               </node>
-              <node concept="2cbQmw" id="GPUCAiQjTQ" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPh2EG" />
+              <node concept="2cbQmw" id="3Kl1xgfDcgG" role="2cbQmx">
+                <ref role="2cbOmP" node="3Kl1xgfDbRi" />
               </node>
             </node>
           </node>
-          <node concept="2YkuD0" id="GPUCAiQjTF" role="2YkuMr">
-            <ref role="2YkuCD" node="2M$$wSPh2Ex" resolve="inTestBlockExpr" />
+          <node concept="2YkuD0" id="3Kl1xgfDcfe" role="2YkuMr">
+            <ref role="2YkuCD" node="2M$$wSPh2LJ" resolve="inTestcase" />
           </node>
         </node>
       </node>
     </node>
     <node concept="3scrou" id="GPUCAiSsMf" role="1zJi$$">
-      <property role="TrG5h" value="stepOverBlockExpr" />
+      <property role="TrG5h" value="stepThroughLoop" />
       <node concept="3cqZAl" id="GPUCAiSsMg" role="3clF45" />
       <node concept="3clFbS" id="GPUCAiSsMh" role="3clF47" />
       <node concept="3sdZbQ" id="GPUCAiSsMi" role="3scror">
-        <node concept="3sdZbA" id="GPUCAiSsNN" role="3sdZbB">
-          <ref role="3sa5fj" to="696j:GPUCAiSseO" resolve="onBlockexpr" />
+        <node concept="3sdZbA" id="3Kl1xgfDclG" role="3sdZbB">
+          <ref role="3sa5fj" to="d13k:3Kl1xgfCB4Q" resolve="onSumDeclaration" />
         </node>
       </node>
       <node concept="3savIG" id="GPUCAiSsMk" role="3savwP">
         <node concept="2$4FYR" id="GPUCAiSsMl" role="3savID">
-          <property role="2qnp9" value="1" />
+          <property role="2qnp9" value="24" />
         </node>
       </node>
       <node concept="3F5Y_J" id="GPUCAiSsMm" role="3F5AM1">
         <node concept="2fHxXo" id="GPUCAiSsMn" role="3F5Y$9">
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
-          <node concept="2fImz0" id="GPUCAiSsMo" role="2fImBQ">
-            <property role="3mtXQA" value="testcode.mbeddr.debugger.blockexpr.blockexpr" />
-            <node concept="2cbQls" id="GPUCAiSsMp" role="2f_Tkj">
-              <node concept="1s2qdC" id="GPUCAiSsMq" role="1s2qdL">
-                <ref role="1s2qet" node="2M$$wSPh2Ez" />
+          <node concept="2fImz0" id="3Kl1xgfDcnC" role="2fImBQ">
+            <property role="3mtXQA" value="testcode.mbeddr.debugger.example.efficient.example" />
+            <node concept="2cbQls" id="3Kl1xgfDcnE" role="2f_Tkj">
+              <node concept="1s2qdC" id="3Kl1xgfDcnF" role="1s2qdL">
+                <ref role="1s2qet" node="2M$$wSPhBGF" />
               </node>
-              <node concept="2cbQmw" id="GPUCAiSsMr" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPh2EC" />
-                <node concept="1vuW9F" id="GPUCAiSsMs" role="1unUxQ">
-                  <property role="TrG5h" value="w" />
-                  <node concept="1IjokO" id="GPUCAiSsMt" role="1vuW9J">
-                    <ref role="pJjxO" to="696j:7Y7QNUtTNru" resolve="conditionVar" />
-                  </node>
-                  <node concept="1IjokO" id="GPUCAiSt0f" role="1vuW9J">
-                    <ref role="pJjxO" to="696j:GPUCAiSs8S" resolve="res" />
-                  </node>
-                  <node concept="1IjokO" id="3v460BYAttA" role="1vuW9J">
-                    <ref role="pJjxO" to="696j:GPUCAiSsdh" resolve="tmp" />
-                  </node>
-                </node>
-                <node concept="3cQ7K9" id="GPUCAiSt0c" role="1vlyYN">
+              <node concept="2cbQmw" id="3Kl1xgfDco4" role="2cbQmx">
+                <ref role="2cbOmP" node="3Kl1xgfDc2o" />
+                <node concept="3cQ7K9" id="3Kl1xgfDcqf" role="1vlyYN">
                   <property role="3sdDOw" value="marker" />
-                  <ref role="3cQ7K8" to="696j:GPUCAiSsUB" resolve="inBlockExpr" />
+                  <ref role="3cQ7K8" to="d13k:3Kl1xgfCBac" resolve="onAssert" />
+                </node>
+                <node concept="1vuW9F" id="3Kl1xgfDcs3" role="1unUxQ">
+                  <property role="TrG5h" value="w" />
+                  <node concept="1IjokT" id="3Kl1xgfDctX" role="1vuW9J">
+                    <node concept="1IjokO" id="3Kl1xgfDcs5" role="1IjokY">
+                      <ref role="pJjxO" to="d13k:3Kl1xgfCB2Q" resolve="sum" />
+                    </node>
+                    <node concept="1Ijokc" id="3Kl1xgfDcu1" role="1IjokZ">
+                      <node concept="1Iiwbp" id="3Kl1xgfDcu2" role="1IiwdV">
+                        <property role="1IiwdR" value="55" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
-              <node concept="2cbQmw" id="GPUCAiSsMw" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPh2EG" />
+              <node concept="2cbQmw" id="3Kl1xgfDco5" role="2cbQmx">
+                <ref role="2cbOmP" node="3Kl1xgfDbRi" />
               </node>
             </node>
           </node>
-          <node concept="2YkuD0" id="GPUCAiSsMx" role="2YkuMr">
-            <ref role="2YkuCD" node="2M$$wSPh2Ex" resolve="inTestBlockExpr" />
+          <node concept="2YkuD0" id="3Kl1xgfDcn_" role="2YkuMr">
+            <ref role="2YkuCD" node="2M$$wSPh2LJ" resolve="inTestcase" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="3scrou" id="GPUCAiSt1v" role="1zJi$$">
-      <property role="TrG5h" value="stepFromBlockExpr" />
-      <node concept="3cqZAl" id="GPUCAiSt1w" role="3clF45" />
-      <node concept="3clFbS" id="GPUCAiSt1x" role="3clF47" />
-      <node concept="3sdZbQ" id="GPUCAiSt1y" role="3scror">
-        <node concept="3sdZbA" id="GPUCAiSt8V" role="3sdZbB">
-          <ref role="3sa5fj" to="696j:GPUCAiSt3m" resolve="yieldInBlockExpr" />
+    <node concept="3sgmnF" id="3Kl1xgfDcw0" role="1zJi$$" />
+    <node concept="3scrou" id="3Kl1xgfDc$z" role="1zJi$$">
+      <property role="TrG5h" value="lastStmnt" />
+      <property role="3sdR9e" value="true" />
+      <node concept="3cqZAl" id="3Kl1xgfDc$_" role="3clF45" />
+      <node concept="3clFbS" id="3Kl1xgfDc$B" role="3clF47" />
+      <node concept="3sdZbQ" id="3Kl1xgfDcDY" role="3scror">
+        <node concept="3sdZbA" id="3Kl1xgfDcE0" role="3sdZbB">
+          <ref role="3sa5fj" to="d13k:3Kl1xgfCBac" resolve="onAssert" />
         </node>
       </node>
-      <node concept="3savIG" id="GPUCAiSt1$" role="3savwP">
-        <node concept="2$4FYR" id="GPUCAiSt1_" role="3savID">
-          <property role="2qnp9" value="2" />
-        </node>
-      </node>
-      <node concept="3F5Y_J" id="GPUCAiSt1A" role="3F5AM1">
-        <node concept="2fHxXo" id="GPUCAiSt1B" role="3F5Y$9">
+      <node concept="3F5Y_J" id="3Kl1xgfDcFX" role="3F5AM1">
+        <node concept="2fHxXo" id="3Kl1xgfDcFZ" role="3F5Y$9">
           <property role="TrG5h" value="ls" />
           <property role="3mX51a" value="1" />
-          <node concept="2fImz0" id="GPUCAiSt1C" role="2fImBQ">
-            <property role="3mtXQA" value="testcode.mbeddr.debugger.blockexpr.blockexpr" />
-            <node concept="2cbQls" id="GPUCAiSt1D" role="2f_Tkj">
-              <node concept="1s2qdC" id="GPUCAiSt1E" role="1s2qdL">
+          <node concept="2fImz0" id="3Kl1xgfDcG8" role="2fImBQ">
+            <property role="3mtXQA" value="testcode.mbeddr.debugger.example.efficient.example" />
+            <node concept="2cbQls" id="3Kl1xgfDcGa" role="2f_Tkj">
+              <node concept="1s2qdC" id="3Kl1xgfDcGb" role="1s2qdL">
                 <ref role="1s2qet" node="2M$$wSPh2Ez" />
               </node>
-              <node concept="2cbQmw" id="GPUCAiSt1F" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPh2EC" />
-                <node concept="1vuW9F" id="GPUCAiSt1G" role="1unUxQ">
-                  <property role="TrG5h" value="w" />
-                  <node concept="1IjokO" id="GPUCAiSt1H" role="1vuW9J">
-                    <ref role="pJjxO" to="696j:7Y7QNUtTNru" resolve="conditionVar" />
-                  </node>
-                  <node concept="1IjokO" id="GPUCAiSt91" role="1vuW9J">
-                    <ref role="pJjxO" to="696j:GPUCAiSs8S" resolve="res" />
-                  </node>
-                </node>
-                <node concept="3cQ7K9" id="GPUCAiSt8Y" role="1vlyYN">
-                  <property role="3sdDOw" value="marker" />
-                  <ref role="3cQ7K8" to="696j:2aspXW0ZwjX" resolve="afterBlockExpr" />
-                </node>
-              </node>
-              <node concept="2cbQmw" id="GPUCAiSt1K" role="2cbQmx">
+              <node concept="2cbQmw" id="3Kl1xgfDcG$" role="2cbQmx">
                 <ref role="2cbOmP" node="2M$$wSPh2EG" />
               </node>
             </node>
           </node>
-          <node concept="2YkuD0" id="GPUCAiSt1L" role="2YkuMr">
-            <ref role="2YkuCD" node="2M$$wSPh2Ex" resolve="inTestBlockExpr" />
+          <node concept="2YkuD0" id="3Kl1xgfDcG5" role="2YkuMr">
+            <ref role="2YkuCD" node="2M$$wSPh2Ex" resolve="inMain" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="3sgmnF" id="GPUCAiSsKn" role="1zJi$$" />
-    <node concept="3scrou" id="GPUCAiStby" role="1zJi$$">
-      <property role="TrG5h" value="stepIntoFuncFromBlockExpr" />
-      <node concept="3cqZAl" id="GPUCAiStbz" role="3clF45" />
-      <node concept="3clFbS" id="GPUCAiStb$" role="3clF47" />
-      <node concept="3sdZbQ" id="GPUCAiStb_" role="3scror">
-        <node concept="3sdZbA" id="GPUCAiStdp" role="3sdZbB">
-          <ref role="3sa5fj" to="696j:GPUCAiSsUB" resolve="inBlockExpr" />
-        </node>
-      </node>
-      <node concept="3savIG" id="GPUCAiStbB" role="3savwP">
-        <node concept="2$4FY8" id="GPUCAiStds" role="3savID">
+    <node concept="3sgmnF" id="3Kl1xgfDcxw" role="1zJi$$" />
+    <node concept="3scrou" id="GPUCAiSt1v" role="1zJi$$">
+      <property role="TrG5h" value="stepOverLastStmnt" />
+      <node concept="3cqZAl" id="GPUCAiSt1w" role="3clF45" />
+      <node concept="3clFbS" id="GPUCAiSt1x" role="3clF47" />
+      <node concept="3savIG" id="GPUCAiSt1$" role="3savwP">
+        <node concept="2$4FYR" id="GPUCAiSt1_" role="3savID">
           <property role="2qnp9" value="1" />
         </node>
       </node>
-      <node concept="3F5Y_J" id="GPUCAiStbD" role="3F5AM1">
-        <node concept="2fHxXo" id="GPUCAiStbE" role="3F5Y$9">
-          <property role="TrG5h" value="ls" />
-          <property role="3mX51a" value="1" />
-          <node concept="2fImz0" id="GPUCAiStg8" role="2fImBQ">
-            <property role="3mtXQA" value="testcode.mbeddr.debugger.blockexpr.blockexpr" />
-            <node concept="2cbQls" id="GPUCAiStga" role="2f_Tkj">
-              <node concept="1s2qdC" id="GPUCAiStgb" role="1s2qdL">
-                <ref role="1s2qet" node="2M$$wSPhBGF" />
-              </node>
-              <node concept="2cbQmw" id="GPUCAiStgo" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPhBGO" />
-              </node>
-              <node concept="2cbQmw" id="GPUCAiStgp" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPhBGK" />
-              </node>
-              <node concept="2cbQmw" id="GPUCAiStgq" role="2cbQmx">
-                <ref role="2cbOmP" node="2M$$wSPhBGL" />
-              </node>
-            </node>
-          </node>
-          <node concept="2YkuD0" id="GPUCAiStg5" role="2YkuMr">
-            <ref role="2YkuCD" node="2M$$wSPh2LJ" resolve="inResFunc" />
-          </node>
-        </node>
+      <node concept="UZuib" id="3Kl1xgfDcJ1" role="UYYtp">
+        <ref role="UZi6H" node="3Kl1xgfDc$z" resolve="lastStmnt" />
       </node>
     </node>
+    <node concept="3sgmnF" id="GPUCAiSsKn" role="1zJi$$" />
+    <node concept="3scrou" id="3Kl1xgfDcNT" role="1zJi$$">
+      <property role="TrG5h" value="stepIntoLastStmnt" />
+      <node concept="3cqZAl" id="3Kl1xgfDcNU" role="3clF45" />
+      <node concept="3clFbS" id="3Kl1xgfDcNV" role="3clF47" />
+      <node concept="3savIG" id="3Kl1xgfDcNW" role="3savwP">
+        <node concept="2$4FY8" id="3Kl1xgfDcTO" role="3savID">
+          <property role="2qnp9" value="1" />
+        </node>
+      </node>
+      <node concept="UZuib" id="3Kl1xgfDcNY" role="UYYtp">
+        <ref role="UZi6H" node="3Kl1xgfDc$z" resolve="lastStmnt" />
+      </node>
+    </node>
+    <node concept="3sgmnF" id="3Kl1xgfDcPj" role="1zJi$$" />
+    <node concept="3scrou" id="3Kl1xgfDcSi" role="1zJi$$">
+      <property role="TrG5h" value="stepOutLastStmnt" />
+      <node concept="3cqZAl" id="3Kl1xgfDcSj" role="3clF45" />
+      <node concept="3clFbS" id="3Kl1xgfDcSk" role="3clF47" />
+      <node concept="3savIG" id="3Kl1xgfDcSl" role="3savwP">
+        <node concept="2$4FYd" id="3Kl1xgfDcTR" role="3savID">
+          <property role="2qnp9" value="1" />
+        </node>
+      </node>
+      <node concept="UZuib" id="3Kl1xgfDcSn" role="UYYtp">
+        <ref role="UZi6H" node="3Kl1xgfDc$z" resolve="lastStmnt" />
+      </node>
+    </node>
+    <node concept="3sgmnF" id="3Kl1xgfDcQD" role="1zJi$$" />
+    <node concept="3sgmnF" id="3Kl1xgfDcMo" role="1zJi$$" />
     <node concept="3sgmnF" id="2M$$wSPh2BF" role="1zJi$$" />
-    <node concept="3qy1PH" id="GPUCAiSs1j" role="3qy1PE">
-      <ref role="30ajXG" to="696j:7Y7QNUtTIfB" resolve="BlockExpr" />
+    <node concept="3qy1PH" id="3Kl1xgfDbBT" role="3qy1PE">
+      <ref role="30ajXG" to="d13k:7Y7QNUtTIfB" resolve="UnitTestingBinary" />
     </node>
     <node concept="U_CzD" id="6zNZ1PJE2ij" role="UwsDd">
-      <node concept="U_CsH" id="6zNZ1PJE2io" role="U_Czc" />
       <node concept="U_Csd" id="6zNZ1PJE2vk" role="U_Czc" />
-      <node concept="U_Css" id="6zNZ1PJE2rL" role="U_Czc" />
       <node concept="29bEnc" id="6zNZ1PJE2im" role="U_Czs" />
     </node>
-  </node>
-  <node concept="2XOHcx" id="7Y7QNUtTGfC">
-    <property role="2XOHcw" value="${mulder.home}/code/languages/multilevel/" />
   </node>
 </model>
 

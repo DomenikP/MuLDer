@@ -67,20 +67,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="7MFNr6DbAdI">
-    <property role="TrG5h" value="CallSequence" />
-    <property role="34LRSv" value="sequence" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7MFNr6Dm7vL" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="steps" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="7MFNr6Dm73S" resolve="SequenceStep" />
-    </node>
-    <node concept="PrWs8" id="7MFNr6Dm73K" role="PzmwI">
-      <ref role="PrY4T" to="32lw:6aU7c0vIRMw" resolve="IComponentContent" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="7MFNr6DbAdK">
     <property role="TrG5h" value="MockComponent" />
     <property role="34LRSv" value="mock component" />

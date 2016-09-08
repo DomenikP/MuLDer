@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:54f84133-3970-4151-9252-aa50070f28ba(MUnit.gen.efficient.structure)">
+<model ref="r:974c685c-3b07-4285-a430-c0a50196a60d(MUnit.gen.plain.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
@@ -28,12 +28,12 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="14emBKkXFp9">
-    <property role="TrG5h" value="EfficientGen" />
-    <property role="34LRSv" value="efficient" />
+  <node concept="1TIwiD" id="14emBKkTkRn">
+    <property role="TrG5h" value="PlainCMUnitGenerator" />
+    <property role="34LRSv" value="plainC" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="14emBKkXFpa" role="PzmwI">
-      <ref role="PrY4T" to="e1nu:14emBKkWJpZ" resolve="GenStrategy" />
+    <node concept="PrWs8" id="7E8Lu6mCFt9" role="PzmwI">
+      <ref role="PrY4T" to="e1nu:14emBKkWJpZ" resolve="MUnitGeneratorStrategy" />
     </node>
   </node>
 </model>

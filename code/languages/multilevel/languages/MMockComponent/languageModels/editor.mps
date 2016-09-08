@@ -247,35 +247,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="7MFNr6DmaMr">
-    <ref role="1XX52x" to="ef37:7MFNr6DbAdI" resolve="CallSequence" />
-    <node concept="3EZMnI" id="7MFNr6DmaMx" role="2wV5jI">
-      <node concept="3F0ifn" id="7MFNr6DmaMt" role="3EZMnx">
-        <property role="3F0ifm" value="sequence" />
-        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
-      </node>
-      <node concept="3F0ifn" id="7MFNr6DmaMF" role="3EZMnx">
-        <property role="3F0ifm" value="{" />
-        <node concept="ljvvj" id="7MFNr6DmaP1" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="7MFNr6DmaN5" role="3EZMnx">
-        <ref role="1NtTu8" to="ef37:7MFNr6Dm7vL" />
-        <node concept="ljvvj" id="7MFNr6DmaOT" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="7MFNr6DmaQL" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="2iRkQZ" id="7MFNr6DmNEj" role="2czzBx" />
-      </node>
-      <node concept="3F0ifn" id="7MFNr6DmaMN" role="3EZMnx">
-        <property role="3F0ifm" value="}" />
-      </node>
-      <node concept="l2Vlx" id="7MFNr6DmaM$" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="7MFNr6DmaRF">
     <ref role="1XX52x" to="ef37:7MFNr6Dm73S" resolve="SequenceStep" />
     <node concept="3EZMnI" id="7MFNr6DmaRH" role="2wV5jI">
@@ -366,7 +337,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5BV0G0QQKvb">
-    <ref role="1XX52x" to="ef37:5BV0G0QQJ0D" resolve="FaildExpectationsExpression" />
+    <ref role="1XX52x" to="ef37:5BV0G0QQJ0D" resolve="FailedExpectationsExpression" />
     <node concept="3EZMnI" id="5BV0G0QQL37" role="2wV5jI">
       <node concept="3F0ifn" id="5BV0G0QQL3e" role="3EZMnx">
         <property role="3F0ifm" value="faildExpectations" />

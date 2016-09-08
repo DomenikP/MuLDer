@@ -31,11 +31,11 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="14emBKkTkRn">
-    <property role="TrG5h" value="DefaultMUnitGenerator" />
+    <property role="TrG5h" value="DefaultGen" />
     <property role="34LRSv" value="default" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="14emBKkWJqf" role="PzmwI">
-      <ref role="PrY4T" to="e1nu:14emBKkWJpZ" resolve="MUnitGeneratorStrategy" />
+      <ref role="PrY4T" to="e1nu:14emBKkWJpZ" resolve="GenStrategy" />
     </node>
   </node>
 </model>

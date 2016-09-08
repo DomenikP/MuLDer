@@ -9,9 +9,11 @@
       <modulePath path="$PROJECT_DIR$/languages/DeSpec.mbeddr/DeSpec.mbeddr.mpl" folder="mbeddr.debugger" />
       <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="mulder" />
       <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/MLoops/MLoops.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/MMockComponent/MMockComponent.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.def/MUnit.gen.def.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.efficient/MUnit.gen.efficient.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.plain/MUnit.gen.plain.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/MUnit/MUnit.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/PerformanceSimulator/PerformanceSimulator.mpl" folder="performance" />
       <modulePath path="$PROJECT_DIR$/languages/Tracing/Tracing.mpl" folder="mulder" />
@@ -73,6 +75,8 @@
       <modulePath path="$PROJECT_DIR$/solutions/testcode.mbeddr.debugger.closure/testcode.mbeddr.debugger.closure.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/testcode.mbeddr.debugger.components/testcode.mbeddr.debugger.components.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/testcode.mbeddr.debugger.dectab/testcode.mbeddr.debugger.dectab.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/solutions/testcode.mbeddr.debugger.default.example/testcode.mbeddr.debugger.default.example.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/solutions/testcode.mbeddr.debugger.example/testcode.mbeddr.debugger.example.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/testcode.mbeddr.debugger.mocks/testcode.mbeddr.debugger.mocks.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/testcode.mbeddr.debugger.statemachines/testcode.mbeddr.debugger.statemachines.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/testcode.mbeddr.debugger.testingEfficient/testcode.mbeddr.debugger.testingEfficient.msd" folder="tests" />
