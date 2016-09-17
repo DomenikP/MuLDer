@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="mbeddr.build">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.build" />
+              <option name="path" value="${mbeddr.home}/code/languages/com.mbeddr.build" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mbeddr.core">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.core" />
+              <option name="path" value="${mbeddr.home}/code/languages/com.mbeddr.core" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mbeddr.mpsutil">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.mpsutil" />
+              <option name="path" value="${mbeddr.home}/code/languages/com.mbeddr.mpsutil" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mbeddr.sl-all">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.sl-all" />
+              <option name="path" value="${mbeddr.home}/code/plugins/sl-all" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mbeddr.sl-debugger">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.sl-debugger" />
+              <option name="path" value="${mbeddr.home}/code/languages/com.mbeddr.debugger" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mulder">
+          <value>
+            <Library>
+              <option name="name" value="mulder" />
+              <option name="path" value="$PROJECT_DIR$/../mulder" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

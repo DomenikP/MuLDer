@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.Model/DeSpec.Model.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.Text/DeSpec.Text.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.TextGen/DeSpec.TextGen.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec.preferences/DeSpec.preferences.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DeSpec/DeSpec.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Tracing/Tracing.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/mulder.modelgen/mulder.modelgen.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.Generator.runtime/DeSpec.Generator.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.pluginSolution/DeSpec.pluginSolution.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DeSpec.runtime/DeSpec.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Tracing.runtime/Tracing.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mulder.build/mulder.build.msd" folder="build" />
+      <modulePath path="$PROJECT_DIR$/solutions/mulder.model.runtime/mulder.model.runtime.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

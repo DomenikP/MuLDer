@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/MAtomicComponent/MAtomicComponent.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MLoops/MLoops.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MMockComponent/MMockComponent.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MStubComponent/MStubComponent.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.def/MUnit.gen.def.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.efficient/MUnit.gen.efficient.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MUnit.gen.plain/MUnit.gen.plain.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MUnit/MUnit.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/PerformanceSimulator/PerformanceSimulator.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/mstatemachine/mstatemachine.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mbeddr.extensions.build/mbeddr.extensions.build.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

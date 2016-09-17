@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="MuLDer" uuid="ce31ac8f-18fd-49f2-8454-79c4edc3ad2f">
+  <exported-language name="11a0cd79-9f2e-4665-a280-57a3cc526924(mulder.base)" />
+  <exported-solutions>
+    <exported-solution>f3eac385-54e3-4a21-896a-eb362971f50b(mulder.base.runtime)</exported-solution>
+  </exported-solutions>
+</dev-kit>
+

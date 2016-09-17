@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="build">
+          <value>
+            <Library>
+              <option name="name" value="build" />
+              <option name="path" value="${mbeddr.home}/code/languages/com.mbeddr.build" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="build-sl-all">
+          <value>
+            <Library>
+              <option name="name" value="build-sl-all" />
+              <option name="path" value="${mbeddr.home}/code/plugins/sl-all/solutions/de.slisson.mps.all.build" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="plugins">
+          <value>
+            <Library>
+              <option name="name" value="plugins" />
+              <option name="path" value="$PROJECT_DIR$/../../../artifacts" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

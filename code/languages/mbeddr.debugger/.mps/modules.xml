@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.core.debug.test/solutions/pluginSolution/runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.core.debug.test/test.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/mbeddr.debugger.testing.adapter/mbeddr.debugger.testing.adapter.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/mbeddr.debugger.testing/mbeddr.debugger.testing.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mbeddr.debugger.backendProvider/multiLevel.backendProvider.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mbeddr.debugger.build/mbeddr.debugger.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mbeddr.debugger.runconfiguration/multiLevel.runconfiguration.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mbeddr.debugger.runtime/mbeddr.debugger.runtime.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
