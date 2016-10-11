@@ -23,7 +23,7 @@ You can find on our [release page](https://github.com/DomenikP/MuLDer/releases) 
 #Example
 
 The video below demonstrates for two mbeddr language extensions how we use MuLDer to build multi-level debugging support for both language extensions.
-![Debugger Video](video:https://github.com/DomenikP/MuLDer/blob/master/videos/Debugger.m4v)
+[![DebuggerVideos](http://img.youtube.com/vi/GqQ-a5N6GTU/hqdefault.jpg)](https://www.youtube.com/watch?v=GqQ-a5N6GTU&feature=youtu.be)
 
 The following video illustrates how we use the debugging support built in previous video to debug on different abstraction levels code that has been written with both language extensions.
 
