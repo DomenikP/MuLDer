@@ -14,14 +14,11 @@ Please make sure you have a JDK 6+ installed, which is a requirement for the cus
 
 You can find on our [release page](https://github.com/DomenikP/MuLDer/releases) for the supported operating systems (Linux, Windows and Mac) respective software distributions following this name pattern: mulder-<version>-<operating system>.zip  After downloading the zip file, please unzip at a file system location of your choice. You can start MPS on Windows by executing the mps.bat file that is located inside the unzipped folder, while the Linux distribution comes with a mps.sh file also located in the unzipped folder. On Mac, simply double click on the .app file to start MPS.
 
-##mbeddr multi-level debugger
+##mbeddr Multi-Level Debugger + MuLDer Framework
 
 Please make sure you have a JDK 6+ installed, which is a requirement for the customized [MPS](https://github.com/DomenikP/MLMPS) version that we use. Additionally, please read the [mbeddr installation guide](http://mbeddr.com/download.html) and install all tools that are required for your operating system. Otherwise you won't be able to compile and debug C program that have generated with mbeddr.
 
 You can find on our [release page](https://github.com/DomenikP/MuLDer/releases) for the supported operating systems (Linux, Windows and Mac) respective software distributions following this name pattern: mbeddr-<version>-<operating system>.zip  After downloading the zip file, please unzip at a file system location of your choice. You can start MPS on Windows by executing the mps.bat file that is located inside the unzipped folder, while the Linux distribution comes with a mps.sh file also located in the unzipped folder. On Mac, simply double click on the .app file to start MPS. Additionally, the file language-example.zip contains a small language extension illustrating a simple debugger definition.
-
-http://mbeddr.com/download.html
-
 
 #Example
 
