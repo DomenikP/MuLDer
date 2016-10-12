@@ -26,5 +26,7 @@ The video below demonstrates for two mbeddr language extensions how we use MuLDe
 
 [![DebuggerVideos](http://img.youtube.com/vi/paziGUePtp8/hqdefault.jpg)](https://youtu.be/paziGUePtp8)
 
-The following video illustrates how we use the debugging support built in previous video to debug on different abstraction levels code that has been written with both language extensions. You can find the MPS project containing the code release page](https://github.com/DomenikP/MuLDer/releases) inside the language-example.zip file.
+The following video illustrates how we use the debugging support built in previous video to debug on different abstraction levels code that has been written with both language extensions. You can find the MPS project containing the code on the [release page](https://github.com/DomenikP/MuLDer/releases) inside the language-example.zip file.
+
+[![DebuggerVideos](http://img.youtube.com/vi/paziGUePtp8/hqdefault.jpg)](https://youtu.be/paziGUePtp8)
 
