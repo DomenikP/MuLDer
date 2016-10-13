@@ -26,21 +26,22 @@ This section describes the steps required for installing two different software 
 
 Please make sure you have a JDK 6+ installed, which is a requirement for the customized [MPS](https://github.com/DomenikP/MLMPS) version that we use. 
 
-You can find on our [release page](https://github.com/DomenikP/MuLDer/releases) for the supported operating systems (Linux, Windows and Mac) respective software distributions following this name pattern: mulder-<version>-<operating system>.zip  After downloading the zip file, please unzip at a file system location of your choice. You can start MPS on Windows by executing the mps.bat file that is located inside the unzipped folder, while the Linux distribution comes with a mps.sh file also located in the unzipped folder. On Mac, simply double click on the .app file to start MPS.
+You can find on our [release page](https://github.com/DomenikP/MuLDer/releases) for the supported operating systems (Linux, Windows and Mac) respective software distributions following this name pattern: mulder-*version*-*operating system*.zip  After downloading the zip file, please unzip at a file system location of your choice. You can start MPS on Windows by executing the mps.bat file that is located inside the unzipped folder, while the Linux distribution comes with a mps.sh file also located in the unzipped folder. On Mac, simply double click on the .app file to start MPS.
 
 ##mbeddr Multi-Level Debugger + MuLDer Framework
 
 Please make sure you have a JDK 6+ installed, which is a requirement for the customized [MPS](https://github.com/DomenikP/MLMPS) version that we use. Additionally, please read the [mbeddr installation guide](http://mbeddr.com/download.html) and install all tools that are required for your operating system. Otherwise you won't be able to compile and debug C program that have generated with mbeddr.
 
-You can find on our [release page](https://github.com/DomenikP/MuLDer/releases) for the supported operating systems (Linux, Windows and Mac) respective software distributions following this name pattern: mbeddr-<version>-<operating system>.zip  After downloading the zip file, please unzip at a file system location of your choice. You can start MPS on Windows by executing the mps.bat file that is located inside the unzipped folder, while the Linux distribution comes with a mps.sh file also located in the unzipped folder. On Mac, simply double click on the .app file to start MPS. Additionally, the file language-example.zip contains a small language extension illustrating a simple debugger definition.
+You can find on our [release page](https://github.com/DomenikP/MuLDer/releases) for the supported operating systems (Linux, Windows and Mac) respective software distributions following this name pattern: mbeddr-*version*-*operating system*.zip  After downloading the zip file, please unzip at a file system location of your choice. You can start MPS on Windows by executing the mps.bat file that is located inside the unzipped folder, while the Linux distribution comes with a mps.sh file also located in the unzipped folder. On Mac, simply double click on the .app file to start MPS. Additionally, the file language-example.zip contains a small language extension illustrating a simple debugger definition.
 
 #Example
 
-The video below demonstrates for two mbeddr language extensions how we use MuLDer to build multi-level debugging support for both language extensions.
+The following two videos below demonstrate for two mbeddr language extensions how we use the MuLDer framework to build multi-level debugging support for both language extensions.
 
-[![DebuggerVideos](http://img.youtube.com/vi/paziGUePtp8/hqdefault.jpg)](https://youtu.be/paziGUePtp8)
+[![DebuggerVideos](http://img.youtube.com/vi/3sQZoOWZ3ho/hqdefault.jpg)](https://youtu.be/3sQZoOWZ3ho)
+[![DebuggerVideos](http://img.youtube.com/vi/3sQZoOWZ3ho/hqdefault.jpg)](https://youtu.be/3sQZoOWZ3ho)
 
-The following video illustrates how we use the debugging support built in previous video to debug on different abstraction levels code that has been written with both language extensions. You can find the MPS project containing the code on the [release page](https://github.com/DomenikP/MuLDer/releases) inside the language-example.zip file.
+The next video illustrates how we use the debugging support built in both previous videos to debug on different abstraction levels code that has been written with both language extensions. You can find the MPS project containing the code on the [release page](https://github.com/DomenikP/MuLDer/releases) inside the language-example.zip file.
 
 [![DebuggerVideos](http://img.youtube.com/vi/paziGUePtp8/hqdefault.jpg)](https://youtu.be/paziGUePtp8)
 
