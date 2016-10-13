@@ -4,6 +4,20 @@ D. Pavletic, S. A. Raza, K. Dummann, and K. Haßlbauer. [Testing Extensible Lang
 
 D. Pavletic and K. Haßlbauer. [Interactive Debugging for Extensible Languages in Multi-Stage Transformation Environments](http://www.modelexecution.org/media/EXE2016/papers/EXE_2016_paper_10.pdf). 2nd International Workshop on Executable Modeling co-located with ACM/IEEE 19th International Conference on Model Driven Engineering Languages and Systems (MODELS 2016), Saint Malo, France, October 2nd, 2016., 2016.
 
+#Repository Structure
+
+The repository is structured the following way:
+```
+mbeddr.core
+└─code
+  └─languages
+    └─mbeddr.debugger (MPS project: multi-level debugger)
+    └─mbeddr.extensions (MPS project: language extensions for mbeddr)
+    └─mulder (MPS project: the MuLDer framework)
+    └─tests (MPS project: performance and functional tests for the mbeddr multi-level debugger)
+└─performance-results (results of measuring the performance of different stepping algorithms)
+```
+
 #Installation Guide
 
 This section describes the steps required for installing two different software packages that we provide. First, the pure *MuLDer framework* distribution that can be used by language engineers to build multi-level debugging support for their MPS-based extensible programming language. Second, the *mbeddr multi-level debugger* distribution including a multi-level debugger for mbeddr, MuLDer, DeTeL, the mbeddr C language and various language extension for mbeddr.
