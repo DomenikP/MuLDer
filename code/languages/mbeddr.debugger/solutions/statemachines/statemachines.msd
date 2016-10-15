@@ -7,7 +7,7 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff(mstatemachine)</dependency>
+    <dependency reexport="false">4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff(MStatemachine)</dependency>
     <dependency reexport="false">61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</dependency>
     <dependency reexport="false">3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)</dependency>
     <dependency reexport="false">efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)</dependency>
@@ -24,7 +24,6 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>2d7fadf5-33f6-4e80-a78f-0f739add2bde(com.mbeddr.core.buildconfig)</usedLanguage>
-    <usedLanguage>4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff(mstatemachine)</usedLanguage>
     <usedLanguage>61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</usedLanguage>
     <usedLanguage>a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)</usedLanguage>
     <usedLanguage>3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)</usedLanguage>
@@ -54,11 +53,13 @@
     <usedLanguage>f93d1dbe-bfd1-42dd-932a-f375fa6f5373(com.mbeddr.core.make)</usedLanguage>
     <usedLanguage>1eccb924-20cd-4906-892e-e72b13cf0fad(MUnit.gen.plain)</usedLanguage>
     <usedLanguage>641320d1-e050-4409-ad8e-7f9b379091fa(MLoop)</usedLanguage>
+    <usedLanguage>4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff(MStatemachine)</usedLanguage>
   </usedLanguages>
   <languageVersions>
     <language id="5529be6b-f382-41f9-834c-9d6b2e079511" fqName="MAtomicComponent" version="0" />
     <language id="641320d1-e050-4409-ad8e-7f9b379091fa" fqName="MLoop" version="0" />
     <language id="eb6e703a-d3cc-488e-a462-15d37e40ae7a" fqName="MMockComponent" version="0" />
+    <language id="4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff" fqName="MStatemachine" version="0" />
     <language id="bec9c00b-b5be-48af-9766-38765bcc974d" fqName="MUnit" version="0" />
     <language id="7ce26145-e88e-4147-80f6-84aca3a7cb16" fqName="MUnit.gen.def" version="0" />
     <language id="72548d30-5797-4668-a0d3-be1e47fc05b7" fqName="MUnit.gen.efficient" version="0" />
@@ -86,7 +87,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="0" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
-    <language id="4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff" fqName="mstatemachine" version="0" />
     <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" fqName="mulder.base" version="0" />
   </languageVersions>
 </solution>

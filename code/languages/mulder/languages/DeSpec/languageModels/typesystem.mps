@@ -525,7 +525,7 @@
                   </node>
                   <node concept="2OqwBi" id="3MxRD99EgJo" role="33vP2m">
                     <node concept="1PxgMI" id="3MxRD99EgJp" role="2Oq$k0">
-                      <ref role="1PxNhF" to="k6mm:3MxRD99lmKC" resolve="ComplexValueSpecification" />
+                      <ref role="1PxNhF" to="k6mm:3MxRD99lmKC" resolve="ComplexValue" />
                       <node concept="2OqwBi" id="3MxRD99EgJq" role="1PxMeX">
                         <node concept="1PxgMI" id="3MxRD99EgJr" role="2Oq$k0">
                           <ref role="1PxNhF" to="k6mm:4$20B80zani" resolve="WatchValueType" />
@@ -577,7 +577,7 @@
                   </node>
                   <node concept="1mIQ4w" id="1pKlcOGeww$" role="2OqNvi">
                     <node concept="chp4Y" id="1pKlcOGewxc" role="cj9EA">
-                      <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatchSpecification" />
+                      <ref role="cht4Q" to="k6mm:3MxRD99llIN" resolve="SingleWatch" />
                     </node>
                   </node>
                 </node>
@@ -620,7 +620,7 @@
                     </node>
                     <node concept="1mIQ4w" id="1pKlcOGewzd" role="2OqNvi">
                       <node concept="chp4Y" id="1pKlcOGew$3" role="cj9EA">
-                        <ref role="cht4Q" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatchesSpecification" />
+                        <ref role="cht4Q" to="k6mm:1pKlcOFVOmW" resolve="MultipleWatches" />
                       </node>
                     </node>
                   </node>
@@ -664,7 +664,7 @@
                     </node>
                     <node concept="1mIQ4w" id="1pKlcOH9z1Y" role="2OqNvi">
                       <node concept="chp4Y" id="1pKlcOH9z2O" role="cj9EA">
-                        <ref role="cht4Q" to="k6mm:UFIAu3qoCX" resolve="AbsentWatchSpecification" />
+                        <ref role="cht4Q" to="k6mm:UFIAu3qoCX" resolve="AbsentWatch" />
                       </node>
                     </node>
                   </node>
@@ -1275,7 +1275,7 @@
     </node>
     <node concept="1YaCAy" id="8ik0RGEU88" role="1YuTPh">
       <property role="TrG5h" value="canContributeStackFrame" />
-      <ref role="1YaFvo" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+      <ref role="1YaFvo" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     </node>
   </node>
   <node concept="18kY7G" id="9tjUHDsK2m">
@@ -1303,7 +1303,7 @@
                 <node concept="2Xjw5R" id="9tjUHDsKLz" role="2OqNvi">
                   <node concept="1xMEDy" id="9tjUHDsKL_" role="1xVPHs">
                     <node concept="chp4Y" id="9tjUHDsKM6" role="ri$Ld">
-                      <ref role="cht4Q" to="k6mm:WsW$R6dIy7" resolve="SteppableContext" />
+                      <ref role="cht4Q" to="k6mm:WsW$R6dIy7" resolve="SteppableComposite" />
                     </node>
                   </node>
                 </node>
@@ -1340,7 +1340,7 @@
                             <node concept="2Xjw5R" id="9tjUHFBX5r" role="2OqNvi">
                               <node concept="1xMEDy" id="9tjUHFBX5s" role="1xVPHs">
                                 <node concept="chp4Y" id="9tjUHFBX5t" role="ri$Ld">
-                                  <ref role="cht4Q" to="k6mm:WsW$R6dIy7" resolve="SteppableContext" />
+                                  <ref role="cht4Q" to="k6mm:WsW$R6dIy7" resolve="SteppableComposite" />
                                 </node>
                               </node>
                             </node>
@@ -1379,7 +1379,7 @@
     </node>
     <node concept="1YaCAy" id="9tjUHDsK2p" role="1YuTPh">
       <property role="TrG5h" value="canBeSteppable" />
-      <ref role="1YaFvo" to="k6mm:4VYXLgqcAv1" resolve="CanBeSteppable" />
+      <ref role="1YaFvo" to="k6mm:4VYXLgqcAv1" resolve="Steppable" />
     </node>
   </node>
   <node concept="18kY7G" id="2QZOBEh$S3z">

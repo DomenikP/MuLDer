@@ -221,7 +221,7 @@
       <ref role="20lvS9" node="2RsptmMnZ0C" resolve="IVirtualFrameSpec" />
     </node>
     <node concept="M6xJ_" id="5r59uMnw8aY" role="lGtFl">
-      <property role="Hh88m" value="virtualFrame" />
+      <property role="Hh88m" value="outlineFrame" />
       <node concept="trNpa" id="6bdDYiEqKH6" role="EQaZv">
         <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>

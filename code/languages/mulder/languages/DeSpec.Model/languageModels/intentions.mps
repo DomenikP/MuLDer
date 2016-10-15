@@ -106,7 +106,7 @@
                   <node concept="2Sf5sV" id="3oPrgty3iSm" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="3oPrgty3iSn" role="2OqNvi">
                     <node concept="3CFYIy" id="3oPrgty3iSo" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:3oPrgty2jow" resolve="GeneratedValueLifterFromModel" />
+                      <ref role="3CFYIx" to="2cz0:3oPrgty2jow" resolve="M2MGeneratedValueLifter" />
                     </node>
                   </node>
                 </node>
@@ -119,7 +119,7 @@
               <node concept="2Sf5sV" id="3oPrgty3i7H" role="2Oq$k0" />
               <node concept="3CFZ6_" id="3oPrgty3iez" role="2OqNvi">
                 <node concept="3CFYIy" id="3oPrgty3ifS" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:3oPrgty2jow" resolve="GeneratedValueLifterFromModel" />
+                  <ref role="3CFYIx" to="2cz0:3oPrgty2jow" resolve="M2MGeneratedValueLifter" />
                 </node>
               </node>
             </node>
@@ -133,7 +133,7 @@
                     <node concept="2Sf5sV" id="3oPrgty3iUV" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="3oPrgty3iUW" role="2OqNvi">
                       <node concept="3CFYIy" id="3oPrgty3iUX" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:3oPrgty2jow" resolve="GeneratedValueLifterFromModel" />
+                        <ref role="3CFYIx" to="2cz0:3oPrgty2jow" resolve="M2MGeneratedValueLifter" />
                       </node>
                     </node>
                   </node>
@@ -180,7 +180,7 @@
                   <node concept="2Sf5sV" id="3oPrgty3k9m" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="3oPrgty3k9n" role="2OqNvi">
                     <node concept="3CFYIy" id="3oPrgty3kGO" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:3oPrgty2jo_" resolve="GeneratedDelegatedValueLifterFromModel" />
+                      <ref role="3CFYIx" to="2cz0:3oPrgty2jo_" resolve="M2MGeneratedDelegateToValueProvider" />
                     </node>
                   </node>
                 </node>
@@ -193,7 +193,7 @@
               <node concept="2Sf5sV" id="3oPrgty3k9s" role="2Oq$k0" />
               <node concept="3CFZ6_" id="3oPrgty3k9t" role="2OqNvi">
                 <node concept="3CFYIy" id="3oPrgty3kEE" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:3oPrgty2jo_" resolve="GeneratedDelegatedValueLifterFromModel" />
+                  <ref role="3CFYIx" to="2cz0:3oPrgty2jo_" resolve="M2MGeneratedDelegateToValueProvider" />
                 </node>
               </node>
             </node>
@@ -207,7 +207,7 @@
                     <node concept="2Sf5sV" id="3oPrgty3k9_" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="3oPrgty3k9A" role="2OqNvi">
                       <node concept="3CFYIy" id="3oPrgty3kIP" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:3oPrgty2jo_" resolve="GeneratedDelegatedValueLifterFromModel" />
+                        <ref role="3CFYIx" to="2cz0:3oPrgty2jo_" resolve="M2MGeneratedDelegateToValueProvider" />
                       </node>
                     </node>
                   </node>
@@ -234,7 +234,7 @@
   </node>
   <node concept="2S6QgY" id="5O4u2zWJa6J">
     <property role="TrG5h" value="ToggleLiftFrameFromGen" />
-    <ref role="2ZfgGC" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    <ref role="2ZfgGC" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     <node concept="2Sbjvc" id="5O4u2zWJa6K" role="2ZfgGD">
       <node concept="3clFbS" id="5O4u2zWJa6L" role="2VODD2">
         <node concept="3clFbJ" id="5O4u2zWJa6M" role="3cqZAp">
@@ -245,7 +245,7 @@
                   <node concept="2Sf5sV" id="5O4u2zWJa6R" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="5O4u2zWJa6S" role="2OqNvi">
                     <node concept="3CFYIy" id="5O4u2zWJaiM" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="LiftFrame2FrameFromModel" />
+                      <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="M2MFrame2Frame" />
                     </node>
                   </node>
                 </node>
@@ -258,7 +258,7 @@
               <node concept="2Sf5sV" id="5O4u2zWJa6X" role="2Oq$k0" />
               <node concept="3CFZ6_" id="5O4u2zWJa6Y" role="2OqNvi">
                 <node concept="3CFYIy" id="7WYWQThOnL6" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="LiftFrame2FrameFromModel" />
+                  <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="M2MFrame2Frame" />
                 </node>
               </node>
             </node>
@@ -272,7 +272,7 @@
                     <node concept="2Sf5sV" id="5O4u2zWJa76" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="5O4u2zWJa77" role="2OqNvi">
                       <node concept="3CFYIy" id="5O4u2zWJauD" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="LiftFrame2FrameFromModel" />
+                        <ref role="3CFYIx" to="2cz0:6Poal3c$GsN" resolve="M2MFrame2Frame" />
                       </node>
                     </node>
                   </node>
@@ -301,7 +301,7 @@
               <node concept="2Sf5sV" id="MPvpOXBwo6" role="2Oq$k0" />
               <node concept="1mIQ4w" id="MPvpOXBwKJ" role="2OqNvi">
                 <node concept="chp4Y" id="MPvpOXBwRg" role="cj9EA">
-                  <ref role="cht4Q" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+                  <ref role="cht4Q" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
                 </node>
               </node>
             </node>
@@ -318,7 +318,7 @@
   </node>
   <node concept="2S6QgY" id="4Dfag9jPXpU">
     <property role="TrG5h" value="ToggleDelegateBreakpoint" />
-    <ref role="2ZfgGC" to="k6mm:2Up4L46iz2A" resolve="ISupportsBreakpoints" />
+    <ref role="2ZfgGC" to="k6mm:2Up4L46iz2A" resolve="Breakable" />
     <node concept="2Sbjvc" id="4Dfag9jPXpV" role="2ZfgGD">
       <node concept="3clFbS" id="4Dfag9jPXpW" role="2VODD2">
         <node concept="3clFbJ" id="4Dfag9jPXpX" role="3cqZAp">
@@ -329,7 +329,7 @@
                   <node concept="2Sf5sV" id="4Dfag9jPXq2" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="4Dfag9jPXq3" role="2OqNvi">
                     <node concept="3CFYIy" id="4Dfag9jPXXO" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:4Dfag9jPJBy" resolve="DelegateBreakpoint" />
+                      <ref role="3CFYIx" to="2cz0:4Dfag9jPJBy" resolve="M2MDelegateBreakpoint" />
                     </node>
                   </node>
                 </node>
@@ -342,7 +342,7 @@
               <node concept="2Sf5sV" id="4Dfag9jPXq8" role="2Oq$k0" />
               <node concept="3CFZ6_" id="4Dfag9jPXq9" role="2OqNvi">
                 <node concept="3CFYIy" id="4Dfag9jQ1JP" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:4Dfag9jPJBy" resolve="DelegateBreakpoint" />
+                  <ref role="3CFYIx" to="2cz0:4Dfag9jPJBy" resolve="M2MDelegateBreakpoint" />
                 </node>
               </node>
             </node>
@@ -356,7 +356,7 @@
                     <node concept="2Sf5sV" id="4Dfag9jPXqh" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="4Dfag9jPXqi" role="2OqNvi">
                       <node concept="3CFYIy" id="4Dfag9jPY0Q" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:4Dfag9jPJBy" resolve="DelegateBreakpoint" />
+                        <ref role="3CFYIx" to="2cz0:4Dfag9jPJBy" resolve="M2MDelegateBreakpoint" />
                       </node>
                     </node>
                   </node>
@@ -380,7 +380,7 @@
   </node>
   <node concept="2S6QgY" id="8ik0RGTpan">
     <property role="TrG5h" value="ToggleNotLiftedFrameFromGen" />
-    <ref role="2ZfgGC" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    <ref role="2ZfgGC" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     <node concept="2Sbjvc" id="8ik0RGTpao" role="2ZfgGD">
       <node concept="3clFbS" id="8ik0RGTpap" role="2VODD2">
         <node concept="3clFbJ" id="8ik0RGTpaq" role="3cqZAp">
@@ -391,7 +391,7 @@
                   <node concept="2Sf5sV" id="8ik0RGTpav" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="8ik0RGTpaw" role="2OqNvi">
                     <node concept="3CFYIy" id="8ik0RGTpUU" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:8ik0RGSLB7" resolve="DoNotLiftStackFrameFromModel" />
+                      <ref role="3CFYIx" to="2cz0:8ik0RGSLB7" resolve="M2MDoNotLiftStackFrameFromModel" />
                     </node>
                   </node>
                 </node>
@@ -404,7 +404,7 @@
               <node concept="2Sf5sV" id="8ik0RGTpa_" role="2Oq$k0" />
               <node concept="3CFZ6_" id="8ik0RGTpaA" role="2OqNvi">
                 <node concept="3CFYIy" id="8ik0RGTpS$" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:8ik0RGSLB7" resolve="DoNotLiftStackFrameFromModel" />
+                  <ref role="3CFYIx" to="2cz0:8ik0RGSLB7" resolve="M2MDoNotLiftStackFrameFromModel" />
                 </node>
               </node>
             </node>
@@ -418,7 +418,7 @@
                     <node concept="2Sf5sV" id="8ik0RGTpaI" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="8ik0RGTpaJ" role="2OqNvi">
                       <node concept="3CFYIy" id="8ik0RGTpX6" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:8ik0RGSLB7" resolve="DoNotLiftStackFrameFromModel" />
+                        <ref role="3CFYIx" to="2cz0:8ik0RGSLB7" resolve="M2MDoNotLiftStackFrameFromModel" />
                       </node>
                     </node>
                   </node>
@@ -447,7 +447,7 @@
               <node concept="2Sf5sV" id="8ik0RGTpaV" role="2Oq$k0" />
               <node concept="1mIQ4w" id="8ik0RGTpaW" role="2OqNvi">
                 <node concept="chp4Y" id="8ik0RGTpaX" role="cj9EA">
-                  <ref role="cht4Q" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+                  <ref role="cht4Q" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
                 </node>
               </node>
             </node>
@@ -463,7 +463,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="5r59uMnw9DQ">
-    <property role="TrG5h" value="ToggleVirtualFrameAnnotation" />
+    <property role="TrG5h" value="ToggleOutlineFrameAnnotation" />
     <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="2Sbjvc" id="5r59uMnw9DR" role="2ZfgGD">
       <node concept="3clFbS" id="5r59uMnw9DS" role="2VODD2">
@@ -475,7 +475,7 @@
                   <node concept="2Sf5sV" id="5r59uMnw9DY" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="5r59uMnw9DZ" role="2OqNvi">
                     <node concept="3CFYIy" id="5r59uMnw9WA" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
+                      <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="M2MOutlineFrame" />
                     </node>
                   </node>
                 </node>
@@ -488,7 +488,7 @@
               <node concept="2Sf5sV" id="5r59uMnw9E4" role="2Oq$k0" />
               <node concept="3CFZ6_" id="5r59uMnw9E5" role="2OqNvi">
                 <node concept="3CFYIy" id="5r59uMnw9UL" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
+                  <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="M2MOutlineFrame" />
                 </node>
               </node>
             </node>
@@ -502,7 +502,7 @@
                     <node concept="2Sf5sV" id="5r59uMnw9Ed" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="5r59uMnw9Ee" role="2OqNvi">
                       <node concept="3CFYIy" id="5r59uMnw9YR" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="VirtualFrameFromModel" />
+                        <ref role="3CFYIx" to="2cz0:5r59uMnw8aF" resolve="M2MOutlineFrame" />
                       </node>
                     </node>
                   </node>
@@ -518,7 +518,7 @@
       <node concept="3clFbS" id="5r59uMnw9Ei" role="2VODD2">
         <node concept="3clFbF" id="5r59uMnw9Ej" role="3cqZAp">
           <node concept="Xl_RD" id="5r59uMnw9Ek" role="3clFbG">
-            <property role="Xl_RC" value="Toggle virtual Stack Frame" />
+            <property role="Xl_RC" value="Toggle outline Stack Frame" />
           </node>
         </node>
       </node>
@@ -538,7 +538,7 @@
   </node>
   <node concept="2S6QgY" id="Vn$QVHoFV1">
     <property role="TrG5h" value="ToggleInlineFrameAnnotation" />
-    <ref role="2ZfgGC" to="k6mm:4dLPB5yd2k3" resolve="CanContributeStackFrame" />
+    <ref role="2ZfgGC" to="k6mm:4dLPB5yd2k3" resolve="Callable" />
     <node concept="2Sbjvc" id="Vn$QVHoFV2" role="2ZfgGD">
       <node concept="3clFbS" id="Vn$QVHoFV3" role="2VODD2">
         <node concept="3clFbJ" id="Vn$QVHoFV4" role="3cqZAp">
@@ -549,7 +549,7 @@
                   <node concept="2Sf5sV" id="Vn$QVHoFV9" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="Vn$QVHoFVa" role="2OqNvi">
                     <node concept="3CFYIy" id="Vn$QVHoGeU" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:Vn$QVHoFbK" resolve="InlineFrameAnnotation" />
+                      <ref role="3CFYIx" to="2cz0:Vn$QVHoFbK" resolve="M2MInlineFrame" />
                     </node>
                   </node>
                 </node>
@@ -562,7 +562,7 @@
               <node concept="2Sf5sV" id="Vn$QVHoFVf" role="2Oq$k0" />
               <node concept="3CFZ6_" id="Vn$QVHoFVg" role="2OqNvi">
                 <node concept="3CFYIy" id="Vn$QVHoGd7" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:Vn$QVHoFbK" resolve="InlineFrameAnnotation" />
+                  <ref role="3CFYIx" to="2cz0:Vn$QVHoFbK" resolve="M2MInlineFrame" />
                 </node>
               </node>
             </node>
@@ -576,7 +576,7 @@
                     <node concept="2Sf5sV" id="Vn$QVHoFVo" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="Vn$QVHoFVp" role="2OqNvi">
                       <node concept="3CFYIy" id="Vn$QVHp5b7" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:Vn$QVHoFbK" resolve="InlineFrameAnnotation" />
+                        <ref role="3CFYIx" to="2cz0:Vn$QVHoFbK" resolve="M2MInlineFrame" />
                       </node>
                     </node>
                   </node>
@@ -632,7 +632,7 @@
                   <node concept="2Sf5sV" id="6akUDvcTcZ0" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="6akUDvcTcZ1" role="2OqNvi">
                     <node concept="3CFYIy" id="6akUDvcTcZ2" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+                      <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
                     </node>
                   </node>
                 </node>
@@ -645,7 +645,7 @@
               <node concept="2Sf5sV" id="6akUDvcTcfa" role="2Oq$k0" />
               <node concept="3CFZ6_" id="6akUDvcTcm0" role="2OqNvi">
                 <node concept="3CFYIy" id="6akUDvcTcmX" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+                  <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
                 </node>
               </node>
             </node>
@@ -659,7 +659,7 @@
                     <node concept="2Sf5sV" id="6akUDvcTdzg" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="6akUDvcTdzh" role="2OqNvi">
                       <node concept="3CFYIy" id="6akUDvcTdzi" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="LiftWatchFromModel" />
+                        <ref role="3CFYIx" to="2cz0:1aQJbq2AGCf" resolve="M2MWatch2Watch" />
                       </node>
                     </node>
                   </node>
@@ -706,7 +706,7 @@
                   <node concept="2Sf5sV" id="1CCsFHtg$km" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="1CCsFHtg$kn" role="2OqNvi">
                     <node concept="3CFYIy" id="1CCsFHtg$ko" role="3CFYIz">
-                      <ref role="3CFYIx" to="2cz0:1CCsFHtcva8" resolve="LiftChildren2Watches" />
+                      <ref role="3CFYIx" to="2cz0:1CCsFHtcva8" resolve="M2MChildWatches2Watches" />
                     </node>
                   </node>
                 </node>
@@ -719,7 +719,7 @@
               <node concept="2Sf5sV" id="1CCsFHtgzkz" role="2Oq$k0" />
               <node concept="3CFZ6_" id="1CCsFHtgzJP" role="2OqNvi">
                 <node concept="3CFYIy" id="1CCsFHtgzLv" role="3CFYIz">
-                  <ref role="3CFYIx" to="2cz0:1CCsFHtcva8" resolve="LiftChildren2Watches" />
+                  <ref role="3CFYIx" to="2cz0:1CCsFHtcva8" resolve="M2MChildWatches2Watches" />
                 </node>
               </node>
             </node>
@@ -733,7 +733,7 @@
                     <node concept="2Sf5sV" id="1CCsFHtg$P8" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="1CCsFHtg$P9" role="2OqNvi">
                       <node concept="3CFYIy" id="1CCsFHtg$Pa" role="3CFYIz">
-                        <ref role="3CFYIx" to="2cz0:1CCsFHtcva8" resolve="LiftChildren2Watches" />
+                        <ref role="3CFYIx" to="2cz0:1CCsFHtcva8" resolve="M2MChildWatches2Watches" />
                       </node>
                     </node>
                   </node>

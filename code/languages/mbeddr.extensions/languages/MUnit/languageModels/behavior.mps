@@ -31,7 +31,6 @@
     <import index="srng" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
     <import index="yh8" ref="r:cf8dc0a4-7e7f-4be5-9853-f747cd33208a(mulder.base.behavior)" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -79,9 +78,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -97,18 +93,6 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
-    <language id="11a0cd79-9f2e-4665-a280-57a3cc526924" name="mulder.base">
-      <concept id="7872820068763449586" name="mulder.base.structure.DebuggingSemanticsSpec" flags="ng" index="2mtXzh">
-        <reference id="3304628195161099586" name="applicableConcept" index="2qziyn" />
-      </concept>
-      <concept id="3304628195161109397" name="mulder.base.structure.BooleanFunction" flags="ig" index="2qzhp0" />
-      <concept id="3304628195161099688" name="mulder.base.structure.NameFunction" flags="ig" index="2qzixX" />
-      <concept id="3304628195161099290" name="mulder.base.structure.CallableSpec" flags="ng" index="2qziBf">
-        <child id="3304628195161105688" name="nameFunction" index="2qzg3d" />
-        <child id="3304628195161111704" name="contributesFrameFunction" index="2qzh_d" />
-      </concept>
-      <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
-    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1219352745532" name="jetbrains.mps.lang.smodel.structure.NodeRefExpression" flags="nn" index="3B5_sB">
@@ -116,9 +100,6 @@
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
-      </concept>
-      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
-        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -175,7 +156,7 @@
             </node>
             <node concept="TSZUe" id="20ezT9ZDJyo" role="2OqNvi">
               <node concept="3B5_sB" id="20ezT9ZDJyl" role="25WWJ7">
-                <ref role="3B5MYn" to="e1nu:14emBKkWJoJ" resolve="MUnitConfigItem" />
+                <ref role="3B5MYn" to="e1nu:14emBKkWJoJ" resolve="MUnitCfg" />
               </node>
             </node>
           </node>
@@ -197,31 +178,6 @@
     <ref role="13h7C2" to="e1nu:14emBKkRUqa" resolve="AssertStatement" />
     <node concept="13hLZK" id="6e5L1sgVylz" role="13h7CW">
       <node concept="3clFbS" id="6e5L1sgVyl$" role="2VODD2" />
-    </node>
-  </node>
-  <node concept="2qziBf" id="jojP_GU8hC">
-    <property role="TrG5h" value="Testcase_CallableSpec" />
-    <ref role="2qziyn" to="e1nu:14emBKkQvwe" resolve="Testcase" />
-    <node concept="2qzixX" id="jojP_GU8hD" role="2qzg3d">
-      <node concept="3clFbS" id="jojP_GU8hE" role="2VODD2">
-        <node concept="3clFbF" id="jojP_GU8Hb" role="3cqZAp">
-          <node concept="2OqwBi" id="jojP_GU8Qr" role="3clFbG">
-            <node concept="2Duq_I" id="jojP_GU8Ha" role="2Oq$k0" />
-            <node concept="3TrcHB" id="jojP_GU9qZ" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2qzhp0" id="jojP_GU8hF" role="2qzh_d">
-      <node concept="3clFbS" id="jojP_GU8hG" role="2VODD2">
-        <node concept="3clFbF" id="jojP_GU8C2" role="3cqZAp">
-          <node concept="3clFbT" id="jojP_GU8C1" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="13h7C7" id="4VYXLgr5kOC">

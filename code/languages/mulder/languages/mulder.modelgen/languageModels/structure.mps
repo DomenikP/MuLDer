@@ -16,8 +16,8 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="2cz0" ref="r:0f113ca1-2114-4026-bc9c-67c6eacebb6d(mulder.model.structure)" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="e840b8ae-64d9-4b5b-b3b4-eca3f222d4da" name="com.mbeddr.mpsutil.iconchar">
@@ -192,7 +192,7 @@
     <property role="3GE5qa" value="stackframes.virtual" />
     <property role="TrG5h" value="VirtualFrameSpec" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="VirtualStackFrame" />
+    <property role="34LRSv" value="OutlineStackFrame" />
     <property role="MwhBj" value="${module}/icons/VirtualFrameSpecCharIcon.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="8ik0RHTP2M" role="1TKVEi">
@@ -223,7 +223,7 @@
       <ref role="PrY4T" to="k6mm:4JWsYZwzaZe" resolve="NodeParameterTypeProvider" />
     </node>
     <node concept="PrWs8" id="2RsptmMnZyj" role="PzmwI">
-      <ref role="PrY4T" to="2cz0:2RsptmMnZ0C" resolve="IVirtualFrameSpec" />
+      <ref role="PrY4T" to="2cz0:2RsptmMnZ0C" resolve="IOutlineFrameSpec" />
     </node>
     <node concept="cTxPe" id="77nQVyu8bYP" role="lGtFl">
       <property role="P4ACc" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1071489090640/1160488491229" />

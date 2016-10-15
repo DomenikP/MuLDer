@@ -12,6 +12,7 @@
   <imports>
     <import index="e1nu" ref="r:f5f1bc6c-b40f-4bd3-9e1f-a729425b397c(MUnit.structure)" />
     <import index="bdw5" ref="r:8ebaa0ff-6cbf-4171-b7a4-1fbe61c5f825(MUnit.behavior)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="k6mm" ref="r:0115dd04-77e7-4bb3-82d3-a1ee26c68cd7(mulder.base.structure)" implicit="true" />
   </imports>
   <registry>
@@ -70,16 +71,18 @@
         <reference id="3304628195161099586" name="applicableConcept" index="2qziyn" />
       </concept>
       <concept id="3304628195161109397" name="mulder.base.structure.BooleanFunction" flags="ig" index="2qzhp0" />
-      <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
-      <concept id="3296584876128698397" name="mulder.base.structure.SteppableSpec" flags="ng" index="2Wb59B">
-        <child id="3296584876128709544" name="hasSteppableSemantics" index="2Wb7Bi" />
+      <concept id="3304628195161099688" name="mulder.base.structure.NameFunction" flags="ig" index="2qzixX" />
+      <concept id="3304628195161099290" name="mulder.base.structure.CallableSpec" flags="ng" index="2qziBf">
+        <child id="3304628195161105688" name="nameFunction" index="2qzg3d" />
+        <child id="3304628195161111704" name="contributesFrameFunction" index="2qzh_d" />
       </concept>
-      <concept id="3296584876134733840" name="mulder.base.structure.IsTargetForStepIntoableFunction" flags="ig" index="2Wk4DE" />
-      <concept id="3296584876134730313" name="mulder.base.structure.StepIntoableNode" flags="ng" index="2Wk5wN" />
+      <concept id="7901750452160627013" name="mulder.base.structure.CurrentNodeParameter" flags="ng" index="2Duq_I" />
+      <concept id="3296584876134733840" name="mulder.base.structure.IsTargetForCallableCallFunction" flags="ig" index="2Wk4DE" />
+      <concept id="3296584876134730313" name="mulder.base.structure.CallableCallNode" flags="ng" index="2Wk5wN" />
       <concept id="3296584876134470900" name="mulder.base.structure.ControlFlowProviderSpec" flags="ng" index="2Wl4qe">
         <child id="3296584876134471111" name="isTargetForStepIntoable" index="2Wl4uX" />
       </concept>
-      <concept id="3296584876145452849" name="mulder.base.structure.StepIntoableSpec" flags="ng" index="2Zbflb">
+      <concept id="3296584876145452849" name="mulder.base.structure.CallableCallSpec" flags="ng" index="2Zbflb">
         <child id="3296584876145461971" name="possibleTargets" index="2Zb9yD" />
       </concept>
       <concept id="3296584876145454860" name="mulder.base.structure.PossibleTargetsFunction" flags="ig" index="2ZbfPQ" />
@@ -101,6 +104,9 @@
         <reference id="1140138128738" name="concept" index="1PxNhF" />
         <child id="1140138123956" name="leftExpression" index="1PxMeX" />
       </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -117,40 +123,59 @@
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
     </language>
   </registry>
-  <node concept="2Wl4qe" id="2QZOBEhWRmO">
+  <node concept="2qziBf" id="3MqvFJH8foY">
+    <property role="TrG5h" value="Testcase_CallableSpec" />
+    <ref role="2qziyn" to="e1nu:14emBKkQvwe" resolve="Testcase" />
+    <node concept="2qzixX" id="3MqvFJH8foZ" role="2qzg3d">
+      <node concept="3clFbS" id="3MqvFJH8fp0" role="2VODD2">
+        <node concept="3clFbF" id="3MqvFJH8gpE" role="3cqZAp">
+          <node concept="2OqwBi" id="3MqvFJH8gUZ" role="3clFbG">
+            <node concept="2Duq_I" id="3MqvFJH8gpD" role="2Oq$k0" />
+            <node concept="3TrcHB" id="3MqvFJH8i7C" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2qzhp0" id="3MqvFJH8fp1" role="2qzh_d">
+      <node concept="3clFbS" id="3MqvFJH8fp2" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="2Wl4qe" id="3MqvFJH8i7P">
     <property role="TrG5h" value="Testcase_ControlFlowProviderSpec" />
     <ref role="2qziyn" to="e1nu:14emBKkQvwe" resolve="Testcase" />
-    <node concept="2Wk4DE" id="2QZOBEhWRmP" role="2Wl4uX">
-      <node concept="3clFbS" id="2QZOBEhWRmQ" role="2VODD2">
-        <node concept="3clFbJ" id="43aupC3X4XO" role="3cqZAp">
-          <node concept="3clFbS" id="43aupC3X4XQ" role="3clFbx">
-            <node concept="3cpWs6" id="43aupC3X5cM" role="3cqZAp">
-              <node concept="3clFbC" id="43aupC3X52y" role="3cqZAk">
-                <node concept="2Duq_I" id="43aupC3X52z" role="3uHU7w" />
-                <node concept="2OqwBi" id="43aupC3X52$" role="3uHU7B">
-                  <node concept="1PxgMI" id="43aupC3X52_" role="2Oq$k0">
+    <node concept="2Wk4DE" id="3MqvFJH8i7Q" role="2Wl4uX">
+      <node concept="3clFbS" id="3MqvFJH8i7R" role="2VODD2">
+        <node concept="3clFbJ" id="3MqvFJH8iaU" role="3cqZAp">
+          <node concept="3clFbS" id="3MqvFJH8iaV" role="3clFbx">
+            <node concept="3cpWs6" id="3MqvFJH8iH5" role="3cqZAp">
+              <node concept="3clFbC" id="3MqvFJH8jFC" role="3cqZAk">
+                <node concept="2Duq_I" id="3MqvFJH8jG2" role="3uHU7w" />
+                <node concept="2OqwBi" id="3MqvFJH8iS2" role="3uHU7B">
+                  <node concept="1PxgMI" id="3MqvFJH8iMf" role="2Oq$k0">
                     <ref role="1PxNhF" to="e1nu:14emBKkRwHn" resolve="TestcaseRef" />
-                    <node concept="2Wk5wN" id="43aupC3X52A" role="1PxMeX" />
+                    <node concept="2Wk5wN" id="3MqvFJH8iHl" role="1PxMeX" />
                   </node>
-                  <node concept="3TrEf2" id="43aupC3X52B" role="2OqNvi">
+                  <node concept="3TrEf2" id="3MqvFJH8jdK" role="2OqNvi">
                     <ref role="3Tt5mk" to="e1nu:14emBKkRwH_" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="43aupC3X4Yo" role="3clFbw">
-            <node concept="2Wk5wN" id="43aupC3X4Yp" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="43aupC3X4Yq" role="2OqNvi">
-              <node concept="chp4Y" id="43aupC3X4Yr" role="cj9EA">
+          <node concept="2OqwBi" id="3MqvFJH8ifn" role="3clFbw">
+            <node concept="2Wk5wN" id="3MqvFJH8ib6" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="3MqvFJH8iDT" role="2OqNvi">
+              <node concept="chp4Y" id="3MqvFJH8iE3" role="cj9EA">
                 <ref role="cht4Q" to="e1nu:14emBKkRwHn" resolve="TestcaseRef" />
               </node>
             </node>
           </node>
-          <node concept="9aQIb" id="43aupC3X4YP" role="9aQIa">
-            <node concept="3clFbS" id="43aupC3X4YQ" role="9aQI4">
-              <node concept="3cpWs6" id="43aupC3X51R" role="3cqZAp">
-                <node concept="3clFbT" id="43aupC3X523" role="3cqZAk">
+          <node concept="9aQIb" id="3MqvFJH8jGf" role="9aQIa">
+            <node concept="3clFbS" id="3MqvFJH8jGg" role="9aQI4">
+              <node concept="3cpWs6" id="3MqvFJH8jJj" role="3cqZAp">
+                <node concept="3clFbT" id="3MqvFJH8jJx" role="3cqZAk">
                   <property role="3clFbU" value="false" />
                 </node>
               </node>
@@ -160,57 +185,44 @@
       </node>
     </node>
   </node>
-  <node concept="2Zbflb" id="2QZOBEi_Oqq">
-    <property role="TrG5h" value="TestcaseRef_StepIntoableSpec" />
+  <node concept="2Zbflb" id="5eEjqRL74wY">
+    <property role="TrG5h" value="TestcaseRef_CallableCallSpec" />
     <ref role="2qziyn" to="e1nu:14emBKkRwHn" resolve="TestcaseRef" />
-    <node concept="2ZbfPQ" id="2QZOBEi_Oqr" role="2Zb9yD">
-      <node concept="3clFbS" id="2QZOBEi_Oqs" role="2VODD2">
-        <node concept="3cpWs8" id="6WUNGe_T4MV" role="3cqZAp">
-          <node concept="3cpWsn" id="6WUNGe_T4MY" role="3cpWs9">
+    <node concept="2ZbfPQ" id="5eEjqRL74wZ" role="2Zb9yD">
+      <node concept="3clFbS" id="5eEjqRL74x0" role="2VODD2">
+        <node concept="3cpWs8" id="5eEjqRL74Io" role="3cqZAp">
+          <node concept="3cpWsn" id="5eEjqRL74Ir" role="3cpWs9">
             <property role="TrG5h" value="res" />
-            <node concept="2I9FWS" id="6WUNGe_T4MU" role="1tU5fm">
+            <node concept="2I9FWS" id="5eEjqRL74In" role="1tU5fm">
               <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
             </node>
-            <node concept="2ShNRf" id="6WUNGe_T4Ns" role="33vP2m">
-              <node concept="2T8Vx0" id="6WUNGe_T59d" role="2ShVmc">
-                <node concept="2I9FWS" id="6WUNGe_T59f" role="2T96Bj">
+            <node concept="2ShNRf" id="5eEjqRL74IM" role="33vP2m">
+              <node concept="2T8Vx0" id="5eEjqRL76Nh" role="2ShVmc">
+                <node concept="2I9FWS" id="5eEjqRL76Nj" role="2T96Bj">
                   <ref role="2I9WkF" to="k6mm:4VYXLgrcIvN" resolve="ControlFlowProvider" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6WUNGe_T5f_" role="3cqZAp">
-          <node concept="2OqwBi" id="6WUNGe_T5Bx" role="3clFbG">
-            <node concept="37vLTw" id="6WUNGe_T5fz" role="2Oq$k0">
-              <ref role="3cqZAo" node="6WUNGe_T4MY" resolve="res" />
+        <node concept="3clFbF" id="5eEjqRL76Q_" role="3cqZAp">
+          <node concept="2OqwBi" id="5eEjqRL77sb" role="3clFbG">
+            <node concept="37vLTw" id="5eEjqRL76Qz" role="2Oq$k0">
+              <ref role="3cqZAo" node="5eEjqRL74Ir" resolve="res" />
             </node>
-            <node concept="TSZUe" id="6WUNGe_T8pr" role="2OqNvi">
-              <node concept="2OqwBi" id="4nwiEYdSKdu" role="25WWJ7">
-                <node concept="2Duq_I" id="2QZOBEi_PeJ" role="2Oq$k0" />
-                <node concept="3TrEf2" id="4nwiEYdSKmX" role="2OqNvi">
+            <node concept="TSZUe" id="5eEjqRL7cQs" role="2OqNvi">
+              <node concept="2OqwBi" id="5eEjqRL7d6O" role="25WWJ7">
+                <node concept="2Duq_I" id="5eEjqRL7cQA" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5eEjqRL7dzN" role="2OqNvi">
                   <ref role="3Tt5mk" to="e1nu:14emBKkRwH_" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="6WUNGe_T8BE" role="3cqZAp">
-          <node concept="37vLTw" id="6WUNGe_T8Gh" role="3cqZAk">
-            <ref role="3cqZAo" node="6WUNGe_T4MY" resolve="res" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2Wb59B" id="1kvAObPs14U">
-    <property role="TrG5h" value="Testcase_SteppableSpec" />
-    <ref role="2qziyn" to="e1nu:14emBKkQvwe" resolve="Testcase" />
-    <node concept="2qzhp0" id="1kvAObQnmaA" role="2Wb7Bi">
-      <node concept="3clFbS" id="1kvAObQnmaB" role="2VODD2">
-        <node concept="3clFbF" id="2qHrNOs3Mi7" role="3cqZAp">
-          <node concept="3clFbT" id="2qHrNOs3Mi6" role="3clFbG">
-            <property role="3clFbU" value="false" />
+        <node concept="3cpWs6" id="5eEjqRL7dB6" role="3cqZAp">
+          <node concept="37vLTw" id="5eEjqRL7dBy" role="3cqZAk">
+            <ref role="3cqZAo" node="5eEjqRL74Ir" resolve="res" />
           </node>
         </node>
       </node>

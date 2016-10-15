@@ -3,6 +3,14 @@
   <component name="ProjectLibraryManager">
     <option name="libraries">
       <map>
+        <entry key="core.debug">
+          <value>
+            <Library>
+              <option name="name" value="core.debug" />
+              <option name="path" value="${mbeddr.home}/code/languages/com.mbeddr.debugger" />
+            </Library>
+          </value>
+        </entry>
         <entry key="mbeddr.core">
           <value>
             <Library>
@@ -48,6 +56,14 @@
             <Library>
               <option name="name" value="mulder" />
               <option name="path" value="$PROJECT_DIR$/../mulder" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="testing">
+          <value>
+            <Library>
+              <option name="name" value="testing" />
+              <option name="path" value="$PROJECT_DIR$/../mbeddr.debugger" />
             </Library>
           </value>
         </entry>
