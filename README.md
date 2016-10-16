@@ -12,7 +12,7 @@ D. Pavletic and K. Haßlbauer. [Interactive Debugging for Extensible Languages i
 
 The following two videos below demonstrate for two mbeddr language extensions how we use the MuLDer framework to build multi-level debugging support for both language extensions.
 
-[![DebuggerVideos](http://img.youtube.com/vi/xkn-NAS3T5I/sddefault.jpg)](https://youtu.be/xkn-NAS3T5I)
+[![DebuggerVideos](http://img.youtube.com/vi/5eIQge8r88Y/sddefault.jpg)](https://youtu.be/5eIQge8r88Y)
 [![DebuggerVideos](http://img.youtube.com/vi/gboxOzF7A0A/sddefault.jpg)](https://youtu.be/gboxOzF7A0A)
 
 The next video illustrates how we use the debugging support built in both previous videos to debug on different abstraction levels code that has been written with both language extensions. You can find the MPS project containing the code on the [release page](https://github.com/DomenikP/MuLDer/releases) inside the language-example.zip file.
