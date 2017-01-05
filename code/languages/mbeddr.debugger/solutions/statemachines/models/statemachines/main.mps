@@ -201,7 +201,7 @@
       <concept id="1229019237290997774" name="MUnit.structure.Testcase" flags="ng" index="5PU9M">
         <child id="1229019237291246379" name="body" index="5OT_n" />
       </concept>
-      <concept id="1229019237292635695" name="MUnit.structure.MUnitCfg" flags="ng" index="5ZaLj">
+      <concept id="1229019237292635695" name="MUnit.structure.MUnitConfigItem" flags="ng" index="5ZaLj">
         <child id="1229019237292635789" name="strategy" index="5ZaNL" />
       </concept>
     </language>

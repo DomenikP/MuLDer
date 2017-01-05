@@ -28,8 +28,8 @@
     <usedLanguage>3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)</usedLanguage>
     <usedLanguage>2693fc71-9b0e-4b05-ab13-f57227d675f2(com.mbeddr.core.util)</usedLanguage>
     <usedLanguage>6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</usedLanguage>
-    <usedLanguage>89c70b13-7f9c-47c3-b3c2-c218b52ed82c(mulder.testing)</usedLanguage>
     <usedLanguage>4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff(MStatemachine)</usedLanguage>
+    <usedLanguage>89c70b13-7f9c-47c3-b3c2-c218b52ed82c(mulder.testing)</usedLanguage>
   </usedLanguages>
   <languageVersions>
     <language id="4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff" fqName="MStatemachine" version="0" />

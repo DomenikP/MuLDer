@@ -44,8 +44,8 @@
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
     <usedLanguage>fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)</usedLanguage>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
-    <usedLanguage>89c70b13-7f9c-47c3-b3c2-c218b52ed82c(mulder.testing)</usedLanguage>
     <usedLanguage>4f5e87f3-7df8-47af-a4f1-d20a8b3b7eff(MStatemachine)</usedLanguage>
+    <usedLanguage>89c70b13-7f9c-47c3-b3c2-c218b52ed82c(mulder.testing)</usedLanguage>
   </usedLanguages>
   <languageVersions>
     <language id="5529be6b-f382-41f9-834c-9d6b2e079511" fqName="MAtomicComponent" version="-1" />
